@@ -7556,3 +7556,48 @@ federate%20streamid%3Ajournals%2Ftc%3A: []
 federate%20streamid%3Aconf%2Ficse%3A: []
 federate%20streamid%3Ajournals%2Ffocs%3A: []
 federate%20streamid%3Aconf%2Fstoc%3A: []
+federate%20venue%3ANAACL-HLT%3A:
+- author: Bill Yuchen Lin, Chaoyang He 0001, Zihang Ze, Hulin Wang, Yufen Hua, Christophe
+    Dupuy, Rahul Gupta 0001, Mahdi Soltanolkotabi, Xiang Ren 0001, Salman Avestimehr
+  title: 'FedNLP: Benchmarking Federated Learning Methods for Natural Language Processing
+    Tasks.'
+  venue: NAACL-HLT
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/Lin0ZWHDGSRA22
+  doi: 10.18653/V1/2022.FINDINGS-NAACL.13
+  ee: https://doi.org/10.18653/v1/2022.findings-naacl.13
+  url: https://dblp.org/rec/conf/naacl/Lin0ZWHDGSRA22
+- author: Peyman Passban, Tanya G. Roosta, Rahul Gupta, Ankit Chadha, Clement Chung
+  title: Training Mixed-Domain Translation Models via Federated Learning.
+  venue: NAACL-HLT
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/PassbanRGCC22
+  doi: 10.18653/V1/2022.NAACL-MAIN.186
+  ee: https://doi.org/10.18653/v1/2022.naacl-main.186
+  url: https://dblp.org/rec/conf/naacl/PassbanRGCC22
+- author: Rahul Sharma, Anil Ramakrishna, Ansel MacLaughlin, Anna Rumshisky, Jimit
+    Majmudar, Clement Chung, Salman Avestimehr, Rahul Gupta 0001
+  title: Federated Learning with Noisy User Feedback.
+  venue: NAACL-HLT
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/SharmaRMRMCAG22
+  doi: 10.18653/V1/2022.NAACL-MAIN.196
+  ee: https://doi.org/10.18653/v1/2022.naacl-main.196
+  url: https://dblp.org/rec/conf/naacl/SharmaRMRMCAG22
+- author: Orion Weller, Marc Marone, Vladimir Braverman, Dawn J. Lawrie, Benjamin
+    Van Durme
+  title: Pretrained Models for Multilingual Federated Learning.
+  venue: NAACL-HLT
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/WellerMBLD22
+  doi: 10.18653/V1/2022.NAACL-MAIN.101
+  ee: https://doi.org/10.18653/v1/2022.naacl-main.101
+  url: https://dblp.org/rec/conf/naacl/WellerMBLD22

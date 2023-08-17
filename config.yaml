@@ -26,7 +26,7 @@ dblp:
     - "federate%20streamid%3Aconf%2Fmm%3A"
     - "federate%20streamid%3Ajournals%2Fijcv%3A"
     - "federate%20venue%3AACL%3A"
-    - "federate%20venue%3ANAACL-HLT%3A)"
+    - "federate%20venue%3ANAACL-HLT%3A"
     - "federate%20venue%3AEMNLP%3A"
     - "federate%20venue%3ACOLING%3A"
     - "federate%20venue%3ASIGIR%3A"

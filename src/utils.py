@@ -101,7 +101,7 @@ def get_msg(items, topic ,aggregated = False):
 
     # print information of topic
     msg = f"## [{name_topic}](https://dblp.org/search?q={topic})\\n\\n"
-    msg += f"""Explore {len(items)} new papers about {name_topic} on dblp!\\n\\n"""
+    msg += f"""Explore {len(items)} new papers about {name_topic} on dblp.\\n\\n"""
     
     if aggregated == False:
         for item in items:

@@ -77,8 +77,8 @@ class Scaffold:
 
             if flag:
                 with open(env_file, "a") as f:
-                    f.write("MSG=$'" + aggregated_msg + "'")
-                    f.write("MSG=$'" + msg + "'")
+                    f.write("MSG=$'" + aggregated_msg + msg + "'")
+                    # f.write("MSG=$'" + msg + "'")
 
 
 if __name__ == "__main__":

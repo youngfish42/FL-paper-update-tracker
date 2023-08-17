@@ -46,6 +46,14 @@ jobs:
         id: vars
         run: |
           content=${{ env.MSG }}
+          if [ -z "$content" ]; then
+            echo "No new papers found."
+            exit 0
+          fi
+          if [ ${#content} -gt 65536 ]; then
+            echo "Content too long."
+            exit 0
+          fi
           content="${content//'%'/'%25'}"
           content="${content//$'\n'/'%0A'}"
           content="${content//$'\r'/'%0D'}"

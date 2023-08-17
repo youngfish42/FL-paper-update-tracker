@@ -95,9 +95,9 @@ def get_dblp_items(dblp_data):
 
 def get_msg(items, topic):
     # change "topic" from url to string
-    string_topic = urllib.parse.urlencode(topic)
+    string_topic = urllib.parse.unquote(topic)
     # get name of topic
-    name_topic = string_topic.split(":")[-1]
+    name_topic = string_topic.split(":")[-2]
 
     # print information of topic
     msg = f"## [{name_topic}](https://dblp.org/search?q={topic})\\n\\n"

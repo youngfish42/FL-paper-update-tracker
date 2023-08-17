@@ -63,6 +63,11 @@ def get_dblp_items(dblp_data):
         try:
             authors = [author["text"] for author in authors["author"]]
         except TypeError:
+            if "author" not in authors:
+                continue
+            if "text" not in authors["author"]:
+                continue
+            
             authors = [authors["author"]["text"]]
 
         logger.info(f"authors: {authors}")

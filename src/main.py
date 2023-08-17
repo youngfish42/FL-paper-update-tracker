@@ -25,6 +25,7 @@ class Scaffold:
         dblp_new_cache = {}
 
         dblp_url = cfg["dblp"]["url"]
+        aggregated_msg = ""
         msg = ""
         flag = False
 
@@ -50,10 +51,16 @@ class Scaffold:
 
             logger.info(f"new_items: {new_items}")
 
+
+            # if there is any new items, we set flag to create a new issue
             if len(new_items) > 0:
                 flag = True
-
-            msg += get_msg(new_items, topic)
+            
+            # only when new items >0 in this topic we creat the msg
+            if len(new_items) > 0:
+                aggregated_msg+= get_msg(new_items, topic ,True)
+                msg += get_msg(new_items, topic)
+            logger.info(f"aggregated_msg: {aggregated_msg}")
             logger.info(f"msg: {msg}")
 
         # save cache
@@ -65,11 +72,12 @@ class Scaffold:
             env_file = os.getenv("GITHUB_ENV")
 
             # check if msg is too long
-            if len(msg) > 32000:
-                msg = msg[:32000] + "..."
+            if len(msg) > 4096:
+                msg = msg[:4096] + "..."
 
             if flag:
                 with open(env_file, "a") as f:
+                    f.write("MSG=$'" + aggregated_msg + "'")
                     f.write("MSG=$'" + msg + "'")
 
 

@@ -93,7 +93,7 @@ def get_dblp_items(dblp_data):
     return res_items
 
 
-def get_msg(items, topic):
+def get_msg(items, topic ,aggregated = False):
     # change "topic" from url to string
     string_topic = urllib.parse.unquote(topic)
     # get name of topic
@@ -102,12 +102,13 @@ def get_msg(items, topic):
     # print information of topic
     msg = f"## [{name_topic}](https://dblp.org/search?q={topic})\\n\\n"
     msg += f"""Explore {len(items)} new papers about {name_topic} on dblp!\\n\\n"""
-
-    for item in items:
-        msg += f"[{item['title']}]({item['url']})\\n"
-        msg += f"- Authors: {item['author']}\\n"
-        msg += f"- Venue: {item['venue']}\\n"
-        msg += f"- Year: {item['year']}\\n\\n"
+    
+    if aggregated == False:
+        for item in items:
+            msg += f"[{item['title']}]({item['url']})\\n"
+            msg += f"- Authors: {item['author']}\\n"
+            msg += f"- Venue: {item['venue']}\\n"
+            msg += f"- Year: {item['year']}\\n\\n"
 
     msg = msg.replace("'", "")
     return msg

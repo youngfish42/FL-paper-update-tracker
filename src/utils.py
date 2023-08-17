@@ -4,7 +4,7 @@ import yaml
 from loguru import logger
 from pathlib import Path
 import ezkfg as ez
-
+import urllib.parse
 
 def init_log():
     """Initialize loguru log information"""
@@ -94,8 +94,14 @@ def get_dblp_items(dblp_data):
 
 
 def get_msg(items, topic):
-    msg = f"## {topic}\\n\\n"
-    msg += f"""Explore {len(items)} new papers about {topic} on dblp!!!\\n\\n"""
+    # change "topic" from url to string
+    string_topic = urllib.parse.urlencode(topic)
+    # get name of topic
+    name_topic = string_topic.split(":")[-1]
+
+    # print information of topic
+    msg = f"## [{name_topic}](https://dblp.org/search?q={topic})\\n\\n"
+    msg += f"""Explore {len(items)} new papers about {name_topic} on dblp!!!\\n\\n"""
 
     for item in items:
         msg += f"[{item['title']}]({item['url']})\\n"

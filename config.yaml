@@ -1,0 +1,7 @@
+dblp:
+  url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
+  topics:
+    - "Federated graph|subgraph|gnn"
+    - "federate tree|boost|bagging|gbdt|tabular|forest|XGBoost"
+  mails:
+    - "bj.yan.pa@qq.com"

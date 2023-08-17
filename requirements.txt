@@ -1,0 +1,5 @@
+fire
+requests
+loguru
+ezkfg
+pyyaml

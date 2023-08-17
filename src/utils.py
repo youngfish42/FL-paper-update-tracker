@@ -101,7 +101,7 @@ def get_msg(items, topic):
 
     # print information of topic
     msg = f"## [{name_topic}](https://dblp.org/search?q={topic})\\n\\n"
-    msg += f"""Explore {len(items)} new papers about {name_topic} on dblp!!!\\n\\n"""
+    msg += f"""Explore {len(items)} new papers about {name_topic} on dblp!\\n\\n"""
 
     for item in items:
         msg += f"[{item['title']}]({item['url']})\\n"

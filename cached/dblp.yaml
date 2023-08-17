@@ -1,0 +1,55 @@
+federate%20venue%3ADAC%3A:
+- author: Rishikanth Chandrasekaran, Kazim Ergun, Jihyun Lee, Dhanush Nanjunda, Jaeyoung
+    Kang 0001, Tajana Rosing
+  title: 'FHDnn: communication efficient and robust federated learning for AIoT networks.'
+  venue: DAC
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/ChandrasekaranE22
+  doi: 10.1145/3489517.3530394
+  ee: https://doi.org/10.1145/3489517.3530394
+  url: https://dblp.org/rec/conf/dac/ChandrasekaranE22
+- author: Jing Cao, Zirui Lian, Weihong Liu, Zongwei Zhu, Cheng Ji
+  title: 'HADFL: Heterogeneity-aware Decentralized Federated Learning Framework.'
+  venue: DAC
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/CaoLLZJ21
+  doi: 10.1109/DAC18074.2021.9586101
+  ee: https://doi.org/10.1109/DAC18074.2021.9586101
+  url: https://dblp.org/rec/conf/dac/CaoLLZJ21
+- author: Zirui Xu, Fuxun Yu, Jinjun Xiong, Xiang Chen 0010
+  title: 'Helios: Heterogeneity-Aware Federated Learning with Dynamically Balanced
+    Collaboration.'
+  venue: DAC
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/XuYXC21
+  doi: 10.1109/DAC18074.2021.9586241
+  ee: https://doi.org/10.1109/DAC18074.2021.9586241
+  url: https://dblp.org/rec/conf/dac/XuYXC21
+- author: Yutong Ye, Wupan Zhao, Tongquan Wei, Shiyan Hu, Mingsong Chen
+  title: 'FedLight: Federated Reinforcement Learning for Autonomous Multi-Intersection
+    Traffic Signal Control.'
+  venue: DAC
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/YeZWHC21
+  doi: 10.1109/DAC18074.2021.9586175
+  ee: https://doi.org/10.1109/DAC18074.2021.9586175
+  url: https://dblp.org/rec/conf/dac/YeZWHC21
+- author: Ze Ni, Avenir Kobetski, Jakob Axelsson
+  title: Design and Implementation of a Dynamic Component Model for Federated AUTOSAR
+    Systems.
+  venue: DAC
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/NiKA14
+  doi: 10.1145/2593069.2593121
+  ee: https://doi.org/10.1145/2593069.2593121
+  url: https://dblp.org/rec/conf/dac/NiKA14

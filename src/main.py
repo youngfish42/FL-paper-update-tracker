@@ -64,6 +64,10 @@ class Scaffold:
 
             env_file = os.getenv("GITHUB_ENV")
 
+            # check if msg is too long
+            if len(msg) > 4096:
+                msg = msg[:4096] + "..."
+
             if flag:
                 with open(env_file, "a") as f:
                     f.write("MSG=$'" + msg + "'")

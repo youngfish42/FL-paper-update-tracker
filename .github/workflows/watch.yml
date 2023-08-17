@@ -45,16 +45,11 @@ jobs:
       - name: Setup var
         id: vars
         run: |
-          if [ ${{ env.MSG }} -gt 10000 ]; then
-            echo "Message too long, failed to set var 'content'"
-            content=''
-          else
-            content=${{ env.MSG }}
-            content="${content//'%'/'%25'}"
-            content="${content//$'\n'/'%0A'}"
-            content="${content//$'\r'/'%0D'}"
-            echo "::set-output name=content::$content"
-          fi
+          content=${{ env.MSG }}
+          content="${content//'%'/'%25'}"
+          content="${content//$'\n'/'%0A'}"
+          content="${content//$'\r'/'%0D'}"
+          echo "::set-output name=content::$content"
       # ============================================
       # TODO [√] 更新仓库数据
       # ============================================

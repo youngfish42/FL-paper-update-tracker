@@ -3720,6 +3720,220 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: http://proceedings.mlr.press/v97/yurochkin19a.html
   url: https://dblp.org/rec/conf/icml/YurochkinAGGHK19
+- author: Junyi Zhu 0002, Ruicong Yao, Matthew B. Blaschko
+  title: 'Surrogate Model Extension (SME): A Fast and Accurate Weight Update Attack
+    on Federated Learning.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/0002YB23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/zhu23m.html
+  url: https://dblp.org/rec/conf/icml/0002YB23
+- author: Tianshi Che, Yang Zhou 0001, Zijie Zhang, Lingjuan Lyu, Ji Liu, Da Yan 0001,
+    Dejing Dou, Jun Huan
+  title: Fast Federated Machine Unlearning with Nonlinear Functional Theory.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/CheZZLL0DH23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/che23b.html
+  url: https://dblp.org/rec/conf/icml/CheZZLL0DH23
+- author: Vincent Plassier, Mehdi Makni, Aleksandr Rubashevskii, Eric Moulines, Maxim
+    Panov
+  title: Conformal Prediction for Federated Uncertainty Quantification Under Label
+    Shift.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/PlassierMRMP23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/plassier23a.html
+  url: https://dblp.org/rec/conf/icml/PlassierMRMP23
+- author: Yifan Shi, Li Shen 0008, Kang Wei, Yan Sun, Bo Yuan 0003, Xueqian Wang 0001,
+    Dacheng Tao
+  title: Improving the Model Consistency of Decentralized Federated Learning.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/Shi0WS00T23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/shi23d.html
+  url: https://dblp.org/rec/conf/icml/Shi0WS00T23
+- author: Yan Sun, Li Shen, Shixiang Chen, Liang Ding 0006, Dacheng Tao
+  title: 'Dynamic Regularized Sharpness Aware Minimization in Federated Learning:
+    Approaching Global Consistency and Smooth Landscape.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/SunSC0T23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/sun23h.html
+  url: https://dblp.org/rec/conf/icml/SunSC0T23
+- author: Enayat Ullah, Christopher A. Choquette-Choo, Peter Kairouz, Sewoong Oh
+  title: Private Federated Learning with Autotuned Compression.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/UllahCKO23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/ullah23b.html
+  url: https://dblp.org/rec/conf/icml/UllahCKO23
+- author: Mark Vero, Mislav Balunovic, Dimitar Iliev Dimitrov, Martin T. Vechev
+  title: 'TabLeak: Tabular Data Leakage in Federated Learning.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/VeroBDV23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/vero23a.html
+  url: https://dblp.org/rec/conf/icml/VeroBDV23
+- author: Zhen Wang, Weirui Kuang, Ce Zhang 0001, Bolin Ding, Yaliang Li
+  title: 'FedHPO-Bench: A Benchmark Suite for Federated Hyperparameter Optimization.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/WangK0DL23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/wang23n.html
+  url: https://dblp.org/rec/conf/icml/WangK0DL23
+- author: Jiin Woo, Gauri Joshi, Yuejie Chi
+  title: 'The Blessing of Heterogeneity in Federated Q-Learning: Linear Speedup and
+    Beyond.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/WooJC23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/woo23a.html
+  url: https://dblp.org/rec/conf/icml/WooJC23
+- author: Feijie Wu, Song Guo 0001, Zhihao Qu, Shiqi He, Ziming Liu, Jing Gao
+  title: Anchor Sampling for Federated Learning with Partial Client Participation.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/Wu0QHLG23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/wu23e.html
+  url: https://dblp.org/rec/conf/icml/Wu0QHLG23
+- author: Yue Wu, Shuaicheng Zhang, Wenchao Yu, Yanchi Liu, Quanquan Gu, Dawei Zhou
+    0003, Haifeng Chen, Wei Cheng
+  title: Personalized Federated Learning under Mixture of Distributions.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/WuZYLG0CC23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/wu23z.html
+  url: https://dblp.org/rec/conf/icml/WuZYLG0CC23
+- author: Peiyao Xiao, Kaiyi Ji
+  title: Communication-Efficient Federated Hypergradient Computation via Aggregated
+    Iterative Differentiation.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/XiaoJ23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/xiao23b.html
+  url: https://dblp.org/rec/conf/icml/XiaoJ23
+- author: Rui Ye, Zhenyang Ni, Fangzhao Wu, Siheng Chen, Yanfeng Wang
+  title: Personalized Federated Learning with Inferred Collaboration Graphs.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/YeNWCW23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/ye23b.html
+  url: https://dblp.org/rec/conf/icml/YeNWCW23
+- author: Rui Ye, Mingkai Xu, Jianyu Wang, Chenxin Xu, Siheng Chen, Yanfeng Wang
+  title: 'FedDisco: Federated Learning with Discrepancy-Aware Collaboration.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/YeXWXCW23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/ye23f.html
+  url: https://dblp.org/rec/conf/icml/YeXWXCW23
+- author: Jialin Yi, Milan Vojnovic
+  title: Doubly Adversarial Federated Bandits.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/YiV23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/yi23a.html
+  url: https://dblp.org/rec/conf/icml/YiV23
+- author: Jianyi Zhang, Ang Li 0005, Minxue Tang, Jingwei Sun 0002, Xiang Chen 0010,
+    Fan Zhang, Changyou Chen, Yiran Chen 0001, Hai Li 0001
+  title: 'Fed-CBS: A Heterogeneity-Aware Client Sampling Mechanism for Federated Learning
+    via Class-Imbalance Reduction.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/Zhang0T00ZC0023
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/zhang23y.html
+  url: https://dblp.org/rec/conf/icml/Zhang0T00ZC0023
+- author: Hao Zhang, Chenglin Li, Wenrui Dai, Junni Zou, Hongkai Xiong
+  title: 'FedCR: Personalized Federated Learning Based on Across-Client Common Representation
+    with Conditional Mutual Information Regularization.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/ZhangLDZX23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/zhang23w.html
+  url: https://dblp.org/rec/conf/icml/ZhangLDZX23
+- author: Feilong Zhang, Xianming Liu, Shiyi Lin, Gang Wu, Xiong Zhou, Junjun Jiang,
+    Xiangyang Ji
+  title: 'No One Idles: Efficient Heterogeneous Federated Learning with Parallel Edge
+    and Server Computation.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/ZhangLLWZJJ23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/zhang23aa.html
+  url: https://dblp.org/rec/conf/icml/ZhangLLWZJJ23
+- author: Jie Zhang, Xiaosong Ma, Song Guo, Wenchao Xu 0001
+  title: Towards Unbiased Training in Federated Open-world Semi-supervised Learning.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/ZhangMG023
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/zhang23af.html
+  url: https://dblp.org/rec/conf/icml/ZhangMG023
+- author: Chaoyi Zhu, Stefanie Roos, Lydia Y. Chen
+  title: 'LeadFL: Client Self-Defense against Model Poisoning in Federated Learning.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icml/ZhuRC23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/zhu23j.html
+  url: https://dblp.org/rec/conf/icml/ZhuRC23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -4493,7 +4707,29 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=rkgyS0VFvr
   url: https://dblp.org/rec/conf/iclr/XieHCL20
-federate%20venue%3ACOLT%3A: []
+- author: "Chen Zhu 0001, Zheng Xu 0002, Mingqing Chen, Jakub Konecn\xFD, Andrew Hard,\
+    \ Tom Goldstein"
+  title: Diurnal or Nocturnal? Federated Learning of Multi-branch Networks from Periodically
+    Shifting Distributions.
+  venue: ICLR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Zhu0CKHG22
+  doi: ''
+  ee: https://openreview.net/forum?id=E4EE_ohFGz
+  url: https://dblp.org/rec/conf/iclr/Zhu0CKHG22
+federate%20venue%3ACOLT%3A:
+- author: Xuyang Zhao, Huiyuan Wang, Wei Lin
+  title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
+  venue: COLT
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/colt/ZhaoWL23
+  doi: ''
+  ee: https://proceedings.mlr.press/v195/zhao23b.html
+  url: https://dblp.org/rec/conf/colt/ZhaoWL23
 federate%20venue%3AUAI%3A:
 - author: Xutong Liu 0002, Haoru Zhao, Tong Yu 0001, Shuai Li, John C. S. Lui
   title: Federated online clustering of bandits.
@@ -4578,6 +4814,69 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v161/mekkaoui21a.html
   url: https://dblp.org/rec/conf/uai/MekkaouiMBK21
+- author: Md I. I. Alam, Koushik Kar, Theodoros Salonidis, Horst Samulowitz
+  title: 'FLASH: Automating federated learning using CASH.'
+  venue: UAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uai/AlamKSS23
+  doi: ''
+  ee: https://proceedings.mlr.press/v216/alam23a.html
+  url: https://dblp.org/rec/conf/uai/AlamKSS23
+- author: Ziwei Fan, Hao Ding 0003, Anoop Deoras, Trong Nghia Hoang
+  title: Personalized federated domain adaptation for item-to-item recommendation.
+  venue: UAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uai/Fan0DH23
+  doi: ''
+  ee: https://proceedings.mlr.press/v216/fan23a.html
+  url: https://dblp.org/rec/conf/uai/Fan0DH23
+- author: Belhal Karimi, Ping Li 0001, Xiaoyun Li
+  title: 'Fed-LAMB: Layer-wise and Dimension-wise Locally Adaptive Federated Learning.'
+  venue: UAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uai/Karimi0L23
+  doi: ''
+  ee: https://proceedings.mlr.press/v216/karimi23a.html
+  url: https://dblp.org/rec/conf/uai/Karimi0L23
+- author: Tengfei Ma, Trong Nghia Hoang, Jie Chen
+  title: Federated learning of models pre-trained on different features with consensus
+    graphs.
+  venue: UAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uai/MaHC23
+  doi: ''
+  ee: https://proceedings.mlr.press/v216/ma23b.html
+  url: https://dblp.org/rec/conf/uai/MaHC23
+- author: Duanxiao Song, Guangyuan Shen, Dehong Gao, Libin Yang, Xukai Zhou, Shirui
+    Pan, Wei Lou, Fang Zhou
+  title: Fast Heterogeneous Federated Learning with Hybrid Client Selection.
+  venue: UAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uai/SongSGYZPLZ23
+  doi: ''
+  ee: https://proceedings.mlr.press/v216/song23b.html
+  url: https://dblp.org/rec/conf/uai/SongSGYZPLZ23
+- author: Ruihan Wu, Xiangyu Chen, Chuan Guo, Kilian Q. Weinberger
+  title: 'Learning To Invert: Simple Adaptive Attacks for Gradient Inversion in Federated
+    Learning.'
+  venue: UAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uai/WuCGW23
+  doi: ''
+  ee: https://proceedings.mlr.press/v216/wu23a.html
+  url: https://dblp.org/rec/conf/uai/WuCGW23
 federate%20streamid%3Ajournals%2Fml%3A: []
 federate%20streamid%3Ajournals%2Fjmlr%3A: []
 federate%20streamid%3Ajournals%2Fpami%3A: []
@@ -6206,6 +6505,18 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/1008992.1009126
   ee: https://doi.org/10.1145/1008992.1009126
   url: https://dblp.org/rec/conf/sigir/LiuHW04
+- author: Penghui Wei, Hongjian Dou, Shaoguo Liu, Rongjun Tang, Li Liu 0036, Liang
+    Wang, Bo Zheng 0007
+  title: 'FedAds: A Benchmark for Privacy-Preserving CVR Estimation with Vertical
+    Federated Learning.'
+  venue: SIGIR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/WeiDLTLWZ23
+  doi: 10.1145/3539618.3591909
+  ee: https://doi.org/10.1145/3539618.3591909
+  url: https://dblp.org/rec/conf/sigir/WeiDLTLWZ23
 federate%20streamid%3Aconf%2Fsigmod%3A: []
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang

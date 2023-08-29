@@ -101,13 +101,14 @@ def get_msg(items, topic ,aggregated = False):
 
     # print information of topic
     msg = f"## [{name_topic}](https://dblp.org/search?q={topic})\\n\\n"
-    msg += f"""Explore {len(items)} new papers about {name_topic} on dblp.\\n\\n"""
+    msg += f"""Explore {len(items)} new papers about {name_topic}.\\n\\n"""
     
     if aggregated == False:
         for item in items:
-            msg += f"[{item['title']}]({item['url']})\\n"
-            msg += f"- Authors: {item['author']}\\n"
-            msg += f"- Venue: {item['venue']}\\n"
+            msg += f"{item['title']}\\n"
+            # msg += f"[{item['title']}]({item['url']})\\n"
+            # msg += f"- Authors: {item['author']}\\n"
+            # msg += f"- Venue: {item['venue']}\\n"
             msg += f"- Year: {item['year']}\\n\\n"
 
     msg = msg.replace("'", "")

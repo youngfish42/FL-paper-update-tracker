@@ -5533,6 +5533,19 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=E4EE_ohFGz
   url: https://dblp.org/rec/conf/iclr/Zhu0CKHG22
+- author: Kaiyuan Zhang 0002, Guanhong Tao 0001, Qiuling Xu, Siyuan Cheng 0005, Shengwei
+    An, Yingqi Liu, Shiwei Feng 0002, Guangyu Shen, Pin-Yu Chen, Shiqing Ma, Xiangyu
+    Zhang 0001
+  title: 'FLIP: A Provable Defense Framework for Backdoor Mitigation in Federated
+    Learning.'
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/0002TX0AL0SCM023
+  doi: ''
+  ee: https://openreview.net/pdf?id=Xo2E217_M4n
+  url: https://dblp.org/rec/conf/iclr/0002TX0AL0SCM023
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -6384,6 +6397,18 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3097983.3098118
   ee: https://doi.org/10.1145/3097983.3098118
   url: https://dblp.org/rec/conf/kdd/KimSYJ17
+- author: Di Chai, Leye Wang, Junxue Zhang 0001, Liu Yang 0008, Shuowei Cai, Kai Chen
+    0005, Qiang Yang 0001
+  title: Practical Lossless Federated Singular Vector Decomposition over Billion-Scale
+    Data.
+  venue: KDD
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ChaiWZYC0022
+  doi: 10.1145/3534678.3539402
+  ee: https://doi.org/10.1145/3534678.3539402
+  url: https://dblp.org/rec/conf/kdd/ChaiWZYC0022
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -6982,6 +7007,161 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.00387
   ee: https://doi.org/10.1109/CVPR52729.2023.00387
   url: https://dblp.org/rec/conf/cvpr/ZhaoESEAB23
+- author: Junyi Zhu 0002, Xingchen Ma, Matthew B. Blaschko
+  title: Confidence-Aware Personalized Federated Learning via Variational Expectation
+    Maximization.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/0002MB23
+  doi: 10.1109/CVPR52729.2023.02351
+  ee: https://doi.org/10.1109/CVPR52729.2023.02351
+  url: https://dblp.org/rec/conf/cvpr/0002MB23
+- author: Dengsheng Chen, Jie Hu 0019, Vince Junkai Tan, Xiaoming Wei, Enhua Wu
+  title: Elastic Aggregation for Federated Optimization.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/Chen0TWW23
+  doi: 10.1109/CVPR52729.2023.01173
+  ee: https://doi.org/10.1109/CVPR52729.2023.01173
+  url: https://dblp.org/rec/conf/cvpr/Chen0TWW23
+- author: Ka Ho Chow, Ling Liu, Wenqi Wei, Fatih Ilhan, Yanzhao Wu
+  title: 'STDLens: Model Hijacking-Resilient Federated Learning for Object Detection.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ChowLWIW23
+  doi: 10.1109/CVPR52729.2023.01568
+  ee: https://doi.org/10.1109/CVPR52729.2023.01568
+  url: https://dblp.org/rec/conf/cvpr/ChowLWIW23
+- author: Wenke Huang, Mang Ye, Zekun Shi, He Li, Bo Du 0001
+  title: 'Rethinking Federated Learning with Domain Shift: A Prototype View.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/HuangYSL023
+  doi: 10.1109/CVPR52729.2023.01565
+  ee: https://doi.org/10.1109/CVPR52729.2023.01565
+  url: https://dblp.org/rec/conf/cvpr/HuangYSL023
+- author: Fatih Ilhan, Gong Su, Ling Liu 0001
+  title: 'ScaleFL: Resource-Adaptive Federated Learning with Heterogeneous Clients.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/IlhanS023
+  doi: 10.1109/CVPR52729.2023.02350
+  ee: https://doi.org/10.1109/CVPR52729.2023.02350
+  url: https://dblp.org/rec/conf/cvpr/IlhanS023
+- author: Meirui Jiang, Holger R. Roth, Wenqi Li 0001, Dong Yang 0005, Can Zhao, Vishwesh
+    Nath, Daguang Xu, Qi Dou 0001, Ziyue Xu 0001
+  title: Fair Federated Medical Image Segmentation via Client Contribution Estimation.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/JiangR00ZNX0023
+  doi: 10.1109/CVPR52729.2023.01564
+  ee: https://doi.org/10.1109/CVPR52729.2023.01564
+  url: https://dblp.org/rec/conf/cvpr/JiangR00ZNX0023
+- author: Ming Li, Qingli Li, Yan Wang
+  title: Class Balanced Adaptive Pseudo Labeling for Federated Semi-Supervised Learning.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LiLW23
+  doi: 10.1109/CVPR52729.2023.01563
+  ee: https://doi.org/10.1109/CVPR52729.2023.01563
+  url: https://dblp.org/rec/conf/cvpr/LiLW23
+- author: "Bo Li 0119, Mikkel N. Schmidt, Tommy S. Alstr\xF8m, Sebastian U. Stich"
+  title: On the Effectiveness of Partial Variance Reduction in Federated Learning
+    with Heterogeneous Data.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LiSAS23
+  doi: 10.1109/CVPR52729.2023.00386
+  ee: https://doi.org/10.1109/CVPR52729.2023.00386
+  url: https://dblp.org/rec/conf/cvpr/LiSAS23
+- author: Dongping Liao, Xitong Gao, Yiren Zhao, Chengzhong Xu 0001
+  title: Adaptive Channel Sparsity for Federated Learning under System Heterogeneity.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LiaoGZ023
+  doi: 10.1109/CVPR52729.2023.01957
+  ee: https://doi.org/10.1109/CVPR52729.2023.01957
+  url: https://dblp.org/rec/conf/cvpr/LiaoGZ023
+- author: Zixuan Qin, Liu Yang, Qilong Wang, Yahong Han, Qinghua Hu
+  title: Reliable and Interpretable Personalized Federated Learning.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/QinYWHH23
+  doi: 10.1109/CVPR52729.2023.01956
+  ee: https://doi.org/10.1109/CVPR52729.2023.01956
+  url: https://dblp.org/rec/conf/cvpr/QinYWHH23
+- author: Zhe Qu, Xingyu Li, Xiao Han, Rui Duan, Chengchao Shen, Lixing Chen
+  title: How to Prevent the Poor Performance Clients for Personalized Federated Learning?
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/QuLHDSC23
+  doi: 10.1109/CVPR52729.2023.01171
+  ee: https://doi.org/10.1109/CVPR52729.2023.01171
+  url: https://dblp.org/rec/conf/cvpr/QuLHDSC23
+- author: Yifan Shi, Yingqi Liu, Kang Wei, Li Shen, Xueqian Wang 0001, Dacheng Tao
+  title: Make Landscape Flatter in Differentially Private Federated Learning.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ShiLWS0T23
+  doi: 10.1109/CVPR52729.2023.02352
+  ee: https://doi.org/10.1109/CVPR52729.2023.02352
+  url: https://dblp.org/rec/conf/cvpr/ShiLWS0T23
+- author: Haozhao Wang, Yichen Li, Wenchao Xu, Ruixuan Li 0001, Yufeng Zhan, Zhigang
+    Zeng
+  title: 'DaFKD: Domain-aware Federated Knowledge Distillation.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/WangLX0ZZ23
+  doi: 10.1109/CVPR52729.2023.01955
+  ee: https://doi.org/10.1109/CVPR52729.2023.01955
+  url: https://dblp.org/rec/conf/cvpr/WangLX0ZZ23
+- author: Yuanhao Xiong, Ruochen Wang, Minhao Cheng, Felix Yu, Cho-Jui Hsieh
+  title: 'FedDM: Iterative Distribution Matching for Communication-Efficient Federated
+    Learning.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/XiongWCYH23
+  doi: 10.1109/CVPR52729.2023.01566
+  ee: https://doi.org/10.1109/CVPR52729.2023.01566
+  url: https://dblp.org/rec/conf/cvpr/XiongWCYH23
+- author: Yuan-Yi Xu, Ci-Siang Lin, Yu-Chiang Frank Wang
+  title: Bias-Eliminating Augmentation Learning for Debiased Federated Learning.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/XuLW23
+  doi: 10.1109/CVPR52729.2023.01958
+  ee: https://doi.org/10.1109/CVPR52729.2023.01958
+  url: https://dblp.org/rec/conf/cvpr/XuLW23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -8488,6 +8668,18 @@ federate%20venue%3ANSDI%3A:
   doi: ''
   ee: http://www.usenix.org/events/nsdi04/tech/balazinska.html
   url: https://dblp.org/rec/conf/nsdi/BalazinskaBS04
+- author: Junxue Zhang 0001, Xiaodian Cheng, Wei Wang, Liu Yang 0008, Jinbin Hu, Kai
+    Chen 0005
+  title: 'FLASH: Towards a High-performance Hardware Acceleration Architecture for
+    Cross-silo Federated Learning.'
+  venue: NSDI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nsdi/0001CWYH023
+  doi: ''
+  ee: https://www.usenix.org/conference/nsdi23/presentation/zhang-junxue
+  url: https://dblp.org/rec/conf/nsdi/0001CWYH023
 federate%20venue%3AWWW%3A:
 - author: Yao Chen, Shan Huang, Wensheng Gan, Gengsen Huang, Yongdong Wu
   title: 'Federated Learning for Metaverse: A Survey.'

@@ -766,6 +766,18 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2023/508
   ee: https://doi.org/10.24963/ijcai.2023/508
   url: https://dblp.org/rec/conf/ijcai/ZhangYZHCLL23
+- author: Xinting Liao, Weiming Liu, Chaochao Chen 0001, Pengyang Zhou, Huabin Zhu,
+    Yanchao Tan, Jun Wang, Yue Qi
+  title: 'HyperFed: Hyperbolic Prototypes Exploration with Consistent Aggregation
+    for Non-IID Data in Federated Learning.'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LiaoLCZZTWQ23
+  doi: 10.24963/IJCAI.2023/440
+  ee: https://doi.org/10.24963/ijcai.2023/440
+  url: https://dblp.org/rec/conf/ijcai/LiaoLCZZTWQ23
 federate%20venue%3AAAAI%3A:
 - author: Xueyang Wu 0001, Hengguan Huang, Youlong Ding, Hao Wang, Ye Wang, Qian Xu
     0005
@@ -1668,6 +1680,28 @@ federate%20venue%3AAAAI%3A:
   doi: ''
   ee: https://ojs.aaai.org/index.php/AAAI/article/view/26330
   url: https://dblp.org/rec/conf/aaai/ZhangHWSXMG23
+- author: Yixuan Liu, Suyun Zhao, Li Xiong 0001, Yuhan Liu, Hong Chen 0001
+  title: 'Echo of Neighbors: Privacy Amplification for Personalized Private Federated
+    Learning with Shuffle Model.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/LiuZ0LC23
+  doi: ''
+  ee: https://ojs.aaai.org/index.php/AAAI/article/view/26400
+  url: https://dblp.org/rec/conf/aaai/LiuZ0LC23
+- author: Dui Wang, Li Shen, Yong Luo, Han Hu 0003, Kehua Su, Yonggang Wen 0001, Dacheng
+    Tao
+  title: 'FedABC: Targeting Fair Competition in Personalized Federated Learning.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/WangSLHS0T23
+  doi: ''
+  ee: https://ojs.aaai.org/index.php/AAAI/article/view/26203
+  url: https://dblp.org/rec/conf/aaai/WangSLHS0T23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -7162,6 +7196,28 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.01958
   ee: https://doi.org/10.1109/CVPR52729.2023.01958
   url: https://dblp.org/rec/conf/cvpr/XuLW23
+- author: Haozhao Wang, Yichen Li, Wenchao Xu 0001, Ruixuan Li 0001, Yufeng Zhan,
+    Zhigang Zeng
+  title: 'DaFKD: Domain-aware Federated Knowledge Distillation.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/WangLX0ZZ23
+  doi: 10.1109/CVPR52729.2023.01955
+  ee: https://doi.org/10.1109/CVPR52729.2023.01955
+  url: https://dblp.org/rec/conf/cvpr/WangLX0ZZ23
+- author: Jiahua Dong, Lixu Wang, Zhen Fang 0001, Gan Sun, Shichao Xu, Xiao Wang 0012,
+    Qi Zhu 0002
+  title: Federated Class-Incremental Learning.
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/DongWFSXW022
+  doi: 10.1109/CVPR52688.2022.00992
+  ee: https://doi.org/10.1109/CVPR52688.2022.00992
+  url: https://dblp.org/rec/conf/cvpr/DongWFSXW022
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -8174,6 +8230,16 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE55515.2023.00177
   ee: https://doi.org/10.1109/ICDE55515.2023.00177
   url: https://dblp.org/rec/conf/icde/ChenXXH23
+- author: Guangjing Wang 0001, Hanqing Guo, Anran Li, Xiaorui Liu, Qiben Yan
+  title: Federated IoT Interaction Vulnerability Analysis.
+  venue: ICDE
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/WangGLLY23
+  doi: 10.1109/ICDE55515.2023.00120
+  ee: https://doi.org/10.1109/ICDE55515.2023.00120
+  url: https://dblp.org/rec/conf/icde/WangGLLY23
 federate%20streamid%3Ajournals%2Fpvldb%3A: []
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"

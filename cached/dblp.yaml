@@ -8240,6 +8240,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE55515.2023.00120
   ee: https://doi.org/10.1109/ICDE55515.2023.00120
   url: https://dblp.org/rec/conf/icde/WangGLLY23
+- author: Zishan Gu, Ke Zhang, Guangji Bai, Liang Chen, Liang Zhao 0002, Carl Yang
+  title: Dynamic Activation of Clients and Parameters for Federated Learning over
+    Heterogeneous Graphs.
+  venue: ICDE
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/GuZBCZY23
+  doi: 10.1109/ICDE55515.2023.00126
+  ee: https://doi.org/10.1109/ICDE55515.2023.00126
+  url: https://dblp.org/rec/conf/icde/GuZBCZY23
 federate%20streamid%3Ajournals%2Fpvldb%3A: []
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"

@@ -1702,6 +1702,18 @@ federate%20venue%3AAAAI%3A:
   doi: ''
   ee: https://ojs.aaai.org/index.php/AAAI/article/view/26203
   url: https://dblp.org/rec/conf/aaai/WangSLHS0T23
+- author: Yuanyuan Chen, Zichen Chen, Sheng Guo, Yansong Zhao, Zelei Liu, Pengcheng
+    Wu, Chengyi Yang, Zengxiang Li, Han Yu 0001
+  title: Efficient Training of Large-Scale Industrial Fault Diagnostic Models through
+    Federated Opportunistic Block Dropout.
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/ChenCGZLWYLY23
+  doi: ''
+  ee: https://ojs.aaai.org/index.php/AAAI/article/view/26836
+  url: https://dblp.org/rec/conf/aaai/ChenCGZLWYLY23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

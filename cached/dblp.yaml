@@ -7230,6 +7230,26 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.00992
   ee: https://doi.org/10.1109/CVPR52688.2022.00992
   url: https://dblp.org/rec/conf/cvpr/DongWFSXW022
+- author: Ka Ho Chow, Ling Liu 0001, Wenqi Wei, Fatih Ilhan, Yanzhao Wu
+  title: 'STDLens: Model Hijacking-Resilient Federated Learning for Object Detection.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ChowLWIW23
+  doi: 10.1109/CVPR52729.2023.01568
+  ee: https://doi.org/10.1109/CVPR52729.2023.01568
+  url: https://dblp.org/rec/conf/cvpr/ChowLWIW23
+- author: Ming Li, Qingli Li, Yan Wang 0033
+  title: Class Balanced Adaptive Pseudo Labeling for Federated Semi-Supervised Learning.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LiLW23
+  doi: 10.1109/CVPR52729.2023.01563
+  ee: https://doi.org/10.1109/CVPR52729.2023.01563
+  url: https://dblp.org/rec/conf/cvpr/LiLW23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -8253,6 +8273,18 @@ federate%20venue%3AICDE%3A:
   ee: https://doi.org/10.1109/ICDE55515.2023.00120
   url: https://dblp.org/rec/conf/icde/WangGLLY23
 - author: Zishan Gu, Ke Zhang, Guangji Bai, Liang Chen, Liang Zhao 0002, Carl Yang
+  title: Dynamic Activation of Clients and Parameters for Federated Learning over
+    Heterogeneous Graphs.
+  venue: ICDE
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/GuZBCZY23
+  doi: 10.1109/ICDE55515.2023.00126
+  ee: https://doi.org/10.1109/ICDE55515.2023.00126
+  url: https://dblp.org/rec/conf/icde/GuZBCZY23
+- author: Zishan Gu, Ke Zhang, Guangji Bai, Liang Chen 0001, Liang Zhao 0002, Carl
+    Yang
   title: Dynamic Activation of Clients and Parameters for Federated Learning over
     Heterogeneous Graphs.
   venue: ICDE

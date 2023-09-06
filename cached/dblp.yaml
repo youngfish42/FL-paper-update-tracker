@@ -778,6 +778,28 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2023/440
   ee: https://doi.org/10.24963/ijcai.2023/440
   url: https://dblp.org/rec/conf/ijcai/LiaoLCZZTWQ23
+- author: Yunchao Yang, Yipeng Zhou, Miao Hu, Di Wu 0001, Quan Z. Sheng
+  title: 'BARA: Efficient Incentive Mechanism with Online Reward Budget Allocation
+    in Cross-Silo Federated Learning.'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/YangZHWS23
+  doi: 10.24963/IJCAI.2023/498
+  ee: https://doi.org/10.24963/ijcai.2023/498
+  url: https://dblp.org/rec/conf/ijcai/YangZHWS23
+- author: Qiang Shen, Haotian Feng, Rui Song, Stefano Teso, Fausto Giunchiglia, Hao
+    Xu 0012
+  title: Federated Multi-Task Attention for Cross-Individual Human Activity Recognition.
+  venue: IJCAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ShenFSTGX22
+  doi: 10.24963/IJCAI.2022/475
+  ee: https://doi.org/10.24963/ijcai.2022/475
+  url: https://dblp.org/rec/conf/ijcai/ShenFSTGX22
 federate%20venue%3AAAAI%3A:
 - author: Xueyang Wu 0001, Hengguan Huang, Youlong Ding, Hao Wang, Ye Wang, Qian Xu
     0005
@@ -2925,7 +2947,17 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: http://proceedings.mlr.press/v108/zhu20a.html
   url: https://dblp.org/rec/conf/aistats/ZhuKMSL20
-federate%20streamid%3Aconf%2Falt%3A: []
+federate%20streamid%3Aconf%2Falt%3A:
+- author: Zachary Charles, Keith Rush
+  title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
+  venue: ALT
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/alt/CharlesR22
+  doi: ''
+  ee: https://proceedings.mlr.press/v167/charles22a.html
+  url: https://dblp.org/rec/conf/alt/CharlesR22
 federate%20streamid%3Ajournals%2Fai%3A: []
 federate%20venue%3ANeurIPS%3A:
 - author: Karan Singhal, Hakim Sidahmed, Zachary Garrett, Shanshan Wu, John Rush,
@@ -6690,9 +6722,170 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v216/wu23a.html
   url: https://dblp.org/rec/conf/uai/WuCGW23
-federate%20streamid%3Ajournals%2Fml%3A: []
-federate%20streamid%3Ajournals%2Fjmlr%3A: []
-federate%20streamid%3Ajournals%2Fpami%3A: []
+federate%20streamid%3Ajournals%2Fml%3A:
+- author: Adnan Ahmad, Wei Luo 0001, Antonio Robles-Kelly
+  title: Robust federated learning under statistical heterogeneity via hessian-weighted
+    aggregation.
+  venue: Mach. Learn.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/AhmadLR23
+  doi: 10.1007/S10994-022-06292-8
+  ee: https://doi.org/10.1007/s10994-022-06292-8
+  url: https://dblp.org/rec/journals/ml/AhmadLR23
+- author: Maryam Badar, Wolfgang Nejdl, Marco Fisichella
+  title: 'FAC-fed: Federated adaptation for fairness and concept drift aware stream
+    classification.'
+  venue: Mach. Learn.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/BadarNF23
+  doi: 10.1007/S10994-023-06360-7
+  ee: https://doi.org/10.1007/s10994-023-06360-7
+  url: https://dblp.org/rec/journals/ml/BadarNF23
+- author: "Fernando E. Casado, Dylan Lema, Roberto Iglesias, Carlos V\xE1zquez Regueiro,\
+    \ Sen\xE9n Barro"
+  title: Ensemble and continual federated learning for classification tasks.
+  venue: Mach. Learn.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/CasadoLIRB23
+  doi: 10.1007/S10994-023-06330-Z
+  ee: https://doi.org/10.1007/s10994-023-06330-z
+  url: https://dblp.org/rec/journals/ml/CasadoLIRB23
+- author: "C\xE9sar Sabater, Aur\xE9lien Bellet, Jan Ramon"
+  title: An accurate, scalable and verifiable protocol for federated differentially
+    private averaging.
+  venue: Mach. Learn.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/SabaterBR22
+  doi: 10.1007/S10994-022-06267-9
+  ee: https://doi.org/10.1007/s10994-022-06267-9
+  url: https://dblp.org/rec/journals/ml/SabaterBR22
+federate%20streamid%3Ajournals%2Fjmlr%3A:
+- author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
+  title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
+    Clients Updates.
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/FraboniVKL23
+  doi: ''
+  ee: http://jmlr.org/papers/v24/22-0689.html
+  url: https://dblp.org/rec/journals/jmlr/FraboniVKL23
+- author: Cody Lewis, Vijay Varadharajan, Nasimul Noman
+  title: Attacks against Federated Learning Defense Systems and their Mitigation.
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/LewisVN23
+  doi: ''
+  ee: http://jmlr.org/papers/v24/22-0014.html
+  url: https://dblp.org/rec/journals/jmlr/LewisVN23
+- author: "Xinchi Qiu, Titouan Parcollet, Javier Fern\xE1ndez-Marqu\xE9s, Pedro P.\
+    \ B. de Gusmao, Yan Gao, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas\
+    \ D. Lane"
+  title: A First Look into the Carbon Footprint of Federated Learning.
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/QiuPFGGBTML23
+  doi: ''
+  ee: http://jmlr.org/papers/v24/21-0445.html
+  url: https://dblp.org/rec/journals/jmlr/QiuPFGGBTML23
+- author: Bokun Wang, Zhuoning Yuan, Yiming Ying, Tianbao Yang
+  title: Memory-Based Optimization Methods for Model-Agnostic Meta-Learning and Personalized
+    Federated Learning.
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/WangYYY23
+  doi: ''
+  ee: http://jmlr.org/papers/v24/21-1301.html
+  url: https://dblp.org/rec/journals/jmlr/WangYYY23
+- author: Dun Zeng, Siqi Liang, Xiangjing Hu, Hui Wang, Zenglin Xu
+  title: 'FedLab: A Flexible Federated Learning Framework.'
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/ZengLHWX23
+  doi: ''
+  ee: http://jmlr.org/papers/v24/22-0440.html
+  url: https://dblp.org/rec/journals/jmlr/ZengLHWX23
+- author: Saber Salehkaleybar, Arsalan Sharif-Nassab, S. Jamaloddin Golestani
+  title: 'One-Shot Federated Learning: Theoretical Limits and Algorithms to Achieve
+    Them.'
+  venue: J. Mach. Learn. Res.
+  year: '2021'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/SalehkaleybarSG21
+  doi: ''
+  ee: http://jmlr.org/papers/v22/19-1048.html
+  url: https://dblp.org/rec/journals/jmlr/SalehkaleybarSG21
+federate%20streamid%3Ajournals%2Fpami%3A:
+- author: Bowen Li, Lixin Fan, Hanlin Gu, Jie Li 0002, Qiang Yang 0001
+  title: 'FedIPR: Ownership Verification for Federated Deep Neural Network Models.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiFGLY23
+  doi: 10.1109/TPAMI.2022.3195956
+  ee: https://doi.org/10.1109/TPAMI.2022.3195956
+  url: https://dblp.org/rec/journals/pami/LiFGLY23
+- author: Tao Sun 0005, Dongsheng Li 0001, Bao Wang
+  title: Decentralized Federated Averaging.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/SunLW23
+  doi: 10.1109/TPAMI.2022.3196503
+  ee: https://doi.org/10.1109/TPAMI.2022.3196503
+  url: https://dblp.org/rec/journals/pami/SunLW23
+- author: Shenglong Zhou 0001, Geoffrey Ye Li
+  title: Federated Learning Via Inexact ADMM.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ZhouL23
+  doi: 10.1109/TPAMI.2023.3243080
+  ee: https://doi.org/10.1109/TPAMI.2023.3243080
+  url: https://dblp.org/rec/journals/pami/ZhouL23
+- author: Songnam Hong, Jeongmin Chae
+  title: Communication-Efficient Randomized Algorithm for Multi-Kernel Online Federated
+    Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/HongC22
+  doi: 10.1109/TPAMI.2021.3129809
+  ee: https://doi.org/10.1109/TPAMI.2021.3129809
+  url: https://dblp.org/rec/journals/pami/HongC22
+- author: Jun Sun 0014, Tianyi Chen, Georgios B. Giannakis, Qinmin Yang, Zaiyue Yang
+  title: Lazily Aggregated Quantized Gradient Innovation for Communication-Efficient
+    Federated Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/SunCGYY22
+  doi: 10.1109/TPAMI.2020.3033286
+  ee: https://doi.org/10.1109/TPAMI.2020.3033286
+  url: https://dblp.org/rec/journals/pami/SunCGYY22
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -7388,7 +7581,173 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/1935826.1935922
   ee: https://doi.org/10.1145/1935826.1935922
   url: https://dblp.org/rec/conf/wsdm/PonnuswamiPWGK11
-federate%20streamid%3Aconf%2Fsp%3A: []
+federate%20streamid%3Aconf%2Fsp%3A:
+- author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
+  title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using
+    Historical Information.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/CaoJZG23
+  doi: 10.1109/SP46215.2023.10179336
+  ee: https://doi.org/10.1109/SP46215.2023.10179336
+  url: https://dblp.org/rec/conf/sp/CaoJZG23
+- author: "David Froelicher, Hyunghoon Cho, Manaswitha Edupalli, Joao Sa Sousa, Jean-Philippe\
+    \ Bossuat, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, Bonnie Berger,\
+    \ Jean-Pierre Hubaux"
+  title: Scalable and Privacy-Preserving Federated Principal Component Analysis.
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/FroelicherCESBPTBH23
+  doi: 10.1109/SP46215.2023.10179350
+  ee: https://doi.org/10.1109/SP46215.2023.10179350
+  url: https://dblp.org/rec/conf/sp/FroelicherCESBPTBH23
+- author: Till Gehlhar, Felix Marx, Thomas Schneider 0003, Ajith Suresh, Tobias Wehrle,
+    Hossein Yalame
+  title: 'SafeFL: MPC-friendly Framework for Private and Robust Federated Learning.'
+  venue: SP Workshops
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/GehlharM0SWY23
+  doi: 10.1109/SPW59333.2023.00012
+  ee: https://doi.org/10.1109/SPW59333.2023.00012
+  url: https://dblp.org/rec/conf/sp/GehlharM0SWY23
+- author: Momin Ahmad Khan, Virat Shejwalkar, Amir Houmansadr, Fatima M. Anwar
+  title: On the Pitfalls of Security Evaluation of Robust Federated Learning.
+  venue: SP Workshops
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/KhanSHA23
+  doi: 10.1109/SPW59333.2023.00011
+  ee: https://doi.org/10.1109/SPW59333.2023.00011
+  url: https://dblp.org/rec/conf/sp/KhanSHA23
+- author: Kavita Kumari, Phillip Rieger, Hossein Fereidooni, Murtuza Jadliwala, Ahmad-Reza
+    Sadeghi
+  title: 'BayBFed: Bayesian Backdoor Defense for Federated Learning.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/KumariRFJS23
+  doi: 10.1109/SP46215.2023.10179362
+  ee: https://doi.org/10.1109/SP46215.2023.10179362
+  url: https://dblp.org/rec/conf/sp/KumariRFJS23
+- author: Haoyang Li, Qingqing Ye 0001, Haibo Hu 0001, Jin Li 0002, Leixia Wang, Chengfang
+    Fang, Jie Shi
+  title: '3DFed: Adaptive and Extensible Framework for Covert Backdoor Attack in Federated
+    Learning.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/LiYHLWFS23
+  doi: 10.1109/SP46215.2023.10179401
+  ee: https://doi.org/10.1109/SP46215.2023.10179401
+  url: https://dblp.org/rec/conf/sp/LiYHLWFS23
+- author: "Hidde Lycklama, Lukas Burkhalter, Alexander Viand, Nicolas K\xFCchler,\
+    \ Anwar Hithnawi"
+  title: 'RoFL: Robustness of Secure Federated Learning.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/LycklamaBVKH23
+  doi: 10.1109/SP46215.2023.10179400
+  ee: https://doi.org/10.1109/SP46215.2023.10179400
+  url: https://dblp.org/rec/conf/sp/LycklamaBVKH23
+- author: Yiping Ma 0001, Jess Woods, Sebastian Angel, Antigoni Polychroniadou, Tal
+    Rabin
+  title: 'Flamingo: Multi-Round Single-Server Secure Aggregation with Applications
+    to Private Federated Learning.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/MaWAPR23
+  doi: 10.1109/SP46215.2023.10179434
+  ee: https://doi.org/10.1109/SP46215.2023.10179434
+  url: https://dblp.org/rec/conf/sp/MaWAPR23
+- author: Mayank Rathee, Conghao Shen, Sameer Wagh, Raluca Ada Popa
+  title: 'ELSA: Secure Aggregation for Federated Learning with Malicious Actors.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/RatheeSWP23
+  doi: 10.1109/SP46215.2023.10179468
+  ee: https://doi.org/10.1109/SP46215.2023.10179468
+  url: https://dblp.org/rec/conf/sp/RatheeSWP23
+- author: Michael Rosenberg, Mary Maller, Ian Miers
+  title: 'SNARKBlock: Federated Anonymous Blocklisting from Hidden Common Input Aggregate
+    Proofs.'
+  venue: IEEE Symposium on Security and Privacy
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/RosenbergMM22
+  doi: 10.1109/SP46214.2022.9833656
+  ee: https://doi.org/10.1109/SP46214.2022.9833656
+  url: https://dblp.org/rec/conf/sp/RosenbergMM22
+- author: Virat Shejwalkar, Amir Houmansadr, Peter Kairouz, Daniel Ramage
+  title: 'Back to the Drawing Board: A Critical Evaluation of Poisoning Attacks on
+    Production Federated Learning.'
+  venue: IEEE Symposium on Security and Privacy
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/ShejwalkarHKR22
+  doi: 10.1109/SP46214.2022.9833647
+  ee: https://doi.org/10.1109/SP46214.2022.9833647
+  url: https://dblp.org/rec/conf/sp/ShejwalkarHKR22
+- author: "Hossein Fereidooni, Samuel Marchal, Markus Miettinen, Azalia Mirhoseini,\
+    \ Helen M\xF6llering, Thien Duc Nguyen, Phillip Rieger, Ahmad-Reza Sadeghi, Thomas\
+    \ Schneider 0003, Hossein Yalame, Shaza Zeitouni"
+  title: 'SAFELearn: Secure Aggregation for private FEderated Learning.'
+  venue: SP Workshops
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/FereidooniMMMMN21
+  doi: 10.1109/SPW53761.2021.00017
+  ee: https://doi.org/10.1109/SPW53761.2021.00017
+  url: https://dblp.org/rec/conf/sp/FereidooniMMMMN21
+- author: "Ulrich Matchi A\xEFvodji, S\xE9bastien Gambs, Alexandre Martin"
+  title: 'IOTFLA : A Secured and Privacy-Preserving Smart Home Architecture Implementing
+    Federated Learning.'
+  venue: IEEE Symposium on Security and Privacy Workshops
+  year: '2019'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/AivodjiGM19
+  doi: 10.1109/SPW.2019.00041
+  ee: https://doi.org/10.1109/SPW.2019.00041
+  url: https://dblp.org/rec/conf/sp/AivodjiGM19
+- author: Milad Nasr, Reza Shokri, Amir Houmansadr
+  title: 'Comprehensive Privacy Analysis of Deep Learning: Passive and Active White-box
+    Inference Attacks against Centralized and Federated Learning.'
+  venue: IEEE Symposium on Security and Privacy
+  year: '2019'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/NasrSH19
+  doi: 10.1109/SP.2019.00065
+  ee: https://doi.org/10.1109/SP.2019.00065
+  url: https://dblp.org/rec/conf/sp/NasrSH19
+- author: "Rainer Hoerbe, Walter H\xF6tzendorfer"
+  title: Privacy by Design in Federated Identity Management.
+  venue: IEEE Symposium on Security and Privacy Workshops
+  year: '2015'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/HoerbeH15
+  doi: 10.1109/SPW.2015.24
+  ee: https://doi.org/10.1109/SPW.2015.24
+  url: https://dblp.org/rec/conf/sp/HoerbeH15
 federate%20venue%3ACCS%3A:
 - author: Amrita Roy Chowdhury 0001, Chuan Guo, Somesh Jha, Laurens van der Maaten
   title: 'EIFFeL: Ensuring Integrity for Federated Learning.'
@@ -7453,7 +7812,106 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3319535.3363256
   ee: https://doi.org/10.1145/3319535.3363256
   url: https://dblp.org/rec/conf/ccs/AwanLLL19
-federate%20streamid%3Aconf%2Fuss%3A: []
+federate%20streamid%3Aconf%2Fuss%3A:
+- author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
+  title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist
+    Poisoning Attacks.'
+  venue: USENIX Security Symposium
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/MozaffariSH23
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity23/presentation/mozaffari
+  url: https://dblp.org/rec/conf/uss/MozaffariSH23
+- author: "Viktor Valadi, Xinchi Qiu, Pedro Porto Buarque de Gusm\xE3o, Nicholas D.\
+    \ Lane, Mina Alibeigi"
+  title: 'FedVal: Different good or different bad in federated learning.'
+  venue: USENIX Security Symposium
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/ValadiQGLA23
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity23/presentation/valadi
+  url: https://dblp.org/rec/conf/uss/ValadiQGLA23
+- author: Yuchen Yang, Bo Hui, Haolin Yuan, Neil Zhenqiang Gong, Yinzhi Cao
+  title: 'PrivateFL: Accurate, Differentially Private Federated Learning via Personalized
+    Data Transformation.'
+  venue: USENIX Security Symposium
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/YangHYGC23
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity23/presentation/yang-yuchen
+  url: https://dblp.org/rec/conf/uss/YangHYGC23
+- author: Kai Yue, Richeng Jin, Chau-Wai Wong, Dror Baron, Huaiyu Dai
+  title: Gradient Obfuscation Gives a False Sense of Security in Federated Learning.
+  venue: USENIX Security Symposium
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/YueJWBD23
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity23/presentation/yue
+  url: https://dblp.org/rec/conf/uss/YueJWBD23
+- author: Chong Fu, Xuhong Zhang 0002, Shouling Ji, Jinyin Chen, Jingzheng Wu, Shanqing
+    Guo, Jun Zhou 0011, Alex X. Liu, Ting Wang 0006
+  title: Label Inference Attacks Against Vertical Federated Learning.
+  venue: USENIX Security Symposium
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/Fu0JCWG0L022
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity22/presentation/fu-chong
+  url: https://dblp.org/rec/conf/uss/Fu0JCWG0L022
+- author: "Thien Duc Nguyen, Phillip Rieger, Huili Chen, Hossein Yalame, Helen M\xF6\
+    llering, Hossein Fereidooni, Samuel Marchal, Markus Miettinen, Azalia Mirhoseini,\
+    \ Shaza Zeitouni, Farinaz Koushanfar, Ahmad-Reza Sadeghi, Thomas Schneider 0003"
+  title: 'FLAME: Taming Backdoors in Federated Learning.'
+  venue: USENIX Security Symposium
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/NguyenRCYMFMMMZ22
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity22/presentation/nguyen
+  url: https://dblp.org/rec/conf/uss/NguyenRCYMFMMMZ22
+- author: Timothy Stevens, Christian Skalka, Christelle Vincent, John Ring, Samuel
+    Clark, Joseph P. Near
+  title: Efficient Differentially Private Secure Aggregation for Federated Learning
+    via Hardness of Learning with Errors.
+  venue: USENIX Security Symposium
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/StevensSVRCN22
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity22/presentation/stevens
+  url: https://dblp.org/rec/conf/uss/StevensSVRCN22
+- author: Minghong Fang, Xiaoyu Cao, Jinyuan Jia, Neil Zhenqiang Gong
+  title: Local Model Poisoning Attacks to Byzantine-Robust Federated Learning.
+  venue: USENIX Security Symposium
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/FangCJG20
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity20/presentation/fang
+  url: https://dblp.org/rec/conf/uss/FangCJG20
+- author: Sam Crow, Brown Farinholt, Brian Johannesmeyer, Karl Koscher, Stephen Checkoway,
+    Stefan Savage, Aaron Schulman, Alex C. Snoeren, Kirill Levchenko
+  title: 'Triton: A Software-Reconfigurable Federated Avionics Testbed.'
+  venue: CSET @ USENIX Security Symposium
+  year: '2019'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/CrowFJKCSSSL19
+  doi: ''
+  ee: https://www.usenix.org/conference/cset19/presentation/crow
+  url: https://dblp.org/rec/conf/uss/CrowFJKCSSSL19
 federate%20venue%3ANDSS%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -8251,7 +8709,73 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-030-58607-2_5
   ee: https://doi.org/10.1007/978-3-030-58607-2_5
   url: https://dblp.org/rec/conf/eccv/HsuQ020
-federate%20streamid%3Aconf%2Fmm%3A: []
+federate%20streamid%3Aconf%2Fmm%3A:
+- author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
+  title: Few-Shot Model Agnostic Federated Learning.
+  venue: ACM Multimedia
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/HuangY0G22
+  doi: 10.1145/3503161.3548764
+  ee: https://doi.org/10.1145/3503161.3548764
+  url: https://dblp.org/rec/conf/mm/HuangY0G22
+- author: Fan Qi, Zixin Zhang, Xianshan Yang, Huaiwen Zhang, Changsheng Xu
+  title: 'Feeling Without Sharing: A Federated Video Emotion Recognition Framework
+    Via Privacy-Agnostic Hybrid Aggregation.'
+  venue: ACM Multimedia
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/QiZYZX22
+  doi: 10.1145/3503161.3548278
+  ee: https://doi.org/10.1145/3503161.3548278
+  url: https://dblp.org/rec/conf/mm/QiZYZX22
+- author: Weiming Zhuang, Yonggang Wen 0001, Shuai Zhang 0004
+  title: Joint Optimization in Edge-Cloud Continuum for Federated Unsupervised Person
+    Re-identification.
+  venue: ACM Multimedia
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Zhuang0Z21
+  doi: 10.1145/3474085.3475182
+  ee: https://doi.org/10.1145/3474085.3475182
+  url: https://dblp.org/rec/conf/mm/Zhuang0Z21
+- author: Qiushi Li, Wenwu Zhu 0001, Chao Wu 0002, Xinglin Pan, Fan Yang, Yuezhi Zhou,
+    Yaoxue Zhang
+  title: 'InvisibleFL: Federated Learning over Non-Informative Intermediate Updates
+    against Multimedia Privacy Leakages.'
+  venue: ACM Multimedia
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Li00PYZZ20
+  doi: 10.1145/3394171.3413923
+  ee: https://doi.org/10.1145/3394171.3413923
+  url: https://dblp.org/rec/conf/mm/Li00PYZZ20
+- author: Weiming Zhuang, Yonggang Wen 0001, Xuesen Zhang, Xin Gan, Daiying Yin, Dongzhan
+    Zhou, Shuai Zhang 0004, Shuai Yi
+  title: Performance Optimization of Federated Person Re-identification via Benchmark
+    Analysis.
+  venue: ACM Multimedia
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Zhuang0ZGYZZY20
+  doi: 10.1145/3394171.3413814
+  ee: https://doi.org/10.1145/3394171.3413814
+  url: https://dblp.org/rec/conf/mm/Zhuang0ZGYZZY20
+- author: Henrike Berthold
+  title: A federated multimedia database system.
+  venue: ACM Multimedia
+  year: '1999'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Berthold99
+  doi: 10.1145/319878.319944
+  ee: https://doi.org/10.1145/319878.319944
+  url: https://dblp.org/rec/conf/mm/Berthold99
 federate%20streamid%3Ajournals%2Fijcv%3A: []
 federate%20venue%3AACL%3A:
 - author: Zheng Xu 0002, Yanxiang Zhang, Galen Andrew, Christopher A. Choquette-Choo,
@@ -8769,7 +9293,159 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3539618.3591909
   ee: https://doi.org/10.1145/3539618.3591909
   url: https://dblp.org/rec/conf/sigir/WeiDLTLWZ23
-federate%20streamid%3Aconf%2Fsigmod%3A: []
+federate%20streamid%3Aconf%2Fsigmod%3A:
+- author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
+  title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
+    Relational Data.'
+  venue: Proc. ACM Manag. Data
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/FuWX023
+  doi: 10.1145/3588961
+  ee: https://doi.org/10.1145/3588961
+  url: https://dblp.org/rec/journals/pacmmod/FuWX023
+- author: Akash Bharadwaj, Graham Cormode
+  title: An Introduction to Federated Computation.
+  venue: SIGMOD Conference
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/BharadwajC22
+  doi: 10.1145/3514221.3522561
+  ee: https://doi.org/10.1145/3514221.3522561
+  url: https://dblp.org/rec/conf/sigmod/BharadwajC22
+- author: Fangcheng Fu, Huanran Xue, Yong Cheng, Yangyu Tao, Bin Cui 0001
+  title: 'BlindFL: Vertical Federated Machine Learning without Peeking into Your Data.'
+  venue: SIGMOD Conference
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/FuXCT022
+  doi: 10.1145/3514221.3526127
+  ee: https://doi.org/10.1145/3514221.3526127
+  url: https://dblp.org/rec/conf/sigmod/FuXCT022
+- author: "Sebastian Baunsgaard, Matthias Boehm 0001, Ankit Chaudhary, Behrouz Derakhshan,\
+    \ Stefan Gei\xDFels\xF6der, Philipp M. Grulich, Michael Hildebrand, Kevin Innerebner,\
+    \ Volker Markl, Claus Neubauer, Sarah Osterburg, Olga Ovcharenko, Sergey Redyuk,\
+    \ Tobias Rieger, Alireza Rezaei Mahdiraji, Sebastian Benjamin Wrede, Steffen Zeuch"
+  title: 'ExDRa: Exploratory Data Science on Federated Raw Data.'
+  venue: SIGMOD Conference
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/Baunsgaard0CDGG21
+  doi: 10.1145/3448016.3457549
+  ee: https://doi.org/10.1145/3448016.3457549
+  url: https://dblp.org/rec/conf/sigmod/Baunsgaard0CDGG21
+- author: Fangcheng Fu, Yingxia Shao, Lele Yu, Jiawei Jiang, Huanran Xue, Yangyu Tao,
+    Bin Cui 0001
+  title: 'VF2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise
+    Learning.'
+  venue: SIGMOD Conference
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/FuSYJXT021
+  doi: 10.1145/3448016.3457241
+  ee: https://doi.org/10.1145/3448016.3457241
+  url: https://dblp.org/rec/conf/sigmod/FuSYJXT021
+- author: Guanjin Qu, Huaming Wu, Naichuan Cui
+  title: Joint blockchain and federated learning-based offloading in harsh edge computing
+    environments.
+  venue: BiDEDE@SIGMOD
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/QuWC21
+  doi: 10.1145/3460866.3461765
+  ee: https://doi.org/10.1145/3460866.3461765
+  url: https://dblp.org/rec/conf/sigmod/QuWC21
+- author: Liqi Xu, Richard L. Cole, Daniel Ting
+  title: Learning to optimize federated queries.
+  venue: aiDM@SIGMOD
+  year: '2019'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/XuCT19
+  doi: 10.1145/3329859.3329873
+  ee: https://doi.org/10.1145/3329859.3329873
+  url: https://dblp.org/rec/conf/sigmod/XuCT19
+- author: Evangelia Kalyvianaki, Marco Fiscato, Theodoros Salonidis, Peter R. Pietzuch
+  title: 'THEMIS: Fairness in Federated Stream Processing under Overload.'
+  venue: SIGMOD Conference
+  year: '2016'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/KalyvianakiFSP16
+  doi: 10.1145/2882903.2882943
+  ee: https://doi.org/10.1145/2882903.2882943
+  url: https://dblp.org/rec/conf/sigmod/KalyvianakiFSP16
+- author: Michael D. Lieberman, Sutanay Choudhury, Marisa Hughes, Dennis Patrone,
+    Robert T. Hider Jr., Christine D. Piatko, Matthew Chapman, J. P. Marple, David
+    Silberberg
+  title: 'Parasol: An Architecture for Cross-Cloud Federated Graph Querying.'
+  venue: DanaC@SIGMOD
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/LiebermanCHPHPCMS14
+  doi: 10.1145/2627770.2627771
+  ee: https://doi.org/10.1145/2627770.2627771
+  url: https://dblp.org/rec/conf/sigmod/LiebermanCHPHPCMS14
+- author: Kazi A. Zaman, Donovan A. Schneider
+  title: 'Modeling and querying multidimensional data sources in Siebel Analytics:
+    a federated relational system.'
+  venue: SIGMOD Conference
+  year: '2005'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/ZamanS05
+  doi: 10.1145/1066157.1066258
+  ee: https://doi.org/10.1145/1066157.1066258
+  url: https://dblp.org/rec/conf/sigmod/ZamanS05
+- author: Vanja Josifovski, Peter M. Schwarz, Laura M. Haas, Eileen Tien Lin
+  title: 'Garlic: a new flavor of federated query processing for DB2.'
+  venue: SIGMOD Conference
+  year: '2002'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/JosifovskiSHL02
+  doi: 10.1145/564691.564751
+  ee: https://doi.org/10.1145/564691.564751
+  url: https://dblp.org/rec/conf/sigmod/JosifovskiSHL02
+- author: "Elke Radeke, Ralf B\xF6ttger, Bernd Burkert, Yaron Engel, Gerd Kachel,\
+    \ Silvia Kolmschlag, Dietmar Nolte"
+  title: 'Efendi: Federated Database System of Cadlab.'
+  venue: SIGMOD Conference
+  year: '1995'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/RadekeBBEKKN95
+  doi: 10.1145/223784.223894
+  ee: https://doi.org/10.1145/223784.223894
+  url: https://dblp.org/rec/conf/sigmod/RadekeBBEKKN95
+- author: San-Yih Hwang, Ee-Peng Lim, H.-R. Yang, S. Musukula, K. Mediratta, M. Ganesh
+    0001, Dave Clements, J. Stenoien, Jaideep Srivastava
+  title: The MYRIAD Federated Database Prototype.
+  venue: SIGMOD Conference
+  year: '1994'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/HwangLYMMGCSS94
+  doi: 10.1145/191839.191986
+  ee: https://doi.org/10.1145/191839.191986
+  url: https://dblp.org/rec/conf/sigmod/HwangLYMMGCSS94
+- author: Xiaoyang Sean Wang, Sushil Jajodia, V. S. Subrahmanian
+  title: 'Temporal Modules: An Approach Toward Federated Temporal Databases.'
+  venue: SIGMOD Conference
+  year: '1993'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigmod/WangJS93
+  doi: 10.1145/170035.170074
+  ee: https://doi.org/10.1145/170035.170074
+  url: https://dblp.org/rec/conf/sigmod/WangJS93
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous
@@ -9152,7 +9828,158 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE55515.2023.00126
   ee: https://doi.org/10.1109/ICDE55515.2023.00126
   url: https://dblp.org/rec/conf/icde/GuZBCZY23
-federate%20streamid%3Ajournals%2Fpvldb%3A: []
+federate%20streamid%3Ajournals%2Fpvldb%3A:
+- author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
+    Yaliang Li, Bolin Ding, Jingren Zhou
+  title: 'FederatedScope: A Flexible Federated Learning Platform for Heterogeneity.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/XieWGCYKLDZ23
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol16/p1059-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/XieWGCYKLDZ23
+- author: Zitao Li, Tianhao Wang 0001, Ninghui Li
+  title: Differentially Private Vertical Federated Clustering.
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiWL23
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol16/p1277-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiWL23
+- author: Shuyuan Zheng, Yang Cao 0011, Masatoshi Yoshikawa
+  title: Secure Shapley Value for Cross-Silo Federated Learning.
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhengCY23
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol16/p1657-zheng.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhengCY23
+- author: Ergute Bao, Yizheng Zhu, Xiaokui Xiao, Yin Yang 0001, Beng Chin Ooi, Benjamin
+    Hong Meng Tan, Khin Mi Mi Aung
+  title: 'Skellam Mixture Mechanism: a Novel Approach to Federated Learning with Differential
+    Privacy.'
+  venue: Proc. VLDB Endow.
+  year: '2022'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/BaoZXYOTA22
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol15/p2348-bao.pdf
+  url: https://dblp.org/rec/journals/pvldb/BaoZXYOTA22
+- author: Fangcheng Fu, Xupeng Miao, Jiawei Jiang, Huanran Xue, Bin Cui 0001
+  title: Towards Communication-efficient Vertical Federated Learning Training via
+    Cache-enabled Local Update.
+  venue: Proc. VLDB Endow.
+  year: '2022'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/FuMJXC22
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol15/p2111-fu.pdf
+  url: https://dblp.org/rec/journals/pvldb/FuMJXC22
+- author: Xiaochen Li, Yuke Hu, Weiran Liu, Hanwen Feng 0001, Li Peng, Yuan Hong,
+    Kui Ren 0001, Zhan Qin
+  title: 'OpBoost: A Vertical Federated Tree Boosting Framework Based on Order-Preserving
+    Desensitization.'
+  venue: Proc. VLDB Endow.
+  year: '2022'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiHL0PH0Q22
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol16/p202-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiHL0PH0Q22
+- author: Zhiyu Liang, Hongzhi Wang 0001
+  title: 'FedTSC: A Secure Federated Learning System for Interpretable Time Series
+    Classification.'
+  venue: Proc. VLDB Endow.
+  year: '2022'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiangW22
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol15/p3686-wang.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiangW22
+- author: Zitao Li, Bolin Ding, Ce Zhang 0001, Ninghui Li, Jingren Zhou
+  title: Federated Matrix Factorization with Privacy Guarantee.
+  venue: Proc. VLDB Endow.
+  year: '2021'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiDZLZ21
+  doi: 10.14778/3503585.3503598
+  ee: https://www.vldb.org/pvldb/vol15/p900-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiDZLZ21
+- author: Junxu Liu, Jian Lou 0001, Li Xiong 0001, Jinfei Liu, Xiaofeng Meng 0001
+  title: Projected Federated Averaging with Heterogeneous Differential Privacy.
+  venue: Proc. VLDB Endow.
+  year: '2021'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiuLXLM21
+  doi: 10.14778/3503585.3503592
+  ee: https://www.vldb.org/pvldb/vol15/p828-liu.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiuLXLM21
+- author: Yejia Liu, Weiyuan Wu, Lampros Flokas, Jiannan Wang, Eugene Wu 0002
+  title: Enabling SQL-based Training Data Debugging for Federated Learning.
+  venue: Proc. VLDB Endow.
+  year: '2021'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiuWFWW21
+  doi: 10.14778/3494124.3494125
+  ee: http://www.vldb.org/pvldb/vol15/p388-wu.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiuWFWW21
+- author: Joshua F. Stoddard, Adam Mustafa, Naveen Goela
+  title: 'Tanium Reveal: A Federated Search Engine for Querying Unstructured File
+    Data on Large Enterprise Networks.'
+  venue: Proc. VLDB Endow.
+  year: '2021'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/StoddardMG21
+  doi: 10.14778/3476311.3476386
+  ee: http://www.vldb.org/pvldb/vol14/p3096-stoddard.pdf
+  url: https://dblp.org/rec/journals/pvldb/StoddardMG21
+- author: Zhebin Zhang, Dajie Dong, Yuhang Ma, Yilong Ying, Dawei Jiang, Ke Chen 0005,
+    Lidan Shou, Gang Chen 0001
+  title: 'Refiner: A Reliable Incentive-Driven Federated Learning System Powered by
+    Blockchain.'
+  venue: Proc. VLDB Endow.
+  year: '2021'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhangDMYJ0S021
+  doi: 10.14778/3476311.3476313
+  ee: http://www.vldb.org/pvldb/vol14/p2659-jiang.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhangDMYJ0S021
+- author: Yuncheng Wu, Shaofeng Cai, Xiaokui Xiao, Gang Chen 0001, Beng Chin Ooi
+  title: Privacy Preserving Vertical Federated Learning for Tree-based Models.
+  venue: Proc. VLDB Endow.
+  year: '2020'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/WuCXCO20
+  doi: ''
+  ee: http://www.vldb.org/pvldb/vol13/p2090-wu.pdf
+  url: https://dblp.org/rec/journals/pvldb/WuCXCO20
+- author: Anastasios Kementsietsidis, Frank Neven, Dieter Van de Craen, Stijn Vansummeren
+  title: Scalable multi-query optimization for exploratory queries over federated
+    scientific databases.
+  venue: Proc. VLDB Endow.
+  year: '2008'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/KementsietsidisNCV08
+  doi: 10.14778/1453856.1453864
+  ee: http://www.vldb.org/pvldb/vol1/1453864.pdf
+  url: https://dblp.org/rec/journals/pvldb/KementsietsidisNCV08
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -10177,13 +11004,1107 @@ federate%20venue%3AMLSys%3A:
   doi: ''
   ee: https://proceedings.mlsys.org/book/271.pdf
   url: https://dblp.org/rec/conf/mlsys/BonawitzEGHIIKK19
-federate%20streamid%3Aconf%2Feurosys%3A: []
-federate%20streamid%3Ajournals%2Ftpds%3A: []
+federate%20streamid%3Aconf%2Feurosys%3A:
+- author: Ahmed M. Abdelmoniem, Atal Narayan Sahu, Marco Canini, Suhaib A. Fahmy
+  title: 'REFL: Resource-Efficient Federated Learning.'
+  venue: EuroSys
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/AbdelmoniemSCF23
+  doi: 10.1145/3552326.3567485
+  ee: https://doi.org/10.1145/3552326.3567485
+  url: https://dblp.org/rec/conf/eurosys/AbdelmoniemSCF23
+- author: Norah Alballa, Marco Canini
+  title: A First Look at the Impact of Distillation Hyper-Parameters in Federated
+    Knowledge Distillation.
+  venue: EuroMLSys@EuroSys
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/AlballaC23
+  doi: 10.1145/3578356.3592590
+  ee: https://doi.org/10.1145/3578356.3592590
+  url: https://dblp.org/rec/conf/eurosys/AlballaC23
+- author: Dongqi Cai, Yaozong Wu, Haitao Yuan 0002, Shangguang Wang, Felix Xiaozhu
+    Lin, Mengwei Xu
+  title: Towards Practical Few-shot Federated NLP.
+  venue: EuroMLSys@EuroSys
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/CaiWYWLX23
+  doi: 10.1145/3578356.3592575
+  ee: https://doi.org/10.1145/3578356.3592575
+  url: https://dblp.org/rec/conf/eurosys/CaiWYWLX23
+- author: "Alex Iacob, Pedro Porto Buarque de Gusm\xE3o, Nicholas D. Lane"
+  title: Can Fair Federated Learning Reduce the need for Personalisation?
+  venue: EuroMLSys@EuroSys
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/IacobGL23
+  doi: 10.1145/3578356.3592592
+  ee: https://doi.org/10.1145/3578356.3592592
+  url: https://dblp.org/rec/conf/eurosys/IacobGL23
+- author: Chenyang Ma, Xinchi Qiu, Daniel J. Beutel, Nicholas D. Lane
+  title: Gradient-less Federated Gradient Boosting Tree with Learnable Learning Rates.
+  venue: EuroMLSys@EuroSys
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/MaQBL23
+  doi: 10.1145/3578356.3592579
+  ee: https://doi.org/10.1145/3578356.3592579
+  url: https://dblp.org/rec/conf/eurosys/MaQBL23
+- author: Ousmane Touat, Sara Bouchenak
+  title: Towards Robust and Bias-free Federated Learning.
+  venue: EuroMLSys@EuroSys
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/TouatB23
+  doi: 10.1145/3578356.3592576
+  ee: https://doi.org/10.1145/3578356.3592576
+  url: https://dblp.org/rec/conf/eurosys/TouatB23
+- author: Ahmed M. Abdelmoniem, Chen-Yu Ho 0001, Pantelis Papageorgiou, Marco Canini
+  title: Empirical analysis of federated learning in heterogeneous environments.
+  venue: EuroMLSys@EuroSys
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/Abdelmoniem0PC22
+  doi: 10.1145/3517207.3526969
+  ee: https://doi.org/10.1145/3517207.3526969
+  url: https://dblp.org/rec/conf/eurosys/Abdelmoniem0PC22
+- author: Hongrui Shi, Valentin Radu
+  title: Data selection for efficient model update in federated learning.
+  venue: EuroMLSys@EuroSys
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/ShiR22
+  doi: 10.1145/3517207.3526980
+  ee: https://doi.org/10.1145/3517207.3526980
+  url: https://dblp.org/rec/conf/eurosys/ShiR22
+- author: Ahmed M. Abdelmoniem, Marco Canini
+  title: Towards Mitigating Device Heterogeneity in Federated Learning via Adaptive
+    Model Quantization.
+  venue: EuroMLSys@EuroSys
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/AbdelmoniemC21
+  doi: 10.1145/3437984.3458839
+  ee: https://doi.org/10.1145/3437984.3458839
+  url: https://dblp.org/rec/conf/eurosys/AbdelmoniemC21
+- author: Hongrui Shi, Valentin Radu
+  title: Towards Federated Learning with Attention Transfer to Mitigate System and
+    Data Heterogeneity of Clients.
+  venue: EdgeSys@EuroSys
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/ShiR21
+  doi: 10.1145/3434770.3459739
+  ee: https://doi.org/10.1145/3434770.3459739
+  url: https://dblp.org/rec/conf/eurosys/ShiR21
+- author: Yuanli Wang, Joel Wolfrath, Nikhil Sreekumar, Dhruv Kumar 0001, Abhishek
+    Chandra
+  title: Accelerated Training via Device Similarity in Federated Learning.
+  venue: EdgeSys@EuroSys
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/WangWS0C21
+  doi: 10.1145/3434770.3459734
+  ee: https://doi.org/10.1145/3434770.3459734
+  url: https://dblp.org/rec/conf/eurosys/WangWS0C21
+- author: Bram van Berlo, Aaqib Saeed, Tanir Ozcelebi
+  title: Towards federated unsupervised representation learning.
+  venue: EdgeSys@EuroSys
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/BerloSO20
+  doi: 10.1145/3378679.3394530
+  ee: https://doi.org/10.1145/3378679.3394530
+  url: https://dblp.org/rec/conf/eurosys/BerloSO20
+- author: Angelo Feraudo, Poonam Yadav, Vadim Safronov, Diana Andreea Popescu, Richard
+    Mortier, Shiqiang Wang 0001, Paolo Bellavista, Jon Crowcroft
+  title: 'CoLearn: enabling federated learning in MUD-compliant IoT edge networks.'
+  venue: EdgeSys@EuroSys
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/FeraudoYSPMWBC20
+  doi: 10.1145/3378679.3394528
+  ee: https://doi.org/10.1145/3378679.3394528
+  url: https://dblp.org/rec/conf/eurosys/FeraudoYSPMWBC20
+- author: Stacey Truex, Ling Liu 0001, Ka Ho Chow, Mehmet Emre Gursoy, Wenqi Wei
+  title: 'LDP-Fed: federated learning with local differential privacy.'
+  venue: EdgeSys@EuroSys
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/Truex0CGW20
+  doi: 10.1145/3378679.3394533
+  ee: https://doi.org/10.1145/3378679.3394533
+  url: https://dblp.org/rec/conf/eurosys/Truex0CGW20
+- author: Milosz Pacholczyk, Krzysztof Rzadca
+  title: Fair non-monetary scheduling in federated clouds.
+  venue: CrossCloud@EuroSys
+  year: '2018'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/PacholczykR18
+  doi: 10.1145/3195870.3195873
+  ee: https://doi.org/10.1145/3195870.3195873
+  url: https://dblp.org/rec/conf/eurosys/PacholczykR18
+federate%20streamid%3Ajournals%2Ftpds%3A:
+- author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
+    0001
+  title: 'Dap-FL: Federated Learning Flourishes by Adaptive Tuning and Secure Aggregation.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ChenWCYL23
+  doi: 10.1109/TPDS.2023.3267897
+  ee: https://doi.org/10.1109/TPDS.2023.3267897
+  url: https://dblp.org/rec/journals/tpds/ChenWCYL23
+- author: Jie Cui 0004, Hu Sun, Hong Zhong 0001, Jing Zhang 0024, Lu Wei 0003, Irina
+    Bolodurina, Debiao He
+  title: 'Collaborative Intrusion Detection System for SDVN: A Fairness Federated
+    Deep Learning Approach.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/CuiSZZWBH23
+  doi: 10.1109/TPDS.2023.3290650
+  ee: https://doi.org/10.1109/TPDS.2023.3290650
+  url: https://dblp.org/rec/journals/tpds/CuiSZZWBH23
+- author: Yeting Guo, Fang Liu 0002, Tongqing Zhou, Zhiping Cai, Nong Xiao
+  title: 'Privacy vs. Efficiency: Achieving Both Through Adaptive Hierarchical Federated
+    Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/GuoLZCX23
+  doi: 10.1109/TPDS.2023.3244198
+  ee: https://doi.org/10.1109/TPDS.2023.3244198
+  url: https://dblp.org/rec/journals/tpds/GuoLZCX23
+- author: Hai Jin 0001, Dongshan Bai, Dezhong Yao 0002, Yutong Dai 0002, Lin Gu 0002,
+    Chen Yu 0003, Lichao Sun 0001
+  title: Personalized Edge Intelligence via Federated Self-Knowledge Distillation.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/tpds/JinBYDGYS23
+  doi: 10.1109/TPDS.2022.3225185
+  ee: https://doi.org/10.1109/TPDS.2022.3225185
+  url: https://dblp.org/rec/journals/tpds/JinBYDGYS23
+- author: Haoyu Jin, Donglei Wu, Shuyu Zhang, Xiangyu Zou, Sian Jin, Dingwen Tao,
+    Qing Liao 0001, Wen Xia
+  title: Design of a Quantization-Based DNN Delta Compression Framework for Model
+    Snapshots and Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/JinWZZJTLX23
+  doi: 10.1109/TPDS.2022.3230840
+  ee: https://doi.org/10.1109/TPDS.2022.3230840
+  url: https://dblp.org/rec/journals/tpds/JinWZZJTLX23
+- author: Runze Lei, Pinghui Wang, Junzhou Zhao, Lin Lan, Jing Tao, Chao Deng, Junlan
+    Feng, Xidian Wang, Xiaohong Guan
+  title: Federated Learning Over Coupled Graphs.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LeiWZLTDFWG23
+  doi: 10.1109/TPDS.2023.3240527
+  ee: https://doi.org/10.1109/TPDS.2023.3240527
+  url: https://dblp.org/rec/journals/tpds/LeiWZLTDFWG23
+- author: Yuchen Li 0003, Weifa Liang, Jing Li 0093, Xiuzhen Cheng 0001, Dongxiao
+    Yu, Albert Y. Zomaya, Song Guo 0001
+  title: Energy-Aware, Device-to-Device Assisted Federated Learning in Edge Computing.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiLLCYZG23
+  doi: 10.1109/TPDS.2023.3277423
+  ee: https://doi.org/10.1109/TPDS.2023.3277423
+  url: https://dblp.org/rec/journals/tpds/LiLLCYZG23
+- author: Ji Liu 0003, Juncheng Jia, Beichen Ma, Chendi Zhou, Jingbo Zhou, Yang Zhou
+    0001, Huaiyu Dai, Dejing Dou
+  title: Multi-Job Intelligent Scheduling With Cross-Device Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiuJMZZZDD23
+  doi: 10.1109/TPDS.2022.3224941
+  ee: https://doi.org/10.1109/TPDS.2022.3224941
+  url: https://dblp.org/rec/journals/tpds/LiuJMZZZDD23
+- author: Renhao Lu, Weizhe Zhang, Yan Wang 0002, Qiong Li, Xiaoxiong Zhong, Hongwei
+    Yang, Desheng Wang 0002
+  title: Auction-Based Cluster Federated Learning in Mobile Edge Computing Systems.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LuZWLZYW23
+  doi: 10.1109/TPDS.2023.3240767
+  ee: https://doi.org/10.1109/TPDS.2023.3240767
+  url: https://dblp.org/rec/journals/tpds/LuZWLZYW23
+- author: Jed Mills, Jia Hu 0001, Geyong Min
+  title: Faster Federated Learning With Decaying Number of Local SGD Steps.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/MillsHM23
+  doi: 10.1109/TPDS.2023.3277367
+  ee: https://doi.org/10.1109/TPDS.2023.3277367
+  url: https://dblp.org/rec/journals/tpds/MillsHM23
+- author: N. Jagan Mohan, R. Murugan, Tripti Goel, Parthapratim Roy
+  title: 'DRFL: Federated Learning in Diabetic Retinopathy Grading Using Fundus Images.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/MohanMGR23
+  doi: 10.1109/TPDS.2023.3264473
+  ee: https://doi.org/10.1109/TPDS.2023.3264473
+  url: https://dblp.org/rec/journals/tpds/MohanMGR23
+- author: "La\xE9rcio Lima Pilla"
+  title: Scheduling Algorithms for Federated Learning With Minimal Energy Consumption.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/Pilla23
+  doi: 10.1109/TPDS.2023.3240833
+  ee: https://doi.org/10.1109/TPDS.2023.3240833
+  url: https://dblp.org/rec/journals/tpds/Pilla23
+- author: Rituparna Saha, Sudip Misra, Aishwariya Chakraborty, Chandranath Chatterjee,
+    Pallav Kumar Deb
+  title: Data-Centric Client Selection for Federated Learning Over Distributed Edge
+    Networks.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/SahaMCCD23
+  doi: 10.1109/TPDS.2022.3217271
+  ee: https://doi.org/10.1109/TPDS.2022.3217271
+  url: https://dblp.org/rec/journals/tpds/SahaMCCD23
+- author: Xiaoxin Su, Yipeng Zhou, Laizhong Cui, Jiangchuan Liu
+  title: On Model Transmission Strategies in Federated Learning With Lossy Communications.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/SuZCL23
+  doi: 10.1109/TPDS.2023.3240883
+  ee: https://doi.org/10.1109/TPDS.2023.3240883
+  url: https://dblp.org/rec/journals/tpds/SuZCL23
+- author: Zhenheng Tang, Shaohuai Shi, Bo Li 0001, Xiaowen Chu 0001
+  title: 'GossipFL: A Decentralized Federated Learning Framework With Sparsified and
+    Adaptive Communication.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/TangSLC23
+  doi: 10.1109/TPDS.2022.3230938
+  ee: https://doi.org/10.1109/TPDS.2022.3230938
+  url: https://dblp.org/rec/journals/tpds/TangSLC23
+- author: Zhilin Wang, Qin Hu 0001, Ruinian Li, Minghui Xu 0001, Zehui Xiong
+  title: Incentive Mechanism Design for Joint Resource Allocation in Blockchain-Based
+    Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WangHLXX23
+  doi: 10.1109/TPDS.2023.3253604
+  ee: https://doi.org/10.1109/TPDS.2023.3253604
+  url: https://dblp.org/rec/journals/tpds/WangHLXX23
+- author: Jin Wang, Jia Hu 0001, Jed Mills, Geyong Min, Ming Xia, Nektarios Georgalas
+  title: Federated Ensemble Model-Based Reinforcement Learning in Edge Computing.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WangHMMXG23
+  doi: 10.1109/TPDS.2023.3264480
+  ee: https://doi.org/10.1109/TPDS.2023.3264480
+  url: https://dblp.org/rec/journals/tpds/WangHMMXG23
+- author: Qiong Wu 0009, Xu Chen 0004, Tao Ouyang, Zhi Zhou 0006, Xiaoxi Zhang, Shusen
+    Yang, Junshan Zhang
+  title: 'HiFlash: Communication-Efficient Hierarchical Federated Learning With Adaptive
+    Staleness Control and Heterogeneity-Aware Client-Edge Association.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuCOZZYZ23
+  doi: 10.1109/TPDS.2023.3238049
+  ee: https://doi.org/10.1109/TPDS.2023.3238049
+  url: https://dblp.org/rec/journals/tpds/WuCOZZYZ23
+- author: Feijie Wu, Song Guo 0001, Haozhao Wang, Haobo Zhang, Zhihao Qu, Jie Zhang
+    0076, Ziming Liu
+  title: 'From Deterioration to Acceleration: A Calibration Approach to Rehabilitating
+    Step Asynchronism in Federated Optimization.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuGWZQZL23
+  doi: 10.1109/TPDS.2023.3250513
+  ee: https://doi.org/10.1109/TPDS.2023.3250513
+  url: https://dblp.org/rec/journals/tpds/WuGWZQZL23
+- author: Wentai Wu, Ligang He, Weiwei Lin 0001, Carsten Maple
+  title: 'FedProf: Selective Federated Learning Based on Distributional Representation
+    Profiling.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuHLM23
+  doi: 10.1109/TPDS.2023.3265588
+  ee: https://doi.org/10.1109/TPDS.2023.3265588
+  url: https://dblp.org/rec/journals/tpds/WuHLM23
+- author: Zichuan Xu, Dapeng Zhao, Weifa Liang, Omer F. Rana, Pan Zhou, Mingchu Li,
+    Wenzheng Xu, Hao Li, Qiufen Xia
+  title: 'HierFedML: Aggregator Placement and UE Assignment for Hierarchical Federated
+    Learning in Mobile Edge Computing.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/XuZLRZLXLX23
+  doi: 10.1109/TPDS.2022.3218807
+  ee: https://doi.org/10.1109/TPDS.2022.3218807
+  url: https://dblp.org/rec/journals/tpds/XuZLRZLXLX23
+- author: Yu Zhang, Duo Liu, Moming Duan, Li Li, Xianzhang Chen, Ao Ren, Yujuan Tan,
+    Chengliang Wang
+  title: 'FedMDS: An Efficient Model Discrepancy-Aware Semi-Asynchronous Clustered
+    Federated Learning Framework.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhangLDLCRTW23
+  doi: 10.1109/TPDS.2023.3237752
+  ee: https://doi.org/10.1109/TPDS.2023.3237752
+  url: https://dblp.org/rec/journals/tpds/ZhangLDLCRTW23
+- author: Chunjiang Che, Xiaoli Li, Chuan Chen 0001, Xiaoyu He 0001, Zibin Zheng
+  title: A Decentralized Federated Learning Framework via Committee Mechanism With
+    Convergence Guarantee.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/CheLCHZ22
+  doi: 10.1109/TPDS.2022.3202887
+  ee: https://doi.org/10.1109/TPDS.2022.3202887
+  url: https://dblp.org/rec/journals/tpds/CheLCHZ22
+- author: Fahao Chen, Peng Li 0017, Toshiaki Miyazaki, Celimuge Wu
+  title: 'FedGraph: Federated Graph Learning With Intelligent Sampling.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ChenLMW22
+  doi: 10.1109/TPDS.2021.3125565
+  ee: https://doi.org/10.1109/TPDS.2021.3125565
+  url: https://dblp.org/rec/journals/tpds/ChenLMW22
+- author: Yongheng Deng, Feng Lyu 0001, Ju Ren, Yi-Chao Chen 0001, Peng Yang 0004,
+    Yuezhi Zhou, Yaoxue Zhang
+  title: Improving Federated Learning With Quality-Aware User Incentive and Auto-Weighted
+    Model Aggregation.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/DengLRCYZZ22
+  doi: 10.1109/TPDS.2022.3195207
+  ee: https://doi.org/10.1109/TPDS.2022.3195207
+  url: https://dblp.org/rec/journals/tpds/DengLRCYZZ22
+- author: Yongheng Deng, Feng Lyu 0001, Ju Ren, Huaqing Wu, Yuezhi Zhou, Yaoxue Zhang,
+    Xuemin Shen
+  title: 'AUCTION: Automated and Quality-Aware Client Selection Framework for Efficient
+    Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/DengLRWZZS22
+  doi: 10.1109/TPDS.2021.3134647
+  ee: https://doi.org/10.1109/TPDS.2021.3134647
+  url: https://dblp.org/rec/journals/tpds/DengLRWZZS22
+- author: Canh T. Dinh, Nguyen Hoang Tran, Tuan Dung Nguyen, Wei Bao, Amir Rezaei
+    Balef, Bing Bing Zhou, Albert Y. Zomaya
+  title: 'DONE: Distributed Approximate Newton-type Method for Federated Edge Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/DinhTNBBZZ22
+  doi: 10.1109/TPDS.2022.3146253
+  ee: https://doi.org/10.1109/TPDS.2022.3146253
+  url: https://dblp.org/rec/journals/tpds/DinhTNBBZZ22
+- author: Moming Duan, Duo Liu, Xinyuan Ji, Yu Wu, Liang Liang 0002, Xianzhang Chen,
+    Yujuan Tan, Ao Ren
+  title: Flexible Clustered Federated Learning for Client-Level Data Distribution
+    Shift.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/DuanLJWLCTR22
+  doi: 10.1109/TPDS.2021.3134263
+  ee: https://doi.org/10.1109/TPDS.2021.3134263
+  url: https://dblp.org/rec/journals/tpds/DuanLJWLCTR22
+- author: Jie Feng 0004, Lei Liu 0031, Qingqi Pei, Keqin Li 0001
+  title: Min-Max Cost Optimization for Efficient Hierarchical Federated Learning in
+    Wireless Edge Networks.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/FengLPL22
+  doi: 10.1109/TPDS.2021.3131654
+  ee: https://doi.org/10.1109/TPDS.2021.3131654
+  url: https://dblp.org/rec/journals/tpds/FengLPL22
+- author: Jialin Guo, Jie Wu 0001, Anfeng Liu, Neal N. Xiong
+  title: 'LightFed: An Efficient and Secure Federated Edge Learning System on Model
+    Splitting.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/GuoWLX22
+  doi: 10.1109/TPDS.2021.3127712
+  ee: https://doi.org/10.1109/TPDS.2021.3127712
+  url: https://dblp.org/rec/journals/tpds/GuoWLX22
+- author: Abolfazl Hashemi, Anish Acharya, Rudrajit Das, Haris Vikalo, Sujay Sanghavi,
+    Inderjit S. Dhillon
+  title: On the Benefits of Multiple Gossip Steps in Communication-Constrained Decentralized
+    Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/HashemiADVSD22
+  doi: 10.1109/TPDS.2021.3138977
+  ee: https://doi.org/10.1109/TPDS.2021.3138977
+  url: https://dblp.org/rec/journals/tpds/HashemiADVSD22
+- author: Miao Hu, Di Wu 0001, Yipeng Zhou, Xu Chen 0004, Min Chen 0003
+  title: Incentive-Aware Autonomous Client Participation in Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/HuWZCC22
+  doi: 10.1109/TPDS.2022.3148113
+  ee: https://doi.org/10.1109/TPDS.2022.3148113
+  url: https://dblp.org/rec/journals/tpds/HuWZCC22
+- author: Hua Kang, Zhiyang Li, Qian Zhang 0001
+  title: Communicational and Computational Efficient Federated Domain Adaptation.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/KangLZ22
+  doi: 10.1109/TPDS.2022.3167457
+  ee: https://doi.org/10.1109/TPDS.2022.3167457
+  url: https://dblp.org/rec/journals/tpds/KangLZ22
+- author: Zhuozhao Li, Ryan Chard, Yadu N. Babuji, Ben Galewsky, Tyler J. Skluzacek,
+    Kirill Nagaitsev, Anna Woodard, Ben Blaiszik, Josh Bryan, Daniel S. Katz, Ian
+    T. Foster, Kyle Chard
+  title: '$f$funcX: Federated Function as a Service for Science.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiCBGSNWBBKFC22
+  doi: 10.1109/TPDS.2022.3208767
+  ee: https://doi.org/10.1109/TPDS.2022.3208767
+  url: https://dblp.org/rec/journals/tpds/LiCBGSNWBBKFC22
+- author: Jun Li 0004, Yumeng Shao, Kang Wei, Ming Ding 0001, Chuan Ma, Long Shi,
+    Zhu Han 0001, H. Vincent Poor
+  title: 'Blockchain Assisted Decentralized Federated Learning (BLADE-FL): Performance
+    Analysis and Resource Allocation.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiSWDMSHP22
+  doi: 10.1109/TPDS.2021.3138848
+  ee: https://doi.org/10.1109/TPDS.2021.3138848
+  url: https://dblp.org/rec/journals/tpds/LiSWDMSHP22
+- author: Anran Li, Lan Zhang 0002, Junhao Wang, Feng Han, Xiang-Yang Li 0001
+  title: Privacy-Preserving Efficient Federated-Learning Model Debugging.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiZWHL22
+  doi: 10.1109/TPDS.2021.3137321
+  ee: https://doi.org/10.1109/TPDS.2021.3137321
+  url: https://dblp.org/rec/journals/tpds/LiZWHL22
+- author: Wei Yang Bryan Lim, Jer Shyuan Ng, Zehui Xiong, Jiangming Jin, Yang Zhang
+    0025, Dusit Niyato, Cyril Leung, Chunyan Miao
+  title: 'Decentralized Edge Intelligence: A Dynamic Resource Allocation Framework
+    for Hierarchical Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LimNXJZNLM22
+  doi: 10.1109/TPDS.2021.3096076
+  ee: https://doi.org/10.1109/TPDS.2021.3096076
+  url: https://dblp.org/rec/journals/tpds/LimNXJZNLM22
+- author: Xu Ma, Xiaoqian Sun, Yuduo Wu, Zheli Liu, Xiaofeng Chen 0001, Changyu Dong
+  title: Differentially Private Byzantine-Robust Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/MaSWLCD22
+  doi: 10.1109/TPDS.2022.3167434
+  ee: https://doi.org/10.1109/TPDS.2022.3167434
+  url: https://dblp.org/rec/journals/tpds/MaSWLCD22
+- author: Jed Mills, Jia Hu 0001, Geyong Min
+  title: Multi-Task Federated Learning for Personalised Deep Neural Networks in Edge
+    Computing.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/MillsHM22
+  doi: 10.1109/TPDS.2021.3098467
+  ee: https://doi.org/10.1109/TPDS.2021.3098467
+  url: https://dblp.org/rec/journals/tpds/MillsHM22
+- author: Jer Shyuan Ng, Wei Yang Bryan Lim, Zehui Xiong, Xianbin Cao 0001, Jiangming
+    Jin, Dusit Niyato, Cyril Leung, Chunyan Miao
+  title: Reputation-Aware Hedonic Coalition Formation for Efficient Serverless Hierarchical
+    Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/NgLXCJNLM22
+  doi: 10.1109/TPDS.2021.3139039
+  ee: https://doi.org/10.1109/TPDS.2021.3139039
+  url: https://dblp.org/rec/journals/tpds/NgLXCJNLM22
+- author: Dewen Qiao, Songtao Guo, Defang Liu, Saiqin Long, Pengzhan Zhou, Zhetao
+    Li
+  title: Adaptive Federated Deep Reinforcement Learning for Proactive Content Caching
+    in Edge Computing.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/QiaoGLLZL22
+  doi: 10.1109/TPDS.2022.3201983
+  ee: https://doi.org/10.1109/TPDS.2022.3201983
+  url: https://dblp.org/rec/journals/tpds/QiaoGLLZL22
+- author: Zhe Qu, Rui Duan, Lixing Chen, Jie Xu 0001, Zhuo Lu, Yao Liu 0007
+  title: Context-Aware Online Client Selection for Hierarchical Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/QuDCXLL22
+  doi: 10.1109/TPDS.2022.3186960
+  ee: https://doi.org/10.1109/TPDS.2022.3186960
+  url: https://dblp.org/rec/journals/tpds/QuDCXLL22
+- author: Abeda Sultana, Md. Mainul Haque, Li Chen 0019, Fei Xu, Xu Yuan
+  title: 'Eiffel: Efficient and Fair Scheduling in Adaptive Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/SultanaHCXY22
+  doi: 10.1109/TPDS.2022.3187365
+  ee: https://doi.org/10.1109/TPDS.2022.3187365
+  url: https://dblp.org/rec/journals/tpds/SultanaHCXY22
+- author: Chang Xu 0004, Yu Jia, Liehuang Zhu, Chuan Zhang 0003, Guoxie Jin, Kashif
+    Sharif
+  title: 'TDFL: Truth Discovery Based Byzantine Robust Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/XuJZZJS22
+  doi: 10.1109/TPDS.2022.3205714
+  ee: https://doi.org/10.1109/TPDS.2022.3205714
+  url: https://dblp.org/rec/journals/tpds/XuJZZJS22
+- author: Zhengjie Yang, Wei Bao, Dong Yuan, Nguyen Hoang Tran, Albert Y. Zomaya
+  title: Federated Learning With Nesterov Accelerated Gradient.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/YangBYTZ22
+  doi: 10.1109/TPDS.2022.3206480
+  ee: https://doi.org/10.1109/TPDS.2022.3206480
+  url: https://dblp.org/rec/journals/tpds/YangBYTZ22
+- author: Yiming Zeng, Yixuan Lin, Yuanyuan Yang 0001, Ji Liu 0001
+  title: Differentially Private Federated Temporal Difference Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZengLYL22
+  doi: 10.1109/TPDS.2021.3133898
+  ee: https://doi.org/10.1109/TPDS.2021.3133898
+  url: https://dblp.org/rec/journals/tpds/ZengLYL22
+- author: Jie Zhang 0076, Song Guo 0001, Zhihao Qu, Deze Zeng, Haozhao Wang, Qifeng
+    Liu, Albert Y. Zomaya
+  title: Adaptive Vertical Federated Learning on Unbalanced Features.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhangGQZWLZ22
+  doi: 10.1109/TPDS.2022.3178443
+  ee: https://doi.org/10.1109/TPDS.2022.3178443
+  url: https://dblp.org/rec/journals/tpds/ZhangGQZWLZ22
+- author: Zihao Zhou, Yanan Li 0004, Xuebin Ren, Shusen Yang
+  title: Towards Efficient and Stable K-Asynchronous Federated Learning With Unbounded
+    Stale Gradients on Non-IID Data.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhouLRY22
+  doi: 10.1109/TPDS.2022.3150579
+  ee: https://doi.org/10.1109/TPDS.2022.3150579
+  url: https://dblp.org/rec/journals/tpds/ZhouLRY22
+- author: Yuhao Zhou, Qing Ye, Jiancheng Lv 0001
+  title: Communication-Efficient Federated Learning With Compensated Overlap-FedAvg.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhouYL22
+  doi: 10.1109/TPDS.2021.3090331
+  ee: https://doi.org/10.1109/TPDS.2021.3090331
+  url: https://dblp.org/rec/journals/tpds/ZhouYL22
+- author: Cong Wang 0006, Yuanyuan Yang 0001, Pengzhan Zhou
+  title: Towards Efficient Scheduling of Federated Mobile Devices Under Computational
+    and Statistical Heterogeneity.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/00060Z21
+  doi: 10.1109/TPDS.2020.3023905
+  ee: https://doi.org/10.1109/TPDS.2020.3023905
+  url: https://dblp.org/rec/journals/tpds/00060Z21
+- author: Moming Duan, Duo Liu, Xianzhang Chen, Renping Liu, Yujuan Tan, Liang Liang
+    0002
+  title: Self-Balancing Federated Learning With Global Imbalanced Data in Mobile Systems.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/DuanLCLTL21
+  doi: 10.1109/TPDS.2020.3009406
+  ee: https://doi.org/10.1109/TPDS.2020.3009406
+  url: https://dblp.org/rec/journals/tpds/DuanLCLTL21
+- author: Tiansheng Huang, Weiwei Lin 0001, Wentai Wu, Ligang He, Keqin Li 0001, Albert
+    Y. Zomaya
+  title: An Efficiency-Boosting Client Selection Scheme for Federated Learning With
+    Fairness Guarantee.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/HuangLWHLZ21
+  doi: 10.1109/TPDS.2020.3040887
+  ee: https://doi.org/10.1109/TPDS.2020.3040887
+  url: https://dblp.org/rec/journals/tpds/HuangLWHLZ21
+- author: Xidi Qu, Shengling Wang 0001, Qin Hu 0001, Xiuzhen Cheng 0001
+  title: 'Proof of Federated Learning: A Novel Energy-Recycling Consensus Algorithm.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/QuWHC21
+  doi: 10.1109/TPDS.2021.3056773
+  ee: https://doi.org/10.1109/TPDS.2021.3056773
+  url: https://dblp.org/rec/journals/tpds/QuWHC21
+- author: Muhammad Shayan, Clement Fung, Chris J. M. Yoon, Ivan Beschastnikh
+  title: 'Biscotti: A Blockchain System for Private and Secure Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ShayanFYB21
+  doi: 10.1109/TPDS.2020.3044223
+  ee: https://doi.org/10.1109/TPDS.2020.3044223
+  url: https://dblp.org/rec/journals/tpds/ShayanFYB21
+- author: Md. Palash Uddin, Yong Xiang 0001, Xuequan Lu, John Yearwood, Longxiang
+    Gao
+  title: Mutual Information Driven Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/UddinXLYG21
+  doi: 10.1109/TPDS.2020.3040981
+  ee: https://doi.org/10.1109/TPDS.2020.3040981
+  url: https://dblp.org/rec/journals/tpds/UddinXLYG21
+- author: Wentai Wu, Ligang He, Weiwei Lin 0001, Rui Mao 0001
+  title: Accelerating Federated Learning Over Reliability-Agnostic Clients in Mobile
+    Edge Computing Systems.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuHLM21
+  doi: 10.1109/TPDS.2020.3040867
+  ee: https://doi.org/10.1109/TPDS.2020.3040867
+  url: https://dblp.org/rec/journals/tpds/WuHLM21
+- author: Xueyu Wu, Xin Yao, Cho-Li Wang
+  title: 'FedSCR: Structure-Based Communication Reduction for Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuYW21
+  doi: 10.1109/TPDS.2020.3046250
+  ee: https://doi.org/10.1109/TPDS.2020.3046250
+  url: https://dblp.org/rec/journals/tpds/WuYW21
+- author: Wei Liu 0115, Li Chen 0015, Yunfei Chen 0001, Wenyi Zhang 0001
+  title: Accelerating Federated Learning via Momentum Gradient Descent.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2020'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiuCCZ20
+  doi: 10.1109/TPDS.2020.2975189
+  ee: https://doi.org/10.1109/TPDS.2020.2975189
+  url: https://dblp.org/rec/journals/tpds/LiuCCZ20
+- author: Lingjuan Lyu, Jiangshan Yu, Karthik Nandakumar, Yitong Li 0002, Xingjun
+    Ma, Jiong Jin, Han Yu 0001, Kee Siong Ng
+  title: Towards Fair and Privacy-Preserving Federated Deep Models.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2020'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LyuYNLMJYN20
+  doi: 10.1109/TPDS.2020.2996273
+  ee: https://doi.org/10.1109/TPDS.2020.2996273
+  url: https://dblp.org/rec/journals/tpds/LyuYNLMJYN20
+- author: Gang Chen 0002, Abdolhossein Sarrafzadeh, Shaoning Pang
+  title: Service Provision Control in Federated Service Providing Systems.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2013'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/0002SP13
+  doi: 10.1109/TPDS.2012.150
+  ee: https://doi.org/10.1109/TPDS.2012.150
+  url: https://dblp.org/rec/journals/tpds/0002SP13
+- author: Yanbo Wu, Quan Z. Sheng, Hong Shen 0001, Sherali Zeadally
+  title: Modeling Object Flows from Distributed and Federated RFID Data Streams for
+    Efficient Tracking and Tracing.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2013'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuSSZ13
+  doi: 10.1109/TPDS.2013.99
+  ee: https://doi.org/10.1109/TPDS.2013.99
+  url: https://dblp.org/rec/journals/tpds/WuSSZ13
 federate%20streamid%3Ajournals%2Ftocs%3A: []
-federate%20streamid%3Ajournals%2Ftos%3A: []
-federate%20streamid%3Ajournals%2Ftcad%3A: []
-federate%20streamid%3Ajournals%2Ftc%3A: []
-federate%20streamid%3Aconf%2Ficse%3A: []
+federate%20streamid%3Ajournals%2Ftos%3A:
+- author: Amina Chikhaoui, Laurent Lemarchand, Kamel Boukhalfa, Jalil Boukhobza
+  title: Multi-objective Optimization of Data Placement in a Storage-as-a-Service
+    Federated Cloud.
+  venue: ACM Trans. Storage
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tos/ChikhaouiLBB21
+  doi: 10.1145/3452741
+  ee: https://doi.org/10.1145/3452741
+  url: https://dblp.org/rec/journals/tos/ChikhaouiLBB21
+federate%20streamid%3Ajournals%2Ftcad%3A:
+- author: Yangguang Cui, Kun Cao 0001, Junlong Zhou, Tongquan Wei
+  title: Optimizing Training Efficiency and Cost of Hierarchical Federated Learning
+    in Heterogeneous Mobile-Edge Cloud Computing.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/CuiCZW23
+  doi: 10.1109/TCAD.2022.3205551
+  ee: https://doi.org/10.1109/TCAD.2022.3205551
+  url: https://dblp.org/rec/journals/tcad/CuiCZW23
+- author: Yangguang Cui, Kun Cao 0001, Guitao Cao, Meikang Qiu, Tongquan Wei
+  title: Client Scheduling and Resource Management for Efficient Training in Heterogeneous
+    IoT-Edge Federated Learning.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/CuiCCQW22
+  doi: 10.1109/TCAD.2021.3110743
+  ee: https://doi.org/10.1109/TCAD.2021.3110743
+  url: https://dblp.org/rec/journals/tcad/CuiCCQW22
+- author: Yang Wang 0082, Xu Jiang 0004, Nan Guan, Yue Tang 0001, Weichen Liu
+  title: Locking Protocols for Parallel Real-Time Tasks With Semaphores Under Federated
+    Scheduling.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/WangJGTL22
+  doi: 10.1109/TCAD.2021.3114261
+  ee: https://doi.org/10.1109/TCAD.2021.3114261
+  url: https://dblp.org/rec/journals/tcad/WangJGTL22
+- author: Jun Xia, Tian Liu 0005, Zhiwei Ling, Ting Wang 0001, Xin Fu, Mingsong Chen
+  title: 'PervasiveFL: Pervasive Federated Learning for Heterogeneous IoT Systems.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/XiaLLWFC22
+  doi: 10.1109/TCAD.2022.3197491
+  ee: https://doi.org/10.1109/TCAD.2022.3197491
+  url: https://dblp.org/rec/journals/tcad/XiaLLWFC22
+- author: Xinqian Zhang, Ming Hu 0003, Jun Xia, Tongquan Wei, Mingsong Chen, Shiyan
+    Hu
+  title: Efficient Federated Learning for Cloud-Based AIoT Applications.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/ZhangHXWCH21
+  doi: 10.1109/TCAD.2020.3046665
+  ee: https://doi.org/10.1109/TCAD.2020.3046665
+  url: https://dblp.org/rec/journals/tcad/ZhangHXWCH21
+- author: Roman Obermaisser, Christian El Salloum, Bernhard Huber, Hermann Kopetz
+  title: From a Federated to an Integrated Automotive Architecture.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2009'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/ObermaisserSHK09
+  doi: 10.1109/TCAD.2009.2014005
+  ee: https://doi.org/10.1109/TCAD.2009.2014005
+  url: https://dblp.org/rec/journals/tcad/ObermaisserSHK09
+federate%20streamid%3Ajournals%2Ftc%3A:
+- author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
+    Zheng
+  title: Privacy-Enhanced Decentralized Federated Learning at Dynamic Edge.
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ChenWYRXZ23
+  doi: 10.1109/TC.2023.3239542
+  ee: https://doi.org/10.1109/TC.2023.3239542
+  url: https://dblp.org/rec/journals/tc/ChenWYRXZ23
+- author: Fei Guan, Long Peng, Jiaqing Qiao
+  title: A New Federated Scheduling Algorithm for Arbitrary-Deadline DAG Tasks.
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/GuanPQ23
+  doi: 10.1109/TC.2023.3244632
+  ee: https://doi.org/10.1109/TC.2023.3244632
+  url: https://dblp.org/rec/journals/tc/GuanPQ23
+- author: Shaoyong Guo, Keqin Zhang, Bei Gong, Liandong Chen, Yinlin Ren, Feng Qi
+    0004, Xuesong Qiu 0001
+  title: 'Sandbox Computing: A Data Privacy Trusted Sharing Paradigm Via Blockchain
+    and Federated Learning.'
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/GuoZGCRQQ23
+  doi: 10.1109/TC.2022.3180968
+  ee: https://doi.org/10.1109/TC.2022.3180968
+  url: https://dblp.org/rec/journals/tc/GuoZGCRQQ23
+- author: "Ching-Chi Lin, Junjie Shi, Niklas Ueter, Mario G\xFCnzel, Jan Reineke 0001,\
+    \ Jian-Jia Chen"
+  title: Type-Aware Federated Scheduling for Typed DAG Tasks on Heterogeneous Multicore
+    Platforms.
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/tc/LinSUGRC23
+  doi: 10.1109/TC.2022.3202748
+  ee: https://doi.org/10.1109/TC.2022.3202748
+  url: https://dblp.org/rec/journals/tc/LinSUGRC23
+- author: Jed Mills, Jia Hu 0001, Geyong Min, Rui Jin, Siwei Zheng, Jin Wang
+  title: Accelerating Federated Learning With a Global Biased Optimiser.
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/MillsHMJZW23
+  doi: 10.1109/TC.2022.3212631
+  ee: https://doi.org/10.1109/TC.2022.3212631
+  url: https://dblp.org/rec/journals/tc/MillsHMJZW23
+- author: Youming Tao 0001, Sijia Cui, Wenlu Xu, Haofei Yin, Dongxiao Yu, Weifa Liang,
+    Xiuzhen Cheng 0001
+  title: Byzantine-Resilient Federated Learning at Edge.
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/TaoCXYYLC23
+  doi: 10.1109/TC.2023.3257510
+  ee: https://doi.org/10.1109/TC.2023.3257510
+  url: https://dblp.org/rec/journals/tc/TaoCXYYLC23
+- author: Dan Wang, Ju Ren, Zhibo Wang 0001, Yichuan Wang, Yaoxue Zhang
+  title: 'PrivAim: A Dual-Privacy Preserving and Quality-Aware Incentive Mechanism
+    for Federated Learning.'
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/WangRWWZ23
+  doi: 10.1109/TC.2022.3230904
+  ee: https://doi.org/10.1109/TC.2022.3230904
+  url: https://dblp.org/rec/journals/tc/WangRWWZ23
+- author: Lei Feng 0001, Yiqi Zhao, Shaoyong Guo, Xuesong Qiu 0001, Wenjing Li 0001,
+    Peng Yu 0001
+  title: 'BAFL: A Blockchain-Based Asynchronous Federated Learning Framework.'
+  venue: IEEE Trans. Computers
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/FengZGQLY22
+  doi: 10.1109/TC.2021.3072033
+  ee: https://doi.org/10.1109/TC.2021.3072033
+  url: https://dblp.org/rec/journals/tc/FengZGQLY22
+- author: Yufeng Zhan, Peng Li 0017, Leijie Wu, Song Guo 0001
+  title: 'L4L: Experience-Driven Computational Resource Control in Federated Learning.'
+  venue: IEEE Trans. Computers
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZhanLWG22
+  doi: 10.1109/TC.2021.3068219
+  ee: https://doi.org/10.1109/TC.2021.3068219
+  url: https://dblp.org/rec/journals/tc/ZhanLWG22
+- author: Jie Zhang 0076, Song Guo 0001, Zhihao Qu, Deze Zeng, Yufeng Zhan, Qifeng
+    Liu, Rajendra Akerkar
+  title: Adaptive Federated Learning on Non-IID Data With Resource Constraint.
+  venue: IEEE Trans. Computers
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZhangGQZZLA22
+  doi: 10.1109/TC.2021.3099723
+  ee: https://doi.org/10.1109/TC.2021.3099723
+  url: https://dblp.org/rec/journals/tc/ZhangGQZZLA22
+- author: Wentai Wu, Ligang He, Weiwei Lin 0001, Rui Mao 0001, Carsten Maple, Stephen
+    A. Jarvis
+  title: 'SAFA: A Semi-Asynchronous Protocol for Fast Federated Learning With Low
+    Overhead.'
+  venue: IEEE Trans. Computers
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/WuHLMMJ21
+  doi: 10.1109/TC.2020.2994391
+  ee: https://doi.org/10.1109/TC.2020.2994391
+  url: https://dblp.org/rec/journals/tc/WuHLMMJ21
+federate%20streamid%3Aconf%2Ficse%3A:
+- author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
+  title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'
+  venue: ICSE
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/GillAG23
+  doi: 10.1109/ICSE48619.2023.00053
+  ee: https://doi.org/10.1109/ICSE48619.2023.00053
+  url: https://dblp.org/rec/conf/icse/GillAG23
+- author: Ziqi Zhang, Yuanchun Li, Bingyan Liu, Yifeng Cai, Ding Li 0001, Yao Guo
+    0001, Xiangqun Chen
+  title: 'FedSlice: Protecting Federated Learning Models from Malicious Participants
+    with Model Slicing.'
+  venue: ICSE
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/ZhangLLCLGC23
+  doi: 10.1109/ICSE48619.2023.00049
+  ee: https://doi.org/10.1109/ICSE48619.2023.00049
+  url: https://dblp.org/rec/conf/icse/ZhangLLCLGC23
+- author: Luciano Baresi, Giovanni Quattrocchi, Nicholas Rasi
+  title: Federated Machine Learning as a Self-Adaptive Problem.
+  venue: SEAMS@ICSE
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/seams/BaresiQR21
+  doi: 10.1109/SEAMS51251.2021.00016
+  ee: https://doi.org/10.1109/SEAMS51251.2021.00016
+  url: https://dblp.org/rec/conf/seams/BaresiQR21
+- author: Nicola Franco, Hoai My Van, Marc Dreiser, Gereon Weiss
+  title: Towards a Self-Adaptive Architecture for Federated Learning of Industrial
+    Automation Systems.
+  venue: SEAMS@ICSE
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/seams/FrancoVDW21
+  doi: 10.1109/SEAMS51251.2021.00035
+  ee: https://doi.org/10.1109/SEAMS51251.2021.00035
+  url: https://dblp.org/rec/conf/seams/FrancoVDW21
+- author: Christopher Bailey
+  title: Application of Self-Adaptive techniques to federated authorization models.
+  venue: ICSE
+  year: '2012'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/Bailey12
+  doi: 10.1109/ICSE.2012.6227053
+  ee: https://doi.org/10.1109/ICSE.2012.6227053
+  url: https://dblp.org/rec/conf/icse/Bailey12
+- author: Clovis Chapman
+  title: Towards a federated cloud ecosystem (Invited industrial talk).
+  venue: ICSE
+  year: '2012'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/Chapman12
+  doi: 10.1109/ICSE.2012.6227252
+  ee: https://doi.org/10.1109/ICSE.2012.6227252
+  url: https://dblp.org/rec/conf/icse/Chapman12
+- author: "Attila Kert\xE9sz, Gabor Kecskemeti, Zsolt N\xE9meth, Marc Oriol, Xavier\
+    \ Franch"
+  title: A holistic service provisioning solution for Federated Cloud infrastructures.
+  venue: S-Cube@ICSE
+  year: '2012'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/KerteszKNOF12
+  doi: 10.1109/S-CUBE.2012.6225504
+  ee: https://doi.org/10.1109/S-Cube.2012.6225504
+  url: https://dblp.org/rec/conf/icse/KerteszKNOF12
 federate%20streamid%3Ajournals%2Ffocs%3A: []
 federate%20streamid%3Aconf%2Fstoc%3A: []
 federate%20venue%3ANAACL-HLT%3A:

@@ -10620,6 +10620,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10228925
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10228925
   url: https://dblp.org/rec/conf/infocom/ZhouYWLJW23
+- author: Ming Tang 0006, Vincent W. S. Wong 0001
+  title: 'Tackling System Induced Bias in Federated Learning: Stratification and Convergence
+    Analysis.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/TangW23
+  doi: 10.1109/INFOCOM53939.2023.10228873
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10228873
+  url: https://dblp.org/rec/conf/infocom/TangW23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

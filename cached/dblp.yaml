@@ -7912,6 +7912,17 @@ federate%20streamid%3Aconf%2Fuss%3A:
   doi: ''
   ee: https://www.usenix.org/conference/cset19/presentation/crow
   url: https://dblp.org/rec/conf/uss/CrowFJKCSSSL19
+- author: Yuchen Yang 0001, Bo Hui, Haolin Yuan, Neil Zhenqiang Gong, Yinzhi Cao
+  title: 'PrivateFL: Accurate, Differentially Private Federated Learning via Personalized
+    Data Transformation.'
+  venue: USENIX Security Symposium
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/YangHYGC23
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity23/presentation/yang-yuchen
+  url: https://dblp.org/rec/conf/uss/YangHYGC23
 federate%20venue%3ANDSS%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -8709,6 +8720,17 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-030-58607-2_5
   ee: https://doi.org/10.1007/978-3-030-58607-2_5
   url: https://dblp.org/rec/conf/eccv/HsuQ020
+- author: Haolin Yuan, Bo Hui, Yuchen Yang 0001, Philippe Burlina, Neil Zhenqiang
+    Gong, Yinzhi Cao
+  title: Addressing Heterogeneity in Federated Learning via Distributional Transformation.
+  venue: ECCV
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/YuanHYBGC22
+  doi: 10.1007/978-3-031-19839-7_11
+  ee: https://doi.org/10.1007/978-3-031-19839-7_11
+  url: https://dblp.org/rec/conf/eccv/YuanHYBGC22
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.
@@ -8990,6 +9012,17 @@ federate%20venue%3AEMNLP%3A:
   doi: 10.18653/V1/2020.FINDINGS-EMNLP.55
   ee: https://doi.org/10.18653/v1/2020.findings-emnlp.55
   url: https://dblp.org/rec/conf/emnlp/ZhuWHX20
+- author: Zhiyuan Zhang 0001, Qi Su 0001, Xu Sun 0001
+  title: 'Dim-Krum: Backdoor-Resistant Federated Learning for NLP with Dimension-wise
+    Krum-Based Aggregation.'
+  venue: EMNLP
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/Zhang0022a
+  doi: 10.18653/V1/2022.FINDINGS-EMNLP.25
+  ee: https://doi.org/10.18653/v1/2022.findings-emnlp.25
+  url: https://dblp.org/rec/conf/emnlp/Zhang0022a
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.

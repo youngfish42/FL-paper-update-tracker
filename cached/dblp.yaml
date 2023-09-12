@@ -5683,6 +5683,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/zhu23j.html
   url: https://dblp.org/rec/conf/icml/ZhuRC23
+- author: Yae Jee Cho, Pranay Sharma, Gauri Joshi, Zheng Xu 0002, Satyen Kale, Tong
+    Zhang 0001
+  title: On the Convergence of Federated Averaging with Cyclic Client Participation.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ChoSJ0KZ23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/cho23b.html
+  url: https://dblp.org/rec/conf/icml/ChoSJ0KZ23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

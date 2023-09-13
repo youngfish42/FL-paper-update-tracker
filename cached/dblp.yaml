@@ -6778,6 +6778,28 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-022-06267-9
   ee: https://doi.org/10.1007/s10994-022-06267-9
   url: https://dblp.org/rec/journals/ml/SabaterBR22
+- author: Maryam Badar, Wolfgang Nejdl, Marco Fisichella
+  title: 'FAC-fed: Federated adaptation for fairness and concept drift aware stream
+    classification.'
+  venue: Mach. Learn.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/ml/BadarNF23
+  doi: 10.1007/S10994-023-06360-7
+  ee: https://doi.org/10.1007/s10994-023-06360-7
+  url: https://dblp.org/rec/journals/ml/BadarNF23
+- author: "Fernando E. Casado, Dylan Lema, Roberto Iglesias, Carlos V\xE1zquez Regueiro,\
+    \ Sen\xE9n Barro"
+  title: Ensemble and continual federated learning for classification tasks.
+  venue: Mach. Learn.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/ml/CasadoLIRB23
+  doi: 10.1007/S10994-023-06330-Z
+  ee: https://doi.org/10.1007/s10994-023-06330-z
+  url: https://dblp.org/rec/journals/ml/CasadoLIRB23
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous

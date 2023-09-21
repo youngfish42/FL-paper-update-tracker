@@ -12403,6 +12403,18 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2020.2994391
   ee: https://doi.org/10.1109/TC.2020.2994391
   url: https://dblp.org/rec/journals/tc/WuHLMMJ21
+- author: Jie Zhang 0076, Song Guo 0001, Jingcai Guo, Deze Zeng, Jingren Zhou, Albert
+    Y. Zomaya
+  title: Towards Data-Independent Knowledge Transfer in Model-Heterogeneous Federated
+    Learning.
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZhangGGZZZ23
+  doi: 10.1109/TC.2023.3272801
+  ee: https://doi.org/10.1109/TC.2023.3272801
+  url: https://dblp.org/rec/journals/tc/ZhangGGZZZ23
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

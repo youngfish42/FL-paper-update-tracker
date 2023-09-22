@@ -7781,6 +7781,61 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SPW.2015.24
   ee: https://doi.org/10.1109/SPW.2015.24
   url: https://dblp.org/rec/conf/sp/HoerbeH15
+- author: Till Gehlhar, Felix Marx, Thomas Schneider 0003, Ajith Suresh, Tobias Wehrle,
+    Hossein Yalame
+  title: 'SafeFL: MPC-friendly Framework for Private and Robust Federated Learning.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/GehlharM0SWY23
+  doi: 10.1109/SPW59333.2023.00012
+  ee: https://doi.org/10.1109/SPW59333.2023.00012
+  url: https://dblp.org/rec/conf/sp/GehlharM0SWY23
+- author: Momin Ahmad Khan, Virat Shejwalkar, Amir Houmansadr, Fatima M. Anwar
+  title: On the Pitfalls of Security Evaluation of Robust Federated Learning.
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/KhanSHA23
+  doi: 10.1109/SPW59333.2023.00011
+  ee: https://doi.org/10.1109/SPW59333.2023.00011
+  url: https://dblp.org/rec/conf/sp/KhanSHA23
+- author: Michael Rosenberg, Mary Maller, Ian Miers
+  title: 'SNARKBlock: Federated Anonymous Blocklisting from Hidden Common Input Aggregate
+    Proofs.'
+  venue: SP
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/RosenbergMM22
+  doi: 10.1109/SP46214.2022.9833656
+  ee: https://doi.org/10.1109/SP46214.2022.9833656
+  url: https://dblp.org/rec/conf/sp/RosenbergMM22
+- author: Virat Shejwalkar, Amir Houmansadr, Peter Kairouz, Daniel Ramage
+  title: 'Back to the Drawing Board: A Critical Evaluation of Poisoning Attacks on
+    Production Federated Learning.'
+  venue: SP
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/ShejwalkarHKR22
+  doi: 10.1109/SP46214.2022.9833647
+  ee: https://doi.org/10.1109/SP46214.2022.9833647
+  url: https://dblp.org/rec/conf/sp/ShejwalkarHKR22
+- author: "Hossein Fereidooni, Samuel Marchal, Markus Miettinen, Azalia Mirhoseini,\
+    \ Helen M\xF6llering, Thien Duc Nguyen, Phillip Rieger, Ahmad-Reza Sadeghi, Thomas\
+    \ Schneider 0003, Hossein Yalame, Shaza Zeitouni"
+  title: 'SAFELearn: Secure Aggregation for private FEderated Learning.'
+  venue: SP
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/FereidooniMMMMN21
+  doi: 10.1109/SPW53761.2021.00017
+  ee: https://doi.org/10.1109/SPW53761.2021.00017
+  url: https://dblp.org/rec/conf/sp/FereidooniMMMMN21
 federate%20venue%3ACCS%3A:
 - author: Amrita Roy Chowdhury 0001, Chuan Guo, Somesh Jha, Laurens van der Maaten
   title: 'EIFFeL: Ensuring Integrity for Federated Learning.'

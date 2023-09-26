@@ -7538,6 +7538,17 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3534678.3539402
   ee: https://doi.org/10.1145/3534678.3539402
   url: https://dblp.org/rec/conf/kdd/ChaiWZYC0022
+- author: Gang Yan, Hao Wang 0022, Xu Yuan 0001, Jian Li 0008
+  title: 'CriticalFL: A Critical Learning Periods Augmented Client Selection Framework
+    for Efficient Federated Learning.'
+  venue: KDD
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/YanWYL23
+  doi: 10.1145/3580305.3599293
+  ee: https://doi.org/10.1145/3580305.3599293
+  url: https://dblp.org/rec/conf/kdd/YanWYL23
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -11348,6 +11359,16 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/1062745.1062916
   ee: https://doi.org/10.1145/1062745.1062916
   url: https://dblp.org/rec/conf/www/GaedkeMN05
+- author: Han Xie, Li Xiong 0001, Carl J. Yang
+  title: Federated Node Classification over Graphs with Latent Link-type Heterogeneity.
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/Xie0Y23
+  doi: 10.1145/3543507.3583471
+  ee: https://doi.org/10.1145/3543507.3583471
+  url: https://dblp.org/rec/conf/www/Xie0Y23
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -12258,6 +12279,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3294688
   ee: https://doi.org/10.1109/TPDS.2023.3294688
   url: https://dblp.org/rec/journals/tpds/YangFBYZ23
+- author: Abeda Sultana, Md. Mainul Haque, Li Chen 0019, Fei Xu, Xu Yuan 0001
+  title: 'Eiffel: Efficient and Fair Scheduling in Adaptive Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/SultanaHCXY22
+  doi: 10.1109/TPDS.2022.3187365
+  ee: https://doi.org/10.1109/TPDS.2022.3187365
+  url: https://dblp.org/rec/journals/tpds/SultanaHCXY22
 federate%20streamid%3Ajournals%2Ftocs%3A: []
 federate%20streamid%3Ajournals%2Ftos%3A:
 - author: Amina Chikhaoui, Laurent Lemarchand, Kamel Boukhalfa, Jalil Boukhobza

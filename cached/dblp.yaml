@@ -8675,6 +8675,16 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.01563
   ee: https://doi.org/10.1109/CVPR52729.2023.01563
   url: https://dblp.org/rec/conf/cvpr/LiLW23
+- author: Ka Ho Chow, Ling Liu 0001, Wenqi Wei, Fatih Ilhan, Yanzhao Wu 0001
+  title: 'STDLens: Model Hijacking-Resilient Federated Learning for Object Detection.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ChowLWIW23
+  doi: 10.1109/CVPR52729.2023.01568
+  ee: https://doi.org/10.1109/CVPR52729.2023.01568
+  url: https://dblp.org/rec/conf/cvpr/ChowLWIW23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -10763,6 +10773,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10228873
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10228873
   url: https://dblp.org/rec/conf/infocom/TangW23
+- author: Anran Li, Hongyi Peng, Lan Zhang 0002, Jiahui Huang, Qing Guo, Han Yu 0001,
+    Yang Liu
+  title: 'FedSDG-FS: Efficient and Secure Feature Selection for Vertical Federated
+    Learning.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiPZHGYL23
+  doi: 10.1109/INFOCOM53939.2023.10228895
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10228895
+  url: https://dblp.org/rec/conf/infocom/LiPZHGYL23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

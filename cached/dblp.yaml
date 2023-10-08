@@ -2958,7 +2958,18 @@ federate%20streamid%3Aconf%2Falt%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v167/charles22a.html
   url: https://dblp.org/rec/conf/alt/CharlesR22
-federate%20streamid%3Ajournals%2Fai%3A: []
+federate%20streamid%3Ajournals%2Fai%3A:
+- author: Pengqing Hu, Zhaohao Lin, Weike Pan, Qiang Yang 0001, Xiaogang Peng, Zhong
+    Ming 0001
+  title: Privacy-preserving graph convolution network for federated item recommendation.
+  venue: Artif. Intell.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/ai/HuLPYPM23
+  doi: 10.1016/J.ARTINT.2023.103996
+  ee: https://doi.org/10.1016/j.artint.2023.103996
+  url: https://dblp.org/rec/journals/ai/HuLPYPM23
 federate%20venue%3ANeurIPS%3A:
 - author: Karan Singhal, Hakim Sidahmed, Zachary Garrett, Shanshan Wu, John Rush,
     Sushant Prakash

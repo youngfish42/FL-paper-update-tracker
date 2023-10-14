@@ -10200,6 +10200,50 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: ''
   ee: https://www.vldb.org/pvldb/vol16/p2471-ooi.pdf
   url: https://dblp.org/rec/journals/pvldb/WuX0DLOX023
+- author: Graham Cormode, Igor L. Markov
+  title: Federated Calibration and Evaluation of Binary Classifiers.
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/CormodeM23
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol16/p3253-cormode.pdf
+  url: https://dblp.org/rec/journals/pvldb/CormodeM23
+- author: Dawei Gao, Daoyuan Chen, Zitao Li, Yuexiang Xie, Xuchen Pan, Yaliang Li,
+    Bolin Ding, Jingren Zhou
+  title: 'FS-Real: A Real-World Cross-Device Federated Learning Platform.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/GaoCLXPLDZ23
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol16/p4046-chen.pdf
+  url: https://dblp.org/rec/journals/pvldb/GaoCLXPLDZ23
+- author: Fumiyuki Kato, Yang Cao 0011, Masatoshi Yoshikawa
+  title: 'Olive: Oblivious Federated Learning on Trusted Execution Environment Against
+    the Risk of Sparsification.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/Kato0Y23
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol16/p2404-kato.pdf
+  url: https://dblp.org/rec/journals/pvldb/Kato0Y23
+- author: Yuncheng Wu, Naili Xing, Gang Chen 0001, Tien Tuan Anh Dinh, Zhaojing Luo,
+    Beng Chin Ooi, Xiaokui Xiao, Meihui Zhang 0001
+  title: 'Falcon: A Privacy-Preserving and Interpretable Vertical Federated Learning
+    System.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/WuX0DLOX023
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol16/p2471-ooi.pdf
+  url: https://dblp.org/rec/journals/pvldb/WuX0DLOX023
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things

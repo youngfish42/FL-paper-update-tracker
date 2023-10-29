@@ -30,13 +30,13 @@ class Scaffold:
         msg = ""
         flag = False
 
-        for topic in cfg["dblp"]["topics"]:
-            logger.info(f"topic: {topic}")
-
-            # get dblp data
-            # dblp_data = requests.get(dblp_url.format(topic)).json()
-            response = requests.get(dblp_url.format(topic))  
+        for topic in cfg["dblp"]["topics"]:     
             try:
+                logger.info(f"topic: {topic}")
+
+                # get dblp data
+                # dblp_data = requests.get(dblp_url.format(topic)).json()    
+                response = requests.get(dblp_url.format(topic))  
                 response.raise_for_status()  # 如果响应状态不是200，将引发HTTPError异常  
                 dblp_data = response.json()
             # deal with the errors
@@ -44,15 +44,16 @@ class Scaffold:
                 logger.error(f'Error occurred: {err}')  
                 continue 
             else:
+                # 如果没有异常，则执行这里的代码
                 logger.info(f"dblp_data: {dblp_data}")
 
                 # get items
                 items = get_dblp_items(dblp_data)
                 logger.info(f"items: {items}")
 
-                # new cache
-                cached_items = dblp_cache.get(topic, [])
-                new_items = [item for item in items if item not in cached_items]
+                # add new cache for this topic
+                cached_items = dblp_cache.get(topic, []) # get the value of the key "topic" in dblp_cache, if not exist, return []
+                new_items = [item for item in items if item not in cached_items] # get the new items
                 dblp_new_cache[topic] = new_items
 
                 if topic not in dblp_cache:

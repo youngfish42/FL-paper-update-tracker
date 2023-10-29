@@ -41,7 +41,27 @@ class Scaffold:
             # deal with the JSON decode error
             except json.decoder.JSONDecodeError as e:
                 logger.error(f"JSONDecodeError: {e}")
-                continue 
+                continue
+            # deal with the HTTP error
+            except requests.exceptions.HTTPError as e:
+                logger.error(f"HTTPError: {e}")
+                continue
+            # deal with the connection error
+            except requests.exceptions.ConnectionError as e:
+                logger.error(f"ConnectionError: {e}")
+                continue
+            # deal with the timeout error
+            except requests.exceptions.Timeout as e:
+                logger.error(f"Timeout: {e}")
+                continue
+            # deal with the request error
+            except requests.exceptions.RequestException as e:
+                logger.error(f"RequestException: {e}")
+                continue
+            # deal with other error
+            except Exception as e:
+                logger.error(f"Exception: {e}")
+                continue
             else:
                 # 如果没有异常，则执行这里的代码
                 logger.info(f"dblp_data: {dblp_data}")

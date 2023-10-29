@@ -33,14 +33,14 @@ class Scaffold:
         for topic in cfg["dblp"]["topics"]:     
             try:
                 logger.info(f"topic: {topic}")
-
                 # get dblp data
                 # dblp_data = requests.get(dblp_url.format(topic)).json()    
                 response = requests.get(dblp_url.format(topic))  
                 response.raise_for_status()  # 如果响应状态不是200，将引发HTTPError异常  
                 dblp_data = response.json()
             # deal with the errors
-            except (requests.HTTPError, requests.exceptions.RequestException, json.JSONDecodeError) as err:  
+            except (requests.HTTPError, requests.exceptions.RequestException, json.JSONDecodeError) as err: 
+                print(err)
                 logger.error(f'Error occurred: {err}')  
                 continue 
             else:
@@ -69,7 +69,7 @@ class Scaffold:
                 
                 # only when new items >0 in this topic we creat the msg
                 if len(new_items) > 0:
-                    aggregated_msg+= get_msg(new_items, topic ,True)
+                    aggregated_msg+= get_msg(new_items,topic,aggregated=True)
                     msg += get_msg(new_items, topic)
                 logger.info(f"aggregated_msg: {aggregated_msg}")
                 logger.info(f"msg: {msg}")

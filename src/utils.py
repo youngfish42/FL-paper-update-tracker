@@ -93,7 +93,7 @@ def get_dblp_items(dblp_data):
     return res_items
 
 
-def get_msg(items, topic ,aggregated = False):
+def get_msg(items,topic,aggregated = False):
     # change "topic" from url to string
     string_topic = urllib.parse.unquote(topic)
     # get name of topic

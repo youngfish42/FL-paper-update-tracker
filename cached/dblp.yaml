@@ -9,6 +9,60 @@ federate%20venue%3ADAC%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Rishikanth Chandrasekaran, Kazim Ergun, Jihyun Lee, Dhanush Nanjunda, Jaeyoung
+    Kang 0001, Tajana Rosing
+  title: 'FHDnn: communication efficient and robust federated learning for AIoT networks.'
+  venue: DAC
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/ChandrasekaranE22
+  doi: 10.1145/3489517.3530394
+  ee: https://doi.org/10.1145/3489517.3530394
+  url: https://dblp.org/rec/conf/dac/ChandrasekaranE22
+- author: Jing Cao, Zirui Lian, Weihong Liu, Zongwei Zhu, Cheng Ji
+  title: 'HADFL: Heterogeneity-aware Decentralized Federated Learning Framework.'
+  venue: DAC
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/CaoLLZJ21
+  doi: 10.1109/DAC18074.2021.9586101
+  ee: https://doi.org/10.1109/DAC18074.2021.9586101
+  url: https://dblp.org/rec/conf/dac/CaoLLZJ21
+- author: Zirui Xu, Fuxun Yu, Jinjun Xiong, Xiang Chen 0010
+  title: 'Helios: Heterogeneity-Aware Federated Learning with Dynamically Balanced
+    Collaboration.'
+  venue: DAC
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/XuYXC21
+  doi: 10.1109/DAC18074.2021.9586241
+  ee: https://doi.org/10.1109/DAC18074.2021.9586241
+  url: https://dblp.org/rec/conf/dac/XuYXC21
+- author: Yutong Ye, Wupan Zhao, Tongquan Wei, Shiyan Hu, Mingsong Chen
+  title: 'FedLight: Federated Reinforcement Learning for Autonomous Multi-Intersection
+    Traffic Signal Control.'
+  venue: DAC
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/YeZWHC21
+  doi: 10.1109/DAC18074.2021.9586175
+  ee: https://doi.org/10.1109/DAC18074.2021.9586175
+  url: https://dblp.org/rec/conf/dac/YeZWHC21
+- author: Ze Ni, Avenir Kobetski, Jakob Axelsson
+  title: Design and Implementation of a Dynamic Component Model for Federated AUTOSAR
+    Systems.
+  venue: DAC
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/NiKA14
+  doi: 10.1145/2593069.2593121
+  ee: https://doi.org/10.1145/2593069.2593121
+  url: https://dblp.org/rec/conf/dac/NiKA14
 federate%20venue%3AIJCAI%3A:
 - author: Tao Qi, Fangzhao Wu, Lingjuan Lyu, Yongfeng Huang 0001, Xing Xie 0001
   title: 'FedSampling: A Better Sampling Strategy for Federated Learning.'
@@ -8535,6 +8589,60 @@ federate%20venue%3ACVPR%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Xiuwen Fang, Mang Ye
+  title: Robust Federated Learning with Noisy and Heterogeneous Clients.
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/FangY22
+  doi: 10.1109/CVPR52688.2022.00983
+  ee: https://doi.org/10.1109/CVPR52688.2022.00983
+  url: https://dblp.org/rec/conf/cvpr/FangY22
+- author: Liang Gao, Huazhu Fu, Li Li 0064, Yingwen Chen 0001, Ming Xu 0002, Cheng-Zhong
+    Xu 0001
+  title: 'FedDC: Federated Learning with Non-IID Data via Local Drift Decoupling and
+    Correction.'
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/GaoFLC0022
+  doi: 10.1109/CVPR52688.2022.00987
+  ee: https://doi.org/10.1109/CVPR52688.2022.00987
+  url: https://dblp.org/rec/conf/cvpr/GaoFLC0022
+- author: Wenke Huang, Mang Ye, Bo Du 0001
+  title: Learn from Others and Be Yourself in Heterogeneous Federated Learning.
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/HuangY022
+  doi: 10.1109/CVPR52688.2022.00990
+  ee: https://doi.org/10.1109/CVPR52688.2022.00990
+  url: https://dblp.org/rec/conf/cvpr/HuangY022
+- author: Zhuohang Li, Jiaxin Zhang 0005, Luyang Liu, Jian Liu 0001
+  title: Auditing Privacy Defenses in Federated Learning via Generative Gradient Leakage.
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/Li0L022
+  doi: 10.1109/CVPR52688.2022.00989
+  ee: https://doi.org/10.1109/CVPR52688.2022.00989
+  url: https://dblp.org/rec/conf/cvpr/Li0L022
+- author: Jingtao Li, Adnan Siraj Rakin, Xing Chen, Zhezhi He, Deliang Fan, Chaitali
+    Chakrabarti
+  title: 'ResSFL: A Resistance Transfer Framework for Defending Model Inversion Attack
+    in Split Federated Learning.'
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LiRCHFC22
+  doi: 10.1109/CVPR52688.2022.00995
+  ee: https://doi.org/10.1109/CVPR52688.2022.00995
+  url: https://dblp.org/rec/conf/cvpr/LiRCHFC22
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -11380,6 +11488,127 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
+    Yaliang Li, Bolin Ding, Jingren Zhou
+  title: 'FederatedScope: A Flexible Federated Learning Platform for Heterogeneity.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/XieWGCYKLDZ23
+  doi: 10.14778/3579075.3579081
+  ee: https://www.vldb.org/pvldb/vol16/p1059-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/XieWGCYKLDZ23
+- author: Graham Cormode, Igor L. Markov
+  title: Federated Calibration and Evaluation of Binary Classifiers.
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/CormodeM23
+  doi: 10.14778/3611479.3611523
+  ee: https://www.vldb.org/pvldb/vol16/p3253-cormode.pdf
+  url: https://dblp.org/rec/journals/pvldb/CormodeM23
+- author: Dawei Gao, Daoyuan Chen, Zitao Li, Yuexiang Xie, Xuchen Pan, Yaliang Li,
+    Bolin Ding, Jingren Zhou
+  title: 'FS-Real: A Real-World Cross-Device Federated Learning Platform.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/GaoCLXPLDZ23
+  doi: 10.14778/3611540.3611617
+  ee: https://www.vldb.org/pvldb/vol16/p4046-chen.pdf
+  url: https://dblp.org/rec/journals/pvldb/GaoCLXPLDZ23
+- author: Fumiyuki Kato, Yang Cao 0011, Masatoshi Yoshikawa
+  title: 'Olive: Oblivious Federated Learning on Trusted Execution Environment Against
+    the Risk of Sparsification.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/Kato0Y23
+  doi: 10.14778/3603581.3603583
+  ee: https://www.vldb.org/pvldb/vol16/p2404-kato.pdf
+  url: https://dblp.org/rec/journals/pvldb/Kato0Y23
+- author: Zitao Li, Tianhao Wang 0001, Ninghui Li
+  title: Differentially Private Vertical Federated Clustering.
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiWL23
+  doi: 10.14778/3583140.3583146
+  ee: https://www.vldb.org/pvldb/vol16/p1277-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiWL23
+- author: Yuncheng Wu, Naili Xing, Gang Chen 0001, Tien Tuan Anh Dinh, Zhaojing Luo,
+    Beng Chin Ooi, Xiaokui Xiao, Meihui Zhang 0001
+  title: 'Falcon: A Privacy-Preserving and Interpretable Vertical Federated Learning
+    System.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/WuX0DLOX023
+  doi: 10.14778/3603581.3603588
+  ee: https://www.vldb.org/pvldb/vol16/p2471-ooi.pdf
+  url: https://dblp.org/rec/journals/pvldb/WuX0DLOX023
+- author: Shuyuan Zheng, Yang Cao 0011, Masatoshi Yoshikawa
+  title: Secure Shapley Value for Cross-Silo Federated Learning.
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhengCY23
+  doi: 10.14778/3587136.3587141
+  ee: https://www.vldb.org/pvldb/vol16/p1657-zheng.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhengCY23
+- author: Ergute Bao, Yizheng Zhu, Xiaokui Xiao, Yin Yang 0001, Beng Chin Ooi, Benjamin
+    Hong Meng Tan, Khin Mi Mi Aung
+  title: 'Skellam Mixture Mechanism: a Novel Approach to Federated Learning with Differential
+    Privacy.'
+  venue: Proc. VLDB Endow.
+  year: '2022'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/BaoZXYOTA22
+  doi: 10.14778/3551793.3551798
+  ee: https://www.vldb.org/pvldb/vol15/p2348-bao.pdf
+  url: https://dblp.org/rec/journals/pvldb/BaoZXYOTA22
+- author: Fangcheng Fu, Xupeng Miao, Jiawei Jiang, Huanran Xue, Bin Cui 0001
+  title: Towards Communication-efficient Vertical Federated Learning Training via
+    Cache-enabled Local Update.
+  venue: Proc. VLDB Endow.
+  year: '2022'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/FuMJXC22
+  doi: 10.14778/3547305.3547316
+  ee: https://www.vldb.org/pvldb/vol15/p2111-fu.pdf
+  url: https://dblp.org/rec/journals/pvldb/FuMJXC22
+- author: Xiaochen Li, Yuke Hu, Weiran Liu, Hanwen Feng 0001, Li Peng, Yuan Hong,
+    Kui Ren 0001, Zhan Qin
+  title: 'OpBoost: A Vertical Federated Tree Boosting Framework Based on Order-Preserving
+    Desensitization.'
+  venue: Proc. VLDB Endow.
+  year: '2022'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiHL0PH0Q22
+  doi: 10.14778/3565816.3565823
+  ee: https://www.vldb.org/pvldb/vol16/p202-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiHL0PH0Q22
+- author: Zhiyu Liang, Hongzhi Wang 0001
+  title: 'FedTSC: A Secure Federated Learning System for Interpretable Time Series
+    Classification.'
+  venue: Proc. VLDB Endow.
+  year: '2022'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiangW22
+  doi: 10.14778/3554821.3554875
+  ee: https://www.vldb.org/pvldb/vol15/p3686-wang.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiangW22
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -12491,6 +12720,37 @@ federate%20venue%3AMobiCom%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Dongqi Cai, Yaozong Wu, Shangguang Wang, Felix Xiaozhu Lin, Mengwei Xu
+  title: Efficient Federated Learning for Modern NLP.
+  venue: MobiCom
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/CaiWWLX23
+  doi: 10.1145/3570361.3592505
+  ee: https://doi.org/10.1145/3570361.3592505
+  url: https://dblp.org/rec/conf/mobicom/CaiWWLX23
+- author: Dongqi Cai, Shangguang Wang, Yaozong Wu, Felix Xiaozhu Lin, Mengwei Xu
+  title: Federated Few-Shot Learning for Mobile NLP.
+  venue: MobiCom
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/CaiWWLX23a
+  doi: 10.1145/3570361.3613277
+  ee: https://doi.org/10.1145/3570361.3613277
+  url: https://dblp.org/rec/conf/mobicom/CaiWWLX23a
+- author: Sweta Dey, Sujata Pal
+  title: Federated learning-based air quality prediction for smart cities using BGRU
+    model.
+  venue: MobiCom
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/DeyP22
+  doi: 10.1145/3495243.3558267
+  ee: https://doi.org/10.1145/3495243.3558267
+  url: https://dblp.org/rec/conf/mobicom/DeyP22
 federate%20venue%3ANSDI%3A:
 - author: Junxue Zhang 0001, Xiaodian Cheng, Wei Wang, Liu Yang, Jinbin Hu, Kai Chen
     0005
@@ -14800,6 +15060,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Yongheng Deng, Feng Lyu 0001, Ju Ren, Huaqing Wu, Yuezhi Zhou, Yaoxue Zhang,
+    Xuemin Shen
+  title: 'AUCTION: Automated and Quality-Aware Client Selection Framework for Efficient
+    Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/DengLRWZZS22
+  doi: 10.1109/TPDS.2021.3134647
+  ee: https://doi.org/10.1109/TPDS.2021.3134647
+  url: https://dblp.org/rec/journals/tpds/DengLRWZZS22
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -15202,6 +15474,17 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Yang Wang 0082, Yu Li, Xuemei Peng, Dong Ji, Nan Guan, Wang Yi 0001
+  title: Design and Blocking Analysis of Locking Protocols for Real-Time DAG Tasks
+    Under Federated Scheduling.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/WangLPJGY23
+  doi: 10.1109/TCAD.2023.3264729
+  ee: https://doi.org/10.1109/TCAD.2023.3264729
+  url: https://dblp.org/rec/journals/tcad/WangLPJGY23
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng
@@ -15455,6 +15738,16 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Rui Jin, Jia Hu 0001, Geyong Min, Jed Mills
+  title: Lightweight Blockchain-Empowered Secure and Efficient Federated Edge Learning.
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/JinHMM23
+  doi: 10.1109/TC.2023.3293731
+  ee: https://doi.org/10.1109/TC.2023.3293731
+  url: https://dblp.org/rec/journals/tc/JinHMM23
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'
@@ -16053,3 +16346,15 @@ federate%20venue%3ANAACL-HLT%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+federate%20venue%3ASOSP%3A:
+- author: Elizabeth Margolin, Karan Newatia, Tao Luo, Edo Roth, Andreas Haeberlen
+  title: 'Arboretum: A Planner for Large-Scale Federated Analytics with Differential
+    Privacy.'
+  venue: SOSP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sosp/MargolinNLRH23
+  doi: 10.1145/3600006.3624566
+  ee: https://doi.org/10.1145/3600006.3624566
+  url: https://dblp.org/rec/conf/sosp/MargolinNLRH23

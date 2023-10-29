@@ -1,37 +1,4 @@
 federate%20venue%3ADAC%3A:
-- author: Zirui Xu, Fuxun Yu, Jinjun Xiong, Xiang Chen 0010
-  title: 'Helios: Heterogeneity-Aware Federated Learning with Dynamically Balanced
-    Collaboration.'
-  venue: DAC
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/dac/XuYXC21
-  doi: 10.1109/DAC18074.2021.9586241
-  ee: https://doi.org/10.1109/DAC18074.2021.9586241
-  url: https://dblp.org/rec/conf/dac/XuYXC21
-- author: Yutong Ye, Wupan Zhao, Tongquan Wei, Shiyan Hu, Mingsong Chen
-  title: 'FedLight: Federated Reinforcement Learning for Autonomous Multi-Intersection
-    Traffic Signal Control.'
-  venue: DAC
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/dac/YeZWHC21
-  doi: 10.1109/DAC18074.2021.9586175
-  ee: https://doi.org/10.1109/DAC18074.2021.9586175
-  url: https://dblp.org/rec/conf/dac/YeZWHC21
-- author: Ze Ni, Avenir Kobetski, Jakob Axelsson
-  title: Design and Implementation of a Dynamic Component Model for Federated AUTOSAR
-    Systems.
-  venue: DAC
-  year: '2014'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/dac/NiKA14
-  doi: 10.1145/2593069.2593121
-  ee: https://doi.org/10.1145/2593069.2593121
-  url: https://dblp.org/rec/conf/dac/NiKA14
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
   title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
@@ -2831,37 +2798,6 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v206/nguyen23e.html
   url: https://dblp.org/rec/conf/aistats/NguyenLTPT23
-- author: Vincent Plassier, Eric Moulines, Alain Durmus
-  title: 'Federated Averaging Langevin Dynamics: Toward a unified theory and new algorithms.'
-  venue: AISTATS
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aistats/PlassierMD23
-  doi: ''
-  ee: https://proceedings.mlr.press/v206/plassier23a.html
-  url: https://dblp.org/rec/conf/aistats/PlassierMD23
-- author: Banghua Zhu, Lun Wang, Qi Pang, Shuai Wang, Jiantao Jiao, Dawn Song, Michael
-    I. Jordan
-  title: Byzantine-Robust Federated Learning with Optimal Statistical Rates.
-  venue: AISTATS
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aistats/ZhuWPWJSJ23
-  doi: ''
-  ee: https://proceedings.mlr.press/v206/zhu23b.html
-  url: https://dblp.org/rec/conf/aistats/ZhuWPWJSJ23
-- author: Yae Jee Cho, Jianyu Wang, Gauri Joshi
-  title: Towards Understanding Biased Client Selection in Federated Learning.
-  venue: AISTATS
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aistats/ChoWJ22
-  doi: ''
-  ee: https://proceedings.mlr.press/v151/jee-cho22a.html
-  url: https://dblp.org/rec/conf/aistats/ChoWJ22
 - author: "Elnur Gasanov, Ahmed Khaled 0001, Samuel Horv\xE1th, Peter Richt\xE1rik"
   title: 'FLIX: A Simple and Communication-Efficient Alternative to Local Methods
     in Federated Learning.'
@@ -8331,60 +8267,6 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.00992
   ee: https://doi.org/10.1109/CVPR52688.2022.00992
   url: https://dblp.org/rec/conf/cvpr/DongWFSXW022
-- author: Xiuwen Fang, Mang Ye
-  title: Robust Federated Learning with Noisy and Heterogeneous Clients.
-  venue: CVPR
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/FangY22
-  doi: 10.1109/CVPR52688.2022.00983
-  ee: https://doi.org/10.1109/CVPR52688.2022.00983
-  url: https://dblp.org/rec/conf/cvpr/FangY22
-- author: Liang Gao, Huazhu Fu, Li Li 0064, Yingwen Chen 0001, Ming Xu 0002, Cheng-Zhong
-    Xu 0001
-  title: 'FedDC: Federated Learning with Non-IID Data via Local Drift Decoupling and
-    Correction.'
-  venue: CVPR
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/GaoFLC0022
-  doi: 10.1109/CVPR52688.2022.00987
-  ee: https://doi.org/10.1109/CVPR52688.2022.00987
-  url: https://dblp.org/rec/conf/cvpr/GaoFLC0022
-- author: Wenke Huang, Mang Ye, Bo Du 0001
-  title: Learn from Others and Be Yourself in Heterogeneous Federated Learning.
-  venue: CVPR
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/HuangY022
-  doi: 10.1109/CVPR52688.2022.00990
-  ee: https://doi.org/10.1109/CVPR52688.2022.00990
-  url: https://dblp.org/rec/conf/cvpr/HuangY022
-- author: Zhuohang Li, Jiaxin Zhang 0005, Luyang Liu, Jian Liu 0001
-  title: Auditing Privacy Defenses in Federated Learning via Generative Gradient Leakage.
-  venue: CVPR
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/Li0L022
-  doi: 10.1109/CVPR52688.2022.00989
-  ee: https://doi.org/10.1109/CVPR52688.2022.00989
-  url: https://dblp.org/rec/conf/cvpr/Li0L022
-- author: Jingtao Li, Adnan Siraj Rakin, Xing Chen, Zhezhi He, Deliang Fan, Chaitali
-    Chakrabarti
-  title: 'ResSFL: A Resistance Transfer Framework for Defending Model Inversion Attack
-    in Split Federated Learning.'
-  venue: CVPR
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/cvpr/LiRCHFC22
-  doi: 10.1109/CVPR52688.2022.00995
-  ee: https://doi.org/10.1109/CVPR52688.2022.00995
-  url: https://dblp.org/rec/conf/cvpr/LiRCHFC22
 - author: Xin-Chun Li, Yichu Xu, Shaoming Song, Bingshuai Li, Yinchuan Li, Yunfeng
     Shao 0001, De-Chuan Zhan
   title: Federated Learning with Position-Aware Neurons.
@@ -15303,39 +15185,6 @@ federate%20streamid%3Ajournals%2Ftocs%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
   url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
-- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
-    Ahmad-Reza Sadeghi, Felix Madlener
-  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
-  venue: NDSS
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/ndss/FereidooniDRMSM22
-  doi: ''
-  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
-  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
-- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
-  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
-    Learning.
-  venue: NDSS
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/ndss/NaseriHC22
-  doi: ''
-  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
-  url: https://dblp.org/rec/conf/ndss/NaseriHC22
-- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
-    Elias Bou-Harb, Paul Rad
-  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
-  venue: NDSS
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/ndss/ParraSKIBR22
-  doi: ''
-  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
-  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
 - author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
   title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
     Model Inspection.'

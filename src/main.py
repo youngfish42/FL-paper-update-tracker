@@ -1,11 +1,8 @@
 from loguru import logger
 from fire import Fire
-from utils import get_msg, init, get_dblp_items
+from utils import get_msg, init, get_dblp_items, request_data
 import yaml
-import requests
-import json
-import time
-import random
+
 
 
 class Scaffold:
@@ -34,71 +31,42 @@ class Scaffold:
 
         for topic in cfg["dblp"]["topics"]:
             # random sleep to avoid being blocked
-            time.sleep(random.randint(1, 5))
+            dblp_data = request_data(dblp_url.format(topic))
 
-            try:
-                logger.info(f"topic: {topic}")
-                # get dblp data
-                # dblp_data = requests.get(dblp_url.format(topic)).json()
-                response = requests.get(dblp_url.format(topic))
-                # response.raise_for_status()  # 如果响应状态不是200，将引发HTTPError异常
-                dblp_data = response.json()
-            # deal with the JSON decode error
-            except json.decoder.JSONDecodeError as e:
-                logger.error(f"JSONDecodeError: {e}")
-                # logger.error(f"response: {response.text}")
+            if dblp_data is None:
+                logger.error(f"dblp_data is None, topic: {topic}")
                 continue
-            # deal with the HTTP error
-            except requests.exceptions.HTTPError as e:
-                logger.error(f"HTTPError: {e}")
-                continue
-            # deal with the connection error
-            except requests.exceptions.ConnectionError as e:
-                logger.error(f"ConnectionError: {e}")
-                continue
-            # deal with the timeout error
-            except requests.exceptions.Timeout as e:
-                logger.error(f"Timeout: {e}")
-                continue
-            # deal with the request error
-            except requests.exceptions.RequestException as e:
-                logger.error(f"RequestException: {e}")
-                continue
-            # deal with other error
-            except Exception as e:
-                logger.error(f"Exception: {e}")
-                continue
-            else:
-                # 如果没有异常，则执行这里的代码
-                # logger.info(f"dblp_data: {dblp_data}")
+        
+            # 如果没有异常，则执行这里的代码
+            # logger.info(f"dblp_data: {dblp_data}")
 
-                # get items
-                items = get_dblp_items(dblp_data)
-                # logger.info(f"items: {items}")
+            # get items
+            items = get_dblp_items(dblp_data)
+            # logger.info(f"items: {items}")
 
-                # add new cache for this topic
-                cached_items = dblp_cache.get(
-                    topic, []
-                )  # get the value of the key "topic" in dblp_cache, if not exist, return []
-                new_items = [item for item in items if item not in cached_items]  # get the new items
-                dblp_new_cache[topic] = new_items
+            # add new cache for this topic
+            cached_items = dblp_cache.get(
+                topic, []
+            )  # get the value of the key "topic" in dblp_cache, if not exist, return []
+            new_items = [item for item in items if item not in cached_items]  # get the new items
+            dblp_new_cache[topic] = new_items
 
-                if topic not in dblp_cache:
-                    dblp_cache[topic] = []
-                dblp_cache[topic].extend(new_items)
+            if topic not in dblp_cache:
+                dblp_cache[topic] = []
+            dblp_cache[topic].extend(new_items)
 
-                logger.info(f"new_items: {new_items}")
+            logger.info(f"new_items: {new_items}")
 
-                # if there is any new items, we set flag to create a new issue
-                if len(new_items) > 0:
-                    flag = True
+            # if there is any new items, we set flag to create a new issue
+            if len(new_items) > 0:
+                flag = True
 
-                # only when new items >0 in this topic we creat the msg
-                if len(new_items) > 0:
-                    aggregated_msg += get_msg(new_items, topic, aggregated=True)
-                    msg += get_msg(new_items, topic)
-                logger.info(f"aggregated_msg: {aggregated_msg}")
-                logger.info(f"msg: {msg}")
+            # only when new items >0 in this topic we creat the msg
+            if len(new_items) > 0:
+                aggregated_msg += get_msg(new_items, topic, aggregated=True)
+                msg += get_msg(new_items, topic)
+            logger.info(f"aggregated_msg: {aggregated_msg}")
+            logger.info(f"msg: {msg}")
 
         # save cache
         yaml.safe_dump(dblp_cache, open(cache_path, "w"), sort_keys=False, indent=2)

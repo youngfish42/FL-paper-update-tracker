@@ -5,6 +5,10 @@ from loguru import logger
 from pathlib import Path
 import ezkfg as ez
 import urllib.parse
+import requests
+import json
+import time
+import random
 
 
 def init_log():
@@ -114,3 +118,21 @@ def get_msg(items, topic, aggregated=False):
 
     msg = msg.replace("'", "")
     return msg
+
+def request_data(url, retry=10, sleep_time=5):
+    try:
+        time.sleep(sleep_time + random.random() * 3)
+        response = requests.get(url)
+        response.raise_for_status()  # 如果响应状态不是200，将引发HTTPError异常
+        data = response.json()
+    # deal with errors
+    except Exception as e:
+        logger.error(f"Exception: {e}")
+        if retry > 0:
+            logger.info(f"retrying {url}")
+            return request_data(url, retry - 1)
+        else:
+            logger.error(f"Failed to request {url}")
+        return None
+    else:
+        return data

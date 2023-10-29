@@ -5847,6 +5847,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/cho23b.html
   url: https://dblp.org/rec/conf/icml/ChoSJ0KZ23
+- author: Jiin Woo, Gauri Joshi, Yuejie Chi
+  title: 'The Blessing of Heterogeneity in Federated Q-Learning: Linear Speedup and
+    Beyond.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/WooJC23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/woo23a.html
+  url: https://dblp.org/rec/conf/icml/WooJC23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -10260,6 +10271,17 @@ federate%20venue%3ACOLING%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
 federate%20venue%3ASIGIR%3A:
 - author: Zexi Li, Qunwei Li, Yi Zhou, Wenliang Zhong, Guannan Zhang, Chao Wu 0001
   title: Edge-cloud Collaborative Learning with Federated and Centralized Features.
@@ -16566,4 +16588,13 @@ federate%20venue%3ANAACL-HLT%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
   url: https://dblp.org/rec/conf/ndss/ZhangWY20
-
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14

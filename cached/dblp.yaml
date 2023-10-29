@@ -3026,6 +3026,37 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: http://proceedings.mlr.press/v108/zhu20a.html
   url: https://dblp.org/rec/conf/aistats/ZhuKMSL20
+- author: Vincent Plassier, Eric Moulines, Alain Durmus
+  title: 'Federated Averaging Langevin Dynamics: Toward a unified theory and new algorithms.'
+  venue: AISTATS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/PlassierMD23
+  doi: ''
+  ee: https://proceedings.mlr.press/v206/plassier23a.html
+  url: https://dblp.org/rec/conf/aistats/PlassierMD23
+- author: Banghua Zhu, Lun Wang, Qi Pang, Shuai Wang, Jiantao Jiao, Dawn Song, Michael
+    I. Jordan
+  title: Byzantine-Robust Federated Learning with Optimal Statistical Rates.
+  venue: AISTATS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ZhuWPWJSJ23
+  doi: ''
+  ee: https://proceedings.mlr.press/v206/zhu23b.html
+  url: https://dblp.org/rec/conf/aistats/ZhuWPWJSJ23
+- author: Yae Jee Cho, Jianyu Wang, Gauri Joshi
+  title: Towards Understanding Biased Client Selection in Federated Learning.
+  venue: AISTATS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ChoWJ22
+  doi: ''
+  ee: https://proceedings.mlr.press/v151/jee-cho22a.html
+  url: https://dblp.org/rec/conf/aistats/ChoWJ22
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.

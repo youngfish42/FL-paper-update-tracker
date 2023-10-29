@@ -38,8 +38,8 @@ class Scaffold:
                 response = requests.get(dblp_url.format(topic))  
                 response.raise_for_status()  # 如果响应状态不是200，将引发HTTPError异常  
                 dblp_data = response.json()
-            # deal with the errors
-            except (requests.HTTPError, requests.exceptions.RequestException, json.JSONDecodeError) as err: 
+            # deal with the JSON decode error
+            except (json.JSONDecodeError) as err: 
                 print(err)
                 logger.error(f'Error occurred: {err}')  
                 continue 

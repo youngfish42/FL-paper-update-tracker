@@ -19,10 +19,8 @@ class Scaffold:
 
         # load cache
         cache_path = cfg["cache_path"] / "dblp.yaml"
-        dblp_cache = (
-            yaml.safe_load(open(cache_path, "r")) if cache_path.exists() else {}
-        )
-        logger.info(f"dblp cache: {dblp_cache}")
+        dblp_cache = yaml.safe_load(open(cache_path, "r")) if cache_path.exists() else {}
+        # logger.info(f"dblp cache: {dblp_cache}")
         dblp_new_cache = {}
 
         dblp_url = cfg["dblp"]["url"]
@@ -30,13 +28,15 @@ class Scaffold:
         msg = ""
         flag = False
 
-        for topic in cfg["dblp"]["topics"]:     
+        logger.info(f"topics: {cfg['dblp']['topics']}")
+
+        for topic in cfg["dblp"]["topics"]:
             try:
                 logger.info(f"topic: {topic}")
                 # get dblp data
-                # dblp_data = requests.get(dblp_url.format(topic)).json()    
-                response = requests.get(dblp_url.format(topic))  
-                # response.raise_for_status()  # 如果响应状态不是200，将引发HTTPError异常  
+                # dblp_data = requests.get(dblp_url.format(topic)).json()
+                response = requests.get(dblp_url.format(topic))
+                # response.raise_for_status()  # 如果响应状态不是200，将引发HTTPError异常
                 dblp_data = response.json()
             # deal with the JSON decode error
             except json.decoder.JSONDecodeError as e:
@@ -71,8 +71,10 @@ class Scaffold:
                 logger.info(f"items: {items}")
 
                 # add new cache for this topic
-                cached_items = dblp_cache.get(topic, []) # get the value of the key "topic" in dblp_cache, if not exist, return []
-                new_items = [item for item in items if item not in cached_items] # get the new items
+                cached_items = dblp_cache.get(
+                    topic, []
+                )  # get the value of the key "topic" in dblp_cache, if not exist, return []
+                new_items = [item for item in items if item not in cached_items]  # get the new items
                 dblp_new_cache[topic] = new_items
 
                 if topic not in dblp_cache:
@@ -81,14 +83,13 @@ class Scaffold:
 
                 logger.info(f"new_items: {new_items}")
 
-
                 # if there is any new items, we set flag to create a new issue
                 if len(new_items) > 0:
                     flag = True
-                
+
                 # only when new items >0 in this topic we creat the msg
                 if len(new_items) > 0:
-                    aggregated_msg+= get_msg(new_items,topic,aggregated=True)
+                    aggregated_msg += get_msg(new_items, topic, aggregated=True)
                     msg += get_msg(new_items, topic)
                 logger.info(f"aggregated_msg: {aggregated_msg}")
                 logger.info(f"msg: {msg}")

@@ -6,6 +6,7 @@ from pathlib import Path
 import ezkfg as ez
 import urllib.parse
 
+
 def init_log():
     """Initialize loguru log information"""
     event_logger_format = (
@@ -67,7 +68,7 @@ def get_dblp_items(dblp_data):
                 continue
             if "text" not in authors["author"]:
                 continue
-            
+
             authors = [authors["author"]["text"]]
 
         logger.info(f"authors: {authors}")
@@ -93,7 +94,7 @@ def get_dblp_items(dblp_data):
     return res_items
 
 
-def get_msg(items,topic,aggregated = False):
+def get_msg(items, topic, aggregated=False):
     # change "topic" from url to string
     string_topic = urllib.parse.unquote(topic)
     # get name of topic
@@ -102,7 +103,7 @@ def get_msg(items,topic,aggregated = False):
     # print information of topic
     msg = f"## [{name_topic}](https://dblp.org/search?q={topic})\\n\\n"
     msg += f"""Explore {len(items)} new papers about {name_topic}.\\n\\n"""
-    
+
     if aggregated == False:
         for item in items:
             msg += f"{item['title']}\\n"

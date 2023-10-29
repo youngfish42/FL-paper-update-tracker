@@ -3014,6 +3014,49 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v151/jee-cho22a.html
   url: https://dblp.org/rec/conf/aistats/ChoWJ22
+- author: Truc D. T. Nguyen, Phung Lai, Khang Tran, NhatHai Phan, My T. Thai
+  title: Active Membership Inference Attack under Local Differential Privacy in Federated
+    Learning.
+  venue: AISTATS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/NguyenLTPT23
+  doi: ''
+  ee: https://proceedings.mlr.press/v206/nguyen23e.html
+  url: https://dblp.org/rec/conf/aistats/NguyenLTPT23
+- author: "Elnur Gasanov, Ahmed Khaled 0001, Samuel Horv\xE1th, Peter Richt\xE1rik"
+  title: 'FLIX: A Simple and Communication-Efficient Alternative to Local Methods
+    in Federated Learning.'
+  venue: AISTATS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/Gasanov0HR22
+  doi: ''
+  ee: https://proceedings.mlr.press/v151/gasanov22a.html
+  url: https://dblp.org/rec/conf/aistats/Gasanov0HR22
+- author: Yann Fraboni, Richard Vidal, Marco Lorenzi
+  title: Free-rider Attacks on Model Aggregation in Federated Learning.
+  venue: AISTATS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/FraboniVL21
+  doi: ''
+  ee: http://proceedings.mlr.press/v130/fraboni21a.html
+  url: https://dblp.org/rec/conf/aistats/FraboniVL21
+- author: Antonious M. Girgis, Deepesh Data, Suhas N. Diggavi, Peter Kairouz, Ananda
+    Theertha Suresh
+  title: Shuffled Model of Differential Privacy in Federated Learning.
+  venue: AISTATS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/GirgisDDKS21
+  doi: ''
+  ee: http://proceedings.mlr.press/v130/girgis21a.html
+  url: https://dblp.org/rec/conf/aistats/GirgisDDKS21
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.

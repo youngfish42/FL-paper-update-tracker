@@ -3700,6 +3700,39 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2020/hash/39d0a8908fbe6c18039ea8227f827023-Abstract.html
   url: https://dblp.org/rec/conf/nips/YuanM20
+- author: Thanh Vinh Vo, Arnab Bhattacharyya 0001, Young Lee, Tze-Yun Leong
+  title: An Adaptive Kernel Approach to Federated Learning of Heterogeneous Causal
+    Effects.
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/Vo0LL22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/9a9afa70eead1805f00e3a0df2a41157-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Vo0LL22
+- author: Zhaomin Wu, Qinbin Li, Bingsheng He
+  title: A Coupled Design of Exploiting Record Similarity for Practical Vertical Federated
+    Learning.
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WuLH22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/84b744165a0597360caad96b06e69313-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WuLH22
+- author: Haibo Yang, Zhuqing Liu, Xin Zhang 0054, Jia Liu 0002
+  title: 'SAGDA: Achieving $\mathcal{O}(\epsilon{-2})$ Communication Complexity in
+    Federated Min-Max Learning.'
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YangL0022
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/2f13806d6580db60d9d7d6f89ba529ca-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YangL0022
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

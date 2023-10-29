@@ -71,7 +71,7 @@ def get_dblp_items(dblp_data):
 
             authors = [authors["author"]["text"]]
 
-        logger.info(f"authors: {authors}")
+        # logger.info(f"authors: {authors}")
 
         res_item["author"] = ", ".join(authors)
         needed_keys = [

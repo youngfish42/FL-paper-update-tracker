@@ -4,6 +4,8 @@ from utils import get_msg, init, get_dblp_items
 import yaml
 import requests
 import json
+import time
+import random
 
 
 class Scaffold:
@@ -31,6 +33,9 @@ class Scaffold:
         logger.info(f"topics: {cfg['dblp']['topics']}")
 
         for topic in cfg["dblp"]["topics"]:
+            # random sleep to avoid being blocked
+            time.sleep(random.randint(1, 5))
+
             try:
                 logger.info(f"topic: {topic}")
                 # get dblp data
@@ -41,6 +46,7 @@ class Scaffold:
             # deal with the JSON decode error
             except json.decoder.JSONDecodeError as e:
                 logger.error(f"JSONDecodeError: {e}")
+                # logger.error(f"response: {response.text}")
                 continue
             # deal with the HTTP error
             except requests.exceptions.HTTPError as e:
@@ -64,11 +70,11 @@ class Scaffold:
                 continue
             else:
                 # 如果没有异常，则执行这里的代码
-                logger.info(f"dblp_data: {dblp_data}")
+                # logger.info(f"dblp_data: {dblp_data}")
 
                 # get items
                 items = get_dblp_items(dblp_data)
-                logger.info(f"items: {items}")
+                # logger.info(f"items: {items}")
 
                 # add new cache for this topic
                 cached_items = dblp_cache.get(

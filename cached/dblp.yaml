@@ -824,6 +824,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2023/440
   ee: https://doi.org/10.24963/ijcai.2023/440
   url: https://dblp.org/rec/conf/ijcai/LiaoLCZZTWQ23
+- author: Xinyi Shang, Yang Lu 0009, Gang Huang, Hanzi Wang
+  title: Federated Learning on Heterogeneous and Long-Tailed Data via Classifier Re-Training
+    with Federated Features.
+  venue: IJCAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ShangLHW22
+  doi: 10.24963/IJCAI.2022/308
+  ee: https://doi.org/10.24963/ijcai.2022/308
+  url: https://dblp.org/rec/conf/ijcai/ShangLHW22
 federate%20venue%3AAAAI%3A:
 - author: Xueyang Wu 0001, Hengguan Huang, Youlong Ding, Hao Wang, Ye Wang, Qian Xu
     0005

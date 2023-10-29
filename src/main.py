@@ -39,9 +39,7 @@ class Scaffold:
                 response.raise_for_status()  # 如果响应状态不是200，将引发HTTPError异常  
                 dblp_data = response.json()
             # deal with the JSON decode error
-            except (json.JSONDecodeError) as err: 
-                print(err)
-                logger.error(f'Error occurred: {err}')  
+            except json.decoder.JSONDecodeError:
                 continue 
             else:
                 # 如果没有异常，则执行这里的代码

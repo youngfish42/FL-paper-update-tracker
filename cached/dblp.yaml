@@ -1,14 +1,4 @@
 federate%20venue%3ADAC%3A:
-- author: Jing Cao, Zirui Lian, Weihong Liu, Zongwei Zhu, Cheng Ji
-  title: 'HADFL: Heterogeneity-aware Decentralized Federated Learning Framework.'
-  venue: DAC
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/dac/CaoLLZJ21
-  doi: 10.1109/DAC18074.2021.9586101
-  ee: https://doi.org/10.1109/DAC18074.2021.9586101
-  url: https://dblp.org/rec/conf/dac/CaoLLZJ21
 - author: Zirui Xu, Fuxun Yu, Jinjun Xiong, Xiang Chen 0010
   title: 'Helios: Heterogeneity-Aware Federated Learning with Dynamically Balanced
     Collaboration.'
@@ -6662,16 +6652,6 @@ federate%20venue%3ACOLT%3A:
   venue: COLT
   year: '2023'
   type: Conference and Workshop Papers
-  access: closed
-  key: conf/colt/ZhaoWL23
-  doi: ''
-  ee: https://proceedings.mlr.press/v195/zhao23b.html
-  url: https://dblp.org/rec/conf/colt/ZhaoWL23
-- author: Xuyang Zhao, Huiyuan Wang, Wei Lin
-  title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
-  venue: COLT
-  year: '2023'
-  type: Conference and Workshop Papers
   access: open
   key: conf/colt/ZhaoWL23
   doi: ''
@@ -6720,17 +6700,6 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v180/jhunjhunwala22a.html
   url: https://dblp.org/rec/conf/uai/JhunjhunwalaSNJ22
-- author: Zizhen Liu, Si Chen, Jing Ye 0001, Junfeng Fan, Huawei Li 0001, Xiaowei
-    Li 0001
-  title: 'SASH: Efficient secure aggregation based on SHPRG for federated learning.'
-  venue: UAI
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/uai/LiuCYFLL22
-  doi: ''
-  ee: https://proceedings.mlr.press/v180/liu22c.html
-  url: https://dblp.org/rec/conf/uai/LiuCYFLL22
 - author: Thanh Vinh Vo, Young Lee, Trong Nghia Hoang, Tze-Yun Leong
   title: Bayesian federated estimation of causal effects from observational data.
   venue: UAI
@@ -14781,18 +14750,6 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2022.3195207
   ee: https://doi.org/10.1109/TPDS.2022.3195207
   url: https://dblp.org/rec/journals/tpds/DengLRCYZZ22
-- author: Yongheng Deng, Feng Lyu 0001, Ju Ren, Huaqing Wu, Yuezhi Zhou, Yaoxue Zhang,
-    Xuemin Shen
-  title: 'AUCTION: Automated and Quality-Aware Client Selection Framework for Efficient
-    Federated Learning.'
-  venue: IEEE Trans. Parallel Distributed Syst.
-  year: '2022'
-  type: Journal Articles
-  access: closed
-  key: journals/tpds/DengLRWZZS22
-  doi: 10.1109/TPDS.2021.3134647
-  ee: https://doi.org/10.1109/TPDS.2021.3134647
-  url: https://dblp.org/rec/journals/tpds/DengLRWZZS22
 - author: Canh T. Dinh, Nguyen Hoang Tran, Tuan Dung Nguyen, Wei Bao, Amir Rezaei
     Balef, Bing Bing Zhou, Albert Y. Zomaya
   title: 'DONE: Distributed Approximate Newton-type Method for Federated Edge Learning.'

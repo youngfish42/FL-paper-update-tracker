@@ -1,15 +1,4 @@
 federate%20venue%3ADAC%3A:
-- author: Rishikanth Chandrasekaran, Kazim Ergun, Jihyun Lee, Dhanush Nanjunda, Jaeyoung
-    Kang 0001, Tajana Rosing
-  title: 'FHDnn: communication efficient and robust federated learning for AIoT networks.'
-  venue: DAC
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/dac/ChandrasekaranE22
-  doi: 10.1145/3489517.3530394
-  ee: https://doi.org/10.1145/3489517.3530394
-  url: https://dblp.org/rec/conf/dac/ChandrasekaranE22
 - author: Jing Cao, Zirui Lian, Weihong Liu, Zongwei Zhu, Cheng Ji
   title: 'HADFL: Heterogeneity-aware Decentralized Federated Learning Framework.'
   venue: DAC
@@ -5730,17 +5719,6 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/wang23n.html
   url: https://dblp.org/rec/conf/icml/WangK0DL23
-- author: Jiin Woo, Gauri Joshi, Yuejie Chi
-  title: 'The Blessing of Heterogeneity in Federated Q-Learning: Linear Speedup and
-    Beyond.'
-  venue: ICML
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/icml/WooJC23
-  doi: ''
-  ee: https://proceedings.mlr.press/v202/woo23a.html
-  url: https://dblp.org/rec/conf/icml/WooJC23
 - author: Feijie Wu, Song Guo 0001, Zhihao Qu, Shiqi He, Ziming Liu, Jing Gao 0004
   title: Anchor Sampling for Federated Learning with Partial Client Participation.
   venue: ICML
@@ -10174,17 +10152,6 @@ federate%20venue%3ACOLING%3A:
   doi: 10.18653/V1/2020.COLING-MAIN.310
   ee: https://doi.org/10.18653/v1/2020.coling-main.310
   url: https://dblp.org/rec/conf/coling/HuangLZ20
-- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
-    \ Nikolaos Laoutaris"
-  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
-  venue: NDSS
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/ndss/ChuGISL23
-  doi: ''
-  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
-  url: https://dblp.org/rec/conf/ndss/ChuGISL23
 - author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
     Minhui Xue, Yuqing Zhang 0001
   title: 'PPA: Preference Profiling Attack Against Federated Learning.'
@@ -12749,17 +12716,6 @@ federate%20venue%3AMobiCom%3A:
   doi: 10.1145/3570361.3592517
   ee: https://doi.org/10.1145/3570361.3592517
   url: https://dblp.org/rec/conf/mobicom/ZhengLCW023
-- author: Sweta Dey, Sujata Pal
-  title: Federated learning-based air quality prediction for smart cities using BGRU
-    model.
-  venue: MobiCom
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: closed
-  key: conf/mobicom/DeyP22
-  doi: 10.1145/3495243.3558267
-  ee: https://doi.org/10.1145/3495243.3558267
-  url: https://dblp.org/rec/conf/mobicom/DeyP22
 - author: Chenning Li, Xiao Zeng, Mi Zhang 0002, Zhichao Cao 0001
   title: 'PyramidFL: a fine-grained client selection framework for efficient federated
     learning.'
@@ -16610,13 +16566,4 @@ federate%20venue%3ANAACL-HLT%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
   url: https://dblp.org/rec/conf/ndss/ZhangWY20
-- author: Michael Dietz, Dan S. Wallach
-  title: Hardening Persona - Improving Federated Web Login.
-  venue: NDSS
-  year: '2014'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/ndss/DietzW14
-  doi: ''
-  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
-  url: https://dblp.org/rec/conf/ndss/DietzW14
+

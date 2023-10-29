@@ -36,16 +36,16 @@ class Scaffold:
             # get dblp data
             # dblp_data = requests.get(dblp_url.format(topic)).json()
             # deal with the error: dblp_data is not json
+            response = requests.get(dblp_url.format(topic))  
             try:
-                response = requests.get(dblp_url.format(topic))  
                 response.raise_for_status()  # 如果响应状态不是200，将引发HTTPError异常  
                 dblp_data = response.json()
             except requests.HTTPError as http_err:  
-                logger.error(f'HTTP error occurred: {http_err}')
-            except requests.exceptions.RequestException as err:  
-                logger.error(f'Other error occurred: {err}')    
+                logger.error(f'HTTP error occurred: {http_err}')   
             except json.JSONDecodeError:  
                 logger.error('Response is not a valid JSON. Maybe the server is down or the URL is incorrect.')  
+                # if json is not valid, we set dblp_data to empty
+                dblp_data = {}
             logger.info(f"dblp_data: {dblp_data}")
 
             # get items

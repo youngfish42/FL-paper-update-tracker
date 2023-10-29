@@ -2787,28 +2787,6 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v206/mian23a.html
   url: https://dblp.org/rec/conf/aistats/MianKKV23
-- author: Truc D. T. Nguyen, Phung Lai, Khang Tran, NhatHai Phan, My T. Thai
-  title: Active Membership Inference Attack under Local Differential Privacy in Federated
-    Learning.
-  venue: AISTATS
-  year: '2023'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aistats/NguyenLTPT23
-  doi: ''
-  ee: https://proceedings.mlr.press/v206/nguyen23e.html
-  url: https://dblp.org/rec/conf/aistats/NguyenLTPT23
-- author: "Elnur Gasanov, Ahmed Khaled 0001, Samuel Horv\xE1th, Peter Richt\xE1rik"
-  title: 'FLIX: A Simple and Communication-Efficient Alternative to Local Methods
-    in Federated Learning.'
-  venue: AISTATS
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aistats/Gasanov0HR22
-  doi: ''
-  ee: https://proceedings.mlr.press/v151/gasanov22a.html
-  url: https://dblp.org/rec/conf/aistats/Gasanov0HR22
 - author: Margalit R. Glasgow, Honglin Yuan, Tengyu Ma 0001
   title: Sharp Bounds for Federated Averaging (Local SGD) and Continuous Perspective.
   venue: AISTATS
@@ -2933,27 +2911,6 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: http://proceedings.mlr.press/v130/charles21a.html
   url: https://dblp.org/rec/conf/aistats/CharlesK21
-- author: Yann Fraboni, Richard Vidal, Marco Lorenzi
-  title: Free-rider Attacks on Model Aggregation in Federated Learning.
-  venue: AISTATS
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aistats/FraboniVL21
-  doi: ''
-  ee: http://proceedings.mlr.press/v130/fraboni21a.html
-  url: https://dblp.org/rec/conf/aistats/FraboniVL21
-- author: Antonious M. Girgis, Deepesh Data, Suhas N. Diggavi, Peter Kairouz, Ananda
-    Theertha Suresh
-  title: Shuffled Model of Differential Privacy in Federated Learning.
-  venue: AISTATS
-  year: '2021'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/aistats/GirgisDDKS21
-  doi: ''
-  ee: http://proceedings.mlr.press/v130/girgis21a.html
-  url: https://dblp.org/rec/conf/aistats/GirgisDDKS21
 - author: Farzin Haddadpour, Mohammad Mahdi Kamani, Aryan Mokhtari, Mehrdad Mahdavi
   title: 'Federated Learning with Compression: Unified Analysis and Sharp Guarantees.'
   venue: AISTATS
@@ -13474,28 +13431,6 @@ federate%20venue%3AWWW%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
   url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
-- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
-    Ahmad-Reza Sadeghi, Felix Madlener
-  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
-  venue: NDSS
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/ndss/FereidooniDRMSM22
-  doi: ''
-  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
-  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
-- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
-  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
-    Learning.
-  venue: NDSS
-  year: '2022'
-  type: Conference and Workshop Papers
-  access: open
-  key: conf/ndss/NaseriHC22
-  doi: ''
-  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
-  url: https://dblp.org/rec/conf/ndss/NaseriHC22
 - author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
     Elias Bou-Harb, Paul Rad
   title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.

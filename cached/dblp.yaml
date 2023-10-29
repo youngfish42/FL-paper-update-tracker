@@ -6866,6 +6866,17 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v216/wu23a.html
   url: https://dblp.org/rec/conf/uai/WuCGW23
+- author: Zizhen Liu, Si Chen, Jing Ye 0001, Junfeng Fan, Huawei Li 0001, Xiaowei
+    Li 0001
+  title: 'SASH: Efficient secure aggregation based on SHPRG for federated learning.'
+  venue: UAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/LiuCYFLL22
+  doi: ''
+  ee: https://proceedings.mlr.press/v180/liu22c.html
+  url: https://dblp.org/rec/conf/uai/LiuCYFLL22
 federate%20streamid%3Ajournals%2Fml%3A:
 - author: Adnan Ahmad, Wei Luo 0001, Antonio Robles-Kelly
   title: Robust federated learning under statistical heterogeneity via hessian-weighted

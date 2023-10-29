@@ -53,6 +53,125 @@ federate%20venue%3ADAC%3A:
   doi: 10.1145/2593069.2593121
   ee: https://doi.org/10.1145/2593069.2593121
   url: https://dblp.org/rec/conf/dac/NiKA14
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AIJCAI%3A:
 - author: Behnaz Soltani, Yipeng Zhou, Venus Haghighi, John C. S. Lui
   title: A Survey of Federated Evaluation in Federated Learning.
@@ -800,6 +919,18 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2022/475
   ee: https://doi.org/10.24963/ijcai.2022/475
   url: https://dblp.org/rec/conf/ijcai/ShenFSTGX22
+- author: Xinting Liao, Weiming Liu, Chaochao Chen 0001, Pengyang Zhou, Huabin Zhu,
+    Yanchao Tan, Jun Wang 0020, Yue Qi
+  title: 'HyperFed: Hyperbolic Prototypes Exploration with Consistent Aggregation
+    for Non-IID Data in Federated Learning.'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LiaoLCZZTWQ23
+  doi: 10.24963/IJCAI.2023/440
+  ee: https://doi.org/10.24963/ijcai.2023/440
+  url: https://dblp.org/rec/conf/ijcai/LiaoLCZZTWQ23
 federate%20venue%3AAAAI%3A:
 - author: Xueyang Wu 0001, Hengguan Huang, Youlong Ding, Hao Wang, Ye Wang, Qian Xu
     0005
@@ -2593,6 +2724,39 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V25I1.7868
   ee: https://doi.org/10.1609/aaai.v25i1.7868
   url: https://dblp.org/rec/conf/aaai/CeppiGG11
+- author: Xiangping Kang, Guoxian Yu, Jun Wang 0035, Wei Guo, Carlotta Domeniconi,
+    Jinglin Zhang
+  title: Incentive-Boosted Federated Crowdsourcing.
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/KangYWGDZ23
+  doi: 10.1609/AAAI.V37I5.25744
+  ee: https://doi.org/10.1609/aaai.v37i5.25744
+  url: https://dblp.org/rec/conf/aaai/KangYWGDZ23
+- author: Dui Wang, Li Shen, Yong Luo 0002, Han Hu 0003, Kehua Su, Yonggang Wen 0001,
+    Dacheng Tao
+  title: 'FedABC: Targeting Fair Competition in Personalized Federated Learning.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangSLHS0T23
+  doi: 10.1609/AAAI.V37I8.26203
+  ee: https://doi.org/10.1609/aaai.v37i8.26203
+  url: https://dblp.org/rec/conf/aaai/WangSLHS0T23
+- author: Gang Yan, Hao Wang 0022, Xu Yuan 0001, Jian Li 0008
+  title: 'DeFL: Defending against Model Poisoning Attacks in Federated Learning via
+    Critical Learning Periods Awareness.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YanWYL23
+  doi: 10.1609/AAAI.V37I9.26271
+  ee: https://doi.org/10.1609/aaai.v37i9.26271
+  url: https://dblp.org/rec/conf/aaai/YanWYL23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -8708,6 +8872,125 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.01568
   ee: https://doi.org/10.1109/CVPR52729.2023.01568
   url: https://dblp.org/rec/conf/cvpr/ChowLWIW23
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -8731,6 +9014,125 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV48922.2021.00438
   ee: https://doi.org/10.1109/ICCV48922.2021.00438
   url: https://dblp.org/rec/conf/iccv/Zhang0BDD21
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -8874,6 +9276,125 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-19839-7_11
   ee: https://doi.org/10.1007/978-3-031-19839-7_11
   url: https://dblp.org/rec/conf/eccv/YuanHYBGC22
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.
@@ -8941,7 +9462,245 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/319878.319944
   ee: https://doi.org/10.1145/319878.319944
   url: https://dblp.org/rec/conf/mm/Berthold99
-federate%20streamid%3Ajournals%2Fijcv%3A: []
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
+federate%20streamid%3Ajournals%2Fijcv%3A:
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AACL%3A:
 - author: Zheng Xu 0002, Yanxiang Zhang, Galen Andrew, Christopher A. Choquette-Choo,
     Peter Kairouz, H. Brendan McMahan, Jesse Rosenstock, Yuanbo Zhang
@@ -9021,6 +9780,125 @@ federate%20venue%3AACL%3A:
   doi: 10.18653/V1/2023.FINDINGS-ACL.632
   ee: https://doi.org/10.18653/v1/2023.findings-acl.632
   url: https://dblp.org/rec/conf/acl/ZhangYDWYQX23
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"
@@ -9166,6 +10044,125 @@ federate%20venue%3AEMNLP%3A:
   doi: 10.18653/V1/2022.FINDINGS-EMNLP.25
   ee: https://doi.org/10.18653/v1/2022.findings-emnlp.25
   url: https://dblp.org/rec/conf/emnlp/Zhang0022a
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.
@@ -9177,6 +10174,125 @@ federate%20venue%3ACOLING%3A:
   doi: 10.18653/V1/2020.COLING-MAIN.310
   ee: https://doi.org/10.18653/v1/2020.coling-main.310
   url: https://dblp.org/rec/conf/coling/HuangLZ20
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3ASIGIR%3A:
 - author: Zexi Li, Qunwei Li, Yi Zhou, Wenliang Zhong, Guannan Zhang, Chao Wu 0001
   title: Edge-cloud Collaborative Learning with Federated and Centralized Features.
@@ -9469,6 +10585,125 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3539618.3591909
   ee: https://doi.org/10.1145/3539618.3591909
   url: https://dblp.org/rec/conf/sigir/WeiDLTLWZ23
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -9622,6 +10857,125 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/170035.170074
   ee: https://doi.org/10.1145/170035.170074
   url: https://dblp.org/rec/conf/sigmod/WangJS93
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous
@@ -10004,6 +11358,125 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE55515.2023.00126
   ee: https://doi.org/10.1109/ICDE55515.2023.00126
   url: https://dblp.org/rec/conf/icde/GuZBCZY23
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou
@@ -10244,6 +11717,125 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: ''
   ee: https://www.vldb.org/pvldb/vol16/p2471-ooi.pdf
   url: https://dblp.org/rec/journals/pvldb/WuX0DLOX023
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -10267,6 +11859,125 @@ federate%20venue%3ASIGCOMM%3A:
   doi: 10.1145/2018436.2018507
   ee: https://doi.org/10.1145/2018436.2018507
   url: https://dblp.org/rec/conf/sigcomm/CaniniJVNK11
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AINFOCOM%3A:
 - author: Hankyul Baek, Won Joon Yun, Yunseok Kwak, Soyi Jung, Mingyue Ji, Mehdi Bennis,
     Jihong Park, Joongheon Kim
@@ -10907,6 +12618,125 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10228895
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10228895
   url: https://dblp.org/rec/conf/infocom/LiPZHGYL23
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -11009,6 +12839,125 @@ federate%20venue%3AMobiCom%3A:
   doi: 10.1145/2500423.2505303
   ee: https://doi.org/10.1145/2500423.2505303
   url: https://dblp.org/rec/conf/mobicom/PassasCKLHKKMT13
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3ANSDI%3A:
 - author: Junxue Zhang 0001, Xiaodian Cheng, Wei Wang, Liu Yang, Jinbin Hu, Kai Chen
     0005
@@ -11057,6 +13006,125 @@ federate%20venue%3ANSDI%3A:
   doi: ''
   ee: https://www.usenix.org/conference/nsdi23/presentation/zhang-junxue
   url: https://dblp.org/rec/conf/nsdi/0001CWYH023
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AWWW%3A:
 - author: Yao Chen, Shan Huang, Wensheng Gan, Gengsen Huang, Yongdong Wu
   title: 'Federated Learning for Metaverse: A Survey.'
@@ -11513,6 +13581,125 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583471
   ee: https://doi.org/10.1145/3543507.3583471
   url: https://dblp.org/rec/conf/www/Xie0Y23
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -11536,8 +13723,365 @@ federate%20venue%3AOSDI%3A:
   doi: ''
   ee: http://www.usenix.org/events/osdi02/tech/adya.html
   url: https://dblp.org/rec/conf/osdi/AdyaBCCCDHLTW02
-federate%20venue%3ASOSP%3A: []
-federate%20venue%3AISCA%3A: []
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
+federate%20venue%3ASOSP%3A:
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
+federate%20venue%3AISCA%3A:
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3AMLSys%3A:
 - author: Dzmitry Huba, John Nguyen, Kshitiz Malik, Ruiyu Zhu, Mike Rabbat, Ashkan
     Yousefpour, Carole-Jean Wu, Hongyuan Zhan, Pavel Ustinov, Harish Srinivas, Kaikai
@@ -11586,6 +14130,125 @@ federate%20venue%3AMLSys%3A:
   doi: ''
   ee: https://proceedings.mlsys.org/book/271.pdf
   url: https://dblp.org/rec/conf/mlsys/BonawitzEGHIIKK19
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20streamid%3Aconf%2Feurosys%3A:
 - author: Ahmed M. Abdelmoniem, Atal Narayan Sahu, Marco Canini, Suhaib A. Fahmy
   title: 'REFL: Resource-Efficient Federated Learning.'
@@ -11743,6 +14406,125 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3195870.3195873
   ee: https://doi.org/10.1145/3195870.3195873
   url: https://dblp.org/rec/conf/eurosys/PacholczykR18
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001
@@ -12433,7 +15215,245 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2022.3187365
   ee: https://doi.org/10.1109/TPDS.2022.3187365
   url: https://dblp.org/rec/journals/tpds/SultanaHCXY22
-federate%20streamid%3Ajournals%2Ftocs%3A: []
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
+federate%20streamid%3Ajournals%2Ftocs%3A:
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20streamid%3Ajournals%2Ftos%3A:
 - author: Amina Chikhaoui, Laurent Lemarchand, Kamel Boukhalfa, Jalil Boukhobza
   title: Multi-objective Optimization of Data Placement in a Storage-as-a-Service
@@ -12446,6 +15466,125 @@ federate%20streamid%3Ajournals%2Ftos%3A:
   doi: 10.1145/3452741
   ee: https://doi.org/10.1145/3452741
   url: https://dblp.org/rec/journals/tos/ChikhaouiLBB21
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20streamid%3Ajournals%2Ftcad%3A:
 - author: Yangguang Cui, Kun Cao 0001, Junlong Zhou, Tongquan Wei
   title: Optimizing Training Efficiency and Cost of Hierarchical Federated Learning
@@ -12511,6 +15650,125 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2009.2014005
   ee: https://doi.org/10.1109/TCAD.2009.2014005
   url: https://dblp.org/rec/journals/tcad/ObermaisserSHK09
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng
@@ -12645,6 +15903,125 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3272801
   ee: https://doi.org/10.1109/TC.2023.3272801
   url: https://dblp.org/rec/journals/tc/ZhangGGZZZ23
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'
@@ -12720,8 +16097,365 @@ federate%20streamid%3Aconf%2Ficse%3A:
   doi: 10.1109/S-CUBE.2012.6225504
   ee: https://doi.org/10.1109/S-Cube.2012.6225504
   url: https://dblp.org/rec/conf/icse/KerteszKNOF12
-federate%20streamid%3Ajournals%2Ffocs%3A: []
-federate%20streamid%3Aconf%2Fstoc%3A: []
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
+federate%20streamid%3Ajournals%2Ffocs%3A:
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
+federate%20streamid%3Aconf%2Fstoc%3A:
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14
 federate%20venue%3ANAACL-HLT%3A:
 - author: Bill Yuchen Lin, Chaoyang He 0001, Zihang Ze, Hulin Wang, Yufen Hua, Christophe
     Dupuy, Rahul Gupta 0001, Mahdi Soltanolkotabi, Xiang Ren 0001, Salman Avestimehr
@@ -12767,3 +16501,122 @@ federate%20venue%3ANAACL-HLT%3A:
   doi: 10.18653/V1/2022.NAACL-MAIN.101
   ee: https://doi.org/10.18653/v1/2022.naacl-main.101
   url: https://dblp.org/rec/conf/naacl/WellerMBLD22
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
+  title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ChuGISL23
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
+  url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhiyang Dai, Zhi Zhang 0001,
+    Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Hossein Fereidooni, Alexandra Dmitrienko, Phillip Rieger, Markus Miettinen,
+    Ahmad-Reza Sadeghi, Felix Madlener
+  title: 'FedCRI: Federated Mobile Cyber-Risk Intelligence.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniDRMSM22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-229/
+  url: https://dblp.org/rec/conf/ndss/FereidooniDRMSM22
+- author: Mohammad Naseri, Jamie Hayes, Emiliano De Cristofaro
+  title: Local and Central Differential Privacy for Robustness and Privacy in Federated
+    Learning.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/NaseriHC22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-204/
+  url: https://dblp.org/rec/conf/ndss/NaseriHC22
+- author: Gonzalo De La Torre Parra, Luis Selvera, Joseph Khoury, Hector Irizarry,
+    Elias Bou-Harb, Paul Rad
+  title: Interpretable Federated Transformer Log Learning for Cloud Threat Forensics.
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ParraSKIBR22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-236/
+  url: https://dblp.org/rec/conf/ndss/ParraSKIBR22
+- author: Phillip Rieger, Thien Duc Nguyen, Markus Miettinen, Ahmad-Reza Sadeghi
+  title: 'DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep
+    Model Inspection.'
+  venue: NDSS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerNMS22
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/auto-draft-205/
+  url: https://dblp.org/rec/conf/ndss/RiegerNMS22
+- author: Xiaoyu Cao, Minghong Fang, Jia Liu 0002, Neil Zhenqiang Gong
+  title: 'FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/CaoF0G21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
+  url: https://dblp.org/rec/conf/ndss/CaoF0G21
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
+  title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/SavPTFBSH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/poseidon-privacy-preserving-federated-neural-network-learning/
+  url: https://dblp.org/rec/conf/ndss/SavPTFBSH21
+- author: Virat Shejwalkar, Amir Houmansadr
+  title: 'Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses
+    for Federated Learning.'
+  venue: NDSS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ShejwalkarH21
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine-optimizing-model-poisoning-attacks-and-defenses-for-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ShejwalkarH21
+- author: Zhenfeng Zhang, Yuchen Wang, Kang Yang 0002
+  title: Strong Authentication without Temper-Resistant Hardware and Application to
+    Federated Identities.
+  venue: NDSS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangWY20
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
+  url: https://dblp.org/rec/conf/ndss/ZhangWY20
+- author: Michael Dietz, Dan S. Wallach
+  title: Hardening Persona - Improving Federated Web Login.
+  venue: NDSS
+  year: '2014'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/DietzW14
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
+  url: https://dblp.org/rec/conf/ndss/DietzW14

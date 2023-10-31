@@ -2805,6 +2805,17 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: http://proceedings.mlr.press/v130/girgis21a.html
   url: https://dblp.org/rec/conf/aistats/GirgisDDKS21
+- author: Banghua Zhu, Lun Wang, Qi Pang, Shuai Wang 0011, Jiantao Jiao, Dawn Song,
+    Michael I. Jordan
+  title: Byzantine-Robust Federated Learning with Optimal Statistical Rates.
+  venue: AISTATS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ZhuWPWJSJ23
+  doi: ''
+  ee: https://proceedings.mlr.press/v206/zhu23b.html
+  url: https://dblp.org/rec/conf/aistats/ZhuWPWJSJ23
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -5531,6 +5542,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/woo23a.html
   url: https://dblp.org/rec/conf/icml/WooJC23
+- author: Qi Pang, Lun Wang, Shuai Wang 0011, Wenting Zheng, Dawn Song
+  title: Secure Federated Correlation Test and Entropy Estimation.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/PangWWZS23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/pang23a.html
+  url: https://dblp.org/rec/conf/icml/PangWWZS23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -9233,6 +9254,114 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Luxin Cai, Naiyue Chen, Yuanzhouhan Cao, Jiahuan He, Yidong Li
+  title: 'FedCE: Personalized Federated Learning Method based on Clustering Ensembles.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/CaiCCHL23
+  doi: 10.1145/3581783.3612217
+  ee: https://doi.org/10.1145/3581783.3612217
+  url: https://dblp.org/rec/conf/mm/CaiCCHL23
+- author: Dong Chen, Siliang Tang, Zijin Shen, Guoming Wang, Jun Xiao, Yueting Zhuang,
+    Carl Yang
+  title: 'FedAA: Using Non-sensitive Modalities to Improve Federated Learning while
+    Preserving Image Privacy.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ChenTSWXZY23
+  doi: 10.1145/3581783.3611953
+  ee: https://doi.org/10.1145/3581783.3611953
+  url: https://dblp.org/rec/conf/mm/ChenTSWXZY23
+- author: Xinyue Chen, Jie Xu, Yazhou Ren 0001, Xiaorong Pu, Ce Zhu, Xiaofeng Zhu
+    0001, Zhifeng Hao, Lifang He 0001
+  title: Federated Deep Multi-View Clustering with Global Self-Supervision.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ChenX0PZ0H023
+  doi: 10.1145/3581783.3612027
+  ee: https://doi.org/10.1145/3581783.3612027
+  url: https://dblp.org/rec/conf/mm/ChenX0PZ0H023
+- author: Jingzhi Li, Fengling Li, Lei Zhu 0002, Hui Cui, Jingjing Li 0001
+  title: Prototype-guided Knowledge Transfer for Federated Unsupervised Cross-modal
+    Hashing.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LiL0C023
+  doi: 10.1145/3581783.3613837
+  ee: https://doi.org/10.1145/3581783.3613837
+  url: https://dblp.org/rec/conf/mm/LiL0C023
+- author: Xinting Liao, Chaochao Chen 0001, Weiming Liu, Pengyang Zhou, Huabin Zhu,
+    Shuheng Shen, Weiqiang Wang, Mengling Hu, Yanchao Tan, Xiaolin Zheng
+  title: Joint Local Relational Augmentation and Global Nash Equilibrium for Federated
+    Learning with Non-IID Data.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Liao0LZZSWHTZ23
+  doi: 10.1145/3581783.3612178
+  ee: https://doi.org/10.1145/3581783.3612178
+  url: https://dblp.org/rec/conf/mm/Liao0LZZSWHTZ23
+- author: Jianghu Lu, Shikun Li, Kexin Bao, Pengju Wang, Zhenxing Qian, Shiming Ge
+  title: Federated Learning with Label-Masking Distillation.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LuLBWQG23
+  doi: 10.1145/3581783.3611984
+  ee: https://doi.org/10.1145/3581783.3611984
+  url: https://dblp.org/rec/conf/mm/LuLBWQG23
+- author: Zhuang Qi, Lei Meng, Zitan Chen, Han Hu, Hui Lin, Xiangxu Meng
+  title: Cross-Silo Prototypical Calibration for Federated Learning with Non-IID Data.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/QiMCHLM23
+  doi: 10.1145/3581783.3612481
+  ee: https://doi.org/10.1145/3581783.3612481
+  url: https://dblp.org/rec/conf/mm/QiMCHLM23
+- author: Baochen Xiong, Xiaoshan Yang, Yaguang Song, Yaowei Wang, Changsheng Xu
+  title: Client-Adaptive Cross-Model Reconstruction Network for Modality-Incomplete
+    Multimodal Federated Learning.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/XiongYSWX23
+  doi: 10.1145/3581783.3611757
+  ee: https://doi.org/10.1145/3581783.3611757
+  url: https://dblp.org/rec/conf/mm/XiongYSWX23
+- author: Zixin Zhang, Fan Qi, Shuai Li, Changsheng Xu
+  title: 'AffectFAL: Federated Active Affective Computing with Non-IID Data.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ZhangQLX23
+  doi: 10.1145/3581783.3612442
+  ee: https://doi.org/10.1145/3581783.3612442
+  url: https://dblp.org/rec/conf/mm/ZhangQLX23
+- author: Pengling Zhang, Huibin Yan, Wenhui Wu, Shuoyao Wang
+  title: Improving Federated Person Re-Identification through Feature-Aware Proximity
+    and Aggregation.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ZhangYWW23
+  doi: 10.1145/3581783.3612350
+  ee: https://doi.org/10.1145/3581783.3612350
+  url: https://dblp.org/rec/conf/mm/ZhangYWW23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -12510,6 +12639,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Jinliang Yuan, Shangguang Wang, Shihe Wang, Yuanchun Li, Xiao Ma 0009, Ao
+    Zhou 0001, Mengwei Xu
+  title: Privacy as a Resource in Differentially Private Federated Learning.
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/YuanWWLMZX23
+  doi: 10.1109/INFOCOM53939.2023.10228953
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10228953
+  url: https://dblp.org/rec/conf/infocom/YuanWWLMZX23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

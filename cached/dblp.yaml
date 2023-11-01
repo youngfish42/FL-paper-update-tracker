@@ -9362,6 +9362,82 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3612350
   ee: https://doi.org/10.1145/3581783.3612350
   url: https://dblp.org/rec/conf/mm/ZhangYWW23
+- author: Jinqian Chen, Jihua Zhu, Qinghai Zheng
+  title: 'Towards Fast and Stable Federated Learning: Confronting Heterogeneity via
+    Knowledge Anchor.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ChenZZ23
+  doi: 10.1145/3581783.3612597
+  ee: https://doi.org/10.1145/3581783.3612597
+  url: https://dblp.org/rec/conf/mm/ChenZZ23
+- author: Mingrui Lao, Nan Pu, Zhun Zhong, Nicu Sebe, Michael S. Lew
+  title: 'FedVQA: Personalized Federated Visual Question Answering over Heterogeneous
+    Scenes.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LaoPZSL23
+  doi: 10.1145/3581783.3611958
+  ee: https://doi.org/10.1145/3581783.3611958
+  url: https://dblp.org/rec/conf/mm/LaoPZSL23
+- author: Jingzhi Li, Fengling Li, Lei Zhu 0002, Hui Cui 0004, Jingjing Li 0001
+  title: Prototype-guided Knowledge Transfer for Federated Unsupervised Cross-modal
+    Hashing.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LiL0C023
+  doi: 10.1145/3581783.3613837
+  ee: https://doi.org/10.1145/3581783.3613837
+  url: https://dblp.org/rec/conf/mm/LiL0C023
+- author: Yunfei Long, Zhe Xue, Lingyang Chu, Tianlong Zhang, Junjiang Wu, Yu Zang,
+    Junping Du
+  title: 'FedCD: A Classifier Debiased Federated Learning Framework for Non-IID Data.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LongXCZWZD23
+  doi: 10.1145/3581783.3611966
+  ee: https://doi.org/10.1145/3581783.3611966
+  url: https://dblp.org/rec/conf/mm/LongXCZWZD23
+- author: Wei Wan, Shengshan Hu, Minghui Li, Jianrong Lu, Longling Zhang, Leo Yu Zhang,
+    Hai Jin 0001
+  title: A Four-Pronged Defense Against Byzantine Attacks in Federated Learning.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/WanHLLZZ023
+  doi: 10.1145/3581783.3612474
+  ee: https://doi.org/10.1145/3581783.3612474
+  url: https://dblp.org/rec/conf/mm/WanHLLZZ023
+- author: Liping Yi, Gang Wang, Xiaoguang Liu, Zhuan Shi, Han Yu
+  title: 'FedGH: Heterogeneous Federated Learning with Generalized Global Header.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/YiWLSY23
+  doi: 10.1145/3581783.3611781
+  ee: https://doi.org/10.1145/3581783.3611781
+  url: https://dblp.org/rec/conf/mm/YiWLSY23
+- author: Yuxuan Zhang, Lei Liu, Li Liu
+  title: 'Cuing Without Sharing: A Federated Cued Speech Recognition Framework via
+    Mutual Knowledge Distillation.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ZhangLL23
+  doi: 10.1145/3581783.3612134
+  ee: https://doi.org/10.1145/3581783.3612134
+  url: https://dblp.org/rec/conf/mm/ZhangLL23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

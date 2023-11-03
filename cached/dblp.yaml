@@ -5552,6 +5552,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/pang23a.html
   url: https://dblp.org/rec/conf/icml/PangWWZS23
+- author: Ruiquan Huang, Huanyu Zhang, Luca Melis, Milan Shen, Meisam Hejazinia, Jing
+    Yang 0002
+  title: Federated Linear Contextual Bandits with User-level Differential Privacy.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/HuangZMSHY23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/huang23q.html
+  url: https://dblp.org/rec/conf/icml/HuangZMSHY23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

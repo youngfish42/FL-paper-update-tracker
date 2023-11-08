@@ -3798,6 +3798,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/2f13806d6580db60d9d7d6f89ba529ca-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangL0022
+- author: Yucheng Ding, Chaoyue Niu, Fan Wu 0006, Shaojie Tang, Chengfei Lyu, Yanghe
+    Feng, Guihai Chen
+  title: Federated Submodel Optimization for Hot and Cold Data Features.
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/DingNWTLfC22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/002262941c9edfd472a79298b2ac5e17-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/DingNWTLfC22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -5563,6 +5574,27 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/huang23q.html
   url: https://dblp.org/rec/conf/icml/HuangZMSHY23
+- author: Zexi Li 0001, Tao Lin, Xinyi Shang, Chao Wu
+  title: Revisiting Weighted Aggregation in Federated Learning with Neural Networks.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LiLSW23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/li23s.html
+  url: https://dblp.org/rec/conf/icml/LiLSW23
+- author: Charles Lu 0001, Yaodong Yu, Sai Praneeth Karimireddy, Michael I. Jordan,
+    Ramesh Raskar
+  title: Federated Conformal Predictors for Distributed Uncertainty Quantification.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LuYKJR23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/lu23i.html
+  url: https://dblp.org/rec/conf/icml/LuYKJR23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -9461,6 +9493,27 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3612134
   ee: https://doi.org/10.1145/3581783.3612134
   url: https://dblp.org/rec/conf/mm/ZhangLL23
+- author: Zixin Zhang 0004, Fan Qi, Shuai Li, Changsheng Xu
+  title: 'AffectFAL: Federated Active Affective Computing with Non-IID Data.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ZhangQLX23
+  doi: 10.1145/3581783.3612442
+  ee: https://doi.org/10.1145/3581783.3612442
+  url: https://dblp.org/rec/conf/mm/ZhangQLX23
+- author: Fan Qi, Zixin Zhang 0004, Xianshan Yang, Huaiwen Zhang, Changsheng Xu
+  title: 'Feeling Without Sharing: A Federated Video Emotion Recognition Framework
+    Via Privacy-Agnostic Hybrid Aggregation.'
+  venue: ACM Multimedia
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/QiZYZX22
+  doi: 10.1145/3503161.3548278
+  ee: https://doi.org/10.1145/3503161.3548278
+  url: https://dblp.org/rec/conf/mm/QiZYZX22
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -10584,6 +10637,17 @@ federate%20venue%3ASIGIR%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Zexi Li 0001, Qunwei Li, Yi Zhou, Wenliang Zhong, Guannan Zhang, Chao Wu
+    0001
+  title: Edge-cloud Collaborative Learning with Federated and Centralized Features.
+  venue: SIGIR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/LiLZZZW23
+  doi: 10.1145/3539618.3591976
+  ee: https://doi.org/10.1145/3539618.3591976
+  url: https://dblp.org/rec/conf/sigir/LiLZZZW23
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for

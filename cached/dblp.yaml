@@ -2451,6 +2451,28 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I9.26271
   ee: https://doi.org/10.1609/aaai.v37i9.26271
   url: https://dblp.org/rec/conf/aaai/YanWYL23
+- author: Xuan Liu, Siqi Cai, Lin Li, Rui Zhang 0080, Song Guo 0001
+  title: 'MGIA: Mutual Gradient Inversion Attack in Multi-Modal Federated Learning
+    (Student Abstract).'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuCLZ023
+  doi: 10.1609/AAAI.V37I13.26995
+  ee: https://doi.org/10.1609/aaai.v37i13.26995
+  url: https://dblp.org/rec/conf/aaai/LiuCLZ023
+- author: Dui Wang, Li Shen 0008, Yong Luo 0002, Han Hu 0003, Kehua Su, Yonggang Wen
+    0001, Dacheng Tao
+  title: 'FedABC: Targeting Fair Competition in Personalized Federated Learning.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangSLHS0T23
+  doi: 10.1609/AAAI.V37I8.26203
+  ee: https://doi.org/10.1609/aaai.v37i8.26203
+  url: https://dblp.org/rec/conf/aaai/WangSLHS0T23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -5595,6 +5617,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/lu23i.html
   url: https://dblp.org/rec/conf/icml/LuYKJR23
+- author: Yan Sun, Li Shen 0008, Shixiang Chen, Liang Ding 0006, Dacheng Tao
+  title: 'Dynamic Regularized Sharpness Aware Minimization in Federated Learning:
+    Approaching Global Consistency and Smooth Landscape.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/SunSC0T23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/sun23h.html
+  url: https://dblp.org/rec/conf/icml/SunSC0T23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -8719,6 +8752,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.00995
   ee: https://doi.org/10.1109/CVPR52688.2022.00995
   url: https://dblp.org/rec/conf/cvpr/LiRCHFC22
+- author: Yifan Shi, Yingqi Liu, Kang Wei, Li Shen 0008, Xueqian Wang 0001, Dacheng
+    Tao
+  title: Make Landscape Flatter in Differentially Private Federated Learning.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ShiLWS0T23
+  doi: 10.1109/CVPR52729.2023.02352
+  ee: https://doi.org/10.1109/CVPR52729.2023.02352
+  url: https://dblp.org/rec/conf/cvpr/ShiLWS0T23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

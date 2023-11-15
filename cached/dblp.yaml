@@ -8784,6 +8784,16 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.02352
   ee: https://doi.org/10.1109/CVPR52729.2023.02352
   url: https://dblp.org/rec/conf/cvpr/ShiLWS0T23
+- author: Jiaxu Miao, Zongxin Yang, Leilei Fan, Yi Yang 0001
+  title: 'FedSeg: Class-Heterogeneous Federated Learning for Semantic Segmentation.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/MiaoYFY23
+  doi: 10.1109/CVPR52729.2023.00777
+  ee: https://doi.org/10.1109/CVPR52729.2023.00777
+  url: https://dblp.org/rec/conf/cvpr/MiaoYFY23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

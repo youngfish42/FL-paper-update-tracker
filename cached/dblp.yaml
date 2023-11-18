@@ -9601,6 +9601,16 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3611953
   ee: https://doi.org/10.1145/3581783.3611953
   url: https://dblp.org/rec/conf/mm/ChenTSWXZY23
+- author: Liping Yi, Gang Wang, Xiaoguang Liu, Zhuan Shi, Han Yu 0001
+  title: 'FedGH: Heterogeneous Federated Learning with Generalized Global Header.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/YiWLSY23
+  doi: 10.1145/3581783.3611781
+  ee: https://doi.org/10.1145/3581783.3611781
+  url: https://dblp.org/rec/conf/mm/YiWLSY23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

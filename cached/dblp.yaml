@@ -3831,6 +3831,22 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/002262941c9edfd472a79298b2ac5e17-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/DingNWTLfC22
+- author: "Jean Ogier du Terrail, Samy-Safwan Ayed, Edwige Cyffers, Felix Grimberg,\
+    \ Chaoyang He 0001, Regis Loeb, Paul Mangold, Tanguy Marchand, Othmane Marfoq,\
+    \ Erum Mushtaq, Boris Muzellec, Constantin Philippenko, Santiago Silva 0001, Maria\
+    \ Telenczuk, Shadi Albarqouni, Salman Avestimehr, Aur\xE9lien Bellet, Aymeric\
+    \ Dieuleveut, Martin Jaggi, Sai Praneeth Karimireddy, Marco Lorenzi, Giovanni\
+    \ Neglia, Marc Tommasi, Mathieu Andreux"
+  title: 'FLamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic
+    Healthcare Settings.'
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/TerrailACGHLMMM22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/232eee8ef411a0a316efa298d7be3c2b-Abstract-Datasets_and_Benchmarks.html
+  url: https://dblp.org/rec/conf/nips/TerrailACGHLMMM22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -7868,6 +7884,70 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3319535.3363256
   ee: https://doi.org/10.1145/3319535.3363256
   url: https://dblp.org/rec/conf/ccs/AwanLLL19
+- author: Marco Arazzi, Mauro Conti, Antonino Nocera, Stjepan Picek
+  title: Turning Privacy-preserving Mechanisms against Federated Learning.
+  venue: CCS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/ArazziCNP23
+  doi: 10.1145/3576915.3623114
+  ee: https://doi.org/10.1145/3576915.3623114
+  url: https://dblp.org/rec/conf/ccs/ArazziCNP23
+- author: Ruei-Hau Hsu, Hsuan-Cheng Su, Yi-An Yu
+  title: 'Poster: Verifiable Data Valuation with Strong Fairness in Horizontal Federated
+    Learning.'
+  venue: CCS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/HsuSY23
+  doi: 10.1145/3576915.3624402
+  ee: https://doi.org/10.1145/3576915.3624402
+  url: https://dblp.org/rec/conf/ccs/HsuSY23
+- author: "Torsten Krau\xDF, Alexandra Dmitrienko"
+  title: 'MESAS: Poisoning Defense for Federated Learning Resilient against Adaptive
+    Attackers.'
+  venue: CCS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/KraussD23
+  doi: 10.1145/3576915.3623212
+  ee: https://doi.org/10.1145/3576915.3623212
+  url: https://dblp.org/rec/conf/ccs/KraussD23
+- author: Qi Li, Zhuotao Liu, Qi Li, Ke Xu
+  title: 'martFL: Enabling Utility-Driven Data Marketplace with a Robust and Verifiable
+    Federated Learning Architecture.'
+  venue: CCS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/LiLLX23
+  doi: 10.1145/3576915.3623134
+  ee: https://doi.org/10.1145/3576915.3623134
+  url: https://dblp.org/rec/conf/ccs/LiLLX23
+- author: "Johannes Lohm\xF6ller, Eduard Vlad, Markus Dahlmanns, Klaus Wehrle"
+  title: 'Poster: Bridging Trust Gaps: Data Usage Transparency in Federated Data Ecosystems.'
+  venue: CCS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/LohmollerVDW23
+  doi: 10.1145/3576915.3624371
+  ee: https://doi.org/10.1145/3576915.3624371
+  url: https://dblp.org/rec/conf/ccs/LohmollerVDW23
+- author: Chulin Xie, Yunhui Long, Pin-Yu Chen, Qinbin Li, Sanmi Koyejo, Bo Li
+  title: Unraveling the Connections between Privacy and Certified Robustness in Federated
+    Learning Against Poisoning Attacks.
+  venue: CCS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/XieLCLKL23
+  doi: 10.1145/3576915.3623193
+  ee: https://doi.org/10.1145/3576915.3623193
+  url: https://dblp.org/rec/conf/ccs/XieLCLKL23
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist
@@ -9622,6 +9702,16 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3612027
   ee: https://doi.org/10.1145/3581783.3612027
   url: https://dblp.org/rec/conf/mm/ChenX0PZ0H023
+- author: Liping Yi, Gang Wang 0001, Xiaoguang Liu, Zhuan Shi, Han Yu 0001
+  title: 'FedGH: Heterogeneous Federated Learning with Generalized Global Header.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/YiWLSY23
+  doi: 10.1145/3581783.3611781
+  ee: https://doi.org/10.1145/3581783.3611781
+  url: https://dblp.org/rec/conf/mm/YiWLSY23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

@@ -12099,6 +12099,16 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3554821.3554875
   ee: https://www.vldb.org/pvldb/vol15/p3686-wang.pdf
   url: https://dblp.org/rec/journals/pvldb/LiangW22
+- author: Yejia Liu, Weiyuan Wu, Lampros Flokas, Jiannan Wang 0001, Eugene Wu 0002
+  title: Enabling SQL-based Training Data Debugging for Federated Learning.
+  venue: Proc. VLDB Endow.
+  year: '2021'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiuWFWW21
+  doi: 10.14778/3494124.3494125
+  ee: http://www.vldb.org/pvldb/vol15/p388-wu.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiuWFWW21
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things

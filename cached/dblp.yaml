@@ -7598,6 +7598,16 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/1935826.1935922
   ee: https://doi.org/10.1145/1935826.1935922
   url: https://dblp.org/rec/conf/wsdm/PonnuswamiPWGK11
+- author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang 0005
+  title: Federated Unlearning for On-Device Recommendation.
+  venue: WSDM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/YuanYWZHW23
+  doi: 10.1145/3539597.3570463
+  ee: https://doi.org/10.1145/3539597.3570463
+  url: https://dblp.org/rec/conf/wsdm/YuanYWZHW23
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using

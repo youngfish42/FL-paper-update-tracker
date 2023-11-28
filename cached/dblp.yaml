@@ -12119,6 +12119,16 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3494124.3494125
   ee: http://www.vldb.org/pvldb/vol15/p388-wu.pdf
   url: https://dblp.org/rec/journals/pvldb/LiuWFWW21
+- author: Xunkai Li, Zhengyu Wu, Wentao Zhang, Yinlin Zhu, Ronghua Li, Guoren Wang
+  title: 'FedGTA: Topology-aware Averaging for Federated Graph Learning.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiWZZLW23
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol17/p41-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiWZZLW23
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -15593,6 +15603,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2021.3134647
   ee: https://doi.org/10.1109/TPDS.2021.3134647
   url: https://dblp.org/rec/journals/tpds/DengLRWZZS22
+- author: Zhipeng Cheng, Xiaoyu Xia, Minghui Liwang, Xuwei Fan, Yanglong Sun, Xianbin
+    Wang 0001, Lianfen Huang
+  title: 'CHEESE: Distributed Clustering-Based Hybrid Federated Split Learning Over
+    Edge Networks.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ChengXLFSWH23
+  doi: 10.1109/TPDS.2023.3322755
+  ee: https://doi.org/10.1109/TPDS.2023.3322755
+  url: https://dblp.org/rec/journals/tpds/ChengXLFSWH23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

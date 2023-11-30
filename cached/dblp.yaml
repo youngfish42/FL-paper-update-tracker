@@ -3847,6 +3847,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/232eee8ef411a0a316efa298d7be3c2b-Abstract-Datasets_and_Benchmarks.html
   url: https://dblp.org/rec/conf/nips/TerrailACGHLMMM22
+- author: Shiyun Lin, Yuze Han, Xiang Li 0050, Zhihua Zhang
+  title: Personalized Federated Learning towards Communication Efficiency, Robustness
+    and Fairness.
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LinHLZ22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/c47e6286162ec5442e06fe2b7cb7145f-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LinHLZ22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

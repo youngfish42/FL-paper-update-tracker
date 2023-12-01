@@ -7969,6 +7969,17 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3576915.3623193
   ee: https://doi.org/10.1145/3576915.3623193
   url: https://dblp.org/rec/conf/ccs/XieLCLKL23
+- author: Chulin Xie, Yunhui Long, Pin-Yu Chen, Qinbin Li, Sanmi Koyejo, Bo Li 0026
+  title: Unraveling the Connections between Privacy and Certified Robustness in Federated
+    Learning Against Poisoning Attacks.
+  venue: CCS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/XieLCLKL23
+  doi: 10.1145/3576915.3623193
+  ee: https://doi.org/10.1145/3576915.3623193
+  url: https://dblp.org/rec/conf/ccs/XieLCLKL23
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist

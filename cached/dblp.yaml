@@ -9754,6 +9754,16 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3612481
   ee: https://doi.org/10.1145/3581783.3612481
   url: https://dblp.org/rec/conf/mm/QiMCHLM23
+- author: Liping Yi, Gang Wang 0001, Xiaoguang Liu 0001, Zhuan Shi, Han Yu 0001
+  title: 'FedGH: Heterogeneous Federated Learning with Generalized Global Header.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/YiWLSY23
+  doi: 10.1145/3581783.3611781
+  ee: https://doi.org/10.1145/3581783.3611781
+  url: https://dblp.org/rec/conf/mm/YiWLSY23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -13073,6 +13083,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10228953
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10228953
   url: https://dblp.org/rec/conf/infocom/YuanWWLMZX23
+- author: Chen Zhang, Boyang Zhou, Zhiqiang He, Zeyuan Liu, Yanjiao Chen, Wenyuan
+    Xu 0001, Baochun Li
+  title: 'Oblivion: Poisoning Federated Learning by Inducing Catastrophic Forgetting.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/ZhangZHLCXL23
+  doi: 10.1109/INFOCOM53939.2023.10228981
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10228981
+  url: https://dblp.org/rec/conf/infocom/ZhangZHLCXL23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

@@ -10492,6 +10492,52 @@ federate%20venue%3AEMNLP%3A:
   doi: ''
   ee: https://aclanthology.org/2023.emnlp-industry.32
   url: https://dblp.org/rec/conf/emnlp/GoodMDWPCZ023
+- author: Tianshi Che, Ji Liu, Yang Zhou 0001, Jiaxiang Ren 0001, Jiwen Zhou, Victor
+    S. Sheng, Huaiyu Dai, Dejing Dou
+  title: Federated Learning of Large Language Models with Parameter-Efficient Prompt
+    Tuning and Adaptive Optimization.
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/CheL00ZSDD23
+  doi: ''
+  ee: https://aclanthology.org/2023.emnlp-main.488
+  url: https://dblp.org/rec/conf/emnlp/CheL00ZSDD23
+- author: Xinge Ma, Jiangming Liu, Jin Wang 0008, Xuejie Zhang 0002
+  title: 'FedID: Federated Interactive Distillation for Large-Scale Pretraining Language
+    Models.'
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/MaL0023
+  doi: ''
+  ee: https://aclanthology.org/2023.emnlp-main.529
+  url: https://dblp.org/rec/conf/emnlp/MaL0023
+- author: Jaemin Shin, Hyungjun Yoon, Seungjoo Lee, Sungjoon Park, Yunxin Liu, Jinho
+    D. Choi, Sung-Ju Lee
+  title: 'FedTherapist: Mental Health Monitoring with User-Generated Linguistic Expressions
+    on Smartphones via Federated Learning.'
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/ShinYLPLCL23
+  doi: ''
+  ee: https://aclanthology.org/2023.emnlp-main.734
+  url: https://dblp.org/rec/conf/emnlp/ShinYLPLCL23
+- author: Apoorva Singh, Siddarth Chandrasekar, Sriparna Saha 0001, Tanmay Sen
+  title: Federated Meta-Learning for Emotion and Sentiment Aware Multi-modal Complaint
+    Identification.
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/SinghC0S23
+  doi: ''
+  ee: https://aclanthology.org/2023.emnlp-main.999
+  url: https://dblp.org/rec/conf/emnlp/SinghC0S23
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.

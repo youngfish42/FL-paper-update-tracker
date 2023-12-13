@@ -692,6 +692,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2022/308
   ee: https://doi.org/10.24963/ijcai.2022/308
   url: https://dblp.org/rec/conf/ijcai/ShangLHW22
+- author: Wei Wan, Shengshan Hu, Jianrong Lu, Leo Yu Zhang, Hai Jin 0001, Yuanyuan
+    He 0002
+  title: 'Shielding Federated Learning: Robust Aggregation with Adaptive Client Selection.'
+  venue: IJCAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/WanHLZ0H22
+  doi: 10.24963/IJCAI.2022/106
+  ee: https://doi.org/10.24963/ijcai.2022/106
+  url: https://dblp.org/rec/conf/ijcai/WanHLZ0H22
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -6542,6 +6553,16 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=jDdzh5ul-d
   url: https://dblp.org/rec/conf/iclr/YangFL21
+- author: Qiying Yu, Yang Liu 0165, Yimu Wang, Ke Xu, Jingjing Liu
+  title: Multimodal Federated Learning via Contrastive Representation Ensemble.
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/YuLWXL23
+  doi: ''
+  ee: https://openreview.net/pdf?id=Hnk1WRMAYqg
+  url: https://dblp.org/rec/conf/iclr/YuLWXL23
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -10538,6 +10559,16 @@ federate%20venue%3AEMNLP%3A:
   doi: ''
   ee: https://aclanthology.org/2023.emnlp-main.999
   url: https://dblp.org/rec/conf/emnlp/SinghC0S23
+- author: Chenhe Dong, Yuexiang Xie, Bolin Ding, Ying Shen, Yaliang Li
+  title: Tunable Soft Prompts are Messengers in Federated Learning.
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/DongXDSL23
+  doi: ''
+  ee: https://aclanthology.org/2023.findings-emnlp.976
+  url: https://dblp.org/rec/conf/emnlp/DongXDSL23
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.

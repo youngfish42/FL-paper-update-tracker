@@ -3934,6 +3934,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2021/hash/34adeb8e3242824038aa65460a47c29e-Abstract.html
   url: https://dblp.org/rec/conf/nips/ZhangYLSY21
+- author: Samyak Gupta, Yangsibo Huang, Zexuan Zhong, Tianyu Gao, Kai Li, Danqi Chen
+    0001
+  title: Recovering Private Text in Federated Learning of Language Models.
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/GuptaHZGLC22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/35b5c175e139bff5f22a5361270fce87-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/GuptaHZGLC22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -7760,6 +7771,16 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/3539597.3570463
   ee: https://doi.org/10.1145/3539597.3570463
   url: https://dblp.org/rec/conf/wsdm/YuanYWZHW23
+- author: Danqi Chen 0001, Weizhu Chen, Haixun Wang, Zheng Chen 0001, Qiang Yang 0001
+  title: 'Beyond ten blue links: enabling user click modeling in federated web search.'
+  venue: WSDM
+  year: '2012'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/ChenCWCY12
+  doi: 10.1145/2124295.2124351
+  ee: https://doi.org/10.1145/2124295.2124351
+  url: https://dblp.org/rec/conf/wsdm/ChenCWCY12
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using

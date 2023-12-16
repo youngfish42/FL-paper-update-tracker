@@ -703,6 +703,30 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2022/106
   ee: https://doi.org/10.24963/ijcai.2022/106
   url: https://dblp.org/rec/conf/ijcai/WanHLZ0H22
+- author: Xinting Liao, Weiming Liu 0005, Chaochao Chen 0001, Pengyang Zhou, Huabin
+    Zhu, Yanchao Tan, Jun Wang 0020, Yue Qi
+  title: 'HyperFed: Hyperbolic Prototypes Exploration with Consistent Aggregation
+    for Non-IID Data in Federated Learning.'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LiaoLCZZTWQ23
+  doi: 10.24963/IJCAI.2023/440
+  ee: https://doi.org/10.24963/ijcai.2023/440
+  url: https://dblp.org/rec/conf/ijcai/LiaoLCZZTWQ23
+- author: Weiming Liu 0005, Chaochao Chen 0001, Xinting Liao, Mengling Hu, Jianwei
+    Yin, Yanchao Tan, Longfei Zheng
+  title: Federated Probabilistic Preference Distribution Modelling with Compactness
+    Co-Clustering for Privacy-Preserving Multi-Domain Recommendation.
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Liu0LHYTZ23
+  doi: 10.24963/IJCAI.2023/245
+  ee: https://doi.org/10.24963/ijcai.2023/245
+  url: https://dblp.org/rec/conf/ijcai/Liu0LHYTZ23
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -9949,6 +9973,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3611953
   ee: https://doi.org/10.1145/3581783.3611953
   url: https://dblp.org/rec/conf/mm/ChenTSWXZY23
+- author: Xinting Liao, Chaochao Chen 0001, Weiming Liu 0005, Pengyang Zhou, Huabin
+    Zhu, Shuheng Shen, Weiqiang Wang, Mengling Hu, Yanchao Tan, Xiaolin Zheng
+  title: Joint Local Relational Augmentation and Global Nash Equilibrium for Federated
+    Learning with Non-IID Data.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Liao0LZZSWHTZ23
+  doi: 10.1145/3581783.3612178
+  ee: https://doi.org/10.1145/3581783.3612178
+  url: https://dblp.org/rec/conf/mm/Liao0LZZSWHTZ23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

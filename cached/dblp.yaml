@@ -727,6 +727,16 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2023/245
   ee: https://doi.org/10.24963/ijcai.2023/245
   url: https://dblp.org/rec/conf/ijcai/Liu0LHYTZ23
+- author: Ziyue Jiang 0001, Yi Ren 0006, Ming Lei, Zhou Zhao
+  title: 'FedSpeech: Federated Text-to-Speech with Continual Learning.'
+  venue: IJCAI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Jiang0LZ21
+  doi: 10.24963/IJCAI.2021/527
+  ee: https://doi.org/10.24963/ijcai.2021/527
+  url: https://dblp.org/rec/conf/ijcai/Jiang0LZ21
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng

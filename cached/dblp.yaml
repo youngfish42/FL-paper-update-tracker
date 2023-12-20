@@ -737,6 +737,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2021/527
   ee: https://doi.org/10.24963/ijcai.2021/527
   url: https://dblp.org/rec/conf/ijcai/Jiang0LZ21
+- author: Qiang Shen, Haotian Feng, Rui Song 0008, Stefano Teso, Fausto Giunchiglia,
+    Hao Xu 0012
+  title: Federated Multi-Task Attention for Cross-Individual Human Activity Recognition.
+  venue: IJCAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ShenFSTGX22
+  doi: 10.24963/IJCAI.2022/475
+  ee: https://doi.org/10.24963/ijcai.2022/475
+  url: https://dblp.org/rec/conf/ijcai/ShenFSTGX22
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng

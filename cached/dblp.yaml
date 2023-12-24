@@ -9124,6 +9124,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.00777
   ee: https://doi.org/10.1109/CVPR52729.2023.00777
   url: https://dblp.org/rec/conf/cvpr/MiaoYFY23
+- author: Kangyang Luo, Xiang Li 0067, Yunshi Lan, Ming Gao
+  title: 'GradMA: A Gradient-Memory-based Accelerated Federated Learning with Alleviated
+    Catastrophic Forgetting.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LuoLLG23
+  doi: 10.1109/CVPR52729.2023.00361
+  ee: https://doi.org/10.1109/CVPR52729.2023.00361
+  url: https://dblp.org/rec/conf/cvpr/LuoLLG23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

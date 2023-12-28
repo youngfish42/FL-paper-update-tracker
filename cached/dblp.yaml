@@ -5797,6 +5797,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/yang22r.html
   url: https://dblp.org/rec/conf/icml/YangZK022
+- author: Tianshi Che, Yang Zhou 0001, Zijie Zhang, Lingjuan Lyu, Ji Liu 0003, Da
+    Yan 0001, Dejing Dou, Jun Huan
+  title: Fast Federated Machine Unlearning with Nonlinear Functional Theory.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/CheZZLL0DH23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/che23b.html
+  url: https://dblp.org/rec/conf/icml/CheZZLL0DH23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -10769,6 +10780,18 @@ federate%20venue%3AEMNLP%3A:
   doi: 10.18653/V1/2022.FINDINGS-EMNLP.43
   ee: https://doi.org/10.18653/v1/2022.findings-emnlp.43
   url: https://dblp.org/rec/conf/emnlp/ZhangWWHYC022
+- author: Tianshi Che, Ji Liu 0003, Yang Zhou 0001, Jiaxiang Ren 0001, Jiwen Zhou,
+    Victor S. Sheng, Huaiyu Dai, Dejing Dou
+  title: Federated Learning of Large Language Models with Parameter-Efficient Prompt
+    Tuning and Adaptive Optimization.
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/CheL00ZSDD23
+  doi: ''
+  ee: https://aclanthology.org/2023.emnlp-main.488
+  url: https://dblp.org/rec/conf/emnlp/CheL00ZSDD23
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.
@@ -13541,6 +13564,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM42981.2021.9488807
   ee: https://doi.org/10.1109/INFOCOM42981.2021.9488807
   url: https://dblp.org/rec/conf/infocom/Weng0HC021
+- author: Junhao Wang, Lan Zhang 0002, Yihang Cheng 0002, Shaoang Li, Hong Zhang,
+    Dongbo Huang, Xu Lan
+  title: 'TVFL: Tunable Vertical Federated Learning towards Communication-Efficient
+    Model Serving.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WangZCLZHL23
+  doi: 10.1109/INFOCOM53939.2023.10229061
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10229061
+  url: https://dblp.org/rec/conf/infocom/WangZCLZHL23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

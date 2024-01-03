@@ -2529,6 +2529,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I8.26203
   ee: https://doi.org/10.1609/aaai.v37i8.26203
   url: https://dblp.org/rec/conf/aaai/WangSLHS0T23
+- author: Yihao Xue, Chaoyue Niu, Zhenzhe Zheng, Shaojie Tang 0001, Chengfei Lyu,
+    Fan Wu 0006, Guihai Chen
+  title: Toward Understanding the Influence of Individual Clients in Federated Learning.
+  venue: AAAI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/XueNZTL0C21
+  doi: 10.1609/AAAI.V35I12.17263
+  ee: https://doi.org/10.1609/aaai.v35i12.17263
+  url: https://dblp.org/rec/conf/aaai/XueNZTL0C21
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -3990,6 +4001,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/35b5c175e139bff5f22a5361270fce87-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GuptaHZGLC22
+- author: Yucheng Ding, Chaoyue Niu, Fan Wu 0006, Shaojie Tang 0001, Chengfei Lyu,
+    Yanghe Feng, Guihai Chen
+  title: Federated Submodel Optimization for Hot and Cold Data Features.
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/DingNWTLfC22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/002262941c9edfd472a79298b2ac5e17-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/DingNWTLfC22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -7099,6 +7121,17 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2023.3300886
   ee: https://doi.org/10.1109/TPAMI.2023.3300886
   url: https://dblp.org/rec/journals/pami/SunSSDT23
+- author: Liangxi Liu, Xi Jiang, Feng Zheng, Hong Chen 0004, Guo-Jun Qi, Heng Huang,
+    Ling Shao 0001
+  title: A Bayesian Federated Learning Framework With Online Laplace Approximation.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiuJZCQHS24
+  doi: 10.1109/TPAMI.2023.3322743
+  ee: https://doi.org/10.1109/TPAMI.2023.3322743
+  url: https://dblp.org/rec/journals/pami/LiuJZCQHS24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -10028,6 +10061,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3612178
   ee: https://doi.org/10.1145/3581783.3612178
   url: https://dblp.org/rec/conf/mm/Liao0LZZSWHTZ23
+- author: Baochen Xiong, Xiaoshan Yang, Yaguang Song, Yaowei Wang 0001, Changsheng
+    Xu
+  title: Client-Adaptive Cross-Model Reconstruction Network for Modality-Incomplete
+    Multimodal Federated Learning.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/XiongYSWX23
+  doi: 10.1145/3581783.3611757
+  ee: https://doi.org/10.1145/3581783.3611757
+  url: https://dblp.org/rec/conf/mm/XiongYSWX23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -13586,6 +13631,16 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10229061
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10229061
   url: https://dblp.org/rec/conf/infocom/WangZCLZHL23
+- author: Haolin Wang, Xuefeng Liu 0001, Jianwei Niu 0002, Shaojie Tang 0001
+  title: 'SVDFed: Enabling Communication-Efficient Federated Learning via Singular-Value-Decomposition.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WangLNT23
+  doi: 10.1109/INFOCOM53939.2023.10229042
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10229042
+  url: https://dblp.org/rec/conf/infocom/WangLNT23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -13827,6 +13882,18 @@ federate%20venue%3AMobiCom%3A:
   doi: 10.1145/3495243.3558267
   ee: https://doi.org/10.1145/3495243.3558267
   url: https://dblp.org/rec/conf/mobicom/DeyP22
+- author: Chaoyue Niu, Fan Wu 0006, Shaojie Tang 0001, Lifeng Hua, Rongfei Jia, Chengfei
+    Lv, Zhihua Wu, Guihai Chen
+  title: 'Billion-scale federated learning on mobile clients: a submodel design with
+    tunable privacy.'
+  venue: MobiCom
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/NiuWTHJLWC20
+  doi: 10.1145/3372224.3419188
+  ee: https://doi.org/10.1145/3372224.3419188
+  url: https://dblp.org/rec/conf/mobicom/NiuWTHJLWC20
 federate%20venue%3ANSDI%3A:
 - author: Junxue Zhang 0001, Xiaodian Cheng, Wei Wang, Liu Yang, Jinbin Hu, Kai Chen
     0005

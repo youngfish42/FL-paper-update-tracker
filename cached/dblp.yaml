@@ -16661,6 +16661,17 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2023.3274956
   ee: https://doi.org/10.1109/TCAD.2023.3274956
   url: https://dblp.org/rec/journals/tcad/ShiWZTHS23
+- author: Donglei Wu, Weihao Yang, Haoyu Jin, Xiangyu Zou, Wen Xia, Binxing Fang
+  title: 'FedComp: A Federated Learning Compression Framework for Resource-Constrained
+    Edge Computing Devices.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/WuYJZXF24
+  doi: 10.1109/TCAD.2023.3307459
+  ee: https://doi.org/10.1109/TCAD.2023.3307459
+  url: https://dblp.org/rec/journals/tcad/WuYJZXF24
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

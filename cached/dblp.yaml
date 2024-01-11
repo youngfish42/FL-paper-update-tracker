@@ -9332,6 +9332,53 @@ federate%20venue%3AICCV%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Debora Caldarola, Barbara Caputo, Marco Ciccone
+  title: Window-based Model Averaging Improves Generalization in Heterogeneous Federated
+    Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccvw/CaldarolaCC23
+  doi: 10.1109/ICCVW60793.2023.00240
+  ee: https://doi.org/10.1109/ICCVW60793.2023.00240
+  url: https://dblp.org/rec/conf/iccvw/CaldarolaCC23
+- author: Matteo Pennisi, Federica Proietto Salanitri, Giovanni Bellitto, Concetto
+    Spampinato, Simone Palazzo, Bruno Casella, Marco Aldinucci
+  title: Experience Replay as an Effective Strategy for Optimizing Decentralized Federated
+    Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccvw/PennisiSBSPCA23
+  doi: 10.1109/ICCVW60793.2023.00362
+  ee: https://doi.org/10.1109/ICCVW60793.2023.00362
+  url: https://dblp.org/rec/conf/iccvw/PennisiSBSPCA23
+- author: Athanasios Psaltis, Christos Chatzikonstantinou, Charalampos Z. Patrikakis,
+    Petros Daras
+  title: 'FedRCIL: Federated Knowledge Distillation for Representation based Contrastive
+    Incremental Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccvw/PsaltisCPD23
+  doi: 10.1109/ICCVW60793.2023.00371
+  ee: https://doi.org/10.1109/ICCVW60793.2023.00371
+  url: https://dblp.org/rec/conf/iccvw/PsaltisCPD23
+- author: Athanasios Psaltis, Anestis Kastellos, Charalampos Z. Patrikakis, Petros
+    Daras
+  title: 'FedLID: Self-Supervised Federated Learning for Leveraging Limited Image
+    Data.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccvw/PsaltisKPD23
+  doi: 10.1109/ICCVW60793.2023.00111
+  ee: https://doi.org/10.1109/ICCVW60793.2023.00111
+  url: https://dblp.org/rec/conf/iccvw/PsaltisKPD23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

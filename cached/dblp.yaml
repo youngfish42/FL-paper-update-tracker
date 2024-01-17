@@ -9190,6 +9190,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.00361
   ee: https://doi.org/10.1109/CVPR52729.2023.00361
   url: https://dblp.org/rec/conf/cvpr/LuoLLG23
+- author: Ruipeng Zhang, Qinwei Xu, Jiangchao Yao, Ya Zhang 0002, Qi Tian 0001, Yanfeng
+    Wang
+  title: Federated Domain Generalization with Generalization Adjustment.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ZhangXYZ0W23
+  doi: 10.1109/CVPR52729.2023.00385
+  ee: https://doi.org/10.1109/CVPR52729.2023.00385
+  url: https://dblp.org/rec/conf/cvpr/ZhangXYZ0W23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

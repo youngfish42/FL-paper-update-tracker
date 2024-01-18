@@ -6694,6 +6694,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/pdf?id=-EHqoysUYLx
   url: https://dblp.org/rec/conf/iclr/HuLL23
+- author: Huancheng Chen, Chianing Wang, Haris Vikalo
+  title: 'The Best of Both Worlds: Accurate Global and Personalized Models through
+    Federated Learning with Data-Free Hyper-Knowledge Distillation.'
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ChenWV23
+  doi: ''
+  ee: https://openreview.net/pdf?id=29V3AWjVAFi
+  url: https://dblp.org/rec/conf/iclr/ChenWV23
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -7143,6 +7154,27 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2023.3322743
   ee: https://doi.org/10.1109/TPAMI.2023.3322743
   url: https://dblp.org/rec/journals/pami/LiuJZCQHS24
+- author: Wenke Huang, Mang Ye, Zekun Shi, Bo Du 0001
+  title: Generalizable Heterogeneous Federated Cross-Correlation and Instance Similarity
+    Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/HuangYSD24
+  doi: 10.1109/TPAMI.2023.3327373
+  ee: https://doi.org/10.1109/TPAMI.2023.3327373
+  url: https://dblp.org/rec/journals/pami/HuangYSD24
+- author: Yanan Li 0004, Shusen Yang, Xuebin Ren, Liang Shi, Cong Zhao 0001
+  title: Multi-Stage Asynchronous Federated Learning With Adaptive Differential Privacy.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiYRSZ24
+  doi: 10.1109/TPAMI.2023.3332428
+  ee: https://doi.org/10.1109/TPAMI.2023.3332428
+  url: https://dblp.org/rec/journals/pami/LiYRSZ24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

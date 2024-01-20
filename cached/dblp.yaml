@@ -5841,6 +5841,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/che23b.html
   url: https://dblp.org/rec/conf/icml/CheZZLL0DH23
+- author: Jie Zhang, Xiaosong Ma, Song Guo 0001, Wenchao Xu 0001
+  title: Towards Unbiased Training in Federated Open-world Semi-supervised Learning.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ZhangMG023
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/zhang23af.html
+  url: https://dblp.org/rec/conf/icml/ZhangMG023
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

@@ -9432,6 +9432,248 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCVW60793.2023.00111
   ee: https://doi.org/10.1109/ICCVW60793.2023.00111
   url: https://dblp.org/rec/conf/iccvw/PsaltisKPD23
+- author: Sungwon Han 0001, Sungwon Park 0001, Fangzhao Wu, Sundong Kim, Bin Zhu,
+    Xing Xie 0001, Meeyoung Cha
+  title: Towards Attack-tolerant Federated Learning via Critical Parameter Analysis.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/00010WKZ0C23
+  doi: 10.1109/ICCV51070.2023.00461
+  ee: https://doi.org/10.1109/ICCV51070.2023.00461
+  url: https://dblp.org/rec/conf/iccv/00010WKZ0C23
+- author: Zexi Li 0001, Xinyi Shang, Rui He, Tao Lin, Chao Wu
+  title: 'No Fear of Classifier Biases: Neural Collapse Inspired Federated Learning
+    with Synthetic and Fixed Classifier.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/0001SHLW23
+  doi: 10.1109/ICCV51070.2023.00490
+  ee: https://doi.org/10.1109/ICCV51070.2023.00490
+  url: https://dblp.org/rec/conf/iccv/0001SHLW23
+- author: Jingwei Sun 0002, Ziyue Xu 0001, Dong Yang, Vishwesh Nath, Wenqi Li, Can
+    Zhao, Daguang Xu, Yiran Chen 0001, Holger R. Roth
+  title: Communication-Efficient Vertical Federated Learning with Limited Overlapping
+    Samples.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/00020YNLZX0R23
+  doi: 10.1109/ICCV51070.2023.00480
+  ee: https://doi.org/10.1109/ICCV51070.2023.00480
+  url: https://dblp.org/rec/conf/iccv/00020YNLZX0R23
+- author: Haokun Chen, Ahmed Frikha 0002, Denis Krompass, Jindong Gu, Volker Tresp
+  title: 'FRAug: Tackling Federated Learning with Non-IID Features via Representation
+    Augmentation.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/Chen0KGT23
+  doi: 10.1109/ICCV51070.2023.00447
+  ee: https://doi.org/10.1109/ICCV51070.2023.00447
+  url: https://dblp.org/rec/conf/iccv/Chen0KGT23
+- author: Rui Chen, Qiyu Wan, Pavana Prakash, Lan Zhang 0005, Xu Yuan, Yanmin Gong
+    0001, Xin Fu, Miao Pan
+  title: 'Workie-Talkie: Accelerating Federated Learning by Overlapping Computing
+    and Communications via Contrastive Regularization.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ChenWP0Y0FP23
+  doi: 10.1109/ICCV51070.2023.01559
+  ee: https://doi.org/10.1109/ICCV51070.2023.01559
+  url: https://dblp.org/rec/conf/iccv/ChenWP0Y0FP23
+- author: Yae Jee Cho, Gauri Joshi, Dimitrios Dimitriadis
+  title: 'Local or Global: Selective Knowledge Assimilation for Federated Learning
+    with Limited Labels.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ChoJD23
+  doi: 10.1109/ICCV51070.2023.01567
+  ee: https://doi.org/10.1109/ICCV51070.2023.01567
+  url: https://dblp.org/rec/conf/iccv/ChoJD23
+- author: Xiuwen Fang, Mang Ye, Xiyuan Yang
+  title: Robust Heterogeneous Federated Learning under Data Corruption.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/FangYY23
+  doi: 10.1109/ICCV51070.2023.00463
+  ee: https://doi.org/10.1109/ICCV51070.2023.00463
+  url: https://dblp.org/rec/conf/iccv/FangYY23
+- author: Zahra Ghodsi, Mojan Javaheripi, Nojan Sheybani, Xinqiao Zhang, Ke Huang
+    0001, Farinaz Koushanfar
+  title: 'zPROBE: Zero Peek Robustness Checks for Federated Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/GhodsiJSZ0K23
+  doi: 10.1109/ICCV51070.2023.00448
+  ee: https://doi.org/10.1109/ICCV51070.2023.00448
+  url: https://dblp.org/rec/conf/iccv/GhodsiJSZ0K23
+- author: Jingwen Guo, Hong Liu 0008, Shitong Sun, Tianyu Guo 0001, Min Zhang, Chenyang
+    Si
+  title: 'FSAR: Federated Skeleton-based Action Recognition with Adaptive Topology
+    Structure and Knowledge Distillation.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/Guo0S0ZS23
+  doi: 10.1109/ICCV51070.2023.00954
+  ee: https://doi.org/10.1109/ICCV51070.2023.00954
+  url: https://dblp.org/rec/conf/iccv/Guo0S0ZS23
+- author: Siquan Huang, Yijiang Li, Chong Chen, Leyu Shi, Ying Gao 0004
+  title: Multi-metrics adaptively identifies backdoors in Federated learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/HuangLCS023
+  doi: 10.1109/ICCV51070.2023.00429
+  ee: https://doi.org/10.1109/ICCV51070.2023.00429
+  url: https://dblp.org/rec/conf/iccv/HuangLCS023
+- author: Hansol Kim, Youngjun Kwak, Minyoung Jung, Jinho Shin, Youngsung Kim, Changick
+    Kim
+  title: 'ProtoFL: Unsupervised Federated Learning via Prototypical Distillation.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/KimKJSKK23
+  doi: 10.1109/ICCV51070.2023.00595
+  ee: https://doi.org/10.1109/ICCV51070.2023.00595
+  url: https://dblp.org/rec/conf/iccv/KimKJSKK23
+- author: "Jun Luo, Mat\xEDas Mendieta, Chen Chen 0001, Shandong Wu"
+  title: 'PGFed: Personalize Each Client&apos;s Global Objective for Federated Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/LuoM0W23
+  doi: 10.1109/ICCV51070.2023.00365
+  ee: https://doi.org/10.1109/ICCV51070.2023.00365
+  url: https://dblp.org/rec/conf/iccv/LuoM0W23
+- author: "Yasar Abbas Ur Rehman, Yan Gao, Pedro Porto Buarque de Gusm\xE3o, Mina\
+    \ Alibeigi, Jiajun Shen, Nicholas D. Lane"
+  title: 'L-DAWA: Layer-wise Divergence Aware Weight Aggregation in Federated Self-Supervised
+    Visual Representation Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/RehmanGGASL23
+  doi: 10.1109/ICCV51070.2023.01509
+  ee: https://doi.org/10.1109/ICCV51070.2023.01509
+  url: https://dblp.org/rec/conf/iccv/RehmanGGASL23
+- author: "Guangyu Sun, Mat\xEDas Mendieta, Jun Luo 0010, Shandong Wu, Chen Chen 0001"
+  title: 'FedPerfix: Towards Partial Model Personalization of Vision Transformers
+    in Federated Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/SunM0W023
+  doi: 10.1109/ICCV51070.2023.00460
+  ee: https://doi.org/10.1109/ICCV51070.2023.00460
+  url: https://dblp.org/rec/conf/iccv/SunM0W023
+- author: Saeed Vahidian, Sreevatsank Kadaveru, Woonjoon Baek, Weijia Wang 0002, Vyacheslav
+    Kungurtsev, Chen Chen 0001, Mubarak Shah, Bill Lin 0001
+  title: When Do Curricula Work in Federated Learning?
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/VahidianKB0K0S023
+  doi: 10.1109/ICCV51070.2023.00469
+  ee: https://doi.org/10.1109/ICCV51070.2023.00469
+  url: https://dblp.org/rec/conf/iccv/VahidianKB0K0S023
+- author: Guangnian Wan, Haitao Du, Xuejing Yuan, Jun Yang, Meiling Chen, Jie Xu
+  title: Enhancing Privacy Preservation in Federated Learning via Learning Rate Perturbation.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/WanDYYCX23
+  doi: 10.1109/ICCV51070.2023.00440
+  ee: https://doi.org/10.1109/ICCV51070.2023.00440
+  url: https://dblp.org/rec/conf/iccv/WanDYYCX23
+- author: Chen Yang, Meilu Zhu, Yifan Liu, Yixuan Yuan
+  title: 'FedPD: Federated Open Set Recognition with Parameter Disentanglement.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/YangZLY23
+  doi: 10.1109/ICCV51070.2023.00450
+  ee: https://doi.org/10.1109/ICCV51070.2023.00450
+  url: https://dblp.org/rec/conf/iccv/YangZLY23
+- author: Yaopei Zeng, Lei Liu, Li Liu, Li Shen, Shaoguo Liu, Baoyuan Wu
+  title: Global Balanced Experts for Federated Long-Tailed Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZengLLSLW23
+  doi: 10.1109/ICCV51070.2023.00444
+  ee: https://doi.org/10.1109/ICCV51070.2023.00444
+  url: https://dblp.org/rec/conf/iccv/ZengLLSLW23
+- author: Jie Zhang, Chen Chen, Weiming Zhuang, Lingjuan Lyu
+  title: 'TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZhangCZL23
+  doi: 10.1109/ICCV51070.2023.00441
+  ee: https://doi.org/10.1109/ICCV51070.2023.00441
+  url: https://dblp.org/rec/conf/iccv/ZhangCZL23
+- author: Jianqing Zhang, Yang Hua, Hao Wang, Tao Song, Zhengui Xue, Ruhui Ma, Jian
+    Cao, Haibing Guan
+  title: 'GPFL: Simultaneously Learning Global and Personalized Feature Information
+    for Personalized Federated Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZhangHWSXMCG23
+  doi: 10.1109/ICCV51070.2023.00465
+  ee: https://doi.org/10.1109/ICCV51070.2023.00465
+  url: https://dblp.org/rec/conf/iccv/ZhangHWSXMCG23
+- author: Chi Zhang, Xiaoman Zhang, Ekanut Sotthiwat, Yanyu Xu, Ping Liu, Liangli
+    Zhen, Yong Liu
+  title: Generative Gradient Inversion via Over-Parameterized Networks in Federated
+    Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZhangZSXLZL23
+  doi: 10.1109/ICCV51070.2023.00473
+  ee: https://doi.org/10.1109/ICCV51070.2023.00473
+  url: https://dblp.org/rec/conf/iccv/ZhangZSXLZL23
+- author: Yuhao Zhou, Mingjia Shi, Yuanxi Li, Yanan Sun 0001, Qing Ye, Jiancheng Lv
+    0001
+  title: Communication-efficient Federated Learning with Single-Step Synthetic Features
+    Compressor for Faster Convergence.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZhouSL0Y023
+  doi: 10.1109/ICCV51070.2023.00464
+  ee: https://doi.org/10.1109/ICCV51070.2023.00464
+  url: https://dblp.org/rec/conf/iccv/ZhouSL0Y023
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

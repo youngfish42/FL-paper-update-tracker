@@ -9674,6 +9674,114 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00464
   ee: https://doi.org/10.1109/ICCV51070.2023.00464
   url: https://dblp.org/rec/conf/iccv/ZhouSL0Y023
+- author: Jingwei Sun 0002, Ziyue Xu 0001, Dong Yang, Vishwesh Nath, Wenqi Li 0001,
+    Can Zhao, Daguang Xu, Yiran Chen 0001, Holger R. Roth
+  title: Communication-Efficient Vertical Federated Learning with Limited Overlapping
+    Samples.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/00020YNLZX0R23
+  doi: 10.1109/ICCV51070.2023.00480
+  ee: https://doi.org/10.1109/ICCV51070.2023.00480
+  url: https://dblp.org/rec/conf/iccv/00020YNLZX0R23
+- author: Yu-Tong Cao, Ye Shi 0001, Baosheng Yu, Jingya Wang, Dacheng Tao
+  title: Knowledge-Aware Federated Active Learning with Non-IID Data.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/Cao0YWT23
+  doi: 10.1109/ICCV51070.2023.02036
+  ee: https://doi.org/10.1109/ICCV51070.2023.02036
+  url: https://dblp.org/rec/conf/iccv/Cao0YWT23
+- author: Tuong Do, Binh X. Nguyen, Vuong Pham, Toan Tran, Erman Tjiputra, Quang D.
+    Tran, Anh Nguyen 0003
+  title: Reducing Training Time in Cross-Silo Federated Learning using Multigraph
+    Topology.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/DoNPTTT023
+  doi: 10.1109/ICCV51070.2023.01778
+  ee: https://doi.org/10.1109/ICCV51070.2023.01778
+  url: https://dblp.org/rec/conf/iccv/DoNPTTT023
+- author: Chun-Mei Feng, Kai Yu 0009, Nian Liu, Xinxing Xu, Salman Khan, Wangmeng
+    Zuo
+  title: Towards Instance-adaptive Inference for Federated Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/Feng0LXKZ23
+  doi: 10.1109/ICCV51070.2023.02128
+  ee: https://doi.org/10.1109/ICCV51070.2023.02128
+  url: https://dblp.org/rec/conf/iccv/Feng0LXKZ23
+- author: Erdong Hu, Yuxin Tang, Anastasios Kyrillidis, Chris Jermaine
+  title: 'Federated Learning Over Images: Vertical Decompositions and Pre-Trained
+    Backbones Are Difficult to Beat.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/HuTKJ23
+  doi: 10.1109/ICCV51070.2023.01776
+  ee: https://doi.org/10.1109/ICCV51070.2023.01776
+  url: https://dblp.org/rec/conf/iccv/HuTKJ23
+- author: "Jun Luo 0010, Mat\xEDas Mendieta, Chen Chen 0001, Shandong Wu"
+  title: 'PGFed: Personalize Each Client&apos;s Global Objective for Federated Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/LuoM0W23
+  doi: 10.1109/ICCV51070.2023.00365
+  ee: https://doi.org/10.1109/ICCV51070.2023.00365
+  url: https://dblp.org/rec/conf/iccv/LuoM0W23
+- author: Xinghao Wu, Xuefeng Liu, Jianwei Niu, Guogang Zhu, Shaojie Tang 0001
+  title: 'Bold but Cautious: Unlocking the Potential of Personalized Federated Learning
+    through Cautiously Aggressive Collaboration.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/WuLNZ023
+  doi: 10.1109/ICCV51070.2023.01775
+  ee: https://doi.org/10.1109/ICCV51070.2023.01775
+  url: https://dblp.org/rec/conf/iccv/WuLNZ023
+- author: Haifeng Xia, Kai Li 0012, Zhengming Ding
+  title: Personalized Semantics Excitation for Federated Image Classification.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/Xia0D23
+  doi: 10.1109/ICCV51070.2023.01768
+  ee: https://doi.org/10.1109/ICCV51070.2023.01768
+  url: https://dblp.org/rec/conf/iccv/Xia0D23
+- author: Fu-En Yang, Chien-Yi Wang, Yu-Chiang Frank Wang
+  title: Efficient Model Personalization in Federated Learning via Client-Specific
+    Prompt Generation.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/YangWW23
+  doi: 10.1109/ICCV51070.2023.01755
+  ee: https://doi.org/10.1109/ICCV51070.2023.01755
+  url: https://dblp.org/rec/conf/iccv/YangWW23
+- author: Weiming Zhuang, Yonggang Wen 0001, Lingjuan Lyu, Shuai Zhang
+  title: 'MAS: Towards Resource-Efficient Federated Multiple-Task Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/Zhuang0LZ23
+  doi: 10.1109/ICCV51070.2023.02140
+  ee: https://doi.org/10.1109/ICCV51070.2023.02140
+  url: https://dblp.org/rec/conf/iccv/Zhuang0LZ23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -11752,6 +11860,16 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3539618.3591976
   ee: https://doi.org/10.1145/3539618.3591976
   url: https://dblp.org/rec/conf/sigir/LiLZZZW23
+- author: Shuyi Wang 0001, Guido Zuccon
+  title: Is Non-IID Data a Threat in Federated Online Learning to Rank?
+  venue: SIGIR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/WangZ22
+  doi: 10.1145/3477495.3531709
+  ee: https://doi.org/10.1145/3477495.3531709
+  url: https://dblp.org/rec/conf/sigir/WangZ22
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for

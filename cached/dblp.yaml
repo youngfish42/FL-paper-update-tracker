@@ -9793,6 +9793,17 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.01775
   ee: https://doi.org/10.1109/ICCV51070.2023.01775
   url: https://dblp.org/rec/conf/iccv/WuLNZ023
+- author: Chun-Mei Feng, Kai Yu 0009, Nian Liu, Xinxing Xu, Salman Khan 0001, Wangmeng
+    Zuo
+  title: Towards Instance-adaptive Inference for Federated Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/Feng0LXKZ23
+  doi: 10.1109/ICCV51070.2023.02128
+  ee: https://doi.org/10.1109/ICCV51070.2023.02128
+  url: https://dblp.org/rec/conf/iccv/Feng0LXKZ23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

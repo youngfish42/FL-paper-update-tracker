@@ -748,6 +748,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2022/475
   ee: https://doi.org/10.24963/ijcai.2022/475
   url: https://dblp.org/rec/conf/ijcai/ShenFSTGX22
+- author: Hanlin Gu, Jiahuan Luo, Yan Kang, Lixin Fan, Qiang Yang 0001
+  title: 'FedPass: Privacy-Preserving Vertical Federated Deep Learning with Adaptive
+    Obfuscation.'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/GuLKFY23
+  doi: 10.24963/IJCAI.2023/418
+  ee: https://doi.org/10.24963/ijcai.2023/418
+  url: https://dblp.org/rec/conf/ijcai/GuLKFY23
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -5851,6 +5862,18 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/zhang23af.html
   url: https://dblp.org/rec/conf/icml/ZhangMG023
+- author: Timothy Castiglia, Yi Zhou 0015, Shiqiang Wang 0001, Swanand Kadhe, Nathalie
+    Baracaldo, Stacy Patterson
+  title: 'LESS-VFL: Communication-Efficient Feature Selection for Vertical Federated
+    Learning.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/CastigliaZ0KBP23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/castiglia23a.html
+  url: https://dblp.org/rec/conf/icml/CastigliaZ0KBP23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

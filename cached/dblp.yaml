@@ -16743,6 +16743,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3322755
   ee: https://doi.org/10.1109/TPDS.2023.3322755
   url: https://dblp.org/rec/journals/tpds/ChengXLFSWH23
+- author: Zhiyuan Wang, Hongli Xu, Yang Xu 0020, Zhida Jiang, Jianchun Liu, Suo Chen
+  title: 'FAST: Enhancing Federated Learning Through Adaptive Data Sampling and Local
+    Training.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WangXXJLC24
+  doi: 10.1109/TPDS.2023.3334398
+  ee: https://doi.org/10.1109/TPDS.2023.3334398
+  url: https://dblp.org/rec/journals/tpds/WangXXJLC24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -17451,6 +17462,29 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3315066
   ee: https://doi.org/10.1109/TC.2023.3315066
   url: https://dblp.org/rec/journals/tc/YaoPDWDYJXS24
+- author: Zichuan Xu, Lin Wang, Weifa Liang, Qiufen Xia, Wenzheng Xu, Pan Zhou, Omer
+    F. Rana
+  title: Age-Aware Data Selection and Aggregator Placement for Timely Federated Continual
+    Learning in Mobile Edge Computing.
+  venue: IEEE Trans. Computers
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/XuWLXXZR24
+  doi: 10.1109/TC.2023.3333213
+  ee: https://doi.org/10.1109/TC.2023.3333213
+  url: https://dblp.org/rec/journals/tc/XuWLXXZR24
+- author: Ruirui Zhang, Zhenzhen Xie, Dongxiao Yu, Weifa Liang, Xiuzhen Cheng 0001
+  title: Digital Twin-Assisted Federated Learning Service Provisioning Over Mobile
+    Edge Networks.
+  venue: IEEE Trans. Computers
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZhangXYLC24
+  doi: 10.1109/TC.2023.3337317
+  ee: https://doi.org/10.1109/TC.2023.3337317
+  url: https://dblp.org/rec/journals/tc/ZhangXYLC24
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

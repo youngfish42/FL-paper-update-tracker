@@ -7208,6 +7208,17 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2023.3332428
   ee: https://doi.org/10.1109/TPAMI.2023.3332428
   url: https://dblp.org/rec/journals/pami/LiYRSZ24
+- author: Liangxi Liu, Xi Jiang 0009, Feng Zheng, Hong Chen 0004, Guo-Jun Qi, Heng
+    Huang, Ling Shao 0001
+  title: A Bayesian Federated Learning Framework With Online Laplace Approximation.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiuJZCQHS24
+  doi: 10.1109/TPAMI.2023.3322743
+  ee: https://doi.org/10.1109/TPAMI.2023.3322743
+  url: https://dblp.org/rec/journals/pami/LiuJZCQHS24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

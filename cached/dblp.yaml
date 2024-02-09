@@ -8329,6 +8329,17 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3576915.3623134
   ee: https://doi.org/10.1145/3576915.3623134
   url: https://dblp.org/rec/conf/ccs/LiLLX23
+- author: Qi Li, Zhuotao Liu, Qi Li 0002, Ke Xu 0002
+  title: 'martFL: Enabling Utility-Driven Data Marketplace with a Robust and Verifiable
+    Federated Learning Architecture.'
+  venue: CCS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/LiLLX23
+  doi: 10.1145/3576915.3623134
+  ee: https://doi.org/10.1145/3576915.3623134
+  url: https://dblp.org/rec/conf/ccs/LiLLX23
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist

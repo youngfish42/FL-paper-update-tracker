@@ -4023,6 +4023,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/002262941c9edfd472a79298b2ac5e17-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/DingNWTLfC22
+- author: Tao Qi, Fangzhao Wu, Chuhan Wu, Lingjuan Lyu, Tong Xu 0001, Hao Liao, Zhongliang
+    Yang, Yongfeng Huang 0001, Xing Xie 0001
+  title: 'FairVFL: A Fair Vertical Federated Learning Framework with Contrastive Adversarial
+    Learning.'
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/QiWWLXLYHX22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/333a7697dbb67f09249337f81c27d749-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/QiWWLXLYHX22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

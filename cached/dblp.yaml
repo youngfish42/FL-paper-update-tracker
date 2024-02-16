@@ -4046,6 +4046,26 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/333a7697dbb67f09249337f81c27d749-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/QiWWLXLYHX22
+- author: Han Xie, Jing Ma 0005, Li Xiong 0001, Carl Yang 0001
+  title: Federated Graph Classification over Non-IID Graphs.
+  venue: NeurIPS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/XieMXY21
+  doi: ''
+  ee: https://proceedings.neurips.cc/paper/2021/hash/9c6947bd95ae487c81d4e19d3ed8cd6f-Abstract.html
+  url: https://dblp.org/rec/conf/nips/XieMXY21
+- author: Ke Zhang, Carl Yang 0001, Xiaoxiao Li, Lichao Sun 0001, Siu-Ming Yiu
+  title: Subgraph Federated Learning with Missing Neighbor Generation.
+  venue: NeurIPS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhangYLSY21
+  doi: ''
+  ee: https://proceedings.neurips.cc/paper/2021/hash/34adeb8e3242824038aa65460a47c29e-Abstract.html
+  url: https://dblp.org/rec/conf/nips/ZhangYLSY21
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -9872,6 +9892,16 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.02128
   ee: https://doi.org/10.1109/ICCV51070.2023.02128
   url: https://dblp.org/rec/conf/iccv/Feng0LXKZ23
+- author: Guangnian Wan, Haitao Du, Xuejing Yuan, Jun Yang, Meiling Chen, Jie Xu 0038
+  title: Enhancing Privacy Preservation in Federated Learning via Learning Rate Perturbation.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/WanDYYCX23
+  doi: 10.1109/ICCV51070.2023.00440
+  ee: https://doi.org/10.1109/ICCV51070.2023.00440
+  url: https://dblp.org/rec/conf/iccv/WanDYYCX23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -10624,6 +10654,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3611757
   ee: https://doi.org/10.1145/3581783.3611757
   url: https://dblp.org/rec/conf/mm/XiongYSWX23
+- author: Dong Chen, Siliang Tang, Zijin Shen, Guoming Wang, Jun Xiao 0001, Yueting
+    Zhuang, Carl Yang 0001
+  title: 'FedAA: Using Non-sensitive Modalities to Improve Federated Learning while
+    Preserving Image Privacy.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ChenTSWXZY23
+  doi: 10.1145/3581783.3611953
+  ee: https://doi.org/10.1145/3581783.3611953
+  url: https://dblp.org/rec/conf/mm/ChenTSWXZY23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -11398,6 +11440,18 @@ federate%20venue%3AEMNLP%3A:
   doi: ''
   ee: https://aclanthology.org/2023.findings-emnlp.976
   url: https://dblp.org/rec/conf/emnlp/DongXDSL23
+- author: Kai Zhang 0039, Yu Wang 0158, Hongyi Wang 0001, Lifu Huang, Carl Yang 0001,
+    Xun Chen, Lichao Sun 0001
+  title: Efficient Federated Learning on Knowledge Graphs via Privacy-preserving Relation
+    Embedding Aggregation.
+  venue: EMNLP
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/ZhangWWHYC022
+  doi: 10.18653/V1/2022.FINDINGS-EMNLP.43
+  ee: https://doi.org/10.18653/v1/2022.findings-emnlp.43
+  url: https://dblp.org/rec/conf/emnlp/ZhangWWHYC022
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.
@@ -12232,6 +12286,16 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Zihang Xiang, Tianhao Wang 0001, Wanyu Lin, Di Wang 0015
+  title: Practical Differentially Private and Byzantine-resilient Federated Learning.
+  venue: Proc. ACM Manag. Data
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/Xiang0L023
+  doi: 10.1145/3589264
+  ee: https://doi.org/10.1145/3589264
+  url: https://dblp.org/rec/journals/pacmmod/Xiang0L023
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous
@@ -12735,6 +12799,18 @@ federate%20venue%3AICDE%3A:
   url: https://dblp.org/rec/conf/ndss/DietzW14
 - author: Zishan Gu, Ke Zhang, Guangji Bai, Liang Chen 0001, Liang Zhao 0002, Carl
     J. Yang
+  title: Dynamic Activation of Clients and Parameters for Federated Learning over
+    Heterogeneous Graphs.
+  venue: ICDE
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/GuZBCZY23
+  doi: 10.1109/ICDE55515.2023.00126
+  ee: https://doi.org/10.1109/ICDE55515.2023.00126
+  url: https://dblp.org/rec/conf/icde/GuZBCZY23
+- author: Zishan Gu, Ke Zhang, Guangji Bai, Liang Chen 0001, Liang Zhao 0002, Carl
+    Yang 0001
   title: Dynamic Activation of Clients and Parameters for Federated Learning over
     Heterogeneous Graphs.
   venue: ICDE
@@ -15175,6 +15251,16 @@ federate%20venue%3AWWW%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Han Xie, Li Xiong 0001, Carl Yang 0001
+  title: Federated Node Classification over Graphs with Latent Link-type Heterogeneity.
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/Xie0Y23
+  doi: 10.1145/3543507.3583471
+  ee: https://doi.org/10.1145/3543507.3583471
+  url: https://dblp.org/rec/conf/www/Xie0Y23
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

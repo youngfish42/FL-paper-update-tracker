@@ -770,6 +770,18 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2022/475
   ee: https://doi.org/10.24963/ijcai.2022/475
   url: https://dblp.org/rec/conf/ijcai/ShenFSTGX22
+- author: Hangtao Zhang, Zeming Yao, Leo Yu Zhang, Shengshan Hu, Chao Chen, Alan Wee-Chung
+    Liew, Zhetao Li
+  title: 'Denial-of-Service or Fine-Grained Control: Towards Flexible Model Poisoning
+    Attacks on Federated Learning.'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ZhangYZHCLL23
+  doi: 10.24963/IJCAI.2023/508
+  ee: https://doi.org/10.24963/ijcai.2023/508
+  url: https://dblp.org/rec/conf/ijcai/ZhangYZHCLL23
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -15261,6 +15273,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583471
   ee: https://doi.org/10.1145/3543507.3583471
   url: https://dblp.org/rec/conf/www/Xie0Y23
+- author: Yingguang Yang, Renyu Yang, Hao Peng 0001, Yangyang Li, Tong Li 0014, Yong
+    Liao, Pengyuan Zhou
+  title: 'FedACK: Federated Adversarial Contrastive Knowledge Distillation for Cross-Lingual
+    and Cross-Model Social Bot Detection.'
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YangYPLLLZ23
+  doi: 10.1145/3543507.3583500
+  ee: https://doi.org/10.1145/3543507.3583500
+  url: https://dblp.org/rec/conf/www/YangYPLLLZ23
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

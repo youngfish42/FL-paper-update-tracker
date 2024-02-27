@@ -2574,6 +2574,29 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V35I12.17263
   ee: https://doi.org/10.1609/aaai.v35i12.17263
   url: https://dblp.org/rec/conf/aaai/XueNZTL0C21
+- author: Jie Zhang 0081, Bo Li 0115, Chen Chen 0043, Lingjuan Lyu, Shuang Wu 0001,
+    Shouhong Ding, Chao Wu 0001
+  title: Delving into the Adversarial Robustness of Federated Learning.
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/00810CL0D023
+  doi: 10.1609/AAAI.V37I9.26331
+  ee: https://doi.org/10.1609/aaai.v37i9.26331
+  url: https://dblp.org/rec/conf/aaai/00810CL0D023
+- author: Shuai Wang 0033, Yanqing Xu, Zhiguo Wang, Tsung-Hui Chang, Tony Q. S. Quek,
+    Defeng Sun
+  title: 'Beyond ADMM: A Unified Client-Variance-Reduced Adaptive Federated Learning
+    Framework.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangXWCQS23
+  doi: 10.1609/AAAI.V37I8.26212
+  ee: https://doi.org/10.1609/aaai.v37i8.26212
+  url: https://dblp.org/rec/conf/aaai/WangXWCQS23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -4078,6 +4101,27 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2021/hash/34adeb8e3242824038aa65460a47c29e-Abstract.html
   url: https://dblp.org/rec/conf/nips/ZhangYLSY21
+- author: Jie Zhang 0081, Chen Chen 0043, Bo Li 0115, Lingjuan Lyu, Shuang Wu 0001,
+    Shouhong Ding, Chunhua Shen, Chao Wu 0001
+  title: 'DENSE: Data-Free One-Shot Federated Learning.'
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/0081C0L0DS022
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/868f2266086530b2c71006ea1908b14a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/0081C0L0DS022
+- author: Chen Chen 0043, Yuchen Liu, Xingjun Ma, Lingjuan Lyu
+  title: 'CalFAT: Calibrated Federated Adversarial Training with Label Skewness.'
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ChenLML22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/171c3678c36e39fc0074f3e7332a9a66-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ChenLML22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -9914,6 +9958,16 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00440
   ee: https://doi.org/10.1109/ICCV51070.2023.00440
   url: https://dblp.org/rec/conf/iccv/WanDYYCX23
+- author: Jie Zhang, Chen Chen 0043, Weiming Zhuang, Lingjuan Lyu
+  title: 'TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZhangCZL23
+  doi: 10.1109/ICCV51070.2023.00441
+  ee: https://doi.org/10.1109/ICCV51070.2023.00441
+  url: https://dblp.org/rec/conf/iccv/ZhangCZL23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

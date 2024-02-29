@@ -4360,6 +4360,202 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/1e7b192fc8b3acb93749c5accfa60e0c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangZYSG23
+- author: Haibo Yang 0001, Zhuqing Liu, Jia Liu, Chaosheng Dong, Michinari Momma
+  title: Federated Multi-Objective Learning.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/0001LLDM23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/7cb2c2a8d35576c00078b6591ec26a7d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/0001LLDM23
+- author: Xuming An, Li Shen, Han Hu 0003, Yong Luo
+  title: Federated Learning with Manifold Regularization and Normalized Update Reaggregation.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/AnS0L23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/acf2b98eeb09b21968c2de6b1c6952e9-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/AnS0L23
+- author: Zhongyi Cai, Ye Shi 0001, Wei Huang, Jingya Wang
+  title: 'Fed-CO2: Cooperation of Online and Offline Models for Severe Data Heterogeneity
+    in Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/Cai0HW23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/431d53d513461ff155d5bc8faa9a440c-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Cai0HW23
+- author: Zachary Charles, Nicole Mitchell, Krishna Pillutla, Michael Reneer, Zachary
+    Garrett
+  title: 'Towards Federated Foundation Models: Scalable Dataset Pipelines for Group-Structured
+    Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/CharlesMPRG23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/662bb9c4dcc96aeaac8e7cd3fc6a0add-Abstract-Datasets_and_Benchmarks.html
+  url: https://dblp.org/rec/conf/nips/CharlesMPRG23
+- author: Jun Chen, Hong Chen 0004, Bin Gu 0001, Hao Deng
+  title: Fine-Grained Theoretical Analysis of Federated Zeroth-Order Optimization.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/Chen00D23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/aaa973f65b98c96e5f850d706464a3c4-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Chen00D23
+- author: Ziqing Fan, Ruipeng Zhang, Jiangchao Yao, Bo Han, Ya Zhang, Yanfeng Wang
+  title: Federated Learning with Bilateral Curation for Partially Class-Disjoint Data.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/FanZYHZW23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/65b721a1df04c1098567f70d483d6468-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/FanZYHZW23
+- author: Jinyuan Jia, Zhuowen Yuan, Dinuka Sahabandu, Luyao Niu, Arezoo Rajabi, Bhaskar
+    Ramasubramanian, Bo Li, Radha Poovendran
+  title: 'FedGame: A Game-Theoretic Defense against Backdoor Attacks in Federated
+    Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/JiaYSNRRLP23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/a6678e2be4ce7aef9d2192e03cd586b7-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/JiaYSNRRLP23
+- author: Jie Ma, Tianyi Zhou 0001, Guodong Long, Jing Jiang 0002, Chengqi Zhang
+  title: Structured Federated Learning through Clustered Additive Modeling.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/Ma0L0Z23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/8668fdc7b2ddf55a0e235824c66f2eee-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Ma0L0Z23
+- author: Ziba Parsons, Fei Dou, Houyi Du, Zheng Song, Jin Lu
+  title: Mobilizing Personalized Federated Learning in Infrastructure-Less and Heterogeneous
+    Environments via Random Walk Stochastic ADMM.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/ParsonsDDSL23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/74088c68894b99383c12399c9c637be9-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ParsonsDDSL23
+- author: Mingjia Shi, Yuhao Zhou, Kai Wang, Huaizheng Zhang, Shudong Huang, Qing
+    Ye, Jiancheng Lv 0001
+  title: 'PRIOR: Personalized Prior for Reactivating the Information Overlooked in
+    Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/ShiZWZHY023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/5a3674849d6d6d23ac088b9a2552f323-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ShiZWZHY023
+- author: Yue Tan, Chen Chen 0001, Weiming Zhuang, Xin Dong, Lingjuan Lyu, Guodong
+    Long
+  title: Is Heterogeneity Notorious? Taming Heterogeneity to Handle Test-Time Shift
+    in Federated Learning.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/Tan0ZDLL23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/565f995643da6329cec701f26f8579f5-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Tan0ZDLL23
+- author: Lin Wang, Yongxin Guo, Tao Lin, Xiaoying Tang 0002
+  title: 'DELTA: Diverse Client Sampling for Fasting Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/WangGL023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/949c57d30f8791e3ae42646081b3c102-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WangGL023
+- author: Jiaqi Wang, Xingyi Yang, Suhan Cui, Liwei Che, Lingjuan Lyu, Dongkuan Xu,
+    Fenglong Ma
+  title: Towards Personalized Federated Learning via Heterogeneous Model Reassembly.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/WangYCCLXM23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/5e2217482fa75556f1970be809acd3f8-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WangYCCLXM23
+- author: Zhepei Wei, Chuanhao Li, Haifeng Xu, Hongning Wang
+  title: Incentivized Communication for Federated Bandits.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/WeiLXW23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/aa61d142c0081a8259a6372a3bb0af2b-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WeiLXW23
+- author: Jingfeng Wu, Wennan Zhu, Peter Kairouz, Vladimir Braverman
+  title: 'Private Federated Frequency Estimation: Adapting to the Hardness of the
+    Instance.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/WuZKB23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/5bf40077b2bac53399676d33d564ef58-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WuZKB23
+- author: Yifan Yang, Peiyao Xiao, Kaiyi Ji
+  title: 'SimFBO: Towards Simple, Flexible and Communication-efficient Federated Bilevel
+    Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/YangXJ23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/686a3f32067838c8dbb68da6e9e3cf69-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YangXJ23
+- author: Hanhan Zhou, Tian Lan, Guru Venkataramani, Wenbo Ding
+  title: 'Every Parameter Matters: Ensuring the Convergence of Federated Learning
+    with Dynamic Heterogeneous Models Reduction.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/ZhouLVD23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/526356453b7301c9b29aa0533f62bdef-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhouLVD23
+- author: Jiawei Jiang, Lukas Burkhalter, Fangcheng Fu, Bolin Ding, Bo Du 0001, Anwar
+    Hithnawi, Bo Li 0026, Ce Zhang 0001
+  title: 'VF-PS: How to Select Important Participants in Vertical Federated Learning,
+    Efficiently and Securely?'
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/JiangBFDDH0022
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/0e1a2388cd2f78069f4d048d935cb218-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/JiangBFDDH0022
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -17213,6 +17409,28 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3334398
   ee: https://doi.org/10.1109/TPDS.2023.3334398
   url: https://dblp.org/rec/journals/tpds/WangXXJLC24
+- author: Guangjing Huang, Qiong Wu 0009, Peng Sun 0003, Qian Ma 0002, Xu Chen 0004
+  title: 'Collaboration in Federated Learning With Differential Privacy: A Stackelberg
+    Game Analysis.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/HuangWSMC24
+  doi: 10.1109/TPDS.2024.3354713
+  ee: https://doi.org/10.1109/TPDS.2024.3354713
+  url: https://dblp.org/rec/journals/tpds/HuangWSMC24
+- author: Di Wu, Rehmat Ullah 0001, Philip Rodgers, Peter Kilpatrick, Ivor T. A. Spence,
+    Blesson Varghese
+  title: 'EcoFed: Efficient Communication for DNN Partitioning-Based Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuURKSV24
+  doi: 10.1109/TPDS.2024.3349617
+  ee: https://doi.org/10.1109/TPDS.2024.3349617
+  url: https://dblp.org/rec/journals/tpds/WuURKSV24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

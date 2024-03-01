@@ -4556,6 +4556,147 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/0e1a2388cd2f78069f4d048d935cb218-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiangBFDDH0022
+- author: Zhiyuan Zhang 0001, Deli Chen, Hao Zhou, Fandong Meng, Jie Zhou, Xu Sun
+    0001
+  title: 'Fed-FA: Theoretically Modeling Client Data Divergence for Federated Language
+    Backdoor Defense.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/0001CZMZ023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/c39578c86423df5f9e8834ce1cd456e4-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/0001CZMZ023
+- author: Sara Babakniya, Zalan Fabian, Chaoyang He 0001, Mahdi Soltanolkotabi, Salman
+    Avestimehr
+  title: A Data-Free Approach to Mitigate Catastrophic Forgetting in Federated Class
+    Incremental Learning for Vision Tasks.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/BabakniyaF0SA23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/d160ea01902c33e30660851dfbac5980-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/BabakniyaF0SA23
+- author: Li Fan, Ruida Zhou, Chao Tian 0002, Cong Shen 0001
+  title: Federated Linear Bandits with Finite Adversarial Actions.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/FanZ0023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/c4e380fb74dec9da9c7212e834657aa9-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/FanZ0023
+- author: "Larry Han, Zhu Shen, Jos\xE9 R. Zubizarreta"
+  title: Multiply Robust Federated Estimation of Targeted Average Treatment Effects.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/HanSZ23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/def4492b32f0248a0e4d92cc46bbdaad-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/HanSZ23
+- author: Guangchen Lan, Han Wang, James Anderson, Christopher G. Brinton, Vaneet
+    Aggarwal
+  title: Improved Communication Efficiency in Federated Natural Policy Gradient via
+    ADMM-based Gradient Updates.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/LanWABA23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/bc6a1f968f8b1dae3e880f3f723d7d46-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LanWABA23
+- author: Gwen Legate, Nicolas Bernier, Lucas Page-Caccia, Edouard Oyallon, Eugene
+    Belilovsky
+  title: Guiding The Last Layer in Federated Learning with Pre-Trained Models.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/LegateBPOB23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/dcc0ac74ac8b95dc1939804acce0317d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LegateBPOB23
+- author: Yipeng Li, Xinchen Lyu
+  title: Convergence Analysis of Sequential Federated Learning on Heterogeneous Data.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/LiL23a
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/b18e5d6a10ba57d5273871f38189f062-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiL23a
+- author: Thuy Dung Nguyen, Tuan Nguyen, Anh Tran, Khoa D. Doan, Kok-Seng Wong
+  title: 'IBA: Towards Irreversible Backdoor Attacks in Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/NguyenNTDW23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/d0c6bc641a56bebee9d985b937307367-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/NguyenNTDW23
+- author: Jungwuk Park, Dong-Jun Han, Jinho Kim, Shiqiang Wang 0001, Christopher G.
+    Brinton, Jaekyun Moon
+  title: 'StableFDG: Style and Attention Based Learning for Federated Domain Generalization.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/ParkHK0BM23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/dae8bdacd265399b193e6b43d44a80f0-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ParkHK0BM23
+- author: Dong Qiao, Chris Ding, Jicong Fan
+  title: Federated Spectral Clustering via Secure Similarity Reconstruction.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/QiaoDF23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/b6cd2650926d332c86a84c48529cc421-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/QiaoDF23
+- author: Mohammad Mahdi Rahimi, Hasnain Irshad Bhatti, Younghyun Park, Humaira Kousar,
+    Do-Yeon Kim, Jaekyun Moon
+  title: 'EvoFed: Leveraging Evolutionary Strategies for Communication-Efficient Federated
+    Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/RahimiBPKKM23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/c48fe446e651cd49fb58a6833e015103-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/RahimiBPKKM23
+- author: Zhiqin Yang, Yonggang Zhang, Yu Zheng, Xinmei Tian 0001, Hao Peng, Tongliang
+    Liu, Bo Han 0003
+  title: 'FedFed: Feature Distillation against Data Heterogeneity in Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/YangZZ0PL023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/bdcdf38389d7fcefc73c4c3720217155-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YangZZ0PL023
+- author: Hangfan Zhang, Jinyuan Jia, Jinghui Chen, Lu Lin, Dinghao Wu
+  title: 'A3FL: Adversarially Adaptive Backdoor Attacks to Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/ZhangJCLW23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/c07d71ff0bc042e4b9acd626a79597fa-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhangJCLW23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

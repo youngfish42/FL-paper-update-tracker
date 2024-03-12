@@ -5357,6 +5357,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/526356453b7301c9b29aa0533f62bdef-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhouLVD23
+- author: Hangfan Zhang, Jinyuan Jia, Jinghui Chen, Lu Lin 0001, Dinghao Wu
+  title: 'A3FL: Adversarially Adaptive Backdoor Attacks to Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhangJCLW23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/c07d71ff0bc042e4b9acd626a79597fa-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhangJCLW23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

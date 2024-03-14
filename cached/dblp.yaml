@@ -7230,6 +7230,18 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/zhang23aa.html
   url: https://dblp.org/rec/conf/icml/ZhangLLWZJJ23
+- author: Feilong Zhang 0002, Xianming Liu, Shiyi Lin, Gang Wu 0010, Xiong Zhou, Junjun
+    Jiang, Xiangyang Ji
+  title: 'No One Idles: Efficient Heterogeneous Federated Learning with Parallel Edge
+    and Server Computation.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ZhangLLWZJJ23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/zhang23aa.html
+  url: https://dblp.org/rec/conf/icml/ZhangLLWZJJ23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

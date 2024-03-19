@@ -7242,6 +7242,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/zhang23aa.html
   url: https://dblp.org/rec/conf/icml/ZhangLLWZJJ23
+- author: Yujia Wang, Lu Lin 0001, Jinghui Chen
+  title: Communication-Efficient Adaptive Federated Learning.
+  venue: ICML
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/WangLC22
+  doi: ''
+  ee: https://proceedings.mlr.press/v162/wang22o.html
+  url: https://dblp.org/rec/conf/icml/WangLC22
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -11259,6 +11269,18 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00441
   ee: https://doi.org/10.1109/ICCV51070.2023.00441
   url: https://dblp.org/rec/conf/iccv/ZhangCZL23
+- author: Jingwei Sun 0002, Ziyue Xu 0001, Dong Yang 0005, Vishwesh Nath, Wenqi Li
+    0001, Can Zhao, Daguang Xu, Yiran Chen 0001, Holger R. Roth
+  title: Communication-Efficient Vertical Federated Learning with Limited Overlapping
+    Samples.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/00020YNLZX0R23
+  doi: 10.1109/ICCV51070.2023.00480
+  ee: https://doi.org/10.1109/ICCV51070.2023.00480
+  url: https://dblp.org/rec/conf/iccv/00020YNLZX0R23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

@@ -19041,6 +19041,42 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3337317
   ee: https://doi.org/10.1109/TC.2023.3337317
   url: https://dblp.org/rec/journals/tc/ZhangXYLC24
+- author: Yangguang Cui, Zhixing Zhang, Nuo Wang, Liying Li, Chunwei Chang, Tongquan
+    Wei
+  title: User-Distribution-Aware Federated Learning for Efficient Communication and
+    Fast Inference.
+  venue: IEEE Trans. Computers
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/CuiZWLCW24
+  doi: 10.1109/TC.2023.3327513
+  ee: https://doi.org/10.1109/TC.2023.3327513
+  url: https://dblp.org/rec/journals/tc/CuiZWLCW24
+- author: Biwei Yan, Hongliang Zhang, Minghui Xu 0001, Dongxiao Yu, Xiuzhen Cheng
+    0001
+  title: 'FedRFQ: Prototype-Based Federated Learning With Reduced Redundancy, Minimal
+    Failure, and Enhanced Quality.'
+  venue: IEEE Trans. Computers
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/YanZXYC24
+  doi: 10.1109/TC.2024.3353455
+  ee: https://doi.org/10.1109/TC.2024.3353455
+  url: https://dblp.org/rec/journals/tc/YanZXYC24
+- author: Yifei Zou, Shikun Shen, Mengbai Xiao, Peng Li 0017, Dongxiao Yu, Xiuzhen
+    Cheng 0001
+  title: 'Value of Information: A Comprehensive Metric for Client Selection in Federated
+    Edge Learning.'
+  venue: IEEE Trans. Computers
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZouSXLYC24
+  doi: 10.1109/TC.2024.3355777
+  ee: https://doi.org/10.1109/TC.2024.3355777
+  url: https://dblp.org/rec/journals/tc/ZouSXLYC24
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

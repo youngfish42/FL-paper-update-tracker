@@ -8597,6 +8597,16 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2023.3322743
   ee: https://doi.org/10.1109/TPAMI.2023.3322743
   url: https://dblp.org/rec/journals/pami/LiuJZCQHS24
+- author: Jiahua Dong 0001, Hongliu Li, Yang Cong, Gan Sun, Yulun Zhang, Luc Van Gool
+  title: 'No One Left Behind: Real-World Federated Class-Incremental Learning.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/DongLCSZG24
+  doi: 10.1109/TPAMI.2023.3334213
+  ee: https://doi.org/10.1109/TPAMI.2023.3334213
+  url: https://dblp.org/rec/journals/pami/DongLCSZG24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -15669,6 +15679,28 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10229042
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10229042
   url: https://dblp.org/rec/conf/infocom/WangLNT23
+- author: Tung-Anh Nguyen, Jiayu He, Long Tan Le, Wei Bao 0001, Nguyen Hoang Tran
+  title: Federated PCA on Grassmann Manifold for Anomaly Detection in IoT Networks.
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/NguyenHLBT23
+  doi: 10.1109/INFOCOM53939.2023.10229026
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10229026
+  url: https://dblp.org/rec/conf/infocom/NguyenHLBT23
+- author: Nguyen Hoang Tran, Wei Bao 0001, Albert Y. Zomaya, Minh N. H. Nguyen, Choong
+    Seon Hong
+  title: 'Federated Learning over Wireless Networks: Optimization Model Design and
+    Analysis.'
+  venue: INFOCOM
+  year: '2019'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/TranBZMH19
+  doi: 10.1109/INFOCOM.2019.8737464
+  ee: https://doi.org/10.1109/INFOCOM.2019.8737464
+  url: https://dblp.org/rec/conf/infocom/TranBZMH19
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -18310,6 +18342,38 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3349617
   ee: https://doi.org/10.1109/TPDS.2024.3349617
   url: https://dblp.org/rec/journals/tpds/WuURKSV24
+- author: Zhengjie Yang, Sen Fu, Wei Bao 0001, Dong Yuan, Albert Y. Zomaya
+  title: Hierarchical Federated Learning With Momentum Acceleration in Multi-Tier
+    Networks.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/YangFBYZ23
+  doi: 10.1109/TPDS.2023.3294688
+  ee: https://doi.org/10.1109/TPDS.2023.3294688
+  url: https://dblp.org/rec/journals/tpds/YangFBYZ23
+- author: Canh T. Dinh, Nguyen Hoang Tran, Tuan Dung Nguyen, Wei Bao 0001, Amir Rezaei
+    Balef, Bing Bing Zhou, Albert Y. Zomaya
+  title: 'DONE: Distributed Approximate Newton-type Method for Federated Edge Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/DinhTNBBZZ22
+  doi: 10.1109/TPDS.2022.3146253
+  ee: https://doi.org/10.1109/TPDS.2022.3146253
+  url: https://dblp.org/rec/journals/tpds/DinhTNBBZZ22
+- author: Zhengjie Yang, Wei Bao 0001, Dong Yuan, Nguyen Hoang Tran, Albert Y. Zomaya
+  title: Federated Learning With Nesterov Accelerated Gradient.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/YangBYTZ22
+  doi: 10.1109/TPDS.2022.3206480
+  ee: https://doi.org/10.1109/TPDS.2022.3206480
+  url: https://dblp.org/rec/journals/tpds/YangBYTZ22
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

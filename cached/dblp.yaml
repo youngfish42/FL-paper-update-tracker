@@ -18374,6 +18374,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2022.3206480
   ee: https://doi.org/10.1109/TPDS.2022.3206480
   url: https://dblp.org/rec/journals/tpds/YangBYTZ22
+- author: Meilin Yang, Jian Xu, Wenbo Ding, Yang Liu
+  title: 'FedHAP: Federated Hashing With Global Prototypes for Cross-Silo Retrieval.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/YangXDL24
+  doi: 10.1109/TPDS.2023.3324426
+  ee: https://doi.org/10.1109/TPDS.2023.3324426
+  url: https://dblp.org/rec/journals/tpds/YangXDL24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

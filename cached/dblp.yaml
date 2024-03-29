@@ -3396,6 +3396,39 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I15.29659
   ee: https://doi.org/10.1609/aaai.v38i15.29659
   url: https://dblp.org/rec/conf/aaai/Zhou024
+- author: Dashan Gao 0002, Sheng Wan, Lixin Fan, Xin Yao, Qiang Yang 0001
+  title: Complementary Knowledge Distillation for Robust and Privacy-Preserving Model
+    Serving in Vertical Federated Learning.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/GaoWFY024
+  doi: 10.1609/AAAI.V38I18.29958
+  ee: https://doi.org/10.1609/aaai.v38i18.29958
+  url: https://dblp.org/rec/conf/aaai/GaoWFY024
+- author: Tao Liu, Yuhang Zhang, Zhu Feng, Zhiqin Yang, Chen Xu 0008, Dapeng Man,
+    Wu Yang 0001
+  title: 'Beyond Traditional Threats: A Persistent Backdoor Attack on Federated Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/LiuZFYXM024
+  doi: 10.1609/AAAI.V38I19.30131
+  ee: https://doi.org/10.1609/aaai.v38i19.30131
+  url: https://dblp.org/rec/conf/aaai/LiuZFYXM024
+- author: Mingzhao Yang, Shangchao Su, Bin Li 0015, Xiangyang Xue
+  title: Exploring One-Shot Semi-supervised Federated Learning with Pre-trained Diffusion
+    Models.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/YangSLX24
+  doi: 10.1609/AAAI.V38I15.29568
+  ee: https://doi.org/10.1609/aaai.v38i15.29568
+  url: https://dblp.org/rec/conf/aaai/YangSLX24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -10121,6 +10154,29 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/2124295.2124351
   ee: https://doi.org/10.1145/2124295.2124351
   url: https://dblp.org/rec/conf/wsdm/ChenCWCY12
+- author: Mingyuan Fan, Yang Liu, Cen Chen, Chengyu Wang 0001, Minghui Qiu, Wenmeng
+    Zhou
+  title: 'Guardian: Guarding against Gradient Leakage with Provable Defense for Federated
+    Learning.'
+  venue: WSDM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/FanLC0QZ24
+  doi: 10.1145/3616855.3635758
+  ee: https://doi.org/10.1145/3616855.3635758
+  url: https://dblp.org/rec/conf/wsdm/FanLC0QZ24
+- author: Qi Hu, Yangqiu Song
+  title: User Consented Federated Recommender System Against Personalized Attribute
+    Inference Attack.
+  venue: WSDM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/HuS24
+  doi: 10.1145/3616855.3635830
+  ee: https://doi.org/10.1145/3616855.3635830
+  url: https://dblp.org/rec/conf/wsdm/HuS24
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using

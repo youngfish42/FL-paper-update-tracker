@@ -8061,6 +8061,18 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/wang22o.html
   url: https://dblp.org/rec/conf/icml/WangLC22
+- author: Chang Liu 0021, Chenfei Lou, Runzhong Wang, Alan Yuhan Xi, Li Shen, Junchi
+    Yan
+  title: Deep Neural Network Fusion via Graph Matching with Applications to Model
+    Ensemble and Federated Learning.
+  venue: ICML
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LiuLWXSY22
+  doi: ''
+  ee: https://proceedings.mlr.press/v162/liu22k.html
+  url: https://dblp.org/rec/conf/icml/LiuLWXSY22
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

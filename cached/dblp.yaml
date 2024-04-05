@@ -4205,6 +4205,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I15.29659
   ee: https://doi.org/10.1609/aaai.v38i15.29659
   url: https://dblp.org/rec/conf/aaai/Zhou024
+- author: Jian Li, Yong Liu 0018, Weiping Wang
+  title: 'FedNS: A Fast Sketching Newton-Type Algorithm for Federated Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiLW24b
+  doi: 10.1609/AAAI.V38I12.29254
+  ee: https://doi.org/10.1609/aaai.v38i12.29254
+  url: https://dblp.org/rec/conf/aaai/LiLW24b
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -15083,6 +15093,17 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3477495.3531709
   ee: https://doi.org/10.1145/3477495.3531709
   url: https://dblp.org/rec/conf/sigir/WangZ22
+- author: Linlin Zong, Qiujie Xie, Jiahui Zhou, Peiran Wu, Xianchao Zhang 0001, Bo
+    Xu 0009
+  title: 'FedCMR: Federated Cross-Modal Retrieval.'
+  venue: SIGIR
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/ZongXZWZ021
+  doi: 10.1145/3404835.3462989
+  ee: https://doi.org/10.1145/3404835.3462989
+  url: https://dblp.org/rec/conf/sigir/ZongXZWZ021
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -20132,6 +20153,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2021.3134647
   ee: https://doi.org/10.1109/TPDS.2021.3134647
   url: https://dblp.org/rec/journals/tpds/DengLRWZZS22
+- author: Moming Duan, Duo Liu, Xinyuan Ji, Yu Wu 0016, Liang Liang 0002, Xianzhang
+    Chen, Yujuan Tan, Ao Ren
+  title: Flexible Clustered Federated Learning for Client-Level Data Distribution
+    Shift.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/DuanLJWLCTR22
+  doi: 10.1109/TPDS.2021.3134263
+  ee: https://doi.org/10.1109/TPDS.2021.3134263
+  url: https://dblp.org/rec/journals/tpds/DuanLJWLCTR22
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

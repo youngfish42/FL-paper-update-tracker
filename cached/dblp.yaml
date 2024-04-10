@@ -4215,6 +4215,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I12.29254
   ee: https://doi.org/10.1609/aaai.v38i12.29254
   url: https://dblp.org/rec/conf/aaai/LiLW24b
+- author: Ji Liu 0003, Juncheng Jia, Tianshi Che, Chao Huo, Jiaxiang Ren 0001, Yang
+    Zhou, Huaiyu Dai, Dejing Dou
+  title: 'FedASMU: Efficient Asynchronous Federated Learning with Dynamic Staleness-Aware
+    Model Update.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuJCH0ZDD24
+  doi: 10.1609/AAAI.V38I12.29297
+  ee: https://doi.org/10.1609/aaai.v38i12.29297
+  url: https://dblp.org/rec/conf/aaai/LiuJCH0ZDD24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -10021,6 +10033,16 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-023-06330-Z
   ee: https://doi.org/10.1007/s10994-023-06330-z
   url: https://dblp.org/rec/journals/ml/CasadoLIRB23
+- author: Lan Li, De-Chuan Zhan, Xin-Chun Li
+  title: Aligning model outputs for class imbalanced non-IID federated learning.
+  venue: Mach. Learn.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/LiZL24
+  doi: 10.1007/S10994-022-06241-5
+  ee: https://doi.org/10.1007/s10994-022-06241-5
+  url: https://dblp.org/rec/journals/ml/LiZL24
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous

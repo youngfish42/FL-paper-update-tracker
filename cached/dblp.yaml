@@ -12989,6 +12989,18 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00480
   ee: https://doi.org/10.1109/ICCV51070.2023.00480
   url: https://dblp.org/rec/conf/iccv/00020YNLZX0R23
+- author: Xinghao Wu, Xuefeng Liu 0001, Jianwei Niu 0002, Guogang Zhu, Shaojie Tang
+    0001
+  title: 'Bold but Cautious: Unlocking the Potential of Personalized Federated Learning
+    through Cautiously Aggressive Collaboration.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/WuLNZ023
+  doi: 10.1109/ICCV51070.2023.01775
+  ee: https://doi.org/10.1109/ICCV51070.2023.01775
+  url: https://dblp.org/rec/conf/iccv/WuLNZ023
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -16478,6 +16490,16 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: ''
   ee: https://www.vldb.org/pvldb/vol17/p966-hu.pdf
   url: https://dblp.org/rec/journals/pvldb/WuZH24
+- author: Zitao Li, Bolin Ding, Liuyi Yao, Yaliang Li, Xiaokui Xiao, Jingren Zhou
+  title: Performance-Based Pricing of Federated Learning via Auction.
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiDYLXZ24
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol17/p1269-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiDYLXZ24
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things

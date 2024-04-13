@@ -10236,6 +10236,27 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2023.3334213
   ee: https://doi.org/10.1109/TPAMI.2023.3334213
   url: https://dblp.org/rec/journals/pami/DongLCSZG24
+- author: Kummari Naveen Kumar, Chalavadi Krishna Mohan, Linga Reddy Cenkeramaddi
+  title: 'The Impact of Adversarial Attacks on Federated Learning: A Survey.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/KumarMC24
+  doi: 10.1109/TPAMI.2023.3322785
+  ee: https://doi.org/10.1109/TPAMI.2023.3322785
+  url: https://dblp.org/rec/journals/pami/KumarMC24
+- author: Yujun Shi, Jian Liang, Wenqing Zhang, Chuhui Xue, Vincent Y. F. Tan, Song
+    Bai
+  title: Understanding and Mitigating Dimensional Collapse in Federated Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ShiLZXTB24
+  doi: 10.1109/TPAMI.2023.3338063
+  ee: https://doi.org/10.1109/TPAMI.2023.3338063
+  url: https://dblp.org/rec/journals/pami/ShiLZXTB24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -14577,6 +14598,73 @@ federate%20venue%3AEMNLP%3A:
   doi: ''
   ee: https://aclanthology.org/2023.emnlp-main.734
   url: https://dblp.org/rec/conf/emnlp/ShinYLPLCL23
+- author: Tianshi Che, Ji Liu 0003, Yang Zhou 0001, Jiaxiang Ren 0001, Jiwen Zhou,
+    Victor S. Sheng, Huaiyu Dai, Dejing Dou
+  title: Federated Learning of Large Language Models with Parameter-Efficient Prompt
+    Tuning and Adaptive Optimization.
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/CheL00ZSDD23
+  doi: 10.18653/V1/2023.EMNLP-MAIN.488
+  ee: https://doi.org/10.18653/v1/2023.emnlp-main.488
+  url: https://dblp.org/rec/conf/emnlp/CheL00ZSDD23
+- author: Chenhe Dong, Yuexiang Xie, Bolin Ding, Ying Shen 0001, Yaliang Li
+  title: Tunable Soft Prompts are Messengers in Federated Learning.
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/DongXDSL23
+  doi: 10.18653/V1/2023.FINDINGS-EMNLP.976
+  ee: https://doi.org/10.18653/v1/2023.findings-emnlp.976
+  url: https://dblp.org/rec/conf/emnlp/DongXDSL23
+- author: Jack Good, Jimit Majmudar, Christophe Dupuy, Jixuan Wang, Charith Peris,
+    Clement Chung, Richard S. Zemel, Rahul Gupta 0001
+  title: Coordinated Replay Sample Selection for Continual Federated Learning.
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/GoodMDWPCZ023
+  doi: 10.18653/V1/2023.EMNLP-INDUSTRY.32
+  ee: https://doi.org/10.18653/v1/2023.emnlp-industry.32
+  url: https://dblp.org/rec/conf/emnlp/GoodMDWPCZ023
+- author: Xinge Ma, Jiangming Liu, Jin Wang 0008, Xuejie Zhang 0002
+  title: 'FedID: Federated Interactive Distillation for Large-Scale Pretraining Language
+    Models.'
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/MaL0023
+  doi: 10.18653/V1/2023.EMNLP-MAIN.529
+  ee: https://doi.org/10.18653/v1/2023.emnlp-main.529
+  url: https://dblp.org/rec/conf/emnlp/MaL0023
+- author: Jaemin Shin 0005, Hyungjun Yoon, Seungjoo Lee, Sungjoon Park, Yunxin Liu,
+    Jinho D. Choi, Sung-Ju Lee
+  title: 'FedTherapist: Mental Health Monitoring with User-Generated Linguistic Expressions
+    on Smartphones via Federated Learning.'
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/ShinYLPLCL23
+  doi: 10.18653/V1/2023.EMNLP-MAIN.734
+  ee: https://doi.org/10.18653/v1/2023.emnlp-main.734
+  url: https://dblp.org/rec/conf/emnlp/ShinYLPLCL23
+- author: Apoorva Singh, Siddarth Chandrasekar, Sriparna Saha 0001, Tanmay Sen
+  title: Federated Meta-Learning for Emotion and Sentiment Aware Multi-modal Complaint
+    Identification.
+  venue: EMNLP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/SinghC0S23
+  doi: 10.18653/V1/2023.EMNLP-MAIN.999
+  ee: https://doi.org/10.18653/v1/2023.emnlp-main.999
+  url: https://dblp.org/rec/conf/emnlp/SinghC0S23
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.

@@ -8871,6 +8871,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/liu22k.html
   url: https://dblp.org/rec/conf/icml/LiuLWXSY22
+- author: Zhuangdi Zhu, Junyuan Hong, Steve Drew 0001, Jiayu Zhou
+  title: Resilient and Communication Efficient Learning for Heterogeneous Federated
+    Systems.
+  venue: ICML
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ZhuHDZ22
+  doi: ''
+  ee: https://proceedings.mlr.press/v162/zhu22e.html
+  url: https://dblp.org/rec/conf/icml/ZhuHDZ22
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

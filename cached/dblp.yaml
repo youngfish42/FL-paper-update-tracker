@@ -9977,6 +9977,17 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v180/liu22c.html
   url: https://dblp.org/rec/conf/uai/LiuCYFLL22
+- author: Tengfei Ma 0001, Trong Nghia Hoang, Jie Chen
+  title: Federated learning of models pre-trained on different features with consensus
+    graphs.
+  venue: UAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/MaHC23
+  doi: ''
+  ee: https://proceedings.mlr.press/v216/ma23b.html
+  url: https://dblp.org/rec/conf/uai/MaHC23
 federate%20streamid%3Ajournals%2Fml%3A:
 - author: Adnan Ahmad, Wei Luo 0001, Antonio Robles-Kelly
   title: Robust federated learning under statistical heterogeneity via hessian-weighted

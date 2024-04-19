@@ -6974,6 +6974,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/c07d71ff0bc042e4b9acd626a79597fa-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangJCLW23
+- author: Haonan Yan, Wenjing Zhang, Qian Chen 0032, Xiaoguang Li, Wenhai Sun, Hui
+    Li 0006, Xiaodong Lin 0001
+  title: 'RECESS Vaccine for Federated Learning: Proactive Defense Against Model Poisoning
+    Attacks.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YanZCLS0023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/1b80fe066fdbceb3a2960117bac33917-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YanZCLS0023
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -20341,6 +20353,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3324426
   ee: https://doi.org/10.1109/TPDS.2023.3324426
   url: https://dblp.org/rec/journals/tpds/YangXDL24
+- author: Qian Chen 0032, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong
+    Lin 0001
+  title: 'Dap-FL: Federated Learning Flourishes by Adaptive Tuning and Secure Aggregation.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ChenWCYL23
+  doi: 10.1109/TPDS.2023.3267897
+  ee: https://doi.org/10.1109/TPDS.2023.3267897
+  url: https://dblp.org/rec/journals/tpds/ChenWCYL23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

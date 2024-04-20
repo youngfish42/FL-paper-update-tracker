@@ -19411,6 +19411,16 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Paul Joe Maliakel, Shashikant Ilager, Ivona Brandic
+  title: 'FLIGAN: Enhancing Federated Learning with Incomplete Data using GAN.'
+  venue: EdgeSys@EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/edgesys/MaliakelIB24
+  doi: 10.1145/3642968.3654813
+  ee: https://doi.org/10.1145/3642968.3654813
+  url: https://dblp.org/rec/conf/edgesys/MaliakelIB24
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001

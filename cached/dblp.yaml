@@ -19421,6 +19421,74 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3642968.3654813
   ee: https://doi.org/10.1145/3642968.3654813
   url: https://dblp.org/rec/conf/edgesys/MaliakelIB24
+- author: Neil Hurley, Erika Duriakova, James Geraci, Diarmuid O&apos;Reilly-Morgan,
+    Elias Z. Tragos, Barry Smyth, Aonghus Lawlor
+  title: ALS Algorithm for Robust and Communication-Efficient Federated Learning.
+  venue: EuroMLSys@EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/euromlsys/HurleyDGOTSL24
+  doi: 10.1145/3642970.3655842
+  ee: https://doi.org/10.1145/3642970.3655842
+  url: https://dblp.org/rec/conf/euromlsys/HurleyDGOTSL24
+- author: Zeling Zhang, Dongqi Cai, Yiran Zhang, Mengwei Xu, Shangguang Wang, Ao Zhou
+    0001
+  title: 'FedRDMA: Communication-Efficient Cross-Silo Federated LLM via Chunked RDMA
+    Transmission.'
+  venue: EuroMLSys@EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/euromlsys/ZhangCZXW024
+  doi: 10.1145/3642970.3655834
+  ee: https://doi.org/10.1145/3642970.3655834
+  url: https://dblp.org/rec/conf/euromlsys/ZhangCZXW024
+- author: Pau-Chen Cheng, Kevin Eykholt, Zhongshu Gu, Hani Jamjoom, K. R. Jayaram,
+    Enriquillo Valdez, Ashish Verma
+  title: 'DeTA: Minimizing Data Leaks in Federated Learning via Decentralized and
+    Trustworthy Aggregation.'
+  venue: EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/ChengEGJJVV24
+  doi: 10.1145/3627703.3650082
+  ee: https://doi.org/10.1145/3627703.3650082
+  url: https://dblp.org/rec/conf/eurosys/ChengEGJJVV24
+- author: Cheng-Wei Ching, Xin Chen, Taehwan Kim, Bo Ji, Qingyang Wang, Dilma Da Silva,
+    Liting Hu
+  title: 'Totoro: A Scalable Federated Learning Engine for the Edge.'
+  venue: EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/ChingCKJWSH24
+  doi: 10.1145/3627703.3629575
+  ee: https://doi.org/10.1145/3627703.3629575
+  url: https://dblp.org/rec/conf/eurosys/ChingCKJWSH24
+- author: Zhifeng Jiang, Wei Wang 0030, Ruichuan Chen
+  title: 'Dordis: Efficient Federated Learning with Dropout-Resilient Differential
+    Privacy.'
+  venue: EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/Jiang0C24
+  doi: 10.1145/3627703.3629559
+  ee: https://doi.org/10.1145/3627703.3629559
+  url: https://dblp.org/rec/conf/eurosys/Jiang0C24
+- author: Ahmad Faraz Khan, Azal Ahmad Khan, Ahmed M. Abdelmoniem, Samuel Fountain,
+    Ali Raza Butt, Ali Anwar 0001
+  title: 'FLOAT: Federated Learning Optimizations with Automated Tuning.'
+  venue: EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/KhanKAFB024
+  doi: 10.1145/3627703.3650081
+  ee: https://doi.org/10.1145/3627703.3650081
+  url: https://dblp.org/rec/conf/eurosys/KhanKAFB024
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001

@@ -19489,6 +19489,17 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3627703.3650081
   ee: https://doi.org/10.1145/3627703.3650081
   url: https://dblp.org/rec/conf/eurosys/KhanKAFB024
+- author: Ahmad Faraz Khan 0001, Azal Ahmad Khan, Ahmed M. Abdelmoniem, Samuel Fountain,
+    Ali Raza Butt, Ali Anwar 0001
+  title: 'FLOAT: Federated Learning Optimizations with Automated Tuning.'
+  venue: EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/KhanKAFB024
+  doi: 10.1145/3627703.3650081
+  ee: https://doi.org/10.1145/3627703.3650081
+  url: https://dblp.org/rec/conf/eurosys/KhanKAFB024
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001

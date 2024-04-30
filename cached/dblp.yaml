@@ -4227,6 +4227,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I12.29297
   ee: https://doi.org/10.1609/aaai.v38i12.29297
   url: https://dblp.org/rec/conf/aaai/LiuJCH0ZDD24
+- author: Ji Liu 0003, Juncheng Jia, Tianshi Che, Chao Huo, Jiaxiang Ren 0001, Yang
+    Zhou 0001, Huaiyu Dai, Dejing Dou
+  title: 'FedASMU: Efficient Asynchronous Federated Learning with Dynamic Staleness-Aware
+    Model Update.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuJCH0ZDD24
+  doi: 10.1609/AAAI.V38I12.29297
+  ee: https://doi.org/10.1609/aaai.v38i12.29297
+  url: https://dblp.org/rec/conf/aaai/LiuJCH0ZDD24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

@@ -4239,6 +4239,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I12.29297
   ee: https://doi.org/10.1609/aaai.v38i12.29297
   url: https://dblp.org/rec/conf/aaai/LiuJCH0ZDD24
+- author: Yuzhi Liu, Huisi Wu, Jing Qin 0001
+  title: 'FedCD: Federated Semi-Supervised Learning with Class Awareness Balance via
+    Dual Teachers.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuWQ24
+  doi: 10.1609/AAAI.V38I4.28175
+  ee: https://doi.org/10.1609/aaai.v38i4.28175
+  url: https://dblp.org/rec/conf/aaai/LiuWQ24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -9770,6 +9781,16 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/pdf?id=29V3AWjVAFi
   url: https://dblp.org/rec/conf/iclr/ChenWV23
+- author: Ping Liu 0004, Xin Yu, Joey Tianyi Zhou
+  title: Meta Knowledge Condensation for Federated Learning.
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiuYZ23
+  doi: ''
+  ee: https://openreview.net/pdf?id=TDf-XFAwc79
+  url: https://dblp.org/rec/conf/iclr/LiuYZ23
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -18056,6 +18077,19 @@ federate%20venue%3ANSDI%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Carlo Curino, Subru Krishnan, Konstantinos Karanasos, Sriram Rao, Giovanni
+    Matteo Fumarola, Botong Huang, Kishore Chaliparambil, Arun Suresh, Young Chen,
+    Solom Heddaya, Roni Burd, Sarvesh Sakalanaga, Chris Douglas, Bill Ramsey, Raghu
+    Ramakrishnan 0001
+  title: 'Hydra: a federated resource manager for data-center scale analytics.'
+  venue: NSDI
+  year: '2019'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nsdi/CurinoKKRFHCSCH19
+  doi: ''
+  ee: https://www.usenix.org/conference/nsdi19/presentation/curino
+  url: https://dblp.org/rec/conf/nsdi/CurinoKKRFHCSCH19
 federate%20venue%3AWWW%3A:
 - author: Yao Chen, Shan Huang, Wensheng Gan, Gengsen Huang, Yongdong Wu
   title: 'Federated Learning for Metaverse: A Survey.'

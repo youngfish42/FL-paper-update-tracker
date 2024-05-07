@@ -19546,6 +19546,17 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3627703.3650081
   ee: https://doi.org/10.1145/3627703.3650081
   url: https://dblp.org/rec/conf/eurosys/KhanKAFB024
+- author: Cheng-Wei Ching, Xin Chen, Taehwan Kim, Bo Ji 0001, Qingyang Wang, Dilma
+    Da Silva, Liting Hu
+  title: 'Totoro: A Scalable Federated Learning Engine for the Edge.'
+  venue: EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/ChingCKJWSH24
+  doi: 10.1145/3627703.3629575
+  ee: https://doi.org/10.1145/3627703.3629575
+  url: https://dblp.org/rec/conf/eurosys/ChingCKJWSH24
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001
@@ -20933,6 +20944,17 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2023.3307459
   ee: https://doi.org/10.1109/TCAD.2023.3307459
   url: https://dblp.org/rec/journals/tcad/WuYJZXF24
+- author: Jingyu Pan, Xuezhong Lin, Jinming Xu 0002, Yiran Chen 0001, Cheng Zhuo
+  title: Lithography Hotspot Detection Based on Heterogeneous Federated Learning With
+    Local Adaptation and Feature Selection.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/PanLXCZ24
+  doi: 10.1109/TCAD.2023.3332841
+  ee: https://doi.org/10.1109/TCAD.2023.3332841
+  url: https://dblp.org/rec/journals/tcad/PanLXCZ24
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

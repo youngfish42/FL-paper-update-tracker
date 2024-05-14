@@ -4835,6 +4835,215 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/zakerinia24a.html
   url: https://dblp.org/rec/conf/aistats/ZakeriniaTNA24
+- author: Yann Fraboni, Martin Van Waerebeke, Kevin Scaman, Richard Vidal, Laetitia
+    Kameni, Marco Lorenzi
+  title: 'SIFU: Sequential Informed Federated Unlearning for Efficient and Provable
+    Client Unlearning in Federated Optimization.'
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/FraboniWSVKL24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/fraboni24a.html
+  url: https://dblp.org/rec/conf/aistats/FraboniWSVKL24
+- author: Wenxuan Bao, Jun Wu, Jingrui He
+  title: 'BOBA: Byzantine-Robust Federated Learning with Label Skewness.'
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/BaoWH24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/bao24a.html
+  url: https://dblp.org/rec/conf/aistats/BaoWH24
+- author: Ethan Blaser, Chuanhao Li, Hongning Wang
+  title: Federated Linear Contextual Bandits with Heterogeneous Clients.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/BlaserLW24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/blaser24a.html
+  url: https://dblp.org/rec/conf/aistats/BlaserLW24
+- author: "Wei-Ning Chen, Graham Cormode, Akash Bharadwaj, Peter Romov, Ayfer \xD6\
+    zg\xFCr"
+  title: Federated Experiment Design under Distributed Differential Privacy.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ChenCBRO24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/chen24c.html
+  url: https://dblp.org/rec/conf/aistats/ChenCBRO24
+- author: Sijin Chen, Zhize Li, Yuejie Chi
+  title: Escaping Saddle Points in Heterogeneous Federated Learning via Distributed
+    SGD with Communication Compression.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ChenLC24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/chen24d.html
+  url: https://dblp.org/rec/conf/aistats/ChenLC24
+- author: "Mathieu Even, Anastasia Koloskova, Laurent Massouli\xE9"
+  title: 'Asynchronous SGD on Graphs: a Unified Framework for Asynchronous Decentralized
+    and Federated Optimization.'
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/EvenKM24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/even24a.html
+  url: https://dblp.org/rec/conf/aistats/EvenKM24
+- author: "Mahmoud Hegazy, R\xE9mi Leluc, Cheuk Ting Li, Aymeric Dieuleveut"
+  title: Compression with Exact Error Distribution for Federated Learning.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/HegazyLLD24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/hegazy24a.html
+  url: https://dblp.org/rec/conf/aistats/HegazyLLD24
+- author: Feihu Huang, Xinrui Wang, Junyi Li, Songcan Chen
+  title: Adaptive Federated Minimax Optimization with Lower Complexities.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/HuangWLC24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/huang24c.html
+  url: https://dblp.org/rec/conf/aistats/HuangWLC24
+- author: "Berivan Isik, Francesco Pase, Deniz G\xFCnd\xFCz, Sanmi Koyejo, Tsachy\
+    \ Weissman, Michele Zorzi"
+  title: Adaptive Compression in Federated Learning via Side Information.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/IsikPGKWZ24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/isik24a.html
+  url: https://dblp.org/rec/conf/aistats/IsikPGKWZ24
+- author: Isu Jeong, Seulki Lee
+  title: On-Demand Federated Learning for Arbitrary Target Class Distributions.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/JeongL24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/jeong24a.html
+  url: https://dblp.org/rec/conf/aistats/JeongL24
+- author: Divyansh Jhunjhunwala, Shiqiang Wang 0001, Gauri Joshi
+  title: 'FedFisher: Leveraging Fisher Information for One-Shot Federated Learning.'
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/Jhunjhunwala0J24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/jhunjhunwala24a.html
+  url: https://dblp.org/rec/conf/aistats/Jhunjhunwala0J24
+- author: Louis Leconte, Matthieu Jonckheere, Sergey Samsonov, Eric Moulines
+  title: Queuing dynamics of asynchronous Federated Learning.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/LeconteJSM24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/leconte24a.html
+  url: https://dblp.org/rec/conf/aistats/LeconteJSM24
+- author: Wenjie Li, Qifan Song, Jean Honorio
+  title: Personalized Federated X-armed Bandit.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/LiSH24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/li24a.html
+  url: https://dblp.org/rec/conf/aistats/LiSH24
+- author: Soheila Molaei, Anshul Thakur, Ghazaleh Niknam, Andrew A. S. Soltan, Hadi
+    Zare 0001, David A. Clifton
+  title: Federated Learning For Heterogeneous Electronic Health Records Utilising
+    Augmented Temporal Graph Attention Networks.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/MolaeiTNS0C24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/molaei24a.html
+  url: https://dblp.org/rec/conf/aistats/MolaeiTNS0C24
+- author: Wei Shen, Minhui Huang, Jiawei Zhang, Cong Shen
+  title: Stochastic Smoothed Gradient Descent Ascent for Federated Minimax Optimization.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ShenHZS24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/shen24c.html
+  url: https://dblp.org/rec/conf/aistats/ShenHZS24
+- author: Zhenyu Sun, Xiaochun Niu, Ermin Wei
+  title: 'Understanding Generalization of Federated Learning via Stability: Heterogeneity
+    Matters.'
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/SunNW24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/sun24a.html
+  url: https://dblp.org/rec/conf/aistats/SunNW24
+- author: Nikita Tsoy, Anna Mihalkova, Teodora N. Todorova, Nikola Konstantinov
+  title: Provable Mutual Benefits from Federated Learning in Privacy-Sensitive Domains.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/TsoyMTK24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/tsoy24a.html
+  url: https://dblp.org/rec/conf/aistats/TsoyMTK24
+- author: Minh N. Vu, Truc D. T. Nguyen, Tre&apos; R. Jeter, My T. Thai
+  title: Analysis of Privacy Leakage in Federated Large Language Models.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/VuNJT24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/vu24a.html
+  url: https://dblp.org/rec/conf/aistats/VuNJT24
+- author: Xiaoyang Wang, Dimitrios Dimitriadis, Sanmi Koyejo, Shruti Tople
+  title: Invariant Aggregator for Defending against Federated Backdoor Attacks.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/WangDKT24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/wang24e.html
+  url: https://dblp.org/rec/conf/aistats/WangDKT24
+- author: Hossein Zakerinia, Shayan Talaei, Giorgi Nadiradze, Dan Alistarh
+  title: Communication-Efficient Federated Learning With Data and Client Heterogeneity.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ZakeriniaTNA24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/zakerinia24a.html
+  url: https://dblp.org/rec/conf/aistats/ZakeriniaTNA24
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -7229,6 +7438,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/1b80fe066fdbceb3a2960117bac33917-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YanZCLS0023
+- author: Jiaqi Wang 0002, Xingyi Yang, Suhan Cui, Liwei Che, Lingjuan Lyu, Dongkuan
+    Xu, Fenglong Ma
+  title: Towards Personalized Federated Learning via Heterogeneous Model Reassembly.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WangYCCLXM23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/5e2217482fa75556f1970be809acd3f8-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WangYCCLXM23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -19423,6 +19643,53 @@ federate%20venue%3AMLSys%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Dzmitry Huba, John Nguyen, Kshitiz Malik, Ruiyu Zhu, Mike Rabbat, Ashkan
+    Yousefpour, Carole-Jean Wu, Hongyuan Zhan, Pavel Ustinov, Harish Srinivas, Kaikai
+    Wang, Anthony Shoumikhin, Jesik Min, Mani Malek 0001
+  title: 'PAPAYA: Practical, Private, and Scalable Federated Learning.'
+  venue: MLSys
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/HubaNMZRYWZUSWS22
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2022/hash/a8bc4cb14a20f20d1f96188bd61eec87-Abstract.html
+  url: https://dblp.org/rec/conf/mlsys/HubaNMZRYWZUSWS22
+- author: Jinhyun So, Corey J. Nolet, Chien-Sheng Yang, Songze Li, Qian Yu 0001, Ramy
+    E. Ali, Basak Guler, Salman Avestimehr
+  title: 'LightSecAgg: a Lightweight and Versatile Design for Secure Aggregation in
+    Federated Learning.'
+  venue: MLSys
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/SoNYL0AGA22
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2022/hash/6c44dc73014d66ba49b28d483a8f8b0d-Abstract.html
+  url: https://dblp.org/rec/conf/mlsys/SoNYL0AGA22
+- author: Tian Li 0005, Anit Kumar Sahu, Manzil Zaheer, Maziar Sanjabi, Ameet Talwalkar,
+    Virginia Smith
+  title: Federated Optimization in Heterogeneous Networks.
+  venue: MLSys
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/LiSZSTS20
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2020/hash/1f5fe83998a09396ebe6477d9475ba0c-Abstract.html
+  url: https://dblp.org/rec/conf/mlsys/LiSZSTS20
+- author: "Kallista A. Bonawitz, Hubert Eichner, Wolfgang Grieskamp, Dzmitry Huba,\
+    \ Alex Ingerman, Vladimir Ivanov, Chlo\xE9 Kiddon, Jakub Konecn\xFD, Stefano Mazzocchi,\
+    \ Brendan McMahan, Timon Van Overveldt, David Petrou, Daniel Ramage, Jason Roselander"
+  title: 'Towards Federated Learning at Scale: System Design.'
+  venue: MLSys
+  year: '2019'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/BonawitzEGHIIKK19
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2019/hash/7b770da633baf74895be22a8807f1a8f-Abstract.html
+  url: https://dblp.org/rec/conf/mlsys/BonawitzEGHIIKK19
 federate%20streamid%3Aconf%2Feurosys%3A:
 - author: Ahmed M. Abdelmoniem, Atal Narayan Sahu, Marco Canini, Suhaib A. Fahmy
   title: 'REFL: Resource-Efficient Federated Learning.'

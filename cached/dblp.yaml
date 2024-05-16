@@ -805,6 +805,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2022/324
   ee: https://doi.org/10.24963/ijcai.2022/324
   url: https://dblp.org/rec/conf/ijcai/WuKLHFPY22
+- author: Kun Guo 0003, Yutong Fang, Qingqing Huang, Yuting Liang, Ziyao Zhang, Wenyu
+    He, Liu Yang 0008, Kai Chen 0005, Ximeng Liu, Wenzhong Guo
+  title: Globally Consistent Federated Graph Autoencoder for Non-IID Graphs.
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/GuoFHLZH00LG23
+  doi: 10.24963/IJCAI.2023/419
+  ee: https://doi.org/10.24963/ijcai.2023/419
+  url: https://dblp.org/rec/conf/ijcai/GuoFHLZH00LG23
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -19458,6 +19469,28 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645422
   ee: https://doi.org/10.1145/3589334.3645422
   url: https://dblp.org/rec/conf/www/Zhou0MHGD24
+- author: Haozhao Wang, Yabo Jia, Meng Zhang, Qinghao Hu, Hao Ren 0001, Peng Sun 0006,
+    Yonggang Wen 0001, Tianwei Zhang 0004
+  title: 'FedDSE: Distribution-aware Sub-model Extraction for Federated Learning over
+    Resource-constrained Devices.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangJZHR00024
+  doi: 10.1145/3589334.3645416
+  ee: https://doi.org/10.1145/3589334.3645416
+  url: https://dblp.org/rec/conf/www/WangJZHR00024
+- author: Bo Yan 0005, Yang Cao, Haoyu Wang, Wenchuan Yang, Junping Du, Chuan Shi
+  title: Federated Heterogeneous Graph Neural Network for Privacy-preserving Recommendation.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YanCWYDS24
+  doi: 10.1145/3589334.3645693
+  ee: https://doi.org/10.1145/3589334.3645693
+  url: https://dblp.org/rec/conf/www/YanCWYDS24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

@@ -21394,6 +21394,28 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3267897
   ee: https://doi.org/10.1109/TPDS.2023.3267897
   url: https://dblp.org/rec/journals/tpds/ChenWCYL23
+- author: Jiamin Fan, Kui Wu 0001, Guoming Tang, Yang Zhou, Shengqiang Huang
+  title: 'Taking Advantage of the Mistakes: Rethinking Clustered Federated Learning
+    for IoT Anomaly Detection.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/FanWTZH24
+  doi: 10.1109/TPDS.2024.3379905
+  ee: https://doi.org/10.1109/TPDS.2024.3379905
+  url: https://dblp.org/rec/journals/tpds/FanWTZH24
+- author: Zhiyuan Wu, Sheng Sun, Yuwei Wang, Min Liu 0001, Quyang Pan, Xuefeng Jiang,
+    Bo Gao
+  title: 'FedICT: Federated Multi-Task Distillation for Multi-Access Edge Computing.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuSWLPJG24
+  doi: 10.1109/TPDS.2023.3289444
+  ee: https://doi.org/10.1109/TPDS.2023.3289444
+  url: https://dblp.org/rec/journals/tpds/WuSWLPJG24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

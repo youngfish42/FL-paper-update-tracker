@@ -10571,6 +10571,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-023-06332-X
   ee: https://doi.org/10.1007/s10994-023-06332-x
   url: https://dblp.org/rec/journals/ml/PillutlaLMH24
+- author: Mao Zhang, Tie Zhang, Yifei Cheng, Changcun Bao, Haoyu Cao, Deqiang Jiang,
+    Linli Xu
+  title: Communication-efficient clustered federated learning via model distance.
+  venue: Mach. Learn.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/ZhangZCBCJX24
+  doi: 10.1007/S10994-023-06443-5
+  ee: https://doi.org/10.1007/s10994-023-06443-5
+  url: https://dblp.org/rec/journals/ml/ZhangZCBCJX24
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -10785,6 +10796,17 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2023.3338063
   ee: https://doi.org/10.1109/TPAMI.2023.3338063
   url: https://dblp.org/rec/journals/pami/ShiLZXTB24
+- author: Xubo Yue, Raed Kontar
+  title: 'Federated Gaussian Process: Convergence, Automatic Personalization and Multi-Fidelity
+    Modeling.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/YueK24
+  doi: 10.1109/TPAMI.2024.3355289
+  ee: https://doi.org/10.1109/TPAMI.2024.3355289
+  url: https://dblp.org/rec/journals/pami/YueK24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

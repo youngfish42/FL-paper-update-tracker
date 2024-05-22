@@ -21438,6 +21438,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3289444
   ee: https://doi.org/10.1109/TPDS.2023.3289444
   url: https://dblp.org/rec/journals/tpds/WuSWLPJG24
+- author: Chen Chen 0067, Hong Xu 0001, Wei Wang 0030, Baochun Li, Bo Li 0001, Li
+    Chen 0008, Gong Zhang 0001
+  title: 'Synchronize Only the Immature Parameters: Communication-Efficient Federated
+    Learning By Freezing Parameters Adaptively.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ChenXWLLCZ24
+  doi: 10.1109/TPDS.2023.3241965
+  ee: https://doi.org/10.1109/TPDS.2023.3241965
+  url: https://dblp.org/rec/journals/tpds/ChenXWLLCZ24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

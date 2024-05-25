@@ -16105,6 +16105,16 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/3589264
   ee: https://doi.org/10.1145/3589264
   url: https://dblp.org/rec/journals/pacmmod/Xiang0L023
+- author: Xinyi Zhang, Qichen Wang 0001, Cheng Xu 0004, Yun Peng, Jianliang Xu
+  title: 'FedKNN: Secure Federated k-Nearest Neighbor Search.'
+  venue: Proc. ACM Manag. Data
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/ZhangWXPX24
+  doi: 10.1145/3639266
+  ee: https://doi.org/10.1145/3639266
+  url: https://dblp.org/rec/journals/pacmmod/ZhangWXPX24
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous
@@ -22514,6 +22524,18 @@ federate%20streamid%3Aconf%2Ficse%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Zeju Cai, Jianguo Chen, Wenqing Chen, Weicheng Wang, Xiangyuan Zhu, Aijia
+    Ouyang
+  title: 'F-CodeLLM: A Federated Learning Framework for Adapting Large Language Models
+    to Practical Software Development.'
+  venue: ICSE Companion
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/CaiCCWZO24
+  doi: 10.1145/3639478.3643533
+  ee: https://doi.org/10.1145/3639478.3643533
+  url: https://dblp.org/rec/conf/icse/CaiCCWZO24
 federate%20streamid%3Ajournals%2Ffocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

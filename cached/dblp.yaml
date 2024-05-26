@@ -19582,6 +19582,27 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645544
   ee: https://doi.org/10.1145/3589334.3645544
   url: https://dblp.org/rec/conf/www/ZhangLHWFH0S24
+- author: Mingyang Zhou 0001, Gang Liu 0028, Kezhong Lu, Rui Mao 0001, Hao Liao
+  title: Accelerating the Decentralized Federated Learning via Manipulating Edges.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/0001LL0L24
+  doi: 10.1145/3589334.3645509
+  ee: https://doi.org/10.1145/3589334.3645509
+  url: https://dblp.org/rec/conf/www/0001LL0L24
+- author: Jingjing Zheng, Kai Li 0002, Xin Yuan 0004, Wei Ni 0001, Eduardo Tovar
+  title: Detecting Poisoning Attacks on Federated Learning Using Gradient-Weighted
+    Class Activation Mapping.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/Zheng0Y0T24
+  doi: 10.1145/3589335.3651490
+  ee: https://doi.org/10.1145/3589335.3651490
+  url: https://dblp.org/rec/conf/www/Zheng0Y0T24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

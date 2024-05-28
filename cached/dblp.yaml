@@ -4295,6 +4295,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I21.30317
   ee: https://doi.org/10.1609/aaai.v38i21.30317
   url: https://dblp.org/rec/conf/aaai/SunTYYWDLY24
+- author: Yang Lu 0009, Lin Chen, Yonggang Zhang, Yiliang Zhang, Bo Han, Yiu-ming
+    Cheung, Hanzi Wang
+  title: Federated Learning with Extremely Noisy Clients via Negative Distillation.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LuCZZHCW24
+  doi: 10.1609/AAAI.V38I13.29329
+  ee: https://doi.org/10.1609/aaai.v38i13.29329
+  url: https://dblp.org/rec/conf/aaai/LuCZZHCW24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

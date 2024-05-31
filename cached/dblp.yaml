@@ -827,6 +827,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2023/474
   ee: https://doi.org/10.24963/ijcai.2023/474
   url: https://dblp.org/rec/conf/ijcai/TangY23
+- author: "Radu Ciucanu, Pascal Lafourcade 0001, Ga\xEBl Marcadet, Marta Soare"
+  title: 'SAMBA: A Generic Framework for Secure Federated Multi-Armed Bandits (Extended
+    Abstract).'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Ciucanu0MS23
+  doi: 10.24963/IJCAI.2023/772
+  ee: https://doi.org/10.24963/ijcai.2023/772
+  url: https://dblp.org/rec/conf/ijcai/Ciucanu0MS23
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -16683,6 +16694,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE55515.2023.00222
   ee: https://doi.org/10.1109/ICDE55515.2023.00222
   url: https://dblp.org/rec/conf/icde/XieWL0LS0S23
+- author: "Ga\xEBl Marcadet, Radu Ciucanu, Pascal Lafourcade 0001, Marta Soare, Sihem\
+    \ Amer-Yahia"
+  title: 'Samba: A System for Secure Federated Multi-Armed Bandits.'
+  venue: ICDE
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/MarcadetCLSA22
+  doi: 10.1109/ICDE53745.2022.00286
+  ee: https://doi.org/10.1109/ICDE53745.2022.00286
+  url: https://dblp.org/rec/conf/icde/MarcadetCLSA22
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou

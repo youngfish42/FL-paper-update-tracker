@@ -16158,6 +16158,17 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/3639266
   ee: https://doi.org/10.1145/3639266
   url: https://dblp.org/rec/journals/pacmmod/ZhangWXPX24
+- author: "Herbert Woisetschl\xE4ger, Alexander Erben, Shiqiang Wang, Ruben Mayer,\
+    \ Hans-Arno Jacobsen"
+  title: 'Federated Fine-Tuning of LLMs on the Very Edge: The Good, the Bad, the Ugly.'
+  venue: DEEM@SIGMOD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/deem/WoisetschlagerE24
+  doi: 10.1145/3650203.3663331
+  ee: https://doi.org/10.1145/3650203.3663331
+  url: https://dblp.org/rec/conf/deem/WoisetschlagerE24
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous
@@ -18504,6 +18515,19 @@ federate%20venue%3AMobiCom%3A:
   doi: 10.1145/3372224.3419188
   ee: https://doi.org/10.1145/3372224.3419188
   url: https://dblp.org/rec/conf/mobicom/NiuWTHJLWC20
+- author: Xiaomin Ouyang, Xian Shuai, Yang Li, Li Pan, Xifan Zhang, Heming Fu, Sitong
+    Cheng, Xinyan Wang, Shihua Cao, Jiang Xin, Hazel Mok, Zhenyu Yan, Doris Sau-Fung
+    Yu, Timothy Kwok, Guoliang Xing
+  title: 'ADMarker: A Multi-Modal Federated Learning System for Monitoring Digital
+    Biomarkers of Alzheimer&apos;s Disease.'
+  venue: MobiCom
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/OuyangSLPZFCWCX24
+  doi: 10.1145/3636534.3649370
+  ee: https://doi.org/10.1145/3636534.3649370
+  url: https://dblp.org/rec/conf/mobicom/OuyangSLPZFCWCX24
 federate%20venue%3ANSDI%3A:
 - author: Junxue Zhang 0001, Xiaodian Cheng, Wei Wang, Liu Yang, Jinbin Hu, Kai Chen
     0005

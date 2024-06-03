@@ -21652,6 +21652,27 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3241965
   ee: https://doi.org/10.1109/TPDS.2023.3241965
   url: https://dblp.org/rec/journals/tpds/ChenXWLLCZ24
+- author: Linsi Lan, Junbo Wang 0001, Zhi Li, Krishna Kant 0001, Wanquan Liu
+  title: 'FedREM: Guided Federated Learning in the Presence of Dynamic Device Unpredictability.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LanWLKL24
+  doi: 10.1109/TPDS.2024.3396133
+  ee: https://doi.org/10.1109/TPDS.2024.3396133
+  url: https://dblp.org/rec/journals/tpds/LanWLKL24
+- author: Rahul Mishra 0001, Hari Prabhat Gupta, Garvit Banga, Sajal K. Das 0001
+  title: 'Fed-RAC: Resource-Aware Clustering for Tackling Heterogeneity of Participants
+    in Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/MishraGBD24
+  doi: 10.1109/TPDS.2024.3379933
+  ee: https://doi.org/10.1109/TPDS.2024.3379933
+  url: https://dblp.org/rec/journals/tpds/MishraGBD24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

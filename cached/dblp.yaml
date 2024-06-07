@@ -19728,6 +19728,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645525
   ee: https://doi.org/10.1145/3589334.3645525
   url: https://dblp.org/rec/conf/www/ZhangL00YY24
+- author: Rui Zhang, Song Guo 0001, Ping Li 0016
+  title: 'GradFilt: Class-wise Targeted Data Reconstruction from Gradients in Federated
+    Learning.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangGL24
+  doi: 10.1145/3589335.3651514
+  ee: https://doi.org/10.1145/3589335.3651514
+  url: https://dblp.org/rec/conf/www/ZhangGL24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -22131,6 +22142,17 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2023.3332841
   ee: https://doi.org/10.1109/TCAD.2023.3332841
   url: https://dblp.org/rec/journals/tcad/PanLXCZ24
+- author: Jing Cao, Ran Wei, Qianyue Cao, Yongchun Zheng, Zongwei Zhu, Cheng Ji, Xuehai
+    Zhou
+  title: 'FedStar: Efficient Federated Learning on Heterogeneous Communication Networks.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/CaoWCZZJZ24
+  doi: 10.1109/TCAD.2023.3346274
+  ee: https://doi.org/10.1109/TCAD.2023.3346274
+  url: https://dblp.org/rec/journals/tcad/CaoWCZZJZ24
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

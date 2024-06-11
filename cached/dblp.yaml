@@ -22725,6 +22725,16 @@ federate%20streamid%3Aconf%2Ficse%3A:
   doi: 10.1145/3639478.3643533
   ee: https://doi.org/10.1145/3639478.3643533
   url: https://dblp.org/rec/conf/icse/CaiCCWZO24
+- author: Rustem Dautov, Erik Johannes Husom
+  title: Raft Protocol for Fault Tolerance and Self-Recovery in Federated Learning.
+  venue: SEAMS@ICSE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/seams/DautovH24
+  doi: 10.1145/3643915.3644093
+  ee: https://doi.org/10.1145/3643915.3644093
+  url: https://dblp.org/rec/conf/seams/DautovH24
 federate%20streamid%3Ajournals%2Ffocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

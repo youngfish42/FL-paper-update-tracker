@@ -22735,6 +22735,18 @@ federate%20streamid%3Aconf%2Ficse%3A:
   doi: 10.1145/3643915.3644093
   ee: https://doi.org/10.1145/3643915.3644093
   url: https://dblp.org/rec/conf/seams/DautovH24
+- author: Zeju Cai, Jianguo Chen 0001, Wenqing Chen, Weicheng Wang, Xiangyuan Zhu,
+    Aijia Ouyang
+  title: 'F-CodeLLM: A Federated Learning Framework for Adapting Large Language Models
+    to Practical Software Development.'
+  venue: ICSE Companion
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/CaiCCWZO24
+  doi: 10.1145/3639478.3643533
+  ee: https://doi.org/10.1145/3639478.3643533
+  url: https://dblp.org/rec/conf/icse/CaiCCWZO24
 federate%20streamid%3Ajournals%2Ffocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

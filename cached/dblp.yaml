@@ -19739,6 +19739,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589335.3651514
   ee: https://doi.org/10.1145/3589335.3651514
   url: https://dblp.org/rec/conf/www/ZhangGL24
+- author: Bo Yan 0005, Yang Cao 0011, Haoyu Wang, Wenchuan Yang, Junping Du, Chuan
+    Shi
+  title: Federated Heterogeneous Graph Neural Network for Privacy-preserving Recommendation.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YanCWYDS24
+  doi: 10.1145/3589334.3645693
+  ee: https://doi.org/10.1145/3589334.3645693
+  url: https://dblp.org/rec/conf/www/YanCWYDS24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

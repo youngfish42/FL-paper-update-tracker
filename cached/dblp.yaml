@@ -19761,6 +19761,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645693
   ee: https://doi.org/10.1145/3589334.3645693
   url: https://dblp.org/rec/conf/www/YanCWYDS24
+- author: Nan Wu, Xin Yuan, Shuo Wang 0012, Hongsheng Hu, Minhui Xue
+  title: 'Cardinality Counting in &quot;Alcatraz&quot;: A Privacy-aware Federated
+    Learning Approach.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WuYWHX24
+  doi: 10.1145/3589334.3645655
+  ee: https://doi.org/10.1145/3589334.3645655
+  url: https://dblp.org/rec/conf/www/WuYWHX24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

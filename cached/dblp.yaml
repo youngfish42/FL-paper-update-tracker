@@ -7549,6 +7549,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/fef126561bbf9d4467dbb8d27334b8fe-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SunST23
+- author: Dong Qiao, Chris Ding, Jicong Fan 0001
+  title: Federated Spectral Clustering via Secure Similarity Reconstruction.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/QiaoDF23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/b6cd2650926d332c86a84c48529cc421-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/QiaoDF23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -18273,6 +18283,16 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10228895
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10228895
   url: https://dblp.org/rec/conf/infocom/LiPZHGYL23
+- author: Haozhao Wang, Wenchao Xu 0001, Yunfeng Fan, Ruixuan Li 0001, Pan Zhou 0001
+  title: 'AOCC-FL: Federated Learning with Aligned Overlapping via Calibrated Compensation.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WangXFLZ23
+  doi: 10.1109/INFOCOM53939.2023.10229011
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10229011
+  url: https://dblp.org/rec/conf/infocom/WangXFLZ23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -21730,6 +21750,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3379933
   ee: https://doi.org/10.1109/TPDS.2024.3379933
   url: https://dblp.org/rec/journals/tpds/MishraGBD24
+- author: Zichuan Xu, Dapeng Zhao, Weifa Liang, Omer F. Rana, Pan Zhou 0001, Mingchu
+    Li, Wenzheng Xu, Hao Li, Qiufen Xia
+  title: 'HierFedML: Aggregator Placement and UE Assignment for Hierarchical Federated
+    Learning in Mobile Edge Computing.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/XuZLRZLXLX23
+  doi: 10.1109/TPDS.2022.3218807
+  ee: https://doi.org/10.1109/TPDS.2022.3218807
+  url: https://dblp.org/rec/journals/tpds/XuZLRZLXLX23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -22552,6 +22584,18 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3315066
   ee: https://doi.org/10.1109/TC.2023.3315066
   url: https://dblp.org/rec/journals/tc/YaoPDWDYJXS24
+- author: Zichuan Xu, Lin Wang, Weifa Liang, Qiufen Xia, Wenzheng Xu, Pan Zhou 0001,
+    Omer F. Rana
+  title: Age-Aware Data Selection and Aggregator Placement for Timely Federated Continual
+    Learning in Mobile Edge Computing.
+  venue: IEEE Trans. Computers
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/XuWLXXZR24
+  doi: 10.1109/TC.2023.3333213
+  ee: https://doi.org/10.1109/TC.2023.3333213
+  url: https://dblp.org/rec/journals/tc/XuWLXXZR24
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

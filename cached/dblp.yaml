@@ -4328,6 +4328,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I13.29416
   ee: https://doi.org/10.1609/aaai.v38i13.29416
   url: https://dblp.org/rec/conf/aaai/ShiZYLXQ24
+- author: Yang Lu 0009, Lin Chen, Yonggang Zhang, Yiliang Zhang, Bo Han 0003, Yiu-ming
+    Cheung, Hanzi Wang
+  title: Federated Learning with Extremely Noisy Clients via Negative Distillation.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LuCZZHCW24
+  doi: 10.1609/AAAI.V38I13.29329
+  ee: https://doi.org/10.1609/aaai.v38i13.29329
+  url: https://dblp.org/rec/conf/aaai/LuCZZHCW24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -13671,6 +13682,16 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.01775
   ee: https://doi.org/10.1109/ICCV51070.2023.01775
   url: https://dblp.org/rec/conf/iccv/WuLNZ023
+- author: Yaopei Zeng, Lei Liu, Li Liu, Li Shen 0008, Shaoguo Liu, Baoyuan Wu
+  title: Global Balanced Experts for Federated Long-Tailed Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZengLLSLW23
+  doi: 10.1109/ICCV51070.2023.00444
+  ee: https://doi.org/10.1109/ICCV51070.2023.00444
+  url: https://dblp.org/rec/conf/iccv/ZengLLSLW23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

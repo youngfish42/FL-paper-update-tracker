@@ -7570,6 +7570,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/b6cd2650926d332c86a84c48529cc421-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/QiaoDF23
+- author: Kunjal Panchal, Sunav Choudhary, Nisarg Parikh, Lijun Zhang, Hui Guan 0001
+  title: 'Flow: Per-instance Personalized Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/PanchalCPZG23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/3baf4eeffad860ca9c54aeab632716b4-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/PanchalCPZG23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -9478,6 +9488,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/zhu22e.html
   url: https://dblp.org/rec/conf/icml/ZhuHDZ22
+- author: Kunjal Panchal, Sunav Choudhary, Subrata Mitra, Koyel Mukherjee, Somdeb
+    Sarkhel, Saayan Mitra, Hui Guan 0001
+  title: 'Flash: Concept Drift Adaptation in Federated Learning.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/PanchalCMMSMG23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/panchal23a.html
+  url: https://dblp.org/rec/conf/icml/PanchalCMMSMG23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

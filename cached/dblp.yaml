@@ -10615,6 +10615,16 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v216/ma23b.html
   url: https://dblp.org/rec/conf/uai/MaHC23
+- author: Md. Ibrahim Ibne Alam, Koushik Kar, Theodoros Salonidis, Horst Samulowitz
+  title: 'FLASH: Automating federated learning using CASH.'
+  venue: UAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/AlamKSS23
+  doi: ''
+  ee: https://proceedings.mlr.press/v216/alam23a.html
+  url: https://dblp.org/rec/conf/uai/AlamKSS23
 federate%20streamid%3Ajournals%2Fml%3A:
 - author: Adnan Ahmad, Wei Luo 0001, Antonio Robles-Kelly
   title: Robust federated learning under statistical heterogeneity via hessian-weighted
@@ -21804,6 +21814,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2022.3218807
   ee: https://doi.org/10.1109/TPDS.2022.3218807
   url: https://dblp.org/rec/journals/tpds/XuZLRZLXLX23
+- author: Yiming Zeng 0001, Yixuan Lin, Yuanyuan Yang 0001, Ji Liu 0001
+  title: Differentially Private Federated Temporal Difference Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZengLYL22
+  doi: 10.1109/TPDS.2021.3133898
+  ee: https://doi.org/10.1109/TPDS.2021.3133898
+  url: https://dblp.org/rec/journals/tpds/ZengLYL22
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

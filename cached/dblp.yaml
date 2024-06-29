@@ -838,6 +838,18 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2023/772
   ee: https://doi.org/10.24963/ijcai.2023/772
   url: https://dblp.org/rec/conf/ijcai/Ciucanu0MS23
+- author: Austine Zong Han Yapp, Hong Soo Nicholas Koh, Yan Ting Lai, Jiawen Kang
+    0001, Xuandi Li, Jer Shyuan Ng, Hongchao Jiang, Wei Yang Bryan Lim, Zehui Xiong,
+    Dusit Niyato
+  title: Communication-efficient and Scalable Decentralized Federated Edge Learning.
+  venue: IJCAI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/YappKLKLNJLXN21
+  doi: 10.24963/IJCAI.2021/720
+  ee: https://doi.org/10.24963/ijcai.2021/720
+  url: https://dblp.org/rec/conf/ijcai/YappKLKLNJLXN21
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -4339,6 +4351,28 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I13.29329
   ee: https://doi.org/10.1609/aaai.v38i13.29329
   url: https://dblp.org/rec/conf/aaai/LuCZZHCW24
+- author: Jinqian Chen, Jihua Zhu, Qinghai Zheng, Zhongyu Li 0002, Zhiqiang Tian
+  title: 'Watch Your Head: Assembling Projection Heads to Save the Reliability of
+    Federated Models.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ChenZZLT24
+  doi: 10.1609/AAAI.V38I10.29012
+  ee: https://doi.org/10.1609/aaai.v38i10.29012
+  url: https://dblp.org/rec/conf/aaai/ChenZZLT24
+- author: Daifei Feng, Cicilia Helena, Wei Yang Bryan Lim, Jer Shyuan Ng, Hongchao
+    Jiang, Zehui Xiong, Jiawen Kang 0001, Han Yu 0001, Dusit Niyato, Chunyan Miao
+  title: 'CrowdFL: A Marketplace for Crowdsourced Federated Learning.'
+  venue: AAAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/FengHLNJXKYNM22
+  doi: 10.1609/AAAI.V36I11.21715
+  ee: https://doi.org/10.1609/aaai.v36i11.21715
+  url: https://dblp.org/rec/conf/aaai/FengHLNJXKYNM22
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -18345,6 +18379,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10229011
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10229011
   url: https://dblp.org/rec/conf/infocom/WangXFLZ23
+- author: Peichun Li, Guoliang Cheng, Xumin Huang, Jiawen Kang 0001, Rong Yu, Yuan
+    Wu 0001, Miao Pan
+  title: 'AnycostFL: Efficient On-Demand Federated Learning over Heterogeneous Edge
+    Devices.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiCHKYWP23
+  doi: 10.1109/INFOCOM53939.2023.10229017
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10229017
+  url: https://dblp.org/rec/conf/infocom/LiCHKYWP23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -19855,6 +19901,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645655
   ee: https://doi.org/10.1145/3589334.3645655
   url: https://dblp.org/rec/conf/www/WuYWHX24
+- author: Yijing Lin, Zhipeng Gao, Hongyang Du, Dusit Niyato, Jiawen Kang 0001, Xiaoyuan
+    Liu 0002
+  title: Incentive and Dynamic Client Selection for Federated Unlearning.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LinGDNK024
+  doi: 10.1145/3589334.3645462
+  ee: https://doi.org/10.1145/3589334.3645462
+  url: https://dblp.org/rec/conf/www/LinGDNK024
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -20418,6 +20475,49 @@ federate%20venue%3AMLSys%3A:
   doi: ''
   ee: https://proceedings.mlsys.org/paper_files/paper/2019/hash/7b770da633baf74895be22a8807f1a8f-Abstract.html
   url: https://dblp.org/rec/conf/mlsys/BonawitzEGHIIKK19
+- author: "Shiqi He, Qifan Yan, Feijie Wu, Lanjun Wang, Mathias L\xE9cuyer, Ivan Beschastnikh"
+  title: 'GlueFL: Reconciling Client Sampling and Model Masking for Bandwidth Efficient
+    Federated Learning.'
+  venue: MLSys
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/HeYWWLB23
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2023/hash/da5efc7c4014940f21bcb7fdfd4efab1-Abstract-mlsys2023.html
+  url: https://dblp.org/rec/conf/mlsys/HeYWWLB23
+- author: Kevin Kuo, Pratiksha Thaker, Mikhail Khodak, John Nguyen, Daniel Jiang,
+    Ameet Talwalkar, Virginia Smith
+  title: On Noisy Evaluation in Federated Hyperparameter Tuning.
+  venue: MLSys
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/KuoTKNJTS23
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2023/hash/3796d87d44d7ee1d9fa2dc38377afa75-Abstract-mlsys2023.html
+  url: https://dblp.org/rec/conf/mlsys/KuoTKNJTS23
+- author: Qinbin Li, Zhaomin Wu, Yanzheng Cai, Yuxuan Han, Ching Man Yung, Tianyuan
+    Fu, Bingsheng He
+  title: 'FedTree: A Federated Learning System For Trees.'
+  venue: MLSys
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/LiWCHYFH23
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2023/hash/3430e7055936cb8e26451ed49fce84a6-Abstract-mlsys2023.html
+  url: https://dblp.org/rec/conf/mlsys/LiWCHYFH23
+- author: Ewen Wang, Boyi Chen, Mosharaf Chowdhury, Ajay Kannan, Franco Liang
+  title: 'FLINT: A Platform for Federated Learning Integration.'
+  venue: MLSys
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/WangCCKL23
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2023/hash/0a1603bfce9502551ad89906515b5941-Abstract-mlsys2023.html
+  url: https://dblp.org/rec/conf/mlsys/WangCCKL23
 federate%20streamid%3Aconf%2Feurosys%3A:
 - author: Ahmed M. Abdelmoniem, Atal Narayan Sahu, Marco Canini, Suhaib A. Fahmy
   title: 'REFL: Resource-Efficient Federated Learning.'

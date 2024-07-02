@@ -20518,6 +20518,38 @@ federate%20venue%3AMLSys%3A:
   doi: ''
   ee: https://proceedings.mlsys.org/paper_files/paper/2023/hash/0a1603bfce9502551ad89906515b5941-Abstract-mlsys2023.html
   url: https://dblp.org/rec/conf/mlsys/WangCCKL23
+- author: Gyudong Kim, Mehdi Ghasemi 0003, Soroush Heidari, Seungryong Kim, Young
+    Geun Kim, Sarma B. K. Vrudhula, Carole-Jean Wu
+  title: 'HeteroSwitch: Characterizing and Taming System-Induced Data Heterogeneity
+    in Federated Learning.'
+  venue: MLSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/Kim0HKKVW24
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2024/hash/0badcb4e95306df76a719409155e46e8-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/mlsys/Kim0HKKVW24
+- author: Shixiong Qi, K. K. Ramakrishnan, Myungjin Lee
+  title: 'LIFL: A Lightweight, Event-driven Serverless Platform for Federated Learning.'
+  venue: MLSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/QiRL24
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2024/hash/c2a0e26dd9ee7d57e92bb1c24b39659a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/mlsys/QiRL24
+- author: Yuxuan Zhu, Jiachen Liu, Mosharaf Chowdhury, Fan Lai
+  title: 'FedTrans: Efficient Federated Learning via Multi-Model Transformation.'
+  venue: MLSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/ZhuLCL24
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2024/hash/bbd7d8bd780fcf7143add2317ba04638-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/mlsys/ZhuLCL24
 federate%20streamid%3Aconf%2Feurosys%3A:
 - author: Ahmed M. Abdelmoniem, Atal Narayan Sahu, Marco Canini, Suhaib A. Fahmy
   title: 'REFL: Resource-Efficient Federated Learning.'

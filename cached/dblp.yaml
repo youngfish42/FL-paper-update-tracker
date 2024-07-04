@@ -4373,6 +4373,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V36I11.21715
   ee: https://doi.org/10.1609/aaai.v36i11.21715
   url: https://dblp.org/rec/conf/aaai/FengHLNJXKYNM22
+- author: Bao Li, Zhenyu Liu, Lizhi Shao, Bensheng Qiu, Hong Bu, Jie Tian 0001
+  title: Point Transformer with Federated Learning for Predicting Breast Cancer HER2
+    Status from Hematoxylin and Eosin-Stained Whole Slide Images.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiLSQBT24
+  doi: 10.1609/AAAI.V38I4.28082
+  ee: https://doi.org/10.1609/aaai.v38i4.28082
+  url: https://dblp.org/rec/conf/aaai/LiLSQBT24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -7614,6 +7625,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/3baf4eeffad860ca9c54aeab632716b4-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/PanchalCPZG23
+- author: Guangchen Lan, Han Wang, James Anderson 0001, Christopher G. Brinton, Vaneet
+    Aggarwal
+  title: Improved Communication Efficiency in Federated Natural Policy Gradient via
+    ADMM-based Gradient Updates.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LanWABA23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/bc6a1f968f8b1dae3e880f3f723d7d46-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LanWABA23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

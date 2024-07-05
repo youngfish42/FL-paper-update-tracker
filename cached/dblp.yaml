@@ -7637,6 +7637,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/bc6a1f968f8b1dae3e880f3f723d7d46-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LanWABA23
+- author: Guangchen Lan, Han Wang 0016, James Anderson 0001, Christopher G. Brinton,
+    Vaneet Aggarwal
+  title: Improved Communication Efficiency in Federated Natural Policy Gradient via
+    ADMM-based Gradient Updates.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LanWABA23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/bc6a1f968f8b1dae3e880f3f723d7d46-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LanWABA23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

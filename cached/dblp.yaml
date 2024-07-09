@@ -16311,6 +16311,17 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/3650203.3663331
   ee: https://doi.org/10.1145/3650203.3663331
   url: https://dblp.org/rec/conf/deem/WoisetschlagerE24
+- author: Anran Li, Yuanyuan Chen, Jian Zhang, Mingfei Cheng, Yihao Huang 0001, Yueming
+    Wu, Anh Tuan Luu, Han Yu 0001
+  title: Historical Embedding-Guided Efficient Large-Scale Federated Graph Learning.
+  venue: Proc. ACM Manag. Data
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/LiCZC0WL024
+  doi: 10.1145/3654947
+  ee: https://doi.org/10.1145/3654947
+  url: https://dblp.org/rec/journals/pacmmod/LiCZC0WL024
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous
@@ -22002,6 +22013,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2021.3133898
   ee: https://doi.org/10.1109/TPDS.2021.3133898
   url: https://dblp.org/rec/journals/tpds/ZengLYL22
+- author: Yu Zhang 0184, Duo Liu, Moming Duan, Li Li, Xianzhang Chen, Ao Ren, Yujuan
+    Tan, Chengliang Wang
+  title: 'FedMDS: An Efficient Model Discrepancy-Aware Semi-Asynchronous Clustered
+    Federated Learning Framework.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhangLDLCRTW23
+  doi: 10.1109/TPDS.2023.3237752
+  ee: https://doi.org/10.1109/TPDS.2023.3237752
+  url: https://dblp.org/rec/journals/tpds/ZhangLDLCRTW23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

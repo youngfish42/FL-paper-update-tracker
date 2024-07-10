@@ -4384,6 +4384,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I4.28082
   ee: https://doi.org/10.1609/aaai.v38i4.28082
   url: https://dblp.org/rec/conf/aaai/LiLSQBT24
+- author: Fenglin Liu, Xian Wu 0001, Shen Ge, Wei Fan 0001, Yuexian Zou
+  title: Federated Learning for Vision-and-Language Grounding Problems.
+  venue: AAAI
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuWGFZ20
+  doi: 10.1609/AAAI.V34I07.6824
+  ee: https://doi.org/10.1609/aaai.v34i07.6824
+  url: https://dblp.org/rec/conf/aaai/LiuWGFZ20
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

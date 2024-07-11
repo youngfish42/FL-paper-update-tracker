@@ -11669,6 +11669,28 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3580305.3599443
   ee: https://doi.org/10.1145/3580305.3599443
   url: https://dblp.org/rec/conf/kdd/Zhang00HGS23
+- author: Ruixuan Liu, Yang Cao 0011, Yanlin Wang 0001, Lingjuan Lyu, Yun Chen 0007,
+    Hong Chen 0001
+  title: 'PrivateRec: Differentially Private Model Training and Online Serving for
+    Federated News Recommendation.'
+  venue: KDD
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/LiuCWLCC23
+  doi: 10.1145/3580305.3599889
+  ee: https://doi.org/10.1145/3580305.3599889
+  url: https://dblp.org/rec/conf/kdd/LiuCWLCC23
+- author: Qian Yang 0003, Jianyi Zhang, Weituo Hao, Gregory P. Spell, Lawrence Carin
+  title: 'FLOP: Federated Learning on Medical Datasets using Partial Networks.'
+  venue: KDD
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/YangZHSC21
+  doi: 10.1145/3447548.3467185
+  ee: https://doi.org/10.1145/3447548.3467185
+  url: https://dblp.org/rec/conf/kdd/YangZHSC21
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.

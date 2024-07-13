@@ -16040,6 +16040,52 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3404835.3462989
   ee: https://doi.org/10.1145/3404835.3462989
   url: https://dblp.org/rec/conf/sigir/ZongXZWZ021
+- author: Wenjie Li 0008, Zhongren Wang, Jinpeng Wang, Shutao Xia, Jile Zhu, Mingjian
+    Chen, Jiangke Fan, Jia Cheng, Jun Lei
+  title: 'ReFer: Retrieval-Enhanced Vertical Federated Recommendation for Full Set
+    User Benefit.'
+  venue: SIGIR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/0008WWXZCFCL24
+  doi: 10.1145/3626772.3657763
+  ee: https://doi.org/10.1145/3626772.3657763
+  url: https://dblp.org/rec/conf/sigir/0008WWXZCFCL24
+- author: Wentao Ouyang, Rui Dong, Ri Tao, Xiangzheng Liu
+  title: 'FedUD: Exploiting Unaligned Data for Cross-Platform Federated Click-Through
+    Rate Prediction.'
+  venue: SIGIR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/OuyangDTL24
+  doi: 10.1145/3626772.3657941
+  ee: https://doi.org/10.1145/3626772.3657941
+  url: https://dblp.org/rec/conf/sigir/OuyangDTL24
+- author: Jiajie Su, Chaochao Chen, Weiming Liu 0005, Zibin Lin, Shuheng Shen, Weiqiang
+    Wang, Xiaolin Zheng
+  title: 'Revisit Targeted Model Poisoning on Federated Recommendation: Optimize via
+    Multi-objective Transport.'
+  venue: SIGIR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/SuC0LSWZ24
+  doi: 10.1145/3626772.3657764
+  ee: https://doi.org/10.1145/3626772.3657764
+  url: https://dblp.org/rec/conf/sigir/SuC0LSWZ24
+- author: Shuai Wang, Ekaterina Khramtsova, Shengyao Zhuang, Guido Zuccon
+  title: 'FeB4RAG: Evaluating Federated Search in the Context of Retrieval Augmented
+    Generation.'
+  venue: SIGIR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/WangKZZ24
+  doi: 10.1145/3626772.3657853
+  ee: https://doi.org/10.1145/3626772.3657853
+  url: https://dblp.org/rec/conf/sigir/WangKZZ24
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for

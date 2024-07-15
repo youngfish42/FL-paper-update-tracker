@@ -13197,6 +13197,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.02020
   ee: https://doi.org/10.1109/CVPR52688.2022.02020
   url: https://dblp.org/rec/conf/cvpr/Xu0GYRHZXH022
+- author: Pengfei Guo, Puyang Wang, Jinyuan Zhou, Shanshan Jiang, Vishal M. Patel
+  title: Multi-Institutional Collaborations for Improving Deep Learning-Based Magnetic
+    Resonance Image Reconstruction Using Federated Learning.
+  venue: CVPR
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/GuoWZJP21
+  doi: 10.1109/CVPR46437.2021.00245
+  ee: https://openaccess.thecvf.com/content/CVPR2021/html/Guo_Multi-Institutional_Collaborations_for_Improving_Deep_Learning-Based_Magnetic_Resonance_Image_Reconstruction_CVPR_2021_paper.html
+  url: https://dblp.org/rec/conf/cvpr/GuoWZJP21
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -14090,6 +14101,20 @@ federate%20venue%3AECCV%3A:
     Li 0001, Can Zhao 0001, Daguang Xu, Stephanie A. Harmon, Evrim Turkbey, Baris
     Turkbey, Bradford J. Wood, Francesca Patella, Elvira Stellato, Gianpaolo Carrafiello,
     Vishal M. Patel 0001, Holger R. Roth
+  title: 'Auto-FedRL: Federated Hyperparameter Optimization for Multi-institutional
+    Medical Image Segmentation.'
+  venue: ECCV
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/GuoYHXXLZXHTTWP22
+  doi: 10.1007/978-3-031-19803-8_26
+  ee: https://doi.org/10.1007/978-3-031-19803-8_26
+  url: https://dblp.org/rec/conf/eccv/GuoYHXXLZXHTTWP22
+- author: Pengfei Guo, Dong Yang 0005, Ali Hatamizadeh, An Xu, Ziyue Xu 0001, Wenqi
+    Li 0001, Can Zhao 0001, Daguang Xu, Stephanie A. Harmon, Evrim Turkbey, Baris
+    Turkbey, Bradford J. Wood, Francesca Patella, Elvira Stellato, Gianpaolo Carrafiello,
+    Vishal M. Patel, Holger R. Roth
   title: 'Auto-FedRL: Federated Hyperparameter Optimization for Multi-institutional
     Medical Image Segmentation.'
   venue: ECCV

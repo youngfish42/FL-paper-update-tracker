@@ -4394,6 +4394,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V34I07.6824
   ee: https://doi.org/10.1609/aaai.v34i07.6824
   url: https://dblp.org/rec/conf/aaai/LiuWGFZ20
+- author: Dezhi Yang, Xintong He, Jun Wang 0035, Guoxian Yu, Carlotta Domeniconi,
+    Jinglin Zhang
+  title: Federated Causality Learning with Explainable Adaptive Optimization.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YangHWYDZ24
+  doi: 10.1609/AAAI.V38I15.29566
+  ee: https://doi.org/10.1609/aaai.v38i15.29566
+  url: https://dblp.org/rec/conf/aaai/YangHWYDZ24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -7659,6 +7670,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/bc6a1f968f8b1dae3e880f3f723d7d46-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LanWABA23
+- author: Haibo Yang 0001, Zhuqing Liu, Jia Liu 0002, Chaosheng Dong, Michinari Momma
+  title: Federated Multi-Objective Learning.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/0001LLDM23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/7cb2c2a8d35576c00078b6591ec26a7d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/0001LLDM23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -13208,6 +13229,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR46437.2021.00245
   ee: https://openaccess.thecvf.com/content/CVPR2021/html/Guo_Multi-Institutional_Collaborations_for_Improving_Deep_Learning-Based_Magnetic_Resonance_Image_Reconstruction_CVPR_2021_paper.html
   url: https://dblp.org/rec/conf/cvpr/GuoWZJP21
+- author: Lin Zhang 0014, Li Shen 0008, Liang Ding 0006, Dacheng Tao, Ling-Yu Duan
+  title: Fine-tuning Global Model via Data-Free Knowledge Distillation for Non-IID
+    Federated Learning.
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ZhangS0TD22
+  doi: 10.1109/CVPR52688.2022.00993
+  ee: https://doi.org/10.1109/CVPR52688.2022.00993
+  url: https://dblp.org/rec/conf/cvpr/ZhangS0TD22
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -20061,6 +20093,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645462
   ee: https://doi.org/10.1145/3589334.3645462
   url: https://dblp.org/rec/conf/www/LinGDNK024
+- author: Rui Zhang 0080, Song Guo 0001, Ping Li 0016
+  title: 'GradFilt: Class-wise Targeted Data Reconstruction from Gradients in Federated
+    Learning.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangGL24
+  doi: 10.1145/3589335.3651514
+  ee: https://doi.org/10.1145/3589335.3651514
+  url: https://dblp.org/rec/conf/www/ZhangGL24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

@@ -13867,6 +13867,16 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00444
   ee: https://doi.org/10.1109/ICCV51070.2023.00444
   url: https://dblp.org/rec/conf/iccv/ZengLLSLW23
+- author: Chen Yang, Meilu Zhu, Yifan Liu 0010, Yixuan Yuan
+  title: 'FedPD: Federated Open Set Recognition with Parameter Disentanglement.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/YangZLY23
+  doi: 10.1109/ICCV51070.2023.00450
+  ee: https://doi.org/10.1109/ICCV51070.2023.00450
+  url: https://dblp.org/rec/conf/iccv/YangZLY23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -14989,6 +14999,18 @@ federate%20venue%3AACL%3A:
   doi: 10.18653/V1/2023.FINDINGS-ACL.470
   ee: https://doi.org/10.18653/v1/2023.findings-acl.470
   url: https://dblp.org/rec/conf/acl/Wang0WZKZMH23
+- author: Zhuo Zhang, Yuanhang Yang, Yong Dai, Qifan Wang, Yue Yu 0001, Lizhen Qu,
+    Zenglin Xu
+  title: 'FedPETuning: When Federated Learning Meets the Parameter-Efficient Tuning
+    Methods of Pre-trained Language Models.'
+  venue: ACL
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/ZhangYDWYQX23
+  doi: 10.18653/V1/2023.FINDINGS-ACL.632
+  ee: https://doi.org/10.18653/v1/2023.findings-acl.632
+  url: https://dblp.org/rec/conf/acl/ZhangYDWYQX23
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"

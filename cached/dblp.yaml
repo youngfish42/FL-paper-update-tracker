@@ -7680,6 +7680,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/7cb2c2a8d35576c00078b6591ec26a7d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/0001LLDM23
+- author: Ganyu Wang, Bin Gu 0001, Qingsong Zhang, Xiang Li 0012, Boyu Wang 0004,
+    Charles X. Ling
+  title: A Unified Solution for Privacy and Communication Efficiency in Vertical Federated
+    Learning.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/Wang0ZLWL23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/2b5af479527167d4af78847a9b9b645f-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Wang0ZLWL23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -10473,6 +10485,18 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/pdf?id=TDf-XFAwc79
   url: https://dblp.org/rec/conf/iclr/LiuYZ23
+- author: Nan Lu, Zhao Wang 0006, Xiaoxiao Li, Gang Niu 0001, Qi Dou 0001, Masashi
+    Sugiyama
+  title: Federated Learning from Only Unlabeled Data with Class-conditional-sharing
+    Clients.
+  venue: ICLR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LuWL0DS22
+  doi: ''
+  ee: https://openreview.net/forum?id=WHA8009laxu
+  url: https://dblp.org/rec/conf/iclr/LuWL0DS22
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -12065,6 +12089,28 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SPW53761.2021.00017
   ee: https://doi.org/10.1109/SPW53761.2021.00017
   url: https://dblp.org/rec/conf/sp/FereidooniMMMMN21
+- author: Thirasara Ariyarathna, Salil S. Kanhere, Hye-Young Paik
+  title: 'Poster: Towards Privacy-Preserving Federated Recommendation via Synthetic
+    Interactions.'
+  venue: SP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/AriyarathnaKP24
+  doi: 10.1109/SPW63631.2024.00037
+  ee: https://doi.org/10.1109/SPW63631.2024.00037
+  url: https://dblp.org/rec/conf/sp/AriyarathnaKP24
+- author: Bruno Casella, Iacopo Colonnelli, Gianluca Mittone, Robert Birke, Walter
+    Riviera, Antonio Sciarappa, Carlo Cavazzoni, Marco Aldinucci
+  title: A Performance Analysis for Confidential Federated Learning.
+  venue: SP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/CasellaCMBRSCA24
+  doi: 10.1109/SPW63631.2024.00009
+  ee: https://doi.org/10.1109/SPW63631.2024.00009
+  url: https://dblp.org/rec/conf/sp/CasellaCMBRSCA24
 federate%20venue%3ACCS%3A:
 - author: Amrita Roy Chowdhury 0001, Chuan Guo, Somesh Jha, Laurens van der Maaten
   title: 'EIFFeL: Ensuring Integrity for Federated Learning.'

@@ -4405,6 +4405,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I15.29566
   ee: https://doi.org/10.1609/aaai.v38i15.29566
   url: https://dblp.org/rec/conf/aaai/YangHWYDZ24
+- author: Xianjie Guo, Kui Yu, Lin Liu 0003, Jiuyong Li
+  title: 'FedCSL: A Scalable and Accurate Approach to Federated Causal Structure Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/GuoYLL24
+  doi: 10.1609/AAAI.V38I11.29113
+  ee: https://doi.org/10.1609/aaai.v38i11.29113
+  url: https://dblp.org/rec/conf/aaai/GuoYLL24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -9632,6 +9642,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/zhang22o.html
   url: https://dblp.org/rec/conf/icml/ZhangLLGS22
+- author: Jie Zhang 0076, Xiaosong Ma, Song Guo 0001, Wenchao Xu 0001
+  title: Towards Unbiased Training in Federated Open-world Semi-supervised Learning.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ZhangMG023
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/zhang23af.html
+  url: https://dblp.org/rec/conf/icml/ZhangMG023
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -13965,6 +13985,29 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00450
   ee: https://doi.org/10.1109/ICCV51070.2023.00450
   url: https://dblp.org/rec/conf/iccv/YangZLY23
+- author: Jianqing Zhang, Yang Hua, Hao Wang 0022, Tao Song, Zhengui Xue, Ruhui Ma,
+    Jian Cao, Haibing Guan
+  title: 'GPFL: Simultaneously Learning Global and Personalized Feature Information
+    for Personalized Federated Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZhangHWSXMCG23
+  doi: 10.1109/ICCV51070.2023.00465
+  ee: https://doi.org/10.1109/ICCV51070.2023.00465
+  url: https://dblp.org/rec/conf/iccv/ZhangHWSXMCG23
+- author: Lin Zhang 0014, Yong Luo 0002, Yan Bai, Bo Du 0001, Ling-Yu Duan
+  title: Federated Learning for Non-IID Data via Unified Feature Learning and Optimization
+    Objective Alignment.
+  venue: ICCV
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/Zhang0BDD21
+  doi: 10.1109/ICCV48922.2021.00438
+  ee: https://doi.org/10.1109/ICCV48922.2021.00438
+  url: https://dblp.org/rec/conf/iccv/Zhang0BDD21
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

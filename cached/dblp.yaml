@@ -4415,6 +4415,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I11.29113
   ee: https://doi.org/10.1609/aaai.v38i11.29113
   url: https://dblp.org/rec/conf/aaai/GuoYLL24
+- author: Hantao Yang, Xutong Liu 0002, Zhiyong Wang, Hong Xie 0004, John C. S. Lui,
+    Defu Lian, Enhong Chen
+  title: Federated Contextual Cascading Bandits with Asynchronous Communication and
+    Heterogeneous Users.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YangLW0LLC24
+  doi: 10.1609/AAAI.V38I18.30045
+  ee: https://doi.org/10.1609/aaai.v38i18.30045
+  url: https://dblp.org/rec/conf/aaai/YangLW0LLC24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -19005,6 +19017,19 @@ federate%20venue%3AMobiCom%3A:
 - author: Xiaomin Ouyang, Xian Shuai, Yang Li, Li Pan, Xifan Zhang, Heming Fu, Sitong
     Cheng, Xinyan Wang, Shihua Cao, Jiang Xin, Hazel Mok, Zhenyu Yan 0002, Doris Sau-Fung
     Yu, Timothy Kwok, Guoliang Xing
+  title: 'ADMarker: A Multi-Modal Federated Learning System for Monitoring Digital
+    Biomarkers of Alzheimer&apos;s Disease.'
+  venue: MobiCom
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/OuyangSLPZFCWCX24
+  doi: 10.1145/3636534.3649370
+  ee: https://doi.org/10.1145/3636534.3649370
+  url: https://dblp.org/rec/conf/mobicom/OuyangSLPZFCWCX24
+- author: Xiaomin Ouyang, Xian Shuai, Yang Li 0147, Li Pan, Xifan Zhang, Heming Fu,
+    Sitong Cheng, Xinyan Wang, Shihua Cao, Jiang Xin, Hazel Mok, Zhenyu Yan 0002,
+    Doris Sau-Fung Yu, Timothy Kwok, Guoliang Xing
   title: 'ADMarker: A Multi-Modal Federated Learning System for Monitoring Digital
     Biomarkers of Alzheimer&apos;s Disease.'
   venue: MobiCom

@@ -7749,6 +7749,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/a6678e2be4ce7aef9d2192e03cd586b7-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiaYSNRRLP23
+- author: Jianqing Zhang, Yang Hua, Jian Cao, Hao Wang 0022, Tao Song, Zhengui Xue,
+    Ruhui Ma, Haibing Guan
+  title: Eliminating Domain Bias for Federated Learning in Representation Space.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhangHCWSXMG23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/2e0d3c6ad1a4d85bef3cfe63af58bc76-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhangHCWSXMG23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -12604,6 +12615,18 @@ federate%20streamid%3Aconf%2Fuss%3A:
   doi: ''
   ee: https://www.usenix.org/conference/usenixsecurity24/presentation/xu-zhangchen
   url: https://dblp.org/rec/conf/uss/XuJNJ0P24
+- author: Zhifeng Jiang 0001, Peng Ye, Shiqi He, Wei Wang 0030, Ruichuan Chen, Bo
+    Li 0001
+  title: 'Lotto: Secure Participant Selection against Adversarial Servers in Federated
+    Learning.'
+  venue: USENIX Security Symposium
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/JiangYH0C024
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity24/presentation/jiang-zhifeng
+  url: https://dblp.org/rec/conf/uss/JiangYH0C024
 federate%20venue%3ANDSS%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -15301,6 +15324,17 @@ federate%20venue%3AACL%3A:
   doi: 10.18653/V1/2023.FINDINGS-ACL.632
   ee: https://doi.org/10.18653/v1/2023.findings-acl.632
   url: https://dblp.org/rec/conf/acl/ZhangYDWYQX23
+- author: Zhuo Zhang 0007, Xiangjing Hu, Jingyuan Zhang, Yating Zhang, Hui Wang 0013,
+    Lizhen Qu, Zenglin Xu
+  title: 'FEDLEGAL: The First Real-World Federated Learning Benchmark for Legal NLP.'
+  venue: ACL
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/ZhangHZZWQX23
+  doi: 10.18653/V1/2023.ACL-LONG.193
+  ee: https://doi.org/10.18653/v1/2023.acl-long.193
+  url: https://dblp.org/rec/conf/acl/ZhangHZZWQX23
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"
@@ -16445,6 +16479,17 @@ federate%20venue%3ASIGIR%3A:
   ee: https://doi.org/10.1145/3626772.3657764
   url: https://dblp.org/rec/conf/sigir/SuC0LSWZ24
 - author: Shuai Wang, Ekaterina Khramtsova, Shengyao Zhuang, Guido Zuccon
+  title: 'FeB4RAG: Evaluating Federated Search in the Context of Retrieval Augmented
+    Generation.'
+  venue: SIGIR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/WangKZZ24
+  doi: 10.1145/3626772.3657853
+  ee: https://doi.org/10.1145/3626772.3657853
+  url: https://dblp.org/rec/conf/sigir/WangKZZ24
+- author: Shuai Wang 0032, Ekaterina Khramtsova, Shengyao Zhuang, Guido Zuccon
   title: 'FeB4RAG: Evaluating Federated Search in the Context of Retrieval Augmented
     Generation.'
   venue: SIGIR
@@ -20440,6 +20485,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589335.3651514
   ee: https://doi.org/10.1145/3589335.3651514
   url: https://dblp.org/rec/conf/www/ZhangGL24
+- author: Zhihan Guo, Yifei Zhang, Zhuo Zhang 0007, Zenglin Xu, Irwin King
+  title: 'FedHLT: Efficient Federated Low-Rank Adaption with Hierarchical Language
+    Tree for Multilingual Modeling.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/GuoZZXK24
+  doi: 10.1145/3589335.3651933
+  ee: https://doi.org/10.1145/3589335.3651933
+  url: https://dblp.org/rec/conf/www/GuoZZXK24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -21465,6 +21521,17 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3627703.3629575
   ee: https://doi.org/10.1145/3627703.3629575
   url: https://dblp.org/rec/conf/eurosys/ChingCKJWSH24
+- author: Zhifeng Jiang 0001, Wei Wang 0030, Ruichuan Chen
+  title: 'Dordis: Efficient Federated Learning with Dropout-Resilient Differential
+    Privacy.'
+  venue: EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/Jiang0C24
+  doi: 10.1145/3627703.3629559
+  ee: https://doi.org/10.1145/3627703.3629559
+  url: https://dblp.org/rec/conf/eurosys/Jiang0C24
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001
@@ -23364,6 +23431,18 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3333213
   ee: https://doi.org/10.1109/TC.2023.3333213
   url: https://dblp.org/rec/journals/tc/XuWLXXZR24
+- author: Honghong Zeng, Jie Li 0002, Jiong Lou, Shijing Yuan, Chentao Wu, Wei Zhao
+    0001, Sijin Wu, Zhiwen Wang
+  title: 'BSR-FL: An Efficient Byzantine-Robust Privacy-Preserving Federated Learning
+    Framework.'
+  venue: IEEE Trans. Computers
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZengLLYWZWW24
+  doi: 10.1109/TC.2024.3404102
+  ee: https://doi.org/10.1109/TC.2024.3404102
+  url: https://dblp.org/rec/journals/tc/ZengLLYWZWW24
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

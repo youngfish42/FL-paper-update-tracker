@@ -850,6 +850,18 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2021/720
   ee: https://doi.org/10.24963/ijcai.2021/720
   url: https://dblp.org/rec/conf/ijcai/YappKLKLNJLXN21
+- author: Hangtao Zhang, Zeming Yao, Leo Yu Zhang, Shengshan Hu, Chao Chen 0015, Alan
+    Wee-Chung Liew, Zhetao Li
+  title: 'Denial-of-Service or Fine-Grained Control: Towards Flexible Model Poisoning
+    Attacks on Federated Learning.'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ZhangYZHCLL23
+  doi: 10.24963/IJCAI.2023/508
+  ee: https://doi.org/10.24963/ijcai.2023/508
+  url: https://dblp.org/rec/conf/ijcai/ZhangYZHCLL23
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -4439,6 +4451,28 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I7.26083
   ee: https://doi.org/10.1609/aaai.v37i7.26083
   url: https://dblp.org/rec/conf/aaai/LyuHWLWL023
+- author: Chenglu Pan, Jiarong Xu, Yue Yu, Ziqi Yang, Qingbiao Wu, Chunping Wang 0001,
+    Lei Chen, Yang Yang 0009
+  title: Towards Fair Graph Federated Learning via Incentive Mechanisms.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PanXYYWWC024
+  doi: 10.1609/AAAI.V38I13.29365
+  ee: https://doi.org/10.1609/aaai.v38i13.29365
+  url: https://dblp.org/rec/conf/aaai/PanXYYWWC024
+- author: Xuan Liu 0001, Siqi Cai, Lin Li, Rui Zhang 0080, Song Guo 0001
+  title: 'MGIA: Mutual Gradient Inversion Attack in Multi-Modal Federated Learning
+    (Student Abstract).'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuCLZ023
+  doi: 10.1609/AAAI.V37I13.26995
+  ee: https://doi.org/10.1609/aaai.v37i13.26995
+  url: https://dblp.org/rec/conf/aaai/LiuCLZ023
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -14625,6 +14659,16 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00473
   ee: https://doi.org/10.1109/ICCV51070.2023.00473
   url: https://dblp.org/rec/conf/iccv/ZhangZSXLZL23
+- author: Jie Zhang 0081, Chen Chen 0043, Weiming Zhuang, Lingjuan Lyu
+  title: 'TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZhangCZL23
+  doi: 10.1109/ICCV51070.2023.00441
+  ee: https://doi.org/10.1109/ICCV51070.2023.00441
+  url: https://dblp.org/rec/conf/iccv/ZhangCZL23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

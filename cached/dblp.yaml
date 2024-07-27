@@ -13987,6 +13987,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.00993
   ee: https://doi.org/10.1109/CVPR52688.2022.00993
   url: https://dblp.org/rec/conf/cvpr/ZhangS0TD22
+- author: Kangyang Luo, Xiang Li 0067, Yunshi Lan, Ming Gao 0001
+  title: 'GradMA: A Gradient-Memory-based Accelerated Federated Learning with Alleviated
+    Catastrophic Forgetting.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LuoLLG23
+  doi: 10.1109/CVPR52729.2023.00361
+  ee: https://doi.org/10.1109/CVPR52729.2023.00361
+  url: https://dblp.org/rec/conf/cvpr/LuoLLG23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -16349,6 +16360,16 @@ federate%20venue%3AEMNLP%3A:
   doi: 10.18653/V1/2023.EMNLP-MAIN.999
   ee: https://doi.org/10.18653/v1/2023.emnlp-main.999
   url: https://dblp.org/rec/conf/emnlp/SinghC0S23
+- author: Zhuo Zhang 0007, Xiangjing Hu, Lizhen Qu, Qifan Wang, Zenglin Xu
+  title: Federated Model Decomposition with Private Vocabulary for Text Classification.
+  venue: EMNLP
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/ZhangHQWX22
+  doi: 10.18653/V1/2022.EMNLP-MAIN.430
+  ee: https://doi.org/10.18653/v1/2022.emnlp-main.430
+  url: https://dblp.org/rec/conf/emnlp/ZhangHQWX22
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.

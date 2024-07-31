@@ -18108,6 +18108,72 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE60146.2024.00076
   ee: https://doi.org/10.1109/ICDE60146.2024.00076
   url: https://dblp.org/rec/conf/icde/ZhouLSLGL24
+- author: Ming Hu 0003, Peiheng Zhou, Zhihao Yue, Zhiwei Ling, Yihao Huang 0001, Anran
+    Li, Yang Liu 0003, Xiang Lian, Mingsong Chen
+  title: 'FedCross: Towards Accurate Federated Learning via Multi-Model Cross-Aggregation.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/0003ZYL0LLLC24
+  doi: 10.1109/ICDE60146.2024.00170
+  ee: https://doi.org/10.1109/ICDE60146.2024.00170
+  url: https://dblp.org/rec/conf/icde/0003ZYL0LLLC24
+- author: Xiangping Kang, Guoxian Yu, Qingzhong Li, Jun Wang 0035, Hui Li 0048, Carlotta
+    Domeniconi
+  title: Semi-Asynchronous Online Federated Crowdsourcing.
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/KangYLWLD24
+  doi: 10.1109/ICDE60146.2024.00319
+  ee: https://doi.org/10.1109/ICDE60146.2024.00319
+  url: https://dblp.org/rec/conf/icde/KangYLWLD24
+- author: Yunming Liao, Yang Xu 0020, Hongli Xu, Lun Wang, Zhiwei Yao, Chunming Qiao
+  title: 'MergeSFL: Split Federated Learning with Feature Merging and Batch Size Regulation.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/LiaoXXWYQ24
+  doi: 10.1109/ICDE60146.2024.00164
+  ee: https://doi.org/10.1109/ICDE60146.2024.00164
+  url: https://dblp.org/rec/conf/icde/LiaoXXWYQ24
+- author: Pengpeng Qiao, Kangfei Zhao, Bei Bi, Zhiwei Zhang, Ye Yuan 0001, Guoren
+    Wang
+  title: 'Feed: Towards Personalization-Effective Federated Learning.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/QiaoZBZYW24
+  doi: 10.1109/ICDE60146.2024.00144
+  ee: https://doi.org/10.1109/ICDE60146.2024.00144
+  url: https://dblp.org/rec/conf/icde/QiaoZBZYW24
+- author: Zhihao Zeng, Ziquan Fang, Lu Chen 0001, Yunjun Gao, Kai Zheng 0001, Gang
+    Chen 0001
+  title: 'FedCTQ: A Federated-Based Framework for Accurate and Efficient Contact Tracing
+    Query.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/ZengFCGZC24
+  doi: 10.1109/ICDE60146.2024.00352
+  ee: https://doi.org/10.1109/ICDE60146.2024.00352
+  url: https://dblp.org/rec/conf/icde/ZengFCGZC24
+- author: Jun Zhang, Huan Li 0003, Dazhong Rong, Yan Zhao 0008, Ke Chen 0005, Lidan
+    Shou
+  title: Preventing the Popular Item Embedding Based Attack in Federated Recommendations.
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/Zhang0RZ0S24
+  doi: 10.1109/ICDE60146.2024.00173
+  ee: https://doi.org/10.1109/ICDE60146.2024.00173
+  url: https://dblp.org/rec/conf/icde/Zhang0RZ0S24
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou

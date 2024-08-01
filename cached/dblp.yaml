@@ -7816,6 +7816,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/565f995643da6329cec701f26f8579f5-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Tan0ZDLL23
+- author: Zikai Xiao, Zihan Chen, Songshang Liu, Hualiang Wang, Yang Feng, Jin Hao,
+    Joey Tianyi Zhou, Jian Wu 0001, Howard H. Yang, Zuozhu Liu
+  title: 'Fed-GraB: Federated Long-tailed Learning with Self-Adjusting Gradient Balancer.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/XiaoCLWFHZWYL23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/f4b8ddb9b1aa3cb11462d64a70b84db2-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/XiaoCLWFHZWYL23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -11151,6 +11162,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=JrmPG9ufKg
   url: https://dblp.org/rec/conf/iclr/LouizosRK24
+- author: Xinmeng Huang, Ping Li 0001, Xiaoyun Li
+  title: Stochastic Controlled Averaging for Federated Learning with Communication
+    Compression.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/HuangLL24
+  doi: ''
+  ee: https://openreview.net/forum?id=jj5ZjZsWJe
+  url: https://dblp.org/rec/conf/iclr/HuangLL24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -19765,6 +19787,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10228895
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10228895
   url: https://dblp.org/rec/conf/infocom/LiPZHGYL23
+- author: Zhicong Zhong, Yipeng Zhou, Di Wu 0001, Xu Chen 0004, Min Chen 0003, Chao
+    Li 0009, Quan Z. Sheng
+  title: 'P-FedAvg: Parallelizing Federated Learning with Theoretical Guarantees.'
+  venue: INFOCOM
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/ZhongZWCCLS21
+  doi: 10.1109/INFOCOM42981.2021.9488877
+  ee: https://doi.org/10.1109/INFOCOM42981.2021.9488877
+  url: https://dblp.org/rec/conf/infocom/ZhongZWCCLS21
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

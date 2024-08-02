@@ -18881,6 +18881,18 @@ federate%20venue%3ASIGCOMM%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Matthew Johnson 0011, Sudheesh Singanamalla, Nick Durand, Esther Han Beol
+    Jang, Spencer Sevilla, Kurtis Heimerl
+  title: 'dAuth: A Resilient Authentication Architecture for Federated Private Cellular
+    Networks.'
+  venue: SIGCOMM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigcomm/0011SDJSH24
+  doi: 10.1145/3651890.3672263
+  ee: https://doi.org/10.1145/3651890.3672263
+  url: https://dblp.org/rec/conf/sigcomm/0011SDJSH24
 federate%20venue%3AINFOCOM%3A:
 - author: Hankyul Baek, Won Joon Yun, Yunseok Kwak, Soyi Jung, Mingyue Ji, Mehdi Bennis,
     Jihong Park, Joongheon Kim

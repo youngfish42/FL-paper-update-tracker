@@ -4483,6 +4483,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I13.29430
   ee: https://doi.org/10.1609/aaai.v38i13.29430
   url: https://dblp.org/rec/conf/aaai/SuYWLL024
+- author: Xueyang Wu 0001, Hengguan Huang, Youlong Ding, Hao Wang 0014, Ye Wang 0007,
+    Qian Xu 0005
+  title: 'FedNP: Towards Non-IID Federated Learning via Federated Neural Propagation.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/0001HDWW023
+  doi: 10.1609/AAAI.V37I9.26237
+  ee: https://doi.org/10.1609/aaai.v37i9.26237
+  url: https://dblp.org/rec/conf/aaai/0001HDWW023
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -13313,6 +13324,17 @@ federate%20venue%3ANDSS%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen 0012, Zhiyang Dai, Zhi Zhang
+    0001, Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
 federate%20venue%3ACVPR%3A:
 - author: Yiqing Shen 0003, Yuyin Zhou, Lequan Yu
   title: 'CD2-pFed: Cyclic Distillation-guided Channel Decoupling for Model Personalization
@@ -14777,6 +14799,18 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00441
   ee: https://doi.org/10.1109/ICCV51070.2023.00441
   url: https://dblp.org/rec/conf/iccv/ZhangCZL23
+- author: Rui Chen 0026, Qiyu Wan, Pavana Prakash, Lan Zhang 0005, Xu Yuan, Yanmin
+    Gong 0001, Xin Fu, Miao Pan
+  title: 'Workie-Talkie: Accelerating Federated Learning by Overlapping Computing
+    and Communications via Contrastive Regularization.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ChenWP0Y0FP23
+  doi: 10.1109/ICCV51070.2023.01559
+  ee: https://doi.org/10.1109/ICCV51070.2023.01559
+  url: https://dblp.org/rec/conf/iccv/ChenWP0Y0FP23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -15569,6 +15603,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3611953
   ee: https://doi.org/10.1145/3581783.3611953
   url: https://dblp.org/rec/conf/mm/ChenTSWXZY23
+- author: Qiushi Li, Wenwu Zhu 0001, Chao Wu 0002, Xinglin Pan, Fan Yang 0024, Yuezhi
+    Zhou, Yaoxue Zhang
+  title: 'InvisibleFL: Federated Learning over Non-Informative Intermediate Updates
+    against Multimedia Privacy Leakages.'
+  venue: ACM Multimedia
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Li00PYZZ20
+  doi: 10.1145/3394171.3413923
+  ee: https://doi.org/10.1145/3394171.3413923
+  url: https://dblp.org/rec/conf/mm/Li00PYZZ20
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

@@ -4494,6 +4494,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I9.26237
   ee: https://doi.org/10.1609/aaai.v37i9.26237
   url: https://dblp.org/rec/conf/aaai/0001HDWW023
+- author: Kun Jin, Tongxin Yin, Zhongzhu Chen, Zeyu Sun, Xueru Zhang, Yang Liu 0018,
+    Mingyan Liu
+  title: 'Performative Federated Learning: A Solution to Model-Dependent and Heterogeneous
+    Distribution Shifts.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/JinYCSZLL24
+  doi: 10.1609/AAAI.V38I11.29191
+  ee: https://doi.org/10.1609/aaai.v38i11.29191
+  url: https://dblp.org/rec/conf/aaai/JinYCSZLL24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -5277,6 +5289,16 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/zakerinia24a.html
   url: https://dblp.org/rec/conf/aistats/ZakeriniaTNA24
+- author: Wenxuan Bao, Jun Wu 0019, Jingrui He
+  title: 'BOBA: Byzantine-Robust Federated Learning with Label Skewness.'
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/BaoWH24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/bao24a.html
+  url: https://dblp.org/rec/conf/aistats/BaoWH24
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -9799,6 +9821,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/qu22a.html
   url: https://dblp.org/rec/conf/icml/QuLDLTL22
+- author: Yaming Guo, Kai Guo 0003, Xiaofeng Cao 0002, Tieru Wu, Yi Chang 0001
+  title: Out-of-Distribution Generalization of Federated Learning via Implicit Invariant
+    Relationships.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/GuoG0WC23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/guo23b.html
+  url: https://dblp.org/rec/conf/icml/GuoG0WC23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

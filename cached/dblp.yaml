@@ -4506,6 +4506,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I11.29191
   ee: https://doi.org/10.1609/aaai.v38i11.29191
   url: https://dblp.org/rec/conf/aaai/JinYCSZLL24
+- author: Jing Wu 0021, Munawar Hayat, Mingyi Zhou, Mehrtash Harandi
+  title: Concealing Sensitive Samples against Gradient Leakage in Federated Learning.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WuHZH24
+  doi: 10.1609/AAAI.V38I19.30171
+  ee: https://doi.org/10.1609/aaai.v38i19.30171
+  url: https://dblp.org/rec/conf/aaai/WuHZH24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -9832,6 +9842,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/guo23b.html
   url: https://dblp.org/rec/conf/icml/GuoG0WC23
+- author: Zexi Li 0001, Tao Lin, Xinyi Shang, Chao Wu 0001
+  title: Revisiting Weighted Aggregation in Federated Learning with Neural Networks.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LiLSW23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/li23s.html
+  url: https://dblp.org/rec/conf/icml/LiLSW23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -23546,6 +23566,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3413718
   ee: https://doi.org/10.1109/TPDS.2024.3413718
   url: https://dblp.org/rec/journals/tpds/ZhangCYHTC24
+- author: Xinliang Wei, Kejiang Ye, Xinghua Shi, Cheng-Zhong Xu 0001, Yu Wang 0003
+  title: Joint Participant and Learning Topology Selection for Federated Learning
+    in Edge Clouds.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WeiYSXW24
+  doi: 10.1109/TPDS.2024.3413751
+  ee: https://doi.org/10.1109/TPDS.2024.3413751
+  url: https://dblp.org/rec/journals/tpds/WeiYSXW24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

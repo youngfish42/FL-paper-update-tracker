@@ -4516,6 +4516,27 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I19.30171
   ee: https://doi.org/10.1609/aaai.v38i19.30171
   url: https://dblp.org/rec/conf/aaai/WuHZH24
+- author: Yue Tan, Yixin Liu 0001, Guodong Long, Jing Jiang 0002, Qinghua Lu 0001,
+    Chengqi Zhang
+  title: Federated Learning on Non-IID Graphs via Structural Knowledge Sharing.
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/TanLL00Z23
+  doi: 10.1609/AAAI.V37I8.26187
+  ee: https://doi.org/10.1609/aaai.v37i8.26187
+  url: https://dblp.org/rec/conf/aaai/TanLL00Z23
+- author: Xiaoyu Cao, Jinyuan Jia 0001, Neil Zhenqiang Gong
+  title: Provably Secure Federated Learning against Malicious Clients.
+  venue: AAAI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/CaoJG21
+  doi: 10.1609/AAAI.V35I8.16849
+  ee: https://doi.org/10.1609/aaai.v35i8.16849
+  url: https://dblp.org/rec/conf/aaai/CaoJG21
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -5309,6 +5330,17 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/bao24a.html
   url: https://dblp.org/rec/conf/aistats/BaoWH24
+- author: Banghua Zhu, Lun Wang 0001, Qi Pang, Shuai Wang 0011, Jiantao Jiao, Dawn
+    Song, Michael I. Jordan
+  title: Byzantine-Robust Federated Learning with Optimal Statistical Rates.
+  venue: AISTATS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ZhuWPWJSJ23
+  doi: ''
+  ee: https://proceedings.mlr.press/v206/zhu23b.html
+  url: https://dblp.org/rec/conf/aistats/ZhuWPWJSJ23
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -7870,6 +7902,28 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/f4b8ddb9b1aa3cb11462d64a70b84db2-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/XiaoCLWFHZWYL23
+- author: Jinyuan Jia 0001, Zhuowen Yuan, Dinuka Sahabandu, Luyao Niu, Arezoo Rajabi,
+    Bhaskar Ramasubramanian, Bo Li 0026, Radha Poovendran
+  title: 'FedGame: A Game-Theoretic Defense against Backdoor Attacks in Federated
+    Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/JiaYSNRRLP23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/a6678e2be4ce7aef9d2192e03cd586b7-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/JiaYSNRRLP23
+- author: Hangfan Zhang, Jinyuan Jia 0001, Jinghui Chen, Lu Lin 0001, Dinghao Wu
+  title: 'A3FL: Adversarially Adaptive Backdoor Attacks to Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhangJCLW23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/c07d71ff0bc042e4b9acd626a79597fa-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhangJCLW23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -11237,6 +11291,485 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=jj5ZjZsWJe
   url: https://dblp.org/rec/conf/iclr/HuangLL24
+- author: Yavuz Faruk Bakman, Duygu Nur Yaldiz, Yahya H. Ezzeldin, Salman Avestimehr
+  title: 'Federated Orthogonal Training: Mitigating Global Catastrophic Forgetting
+    in Continual Federated Learning.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/BakmanYEA24
+  doi: ''
+  ee: https://openreview.net/forum?id=nAs4LdaP9Y
+  url: https://dblp.org/rec/conf/iclr/BakmanYEA24
+- author: Xingyu Zhou 0001, Sayak Ray Chowdhury
+  title: On Differentially Private Federated Linear Contextual Bandits.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/0001C24
+  doi: ''
+  ee: https://openreview.net/forum?id=cuAxSHcsSX
+  url: https://dblp.org/rec/conf/iclr/0001C24
+- author: Di Wu 0050, Jun Bai, Yiliao Song, Junjun Chen, Wei Zhou, Yong Xiang 0001,
+    Atul Sajjanhar
+  title: 'FedInverse: Evaluating Privacy Leakage in Federated Learning.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/0050BSCZ0S24
+  doi: ''
+  ee: https://openreview.net/forum?id=nTNgkEIfeb
+  url: https://dblp.org/rec/conf/iclr/0050BSCZ0S24
+- author: Yun-Hin Chan, Rui Zhou, Running Zhao, Zhihan Jiang, Edith C. H. Ngai
+  title: Internal Cross-layer Gradients for Extending Homogeneity to Heterogeneity
+    in Federated Learning.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ChanZZJN24
+  doi: ''
+  ee: https://openreview.net/forum?id=Cc0qk6r4Nd
+  url: https://dblp.org/rec/conf/iclr/ChanZZJN24
+- author: Prateek Chanda, Shrey Modi, Ganesh Ramakrishnan
+  title: Bayesian Coreset Optimization for Personalized Federated Learning.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ChandaMR24
+  doi: ''
+  ee: https://openreview.net/forum?id=uz7d2N2zul
+  url: https://dblp.org/rec/conf/iclr/ChandaMR24
+- author: Ziheng Cheng, Xinmeng Huang, Pengfei Wu, Kun Yuan
+  title: Momentum Benefits Non-iid Federated Learning Simply and Provably.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ChengHWY24
+  doi: ''
+  ee: https://openreview.net/forum?id=TdhkAcXkRi
+  url: https://dblp.org/rec/conf/iclr/ChengHWY24
+- author: Rong Dai, Yonggang Zhang, Ang Li, Tongliang Liu, Xun Yang, Bo Han 0003
+  title: Enhancing One-Shot Federated Learning Through Data and Ensemble Co-Boosting.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/DaiZLLY024
+  doi: ''
+  ee: https://openreview.net/forum?id=tm8s3696Ox
+  url: https://dblp.org/rec/conf/iclr/DaiZLLY024
+- author: Zhenan Fan, Huang Fang, Xinglu Wang, Zirui Zhou, Jian Pei, Michael P. Friedlander,
+    Yong Zhang
+  title: Fair and Efficient Contribution Valuation for Vertical Federated Learning.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/FanFWZPFZ24
+  doi: ''
+  ee: https://openreview.net/forum?id=sLQb8q0sUi
+  url: https://dblp.org/rec/conf/iclr/FanFWZPFZ24
+- author: Kostadin Garov, Dimitar Iliev Dimitrov, Nikola Jovanovic 0001, Martin T.
+    Vechev
+  title: 'Hiding in Plain Sight: Disguising Data Stealing Attacks in Federated Learning.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/GarovD0V24
+  doi: ''
+  ee: https://openreview.net/forum?id=krx55l2A6G
+  url: https://dblp.org/rec/conf/iclr/GarovD0V24
+- author: Faisal Hamman, Sanghamitra Dutta
+  title: Demystifying Local &amp; Global Fairness Trade-offs in Federated Learning
+    Using Partial Information Decomposition.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/HammanD24
+  doi: ''
+  ee: https://openreview.net/forum?id=SBj2Qdhgew
+  url: https://dblp.org/rec/conf/iclr/HammanD24
+- author: Wei Huang, Ye Shi 0001, Zhongyi Cai, Taiji Suzuki
+  title: Understanding Convergence and Generalization in Federated Learning through
+    Feature Learning Theory.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Huang0CS24
+  doi: ''
+  ee: https://openreview.net/forum?id=EcetCr4trp
+  url: https://dblp.org/rec/conf/iclr/Huang0CS24
+- author: Meirui Jiang, Anjie Le, Xiaoxiao Li, Qi Dou 0001
+  title: Heterogeneous Personalized Federated Learning by Local-Global Updates Mixing
+    via Convergence Rate.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/JiangLL024
+  doi: ''
+  ee: https://openreview.net/forum?id=7pWRLDBAtc
+  url: https://dblp.org/rec/conf/iclr/JiangLL024
+- author: Enyi Jiang, Yibo Jacky Zhang, Sanmi Koyejo
+  title: 'Principled Federated Domain Adaptation: Gradient Projection and Auto-Weighting.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/JiangZK24
+  doi: ''
+  ee: https://openreview.net/forum?id=6J3ehSUrMU
+  url: https://dblp.org/rec/conf/iclr/JiangZK24
+- author: "Junhyung Lyle Kim, Mohammad Taha Toghani, C\xE9sar A. Uribe, Anastasios\
+    \ Kyrillidis"
+  title: Adaptive Federated Learning with Auto-Tuned Clients.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/KimTUK24
+  doi: ''
+  ee: https://openreview.net/forum?id=g0mlwqs8pi
+  url: https://dblp.org/rec/conf/iclr/KimTUK24
+- author: Zilinghan Li, Pranshu Chaturvedi, Shilan He, Han Chen, Gagandeep Singh,
+    Volodymyr V. Kindratenko, Eliu A. Huerta, Kibaek Kim, Ravi K. Madduri
+  title: 'FedCompass: Efficient Cross-Silo Federated Learning on Heterogeneous Client
+    Devices Using a Computing Power-Aware Scheduler.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiCHCSKHKM24
+  doi: ''
+  ee: https://openreview.net/forum?id=msXxrttLOi
+  url: https://dblp.org/rec/conf/iclr/LiCHCSKHKM24
+- author: Junyi Li, Feihu Huang, Heng Huang
+  title: 'FedDA: Faster Adaptive Gradient Methods for Federated Constrained Optimization.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiHH24
+  doi: ''
+  ee: https://openreview.net/forum?id=kjn99xFUF3
+  url: https://dblp.org/rec/conf/iclr/LiHH24
+- author: Zhiwei Li, Guodong Long, Tianyi Zhou 0001
+  title: Federated Recommendation with Additive Personalization.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiL024
+  doi: ''
+  ee: https://openreview.net/forum?id=xkXdE81mOK
+  url: https://dblp.org/rec/conf/iclr/LiL024
+- author: Chuanhao Li, Chong Liu, Yu-Xiang Wang
+  title: Communication-Efficient Federated Non-Linear Bandit Optimization.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiLW24
+  doi: ''
+  ee: https://openreview.net/forum?id=nFI3wFM9yN
+  url: https://dblp.org/rec/conf/iclr/LiLW24
+- author: Longkang Li, Ignavier Ng, Gongxu Luo, Biwei Huang, Guangyi Chen 0002, Tongliang
+    Liu, Bin Gu 0001, Kun Zhang 0001
+  title: Federated Causal Discovery from Heterogeneous Data.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiNLH0L0024
+  doi: ''
+  ee: https://openreview.net/forum?id=m7tJxajC3G
+  url: https://dblp.org/rec/conf/iclr/LiNLH0L0024
+- author: Qinbin Li, Chulin Xie, Xiaojun Xu, Xiaoyuan Liu, Ce Zhang 0001, Bo Li 0026,
+    Bingsheng He, Dawn Song
+  title: Effective and Efficient Federated Tree Learning on Hybrid Data.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiXXL00HS24
+  doi: ''
+  ee: https://openreview.net/forum?id=py4ZV2qYQI
+  url: https://dblp.org/rec/conf/iclr/LiXXL00HS24
+- author: Chen Qiu, Xingyu Li, Chaithanya Kumar Mummadi, Madan Ravi Ganesh, Zhenzhen
+    Li, Lu Peng, Wan-Yi Lin
+  title: Federated Text-driven Prompt Generation for Vision-Language Models.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/QiuLMGLPL24
+  doi: ''
+  ee: https://openreview.net/forum?id=NW31gAylIm
+  url: https://dblp.org/rec/conf/iclr/QiuLMGLPL24
+- author: Alain Rakotomamonjy, Kimia Nadjahi, Liva Ralaivola
+  title: Federated Wasserstein Distance.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/RakotomamonjyNR24
+  doi: ''
+  ee: https://openreview.net/forum?id=rsg1mvUahT
+  url: https://dblp.org/rec/conf/iclr/RakotomamonjyNR24
+- author: Jonathan Scott, Hossein Zakerinia, Christoph H. Lampert
+  title: 'PeFLL: Personalized Federated Learning by Learning to Learn.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ScottZL24
+  doi: ''
+  ee: https://openreview.net/forum?id=MrYiwlDRQO
+  url: https://dblp.org/rec/conf/iclr/ScottZL24
+- author: Youbang Sun, Zitao Li, Yaliang Li, Bolin Ding
+  title: Improving LoRA in Privacy-preserving Federated Learning.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/SunLLD24
+  doi: ''
+  ee: https://openreview.net/forum?id=NLPzL6HWNl
+  url: https://dblp.org/rec/conf/iclr/SunLLD24
+- author: Xueyang Tang, Song Guo 0001, Jie Zhang, Jingcai Guo
+  title: Learning Personalized Causally Invariant Representations for Heterogeneous
+    Federated Clients.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Tang0ZG24
+  doi: ''
+  ee: https://openreview.net/forum?id=8FHWkY0SwF
+  url: https://dblp.org/rec/conf/iclr/Tang0ZG24
+- author: Zhenheng Tang, Yonggang Zhang, Shaohuai Shi, Xinmei Tian 0001, Tongliang
+    Liu, Bo Han 0003, Xiaowen Chu 0001
+  title: 'FedImpro: Measuring and Improving Client Update in Federated Learning.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/TangZS0L0024
+  doi: ''
+  ee: https://openreview.net/forum?id=giU9fYGTND
+  url: https://dblp.org/rec/conf/iclr/TangZS0L0024
+- author: Yujia Wang, Yuanpu Cao, Jingcheng Wu, Ruoyu Chen, Jinghui Chen
+  title: Tackling the Data Heterogeneity in Asynchronous Federated Learning with Cached
+    Update Calibration.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/WangCWCC24
+  doi: ''
+  ee: https://openreview.net/forum?id=4aywmeb97I
+  url: https://dblp.org/rec/conf/iclr/WangCWCC24
+- author: Ziyao Wang, Jianyu Wang, Ang Li
+  title: 'FedHyper: A Universal and Robust Learning Rate Scheduler for Federated Learning
+    with Hypergradient Descent.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/WangWL24
+  doi: ''
+  ee: https://openreview.net/forum?id=Kl9CqKf7h6
+  url: https://dblp.org/rec/conf/iclr/WangWL24
+- author: Haozhao Wang, Haoran Xu, Yichen Li, Yuan Xu, Ruixuan Li 0001, Tianwei Zhang
+    0004
+  title: 'FedCDA: Federated Learning with Cross-rounds Divergence-aware Aggregation.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/WangXLX0024
+  doi: ''
+  ee: https://openreview.net/forum?id=nbPGqeH3lt
+  url: https://dblp.org/rec/conf/iclr/WangXLX0024
+- author: Zhepei Wei, Chuanhao Li, Tianze Ren, Haifeng Xu, Hongning Wang
+  title: Incentivized Truthful Communication for Federated Bandits.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/WeiLRXW24
+  doi: ''
+  ee: https://openreview.net/forum?id=ykEixGIJYb
+  url: https://dblp.org/rec/conf/iclr/WeiLRXW24
+- author: Zhaomin Wu, Junyi Hou, Bingsheng He
+  title: 'VertiBench: Advancing Feature Distribution Diversity in Vertical Federated
+    Learning Benchmarks.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/WuHH24
+  doi: ''
+  ee: https://openreview.net/forum?id=glwwbaeKm2
+  url: https://dblp.org/rec/conf/iclr/WuHH24
+- author: Abudukelimu Wuerkaixi, Sen Cui, Jingfeng Zhang, Kunda Yan, Bo Han 0003,
+    Gang Niu 0001, Lei Fang, Changshui Zhang, Masashi Sugiyama
+  title: Accurate Forgetting for Heterogeneous Federated Continual Learning.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/WuerkaixiCZY00F24
+  doi: ''
+  ee: https://openreview.net/forum?id=ShQrnAsbPI
+  url: https://dblp.org/rec/conf/iclr/WuerkaixiCZY00F24
+- author: Zikai Xiao, Zihan Chen, Liyinglan Liu, Yang Feng, Joey Tianyi Zhou, Jian
+    Wu, Wanlu Liu, Howard Hao Yang, Zuozhu Liu
+  title: 'FedLoGe: Joint Local and Generic Federated Learning under Long-tailed Data.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/XiaoCLFZWLYL24
+  doi: ''
+  ee: https://openreview.net/forum?id=V3j5d0GQgH
+  url: https://dblp.org/rec/conf/iclr/XiaoCLFZWLYL24
+- author: Mingkun Yang, Ran Zhu, Qing Wang 0007, Jie Yang 0028
+  title: 'FedTrans: Client-Transparent Utility Estimation for Robust Federated Learning.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/YangZ0024
+  doi: ''
+  ee: https://openreview.net/forum?id=DRu8PMHgCh
+  url: https://dblp.org/rec/conf/iclr/YangZ0024
+- author: Duanyi Yao, Songze Li, Ye Xue, Jin Liu
+  title: 'Constructing Adversarial Examples for Vertical Federated Learning: Optimal
+    Client Corruption through Multi-Armed Bandit.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/YaoLXL24
+  doi: ''
+  ee: https://openreview.net/forum?id=m52uU0dVbH
+  url: https://dblp.org/rec/conf/iclr/YaoLXL24
+- author: Rui Ye, Yaxin Du, Zhenyang Ni, Yanfeng Wang, Siheng Chen
+  title: 'Fake It Till Make It: Federated Learning with Consensus-Oriented Generation.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/YeDNWC24
+  doi: ''
+  ee: https://openreview.net/forum?id=NY3wMJuaLf
+  url: https://dblp.org/rec/conf/iclr/YeDNWC24
+- author: "Kai Yi, Nidham Gazagnadou, Peter Richt\xE1rik, Lingjuan Lyu"
+  title: 'FedP3: Federated Personalized and Privacy-friendly Network Pruning under
+    Model Heterogeneity.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/YiGRL24
+  doi: ''
+  ee: https://openreview.net/forum?id=hbHwZYqk9T
+  url: https://dblp.org/rec/conf/iclr/YiGRL24
+- author: Chenyu Zhang, Han Wang 0016, Aritra Mitra, James Anderson 0001
+  title: Finite-Time Analysis of On-Policy Heterogeneous Federated Reinforcement Learning.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Zhang0M024
+  doi: ''
+  ee: https://openreview.net/forum?id=D2eOVqPX9g
+  url: https://dblp.org/rec/conf/iclr/Zhang0M024
+- author: Yonggang Zhang, Zhiqin Yang, Xinmei Tian 0001, Nannan Wang 0001, Tongliang
+    Liu, Bo Han 0003
+  title: Robust Training of Federated Models with Extremely Label Deficiency.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ZhangY00L024
+  doi: ''
+  ee: https://openreview.net/forum?id=qxLVaYbsSI
+  url: https://dblp.org/rec/conf/iclr/ZhangY00L024
+- author: Wanru Zhao, Yihong Chen, Royson Lee, Xinchi Qiu, Yan Gao, Hongxiang Fan,
+    Nicholas Donald Lane
+  title: 'Breaking Physical and Linguistic Borders: Multilingual Federated Prompt
+    Tuning for Low-Resource Languages.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ZhaoCLQGFL24
+  doi: ''
+  ee: https://openreview.net/forum?id=zzqn5G9fjn
+  url: https://dblp.org/rec/conf/iclr/ZhaoCLQGFL24
+- author: Zhong Zheng, Fengyu Gao, Lingzhou Xue, Jing Yang
+  title: 'Federated Q-Learning: Linear Regret Speedup with Low Communication Cost.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ZhengGXY24
+  doi: ''
+  ee: https://openreview.net/forum?id=fe6ANBxcKM
+  url: https://dblp.org/rec/conf/iclr/ZhengGXY24
+- author: Weiming Zhuang, Lingjuan Lyu
+  title: 'FedWon: Triumphing Multi-domain Federated Learning Without Normalization.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ZhuangL24
+  doi: ''
+  ee: https://openreview.net/forum?id=hAYHmV1gM8
+  url: https://dblp.org/rec/conf/iclr/ZhuangL24
+- author: Haomin Zhuang, Mingxian Yu, Hao Wang 0022, Yang Hua, Jian Li 0008, Xu Yuan
+    0001
+  title: Backdoor Federated Learning by Poisoning Backdoor-Critical Layers.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ZhuangY0H0024
+  doi: ''
+  ee: https://openreview.net/forum?id=AJBGSVSTT2
+  url: https://dblp.org/rec/conf/iclr/ZhuangY0H0024
+- author: Tianyuan Zou, Zixuan Gu, Yu He, Hideaki Takahashi, Yang Liu 0165, Ya-Qin
+    Zhang
+  title: 'VFLAIR: A Research Library and Benchmark for Vertical Federated Learning.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ZouGHT0Z24
+  doi: ''
+  ee: https://openreview.net/forum?id=sqRgz88TM3
+  url: https://dblp.org/rec/conf/iclr/ZouGHT0Z24
+- author: Ping Liu 0004, Xin Yu 0002, Joey Tianyi Zhou
+  title: Meta Knowledge Condensation for Federated Learning.
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiuYZ23
+  doi: ''
+  ee: https://openreview.net/forum?id=TDf-XFAwc79
+  url: https://dblp.org/rec/conf/iclr/LiuYZ23
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -12496,6 +13029,17 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3447548.3467185
   ee: https://doi.org/10.1145/3447548.3467185
   url: https://dblp.org/rec/conf/kdd/YangZHSC21
+- author: Zaixi Zhang, Xiaoyu Cao, Jinyuan Jia 0001, Neil Zhenqiang Gong
+  title: 'FLDetector: Defending Federated Learning Against Model Poisoning Attacks
+    via Detecting Malicious Clients.'
+  venue: KDD
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ZhangCJG22
+  doi: 10.1145/3534678.3539231
+  ee: https://doi.org/10.1145/3534678.3539231
+  url: https://dblp.org/rec/conf/kdd/ZhangCJG22
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -12871,6 +13415,17 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SPW63631.2024.00009
   ee: https://doi.org/10.1109/SPW63631.2024.00009
   url: https://dblp.org/rec/conf/sp/CasellaCMBRSCA24
+- author: Xiaoyu Cao, Jinyuan Jia 0001, Zaixi Zhang, Neil Zhenqiang Gong
+  title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using
+    Historical Information.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/CaoJZG23
+  doi: 10.1109/SP46215.2023.10179336
+  ee: https://doi.org/10.1109/SP46215.2023.10179336
+  url: https://dblp.org/rec/conf/sp/CaoJZG23
 federate%20venue%3ACCS%3A:
 - author: Amrita Roy Chowdhury 0001, Chuan Guo, Somesh Jha, Laurens van der Maaten
   title: 'EIFFeL: Ensuring Integrity for Federated Learning.'
@@ -13257,6 +13812,28 @@ federate%20streamid%3Aconf%2Fuss%3A:
   doi: ''
   ee: https://www.usenix.org/conference/usenixsecurity24/presentation/jiang-zhifeng
   url: https://dblp.org/rec/conf/uss/JiangYH0C024
+- author: Zhangchen Xu, Fengqing Jiang, Luyao Niu, Jinyuan Jia 0001, Bo Li 0026, Radha
+    Poovendran
+  title: 'ACE: A Model Poisoning Attack on Contribution Evaluation Methods in Federated
+    Learning.'
+  venue: USENIX Security Symposium
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/XuJNJ0P24
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity24/presentation/xu-zhangchen
+  url: https://dblp.org/rec/conf/uss/XuJNJ0P24
+- author: Minghong Fang, Xiaoyu Cao, Jinyuan Jia 0001, Neil Zhenqiang Gong
+  title: Local Model Poisoning Attacks to Byzantine-Robust Federated Learning.
+  venue: USENIX Security Symposium
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/FangCJG20
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity20/presentation/fang
+  url: https://dblp.org/rec/conf/uss/FangCJG20
 federate%20venue%3ANDSS%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -13379,6 +13956,17 @@ federate%20venue%3ANDSS%3A:
   url: https://dblp.org/rec/conf/ndss/DietzW14
 - author: Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen 0012, Zhiyang Dai, Zhi Zhang
     0001, Minhui Xue, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Chunyi Zhou, Yansong Gao 0001, Anmin Fu, Kai Chen 0012, Zhiyang Dai, Zhi
+    Zhang 0001, Minhui Xue, Yuqing Zhang 0001
   title: 'PPA: Preference Profiling Attack Against Federated Learning.'
   venue: NDSS
   year: '2023'
@@ -17208,6 +17796,30 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3626772.3657853
   ee: https://doi.org/10.1145/3626772.3657853
   url: https://dblp.org/rec/conf/sigir/WangKZZ24
+- author: Wenjie Li 0008, Zhongren Wang, Jinpeng Wang 0002, Shutao Xia, Jile Zhu,
+    Mingjian Chen, Jiangke Fan, Jia Cheng, Jun Lei
+  title: 'ReFer: Retrieval-Enhanced Vertical Federated Recommendation for Full Set
+    User Benefit.'
+  venue: SIGIR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/0008WWXZCFCL24
+  doi: 10.1145/3626772.3657763
+  ee: https://doi.org/10.1145/3626772.3657763
+  url: https://dblp.org/rec/conf/sigir/0008WWXZCFCL24
+- author: Jiajie Su, Chaochao Chen 0001, Weiming Liu 0005, Zibin Lin, Shuheng Shen,
+    Weiqiang Wang, Xiaolin Zheng
+  title: 'Revisit Targeted Model Poisoning on Federated Recommendation: Optimize via
+    Multi-objective Transport.'
+  venue: SIGIR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/SuC0LSWZ24
+  doi: 10.1145/3626772.3657764
+  ee: https://doi.org/10.1145/3626772.3657764
+  url: https://dblp.org/rec/conf/sigir/SuC0LSWZ24
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -18295,6 +18907,28 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE60146.2024.00173
   ee: https://doi.org/10.1109/ICDE60146.2024.00173
   url: https://dblp.org/rec/conf/icde/Zhang0RZ0S24
+- author: Yong Wang, Kaiyu Li, Yuyu Luo, Guoliang Li 0001, Yunyan Guo, Zhuo Wang
+  title: Fast, Robust and Interpretable Participant Contribution Estimation for Federated
+    Learning.
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/WangLLLGW24
+  doi: 10.1109/ICDE60146.2024.00182
+  ee: https://doi.org/10.1109/ICDE60146.2024.00182
+  url: https://dblp.org/rec/conf/icde/WangLLLGW24
+- author: Ting Zhou, Ning Liu, Bo Song, Hongtao Lv, Deke Guo, Lei Liu 0003
+  title: 'RobFL: Robust Federated Learning via Feature Center Separation and Malicious
+    Center Detection.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/ZhouLSLGL24
+  doi: 10.1109/ICDE60146.2024.00076
+  ee: https://doi.org/10.1109/ICDE60146.2024.00076
+  url: https://dblp.org/rec/conf/icde/ZhouLSLGL24
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou

@@ -22254,6 +22254,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589335.3651933
   ee: https://doi.org/10.1145/3589335.3651933
   url: https://dblp.org/rec/conf/www/GuoZZXK24
+- author: Hongyan Gu, Xinyi Zhang, Jiang Li, Hui Wei 0004, Baiqi Li, Xinli Huang
+  title: 'Federated Learning Vulnerabilities: Privacy Attacks with Denoising Diffusion
+    Probabilistic Models.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/GuZLWLH24
+  doi: 10.1145/3589334.3645514
+  ee: https://doi.org/10.1145/3589334.3645514
+  url: https://dblp.org/rec/conf/www/GuZLWLH24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

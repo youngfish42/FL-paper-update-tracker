@@ -12220,6 +12220,18 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-023-06443-5
   ee: https://doi.org/10.1007/s10994-023-06443-5
   url: https://dblp.org/rec/journals/ml/ZhangZCBCJX24
+- author: Ganyu Wang, Qingsong Zhang, Xiang Li, Boyu Wang, Bin Gu 0001, Charles X.
+    Ling
+  title: Secure and fast asynchronous Vertical Federated Learning via cascaded hybrid
+    optimization.
+  venue: Mach. Learn.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/WangZLWGL24
+  doi: 10.1007/S10994-024-06541-Y
+  ee: https://doi.org/10.1007/s10994-024-06541-y
+  url: https://dblp.org/rec/journals/ml/WangZLWGL24
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous

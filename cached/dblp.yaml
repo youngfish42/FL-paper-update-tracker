@@ -4572,6 +4572,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I8.26223
   ee: https://doi.org/10.1609/aaai.v37i8.26223
   url: https://dblp.org/rec/conf/aaai/WangF0JYSW23
+- author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
+    Yu Zheng 0004
+  title: 'Win-Win: A Privacy-Preserving Federated Framework for Dual-Target Cross-Domain
+    Recommendation.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/Chen0SLXZZ23
+  doi: 10.1609/AAAI.V37I4.25531
+  ee: https://doi.org/10.1609/aaai.v37i4.25531
+  url: https://dblp.org/rec/conf/aaai/Chen0SLXZZ23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -7992,6 +8004,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2021/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html
   url: https://dblp.org/rec/conf/nips/LuoCHZLF21
+- author: Aniket Murhekar, Zhuowen Yuan, Bhaskar Ray Chaudhury, Bo Li 0026, Ruta Mehta
+  title: 'Incentives in Federated Learning: Equilibria, Dynamics, and Mechanisms for
+    Welfare Maximization.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/MurhekarYCLM23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/39b77b5e422b4e070e2811b73ea9bcf7-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/MurhekarYCLM23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -11870,6 +11893,27 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=V3j5d0GQgH
   url: https://dblp.org/rec/conf/iclr/XiaoCLFZWLYL24
+- author: Zhenan Fan, Huang Fang, Xinglu Wang, Zirui Zhou, Jian Pei, Michael P. Friedlander,
+    Yong Zhang 0004
+  title: Fair and Efficient Contribution Valuation for Vertical Federated Learning.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/FanFWZPFZ24
+  doi: ''
+  ee: https://openreview.net/forum?id=sLQb8q0sUi
+  url: https://dblp.org/rec/conf/iclr/FanFWZPFZ24
+- author: Chenyu Zhang 0002, Han Wang 0016, Aritra Mitra, James Anderson 0001
+  title: Finite-Time Analysis of On-Policy Heterogeneous Federated Reinforcement Learning.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Zhang0M024
+  doi: ''
+  ee: https://openreview.net/forum?id=D2eOVqPX9g
+  url: https://dblp.org/rec/conf/iclr/Zhang0M024
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -12122,6 +12166,17 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v216/alam23a.html
   url: https://dblp.org/rec/conf/uai/AlamKSS23
+- author: Tengfei Ma 0001, Trong Nghia Hoang, Jie Chen 0007
+  title: Federated learning of models pre-trained on different features with consensus
+    graphs.
+  venue: UAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/MaHC23
+  doi: ''
+  ee: https://proceedings.mlr.press/v216/ma23b.html
+  url: https://dblp.org/rec/conf/uai/MaHC23
 federate%20streamid%3Ajournals%2Fml%3A:
 - author: Adnan Ahmad, Wei Luo 0001, Antonio Robles-Kelly
   title: Robust federated learning under statistical heterogeneity via hessian-weighted
@@ -12222,6 +12277,18 @@ federate%20streamid%3Ajournals%2Fml%3A:
   url: https://dblp.org/rec/journals/ml/ZhangZCBCJX24
 - author: Ganyu Wang, Qingsong Zhang, Xiang Li, Boyu Wang, Bin Gu 0001, Charles X.
     Ling
+  title: Secure and fast asynchronous Vertical Federated Learning via cascaded hybrid
+    optimization.
+  venue: Mach. Learn.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/WangZLWGL24
+  doi: 10.1007/S10994-024-06541-Y
+  ee: https://doi.org/10.1007/s10994-024-06541-y
+  url: https://dblp.org/rec/journals/ml/WangZLWGL24
+- author: Ganyu Wang, Qingsong Zhang, Xiang Li 0012, Boyu Wang 0004, Bin Gu 0001,
+    Charles X. Ling
   title: Secure and fast asynchronous Vertical Federated Learning via cascaded hybrid
     optimization.
   venue: Mach. Learn.
@@ -15584,6 +15651,17 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.02140
   ee: https://doi.org/10.1109/ICCV51070.2023.02140
   url: https://dblp.org/rec/conf/iccv/Zhuang0LZ23
+- author: Zexi Li 0001, Xinyi Shang, Rui He, Tao Lin, Chao Wu 0001
+  title: 'No Fear of Classifier Biases: Neural Collapse Inspired Federated Learning
+    with Synthetic and Fixed Classifier.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/0001SHLW23
+  doi: 10.1109/ICCV51070.2023.00490
+  ee: https://doi.org/10.1109/ICCV51070.2023.00490
+  url: https://dblp.org/rec/conf/iccv/0001SHLW23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

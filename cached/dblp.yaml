@@ -4584,6 +4584,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I4.25531
   ee: https://doi.org/10.1609/aaai.v37i4.25531
   url: https://dblp.org/rec/conf/aaai/Chen0SLXZZ23
+- author: Jian Li 0040, Yong Liu 0018, Weiping Wang 0005
+  title: 'FedNS: A Fast Sketching Newton-Type Algorithm for Federated Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiLW24b
+  doi: 10.1609/AAAI.V38I12.29254
+  ee: https://doi.org/10.1609/aaai.v38i12.29254
+  url: https://dblp.org/rec/conf/aaai/LiLW24b
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -8015,6 +8025,27 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/39b77b5e422b4e070e2811b73ea9bcf7-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/MurhekarYCLM23
+- author: Mohammad Mahdi Kamani, Yuhang Yao, Hanjia Lyu, Zhongwei Cheng, Lin Chen
+    0021, Liangju Li, Carlee Joe-Wong, Jiebo Luo
+  title: 'Wyze Rule: Federated Rule Dataset for Rule Recommendation Benchmarking.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/KamaniYLCCLJL23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/02b9d1e6d1b5295a6f883969ddc1bbbd-Abstract-Datasets_and_Benchmarks.html
+  url: https://dblp.org/rec/conf/nips/KamaniYLCCLJL23
+- author: Jianyu Wang, Qinghua Liu, Hao Liang 0002, Gauri Joshi, H. Vincent Poor
+  title: Tackling the Objective Inconsistency Problem in Heterogeneous Federated Optimization.
+  venue: NeurIPS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WangLLJP20
+  doi: ''
+  ee: https://proceedings.neurips.cc/paper/2020/hash/564127c03caab942e503ee6f810f54fd-Abstract.html
+  url: https://dblp.org/rec/conf/nips/WangLLJP20
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

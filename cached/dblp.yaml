@@ -8046,6 +8046,26 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2020/hash/564127c03caab942e503ee6f810f54fd-Abstract.html
   url: https://dblp.org/rec/conf/nips/WangLLJP20
+- author: Bhaskar Ray Chaudhury, Linyi Li 0001, Mintong Kang, Bo Li 0026, Ruta Mehta
+  title: Fairness in Federated Learning via Core-Stability.
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ChaudhuryLK0M22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/25e92e33ac8c35fd49f394c37f21b6da-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ChaudhuryLK0M22
+- author: Yangsibo Huang, Samyak Gupta, Zhao Song 0002, Kai Li 0001, Sanjeev Arora
+  title: Evaluating Gradient Inversion Attacks and Defenses in Federated Learning.
+  venue: NeurIPS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/HuangGSLA21
+  doi: ''
+  ee: https://proceedings.neurips.cc/paper/2021/hash/3b3fff6463464959dcd1b68d0320f781-Abstract.html
+  url: https://dblp.org/rec/conf/nips/HuangGSLA21
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -13646,6 +13666,16 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SP46215.2023.10179336
   ee: https://doi.org/10.1109/SP46215.2023.10179336
   url: https://dblp.org/rec/conf/sp/CaoJZG23
+- author: Momin Ahmad Khan, Virat Shejwalkar, Amir Houmansadr, Fatima M. Anwar 0001
+  title: On the Pitfalls of Security Evaluation of Robust Federated Learning.
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/KhanSHA23
+  doi: 10.1109/SPW59333.2023.00011
+  ee: https://doi.org/10.1109/SPW59333.2023.00011
+  url: https://dblp.org/rec/conf/sp/KhanSHA23
 federate%20venue%3ACCS%3A:
 - author: Amrita Roy Chowdhury 0001, Chuan Guo, Somesh Jha, Laurens van der Maaten
   title: 'EIFFeL: Ensuring Integrity for Federated Learning.'

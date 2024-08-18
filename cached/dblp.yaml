@@ -22765,6 +22765,18 @@ federate%20venue%3AISCA%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Xiurui Pan, Yuda An, Shengwen Liang, Bo Mao, Mingzhe Zhang, Qiao Li 0001,
+    Myoungsoo Jung, Jie Zhang 0048
+  title: 'Flagger: Cooperative Acceleration for Large-Scale Cross-Silo Federated Learning
+    Aggregation.'
+  venue: ISCA
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/isca/PanALMZLJZ24
+  doi: 10.1109/ISCA59077.2024.00071
+  ee: https://doi.org/10.1109/ISCA59077.2024.00071
+  url: https://dblp.org/rec/conf/isca/PanALMZLJZ24
 federate%20venue%3AMLSys%3A:
 - author: Dzmitry Huba, John Nguyen, Kshitiz Malik, Ruiyu Zhu, Mike Rabbat, Ashkan
     Yousefpour, Carole-Jean Wu, Hongyuan Zhan, Pavel Ustinov, Harish Srinivas, Kaikai

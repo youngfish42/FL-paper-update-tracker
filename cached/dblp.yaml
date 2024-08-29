@@ -13690,6 +13690,76 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671771
   ee: https://doi.org/10.1145/3637528.3671771
   url: https://dblp.org/rec/conf/kdd/ZhaoLRDYL24
+- author: Shanshan Han, Baturalp Buyukates, Zijian Hu 0001, Han Jin, Weizhao Jin,
+    Lichao Sun 0001, Xiaoyang Wang, Wenxuan Wu, Chulin Xie, Yuhang Yao, Kai Zhang
+    0039, Qifan Zhang, Yuhui Zhang, Carlee Joe-Wong, Salman Avestimehr, Chaoyang He
+    0001
+  title: 'FedSecurity: A Benchmark for Attacks and Defenses in Federated Learning
+    and Federated LLMs.'
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/HanB0JJ0WWXYZZZ24
+  doi: 10.1145/3637528.3671545
+  ee: https://doi.org/10.1145/3637528.3671545
+  url: https://dblp.org/rec/conf/kdd/HanB0JJ0WWXYZZZ24
+- author: Ming Hu 0003, Zhihao Yue, Xiaofei Xie, Cheng Chen, Yihao Huang 0006, Xian
+    Wei, Xiang Lian, Yang Liu 0003, Mingsong Chen
+  title: Is Aggregation the Only Choice? Federated Learning via Layer-wise Model Recombination.
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/0003YXC0WLLC24
+  doi: 10.1145/3637528.3671722
+  ee: https://doi.org/10.1145/3637528.3671722
+  url: https://dblp.org/rec/conf/kdd/0003YXC0WLLC24
+- author: Zihui Wang, Zheng Wang, Lingjuan Lyu, Zhaopeng Peng, Zhicheng Yang, Chenglu
+    Wen, Rongshan Yu, Cheng Wang 0003, Xiaoliang Fan
+  title: 'FedSAC: Dynamic Submodel Allocation for Collaborative Fairness in Federated
+    Learning.'
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/WangWLPYWYWF24
+  doi: 10.1145/3637528.3671748
+  ee: https://doi.org/10.1145/3637528.3671748
+  url: https://dblp.org/rec/conf/kdd/WangWLPYWYWF24
+- author: Gang Yan, Hao Wang 0022, Xu Yuan 0001, Jian Li 0008
+  title: 'FedRoLA: Robust Federated Learning Against Model Poisoning via Layer-based
+    Aggregation.'
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/YanW0024
+  doi: 10.1145/3637528.3671906
+  ee: https://doi.org/10.1145/3637528.3671906
+  url: https://dblp.org/rec/conf/kdd/YanW0024
+- author: Hao Yu, Xin Yang 0012, Xin Gao, Yan Kang, Hao Wang 0068, Junbo Zhang, Tianrui
+    Li 0001
+  title: Personalized Federated Continual Learning via Multi-Granularity Prompt.
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/YuYGKWZ024
+  doi: 10.1145/3637528.3671948
+  ee: https://doi.org/10.1145/3637528.3671948
+  url: https://dblp.org/rec/conf/kdd/YuYGKWZ024
+- author: Chunxu Zhang, Guodong Long, Tianyi Zhou 0001, Zijian Zhang 0009, Peng Yan,
+    Bo Yang 0002
+  title: 'GPFedRec: Graph-Guided Personalization for Federated Recommendation.'
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ZhangL0ZYY24
+  doi: 10.1145/3637528.3671702
+  ee: https://doi.org/10.1145/3637528.3671702
+  url: https://dblp.org/rec/conf/kdd/ZhangL0ZYY24
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -23570,6 +23640,19 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583359
   ee: https://doi.org/10.1145/3543507.3583359
   url: https://dblp.org/rec/conf/www/YuanYNCHY23
+- author: Yanjun Zhang, Guangdong Bai, Mahawaga Arachchige Pathum Chamikara, Mengyao
+    Ma, Liyue Shen, Jingwei Wang 0003, Surya Nepal, Minhui Xue, Long Wang, Joseph
+    K. Liu
+  title: 'AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated
+    Learning.'
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangBCMSWNXWL23
+  doi: 10.1145/3543507.3583542
+  ee: https://doi.org/10.1145/3543507.3583542
+  url: https://dblp.org/rec/conf/www/ZhangBCMSWNXWL23
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

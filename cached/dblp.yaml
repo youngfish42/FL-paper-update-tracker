@@ -22750,6 +22750,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM52122.2024.10621440
   ee: https://doi.org/10.1109/INFOCOM52122.2024.10621440
   url: https://dblp.org/rec/conf/infocom/YanL0WH0W24
+- author: Xiaoli Zhang 0003, Fengting Li, Zeyu Zhang, Qi Li 0002, Cong Wang 0001,
+    Jianping Wu
+  title: Enabling Execution Assurance of Federated Learning at Untrusted Participants.
+  venue: INFOCOM
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/ZhangLZLWW20
+  doi: 10.1109/INFOCOM41043.2020.9155414
+  ee: https://doi.org/10.1109/INFOCOM41043.2020.9155414
+  url: https://dblp.org/rec/conf/infocom/ZhangLZLWW20
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

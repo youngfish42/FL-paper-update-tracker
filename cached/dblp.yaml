@@ -16938,6 +16938,18 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00473
   ee: https://doi.org/10.1109/ICCV51070.2023.00473
   url: https://dblp.org/rec/conf/iccv/ZhangZSXLZL23
+- author: Rui Chen 0026, Qiyu Wan, Pavana Prakash, Lan Zhang 0005, Xu Yuan 0001, Yanmin
+    Gong 0001, Xin Fu, Miao Pan
+  title: 'Workie-Talkie: Accelerating Federated Learning by Overlapping Computing
+    and Communications via Contrastive Regularization.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ChenWP0Y0FP23
+  doi: 10.1109/ICCV51070.2023.01559
+  ee: https://doi.org/10.1109/ICCV51070.2023.01559
+  url: https://dblp.org/rec/conf/iccv/ChenWP0Y0FP23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

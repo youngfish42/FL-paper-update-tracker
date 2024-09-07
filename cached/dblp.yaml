@@ -10782,6 +10782,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=ATRnM8PyQX
   url: https://dblp.org/rec/conf/icml/ZhuangX0LL24
+- author: Chunlin Tian, Zhan Shi, Xinpeng Qin, Li Li, Chengzhong Xu 0001
+  title: Ranking-based Client Imitation Selection for Efficient Federated Learning.
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/TianSQLX24
+  doi: ''
+  ee: https://openreview.net/forum?id=FMEhnS0948
+  url: https://dblp.org/rec/conf/icml/TianSQLX24
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

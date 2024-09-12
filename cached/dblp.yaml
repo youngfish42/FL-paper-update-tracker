@@ -13225,6 +13225,71 @@ federate%20streamid%3Ajournals%2Fjmlr%3A:
   doi: ''
   ee: http://jmlr.org/papers/v24/22-0440.html
   url: https://dblp.org/rec/journals/jmlr/ZengLHWX23
+- author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
+  title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
+    Clients Updates.
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/FraboniVKL23
+  doi: ''
+  ee: https://jmlr.org/papers/v24/22-0689.html
+  url: https://dblp.org/rec/journals/jmlr/FraboniVKL23
+- author: Cody Lewis, Vijay Varadharajan, Nasimul Noman
+  title: Attacks against Federated Learning Defense Systems and their Mitigation.
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/LewisVN23
+  doi: ''
+  ee: https://jmlr.org/papers/v24/22-0014.html
+  url: https://dblp.org/rec/journals/jmlr/LewisVN23
+- author: "Xinchi Qiu, Titouan Parcollet, Javier Fern\xE1ndez-Marqu\xE9s, Pedro P.\
+    \ B. de Gusmao, Yan Gao, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas\
+    \ D. Lane"
+  title: A First Look into the Carbon Footprint of Federated Learning.
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/QiuPFGGBTML23
+  doi: ''
+  ee: https://jmlr.org/papers/v24/21-0445.html
+  url: https://dblp.org/rec/journals/jmlr/QiuPFGGBTML23
+- author: Bokun Wang, Zhuoning Yuan, Yiming Ying, Tianbao Yang
+  title: Memory-Based Optimization Methods for Model-Agnostic Meta-Learning and Personalized
+    Federated Learning.
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/WangYYY23
+  doi: ''
+  ee: https://jmlr.org/papers/v24/21-1301.html
+  url: https://dblp.org/rec/journals/jmlr/WangYYY23
+- author: Dun Zeng, Siqi Liang 0001, Xiangjing Hu, Hui Wang 0013, Zenglin Xu
+  title: 'FedLab: A Flexible Federated Learning Framework.'
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/ZengLHWX23
+  doi: ''
+  ee: https://jmlr.org/papers/v24/22-0440.html
+  url: https://dblp.org/rec/journals/jmlr/ZengLHWX23
+- author: Saber Salehkaleybar, Arsalan Sharif-Nassab, S. Jamaloddin Golestani
+  title: 'One-Shot Federated Learning: Theoretical Limits and Algorithms to Achieve
+    Them.'
+  venue: J. Mach. Learn. Res.
+  year: '2021'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/SalehkaleybarSG21
+  doi: ''
+  ee: https://jmlr.org/papers/v22/19-1048.html
+  url: https://dblp.org/rec/journals/jmlr/SalehkaleybarSG21
 federate%20streamid%3Ajournals%2Fpami%3A:
 - author: Bowen Li, Lixin Fan, Hanlin Gu, Jie Li 0002, Qiang Yang 0001
   title: 'FedIPR: Ownership Verification for Federated Deep Neural Network Models.'
@@ -13394,6 +13459,16 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2024.3367412
   ee: https://doi.org/10.1109/TPAMI.2024.3367412
   url: https://dblp.org/rec/journals/pami/YangXHX24
+- author: Tao Sun 0005, Dongsheng Li 0001, Bao Wang 0001
+  title: Decentralized Federated Averaging.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/SunLW23
+  doi: 10.1109/TPAMI.2022.3196503
+  ee: https://doi.org/10.1109/TPAMI.2022.3196503
+  url: https://dblp.org/rec/journals/pami/SunLW23
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -28076,6 +28151,40 @@ federate%20venue%3ANAACL-HLT%3A:
   doi: 10.18653/V1/2024.NAACL-LONG.57
   ee: https://doi.org/10.18653/v1/2024.naacl-long.57
   url: https://dblp.org/rec/conf/naacl/ZhangDZXW24
+- author: Zhihan Guo, Yifei Zhang, Zhuo Zhang 0007, Zenglin Xu, Irwin King
+  title: 'FedLFC: Towards Efficient Federated Multilingual Modeling with LoRA-based
+    Language Family Clustering.'
+  venue: NAACL-HLT
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/GuoZZXK24
+  doi: 10.18653/V1/2024.FINDINGS-NAACL.98
+  ee: https://doi.org/10.18653/v1/2024.findings-naacl.98
+  url: https://dblp.org/rec/conf/naacl/GuoZZXK24
+- author: Rui Wang 0088, Tong Yu 0001, Ruiyi Zhang, Sungchul Kim, Ryan A. Rossi, Handong
+    Zhao, Junda Wu, Subrata Mitra, Lina Yao 0001, Ricardo Henao
+  title: Personalized Federated Learning for Text Classification with Gradient-Free
+    Prompt Tuning.
+  venue: NAACL-HLT
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/WangYZKRZWMYH24
+  doi: 10.18653/V1/2024.FINDINGS-NAACL.286
+  ee: https://doi.org/10.18653/v1/2024.findings-naacl.286
+  url: https://dblp.org/rec/conf/naacl/WangYZKRZWMYH24
+- author: Boxin Wang, Yibo Zhang, Yuan Cao, Bo Li 0026, Hugh McMahan, Sewoong Oh,
+    Zheng Xu 0002, Manzil Zaheer
+  title: Can Public Large Language Models Help Private Cross-device Federated Learning?
+  venue: NAACL-HLT
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/WangZCLMOXZ24
+  doi: 10.18653/V1/2024.FINDINGS-NAACL.59
+  ee: https://doi.org/10.18653/v1/2024.findings-naacl.59
+  url: https://dblp.org/rec/conf/naacl/WangZCLMOXZ24
 federate%20venue%3ASOSP%3A:
 - author: Elizabeth Margolin, Karan Newatia, Tao Luo, Edo Roth, Andreas Haeberlen
   title: 'Arboretum: A Planner for Large-Scale Federated Analytics with Differential

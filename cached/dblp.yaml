@@ -10803,6 +10803,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=x2zxPwCkAZ
   url: https://dblp.org/rec/conf/icml/LiXW0QXL0H024
+- author: Shiwei Li, Wenchao Xu 0001, Haozhao Wang, Xing Tang 0007, Yining Qi, Shijie
+    Xu, Weihong Luo, Yuhua Li 0003, Xiuqiang He, Ruixuan Li 0001
+  title: 'FedBAT: Communication-Efficient Federated Learning via Learnable Binarization.'
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LiXW0QXL0H024
+  doi: ''
+  ee: https://openreview.net/forum?id=x2zxPwCkAZ
+  url: https://dblp.org/rec/conf/icml/LiXW0QXL0H024
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -13290,6 +13301,17 @@ federate%20streamid%3Ajournals%2Fjmlr%3A:
   doi: ''
   ee: https://jmlr.org/papers/v22/19-1048.html
   url: https://dblp.org/rec/journals/jmlr/SalehkaleybarSG21
+- author: Shuxiao Chen, Qinqing Zheng, Qi Long, Weijie J. Su
+  title: 'Minimax Estimation for Personalized Federated Learning: An Alternative between
+    FedAvg and Local Training?'
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/ChenZLS23
+  doi: ''
+  ee: http://jmlr.org/papers/v24/21-0224.html
+  url: https://dblp.org/rec/journals/jmlr/ChenZLS23
 federate%20streamid%3Ajournals%2Fpami%3A:
 - author: Bowen Li, Lixin Fan, Hanlin Gu, Jie Li 0002, Qiang Yang 0001
   title: 'FedIPR: Ownership Verification for Federated Deep Neural Network Models.'

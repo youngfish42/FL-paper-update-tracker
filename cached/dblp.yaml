@@ -8122,6 +8122,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/74088c68894b99383c12399c9c637be9-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ParsonsDDSL23
+- author: Shiyun Lin, Yuze Han, Xiang Li 0050, Zhihua Zhang 0004
+  title: Personalized Federated Learning towards Communication Efficiency, Robustness
+    and Fairness.
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LinHLZ22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/c47e6286162ec5442e06fe2b7cb7145f-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LinHLZ22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -10814,6 +10825,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=x2zxPwCkAZ
   url: https://dblp.org/rec/conf/icml/LiXW0QXL0H024
+- author: Shiwei Li, Wenchao Xu 0001, Haozhao Wang, Xing Tang 0007, Yining Qi, Shijie
+    Xu, Weihong Luo, Yuhua Li 0003, Xiuqiang He 0001, Ruixuan Li 0001
+  title: 'FedBAT: Communication-Efficient Federated Learning via Learnable Binarization.'
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LiXW0QXL0H024
+  doi: ''
+  ee: https://openreview.net/forum?id=x2zxPwCkAZ
+  url: https://dblp.org/rec/conf/icml/LiXW0QXL0H024
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -13312,6 +13334,18 @@ federate%20streamid%3Ajournals%2Fjmlr%3A:
   doi: ''
   ee: http://jmlr.org/papers/v24/21-0224.html
   url: https://dblp.org/rec/journals/jmlr/ChenZLS23
+- author: "Jos\xE9 A. Carrillo 0001, Nicol\xE1s Garc\xEDa Trillos, Sixu Li, Yuhua\
+    \ Zhu"
+  title: 'FedCBO: Reaching Group Consensus in Clustered Federated Learning through
+    Consensus-based Optimization.'
+  venue: J. Mach. Learn. Res.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/0001TLZ24
+  doi: ''
+  ee: https://jmlr.org/papers/v25/23-0764.html
+  url: https://dblp.org/rec/journals/jmlr/0001TLZ24
 federate%20streamid%3Ajournals%2Fpami%3A:
 - author: Bowen Li, Lixin Fan, Hanlin Gu, Jie Li 0002, Qiang Yang 0001
   title: 'FedIPR: Ownership Verification for Federated Deep Neural Network Models.'
@@ -24517,6 +24551,16 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583542
   ee: https://doi.org/10.1145/3543507.3583542
   url: https://dblp.org/rec/conf/www/ZhangBCMSWNXWL23
+- author: Anupam Gupta 0008, Pabitra Mitra, Sudip Misra
+  title: 'HBIAS FedAvg: Smooth Federated Learning Transition for In-use Edge Models.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/GuptaMM24
+  doi: 10.1145/3589335.3651518
+  ee: https://doi.org/10.1145/3589335.3651518
+  url: https://dblp.org/rec/conf/www/GuptaMM24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

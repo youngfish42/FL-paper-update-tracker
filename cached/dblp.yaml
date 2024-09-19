@@ -13525,6 +13525,27 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2022.3196503
   ee: https://doi.org/10.1109/TPAMI.2022.3196503
   url: https://dblp.org/rec/journals/pami/SunLW23
+- author: Dohyeok Kwon, Jonghwan Park, Songnam Hong 0001
+  title: Tighter Regret Analysis and Optimization of Online Federated Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/KwonPH23
+  doi: 10.1109/TPAMI.2023.3316672
+  ee: https://doi.org/10.1109/TPAMI.2023.3316672
+  url: https://dblp.org/rec/journals/pami/KwonPH23
+- author: Songnam Hong 0001, Jeongmin Chae
+  title: Communication-Efficient Randomized Algorithm for Multi-Kernel Online Federated
+    Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/HongC22
+  doi: 10.1109/TPAMI.2021.3129809
+  ee: https://doi.org/10.1109/TPAMI.2021.3129809
+  url: https://dblp.org/rec/journals/pami/HongC22
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

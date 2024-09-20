@@ -21275,6 +21275,48 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3547305.3547316
   ee: https://www.vldb.org/pvldb/vol15/p2111-fu.pdf
   url: https://dblp.org/rec/journals/pvldb/FuMJXC22
+- author: Linshan Jiang, Moming Duan, Bingsheng He, Yulin Sun, Peishen Yan, Yang Hua,
+    Tao Song
+  title: 'OFL-W3: A One-shot Federated Learning System on Web 3.0.'
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/JiangDHSYHS24
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol17/p4461-jiang.pdf
+  url: https://dblp.org/rec/journals/pvldb/JiangDHSYHS24
+- author: Fumiyuki Kato, Li Xiong 0001, Shun Takagi, Yang Cao 0011, Masatoshi Yoshikawa
+  title: 'Uldp-FL: Federated Learning with Across Silo User-Level Differential Privacy.'
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/KatoXTCY24
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol17/p2826-kato.pdf
+  url: https://dblp.org/rec/journals/pvldb/KatoXTCY24
+- author: Shuyue Wei, Yuanyuan Zhang, Zimu Zhou, Tianlong Zhang, Ke Xu
+  title: 'FedSM: A Practical Federated Shared Mobility System.'
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/WeiZZZX24
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol17/p4445-wei.pdf
+  url: https://dblp.org/rec/journals/pvldb/WeiZZZX24
+- author: Zeqi Zhu, Zeheng Fan, Yuxiang Zeng, Yexuan Shi, Yi Xu, Mengmeng Zhou, Jin
+    Dong
+  title: 'FedSQ: A Secure System for Federated Vector Similarity Queries.'
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhuFZSXZD24
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol17/p4441-zhu.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhuFZSXZD24
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -26717,6 +26759,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3349617
   ee: https://doi.org/10.1109/TPDS.2024.3349617
   url: https://dblp.org/rec/journals/tpds/WuURKSV24
+- author: Yichen Li 0006, Wenchao Xu 0001, Yining Qi, Haozhao Wang, Ruixuan Li 0001,
+    Song Guo 0001
+  title: 'SR-FDIL: Synergistic Replay for Federated Domain-Incremental Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiXQWLG24
+  doi: 10.1109/TPDS.2024.3436874
+  ee: https://doi.org/10.1109/TPDS.2024.3436874
+  url: https://dblp.org/rec/journals/tpds/LiXQWLG24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

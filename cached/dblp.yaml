@@ -15062,6 +15062,60 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SPW59333.2023.00011
   ee: https://doi.org/10.1109/SPW59333.2023.00011
   url: https://dblp.org/rec/conf/sp/KhanSHA23
+- author: Yangfan Jiang, Xinjian Luo, Yuncheng Wu, Xiaokui Xiao, Beng Chin Ooi
+  title: Protecting Label Distribution in Cross-Silo Federated Learning.
+  venue: SP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/JiangLWXO24
+  doi: 10.1109/SP54263.2024.00113
+  ee: https://doi.org/10.1109/SP54263.2024.00113
+  url: https://dblp.org/rec/conf/sp/JiangLWXO24
+- author: Ehsanul Kabir, Zeyu Song, Md. Rafi Ur Rashid, Shagufta Mehnaz
+  title: 'FLShield: A Validation Based Federated Learning Framework to Defend Against
+    Poisoning Attacks.'
+  venue: SP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/KabirSRM24
+  doi: 10.1109/SP54263.2024.00141
+  ee: https://doi.org/10.1109/SP54263.2024.00141
+  url: https://dblp.org/rec/conf/sp/KabirSRM24
+- author: Mohammad Naseri, Yufei Han, Emiliano De Cristofaro
+  title: 'BadVFL: Backdoor Attacks in Vertical Federated Learning.'
+  venue: SP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/NaseriHC24
+  doi: 10.1109/SP54263.2024.00008
+  ee: https://doi.org/10.1109/SP54263.2024.00008
+  url: https://dblp.org/rec/conf/sp/NaseriHC24
+- author: Chamara Sandeepa, Bartlomiej Siniarski, Shen Wang 0006, Madhusanka Liyanage
+  title: 'SHERPA: Explainable Robust Algorithms for Privacy-Preserved Federated Learning
+    in Future Networks to Defend Against Data Poisoning Attacks.'
+  venue: SP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/SandeepaSWL24
+  doi: 10.1109/SP54263.2024.00271
+  ee: https://doi.org/10.1109/SP54263.2024.00271
+  url: https://dblp.org/rec/conf/sp/SandeepaSWL24
+- author: Joshua C. Zhao, Atul Sharma, Ahmed Roushdy Elkordy, Yahya H. Ezzeldin, Salman
+    Avestimehr, Saurabh Bagchi
+  title: 'Loki: Large-scale Data Reconstruction Attack against Federated Learning
+    through Model Manipulation.'
+  venue: SP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/ZhaoSEEAB24
+  doi: 10.1109/SP54263.2024.00030
+  ee: https://doi.org/10.1109/SP54263.2024.00030
+  url: https://dblp.org/rec/conf/sp/ZhaoSEEAB24
 federate%20venue%3ACCS%3A:
 - author: Amrita Roy Chowdhury 0001, Chuan Guo, Somesh Jha, Laurens van der Maaten
   title: 'EIFFeL: Ensuring Integrity for Federated Learning.'

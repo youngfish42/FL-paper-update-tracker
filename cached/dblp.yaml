@@ -13546,6 +13546,16 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2021.3129809
   ee: https://doi.org/10.1109/TPAMI.2021.3129809
   url: https://dblp.org/rec/journals/pami/HongC22
+- author: Qiaoling Ye, Arash A. Amini, Qing Zhou
+  title: Federated Learning of Generalized Linear Causal Networks.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/YeAZ24
+  doi: 10.1109/TPAMI.2024.3381860
+  ee: https://doi.org/10.1109/TPAMI.2024.3381860
+  url: https://dblp.org/rec/journals/pami/YeAZ24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -15666,6 +15676,50 @@ federate%20venue%3ANDSS%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
   url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: "Phillip Rieger, Torsten Krau\xDF, Markus Miettinen, Alexandra Dmitrienko,\
+    \ Ahmad-Reza Sadeghi"
+  title: 'CrowdGuard: Federated Backdoor Detection in Federated Learning.'
+  venue: NDSS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/RiegerKMDS24
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/crowdguard-federated-backdoor-detection-in-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/RiegerKMDS24
+- author: Meenatchi Sundaram Muthu Selva Annamalai, Igor Bilogrevic, Emiliano De Cristofaro
+  title: 'FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting.'
+  venue: NDSS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/AnnamalaiBC24
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/fp-fed-privacy-preserving-federated-detection-of-browser-fingerprinting/
+  url: https://dblp.org/rec/conf/ndss/AnnamalaiBC24
+- author: Hossein Fereidooni, Alessandro Pegoraro, Phillip Rieger, Alexandra Dmitrienko,
+    Ahmad-Reza Sadeghi
+  title: 'FreqFed: A Frequency Analysis-Based Approach for Mitigating Poisoning Attacks
+    in Federated Learning.'
+  venue: NDSS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/FereidooniPRDS24
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/freqfed-a-frequency-analysis-based-approach-for-mitigating-poisoning-attacks-in-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/FereidooniPRDS24
+- author: "Torsten Krau\xDF, Jan K\xF6nig, Alexandra Dmitrienko, Christian Kanzow"
+  title: Automatic Adversarial Adaption for Stealthy Poisoning Attacks in Federated
+    Learning.
+  venue: NDSS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/KraussKDK24
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/automatic-adversarial-adaption-for-stealthy-poisoning-attacks-in-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/KraussKDK24
 federate%20venue%3ACVPR%3A:
 - author: Yiqing Shen 0003, Yuyin Zhou, Lequan Yu
   title: 'CD2-pFed: Cyclic Distillation-guided Channel Decoupling for Model Personalization
@@ -18396,6 +18450,16 @@ federate%20venue%3AACL%3A:
   key: conf/acl/ZengYZS024
   doi: ''
   ee: https://aclanthology.org/2024.findings-acl.595
+  url: https://dblp.org/rec/conf/acl/ZengYZS024
+- author: Huimin Zeng, Zhenrui Yue, Yang Zhang 0031, Lanyu Shang, Dong Wang 0002
+  title: Fair Federated Learning with Biased Vision-Language Models.
+  venue: ACL
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/ZengYZS024
+  doi: 10.18653/V1/2024.FINDINGS-ACL.595
+  ee: https://doi.org/10.18653/v1/2024.findings-acl.595
   url: https://dblp.org/rec/conf/acl/ZengYZS024
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\

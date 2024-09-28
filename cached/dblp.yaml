@@ -14653,6 +14653,18 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671660
   ee: https://doi.org/10.1145/3637528.3671660
   url: https://dblp.org/rec/conf/kdd/GuoYYL24
+- author: Ronghui Xu 0003, Hao Miao 0001, Senzhang Wang, Philip S. Yu, Jianxin Wang
+    0001
+  title: 'PeFAD: A Parameter-Efficient Federated Framework for Time Series Anomaly
+    Detection.'
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/Xu0WY024
+  doi: 10.1145/3637528.3671753
+  ee: https://doi.org/10.1145/3637528.3671753
+  url: https://dblp.org/rec/conf/kdd/Xu0WY024
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.

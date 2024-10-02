@@ -873,6 +873,18 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2022/308
   ee: https://doi.org/10.24963/ijcai.2022/308
   url: https://dblp.org/rec/conf/ijcai/ShangLHW22
+- author: Mingyang Chen, Wen Zhang 0015, Zhen Yao 0001, Xiangnan Chen, Mengxiao Ding,
+    Fei Huang 0004, Huajun Chen
+  title: Meta-Learning Based Knowledge Extrapolation for Knowledge Graphs in the Federated
+    Setting.
+  venue: IJCAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Chen0YCDHC22
+  doi: 10.24963/IJCAI.2022/273
+  ee: https://doi.org/10.24963/ijcai.2022/273
+  url: https://dblp.org/rec/conf/ijcai/Chen0YCDHC22
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -4605,6 +4617,27 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I12.29254
   ee: https://doi.org/10.1609/aaai.v38i12.29254
   url: https://dblp.org/rec/conf/aaai/LiLW24b
+- author: Shangchao Su, Mingzhao Yang, Bin Li 0015, Xiangyang Xue 0001
+  title: Federated Adaptive Prompt Tuning for Multi-Domain Collaborative Learning.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/SuY0X24
+  doi: 10.1609/AAAI.V38I13.29434
+  ee: https://doi.org/10.1609/aaai.v38i13.29434
+  url: https://dblp.org/rec/conf/aaai/SuY0X24
+- author: Mingzhao Yang, Shangchao Su, Bin Li 0015, Xiangyang Xue 0001
+  title: Exploring One-Shot Semi-supervised Federated Learning with Pre-trained Diffusion
+    Models.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YangSLX24
+  doi: 10.1609/AAAI.V38I15.29568
+  ee: https://doi.org/10.1609/aaai.v38i15.29568
+  url: https://dblp.org/rec/conf/aaai/YangSLX24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -14729,6 +14762,28 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671930
   ee: https://doi.org/10.1145/3637528.3671930
   url: https://dblp.org/rec/conf/kdd/ZhangWLWCG24
+- author: Sungwon Park 0001, Sungwon Han 0001, Fangzhao Wu, Sundong Kim, Bin Zhu 0006,
+    Xing Xie 0001, Meeyoung Cha
+  title: 'FedDefender: Client-Side Attack-Tolerant Federated Learning.'
+  venue: KDD
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/00010WKZ0C23
+  doi: 10.1145/3580305.3599346
+  ee: https://doi.org/10.1145/3580305.3599346
+  url: https://dblp.org/rec/conf/kdd/00010WKZ0C23
+- author: Jingwei Yi, Fangzhao Wu, Bin Zhu 0006, Jing Yao, Zhulin Tao, Guangzhong
+    Sun, Xing Xie 0001
+  title: 'UA-FedRec: Untargeted Attack on Federated News Recommendation.'
+  venue: KDD
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/YiWZYTS023
+  doi: 10.1145/3580305.3599923
+  ee: https://doi.org/10.1145/3580305.3599923
+  url: https://dblp.org/rec/conf/kdd/YiWZYTS023
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -17328,6 +17383,17 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.01559
   ee: https://doi.org/10.1109/ICCV51070.2023.01559
   url: https://dblp.org/rec/conf/iccv/ChenWP0Y0FP23
+- author: Sungwon Han 0001, Sungwon Park 0001, Fangzhao Wu, Sundong Kim, Bin Zhu 0006,
+    Xing Xie 0001, Meeyoung Cha
+  title: Towards Attack-tolerant Federated Learning via Critical Parameter Analysis.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/00010WKZ0C23
+  doi: 10.1109/ICCV51070.2023.00461
+  ee: https://doi.org/10.1109/ICCV51070.2023.00461
+  url: https://dblp.org/rec/conf/iccv/00010WKZ0C23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -26996,6 +27062,28 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3436874
   ee: https://doi.org/10.1109/TPDS.2024.3436874
   url: https://dblp.org/rec/journals/tpds/LiXQWLG24
+- author: Ping Luo, Jieren Cheng, Neal Xiong 0001, Zhenhao Liu, Jie Wu 0001
+  title: 'FedVeca: Federated Vectorized Averaging on Non-IID Data With Adaptive Bi-Directional
+    Global Objective.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LuoCXLW24
+  doi: 10.1109/TPDS.2024.3454203
+  ee: https://doi.org/10.1109/TPDS.2024.3454203
+  url: https://dblp.org/rec/journals/tpds/LuoCXLW24
+- author: Lan Zhang 0002, Anran Li, Hongyi Peng, Feng Han, Fan Huang, Xiang-Yang Li
+    0001
+  title: Privacy-Preserving Data Selection for Horizontal and Vertical Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhangLPHHL24
+  doi: 10.1109/TPDS.2024.3439709
+  ee: https://doi.org/10.1109/TPDS.2024.3439709
+  url: https://dblp.org/rec/journals/tpds/ZhangLPHHL24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

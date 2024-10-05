@@ -12886,6 +12886,16 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=FIrQfNSOoTr
   url: https://dblp.org/rec/conf/iclr/Ma0CLG023
+- author: Chuanhao Li, Chong Liu, Yu-Xiang Wang 0003
+  title: Communication-Efficient Federated Non-Linear Bandit Optimization.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiLW24
+  doi: ''
+  ee: https://openreview.net/forum?id=nFI3wFM9yN
+  url: https://dblp.org/rec/conf/iclr/LiLW24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -16922,6 +16932,105 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.01164
   ee: https://doi.org/10.1109/CVPR52733.2024.01164
   url: https://dblp.org/rec/conf/cvpr/ZhaoDSB24
+- author: K. Naveen Kumar, Reshmi Mitra, C. Krishna Mohan
+  title: 'Revamping Federated Learning Security from a Defender&apos;s Perspective:
+    A Unified Defense with Homomorphic Encrypted Data Space.'
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/KumarMM24
+  doi: 10.1109/CVPR52733.2024.02302
+  ee: https://doi.org/10.1109/CVPR52733.2024.02302
+  url: https://dblp.org/rec/conf/cvpr/KumarMM24
+- author: Khiem Le, Long Ho, Cuong Do 0001, Danh Le Phuoc, Kok-Seng Wong
+  title: Efficiently Assemble Normalization Layers and Regularization for Federated
+    Domain Generalization.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LeH0LW24
+  doi: 10.1109/CVPR52733.2024.00576
+  ee: https://doi.org/10.1109/CVPR52733.2024.00576
+  url: https://dblp.org/rec/conf/cvpr/LeH0LW24
+- author: Xinting Liao, Weiming Liu 0005, Chaochao Chen 0001, Pengyang Zhou, Fengyuan
+    Yu, Huabin Zhu, Binhui Yao, Tao Wang, Xiaolin Zheng, Yanchao Tan
+  title: Rethinking the Representation in Federated Unsupervised Learning with Non-IID
+    Data.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/Liao00ZYZYWZT24
+  doi: 10.1109/CVPR52733.2024.02155
+  ee: https://doi.org/10.1109/CVPR52733.2024.02155
+  url: https://dblp.org/rec/conf/cvpr/Liao00ZYZYWZT24
+- author: Yingqi Liu, Yifan Shi, Baoyuan Wu, Qinglun Li, Xueqian Wang 0001, Li Shen
+    0008
+  title: Decentralized Directed Collaboration for Personalized Federated Learning.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LiuSWL0024
+  doi: 10.1109/CVPR52733.2024.02186
+  ee: https://doi.org/10.1109/CVPR52733.2024.02186
+  url: https://dblp.org/rec/conf/cvpr/LiuSWL0024
+- author: Matteo Poggi, Fabio Tosi
+  title: Federated Online Adaptation for Deep Stereo.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/PoggiT24
+  doi: 10.1109/CVPR52733.2024.01906
+  ee: https://doi.org/10.1109/CVPR52733.2024.01906
+  url: https://dblp.org/rec/conf/cvpr/PoggiT24
+- author: Peng Sun, Xinyang Liu, Zhibo Wang, Bo Liu
+  title: Byzantine-robust Decentralized Federated Learning via Dual-domain Clustering
+    and Trust Bootstrapping.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/SunLWL24
+  doi: 10.1109/CVPR52733.2024.02338
+  ee: https://doi.org/10.1109/CVPR52733.2024.02338
+  url: https://dblp.org/rec/conf/cvpr/SunLWL24
+- author: Rishub Tamirisa, Chulin Xie, Wenxuan Bao, Andy Zhou, Ron Arel, Aviv Shamsian
+  title: 'FedSelect: Personalized Federated Learning with Customized Selection of
+    Parameters for Fine-Tuning.'
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/TamirisaXBZAS24
+  doi: 10.1109/CVPR52733.2024.02264
+  ee: https://doi.org/10.1109/CVPR52733.2024.02264
+  url: https://dblp.org/rec/conf/cvpr/TamirisaXBZAS24
+- author: Minh-Tuan Tran, Trung Le, Xuan-May Le, Mehrtash Harandi, Dinh Phung
+  title: Text-Enhanced Data-Free Approach for Federated Class-Incremental Learning.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/TranLLHP24
+  doi: 10.1109/CVPR52733.2024.02253
+  ee: https://doi.org/10.1109/CVPR52733.2024.02253
+  url: https://dblp.org/rec/conf/cvpr/TranLLHP24
+- author: Chulin Xie, De-An Huang, Wenda Chu, Daguang Xu, Chaowei Xiao, Bo Li, Anima
+    Anandkumar
+  title: 'Perada: Parameter-Efficient Federated Learning Personalization with Generalization
+    Guarantees.'
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/XieHCXXLA24
+  doi: 10.1109/CVPR52733.2024.02250
+  ee: https://doi.org/10.1109/CVPR52733.2024.02250
+  url: https://dblp.org/rec/conf/cvpr/XieHCXXLA24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -20430,6 +20539,17 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/3448016.3457241
   ee: https://doi.org/10.1145/3448016.3457241
   url: https://dblp.org/rec/conf/sigmod/FuSYJXT021
+- author: Anran Li, Yuanyuan Chen, Jian Zhang 0001, Mingfei Cheng, Yihao Huang 0001,
+    Yueming Wu, Anh Tuan Luu, Han Yu 0001
+  title: Historical Embedding-Guided Efficient Large-Scale Federated Graph Learning.
+  venue: Proc. ACM Manag. Data
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/LiCZC0WL024
+  doi: 10.1145/3654947
+  ee: https://doi.org/10.1145/3654947
+  url: https://dblp.org/rec/journals/pacmmod/LiCZC0WL024
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous
@@ -27840,6 +27960,16 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2023.3346274
   ee: https://doi.org/10.1109/TCAD.2023.3346274
   url: https://dblp.org/rec/journals/tcad/CaoWCZZJZ24
+- author: Zhenge Jia, Tianren Zhou, Zheyu Yan, Jingtong Hu, Yiyu Shi 0001
+  title: Personalized Meta-Federated Learning for IoT-Enabled Health Monitoring.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/JiaZYHS24
+  doi: 10.1109/TCAD.2024.3388908
+  ee: https://doi.org/10.1109/TCAD.2024.3388908
+  url: https://dblp.org/rec/journals/tcad/JiaZYHS24
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

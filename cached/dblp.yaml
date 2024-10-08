@@ -4638,6 +4638,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I15.29568
   ee: https://doi.org/10.1609/aaai.v38i15.29568
   url: https://dblp.org/rec/conf/aaai/YangSLX24
+- author: Shanli Tan, Hao Cheng 0014, Xiaohu Wu, Han Yu, Tiantian He 0001, Yew Soon
+    Ong, Chongjun Wang, Xiaofeng Tao
+  title: 'FedCompetitors: Harmonious Collaboration in Federated Learning with Competing
+    Participants.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/TanCWYHOWT24
+  doi: 10.1609/AAAI.V38I14.29446
+  ee: https://doi.org/10.1609/aaai.v38i14.29446
+  url: https://dblp.org/rec/conf/aaai/TanCWYHOWT24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -17031,6 +17043,71 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.02250
   ee: https://doi.org/10.1109/CVPR52733.2024.02250
   url: https://dblp.org/rec/conf/cvpr/XieHCXXLA24
+- author: Sikai Bai, Jie Zhang, Song Guo, Shuaicheng Li, Jingcai Guo, Jun Hou, Tao
+    Han, Xiaocheng Lu
+  title: 'DiPrompT: Disentangled Prompt Tuning for Multiple Latent Domain Generalization
+    in Federated Learning.'
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/BaiZGLGHHL24
+  doi: 10.1109/CVPR52733.2024.02576
+  ee: https://doi.org/10.1109/CVPR52733.2024.02576
+  url: https://dblp.org/rec/conf/cvpr/BaiZGLGHHL24
+- author: Hong Huang, Weiming Zhuang, Chen Chen 0043, Lingjuan Lyu
+  title: 'FedMef: Towards Memory-Efficient Federated Dynamic Pruning.'
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/HuangZ0L24
+  doi: 10.1109/CVPR52733.2024.02601
+  ee: https://doi.org/10.1109/CVPR52733.2024.02601
+  url: https://dblp.org/rec/conf/cvpr/HuangZ0L24
+- author: Nan Pu, Wenjing Li 0005, Xingyuan Ji, Yalan Qin, Nicu Sebe, Zhun Zhong
+  title: Federated Generalized Category Discovery.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/Pu0JQSZ24
+  doi: 10.1109/CVPR52733.2024.02715
+  ee: https://doi.org/10.1109/CVPR52733.2024.02715
+  url: https://dblp.org/rec/conf/cvpr/Pu0JQSZ24
+- author: Minh-Tuan Tran, Trung Le, Xuan-May Le, Mehrtash Harandi, Dinh Phung 0001
+  title: Text-Enhanced Data-Free Approach for Federated Class-Incremental Learning.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/TranLLHP24
+  doi: 10.1109/CVPR52733.2024.02253
+  ee: https://doi.org/10.1109/CVPR52733.2024.02253
+  url: https://dblp.org/rec/conf/cvpr/TranLLHP24
+- author: Yuan Wang, Huazhu Fu, Renuga Kanagavelu, Qingsong Wei, Yong Liu, Rick Siow
+    Mong Goh
+  title: An Aggregation-Free Federated Learning for Tackling Data Heterogeneity.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/WangFKWLG24
+  doi: 10.1109/CVPR52733.2024.02478
+  ee: https://doi.org/10.1109/CVPR52733.2024.02478
+  url: https://dblp.org/rec/conf/cvpr/WangFKWLG24
+- author: Chulin Xie, De-An Huang, Wenda Chu, Daguang Xu, Chaowei Xiao, Bo Li 0026,
+    Anima Anandkumar
+  title: 'Perada: Parameter-Efficient Federated Learning Personalization with Generalization
+    Guarantees.'
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/XieHCXXLA24
+  doi: 10.1109/CVPR52733.2024.02250
+  ee: https://doi.org/10.1109/CVPR52733.2024.02250
+  url: https://dblp.org/rec/conf/cvpr/XieHCXXLA24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -27504,6 +27581,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3454203
   ee: https://doi.org/10.1109/TPDS.2024.3454203
   url: https://dblp.org/rec/journals/tpds/LuoCXLW24
+- author: Renyou Xie, Chaojie Li, Xiaojun Zhou, Zhaoyang Dong
+  title: Accelerating Communication-Efficient Federated Multi-Task Learning With Personalization
+    and Fairness.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/XieLZD24
+  doi: 10.1109/TPDS.2024.3411815
+  ee: https://doi.org/10.1109/TPDS.2024.3411815
+  url: https://dblp.org/rec/journals/tpds/XieLZD24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

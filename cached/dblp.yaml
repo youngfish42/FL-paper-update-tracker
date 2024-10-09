@@ -13314,6 +13314,16 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-024-06541-Y
   ee: https://doi.org/10.1007/s10994-024-06541-y
   url: https://dblp.org/rec/journals/ml/WangZLWGL24
+- author: Lan Li 0001, De-Chuan Zhan, Xin-Chun Li
+  title: Aligning model outputs for class imbalanced non-IID federated learning.
+  venue: Mach. Learn.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/LiZL24
+  doi: 10.1007/S10994-022-06241-5
+  ee: https://doi.org/10.1007/s10994-022-06241-5
+  url: https://dblp.org/rec/journals/ml/LiZL24
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -17108,6 +17118,29 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.02250
   ee: https://doi.org/10.1109/CVPR52733.2024.02250
   url: https://dblp.org/rec/conf/cvpr/XieHCXXLA24
+- author: Sikai Bai, Jie Zhang 0076, Song Guo 0001, Shuaicheng Li, Jingcai Guo, Jun
+    Hou, Tao Han, Xiaocheng Lu
+  title: 'DiPrompT: Disentangled Prompt Tuning for Multiple Latent Domain Generalization
+    in Federated Learning.'
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/BaiZGLGHHL24
+  doi: 10.1109/CVPR52733.2024.02576
+  ee: https://doi.org/10.1109/CVPR52733.2024.02576
+  url: https://dblp.org/rec/conf/cvpr/BaiZGLGHHL24
+- author: Yuan Wang 0008, Huazhu Fu, Renuga Kanagavelu, Qingsong Wei, Yong Liu 0026,
+    Rick Siow Mong Goh
+  title: An Aggregation-Free Federated Learning for Tackling Data Heterogeneity.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/WangFKWLG24
+  doi: 10.1109/CVPR52733.2024.02478
+  ee: https://doi.org/10.1109/CVPR52733.2024.02478
+  url: https://dblp.org/rec/conf/cvpr/WangFKWLG24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

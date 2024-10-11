@@ -18203,6 +18203,18 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-19803-8_26
   ee: https://doi.org/10.1007/978-3-031-19803-8_26
   url: https://dblp.org/rec/conf/eccv/GuoYHXXLZXHTTWP22
+- author: Yichen Li 0006, Wenchao Xu 0001, Haozhao Wang, Yining Qi, Jingcai Guo, Ruixuan
+    Li 0001
+  title: Personalized Federated Domain-Incremental Learning Based on Adaptive Knowledge
+    Matching.
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/LiXWQGL24
+  doi: 10.1007/978-3-031-72952-2_8
+  ee: https://doi.org/10.1007/978-3-031-72952-2_8
+  url: https://dblp.org/rec/conf/eccv/LiXWQGL24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

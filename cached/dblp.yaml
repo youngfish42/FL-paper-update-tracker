@@ -4650,6 +4650,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I14.29446
   ee: https://doi.org/10.1609/aaai.v38i14.29446
   url: https://dblp.org/rec/conf/aaai/TanCWYHOWT24
+- author: Yutong Dai 0002, Zeyuan Chen, Junnan Li 0001, Shelby Heinecke, Lichao Sun
+    0001, Ran Xu 0001
+  title: Tackling Data Heterogeneity in Federated Learning with Class Prototypes.
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/0002C0H0X23
+  doi: 10.1609/AAAI.V37I6.25891
+  ee: https://doi.org/10.1609/aaai.v37i6.25891
+  url: https://dblp.org/rec/conf/aaai/0002C0H0X23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -27659,6 +27670,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3411815
   ee: https://doi.org/10.1109/TPDS.2024.3411815
   url: https://dblp.org/rec/journals/tpds/XieLZD24
+- author: Renwen Ma, Kai Hwang 0001, Mo Li, Yiming Miao
+  title: Trusted Model Aggregation With Zero-Knowledge Proofs in Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/MaHLM24
+  doi: 10.1109/TPDS.2024.3455762
+  ee: https://doi.org/10.1109/TPDS.2024.3455762
+  url: https://dblp.org/rec/journals/tpds/MaHLM24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

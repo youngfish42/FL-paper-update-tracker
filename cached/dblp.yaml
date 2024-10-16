@@ -10969,6 +10969,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/kariyappa23a.html
   url: https://dblp.org/rec/conf/icml/KariyappaGM0SQL23
+- author: Saber Malekmohammadi, Yaoliang Yu, Yang Cao 0011
+  title: Noise-Aware Algorithm for Heterogeneous Differentially Private Federated
+    Learning.
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/MalekmohammadiY24
+  doi: ''
+  ee: https://openreview.net/forum?id=wuQ2DRPAuy
+  url: https://dblp.org/rec/conf/icml/MalekmohammadiY24
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -12930,6 +12941,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=nFI3wFM9yN
   url: https://dblp.org/rec/conf/iclr/LiLW24
+- author: Yujun Shi, Jian Liang 0001, Wenqing Zhang, Vincent Y. F. Tan, Song Bai
+  title: Towards Understanding and Mitigating Dimensional Collapse in Heterogeneous
+    Federated Learning.
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ShiLZTB23
+  doi: ''
+  ee: https://openreview.net/forum?id=EXnIyMVTL8s
+  url: https://dblp.org/rec/conf/iclr/ShiLZTB23
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -13730,6 +13752,17 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2024.3381860
   ee: https://doi.org/10.1109/TPAMI.2024.3381860
   url: https://dblp.org/rec/journals/pami/YeAZ24
+- author: Yujun Shi, Jian Liang 0001, Wenqing Zhang, Chuhui Xue, Vincent Y. F. Tan,
+    Song Bai
+  title: Understanding and Mitigating Dimensional Collapse in Federated Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ShiLZXTB24
+  doi: 10.1109/TPAMI.2023.3338063
+  ee: https://doi.org/10.1109/TPAMI.2023.3338063
+  url: https://dblp.org/rec/journals/pami/ShiLZXTB24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

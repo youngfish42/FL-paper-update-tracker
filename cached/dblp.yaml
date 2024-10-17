@@ -8211,6 +8211,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/bdcdf38389d7fcefc73c4c3720217155-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangZZ0PL023
+- author: Mi Luo, Fei Chen 0013, Dapeng Hu, Yifan Zhang 0004, Jian Liang 0001, Jiashi
+    Feng
+  title: 'No Fear of Heterogeneity: Classifier Calibration for Federated Learning
+    with Non-IID Data.'
+  venue: NeurIPS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LuoCHZLF21
+  doi: ''
+  ee: https://proceedings.neurips.cc/paper/2021/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html
+  url: https://dblp.org/rec/conf/nips/LuoCHZLF21
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -16014,6 +16026,17 @@ federate%20venue%3ANDSS%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/automatic-adversarial-adaption-for-stealthy-poisoning-attacks-in-federated-learning/
   url: https://dblp.org/rec/conf/ndss/KraussKDK24
+- author: Chunyi Zhou, Yansong Gao 0001, Anmin Fu, Kai Chen 0012, Zhiyang Dai, Zhi
+    Zhang 0001, Minhui Xue 0001, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
 federate%20venue%3ACVPR%3A:
 - author: Yiqing Shen 0003, Yuyin Zhou, Lequan Yu
   title: 'CD2-pFed: Cyclic Distillation-guided Channel Decoupling for Model Personalization
@@ -25513,6 +25536,42 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589335.3651518
   ee: https://doi.org/10.1145/3589335.3651518
   url: https://dblp.org/rec/conf/www/GuptaMM24
+- author: Nan Wu, Xin Yuan 0004, Shuo Wang 0012, Hongsheng Hu, Minhui Xue 0001
+  title: 'Cardinality Counting in &quot;Alcatraz&quot;: A Privacy-aware Federated
+    Learning Approach.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WuYWHX24
+  doi: 10.1145/3589334.3645655
+  ee: https://doi.org/10.1145/3589334.3645655
+  url: https://dblp.org/rec/conf/www/WuYWHX24
+- author: Yanjun Zhang, Ruoxi Sun 0001, Liyue Shen, Guangdong Bai, Minhui Xue 0001,
+    Mark Huasong Meng, Xue Li 0001, Ryan K. L. Ko, Surya Nepal
+  title: Privacy-Preserving and Fairness-Aware Federated Learning for Critical Infrastructure
+    Protection and Resilience.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/Zhang0SBXMLKN24
+  doi: 10.1145/3589334.3645545
+  ee: https://doi.org/10.1145/3589334.3645545
+  url: https://dblp.org/rec/conf/www/Zhang0SBXMLKN24
+- author: Yanjun Zhang, Guangdong Bai, Mahawaga Arachchige Pathum Chamikara, Mengyao
+    Ma, Liyue Shen, Jingwei Wang 0003, Surya Nepal, Minhui Xue 0001, Long Wang, Joseph
+    K. Liu
+  title: 'AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated
+    Learning.'
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangBCMSWNXWL23
+  doi: 10.1145/3543507.3583542
+  ee: https://doi.org/10.1145/3543507.3583542
+  url: https://dblp.org/rec/conf/www/ZhangBCMSWNXWL23
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

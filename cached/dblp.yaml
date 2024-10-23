@@ -1719,6 +1719,17 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/632
   url: https://dblp.org/rec/conf/ijcai/ZhuLWWHL24
+- author: Yi Xu 0015, Ying Li, Haoyu Luo, Xiaoliang Fan, Xiao Liu 0004
+  title: 'FBLG: A Local Graph Based Approach for Handling Dual Skewed Non-IID Data
+    in Federated Learning.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/XuLLFL24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/585
+  url: https://dblp.org/rec/conf/ijcai/XuLLFL24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -9110,6 +9121,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/04bd683d5428d91c5fbb5a7d2c27064d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiHH23
+- author: Sen Cui, Weishen Pan, Jian Liang 0002, Changshui Zhang, Fei Wang 0001
+  title: Addressing Algorithmic Disparity and Performance Inconsistency in Federated
+    Learning.
+  venue: NeurIPS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/CuiPLZW21
+  doi: ''
+  ee: https://proceedings.neurips.cc/paper/2021/hash/db8e1af0cb3aca1ae2d0018624204529-Abstract.html
+  url: https://dblp.org/rec/conf/nips/CuiPLZW21
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -15857,6 +15879,17 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3534678.3539237
   ee: https://doi.org/10.1145/3534678.3539237
   url: https://dblp.org/rec/conf/kdd/CuiLPCZW22
+- author: Sen Cui, Jian Liang 0002, Weishen Pan, Kun Chen 0002, Changshui Zhang, Fei
+    Wang 0001
+  title: Collaboration Equilibrium in Federated Learning.
+  venue: KDD
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/CuiLPCZW22
+  doi: 10.1145/3534678.3539237
+  ee: https://doi.org/10.1145/3534678.3539237
+  url: https://dblp.org/rec/conf/kdd/CuiLPCZW22
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -19824,6 +19857,16 @@ federate%20streamid%3Ajournals%2Fijcv%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Ziyuan Yang 0001, Andrew Beng Jin Teoh, Bob Zhang, Lu Leng, Yi Zhang 0018
+  title: Physics-Driven Spectrum-Consistent Federated Learning for Palmprint Verification.
+  venue: Int. J. Comput. Vis.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/YangTZLZ24
+  doi: 10.1007/S11263-024-02077-9
+  ee: https://doi.org/10.1007/s11263-024-02077-9
+  url: https://dblp.org/rec/journals/ijcv/YangTZLZ24
 federate%20venue%3AACL%3A:
 - author: Zheng Xu 0002, Yanxiang Zhang, Galen Andrew, Christopher A. Choquette-Choo,
     Peter Kairouz, H. Brendan McMahan, Jesse Rosenstock, Yuanbo Zhang

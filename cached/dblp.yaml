@@ -19867,6 +19867,17 @@ federate%20streamid%3Ajournals%2Fijcv%3A:
   doi: 10.1007/S11263-024-02077-9
   ee: https://doi.org/10.1007/s11263-024-02077-9
   url: https://dblp.org/rec/journals/ijcv/YangTZLZ24
+- author: Ziyuan Yang 0001, Andrew Beng Jin Teoh, Bob Zhang 0001, Lu Leng, Yi Zhang
+    0018
+  title: Physics-Driven Spectrum-Consistent Federated Learning for Palmprint Verification.
+  venue: Int. J. Comput. Vis.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/YangTZLZ24
+  doi: 10.1007/S11263-024-02077-9
+  ee: https://doi.org/10.1007/s11263-024-02077-9
+  url: https://dblp.org/rec/journals/ijcv/YangTZLZ24
 federate%20venue%3AACL%3A:
 - author: Zheng Xu 0002, Yanxiang Zhang, Galen Andrew, Christopher A. Choquette-Choo,
     Peter Kairouz, H. Brendan McMahan, Jesse Rosenstock, Yuanbo Zhang

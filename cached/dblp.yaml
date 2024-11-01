@@ -19244,6 +19244,18 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-72952-2_8
   ee: https://doi.org/10.1007/978-3-031-72952-2_8
   url: https://dblp.org/rec/conf/eccv/LiXWQGL24
+- author: Yuqi Jia, Saeed Vahidian, Jingwei Sun 0002, Jianyi Zhang, Vyacheslav Kungurtsev,
+    Neil Zhenqiang Gong, Yiran Chen 0001
+  title: 'Unlocking the Potential of Federated Learning: The Symphony of Dataset Distillation
+    via Deep Generative Latents.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/JiaVSZKGC24
+  doi: 10.1007/978-3-031-73229-4_2
+  ee: https://doi.org/10.1007/978-3-031-73229-4_2
+  url: https://dblp.org/rec/conf/eccv/JiaVSZKGC24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

@@ -29266,6 +29266,28 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2024.3388908
   ee: https://doi.org/10.1109/TCAD.2024.3388908
   url: https://dblp.org/rec/journals/tcad/JiaZYHS24
+- author: Jun Xia 0003, Tian Liu 0005, Zhiwei Ling, Ting Wang 0001, Xin Fu, Mingsong
+    Chen
+  title: 'PervasiveFL: Pervasive Federated Learning for Heterogeneous IoT Systems.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/XiaLLWFC22
+  doi: 10.1109/TCAD.2022.3197491
+  ee: https://doi.org/10.1109/TCAD.2022.3197491
+  url: https://dblp.org/rec/journals/tcad/XiaLLWFC22
+- author: Xinqian Zhang, Ming Hu 0003, Jun Xia 0003, Tongquan Wei, Mingsong Chen,
+    Shiyan Hu
+  title: Efficient Federated Learning for Cloud-Based AIoT Applications.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/ZhangHXWCH21
+  doi: 10.1109/TCAD.2020.3046665
+  ee: https://doi.org/10.1109/TCAD.2020.3046665
+  url: https://dblp.org/rec/journals/tcad/ZhangHXWCH21
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

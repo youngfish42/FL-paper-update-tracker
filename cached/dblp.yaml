@@ -20037,6 +20037,62 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681260
   ee: https://doi.org/10.1145/3664647.3681260
   url: https://dblp.org/rec/conf/mm/Zhu000WZ24
+- author: Wei Feng 0010, Zhenwei Wu, Qianqian Wang 0001, Bo Dong 0001, Quanxue Gao
+  title: Federated Fuzzy C-means with Schatten-p Norm Minimization.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/0010W0DG24
+  doi: 10.1145/3664647.3681557
+  ee: https://doi.org/10.1145/3664647.3681557
+  url: https://dblp.org/rec/conf/mm/0010W0DG24
+- author: Tao Ling, Siping Shi, Hao Wang, Chuang Hu, Dan Wang 0002
+  title: Federated Morozov Regularization for Shortcut Learning in Privacy Preserving
+    Learning with Watermarked Image Data.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LingSWHW24
+  doi: 10.1145/3664647.3681480
+  ee: https://doi.org/10.1145/3664647.3681480
+  url: https://dblp.org/rec/conf/mm/LingSWHW24
+- author: Junkang Liu, Fanhua Shang, Yuanyuan Liu 0001, Hongying Liu, Yuangang Li,
+    YunXiang Gong
+  title: 'FedBCGD: Communication-Efficient Accelerated Block Coordinate Gradient Descent
+    for Federated Learning.'
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LiuSLLLG24
+  doi: 10.1145/3664647.3681094
+  ee: https://doi.org/10.1145/3664647.3681094
+  url: https://dblp.org/rec/conf/mm/LiuSLLLG24
+- author: Hao Wu 0067, Likun Zhang, Shucheng Li, Fengyuan Xu, Sheng Zhong 0002
+  title: 'CoAst: Validation-Free Contribution Assessment for Federated Learning based
+    on Cross-Round Valuation.'
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/WuZLX024
+  doi: 10.1145/3664647.3680867
+  ee: https://doi.org/10.1145/3664647.3680867
+  url: https://dblp.org/rec/conf/mm/WuZLX024
+- author: Hao Yu, Xin Yang 0012, Xin Gao, Yihui Feng, Hao Wang 0068, Yan Kang 0001,
+    Tianrui Li 0001
+  title: Overcoming Spatial-Temporal Catastrophic Forgetting for Federated Class-Incremental
+    Learning.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Yu0GFWK024
+  doi: 10.1145/3664647.3681384
+  ee: https://doi.org/10.1145/3664647.3681384
+  url: https://dblp.org/rec/conf/mm/Yu0GFWK024
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -25184,6 +25240,17 @@ federate%20venue%3AINFOCOM%3A:
   ee: https://doi.org/10.1109/INFOCOM42981.2021.9488877
   url: https://dblp.org/rec/conf/infocom/ZhongZWCCLS21
 - author: Yiqi Liu, Shan Chang, Ye Liu, Bo Li 0001, Cong Wang
+  title: 'FairFed: Improving Fairness and Efficiency of Contribution Evaluation in
+    Federated Learning via Cooperative Shapley Value.'
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiuCLLW24
+  doi: 10.1109/INFOCOM52122.2024.10621438
+  ee: https://doi.org/10.1109/INFOCOM52122.2024.10621438
+  url: https://dblp.org/rec/conf/infocom/LiuCLLW24
+- author: Yiqi Liu, Shan Chang, Ye Liu, Bo Li 0001, Cong Wang 0001
   title: 'FairFed: Improving Fairness and Efficiency of Contribution Evaluation in
     Federated Learning via Cooperative Shapley Value.'
   venue: INFOCOM

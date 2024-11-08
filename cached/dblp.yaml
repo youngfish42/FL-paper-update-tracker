@@ -20093,6 +20093,17 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681384
   ee: https://doi.org/10.1145/3664647.3681384
   url: https://dblp.org/rec/conf/mm/Yu0GFWK024
+- author: Zhongchi Wang, Hailong Sun 0001, Zhengyang Zhao
+  title: 'FedEvalFair: A Privacy-Preserving and Statistically Grounded Federated Fairness
+    Evaluation Framework.'
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/WangSZ24
+  doi: 10.1145/3664647.3681545
+  ee: https://doi.org/10.1145/3664647.3681545
+  url: https://dblp.org/rec/conf/mm/WangSZ24
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -29145,6 +29156,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3455762
   ee: https://doi.org/10.1109/TPDS.2024.3455762
   url: https://dblp.org/rec/journals/tpds/MaHLM24
+- author: Chunlin Tian, Li Li 0064, Kahou Tam, Yebo Wu, Cheng-Zhong Xu 0001
+  title: Breaking the Memory Wall for Heterogeneous Federated Learning via Model Splitting.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/TianLTWX24
+  doi: 10.1109/TPDS.2024.3480115
+  ee: https://doi.org/10.1109/TPDS.2024.3480115
+  url: https://dblp.org/rec/journals/tpds/TianLTWX24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

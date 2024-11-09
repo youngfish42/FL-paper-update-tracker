@@ -11946,6 +11946,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=wuQ2DRPAuy
   url: https://dblp.org/rec/conf/icml/MalekmohammadiY24
+- author: Yajie Bao, Michael Crawshaw, Shan Luo 0005, Mingrui Liu
+  title: Fast Composite Optimization and Statistical Recovery in Federated Learning.
+  venue: ICML
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/BaoCLL22
+  doi: ''
+  ee: https://proceedings.mlr.press/v162/bao22b.html
+  url: https://dblp.org/rec/conf/icml/BaoCLL22
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -20104,6 +20114,28 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681545
   ee: https://doi.org/10.1145/3664647.3681545
   url: https://dblp.org/rec/conf/mm/WangSZ24
+- author: Tao Ling, Siping Shi, Hao Wang 0022, Chuang Hu, Dan Wang 0002
+  title: Federated Morozov Regularization for Shortcut Learning in Privacy Preserving
+    Learning with Watermarked Image Data.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LingSWHW24
+  doi: 10.1145/3664647.3681480
+  ee: https://doi.org/10.1145/3664647.3681480
+  url: https://dblp.org/rec/conf/mm/LingSWHW24
+- author: Chenrui Wu, Haishuai Wang, Xiang Zhang 0012, Zhen Fang 0001, Jiajun Bu
+  title: Spatio-temporal Heterogeneous Federated Learning for Time Series Classification
+    with Multi-view Orthogonal Training.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/WuWZFB24
+  doi: 10.1145/3664647.3680733
+  ee: https://doi.org/10.1145/3664647.3680733
+  url: https://dblp.org/rec/conf/mm/WuWZFB24
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

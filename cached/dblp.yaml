@@ -63,6 +63,29 @@ federate%20venue%3ADAC%3A:
   doi: 10.1145/2593069.2593121
   ee: https://doi.org/10.1145/2593069.2593121
   url: https://dblp.org/rec/conf/dac/NiKA14
+- author: Chentao Jia, Ming Hu 0003, Zekai Chen, Yanxin Yang, Xiaofei Xie, Yang Liu,
+    Mingsong Chen
+  title: 'AdaptiveFL: Adaptive Heterogeneous Federated Learning for Resource-Constrained
+    AIoT Systems.'
+  venue: DAC
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/Jia0CYXLC24
+  doi: 10.1145/3649329.3655917
+  ee: https://doi.org/10.1145/3649329.3655917
+  url: https://dblp.org/rec/conf/dac/Jia0CYXLC24
+- author: Xiong Xiao, Mingxing Duan, Yingjie Song, Zhuo Tang, Wenjing Yang 0002
+  title: Fake Node-Based Perception Poisoning Attacks against Federated Object Detection
+    Learning in Mobile Computing Networks.
+  venue: DAC
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/XiaoDST024
+  doi: 10.1145/3649329.3655934
+  ee: https://doi.org/10.1145/3649329.3655934
+  url: https://dblp.org/rec/conf/dac/XiaoDST024
 federate%20venue%3AIJCAI%3A:
 - author: Tao Qi, Fangzhao Wu, Lingjuan Lyu, Yongfeng Huang 0001, Xing Xie 0001
   title: 'FedSampling: A Better Sampling Strategy for Federated Learning.'
@@ -19311,6 +19334,61 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-73229-4_2
   ee: https://doi.org/10.1007/978-3-031-73229-4_2
   url: https://dblp.org/rec/conf/eccv/JiaVSZKGC24
+- author: Yunfeng Fan, Wenchao Xu 0001, Haozhao Wang, Fushuo Huo, Jinyu Chen, Song
+    Guo 0001
+  title: Overcome Modal Bias in Multi-modal Federated Learning via Balanced Modality
+    Selection.
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/FanXWHCG24
+  doi: 10.1007/978-3-031-73004-7_11
+  ee: https://doi.org/10.1007/978-3-031-73004-7_11
+  url: https://dblp.org/rec/conf/eccv/FanXWHCG24
+- author: Haozhe Feng, Tianyu Pang, Chao Du, Wei Chen 0001, Shuicheng Yan, Min Lin
+  title: 'BAFFLE: A Baseline of Backpropagation-Free Federated Learning.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/FengPDCYL24
+  doi: 10.1007/978-3-031-73226-3_6
+  ee: https://doi.org/10.1007/978-3-031-73226-3_6
+  url: https://dblp.org/rec/conf/eccv/FengPDCYL24
+- author: Alind Khare, Animesh Agrawal, Aditya Annavajjala, Payman Behnam, Myungjin
+    Lee, Hugo Latapie, Alexey Tumanov
+  title: 'SuperFedNAS: Cost-Efficient Federated Neural Architecture Search for On-device
+    Inference.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/KhareAABLLT24
+  doi: 10.1007/978-3-031-72986-7_10
+  ee: https://doi.org/10.1007/978-3-031-72986-7_10
+  url: https://dblp.org/rec/conf/eccv/KhareAABLLT24
+- author: Seunghan Yang, Seokeon Choi, Hyunsin Park, Sungha Choi, Simyung Chang, Sungrack
+    Yun
+  title: Feature Diversification and Adaptation for Federated Domain Generalization.
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/YangCPCCY24
+  doi: 10.1007/978-3-031-73220-1_4
+  ee: https://doi.org/10.1007/978-3-031-73220-1_4
+  url: https://dblp.org/rec/conf/eccv/YangCPCCY24
+- author: Haolin Yuan, William Paul, John N. Aucott, Philippe Burlina, Yinzhi Cao
+  title: 'PFEDEDIT: Personalized Federated Learning via Automated Model Editing.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/YuanPABC24
+  doi: 10.1007/978-3-031-72986-7_6
+  ee: https://doi.org/10.1007/978-3-031-72986-7_6
+  url: https://dblp.org/rec/conf/eccv/YuanPABC24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

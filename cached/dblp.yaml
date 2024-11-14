@@ -86,6 +86,18 @@ federate%20venue%3ADAC%3A:
   doi: 10.1145/3649329.3655934
   ee: https://doi.org/10.1145/3649329.3655934
   url: https://dblp.org/rec/conf/dac/XiaoDST024
+- author: Chentao Jia, Ming Hu 0003, Zekai Chen, Yanxin Yang, Xiaofei Xie, Yang Liu
+    0003, Mingsong Chen
+  title: 'AdaptiveFL: Adaptive Heterogeneous Federated Learning for Resource-Constrained
+    AIoT Systems.'
+  venue: DAC
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/Jia0CYXLC24
+  doi: 10.1145/3649329.3655917
+  ee: https://doi.org/10.1145/3649329.3655917
+  url: https://dblp.org/rec/conf/dac/Jia0CYXLC24
 federate%20venue%3AIJCAI%3A:
 - author: Tao Qi, Fangzhao Wu, Lingjuan Lyu, Yongfeng Huang 0001, Xing Xie 0001
   title: 'FedSampling: A Better Sampling Strategy for Federated Learning.'
@@ -9200,6 +9212,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2021/hash/db8e1af0cb3aca1ae2d0018624204529-Abstract.html
   url: https://dblp.org/rec/conf/nips/CuiPLZW21
+- author: Thuy Dung Nguyen, Tuan Nguyen, Anh Tran 0001, Khoa D. Doan, Kok-Seng Wong
+  title: 'IBA: Towards Irreversible Backdoor Attacks in Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/NguyenNTDW23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/d0c6bc641a56bebee9d985b937307367-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/NguyenNTDW23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -13961,6 +13983,16 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=kjn99xFUF3
   url: https://dblp.org/rec/conf/iclr/LiHH24
+- author: Hong-You Chen, Cheng-Hao Tu 0001, Ziwei Li, Han-Wei Shen, Wei-Lun Chao
+  title: On the Importance and Applicability of Pre-Training for Federated Learning.
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Chen0LSC23
+  doi: ''
+  ee: https://openreview.net/forum?id=fWWFv--P0xP
+  url: https://dblp.org/rec/conf/iclr/Chen0LSC23
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -21185,6 +21217,50 @@ federate%20venue%3AEMNLP%3A:
   doi: 10.18653/V1/2022.EMNLP-MAIN.430
   ee: https://doi.org/10.18653/v1/2022.emnlp-main.430
   url: https://dblp.org/rec/conf/emnlp/ZhangHQWX22
+- author: Ji Liu 0003, Jiaxiang Ren 0001, Ruoming Jin, Zijie Zhang 0001, Yang Zhou
+    0001, Patrick Valduriez, Dejing Dou
+  title: Fisher Information-based Efficient Curriculum Federated Learning with Large
+    Language Models.
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/00030J00VD24
+  doi: ''
+  ee: https://aclanthology.org/2024.emnlp-main.587
+  url: https://dblp.org/rec/conf/emnlp/00030J00VD24
+- author: Yae Jee Cho, Luyang Liu, Zheng Xu 0002, Aldi Fahrezi, Gauri Joshi
+  title: Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models.
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/ChoL0FJ24
+  doi: ''
+  ee: https://aclanthology.org/2024.emnlp-main.717
+  url: https://dblp.org/rec/conf/emnlp/ChoL0FJ24
+- author: Xiaochen Wang, Jiaqi Wang 0002, Houping Xiao, Jinghui Chen, Fenglong Ma
+  title: 'FEDKIM: Adaptive Federated Knowledge Injection into Medical Foundation Models.'
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/Wang0XCM24
+  doi: ''
+  ee: https://aclanthology.org/2024.emnlp-main.464
+  url: https://dblp.org/rec/conf/emnlp/Wang0XCM24
+- author: Jiaying Zheng, Hainan Zhang, Lingxiang Wang, Wangjie Qiu, Hong-Wei Zheng,
+    Zhi Ming Zheng
+  title: 'Safely Learning with Private Data: A Federated Learning Framework for Large
+    Language Model.'
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/ZhengZWQZZ24
+  doi: ''
+  ee: https://aclanthology.org/2024.emnlp-main.303
+  url: https://dblp.org/rec/conf/emnlp/ZhengZWQZZ24
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.
@@ -30154,6 +30230,18 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2024.3404102
   ee: https://doi.org/10.1109/TC.2024.3404102
   url: https://dblp.org/rec/journals/tc/ZengLLYWZWW24
+- author: Yangguang Cui, Zhixing Zhang, Nuo Wang, Liying Li 0002, Chunwei Chang, Tongquan
+    Wei
+  title: User-Distribution-Aware Federated Learning for Efficient Communication and
+    Fast Inference.
+  venue: IEEE Trans. Computers
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/CuiZWLCW24
+  doi: 10.1109/TC.2023.3327513
+  ee: https://doi.org/10.1109/TC.2023.3327513
+  url: https://dblp.org/rec/journals/tc/CuiZWLCW24
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

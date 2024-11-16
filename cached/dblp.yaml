@@ -12090,6 +12090,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/zhang23y.html
   url: https://dblp.org/rec/conf/icml/Zhang0T00ZC0023
+- author: Haoqing Xu, Dian Shen, Meng Wang 0009, Beilun Wang
+  title: Adaptive Group Personalization for Federated Mutual Transfer Learning.
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/XuSWW24
+  doi: ''
+  ee: https://openreview.net/forum?id=DqC9XiI71U
+  url: https://dblp.org/rec/conf/icml/XuSWW24
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -20837,6 +20847,16 @@ federate%20venue%3AACL%3A:
   doi: 10.18653/V1/2024.FINDINGS-ACL.595
   ee: https://doi.org/10.18653/v1/2024.findings-acl.595
   url: https://dblp.org/rec/conf/acl/ZengYZS024
+- author: Huimin Zeng 0001, Zhenrui Yue, Yang Zhang 0031, Lanyu Shang, Dong Wang 0002
+  title: Fair Federated Learning with Biased Vision-Language Models.
+  venue: ACL
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/ZengYZS024
+  doi: 10.18653/V1/2024.FINDINGS-ACL.595
+  ee: https://doi.org/10.18653/v1/2024.findings-acl.595
+  url: https://dblp.org/rec/conf/acl/ZengYZS024
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"
@@ -21470,6 +21490,30 @@ federate%20venue%3AEMNLP%3A:
   doi: ''
   ee: https://aclanthology.org/2024.emnlp-main.303
   url: https://dblp.org/rec/conf/emnlp/ZhengZWQZZ24
+- author: "Viktor Moskvoretskii, Nazarii Tupitsa, Chris Biemann, Samuel Horv\xE1th,\
+    \ Eduard Gorbunov, Irina Nikishina"
+  title: Low-Resource Machine Translation through the Lens of Personalized Federated
+    Learning.
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/MoskvoretskiiTB24
+  doi: ''
+  ee: https://aclanthology.org/2024.findings-emnlp.514
+  url: https://dblp.org/rec/conf/emnlp/MoskvoretskiiTB24
+- author: Jianhao Zhu, Changze Lv, Xiaohua Wang, Muling Wu, Wenhao Liu, Tianlong Li,
+    Zixuan Ling, Cenyuan Zhang, Xiaoqing Zheng, Xuanjing Huang 0001
+  title: Promoting Data and Model Privacy in Federated Learning through Quantized
+    LoRA.
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/ZhuLWWLLLZZ024
+  doi: ''
+  ee: https://aclanthology.org/2024.findings-emnlp.615
+  url: https://dblp.org/rec/conf/emnlp/ZhuLWWLLLZZ024
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.
@@ -27351,6 +27395,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583518
   ee: https://doi.org/10.1145/3543507.3583518
   url: https://dblp.org/rec/conf/www/Guo0W23
+- author: Jinze Wu, Qi Liu 0003, Zhenya Huang, Yuting Ning, Hao Wang 0076, Enhong
+    Chen, Jinfeng Yi, Bowen Zhou 0001
+  title: Hierarchical Personalized Federated Learning for User Modeling.
+  venue: WWW
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/Wu0HNWCYZ21
+  doi: 10.1145/3442381.3449926
+  ee: https://doi.org/10.1145/3442381.3449926
+  url: https://dblp.org/rec/conf/www/Wu0HNWCYZ21
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -31172,6 +31227,16 @@ federate%20venue%3ANAACL-HLT%3A:
   doi: 10.18653/V1/2024.FINDINGS-NAACL.59
   ee: https://doi.org/10.18653/v1/2024.findings-naacl.59
   url: https://dblp.org/rec/conf/naacl/WangZCLMOXZ24
+- author: Huimin Zeng 0001, Zhenrui Yue, Dong Wang
+  title: Open-Vocabulary Federated Learning with Multimodal Prototyping.
+  venue: NAACL-HLT
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/ZengYW24
+  doi: 10.18653/V1/2024.NAACL-LONG.314
+  ee: https://doi.org/10.18653/v1/2024.naacl-long.314
+  url: https://dblp.org/rec/conf/naacl/ZengYW24
 federate%20venue%3ASOSP%3A:
 - author: Elizabeth Margolin, Karan Newatia, Tao Luo, Edo Roth, Andreas Haeberlen
   title: 'Arboretum: A Planner for Large-Scale Federated Analytics with Differential

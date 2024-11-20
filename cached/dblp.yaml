@@ -5630,6 +5630,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I6.25891
   ee: https://doi.org/10.1609/aaai.v37i6.25891
   url: https://dblp.org/rec/conf/aaai/0002C0H0X23
+- author: Yang Jiao, Kai Yang 0001, Tiancheng Wu, Chengtao Jian, Jianwei Huang 0001
+  title: Provably Convergent Federated Trilevel Learning.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/Jiao0WJH24
+  doi: 10.1609/AAAI.V38I11.29190
+  ee: https://doi.org/10.1609/aaai.v38i11.29190
+  url: https://dblp.org/rec/conf/aaai/Jiao0WJH24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -9267,6 +9277,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/65b721a1df04c1098567f70d483d6468-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/FanZYHZW23
+- author: Junbo Li, Ang Li 0005, Chong Tian, Qirong Ho, Eric P. Xing, Hongyi Wang
+    0001
+  title: 'FedNAR: Federated Optimization with Normalized Annealing Regularization.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiLTHX023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/ec52572b9e16b91edff5dc70e2642240-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiLTHX023
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

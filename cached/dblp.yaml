@@ -1811,6 +1811,18 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/419
   url: https://dblp.org/rec/conf/ijcai/ChenTCYZXHN24
+- author: Bixiao Zeng, Xiaodong Yang 0005, Yiqiang Chen, Zhiqi Shen 0001, Hanchao
+    Yu, Yingwei Zhang 0002
+  title: 'FedES: Federated Early-Stopping for Hindering Memorizing Heterogeneous Label
+    Noise.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Zeng0C0YZ24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/599
+  url: https://dblp.org/rec/conf/ijcai/Zeng0C0YZ24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -5640,6 +5652,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I11.29190
   ee: https://doi.org/10.1609/aaai.v38i11.29190
   url: https://dblp.org/rec/conf/aaai/Jiao0WJH24
+- author: Yuting He, Yiqiang Chen, Xiaodong Yang 0005, Yingwei Zhang 0002, Bixiao
+    Zeng
+  title: Class-Wise Adaptive Self Distillation for Federated Learning on Non-IID Data
+    (Student Abstract).
+  venue: AAAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/HeCYZZ22
+  doi: 10.1609/AAAI.V36I11.21620
+  ee: https://doi.org/10.1609/aaai.v36i11.21620
+  url: https://dblp.org/rec/conf/aaai/HeCYZZ22
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

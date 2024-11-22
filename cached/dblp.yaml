@@ -21583,6 +21583,17 @@ federate%20venue%3AEMNLP%3A:
   doi: ''
   ee: https://aclanthology.org/2024.findings-emnlp.615
   url: https://dblp.org/rec/conf/emnlp/ZhuLWWLLLZZ024
+- author: Hugh McMahan, Zheng Xu 0002, Yanxiang Zhang
+  title: A Hassle-free Algorithm for Strong Differential Privacy in Federated Learning
+    Systems.
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/McMahan0Z24
+  doi: ''
+  ee: https://aclanthology.org/2024.emnlp-industry.64
+  url: https://dblp.org/rec/conf/emnlp/McMahan0Z24
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.

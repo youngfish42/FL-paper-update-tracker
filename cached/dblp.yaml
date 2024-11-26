@@ -14157,6 +14157,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=NY3wMJuaLf
   url: https://dblp.org/rec/conf/iclr/YeDNWC24
+- author: Ziyao Wang, Jianyu Wang, Ang Li 0005
+  title: 'FedHyper: A Universal and Robust Learning Rate Scheduler for Federated Learning
+    with Hypergradient Descent.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/WangWL24
+  doi: ''
+  ee: https://openreview.net/forum?id=Kl9CqKf7h6
+  url: https://dblp.org/rec/conf/iclr/WangWL24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -19664,6 +19675,27 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-73404-5_18
   ee: https://doi.org/10.1007/978-3-031-73404-5_18
   url: https://dblp.org/rec/conf/eccv/LiangZGLTDHFY24
+- author: Boyu Fan, Chenrui Wu, Xiang Su, Pan Hui 0001
+  title: 'FedTSA: A Cluster-Based Two-Stage Aggregation Method for Model-Heterogeneous
+    Federated Learning.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/FanWSH24
+  doi: 10.1007/978-3-031-73010-8_22
+  ee: https://doi.org/10.1007/978-3-031-73010-8_22
+  url: https://dblp.org/rec/conf/eccv/FanWSH24
+- author: Hao Yan, Yuhong Guo
+  title: Local and Global Flatness for Federated Domain Generalization.
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/YanG24
+  doi: 10.1007/978-3-031-73010-8_5
+  ee: https://doi.org/10.1007/978-3-031-73010-8_5
+  url: https://dblp.org/rec/conf/eccv/YanG24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

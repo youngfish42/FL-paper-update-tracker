@@ -5664,6 +5664,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V36I11.21620
   ee: https://doi.org/10.1609/aaai.v36i11.21620
   url: https://dblp.org/rec/conf/aaai/HeCYZZ22
+- author: Shanli Tan, Hao Cheng 0014, Xiaohu Wu, Han Yu 0001, Tiantian He 0001, Yew
+    Soon Ong, Chongjun Wang, Xiaofeng Tao
+  title: 'FedCompetitors: Harmonious Collaboration in Federated Learning with Competing
+    Participants.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/TanCWYHOWT24
+  doi: 10.1609/AAAI.V38I14.29446
+  ee: https://doi.org/10.1609/aaai.v38i14.29446
+  url: https://dblp.org/rec/conf/aaai/TanCWYHOWT24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -9312,6 +9324,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/ec52572b9e16b91edff5dc70e2642240-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiLTHX023
+- author: Yue Tan, Chen Chen 0043, Weiming Zhuang, Xin Dong 0009, Lingjuan Lyu, Guodong
+    Long
+  title: Is Heterogeneity Notorious? Taming Heterogeneity to Handle Test-Time Shift
+    in Federated Learning.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/Tan0ZDLL23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/565f995643da6329cec701f26f8579f5-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Tan0ZDLL23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -24143,6 +24167,16 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: ''
   ee: https://www.vldb.org/pvldb/vol17/p2077-li.pdf
   url: https://dblp.org/rec/journals/pvldb/ChenLLW24
+- author: Shuyue Wei, Yuanyuan Zhang 0013, Zimu Zhou, Tianlong Zhang, Ke Xu 0001
+  title: 'FedSM: A Practical Federated Shared Mobility System.'
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/WeiZZZX24
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol17/p4445-wei.pdf
+  url: https://dblp.org/rec/journals/pvldb/WeiZZZX24
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things

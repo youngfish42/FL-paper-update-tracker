@@ -19720,6 +19720,48 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-73010-8_5
   ee: https://doi.org/10.1007/978-3-031-73010-8_5
   url: https://dblp.org/rec/conf/eccv/YanG24
+- author: Haiyang Guo, Fei Zhu, Wenzhuo Liu, Xu-Yao Zhang, Cheng-Lin Liu
+  title: 'PILoRA: Prototype Guided Incremental LoRA for Federated Class-Incremental
+    Learning.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/GuoZLZL24
+  doi: 10.1007/978-3-031-73650-6_9
+  ee: https://doi.org/10.1007/978-3-031-73650-6_9
+  url: https://dblp.org/rec/conf/eccv/GuoZLZL24
+- author: Wenke Huang, Mang Ye, Zekun Shi, Bo Du 0001, Dacheng Tao
+  title: Fisher Calibration for Backdoor-Robust Heterogeneous Federated Learning.
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/HuangYSDT24
+  doi: 10.1007/978-3-031-72633-0_14
+  ee: https://doi.org/10.1007/978-3-031-72633-0_14
+  url: https://dblp.org/rec/conf/eccv/HuangYSDT24
+- author: Anestis Kastellos, Athanasios Psaltis, Charalampos Z. Patrikakis, Petros
+    Daras
+  title: 'FedHARM: Harmonizing Model Architectural Diversity in Federated Learning.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/KastellosPPD24
+  doi: 10.1007/978-3-031-73036-8_3
+  ee: https://doi.org/10.1007/978-3-031-73036-8_3
+  url: https://dblp.org/rec/conf/eccv/KastellosPPD24
+- author: Guangyu Sun, Matias Mendieta, Aritra Dutta, Xin Li 0022, Chen Chen 0001
+  title: Towards Multi-modal Transformers in Federated Learning.
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/SunMDLC24
+  doi: 10.1007/978-3-031-72633-0_13
+  ee: https://doi.org/10.1007/978-3-031-72633-0_13
+  url: https://dblp.org/rec/conf/eccv/SunMDLC24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

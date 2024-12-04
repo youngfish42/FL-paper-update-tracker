@@ -9336,6 +9336,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/565f995643da6329cec701f26f8579f5-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Tan0ZDLL23
+- author: Hang Xu, Kelly Kostopoulou, Aritra Dutta, Xin Li 0022, Alexandros Ntoulas,
+    Panos Kalnis
+  title: 'DeepReduce: A Sparse-tensor Communication Framework for Federated Deep Learning.'
+  venue: NeurIPS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/XuKDLNK21
+  doi: ''
+  ee: https://proceedings.neurips.cc/paper/2021/hash/b0ab42fcb7133122b38521d13da7120b-Abstract.html
+  url: https://dblp.org/rec/conf/nips/XuKDLNK21
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -19753,6 +19764,16 @@ federate%20venue%3AECCV%3A:
   ee: https://doi.org/10.1007/978-3-031-73036-8_3
   url: https://dblp.org/rec/conf/eccv/KastellosPPD24
 - author: Guangyu Sun, Matias Mendieta, Aritra Dutta, Xin Li 0022, Chen Chen 0001
+  title: Towards Multi-modal Transformers in Federated Learning.
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/SunMDLC24
+  doi: 10.1007/978-3-031-72633-0_13
+  ee: https://doi.org/10.1007/978-3-031-72633-0_13
+  url: https://dblp.org/rec/conf/eccv/SunMDLC24
+- author: "Guangyu Sun, Mat\xEDas Mendieta, Aritra Dutta, Xin Li 0022, Chen Chen 0001"
   title: Towards Multi-modal Transformers in Federated Learning.
   venue: ECCV
   year: '2024'

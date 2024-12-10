@@ -5721,6 +5721,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I11.29179
   ee: https://doi.org/10.1609/aaai.v38i11.29179
   url: https://dblp.org/rec/conf/aaai/JiZXGSCL24
+- author: Ming Hu 0003, Yue Cao, Anran Li, Zhiming Li, Chengwei Liu, Tianlin Li, Mingsong
+    Chen 0001, Yang Liu 0003
+  title: 'FedMut: Generalized Federated Learning via Stochastic Mutation.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/0003CLLLLCL24
+  doi: 10.1609/AAAI.V38I11.29146
+  ee: https://doi.org/10.1609/aaai.v38i11.29146
+  url: https://dblp.org/rec/conf/aaai/0003CLLLLCL24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -23737,6 +23748,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE60146.2024.00053
   ee: https://doi.org/10.1109/ICDE60146.2024.00053
   url: https://dblp.org/rec/conf/icde/YuanYQNLY24
+- author: Ming Hu 0003, Peiheng Zhou, Zhihao Yue, Zhiwei Ling, Yihao Huang 0001, Anran
+    Li, Yang Liu 0003, Xiang Lian, Mingsong Chen 0001
+  title: 'FedCross: Towards Accurate Federated Learning via Multi-Model Cross-Aggregation.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/0003ZYL0LLLC24
+  doi: 10.1109/ICDE60146.2024.00170
+  ee: https://doi.org/10.1109/ICDE60146.2024.00170
+  url: https://dblp.org/rec/conf/icde/0003ZYL0LLLC24
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou

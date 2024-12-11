@@ -15146,6 +15146,16 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2024.3457751
   ee: https://doi.org/10.1109/TPAMI.2024.3457751
   url: https://dblp.org/rec/journals/pami/ZhouYWK24
+- author: Qiaoling Ye, Arash A. Amini, Qing Zhou
+  title: Federated Learning of Generalized Linear Causal Networks.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pami/YeAZ24
+  doi: 10.1109/TPAMI.2024.3381860
+  ee: https://doi.org/10.1109/TPAMI.2024.3381860
+  url: https://dblp.org/rec/journals/pami/YeAZ24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -17044,6 +17054,110 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3548606.3560611
   ee: https://doi.org/10.1145/3548606.3560611
   url: https://dblp.org/rec/conf/ccs/0001GJM22
+- author: Andreas Athanasiou, Kangsoo Jung, Catuscia Palamidessi
+  title: 'Poster: Protection against Source Inference Attacks in Federated Learning
+    using Unary Encoding and Shuffling.'
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/AthanasiouJP24
+  doi: 10.1145/3658644.3691411
+  ee: https://doi.org/10.1145/3658644.3691411
+  url: https://dblp.org/rec/conf/ccs/AthanasiouJP24
+- author: Minghong Fang, Zifan Zhang, Hairi, Prashant Khanduri, Jia Liu 0002, Songtao
+    Lu, Yuchen Liu, Neil Gong 0001
+  title: Byzantine-Robust Decentralized Federated Learning.
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/FangZHK0LL024
+  doi: 10.1145/3658644.3670307
+  ee: https://doi.org/10.1145/3658644.3670307
+  url: https://dblp.org/rec/conf/ccs/FangZHK0LL024
+- author: Yurong Hao, Xihui Chen, Xiaoting Lyu, Jiqiang Liu, Yongsheng Zhu, Zhiguo
+    Wan, Sjouke Mauw, Wei Wang 00012
+  title: 'Not One Less: Exploring Interplay between User Profiles and Items in Untargeted
+    Attacks against Federated Recommendation.'
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/HaoCLLZWM024
+  doi: 10.1145/3658644.3670365
+  ee: https://doi.org/10.1145/3658644.3670365
+  url: https://dblp.org/rec/conf/ccs/HaoCLLZWM024
+- author: Junxu Liu, Jian Lou 0001, Li Xiong 0001, Jinfei Liu, Xiaofeng Meng 0001
+  title: Cross-silo Federated Learning with Record-level Personalized Differential
+    Privacy.
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/Liu00L024
+  doi: 10.1145/3658644.3670351
+  ee: https://doi.org/10.1145/3658644.3670351
+  url: https://dblp.org/rec/conf/ccs/Liu00L024
+- author: Keiichi Ochiai, Masayuki Terada
+  title: 'Poster: End-to-End Privacy-Preserving Vertical Federated Learning using
+    Private Cross-Organizational Data Collaboration.'
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/OchiaiT24
+  doi: 10.1145/3658644.3691383
+  ee: https://doi.org/10.1145/3658644.3691383
+  url: https://dblp.org/rec/conf/ccs/OchiaiT24
+- author: "Kunal Talwar, Shan Wang, Audra McMillan, Vitaly Feldman, Pansy Bansal,\
+    \ Bailey Basile, \xC1ine Cahill, Yi Sheng Chan, Mike Chatzidakis, Junye Chen,\
+    \ Oliver R. A. Chick, Mona Chitnis, Suman Ganta, Yusuf Goren, Filip Granqvist,\
+    \ Kristine Guo, Frederic Jacobs, Omid Javidbakht, Albert Liu, Richard Low, Dan\
+    \ Mascenik, Steve Myers, David Park, Wonhee Park, Gianni Parsa, Tommy Pauly, Christian\
+    \ Priebe, Rehan Rishi, Guy N. Rothblum, Congzheng Song, Linmao Song, Karl Tarbe,\
+    \ Sebastian Vogt, Shundong Zhou, Vojta Jina, Michael Scaria, Luke Winstrom"
+  title: Samplable Anonymous Aggregation for Private Federated Data Analysis.
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/TalwarWMFBBCCCC24
+  doi: 10.1145/3658644.3690224
+  ee: https://doi.org/10.1145/3658644.3690224
+  url: https://dblp.org/rec/conf/ccs/TalwarWMFBBCCCC24
+- author: Shuangqing Xu, Yifeng Zheng, Zhongyun Hua
+  title: 'Camel: Communication-Efficient and Maliciously Secure Federated Learning
+    in the Shuffle Model of Differential Privacy.'
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/XuZH24
+  doi: 10.1145/3658644.3690200
+  ee: https://doi.org/10.1145/3658644.3690200
+  url: https://dblp.org/rec/conf/ccs/XuZH24
+- author: Yuxin Yang, Qiang Li, Jinyuan Jia, Yuan Hong, Binghui Wang
+  title: Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses.
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/YangLJHW24
+  doi: 10.1145/3658644.3690187
+  ee: https://doi.org/10.1145/3658644.3690187
+  url: https://dblp.org/rec/conf/ccs/YangLJHW24
+- author: Yufei Zhou, Peijia Zheng, Xiaochun Cao, Jiwu Huang
+  title: Two-Tier Data Packing in RLWE-based Homomorphic Encryption for Secure Federated
+    Learning.
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/ZhouZCH24
+  doi: 10.1145/3658644.3690191
+  ee: https://doi.org/10.1145/3658644.3690191
+  url: https://dblp.org/rec/conf/ccs/ZhouZCH24
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist
@@ -19929,6 +20043,49 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-72633-0_13
   ee: https://doi.org/10.1007/978-3-031-72633-0_13
   url: https://dblp.org/rec/conf/eccv/SunMDLC24
+- author: Hyunsin Park, Sungrack Yun
+  title: 'FedHide: Federated Learning by Hiding in the Neighbors.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/ParkY24
+  doi: 10.1007/978-3-031-72897-6_23
+  ee: https://doi.org/10.1007/978-3-031-72897-6_23
+  url: https://dblp.org/rec/conf/eccv/ParkY24
+- author: Fan Qi, Ruijie Pan, Huaiwen Zhang, Changsheng Xu
+  title: 'FedVAD: Enhancing Federated Video Anomaly Detection with GPT-Driven Semantic
+    Distillation.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/QiPZX24
+  doi: 10.1007/978-3-031-73668-1_14
+  ee: https://doi.org/10.1007/978-3-031-73668-1_14
+  url: https://dblp.org/rec/conf/eccv/QiPZX24
+- author: Shangchao Su, Bin Li 0015, Xiangyang Xue 0001
+  title: 'FedRA: A Random Allocation Strategy for Federated Tuning to Unleash the
+    Power of Heterogeneous Clients.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/SuLX24
+  doi: 10.1007/978-3-031-73195-2_20
+  ee: https://doi.org/10.1007/978-3-031-73195-2_20
+  url: https://dblp.org/rec/conf/eccv/SuLX24
+- author: JinYi Yoon, HyungJune Lee
+  title: 'Pick-a-Back: Selective Device-to-Device Knowledge Transfer in Federated
+    Continual Learning.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/YoonL24
+  doi: 10.1007/978-3-031-73030-6_10
+  ee: https://doi.org/10.1007/978-3-031-73030-6_10
+  url: https://dblp.org/rec/conf/eccv/YoonL24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.
@@ -22899,6 +23056,17 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   url: https://dblp.org/rec/conf/sigmod/FuSYJXT021
 - author: Anran Li, Yuanyuan Chen, Jian Zhang 0001, Mingfei Cheng, Yihao Huang 0001,
     Yueming Wu, Anh Tuan Luu, Han Yu 0001
+  title: Historical Embedding-Guided Efficient Large-Scale Federated Graph Learning.
+  venue: Proc. ACM Manag. Data
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/LiCZC0WL024
+  doi: 10.1145/3654947
+  ee: https://doi.org/10.1145/3654947
+  url: https://dblp.org/rec/journals/pacmmod/LiCZC0WL024
+- author: Anran Li, Yuanyuan Chen, Jian Zhang 0001, Mingfei Cheng, Yihao Huang 0001,
+    Yueming Wu 0001, Anh Tuan Luu, Han Yu 0001
   title: Historical Embedding-Guided Efficient Large-Scale Federated Graph Learning.
   venue: Proc. ACM Manag. Data
   year: '2024'

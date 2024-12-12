@@ -9436,6 +9436,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/526356453b7301c9b29aa0533f62bdef-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhouLVD23
+- author: Zikai Xiao, Zihan Chen, Songshang Liu, Hualiang Wang, Yang Feng 0011, Jin
+    Hao, Joey Tianyi Zhou, Jian Wu 0001, Howard H. Yang, Zuozhu Liu
+  title: 'Fed-GraB: Federated Long-tailed Learning with Self-Adjusting Gradient Balancer.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/XiaoCLWFHZWYL23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/f4b8ddb9b1aa3cb11462d64a70b84db2-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/XiaoCLWFHZWYL23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -14302,6 +14313,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=Kl9CqKf7h6
   url: https://dblp.org/rec/conf/iclr/WangWL24
+- author: Zikai Xiao, Zihan Chen, Liyinglan Liu, Yang Feng 0011, Joey Tianyi Zhou,
+    Jian Wu 0001, Wanlu Liu, Howard Hao Yang, Zuozhu Liu
+  title: 'FedLoGe: Joint Local and Generic Federated Learning under Long-tailed Data.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/XiaoCLFZWLYL24
+  doi: ''
+  ee: https://openreview.net/forum?id=V3j5d0GQgH
+  url: https://dblp.org/rec/conf/iclr/XiaoCLFZWLYL24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -17158,6 +17180,29 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3658644.3690191
   ee: https://doi.org/10.1145/3658644.3690191
   url: https://dblp.org/rec/conf/ccs/ZhouZCH24
+- author: Minghong Fang, Zifan Zhang, Hairi, Prashant Khanduri, Jia Liu 0002, Songtao
+    Lu, Yuchen Liu 0001, Neil Gong 0001
+  title: Byzantine-Robust Decentralized Federated Learning.
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/FangZHK0LL024
+  doi: 10.1145/3658644.3670307
+  ee: https://doi.org/10.1145/3658644.3670307
+  url: https://dblp.org/rec/conf/ccs/FangZHK0LL024
+- author: Yurong Hao, Xihui Chen, Xiaoting Lyu, Jiqiang Liu, Yongsheng Zhu, Zhiguo
+    Wan, Sjouke Mauw, Wei Wang 0012
+  title: 'Not One Less: Exploring Interplay between User Profiles and Items in Untargeted
+    Attacks against Federated Recommendation.'
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/HaoCLLZWM024
+  doi: 10.1145/3658644.3670365
+  ee: https://doi.org/10.1145/3658644.3670365
+  url: https://dblp.org/rec/conf/ccs/HaoCLLZWM024
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist

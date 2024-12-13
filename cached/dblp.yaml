@@ -15178,6 +15178,27 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2024.3381860
   ee: https://doi.org/10.1109/TPAMI.2024.3381860
   url: https://dblp.org/rec/journals/pami/YeAZ24
+- author: Hao Zhang, Chenglin Li, Wenrui Dai, Ziyang Zheng, Junni Zou, Hongkai Xiong
+  title: Stabilizing and Accelerating Federated Learning on Heterogeneous Data With
+    Partial Client Participation.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ZhangLDZZX25
+  doi: 10.1109/TPAMI.2024.3469188
+  ee: https://doi.org/10.1109/TPAMI.2024.3469188
+  url: https://dblp.org/rec/journals/pami/ZhangLDZZX25
+- author: Yawei Zhao, Qinghe Liu, Pan Liu, Xinwang Liu 0002, Kunlun He
+  title: Medical Federated Model With Mixture of Personalized and Shared Components.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ZhaoLLLH25
+  doi: 10.1109/TPAMI.2024.3470072
+  ee: https://doi.org/10.1109/TPAMI.2024.3470072
+  url: https://dblp.org/rec/journals/pami/ZhaoLLLH25
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -19624,6 +19645,16 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00465
   ee: https://doi.org/10.1109/ICCV51070.2023.00465
   url: https://dblp.org/rec/conf/iccv/ZhangHWSXMCG23
+- author: Chen Yang 0026, Meilu Zhu, Yifan Liu 0010, Yixuan Yuan
+  title: 'FedPD: Federated Open Set Recognition with Parameter Disentanglement.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/YangZLY23
+  doi: 10.1109/ICCV51070.2023.00450
+  ee: https://doi.org/10.1109/ICCV51070.2023.00450
+  url: https://dblp.org/rec/conf/iccv/YangZLY23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

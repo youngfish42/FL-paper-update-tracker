@@ -17224,6 +17224,22 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3658644.3670365
   ee: https://doi.org/10.1145/3658644.3670365
   url: https://dblp.org/rec/conf/ccs/HaoCLLZWM024
+- author: "Kunal Talwar, Shan Wang, Audra McMillan, Vitaly Feldman, Pansy Bansal,\
+    \ Bailey Basile, \xC1ine Cahill, Yi Sheng Chan, Mike Chatzidakis, Junye Chen,\
+    \ Oliver R. A. Chick, Mona Chitnis, Suman Ganta, Yusuf Goren, Filip Granqvist,\
+    \ Kristine Guo, Frederic Jacobs, Omid Javidbakht, Albert Liu, Richard Low, Dan\
+    \ Mascenik, Steve Myers, David Park, Wonhee Park, Gianni Parsa, Tommy Pauly, Christian\
+    \ Priebe, Rehan Rishi, Guy N. Rothblum, Congzheng Song, Linmao Song, Karl Tarbe,\
+    \ Sebastian Vogt 0003, Shundong Zhou, Vojta Jina, Michael Scaria, Luke Winstrom"
+  title: Samplable Anonymous Aggregation for Private Federated Data Analysis.
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/TalwarWMFBBCCCC24
+  doi: 10.1145/3658644.3690224
+  ee: https://doi.org/10.1145/3658644.3690224
+  url: https://dblp.org/rec/conf/ccs/TalwarWMFBBCCCC24
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist
@@ -28061,6 +28077,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3442381.3449926
   ee: https://doi.org/10.1145/3442381.3449926
   url: https://dblp.org/rec/conf/www/Wu0HNWCYZ21
+- author: Haoyu Wang 0004, Handong Zhao, Yaqing Wang 0001, Tong Yu 0001, Jiuxiang
+    Gu, Jing Gao 0004
+  title: 'FedKC: Federated Knowledge Composition for Multilingual Natural Language
+    Understanding.'
+  venue: WWW
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangZW0GG22
+  doi: 10.1145/3485447.3511988
+  ee: https://doi.org/10.1145/3485447.3511988
+  url: https://dblp.org/rec/conf/www/WangZW0GG22
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

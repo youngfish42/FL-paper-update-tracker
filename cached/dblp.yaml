@@ -23168,6 +23168,16 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/3654947
   ee: https://doi.org/10.1145/3654947
   url: https://dblp.org/rec/journals/pacmmod/LiCZC0WL024
+- author: Xinyi Zhang, Qichen Wang 0001, Cheng Xu 0004, Yun Peng 0002, Jianliang Xu
+  title: 'FedKNN: Secure Federated k-Nearest Neighbor Search.'
+  venue: Proc. ACM Manag. Data
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/ZhangWXPX24
+  doi: 10.1145/3639266
+  ee: https://doi.org/10.1145/3639266
+  url: https://dblp.org/rec/journals/pacmmod/ZhangWXPX24
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous

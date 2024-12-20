@@ -24678,6 +24678,101 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: ''
   ee: https://www.vldb.org/pvldb/vol17/p4461-jiang.pdf
   url: https://dblp.org/rec/journals/pvldb/JiangDHSYHS24
+- author: Yiwei Chen, Kaiyu Li, Guoliang Li 0001, Yong Wang
+  title: 'Contributions Estimation in Federated Learning: A Comprehensive Experimental
+    Evaluation.'
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ChenLLW24
+  doi: 10.14778/3659437.3659459
+  ee: https://www.vldb.org/pvldb/vol17/p2077-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/ChenLLW24
+- author: Linshan Jiang, Moming Duan, Bingsheng He, Yulin Sun, Peishen Yan, Yang Hua,
+    Tao Song 0003
+  title: 'OFL-W3: A One-shot Federated Learning System on Web 3.0.'
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/JiangDHSYHS24
+  doi: 10.14778/3685800.3685900
+  ee: https://www.vldb.org/pvldb/vol17/p4461-jiang.pdf
+  url: https://dblp.org/rec/journals/pvldb/JiangDHSYHS24
+- author: Fumiyuki Kato, Li Xiong 0001, Shun Takagi, Yang Cao 0011, Masatoshi Yoshikawa
+  title: 'Uldp-FL: Federated Learning with Across Silo User-Level Differential Privacy.'
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/KatoXTCY24
+  doi: 10.14778/3681954.3681966
+  ee: https://www.vldb.org/pvldb/vol17/p2826-kato.pdf
+  url: https://dblp.org/rec/journals/pvldb/KatoXTCY24
+- author: Zitao Li, Bolin Ding, Liuyi Yao, Yaliang Li, Xiaokui Xiao, Jingren Zhou
+  title: Performance-Based Pricing of Federated Learning via Auction.
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiDYLXZ24
+  doi: 10.14778/3648160.3648169
+  ee: https://www.vldb.org/pvldb/vol17/p1269-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiDYLXZ24
+- author: Youming Tao 0001, Cheng-Long Wang, Miao Pan, Dongxiao Yu, Xiuzhen Cheng
+    0001, Di Wang 0015
+  title: Communication Efficient and Provable Federated Unlearning.
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/TaoWPYCW24
+  doi: 10.14778/3641204.3641220
+  ee: https://www.vldb.org/pvldb/vol17/p1119-wang.pdf
+  url: https://dblp.org/rec/journals/pvldb/TaoWPYCW24
+- author: Shuyue Wei, Yuanyuan Zhang 0013, Zimu Zhou, Tianlong Zhang, Ke Xu 0001
+  title: 'FedSM: A Practical Federated Shared Mobility System.'
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/WeiZZZX24
+  doi: 10.14778/3685800.3685896
+  ee: https://www.vldb.org/pvldb/vol17/p4445-wei.pdf
+  url: https://dblp.org/rec/journals/pvldb/WeiZZZX24
+- author: Honghu Wu, Xiangrong Zhu, Wei Hu 0007
+  title: A Blockchain System for Clustered Federated Learning with Peer-to-Peer Knowledge
+    Transfer.
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/WuZH24
+  doi: 10.14778/3641204.3641208
+  ee: https://www.vldb.org/pvldb/vol17/p966-hu.pdf
+  url: https://dblp.org/rec/journals/pvldb/WuZH24
+- author: Zeqi Zhu, Zeheng Fan, Yuxiang Zeng, Yexuan Shi, Yi Xu 0013, Mengmeng Zhou,
+    Jin Dong
+  title: 'FedSQ: A Secure System for Federated Vector Similarity Queries.'
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhuFZSXZD24
+  doi: 10.14778/3685800.3685895
+  ee: https://www.vldb.org/pvldb/vol17/p4441-zhu.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhuFZSXZD24
+- author: Xunkai Li, Zhengyu Wu, Wentao Zhang, Yinlin Zhu, Ronghua Li, Guoren Wang
+  title: 'FedGTA: Topology-aware Averaging for Federated Graph Learning.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiWZZLW23
+  doi: 10.14778/3617838.3617842
+  ee: https://www.vldb.org/pvldb/vol17/p41-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiWZZLW23
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things

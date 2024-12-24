@@ -9447,6 +9447,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/f4b8ddb9b1aa3cb11462d64a70b84db2-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/XiaoCLWFHZWYL23
+- author: Royson Lee, Minyoung Kim 0001, Da Li 0001, Xinchi Qiu, Timothy M. Hospedales,
+    Ferenc Huszar, Nicholas D. Lane
+  title: 'FedL2P: Federated Learning to Personalize.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LeeK0QHHL23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/2fb57276bfbaf1b832d7bfcba36bb41c-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LeeK0QHHL23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -17240,6 +17251,16 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3658644.3690224
   ee: https://doi.org/10.1145/3658644.3690224
   url: https://dblp.org/rec/conf/ccs/TalwarWMFBBCCCC24
+- author: Yuxin Yang, Qiang Li 0008, Jinyuan Jia 0001, Yuan Hong, Binghui Wang
+  title: Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses.
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/YangLJHW24
+  doi: 10.1145/3658644.3690187
+  ee: https://doi.org/10.1145/3658644.3690187
+  url: https://dblp.org/rec/conf/ccs/YangLJHW24
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist

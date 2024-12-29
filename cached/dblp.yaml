@@ -5732,6 +5732,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I11.29146
   ee: https://doi.org/10.1609/aaai.v38i11.29146
   url: https://dblp.org/rec/conf/aaai/0003CLLLLCL24
+- author: Jianqing Zhang, Yang Liu 0165, Yang Hua, Jian Cao
+  title: 'FedTGP: Trainable Global Prototypes with Adaptive-Margin-Enhanced Contrastive
+    Learning for Data and Model Heterogeneity in Federated Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangLHC24
+  doi: 10.1609/AAAI.V38I15.29617
+  ee: https://doi.org/10.1609/aaai.v38i15.29617
+  url: https://dblp.org/rec/conf/aaai/ZhangLHC24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -18920,6 +18931,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.00385
   ee: https://doi.org/10.1109/CVPR52729.2023.00385
   url: https://dblp.org/rec/conf/cvpr/ZhangXYZ0W23
+- author: Jianqing Zhang, Yang Liu 0165, Yang Hua, Jian Cao
+  title: An Upload-Efficient Scheme for Transferring Knowledge From a Server-Side
+    Pre-trained Generator to Clients in Heterogeneous Federated Learning.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ZhangLHC24
+  doi: 10.1109/CVPR52733.2024.01151
+  ee: https://doi.org/10.1109/CVPR52733.2024.01151
+  url: https://dblp.org/rec/conf/cvpr/ZhangLHC24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

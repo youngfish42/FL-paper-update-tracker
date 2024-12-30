@@ -24072,6 +24072,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE60146.2024.00170
   ee: https://doi.org/10.1109/ICDE60146.2024.00170
   url: https://dblp.org/rec/conf/icde/0003ZYL0LLLC24
+- author: Ziqiao Liu, Hao Miao 0001, Yan Zhao 0008, Chenxi Liu 0003, Kai Zheng 0001,
+    Huan Li 0003
+  title: 'LightTR: A Lightweight Framework for Federated Trajectory Recovery.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/Liu00L0024
+  doi: 10.1109/ICDE60146.2024.00337
+  ee: https://doi.org/10.1109/ICDE60146.2024.00337
+  url: https://dblp.org/rec/conf/icde/Liu00L0024
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou

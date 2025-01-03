@@ -16937,6 +16937,16 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SP54263.2024.00030
   ee: https://doi.org/10.1109/SP54263.2024.00030
   url: https://dblp.org/rec/conf/sp/ZhaoSEEAB24
+- author: Javor Nikolov, Alessandro Pegoraro, Phillip Rieger, Ahmad-Reza Sadeghi
+  title: 'LayerDBA: Circumventing Similarity-Based Defenses in Federated Learning.'
+  venue: SP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/NikolovPRS24
+  doi: 10.1109/SPW63631.2024.10795458
+  ee: https://doi.org/10.1109/SPW63631.2024.10795458
+  url: https://dblp.org/rec/conf/sp/NikolovPRS24
 federate%20venue%3ACCS%3A:
 - author: Amrita Roy Chowdhury 0001, Chuan Guo, Somesh Jha, Laurens van der Maaten
   title: 'EIFFeL: Ensuring Integrity for Federated Learning.'

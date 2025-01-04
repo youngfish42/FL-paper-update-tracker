@@ -20231,6 +20231,18 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-73030-6_10
   ee: https://doi.org/10.1007/978-3-031-73030-6_10
   url: https://dblp.org/rec/conf/eccv/YoonL24
+- author: Peishen Yan, Hao Wang 0022, Tao Song 0003, Yang Hua, Ruhui Ma, Ningxin Hu,
+    Mohammad Reza Haghighat, Haibing Guan
+  title: 'SKYMASK: Attack-Agnostic Robust Federated Learning with Fine-Grained Learnable
+    Masks.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/YanWSHMHHG24
+  doi: 10.1007/978-3-031-72655-2_17
+  ee: https://doi.org/10.1007/978-3-031-72655-2_17
+  url: https://dblp.org/rec/conf/eccv/YanWSHMHHG24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

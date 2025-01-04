@@ -30480,6 +30480,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2021.3138848
   ee: https://doi.org/10.1109/TPDS.2021.3138848
   url: https://dblp.org/rec/journals/tpds/LiSWDMSHP22
+- author: Jialiang Han, Yudong Han, Xiang Jing, Gang Huang 0001, Yun Ma 0002
+  title: 'DegaFL: Decentralized Gradient Aggregation for Cross-Silo Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/HanHJHM25
+  doi: 10.1109/TPDS.2024.3501581
+  ee: https://doi.org/10.1109/TPDS.2024.3501581
+  url: https://dblp.org/rec/journals/tpds/HanHJHM25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -31450,6 +31460,48 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3327513
   ee: https://doi.org/10.1109/TC.2023.3327513
   url: https://dblp.org/rec/journals/tc/CuiZWLCW24
+- author: Yannis Steve Nsuloun Fotse, Vianney Kengne Tchendji, Mthulisi Velempini
+  title: Federated Learning Based DDoS Attacks Detection in Large Scale Software-Defined
+    Network.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/FotseTV25
+  doi: 10.1109/TC.2024.3474180
+  ee: https://doi.org/10.1109/TC.2024.3474180
+  url: https://dblp.org/rec/journals/tc/FotseTV25
+- author: Yi Liu, Song Guo 0001, Jie Zhang 0076, Zicong Hong, Yufeng Zhan, Qihua Zhou
+  title: Collaborative Neural Architecture Search for Personalized Federated Learning.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/LiuGZHZZ25
+  doi: 10.1109/TC.2024.3477945
+  ee: https://doi.org/10.1109/TC.2024.3477945
+  url: https://dblp.org/rec/journals/tc/LiuGZHZZ25
+- author: Benteng Zhang, Yingchi Mao, Xiaoming He, Huawei Huang, Jie Wu 0001
+  title: Balancing Privacy and Accuracy Using Significant Gradient Protection in Federated
+    Learning.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZhangMHHW25
+  doi: 10.1109/TC.2024.3477971
+  ee: https://doi.org/10.1109/TC.2024.3477971
+  url: https://dblp.org/rec/journals/tc/ZhangMHHW25
+- author: Pan Zhang, Lei Xu 0019, Lin Mei, Chungen Xu
+  title: Sketch-Based Adaptive Communication Optimization in Federated Learning.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZhangXMX25
+  doi: 10.1109/TC.2024.3475578
+  ee: https://doi.org/10.1109/TC.2024.3475578
+  url: https://dblp.org/rec/journals/tc/ZhangXMX25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

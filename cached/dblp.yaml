@@ -31514,6 +31514,17 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2024.3475578
   ee: https://doi.org/10.1109/TC.2024.3475578
   url: https://dblp.org/rec/journals/tc/ZhangXMX25
+- author: Yi Liu 0057, Song Guo 0001, Jie Zhang 0076, Zicong Hong, Yufeng Zhan, Qihua
+    Zhou
+  title: Collaborative Neural Architecture Search for Personalized Federated Learning.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/LiuGZHZZ25
+  doi: 10.1109/TC.2024.3477945
+  ee: https://doi.org/10.1109/TC.2024.3477945
+  url: https://dblp.org/rec/journals/tc/LiuGZHZZ25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

@@ -1846,6 +1846,17 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/599
   url: https://dblp.org/rec/conf/ijcai/Zeng0C0YZ24
+- author: Yinlin Zhu, Xunkai Li, Zhengyu Wu, Di Wu 0001, Miao Hu, Rong-Hua Li
+  title: 'FedTAD: Topology-aware Data-free Knowledge Distillation for Subgraph Federated
+    Learning.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ZhuLWWHL24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/632
+  url: https://dblp.org/rec/conf/ijcai/ZhuLWWHL24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -30493,6 +30504,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   ee: https://doi.org/10.1109/TPDS.2021.3138848
   url: https://dblp.org/rec/journals/tpds/LiSWDMSHP22
 - author: Jialiang Han, Yudong Han, Xiang Jing, Gang Huang 0001, Yun Ma 0002
+  title: 'DegaFL: Decentralized Gradient Aggregation for Cross-Silo Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/HanHJHM25
+  doi: 10.1109/TPDS.2024.3501581
+  ee: https://doi.org/10.1109/TPDS.2024.3501581
+  url: https://dblp.org/rec/journals/tpds/HanHJHM25
+- author: Jialiang Han 0001, Yudong Han, Xiang Jing, Gang Huang 0001, Yun Ma 0002
   title: 'DegaFL: Decentralized Gradient Aggregation for Cross-Silo Federated Learning.'
   venue: IEEE Trans. Parallel Distributed Syst.
   year: '2025'

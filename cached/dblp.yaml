@@ -26879,6 +26879,86 @@ federate%20venue%3AMobiCom%3A:
   doi: 10.1145/3636534.3649370
   ee: https://doi.org/10.1145/3636534.3649370
   url: https://dblp.org/rec/conf/mobicom/OuyangSLPZFCWCX24
+- author: Yiming Li, Jingwei Sun 0002, Yudong Liu, Yuandong Zhang, Ang Li 0005, Beidi
+    Chen, Holger R. Roth, Daguang Xu, Tingjun Chen, Yiran Chen 0001
+  title: Federated Black-box Prompt Tuning System for Large Language Models on the
+    Edge.
+  venue: MobiCom
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/Li0LZ0CRXC024
+  doi: 10.1145/3636534.3698856
+  ee: https://doi.org/10.1145/3636534.3698856
+  url: https://dblp.org/rec/conf/mobicom/Li0LZ0CRXC024
+- author: Jiaxi Li, Kiran Davuluri, Khairul Mottakin, Zheng Song 0001, Fei Dou, Jin
+    Lu 0001
+  title: Proximal Federated Learning for Body Mass Index Monitoring using Commodity
+    WiFi.
+  venue: MobiCom
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/LiDM0D024
+  doi: 10.1145/3636534.3694735
+  ee: https://doi.org/10.1145/3636534.3694735
+  url: https://dblp.org/rec/conf/mobicom/LiDM0D024
+- author: Yunming Liao, Yang Xu 0020, Hongli Xu, Zhiwei Yao, Liusheng Huang, Chunming
+    Qiao
+  title: 'ParallelSFL: A Novel Split Federated Learning Framework Tackling Heterogeneity
+    Issues.'
+  venue: MobiCom
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/Liao0XYHQ24
+  doi: 10.1145/3636534.3690665
+  ee: https://doi.org/10.1145/3636534.3690665
+  url: https://dblp.org/rec/conf/mobicom/Liao0XYHQ24
+- author: Yuanzhe Peng, Zhuo Lu, Jie Xu 0001
+  title: Joint Horizontal and Vertical Federated Learning for Multimodal IoT.
+  venue: MobiCom
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/PengL024
+  doi: 10.1145/3636534.3698245
+  ee: https://doi.org/10.1145/3636534.3698245
+  url: https://dblp.org/rec/conf/mobicom/PengL024
+- author: Kun Wang, Zimu Zhou, Zhenjiang Li
+  title: 'LATTE: Layer Algorithm-aware Training Time Estimation for Heterogeneous
+    Federated Learning.'
+  venue: MobiCom
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/WangZL24
+  doi: 10.1145/3636534.3690705
+  ee: https://doi.org/10.1145/3636534.3690705
+  url: https://dblp.org/rec/conf/mobicom/WangZL24
+- author: Junyu Ye, Lei Shi 0011, Hao Xu, Sinan Pan, Juan Xu 0002
+  title: A Client Detection and Parameter Correction Algorithm for Clustering Defense
+    in Clustered Federated Learning.
+  venue: MobiCom
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/Ye0XP024
+  doi: 10.1145/3636534.3698247
+  ee: https://doi.org/10.1145/3636534.3698247
+  url: https://dblp.org/rec/conf/mobicom/Ye0XP024
+- author: Jingjing Zheng, Kai Li 0002, Xin Yuan 0004, Wei Ni 0001, Eduardo Tovar,
+    Jon Crowcroft
+  title: Exploring Visual Explanations for Defending Federated Learning against Poisoning
+    Attacks.
+  venue: MobiCom
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/Zheng000TC24
+  doi: 10.1145/3636534.3697430
+  ee: https://doi.org/10.1145/3636534.3697430
+  url: https://dblp.org/rec/conf/mobicom/Zheng000TC24
 federate%20venue%3ANSDI%3A:
 - author: Junxue Zhang 0001, Xiaodian Cheng, Wei Wang, Liu Yang, Jinbin Hu, Kai Chen
     0005

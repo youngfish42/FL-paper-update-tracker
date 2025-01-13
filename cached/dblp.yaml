@@ -14357,6 +14357,16 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=V3j5d0GQgH
   url: https://dblp.org/rec/conf/iclr/XiaoCLFZWLYL24
+- author: Jian Xu 0016, Xinyi Tong, Shao-Lun Huang
+  title: Personalized Federated Learning with Feature Alignment and Classifier Collaboration.
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/XuTH23
+  doi: ''
+  ee: https://openreview.net/forum?id=SXZr8aDKia
+  url: https://dblp.org/rec/conf/iclr/XuTH23
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -26574,6 +26584,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM52122.2024.10621438
   ee: https://doi.org/10.1109/INFOCOM52122.2024.10621438
   url: https://dblp.org/rec/conf/infocom/LiuCLLW24
+- author: Peichun Li, Guoliang Cheng, Xumin Huang, Jiawen Kang 0001, Rong Yu 0001,
+    Yuan Wu 0001, Miao Pan
+  title: 'AnycostFL: Efficient On-Demand Federated Learning over Heterogeneous Edge
+    Devices.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiCHKYWP23
+  doi: 10.1109/INFOCOM53939.2023.10229017
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10229017
+  url: https://dblp.org/rec/conf/infocom/LiCHKYWP23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -30603,6 +30625,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3501581
   ee: https://doi.org/10.1109/TPDS.2024.3501581
   url: https://dblp.org/rec/journals/tpds/HanHJHM25
+- author: Meilin Yang, Jian Xu 0016, Wenbo Ding, Yang Liu 0165
+  title: 'FedHAP: Federated Hashing With Global Prototypes for Cross-Silo Retrieval.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/YangXDL24
+  doi: 10.1109/TPDS.2023.3324426
+  ee: https://doi.org/10.1109/TPDS.2023.3324426
+  url: https://dblp.org/rec/journals/tpds/YangXDL24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

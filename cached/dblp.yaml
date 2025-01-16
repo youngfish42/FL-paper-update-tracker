@@ -5754,6 +5754,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I15.29617
   ee: https://doi.org/10.1609/aaai.v38i15.29617
   url: https://dblp.org/rec/conf/aaai/ZhangLHC24
+- author: Jiaming Pei, Wei Li 0058, Lukun Wang
+  title: Knowledge Transfer via Compact Model in Federated Learning (Student Abstract).
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PeiLW24
+  doi: 10.1609/AAAI.V38I21.30498
+  ee: https://doi.org/10.1609/aaai.v38i21.30498
+  url: https://dblp.org/rec/conf/aaai/PeiLW24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -9480,6 +9490,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/2fb57276bfbaf1b832d7bfcba36bb41c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LeeK0QHHL23
+- author: Lili Su, Jiaming Xu 0002, Pengkun Yang
+  title: Global Convergence of Federated Learning for Mixed Regression.
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/SuXY22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/c132c02176577c4319a878f6417a331a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/SuXY22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -30635,6 +30655,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3324426
   ee: https://doi.org/10.1109/TPDS.2023.3324426
   url: https://dblp.org/rec/journals/tpds/YangXDL24
+- author: Jun Li 0004, Yumeng Shao, Kang Wei, Ming Ding 0001, Chuan Ma 0001, Long
+    Shi 0001, Zhu Han 0001, H. Vincent Poor
+  title: 'Blockchain Assisted Decentralized Federated Learning (BLADE-FL): Performance
+    Analysis and Resource Allocation.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiSWDMSHP22
+  doi: 10.1109/TPDS.2021.3138848
+  ee: https://doi.org/10.1109/TPDS.2021.3138848
+  url: https://dblp.org/rec/journals/tpds/LiSWDMSHP22
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

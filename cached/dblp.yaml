@@ -14803,6 +14803,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-022-06241-5
   ee: https://doi.org/10.1007/s10994-022-06241-5
   url: https://dblp.org/rec/journals/ml/LiZL24
+- author: Mao Zhang 0002, Tie Zhang, Yifei Cheng, Changcun Bao, Haoyu Cao, Deqiang
+    Jiang, Linli Xu
+  title: Communication-efficient clustered federated learning via model distance.
+  venue: Mach. Learn.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/ZhangZCBCJX24
+  doi: 10.1007/S10994-023-06443-5
+  ee: https://doi.org/10.1007/s10994-023-06443-5
+  url: https://dblp.org/rec/journals/ml/ZhangZCBCJX24
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -22378,6 +22389,16 @@ federate%20venue%3ACOLING%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/securing-federated-sensitive-topic-classification-against-poisoning-attacks/
   url: https://dblp.org/rec/conf/ndss/ChuGISL23
+- author: Zhiqi Huang 0001, Fenglin Liu, Yuexian Zou
+  title: Federated Learning for Spoken Language Understanding.
+  venue: COLING
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/coling/HuangLZ20
+  doi: 10.18653/V1/2020.COLING-MAIN.310
+  ee: https://doi.org/10.18653/v1/2020.coling-main.310
+  url: https://dblp.org/rec/conf/coling/HuangLZ20
 federate%20venue%3ASIGIR%3A:
 - author: Zexi Li, Qunwei Li, Yi Zhou, Wenliang Zhong, Guannan Zhang, Chao Wu 0001
   title: Edge-cloud Collaborative Learning with Federated and Centralized Features.
@@ -26616,6 +26637,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10229017
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10229017
   url: https://dblp.org/rec/conf/infocom/LiCHKYWP23
+- author: Hao Wang 0182, Huan Zhou 0002, Mingze Li, Liang Zhao 0014, Victor C. M.
+    Leung
+  title: Federated Distributed Deep Reinforcement Learning for Recommendation-enabled
+    Edge Caching.
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WangZLZL24
+  doi: 10.1109/INFOCOMWKSHPS61880.2024.10620845
+  ee: https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620845
+  url: https://dblp.org/rec/conf/infocom/WangZLZL24
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -32431,3 +32464,14 @@ federate%20venue%3ASOSP%3A:
   doi: 10.1145/3600006.3624566
   ee: https://doi.org/10.1145/3600006.3624566
   url: https://dblp.org/rec/conf/sosp/MargolinNLRH23
+- author: Emmanuel Jeanvoine
+  title: Distributed operating system for resource discovery and allocation in federated
+    clusters.
+  venue: SOSP
+  year: '2005'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sosp/Jeanvoine05
+  doi: 10.1145/1095810.1118583
+  ee: https://doi.org/10.1145/1095810.1118583
+  url: https://dblp.org/rec/conf/sosp/Jeanvoine05

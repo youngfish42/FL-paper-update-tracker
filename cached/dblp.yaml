@@ -1857,6 +1857,17 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/632
   url: https://dblp.org/rec/conf/ijcai/ZhuLWWHL24
+- author: Chunxu Zhang, Guodong Long, Hongkuan Guo, Xiao Fang, Yang Song, Zhaojie
+    Liu, Guorui Zhou, Zijian Zhang 0009, Yang Liu 0165, Bo Yang 0002
+  title: Federated Adaptation for Foundation Model-based Recommendations.
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ZhangLGFSLZ0L024
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/603
+  url: https://dblp.org/rec/conf/ijcai/ZhangLGFSLZ0L024
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng

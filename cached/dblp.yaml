@@ -6589,6 +6589,16 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/huang24c.html
   url: https://dblp.org/rec/conf/aistats/HuangWLC24
+- author: Yichen Ruan, Xiaoxi Zhang 0001, Shu-Che Liang, Carlee Joe-Wong
+  title: Towards Flexible Device Participation in Federated Learning.
+  venue: AISTATS
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/RuanZLJ21
+  doi: ''
+  ee: http://proceedings.mlr.press/v130/ruan21a.html
+  url: https://dblp.org/rec/conf/aistats/RuanZLJ21
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -22455,6 +22465,18 @@ federate%20venue%3ACOLING%3A:
   doi: ''
   ee: https://aclanthology.org/2025.coling-main.581/
   url: https://dblp.org/rec/conf/coling/Zheng0ZZWFLTX025
+- author: Tao Fan, Guoqiang Ma, Yan Kang 0001, Hanlin Gu, Yuanfeng Song, Lixin Fan,
+    Kai Chen 0005, Qiang Yang 0001
+  title: 'FedMKT: Federated Mutual Knowledge Transfer for Large and Small Language
+    Models.'
+  venue: COLING
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/coling/FanMKGSF0025
+  doi: ''
+  ee: https://aclanthology.org/2025.coling-main.17/
+  url: https://dblp.org/rec/conf/coling/FanMKGSF0025
 federate%20venue%3ASIGIR%3A:
 - author: Zexi Li, Qunwei Li, Yi Zhou, Wenliang Zhong, Guannan Zhang, Chao Wu 0001
   title: Edge-cloud Collaborative Learning with Federated and Centralized Features.
@@ -30756,6 +30778,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2021.3138848
   ee: https://doi.org/10.1109/TPDS.2021.3138848
   url: https://dblp.org/rec/journals/tpds/LiSWDMSHP22
+- author: Qiong Wu 0009, Xu Chen 0004, Tao Ouyang, Zhi Zhou 0006, Xiaoxi Zhang 0001,
+    Shusen Yang, Junshan Zhang
+  title: 'HiFlash: Communication-Efficient Hierarchical Federated Learning With Adaptive
+    Staleness Control and Heterogeneity-Aware Client-Edge Association.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuCOZZYZ23
+  doi: 10.1109/TPDS.2023.3238049
+  ee: https://doi.org/10.1109/TPDS.2023.3238049
+  url: https://dblp.org/rec/journals/tpds/WuCOZZYZ23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

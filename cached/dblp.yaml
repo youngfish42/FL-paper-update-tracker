@@ -22477,6 +22477,18 @@ federate%20venue%3ACOLING%3A:
   doi: ''
   ee: https://aclanthology.org/2025.coling-main.17/
   url: https://dblp.org/rec/conf/coling/FanMKGSF0025
+- author: Dongyi Zheng, Hongyu Zhang 0002, Jianyang Zhai, Lin Zhong, Lingzhi Wang,
+    Jiyuan Feng, Xiangke Liao, Yonghong Tian 0001, Nong Xiao, Qing Liao 0001
+  title: 'FedCSR: A Federated Framework for Multi-Platform Cross-Domain Sequential
+    Recommendation with Dual Contrastive Learning.'
+  venue: COLING
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/coling/Zheng0ZZWFLTX025
+  doi: ''
+  ee: https://aclanthology.org/2025.coling-main.581/
+  url: https://dblp.org/rec/conf/coling/Zheng0ZZWFLTX025
 federate%20venue%3ASIGIR%3A:
 - author: Zexi Li, Qunwei Li, Yi Zhou, Wenliang Zhong, Guannan Zhang, Chao Wu 0001
   title: Edge-cloud Collaborative Learning with Federated and Centralized Features.
@@ -31813,6 +31825,17 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2024.3477945
   ee: https://doi.org/10.1109/TC.2024.3477945
   url: https://dblp.org/rec/journals/tc/LiuGZHZZ25
+- author: Dan Wang, Ju Ren 0001, Zhibo Wang 0001, Yichuan Wang 0003, Yaoxue Zhang
+  title: 'PrivAim: A Dual-Privacy Preserving and Quality-Aware Incentive Mechanism
+    for Federated Learning.'
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/WangRWWZ23
+  doi: 10.1109/TC.2022.3230904
+  ee: https://doi.org/10.1109/TC.2022.3230904
+  url: https://dblp.org/rec/journals/tc/WangRWWZ23
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

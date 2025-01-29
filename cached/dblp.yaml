@@ -21152,6 +21152,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681319
   ee: https://doi.org/10.1145/3664647.3681319
   url: https://dblp.org/rec/conf/mm/FuZZ0C0YX24
+- author: Junkang Liu, Fanhua Shang, Yuanyuan Liu 0001, Hongying Liu, Yuangang Li
+    0002, YunXiang Gong
+  title: 'FedBCGD: Communication-Efficient Accelerated Block Coordinate Gradient Descent
+    for Federated Learning.'
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LiuSLLLG24
+  doi: 10.1145/3664647.3681094
+  ee: https://doi.org/10.1145/3664647.3681094
+  url: https://dblp.org/rec/conf/mm/LiuSLLLG24
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -22485,6 +22497,51 @@ federate%20venue%3ACOLING%3A:
   year: '2025'
   type: Conference and Workshop Papers
   access: closed
+  key: conf/coling/Zheng0ZZWFLTX025
+  doi: ''
+  ee: https://aclanthology.org/2025.coling-main.581/
+  url: https://dblp.org/rec/conf/coling/Zheng0ZZWFLTX025
+- author: Ying Gao 0006, Yuxin Xie, Huanghao Deng, Zukun Zhu
+  title: 'Gradient Inversion Attack in Federated Learning: Exposing Text Data through
+    Discrete Optimization.'
+  venue: COLING
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/coling/0006XDZ25
+  doi: ''
+  ee: https://aclanthology.org/2025.coling-main.176/
+  url: https://dblp.org/rec/conf/coling/0006XDZ25
+- author: Tao Fan, Guoqiang Ma, Yan Kang 0001, Hanlin Gu, Yuanfeng Song, Lixin Fan,
+    Kai Chen 0005, Qiang Yang 0001
+  title: 'FedMKT: Federated Mutual Knowledge Transfer for Large and Small Language
+    Models.'
+  venue: COLING
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/coling/FanMKGSF0025
+  doi: ''
+  ee: https://aclanthology.org/2025.coling-main.17/
+  url: https://dblp.org/rec/conf/coling/FanMKGSF0025
+- author: Zesheng Liu, Qiannan Zhu, Cuiping Li 0001, Hong Chen 0001
+  title: Federated Incremental Named Entity Recognition.
+  venue: COLING
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/coling/LiuZ0025
+  doi: ''
+  ee: https://aclanthology.org/2025.coling-main.13/
+  url: https://dblp.org/rec/conf/coling/LiuZ0025
+- author: Dongyi Zheng, Hongyu Zhang 0002, Jianyang Zhai, Lin Zhong, Lingzhi Wang,
+    Jiyuan Feng, Xiangke Liao, Yonghong Tian 0001, Nong Xiao, Qing Liao 0001
+  title: 'FedCSR: A Federated Framework for Multi-Platform Cross-Domain Sequential
+    Recommendation with Dual Contrastive Learning.'
+  venue: COLING
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
   key: conf/coling/Zheng0ZZWFLTX025
   doi: ''
   ee: https://aclanthology.org/2025.coling-main.581/
@@ -30802,6 +30859,28 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3238049
   ee: https://doi.org/10.1109/TPDS.2023.3238049
   url: https://dblp.org/rec/journals/tpds/WuCOZZYZ23
+- author: Feijie Wu, Song Guo 0001, Haozhao Wang, Haobo Zhang 0002, Zhihao Qu, Jie
+    Zhang 0076, Ziming Liu
+  title: 'From Deterioration to Acceleration: A Calibration Approach to Rehabilitating
+    Step Asynchronism in Federated Optimization.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuGWZQZL23
+  doi: 10.1109/TPDS.2023.3250513
+  ee: https://doi.org/10.1109/TPDS.2023.3250513
+  url: https://dblp.org/rec/journals/tpds/WuGWZQZL23
+- author: Gang Chen 0002, Abdolhossein Sarrafzadeh, Shaoning Pang 0001
+  title: Service Provision Control in Federated Service Providing Systems.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2013'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/0002SP13
+  doi: 10.1109/TPDS.2012.150
+  ee: https://doi.org/10.1109/TPDS.2012.150
+  url: https://dblp.org/rec/journals/tpds/0002SP13
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

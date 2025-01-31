@@ -5775,6 +5775,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I21.30498
   ee: https://doi.org/10.1609/aaai.v38i21.30498
   url: https://dblp.org/rec/conf/aaai/PeiLW24
+- author: Yang Lu 0009, Lin Chen, Yonggang Zhang 0003, Yiliang Zhang, Bo Han 0003,
+    Yiu-ming Cheung, Hanzi Wang
+  title: Federated Learning with Extremely Noisy Clients via Negative Distillation.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LuCZZHCW24
+  doi: 10.1609/AAAI.V38I13.29329
+  ee: https://doi.org/10.1609/aaai.v38i13.29329
+  url: https://dblp.org/rec/conf/aaai/LuCZZHCW24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -9521,6 +9532,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/c132c02176577c4319a878f6417a331a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SuXY22
+- author: Zhiqin Yang, Yonggang Zhang 0003, Yu Zheng 0021, Xinmei Tian 0001, Hao Peng,
+    Tongliang Liu, Bo Han 0003
+  title: 'FedFed: Feature Distillation against Data Heterogeneity in Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YangZZ0PL023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/bdcdf38389d7fcefc73c4c3720217155-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YangZZ0PL023
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -12364,6 +12386,18 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/guo23c.html
   url: https://dblp.org/rec/conf/icml/Guo0LY23
+- author: Zhenheng Tang, Yonggang Zhang 0003, Shaohuai Shi, Xin He, Bo Han 0003, Xiaowen
+    Chu 0001
+  title: 'Virtual Homogeneity Learning: Defending against Data Heterogeneity in Federated
+    Learning.'
+  venue: ICML
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/TangZSHH022
+  doi: ''
+  ee: https://proceedings.mlr.press/v162/tang22d.html
+  url: https://dblp.org/rec/conf/icml/TangZSHH022
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -14408,6 +14442,39 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=SXZr8aDKia
   url: https://dblp.org/rec/conf/iclr/XuTH23
+- author: Rong Dai, Yonggang Zhang 0003, Ang Li, Tongliang Liu, Xun Yang 0001, Bo
+    Han 0003
+  title: Enhancing One-Shot Federated Learning Through Data and Ensemble Co-Boosting.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/DaiZLLY024
+  doi: ''
+  ee: https://openreview.net/forum?id=tm8s3696Ox
+  url: https://dblp.org/rec/conf/iclr/DaiZLLY024
+- author: Zhenheng Tang, Yonggang Zhang 0003, Shaohuai Shi, Xinmei Tian 0001, Tongliang
+    Liu, Bo Han 0003, Xiaowen Chu 0001
+  title: 'FedImpro: Measuring and Improving Client Update in Federated Learning.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/TangZS0L0024
+  doi: ''
+  ee: https://openreview.net/forum?id=giU9fYGTND
+  url: https://dblp.org/rec/conf/iclr/TangZS0L0024
+- author: Yonggang Zhang 0003, Zhiqin Yang, Xinmei Tian 0001, Nannan Wang 0001, Tongliang
+    Liu, Bo Han 0003
+  title: Robust Training of Federated Models with Extremely Label Deficiency.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ZhangY00L024
+  doi: ''
+  ee: https://openreview.net/forum?id=qxLVaYbsSI
+  url: https://dblp.org/rec/conf/iclr/ZhangY00L024
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -16537,6 +16604,18 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3580305.3599521
   ee: https://doi.org/10.1145/3580305.3599521
   url: https://dblp.org/rec/conf/kdd/Wang0LLCX0Y23
+- author: Zeyu Cao, Zhipeng Liang, Bingzhe Wu, Shu Zhang 0013, Hangyu Li 0002, Ouyang
+    Wen, Yu Rong 0001, Peilin Zhao
+  title: 'Privacy Matters: Vertical Federated Linear Contextual Bandits for Privacy
+    Protected Recommendation.'
+  venue: KDD
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/CaoLWZLWRZ23
+  doi: 10.1145/3580305.3599475
+  ee: https://doi.org/10.1145/3580305.3599475
+  url: https://dblp.org/rec/conf/kdd/CaoLWZLWRZ23
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -21164,6 +21243,16 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681094
   ee: https://doi.org/10.1145/3664647.3681094
   url: https://dblp.org/rec/conf/mm/LiuSLLLG24
+- author: Zhuang Qi, Lei Meng 0001, Zitan Chen, Han Hu 0003, Hui Lin, Xiangxu Meng
+  title: Cross-Silo Prototypical Calibration for Federated Learning with Non-IID Data.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/QiMCHLM23
+  doi: 10.1145/3581783.3612481
+  ee: https://doi.org/10.1145/3581783.3612481
+  url: https://dblp.org/rec/conf/mm/QiMCHLM23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -31449,6 +31538,17 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2020.3046665
   ee: https://doi.org/10.1109/TCAD.2020.3046665
   url: https://dblp.org/rec/journals/tcad/ZhangHXWCH21
+- author: Jing Cao, Ran Wei, Qianyue Cao, Yongchun Zheng, Zongwei Zhu, Cheng Ji 0002,
+    Xuehai Zhou
+  title: 'FedStar: Efficient Federated Learning on Heterogeneous Communication Networks.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/CaoWCZZJZ24
+  doi: 10.1109/TCAD.2023.3346274
+  ee: https://doi.org/10.1109/TCAD.2023.3346274
+  url: https://dblp.org/rec/journals/tcad/CaoWCZZJZ24
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

@@ -5786,6 +5786,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I13.29329
   ee: https://doi.org/10.1609/aaai.v38i13.29329
   url: https://dblp.org/rec/conf/aaai/LuCZZHCW24
+- author: Sunwoo Lee 0001, Tuo Zhang, Amir Salman Avestimehr
+  title: Layer-Wise Adaptive Model Aggregation for Scalable Federated Learning.
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LeeZA23
+  doi: 10.1609/AAAI.V37I7.26023
+  ee: https://doi.org/10.1609/aaai.v37i7.26023
+  url: https://dblp.org/rec/conf/aaai/LeeZA23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -28672,6 +28682,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3485447.3511988
   ee: https://doi.org/10.1145/3485447.3511988
   url: https://dblp.org/rec/conf/www/WangZW0GG22
+- author: Bo Yan 0005, Yang Cao 0011, Haoyu Wang, Wenchuan Yang, Junping Du, Chuan
+    Shi 0001
+  title: Federated Heterogeneous Graph Neural Network for Privacy-preserving Recommendation.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YanCWYDS24
+  doi: 10.1145/3589334.3645693
+  ee: https://doi.org/10.1145/3589334.3645693
+  url: https://dblp.org/rec/conf/www/YanCWYDS24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

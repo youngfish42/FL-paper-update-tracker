@@ -9553,6 +9553,84 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/bdcdf38389d7fcefc73c4c3720217155-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangZZ0PL023
+- author: Jiaqi Wang 0002, Xiaochen Wang, Lingjuan Lyu, Jinghui Chen, Fenglong Ma
+  title: 'FEDMEKI: A Benchmark for Scaling Medical Foundation Models via Federated
+    Knowledge Injection.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/0002WLCM24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/0235cbb8cd6425d0b55daefce388fc0b-Abstract-Datasets_and_Benchmarks_Track.html
+  url: https://dblp.org/rec/conf/nips/0002WLCM24
+- author: Jiamu Bai, Daoyuan Chen, Bingchen Qian, Liuyi Yao, Yaliang Li
+  title: Federated Fine-tuning of Large Language Models under Heterogeneous Tasks
+    and Client Resources.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/BaiCQYL24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/1a134b50202088aa8c595cc99b310e5a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/BaiCQYL24
+- author: Michael Crawshaw, Mingrui Liu
+  title: 'Federated Learning under Periodic Client Participation and Heterogeneous
+    Data: A New Communication-Efficient Algorithm and Analysis.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/CrawshawL24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/0f98645119923217a245735c2c4d23f4-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/CrawshawL24
+- author: Yongzhe Jia, Xuyun Zhang, Hongsheng Hu, Kim-Kwang Raymond Choo, Lianyong
+    Qi, Xiaolong Xu 0001, Amin Beheshti, Wanchun Dou
+  title: 'DapperFL: Domain Adaptive Federated Learning with Model Fusion Pruning for
+    Edge Devices.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/JiaZHCQ0BD24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/17a1a1439421f1837e10cd612bf92861-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/JiaZHCQ0BD24
+- author: Mingyi Li, Xiao Zhang 0015, Qi Wang, Tengfei Liu, Ruofan Wu, Weiqiang Wang,
+    Fuzhen Zhuang, Hui Xiong 0001, Dongxiao Yu
+  title: Resource-Aware Federated Self-Supervised Learning with Global Class Representations.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/Li0WLWWZ0Y24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/13707aad517ddd6c09ea02e0f55e1e7a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Li0WLWWZ0Y24
+- author: "Paul Mangold, Sergey Samsonov, Safwan Labbi, Ilya Levin, R\xE9da Alami,\
+    \ Alexey Naumov, Eric Moulines"
+  title: 'SCAFFLSA: Taming Heterogeneity in Federated Linear Stochastic Approximation
+    and TD Learning.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/MangoldSLLANM24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/19a42d5885e25e51852aca8144e5af0d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/MangoldSLLANM24
+- author: Desik Rengarajan, Nitin Ragothaman, Dileep Kalathil, Srinivas Shakkottai
+  title: Federated Ensemble-Directed Offline Reinforcement Learning.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/RengarajanRKS24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/0b99315234cc95e6ef281f9155b68832-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/RengarajanRKS24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -17702,6 +17780,17 @@ federate%20streamid%3Aconf%2Fuss%3A:
   doi: ''
   ee: https://www.usenix.org/conference/usenixsecurity22/presentation/stevens
   url: https://dblp.org/rec/conf/uss/StevensSVRCN22
+- author: Chong Fu 0002, Xuhong Zhang 0002, Shouling Ji, Jinyin Chen, Jingzheng Wu,
+    Shanqing Guo, Jun Zhou 0011, Alex X. Liu, Ting Wang 0006
+  title: Label Inference Attacks Against Vertical Federated Learning.
+  venue: USENIX Security Symposium
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/Fu0JCWG0L022
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity22/presentation/fu-chong
+  url: https://dblp.org/rec/conf/uss/Fu0JCWG0L022
 federate%20venue%3ANDSS%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -21273,6 +21362,17 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3612481
   ee: https://doi.org/10.1145/3581783.3612481
   url: https://dblp.org/rec/conf/mm/QiMCHLM23
+- author: Pengling Zhang, Huibin Yan, Wenhui Wu 0001, Shuoyao Wang
+  title: Improving Federated Person Re-Identification through Feature-Aware Proximity
+    and Aggregation.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ZhangYWW23
+  doi: 10.1145/3581783.3612350
+  ee: https://doi.org/10.1145/3581783.3612350
+  url: https://dblp.org/rec/conf/mm/ZhangYWW23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -31001,6 +31101,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2012.150
   ee: https://doi.org/10.1109/TPDS.2012.150
   url: https://dblp.org/rec/journals/tpds/0002SP13
+- author: Renhao Lu, Weizhe Zhang, Yan Wang 0002, Qiong Li 0001, Xiaoxiong Zhong,
+    Hongwei Yang, Desheng Wang 0002
+  title: Auction-Based Cluster Federated Learning in Mobile Edge Computing Systems.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LuZWLZYW23
+  doi: 10.1109/TPDS.2023.3240767
+  ee: https://doi.org/10.1109/TPDS.2023.3240767
+  url: https://dblp.org/rec/journals/tpds/LuZWLZYW23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -32046,6 +32157,16 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2022.3230904
   ee: https://doi.org/10.1109/TC.2022.3230904
   url: https://dblp.org/rec/journals/tc/WangRWWZ23
+- author: Zhihao Qu, Ninghui Jia, Baoliu Ye, Shihong Hu, Song Guo 0001
+  title: 'FedQClip: Accelerating Federated Learning via Quantized Clipped SGD.'
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/QuJYHG25
+  doi: 10.1109/TC.2024.3477972
+  ee: https://doi.org/10.1109/TC.2024.3477972
+  url: https://dblp.org/rec/journals/tc/QuJYHG25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

@@ -9893,6 +9893,40 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2021/hash/f065d878ccfb4cc4f4265a4ff8bafa9a-Abstract.html
   url: https://dblp.org/rec/conf/nips/ParkHKSM21
+- author: Xinyue Chen, Yazhou Ren 0001, Jie Xu 0044, Fangfei Lin, Xiaorong Pu, Yang
+    Yang 0002
+  title: 'Bridging Gaps: Federated Multi-View Clustering in Heterogeneous Hybrid Views.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/Chen0XLP024
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/412fb8623bf8b6d56fb6285ea295447e-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Chen0XLP024
+- author: Jiaqi Wang 0002, Qi Li 0012, Lingjuan Lyu, Fenglong Ma
+  title: 'pFedClub: Controllable Heterogeneous Model Aggregation for Personalized
+    Federated Learning.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/WangLLM24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/6246e04dcf42baf7c71e3a65d3d93b55-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WangLLM24
+- author: Ziyao Wang, Zheyu Shen, Yexiao He, Guoheng Sun, Hongyi Wang 0001, Lingjuan
+    Lyu, Ang Li 0005
+  title: 'FLoRA: Federated Fine-Tuning Large Language Models with Heterogeneous Low-Rank
+    Adaptations.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/WangSHS0LL24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/28312c9491d60ed0c77f7fff4ad86dd1-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WangSHS0LL24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

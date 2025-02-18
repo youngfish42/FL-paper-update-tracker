@@ -14258,6 +14258,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=akyElNlUVA
   url: https://dblp.org/rec/conf/icml/LiuZ0HGS24
+- author: Mintong Kang, Zhen Lin 0001, Jimeng Sun 0001, Cao Xiao, Bo Li 0026
+  title: Certifiably Byzantine-Robust Federated Conformal Prediction.
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/KangL0X024
+  doi: ''
+  ee: https://openreview.net/forum?id=4axAQHwBOE
+  url: https://dblp.org/rec/conf/icml/KangL0X024
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -21149,6 +21159,16 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.00994
   ee: https://doi.org/10.1109/CVPR52688.2022.00994
   url: https://dblp.org/rec/conf/cvpr/XuCQC22
+- author: Qiang Wang, Bingyan Liu, Yawen Li 0001
+  title: Traceable Federated Continual Learning.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/WangLL24
+  doi: 10.1109/CVPR52733.2024.01223
+  ee: https://doi.org/10.1109/CVPR52733.2024.01223
+  url: https://dblp.org/rec/conf/cvpr/WangLL24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

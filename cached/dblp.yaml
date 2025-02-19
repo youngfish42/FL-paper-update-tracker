@@ -11369,6 +11369,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/d6520fa7f71dc8e09ed5939a60a64218-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangSH24
+- author: Evelyn Ma, Chao Pan 0003, S. Rasoul Etesami 0001, Han Zhao 0002, Olgica
+    Milenkovic
+  title: 'FedGTST: Boosting Global Transferability of Federated Models via Statistics
+    Tuning.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/Ma00ZM24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/44e67d5eea7c7cf7e9958b32eaa52775-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Ma00ZM24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

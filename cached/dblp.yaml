@@ -11381,6 +11381,30 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/44e67d5eea7c7cf7e9958b32eaa52775-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Ma00ZM24
+- author: Xinting Liao, Weiming Liu 0005, Pengyang Zhou, Fengyuan Yu, Jiahe Xu 0003,
+    Jun Wang 0020, Wenjie Wang, Chaochao Chen 0001, Xiaolin Zheng
+  title: 'FOOGD: Federated Collaboration for Both Out-of-distribution Generalization
+    and Detection.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/Liao0ZY0WW0Z24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/efd1e27afcb94addd03b9e14c8d9f78f-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Liao0ZY0WW0Z24
+- author: Feijie Wu, Xingchen Wang, Yaqing Wang 0001, Tianci Liu 0003, Lu Su 0001,
+    Jing Gao 0004
+  title: 'FIARSE: Model-Heterogeneous Federated Learning via Importance-Aware Submodel
+    Extraction.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WuWW00024
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/d17477a5ff8b7ddb49e53f9c04305da5-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WuWW00024
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -16379,6 +16403,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=AJBGSVSTT2
   url: https://dblp.org/rec/conf/iclr/ZhuangY0H0024
+- author: Wei Huang 0034, Ye Shi 0001, Zhongyi Cai, Taiji Suzuki
+  title: Understanding Convergence and Generalization in Federated Learning through
+    Feature Learning Theory.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Huang0CS24
+  doi: ''
+  ee: https://openreview.net/forum?id=EcetCr4trp
+  url: https://dblp.org/rec/conf/iclr/Huang0CS24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -22496,6 +22531,17 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-72655-2_17
   ee: https://doi.org/10.1007/978-3-031-72655-2_17
   url: https://dblp.org/rec/conf/eccv/YanWSHMHHG24
+- author: Boyu Fan, Chenrui Wu 0002, Xiang Su, Pan Hui 0001
+  title: 'FedTSA: A Cluster-Based Two-Stage Aggregation Method for Model-Heterogeneous
+    Federated Learning.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/FanWSH24
+  doi: 10.1007/978-3-031-73010-8_22
+  ee: https://doi.org/10.1007/978-3-031-73010-8_22
+  url: https://dblp.org/rec/conf/eccv/FanWSH24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.
@@ -23376,6 +23422,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681415
   ee: https://doi.org/10.1145/3664647.3681415
   url: https://dblp.org/rec/conf/mm/CaiZLGN24
+- author: Chenrui Wu 0002, Haishuai Wang, Xiang Zhang 0012, Zhen Fang 0001, Jiajun
+    Bu
+  title: Spatio-temporal Heterogeneous Federated Learning for Time Series Classification
+    with Multi-view Orthogonal Training.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/WuWZFB24
+  doi: 10.1145/3664647.3680733
+  ee: https://doi.org/10.1145/3664647.3680733
+  url: https://dblp.org/rec/conf/mm/WuWZFB24
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -26580,6 +26638,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE55515.2023.00149
   ee: https://doi.org/10.1109/ICDE55515.2023.00149
   url: https://dblp.org/rec/conf/icde/PanZC23
+- author: Xunkai Li, Zhengyu Wu, Wentao Zhang 0001, Henan Sun, Rong-Hua Li, Guoren
+    Wang
+  title: 'AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/LiWZSLW24
+  doi: 10.1109/ICDE60146.2024.00198
+  ee: https://doi.org/10.1109/ICDE60146.2024.00198
+  url: https://dblp.org/rec/conf/icde/LiWZSLW24
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou
@@ -27346,6 +27415,17 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3685800.3685900
   ee: https://www.vldb.org/pvldb/vol17/p4461-jiang.pdf
   url: https://dblp.org/rec/journals/pvldb/JiangDHSYHS24
+- author: Xunkai Li, Zhengyu Wu, Wentao Zhang 0001, Yinlin Zhu, Ronghua Li, Guoren
+    Wang
+  title: 'FedGTA: Topology-aware Averaging for Federated Graph Learning.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiWZZLW23
+  doi: 10.14778/3617838.3617842
+  ee: https://www.vldb.org/pvldb/vol17/p41-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiWZZLW23
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -29141,6 +29221,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM48880.2022.9796719
   ee: https://doi.org/10.1109/INFOCOM48880.2022.9796719
   url: https://dblp.org/rec/conf/infocom/WangZWH22
+- author: Yu Liu, Zibo Wang, Yifei Zhu 0001, Chen Chen 0067
+  title: 'DPBalance: Efficient and Fair Privacy Budget Scheduling for Federated Learning
+    as a Service.'
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiuWZC24
+  doi: 10.1109/INFOCOM52122.2024.10621227
+  ee: https://doi.org/10.1109/INFOCOM52122.2024.10621227
+  url: https://dblp.org/rec/conf/infocom/LiuWZC24
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

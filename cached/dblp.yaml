@@ -5958,6 +5958,29 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I8.26122
   ee: https://doi.org/10.1609/aaai.v37i8.26122
   url: https://dblp.org/rec/conf/aaai/PanWLWTZ23
+- author: Caridad Arroyo Arevalo, Sayedeh Leila Noorbakhsh, Yun Dong, Yuan Hong 0001,
+    Binghui Wang
+  title: Task-Agnostic Privacy-Preserving Representation Learning for Federated Learning
+    against Attribute Inference Attacks.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ArevaloNDHW24
+  doi: 10.1609/AAAI.V38I10.28965
+  ee: https://doi.org/10.1609/aaai.v38i10.28965
+  url: https://dblp.org/rec/conf/aaai/ArevaloNDHW24
+- author: Yu Zang, Zhe Xue, Shilong Ou, Lingyang Chu, Junping Du 0001, Yunfei Long
+  title: Efficient Asynchronous Federated Learning with Prospective Momentum Aggregation
+    and Fine-Grained Correction.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZangXOCDL24
+  doi: 10.1609/AAAI.V38I15.29603
+  ee: https://doi.org/10.1609/aaai.v38i15.29603
+  url: https://dblp.org/rec/conf/aaai/ZangXOCDL24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -11448,6 +11471,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/431d53d513461ff155d5bc8faa9a440c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Cai0HW23
+- author: Yuxin Yang 0003, Qiang Li 0008, Yuan Hong 0001, Binghui Wang
+  title: 'FedGMark: Certifiably Robust Watermarking for Federated Graph Learning.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YangLHW24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/57fabaa549352c52d5d312171b16970e-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YangLHW24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -19590,6 +19623,17 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3658644.3690187
   ee: https://doi.org/10.1145/3658644.3690187
   url: https://dblp.org/rec/conf/ccs/YangLJHW24
+- author: Yuxin Yang 0003, Qiang Li 0008, Jinyuan Jia 0001, Yuan Hong 0001, Binghui
+    Wang
+  title: Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses.
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/YangLJHW24
+  doi: 10.1145/3658644.3690187
+  ee: https://doi.org/10.1145/3658644.3690187
+  url: https://dblp.org/rec/conf/ccs/YangLJHW24
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist
@@ -22108,6 +22152,16 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00461
   ee: https://doi.org/10.1109/ICCV51070.2023.00461
   url: https://dblp.org/rec/conf/iccv/00010WKZ0C23
+- author: Yaopei Zeng, Lei Liu, Li Liu 0036, Li Shen 0008, Shaoguo Liu, Baoyuan Wu
+  title: Global Balanced Experts for Federated Long-Tailed Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZengLLSLW23
+  doi: 10.1109/ICCV51070.2023.00444
+  ee: https://doi.org/10.1109/ICCV51070.2023.00444
+  url: https://dblp.org/rec/conf/iccv/ZengLLSLW23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -23542,6 +23596,17 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3680733
   ee: https://doi.org/10.1145/3664647.3680733
   url: https://dblp.org/rec/conf/mm/WuWZFB24
+- author: Yunfei Long, Zhe Xue, Lingyang Chu, Tianlong Zhang, Junjiang Wu, Yu Zang,
+    Junping Du 0001
+  title: 'FedCD: A Classifier Debiased Federated Learning Framework for Non-IID Data.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LongXCZWZD23
+  doi: 10.1145/3581783.3611966
+  ee: https://doi.org/10.1145/3581783.3611966
+  url: https://dblp.org/rec/conf/mm/LongXCZWZD23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -27534,6 +27599,18 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3617838.3617842
   ee: https://www.vldb.org/pvldb/vol17/p41-li.pdf
   url: https://dblp.org/rec/journals/pvldb/LiWZZLW23
+- author: Xiaochen Li, Yuke Hu, Weiran Liu, Hanwen Feng 0001, Li Peng, Yuan Hong 0001,
+    Kui Ren 0001, Zhan Qin
+  title: 'OpBoost: A Vertical Federated Tree Boosting Framework Based on Order-Preserving
+    Desensitization.'
+  venue: Proc. VLDB Endow.
+  year: '2022'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiHL0PH0Q22
+  doi: 10.14778/3565816.3565823
+  ee: https://www.vldb.org/pvldb/vol16/p202-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiHL0PH0Q22
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -31195,6 +31272,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645544
   ee: https://doi.org/10.1145/3589334.3645544
   url: https://dblp.org/rec/conf/www/ZhangLHWFH0S24
+- author: Bo Yan 0005, Yang Cao 0011, Haoyu Wang, Wenchuan Yang, Junping Du 0001,
+    Chuan Shi 0001
+  title: Federated Heterogeneous Graph Neural Network for Privacy-preserving Recommendation.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YanCWYDS24
+  doi: 10.1145/3589334.3645693
+  ee: https://doi.org/10.1145/3589334.3645693
+  url: https://dblp.org/rec/conf/www/YanCWYDS24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

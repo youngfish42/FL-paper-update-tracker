@@ -16511,6 +16511,26 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=VimqQq-i_Q
   url: https://dblp.org/rec/conf/iclr/0002MNS22
+- author: Ziheng Cheng, Xinmeng Huang, Pengfei Wu 0006, Kun Yuan
+  title: Momentum Benefits Non-iid Federated Learning Simply and Provably.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ChengHWY24
+  doi: ''
+  ee: https://openreview.net/forum?id=TdhkAcXkRi
+  url: https://dblp.org/rec/conf/iclr/ChengHWY24
+- author: Chuanhao Li, Chong Liu 0007, Yu-Xiang Wang 0003
+  title: Communication-Efficient Federated Non-Linear Bandit Optimization.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiLW24
+  doi: ''
+  ee: https://openreview.net/forum?id=nFI3wFM9yN
+  url: https://dblp.org/rec/conf/iclr/LiLW24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -33626,6 +33646,28 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2022.3148113
   ee: https://doi.org/10.1109/TPDS.2022.3148113
   url: https://dblp.org/rec/journals/tpds/HuWZCC22
+- author: Zhengjie Yang, Sen Fu, Wei Bao 0001, Dong Yuan 0001, Albert Y. Zomaya
+  title: Hierarchical Federated Learning With Momentum Acceleration in Multi-Tier
+    Networks.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/YangFBYZ23
+  doi: 10.1109/TPDS.2023.3294688
+  ee: https://doi.org/10.1109/TPDS.2023.3294688
+  url: https://dblp.org/rec/journals/tpds/YangFBYZ23
+- author: Zhengjie Yang, Wei Bao 0001, Dong Yuan 0001, Nguyen Hoang Tran, Albert Y.
+    Zomaya
+  title: Federated Learning With Nesterov Accelerated Gradient.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/YangBYTZ22
+  doi: 10.1109/TPDS.2022.3206480
+  ee: https://doi.org/10.1109/TPDS.2022.3206480
+  url: https://dblp.org/rec/journals/tpds/YangBYTZ22
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

@@ -21377,6 +21377,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.01155
   ee: https://doi.org/10.1109/CVPR52733.2024.01155
   url: https://dblp.org/rec/conf/cvpr/LiHW024
+- author: Chunnan Wang, Xiang Chen 0019, Junzhe Wang, Hongzhi Wang 0001
+  title: 'ATPFL: Automatic Trajectory Prediction Model Design under Federated Learning
+    Framework.'
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/WangCW022
+  doi: 10.1109/CVPR52688.2022.00645
+  ee: https://doi.org/10.1109/CVPR52688.2022.00645
+  url: https://dblp.org/rec/conf/cvpr/WangCW022
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

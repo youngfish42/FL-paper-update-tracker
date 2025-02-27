@@ -16531,6 +16531,29 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=nFI3wFM9yN
   url: https://dblp.org/rec/conf/iclr/LiLW24
+- author: Wanru Zhao, Yihong Chen, Royson Lee, Xinchi Qiu, Yan Gao 0016, Hongxiang
+    Fan, Nicholas Donald Lane
+  title: 'Breaking Physical and Linguistic Borders: Multilingual Federated Prompt
+    Tuning for Low-Resource Languages.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ZhaoCLQGFL24
+  doi: ''
+  ee: https://openreview.net/forum?id=zzqn5G9fjn
+  url: https://dblp.org/rec/conf/iclr/ZhaoCLQGFL24
+- author: "Xinchi Qiu, Javier Fern\xE1ndez-Marqu\xE9s, Pedro P. B. de Gusmao, Yan\
+    \ Gao 0016, Titouan Parcollet, Nicholas Donald Lane"
+  title: 'ZeroFL: Efficient On-Device Training for Federated Learning with Local Sparsity.'
+  venue: ICLR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/QiuFGGPL22
+  doi: ''
+  ee: https://openreview.net/forum?id=2sDQwC_hmnM
+  url: https://dblp.org/rec/conf/iclr/QiuFGGPL22
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -17152,6 +17175,18 @@ federate%20streamid%3Ajournals%2Fjmlr%3A:
   doi: ''
   ee: https://jmlr.org/papers/v25/23-0764.html
   url: https://dblp.org/rec/journals/jmlr/0001TLZ24
+- author: "Xinchi Qiu, Titouan Parcollet, Javier Fern\xE1ndez-Marqu\xE9s, Pedro P.\
+    \ B. de Gusmao, Yan Gao 0016, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas\
+    \ D. Lane"
+  title: A First Look into the Carbon Footprint of Federated Learning.
+  venue: J. Mach. Learn. Res.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/QiuPFGGBTML23
+  doi: ''
+  ee: https://jmlr.org/papers/v24/21-0445.html
+  url: https://dblp.org/rec/journals/jmlr/QiuPFGGBTML23
 federate%20streamid%3Ajournals%2Fpami%3A:
 - author: Bowen Li, Lixin Fan, Hanlin Gu, Jie Li 0002, Qiang Yang 0001
   title: 'FedIPR: Ownership Verification for Federated Deep Neural Network Models.'
@@ -18803,6 +18838,16 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3580305.3599923
   ee: https://doi.org/10.1145/3580305.3599923
   url: https://dblp.org/rec/conf/kdd/YiWZYTS023
+- author: "Mohammad Naseri, Javier Fern\xE1ndez-Marqu\xE9s, Yan Gao 0016, Heng Pan"
+  title: Privacy-Preserving Federated Learning using Flower Framework.
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/NaseriFGP24
+  doi: 10.1145/3637528.3671447
+  ee: https://doi.org/10.1145/3637528.3671447
+  url: https://dblp.org/rec/conf/kdd/NaseriFGP24
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -22193,6 +22238,18 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00444
   ee: https://doi.org/10.1109/ICCV51070.2023.00444
   url: https://dblp.org/rec/conf/iccv/ZengLLSLW23
+- author: "Yasar Abbas Ur Rehman, Yan Gao 0016, Pedro Porto Buarque de Gusm\xE3o,\
+    \ Mina Alibeigi, Jiajun Shen, Nicholas D. Lane"
+  title: 'L-DAWA: Layer-wise Divergence Aware Weight Aggregation in Federated Self-Supervised
+    Visual Representation Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/RehmanGGASL23
+  doi: 10.1109/ICCV51070.2023.01509
+  ee: https://doi.org/10.1109/ICCV51070.2023.01509
+  url: https://dblp.org/rec/conf/iccv/RehmanGGASL23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -22735,6 +22792,17 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-73010-8_22
   ee: https://doi.org/10.1007/978-3-031-73010-8_22
   url: https://dblp.org/rec/conf/eccv/FanWSH24
+- author: "Yasar Abbas Ur Rehman, Yan Gao 0016, Jiajun Shen, Pedro Porto Buarque de\
+    \ Gusm\xE3o, Nicholas D. Lane"
+  title: Federated Self-supervised Learning for Video Understanding.
+  venue: ECCV
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/RehmanGSGL22
+  doi: 10.1007/978-3-031-19821-2_29
+  ee: https://doi.org/10.1007/978-3-031-19821-2_29
+  url: https://dblp.org/rec/conf/eccv/RehmanGSGL22
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

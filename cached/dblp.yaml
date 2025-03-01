@@ -5981,6 +5981,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I15.29603
   ee: https://doi.org/10.1609/aaai.v38i15.29603
   url: https://dblp.org/rec/conf/aaai/ZangXOCDL24
+- author: Yutao Huang, Lingyang Chu, Zirui Zhou, Lanjun Wang, Jiangchuan Liu, Jian
+    Pei 0001, Yong Zhang 0004
+  title: Personalized Cross-Silo Federated Learning on Non-IID Data.
+  venue: AAAI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/HuangCZWLPZ21
+  doi: 10.1609/AAAI.V35I9.16960
+  ee: https://doi.org/10.1609/aaai.v35i9.16960
+  url: https://dblp.org/rec/conf/aaai/HuangCZWLPZ21
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -16554,6 +16565,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=2sDQwC_hmnM
   url: https://dblp.org/rec/conf/iclr/QiuFGGPL22
+- author: Zhenan Fan, Huang Fang, Xinglu Wang, Zirui Zhou, Jian Pei 0001, Michael
+    P. Friedlander, Yong Zhang 0004
+  title: Fair and Efficient Contribution Valuation for Vertical Federated Learning.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/FanFWZPFZ24
+  doi: ''
+  ee: https://openreview.net/forum?id=sLQb8q0sUi
+  url: https://dblp.org/rec/conf/iclr/FanFWZPFZ24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -18848,6 +18870,50 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671447
   ee: https://doi.org/10.1145/3637528.3671447
   url: https://dblp.org/rec/conf/kdd/NaseriFGP24
+- author: Xidong Wu, Zhengmian Hu, Jian Pei 0001, Heng Huang
+  title: Serverless Federated AUPRC Optimization for Multi-Party Collaborative Imbalanced
+    Data Mining.
+  venue: KDD
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/WuHPH23
+  doi: 10.1145/3580305.3599499
+  ee: https://doi.org/10.1145/3580305.3599499
+  url: https://dblp.org/rec/conf/kdd/WuHPH23
+- author: Junyi Li, Jian Pei 0001, Heng Huang
+  title: Communication-Efficient Robust Federated Learning with Noisy Labels.
+  venue: KDD
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/LiPH22
+  doi: 10.1145/3534678.3539328
+  ee: https://doi.org/10.1145/3534678.3539328
+  url: https://dblp.org/rec/conf/kdd/LiPH22
+- author: Qingsong Zhang, Bin Gu 0001, Cheng Deng, Songxiang Gu, Liefeng Bo, Jian
+    Pei 0001, Heng Huang
+  title: 'AsySQN: Faster Vertical Federated Learning Algorithms with Better Computation
+    Resource Utilization.'
+  venue: KDD
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ZhangGDGBPH21
+  doi: 10.1145/3447548.3467169
+  ee: https://doi.org/10.1145/3447548.3467169
+  url: https://dblp.org/rec/conf/kdd/ZhangGDGBPH21
+- author: Zirui Zhou, Lingyang Chu, Changxin Liu, Lanjun Wang, Jian Pei 0001, Yong
+    Zhang 0004
+  title: Towards Fair Federated Learning.
+  venue: KDD
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ZhouCLWPZ21
+  doi: 10.1145/3447548.3470814
+  ee: https://doi.org/10.1145/3447548.3470814
+  url: https://dblp.org/rec/conf/kdd/ZhouCLWPZ21
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -26921,6 +26987,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE60146.2024.00198
   ee: https://doi.org/10.1109/ICDE60146.2024.00198
   url: https://dblp.org/rec/conf/icde/LiWZSLW24
+- author: Zhenan Fan, Huang Fang, Zirui Zhou, Jian Pei 0001, Michael P. Friedlander,
+    Changxin Liu, Yong Zhang 0004
+  title: Improving Fairness for Data Valuation in Horizontal Federated Learning.
+  venue: ICDE
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/FanFZPFLZ22
+  doi: 10.1109/ICDE53745.2022.00228
+  ee: https://doi.org/10.1109/ICDE53745.2022.00228
+  url: https://dblp.org/rec/conf/icde/FanFZPFLZ22
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou

@@ -19080,6 +19080,63 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/3616855.3635758
   ee: https://doi.org/10.1145/3616855.3635758
   url: https://dblp.org/rec/conf/wsdm/FanLC0QZ24
+- author: Yue Ding 0001, Yanbiao Ji, Xun Cai, Xin Xin 0003, Yuxiang Lu, Suizhi Huang,
+    Chang Liu, Xiaofeng Gao 0001, Tsuyoshi Murata, Hongtao Lu
+  title: Towards Personalized Federated Multi-Scenario Multi-Task Recommendation.
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/0001JC0LHL0ML25
+  doi: 10.1145/3701551.3703523
+  ee: https://doi.org/10.1145/3701551.3703523
+  url: https://dblp.org/rec/conf/wsdm/0001JC0LHL0ML25
+- author: Bin Li, Li Cheng, Zheng Qin, Yunlong Wu
+  title: Density-aware and Cluster-based Federated Anomaly Detection on Data Streams.
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/LiCQW25
+  doi: 10.1145/3701551.3703548
+  ee: https://doi.org/10.1145/3701551.3703548
+  url: https://dblp.org/rec/conf/wsdm/LiCQW25
+- author: Ahmad Sakor, Mauricio Brunet, Enrique Iglesias, Ariam Rivas, Philipp D.
+    Rohde, Angelina Kraft, Maria-Esther Vidal
+  title: 'Integrating Knowledge Graphs and Neuro-Symbolic AI: LDM Enables FAIR and
+    Federated Research Data Management.'
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/SakorBIRRKV25
+  doi: 10.1145/3701551.3704125
+  ee: https://doi.org/10.1145/3701551.3704125
+  url: https://dblp.org/rec/conf/wsdm/SakorBIRRKV25
+- author: Siqing Zhang, Yuchen Ding, Wei Tang 0015, Wei Sun, Yong Liao, Peng Yuan
+    Zhou
+  title: Privacy-Preserving Orthogonal Aggregation for Guaranteeing Gender Fairness
+    in Federated Recommendation.
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/ZhangD0SLZ25
+  doi: 10.1145/3701551.3703513
+  ee: https://doi.org/10.1145/3701551.3703513
+  url: https://dblp.org/rec/conf/wsdm/ZhangD0SLZ25
+- author: Pengyang Zhou, Chaochao Chen 0001, Weiming Liu 0005, Xinting Liao, Fengyuan
+    Yu, Zhihui Fu, Xingyu Lou, Wu Wen, Xiaolin Zheng, Jun Wang
+  title: 'FedGF: Enhancing Structural Knowledge via Graph Factorization for Federated
+    Graph Learning.'
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/Zhou00LYFLWZW25
+  doi: 10.1145/3701551.3703493
+  ee: https://doi.org/10.1145/3701551.3703493
+  url: https://dblp.org/rec/conf/wsdm/Zhou00LYFLWZW25
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using

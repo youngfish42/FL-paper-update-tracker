@@ -11492,6 +11492,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/57fabaa549352c52d5d312171b16970e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangLHW24
+- author: Junbao Chen, Jingfeng Xue, Yong Wang 0010, Zhenyan Liu, Lu Huang 0002
+  title: Classifier Clustering and Feature Alignment for Federated Learning under
+    Distributed Concept Drift.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ChenX0LH24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/942e820be4aa112509b3a281ff398851-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ChenX0LH24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -19160,6 +19171,16 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/3701551.3703493
   ee: https://doi.org/10.1145/3701551.3703493
   url: https://dblp.org/rec/conf/wsdm/Zhou00LYFLWZW25
+- author: Bin Li 0030, Li Cheng, Zheng Qin 0002, Yunlong Wu
+  title: Density-aware and Cluster-based Federated Anomaly Detection on Data Streams.
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/LiCQW25
+  doi: 10.1145/3701551.3703548
+  ee: https://doi.org/10.1145/3701551.3703548
+  url: https://dblp.org/rec/conf/wsdm/LiCQW25
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using

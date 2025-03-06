@@ -19181,6 +19181,16 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/3701551.3703548
   ee: https://doi.org/10.1145/3701551.3703548
   url: https://dblp.org/rec/conf/wsdm/LiCQW25
+- author: Bin Li 0030, Li Cheng 0001, Zheng Qin 0002, Yunlong Wu
+  title: Density-aware and Cluster-based Federated Anomaly Detection on Data Streams.
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/LiCQW25
+  doi: 10.1145/3701551.3703548
+  ee: https://doi.org/10.1145/3701551.3703548
+  url: https://dblp.org/rec/conf/wsdm/LiCQW25
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using

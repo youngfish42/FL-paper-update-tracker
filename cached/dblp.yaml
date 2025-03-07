@@ -1954,6 +1954,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2021/527
   ee: https://doi.org/10.24963/ijcai.2021/527
   url: https://dblp.org/rec/conf/ijcai/Jiang0LZ21
+- author: Jianfeng Lu 0002, Yue Chen, Shuqin Cao, Longbiao Chen, Wei Wang, Yun Xin
+  title: 'LEAP: Optimization Hierarchical Federated Learning on Non-IID Data with
+    Coalition Formation Game.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LuCCCWX24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/515
+  url: https://dblp.org/rec/conf/ijcai/LuCCCWX24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng

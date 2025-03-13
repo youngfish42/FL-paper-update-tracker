@@ -29846,6 +29846,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM42981.2021.9488723
   ee: https://doi.org/10.1109/INFOCOM42981.2021.9488723
   url: https://dblp.org/rec/conf/infocom/Li0TQWL21
+- author: Tao Wu 0011, Yuben Qu, Chunsheng Liu, Yuqian Jing, Feiyu Wu, Haipeng Dai
+    0001, Chao Dong 0001, Jiannong Cao 0001
+  title: Joint Edge Aggregation and Association for Cost-Efficient Multi-Cell Federated
+    Learning.
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WuQLJWDDC23
+  doi: 10.1109/INFOCOM53939.2023.10229060
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10229060
+  url: https://dblp.org/rec/conf/infocom/WuQLJWDDC23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

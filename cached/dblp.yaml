@@ -6035,6 +6035,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I11.29146
   ee: https://doi.org/10.1609/aaai.v38i11.29146
   url: https://dblp.org/rec/conf/aaai/0003CLLLLCL24
+- author: Xiaoting Lyu, Yufei Han, Wei Wang 0012, Jingkai Liu, Bin Wang 0062, Jiqiang
+    Liu, Xiangliang Zhang 0001
+  title: 'Poisoning with Cerberus: Stealthy and Colluded Backdoor Attack against Federated
+    Learning.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LyuHWLWL023
+  doi: 10.1609/AAAI.V37I7.26083
+  ee: https://doi.org/10.1609/aaai.v37i7.26083
+  url: https://dblp.org/rec/conf/aaai/LyuHWLWL023
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

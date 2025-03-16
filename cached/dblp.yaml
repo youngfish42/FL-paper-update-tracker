@@ -16978,6 +16978,16 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v244/wang24c.html
   url: https://dblp.org/rec/conf/uai/WangLSWGW24
+- author: Wei Deng 0002, Qian Zhang 0067, Yian Ma, Zhao Song 0002, Guang Lin
+  title: On Convergence of Federated Averaging Langevin Dynamics.
+  venue: UAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/DengZM0L24
+  doi: ''
+  ee: https://proceedings.mlr.press/v244/deng24a.html
+  url: https://dblp.org/rec/conf/uai/DengZM0L24
 federate%20streamid%3Ajournals%2Fml%3A:
 - author: Adnan Ahmad, Wei Luo 0001, Antonio Robles-Kelly
   title: Robust federated learning under statistical heterogeneity via hessian-weighted

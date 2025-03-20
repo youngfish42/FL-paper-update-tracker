@@ -1986,6 +1986,18 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/551
   url: https://dblp.org/rec/conf/ijcai/Tang0T0LL24
+- author: Jinqian Chen, Haoyu Tang, Junhao Cheng, Ming Yan 0008, Ji Zhang 0011, Mingzhu
+    Xu, Yupeng Hu, Liqiang Nie
+  title: 'Breaking Barriers of System Heterogeneity: Straggler-Tolerant Multimodal
+    Federated Learning via Knowledge Distillation.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ChenTCYZXHN24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/419
+  url: https://dblp.org/rec/conf/ijcai/ChenTCYZXHN24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -6881,6 +6893,16 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/jeong24a.html
   url: https://dblp.org/rec/conf/aistats/JeongL24
+- author: Hao Jin, Yang Peng, Wenhao Yang, Shusen Wang, Zhihua Zhang 0004
+  title: Federated Reinforcement Learning with Environment Heterogeneity.
+  venue: AISTATS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/JinPYWZ22
+  doi: ''
+  ee: https://proceedings.mlr.press/v151/jin22a.html
+  url: https://dblp.org/rec/conf/aistats/JinPYWZ22
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -11558,6 +11580,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/942e820be4aa112509b3a281ff398851-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenX0LH24
+- author: Hanhan Zhou, Tian Lan 0001, Guru Venkataramani, Wenbo Ding 0001
+  title: 'Every Parameter Matters: Ensuring the Convergence of Federated Learning
+    with Dynamic Heterogeneous Models Reduction.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhouLVD23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/526356453b7301c9b29aa0533f62bdef-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhouLVD23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -19032,6 +19065,51 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3447548.3470814
   ee: https://doi.org/10.1145/3447548.3470814
   url: https://dblp.org/rec/conf/kdd/ZhouCLWPZ21
+- author: Weirui Kuang, Bingchen Qian, Zitao Li, Daoyuan Chen, Dawei Gao, Xuchen Pan,
+    Yuexiang Xie, Yaliang Li, Bolin Ding, Jingren Zhou 0001
+  title: 'FederatedScope-LLM: A Comprehensive Package for Fine-tuning Large Language
+    Models in Federated Learning.'
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/KuangQLCGPXLDZ24
+  doi: 10.1145/3637528.3671573
+  ee: https://doi.org/10.1145/3637528.3671573
+  url: https://dblp.org/rec/conf/kdd/KuangQLCGPXLDZ24
+- author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
+    Jingren Zhou 0001
+  title: 'FederatedScope-GNN: Towards a Unified, Comprehensive and Efficient Package
+    for Federated Graph Learning.'
+  venue: KDD
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/WangKXYLDZ22
+  doi: 10.1145/3534678.3539112
+  ee: https://doi.org/10.1145/3534678.3539112
+  url: https://dblp.org/rec/conf/kdd/WangKXYLDZ22
+- author: Daoyuan Chen, Dawei Gao, Yuexiang Xie, Xuchen Pan, Zitao Li, Yaliang Li,
+    Bolin Ding, Jingren Zhou 0001
+  title: 'FS-REAL: Towards Real-World Cross-Device Federated Learning.'
+  venue: KDD
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ChenGXPLLDZ23
+  doi: 10.1145/3580305.3599829
+  ee: https://doi.org/10.1145/3580305.3599829
+  url: https://dblp.org/rec/conf/kdd/ChenGXPLLDZ23
+- author: Yaliang Li, Bolin Ding, Jingren Zhou 0001
+  title: A Practical Introduction to Federated Learning.
+  venue: KDD
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/LiDZ22
+  doi: 10.1145/3534678.3542631
+  ee: https://doi.org/10.1145/3534678.3542631
+  url: https://dblp.org/rec/conf/kdd/LiDZ22
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -20439,6 +20517,50 @@ federate%20venue%3ANDSS%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
   url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
+- author: Dzung Pham 0002, Shreyas Kulkarni, Amir Houmansadr
+  title: 'RAIFLE: Reconstruction Attacks on Interaction-based Federated Learning with
+    Adversarial Data Manipulation.'
+  venue: NDSS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/0002KH25
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/raifle-reconstruction-attacks-on-interaction-based-federated-learning-with-adversarial-data-manipulation/
+  url: https://dblp.org/rec/conf/ndss/0002KH25
+- author: Aydin Abadi, Vishnu Asutosh Dasu, Sumanta Sarkar
+  title: Privacy-Preserving Data Deduplication for Enhancing Federated Learning of
+    Language Models.
+  venue: NDSS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/AbadiDS25
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/privacy-preserving-data-deduplication-for-enhancing-federated-learning-of-language-models/
+  url: https://dblp.org/rec/conf/ndss/AbadiDS25
+- author: Shanghao Shi, Ning Wang 0022, Yang Xiao 0010, Chaoyu Zhang, Yi Shi 0001,
+    Y. Thomas Hou 0001, Wenjing Lou
+  title: 'Scale-MIA: A Scalable Model Inversion Attack against Secure Federated Learning
+    via Latent Space Reconstruction.'
+  venue: NDSS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/Shi00Z00L25
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/scale-mia-a-scalable-model-inversion-attack-against-secure-federated-learning-via-latent-space-reconstruction/
+  url: https://dblp.org/rec/conf/ndss/Shi00Z00L25
+- author: Duanyi Yao, Songze Li, Xueluan Gong, Sizai Hou, Gaoning Pan
+  title: 'URVFL: Undetectable Data Reconstruction Attack on Vertical Federated Learning.'
+  venue: NDSS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/YaoLGHP25
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/urvfl-undetectable-data-reconstruction-attack-on-vertical-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/YaoLGHP25
 federate%20venue%3ACVPR%3A:
 - author: Yiqing Shen 0003, Yuyin Zhou, Lequan Yu
   title: 'CD2-pFed: Cyclic Distillation-guided Channel Decoupling for Model Personalization
@@ -28081,6 +28203,49 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3565816.3565823
   ee: https://www.vldb.org/pvldb/vol16/p202-li.pdf
   url: https://dblp.org/rec/journals/pvldb/LiHL0PH0Q22
+- author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
+    Yaliang Li, Bolin Ding, Jingren Zhou 0001
+  title: 'FederatedScope: A Flexible Federated Learning Platform for Heterogeneity.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/XieWGCYKLDZ23
+  doi: 10.14778/3579075.3579081
+  ee: https://www.vldb.org/pvldb/vol16/p1059-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/XieWGCYKLDZ23
+- author: Zitao Li, Bolin Ding, Liuyi Yao, Yaliang Li, Xiaokui Xiao, Jingren Zhou
+    0001
+  title: Performance-Based Pricing of Federated Learning via Auction.
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiDYLXZ24
+  doi: 10.14778/3648160.3648169
+  ee: https://www.vldb.org/pvldb/vol17/p1269-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiDYLXZ24
+- author: Dawei Gao, Daoyuan Chen, Zitao Li, Yuexiang Xie, Xuchen Pan, Yaliang Li,
+    Bolin Ding, Jingren Zhou 0001
+  title: 'FS-Real: A Real-World Cross-Device Federated Learning Platform.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/GaoCLXPLDZ23
+  doi: 10.14778/3611540.3611617
+  ee: https://www.vldb.org/pvldb/vol16/p4046-chen.pdf
+  url: https://dblp.org/rec/journals/pvldb/GaoCLXPLDZ23
+- author: Zitao Li, Bolin Ding, Ce Zhang 0001, Ninghui Li, Jingren Zhou 0001
+  title: Federated Matrix Factorization with Privacy Guarantee.
+  venue: Proc. VLDB Endow.
+  year: '2021'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiDZLZ21
+  doi: 10.14778/3503585.3503598
+  ee: https://www.vldb.org/pvldb/vol15/p900-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiDZLZ21
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -34198,6 +34363,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2021.3137321
   ee: https://doi.org/10.1109/TPDS.2021.3137321
   url: https://dblp.org/rec/journals/tpds/LiZWHL22
+- author: Meilin Yang, Jian Xu 0016, Wenbo Ding 0001, Yang Liu 0165
+  title: 'FedHAP: Federated Hashing With Global Prototypes for Cross-Silo Retrieval.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/YangXDL24
+  doi: 10.1109/TPDS.2023.3324426
+  ee: https://doi.org/10.1109/TPDS.2023.3324426
+  url: https://dblp.org/rec/journals/tpds/YangXDL24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -35289,6 +35464,18 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3337317
   ee: https://doi.org/10.1109/TC.2023.3337317
   url: https://dblp.org/rec/journals/tc/ZhangXYLC24
+- author: Jie Zhang 0076, Song Guo 0001, Jingcai Guo, Deze Zeng, Jingren Zhou 0001,
+    Albert Y. Zomaya
+  title: Towards Data-Independent Knowledge Transfer in Model-Heterogeneous Federated
+    Learning.
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZhangGGZZZ23
+  doi: 10.1109/TC.2023.3272801
+  ee: https://doi.org/10.1109/TC.2023.3272801
+  url: https://dblp.org/rec/journals/tc/ZhangGGZZZ23
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

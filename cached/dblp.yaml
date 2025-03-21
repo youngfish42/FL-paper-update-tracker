@@ -35476,6 +35476,18 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3272801
   ee: https://doi.org/10.1109/TC.2023.3272801
   url: https://dblp.org/rec/journals/tc/ZhangGGZZZ23
+- author: Xingyan Chen, Tian Du, Mu Wang, Tiancheng Gu, Yu Zhao 0019, Gang Kou, Changqiao
+    Xu, Dapeng Oliver Wu
+  title: Towards Optimal Customized Architecture for Heterogeneous Federated Learning
+    With Contrastive Cloud-Edge Model Decoupling.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ChenDWGZKXW25
+  doi: 10.1109/TC.2024.3514302
+  ee: https://doi.org/10.1109/TC.2024.3514302
+  url: https://dblp.org/rec/journals/tc/ChenDWGZKXW25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

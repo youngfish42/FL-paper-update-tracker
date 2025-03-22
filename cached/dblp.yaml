@@ -11591,6 +11591,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/526356453b7301c9b29aa0533f62bdef-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhouLVD23
+- author: Pei-Yau Weng, Minh Hoang, Lam M. Nguyen, My T. Thai, Lily Weng, Trong Nghia
+    Hoang
+  title: Probabilistic Federated Prompt-Tuning with Non-IID and Imbalanced Data.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WengHNTWH24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/951877b24b376c5f4612e850251ee85b-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WengHNTWH24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

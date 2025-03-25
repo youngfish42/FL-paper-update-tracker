@@ -30098,6 +30098,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10229060
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10229060
   url: https://dblp.org/rec/conf/infocom/WuQLJWDDC23
+- author: Tengxi Xia, Ju Ren 0001, Wei Rao 0003, Qin Zu, Wenjie Wang, Shuai Chen,
+    Yaoxue Zhang
+  title: 'AeroRec: An Efficient On-Device Recommendation Framework using Federated
+    Self-Supervised Knowledge Distillation.'
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/Xia0RZWCZ24
+  doi: 10.1109/INFOCOM52122.2024.10621240
+  ee: https://doi.org/10.1109/INFOCOM52122.2024.10621240
+  url: https://dblp.org/rec/conf/infocom/Xia0RZWCZ24
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

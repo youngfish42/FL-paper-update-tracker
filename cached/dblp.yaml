@@ -11602,6 +11602,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/951877b24b376c5f4612e850251ee85b-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WengHNTWH24
+- author: Samiul Alam, Luyang Liu, Ming Yan 0006, Mi Zhang 0002
+  title: 'FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model
+    Extraction.'
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/AlamLYZ22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/bf5311df07f3efce97471921e6d2f159-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/AlamLYZ22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

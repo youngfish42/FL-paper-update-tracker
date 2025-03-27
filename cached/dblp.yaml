@@ -6059,6 +6059,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I7.26083
   ee: https://doi.org/10.1609/aaai.v37i7.26083
   url: https://dblp.org/rec/conf/aaai/LyuHWLWL023
+- author: Yixuan Liu 0002, Suyun Zhao, Li Xiong 0001, Yuhan Liu, Hong Chen 0001
+  title: 'Echo of Neighbors: Privacy Amplification for Personalized Private Federated
+    Learning with Shuffle Model.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuZ0LC23
+  doi: 10.1609/AAAI.V37I10.26400
+  ee: https://doi.org/10.1609/aaai.v37i10.26400
+  url: https://dblp.org/rec/conf/aaai/LiuZ0LC23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -11613,6 +11624,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/bf5311df07f3efce97471921e6d2f159-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/AlamLYZ22
+- author: Haonan Yan, Wenjing Zhang 0002, Qian Chen 0032, Xiaoguang Li, Wenhai Sun,
+    Hui Li 0006, Xiaodong Lin 0001
+  title: 'RECESS Vaccine for Federated Learning: Proactive Defense Against Model Poisoning
+    Attacks.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YanZCLS0023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/1b80fe066fdbceb3a2960117bac33917-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YanZCLS0023
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -17667,6 +17690,26 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2024.3470072
   ee: https://doi.org/10.1109/TPAMI.2024.3470072
   url: https://dblp.org/rec/journals/pami/ZhaoLLLH25
+- author: Xiuwen Fang, Mang Ye, Bo Du 0001
+  title: Robust Asymmetric Heterogeneous Federated Learning With Corrupted Clients.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/FangYD25
+  doi: 10.1109/TPAMI.2025.3527137
+  ee: https://doi.org/10.1109/TPAMI.2025.3527137
+  url: https://dblp.org/rec/journals/pami/FangYD25
+- author: Miin-Shen Yang, Kristina P. Sinaga
+  title: Federated Multi-View K-Means Clustering.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/YangS25
+  doi: 10.1109/TPAMI.2024.3520708
+  ee: https://doi.org/10.1109/TPAMI.2024.3520708
+  url: https://dblp.org/rec/journals/pami/YangS25
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

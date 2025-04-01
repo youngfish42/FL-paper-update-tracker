@@ -32043,6 +32043,29 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645693
   ee: https://doi.org/10.1145/3589334.3645693
   url: https://dblp.org/rec/conf/www/YanCWYDS24
+- author: Liang Qu, Wei Yuan 0003, Ruiqi Zheng, Lizhen Cui, Yuhui Shi 0001, Hongzhi
+    Yin
+  title: 'Towards Personalized Privacy: User-Governed Data Contribution for Federated
+    Recommendation.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/QuYZCSY24
+  doi: 10.1145/3589334.3645690
+  ee: https://doi.org/10.1145/3589334.3645690
+  url: https://dblp.org/rec/conf/www/QuYZCSY24
+- author: Liang Qu, Ningzhi Tang, Ruiqi Zheng, Quoc Viet Hung Nguyen, Zi Huang, Yuhui
+    Shi 0001, Hongzhi Yin
+  title: Semi-decentralized Federated Ego Graph Learning for Recommendation.
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/QuTZNHSY23
+  doi: 10.1145/3543507.3583337
+  ee: https://doi.org/10.1145/3543507.3583337
+  url: https://dblp.org/rec/conf/www/QuTZNHSY23
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

@@ -24635,6 +24635,18 @@ federate%20venue%3AACL%3A:
   doi: 10.18653/V1/2024.FINDINGS-ACL.595
   ee: https://doi.org/10.18653/v1/2024.findings-acl.595
   url: https://dblp.org/rec/conf/acl/ZengYZS024
+- author: Rui Wang 0088, Tong Yu 0001, Junda Wu, Handong Zhao, Sungchul Kim, Ruiyi
+    Zhang 0002, Subrata Mitra, Ricardo Henao
+  title: Federated Domain Adaptation for Named Entity Recognition via Distilling with
+    Heterogeneous Tag Sets.
+  venue: ACL
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/Wang0WZKZMH23
+  doi: 10.18653/V1/2023.FINDINGS-ACL.470
+  ee: https://doi.org/10.18653/v1/2023.findings-acl.470
+  url: https://dblp.org/rec/conf/acl/Wang0WZKZMH23
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"
@@ -36317,6 +36329,18 @@ federate%20venue%3ANAACL-HLT%3A:
   doi: 10.18653/V1/2024.NAACL-LONG.314
   ee: https://doi.org/10.18653/v1/2024.naacl-long.314
   url: https://dblp.org/rec/conf/naacl/ZengYW24
+- author: Rui Wang 0088, Tong Yu 0001, Ruiyi Zhang 0002, Sungchul Kim, Ryan A. Rossi,
+    Handong Zhao, Junda Wu, Subrata Mitra, Lina Yao 0001, Ricardo Henao
+  title: Personalized Federated Learning for Text Classification with Gradient-Free
+    Prompt Tuning.
+  venue: NAACL-HLT
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/WangYZKRZWMYH24
+  doi: 10.18653/V1/2024.FINDINGS-NAACL.286
+  ee: https://doi.org/10.18653/v1/2024.findings-naacl.286
+  url: https://dblp.org/rec/conf/naacl/WangYZKRZWMYH24
 federate%20venue%3ASOSP%3A:
 - author: Elizabeth Margolin, Karan Newatia, Tao Luo, Edo Roth, Andreas Haeberlen
   title: 'Arboretum: A Planner for Large-Scale Federated Analytics with Differential

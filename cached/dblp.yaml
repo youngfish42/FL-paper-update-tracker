@@ -1998,6 +1998,17 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/419
   url: https://dblp.org/rec/conf/ijcai/ChenTCYZXHN24
+- author: Chunxu Zhang, Guodong Long, Tianyi Zhou 0001, Peng Yan 0002, Zijian Zhang
+    0009, Chengqi Zhang, Bo Yang 0002
+  title: Dual Personalization on Federated Recommendation.
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ZhangL0YZZY23
+  doi: 10.24963/IJCAI.2023/507
+  ee: https://doi.org/10.24963/ijcai.2023/507
+  url: https://dblp.org/rec/conf/ijcai/ZhangL0YZZY23
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -14546,6 +14557,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=kc4dZYJlJG
   url: https://dblp.org/rec/conf/icml/GuoTL24
+- author: Zhen Wang 0036, Weirui Kuang, Ce Zhang 0001, Bolin Ding, Yaliang Li
+  title: 'FedHPO-Bench: A Benchmark Suite for Federated Hyperparameter Optimization.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/WangK0DL23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/wang23n.html
+  url: https://dblp.org/rec/conf/icml/WangK0DL23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -19312,6 +19333,29 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3690624.3709311
   ee: https://doi.org/10.1145/3690624.3709311
   url: https://dblp.org/rec/conf/kdd/ZhangLL0CS25
+- author: Zhen Wang 0036, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin
+    Ding, Jingren Zhou 0001
+  title: 'FederatedScope-GNN: Towards a Unified, Comprehensive and Efficient Package
+    for Federated Graph Learning.'
+  venue: KDD
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/WangKXYLDZ22
+  doi: 10.1145/3534678.3539112
+  ee: https://doi.org/10.1145/3534678.3539112
+  url: https://dblp.org/rec/conf/kdd/WangKXYLDZ22
+- author: Chunxu Zhang, Guodong Long, Tianyi Zhou 0001, Zijian Zhang 0009, Peng Yan
+    0002, Bo Yang 0002
+  title: 'GPFedRec: Graph-Guided Personalization for Federated Recommendation.'
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ZhangL0ZYY24
+  doi: 10.1145/3637528.3671702
+  ee: https://doi.org/10.1145/3637528.3671702
+  url: https://dblp.org/rec/conf/kdd/ZhangL0ZYY24
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -28460,6 +28504,17 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3503585.3503598
   ee: https://www.vldb.org/pvldb/vol15/p900-li.pdf
   url: https://dblp.org/rec/journals/pvldb/LiDZLZ21
+- author: Yuexiang Xie, Zhen Wang 0036, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui
+    Kuang, Yaliang Li, Bolin Ding, Jingren Zhou 0001
+  title: 'FederatedScope: A Flexible Federated Learning Platform for Heterogeneity.'
+  venue: Proc. VLDB Endow.
+  year: '2023'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/XieWGCYKLDZ23
+  doi: 10.14778/3579075.3579081
+  ee: https://www.vldb.org/pvldb/vol16/p1059-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/XieWGCYKLDZ23
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -32237,6 +32292,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583337
   ee: https://doi.org/10.1145/3543507.3583337
   url: https://dblp.org/rec/conf/www/QuTZNHSY23
+- author: Chunxu Zhang, Guodong Long, Tianyi Zhou 0001, Zijian Zhang 0009, Peng Yan
+    0002, Bo Yang 0002
+  title: 'When Federated Recommendation Meets Cold-Start Problem: Separating Item
+    Attributes and User Interactions.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangL00YY24
+  doi: 10.1145/3589334.3645525
+  ee: https://doi.org/10.1145/3589334.3645525
+  url: https://dblp.org/rec/conf/www/ZhangL00YY24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

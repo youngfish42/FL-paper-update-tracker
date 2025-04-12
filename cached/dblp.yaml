@@ -30368,6 +30368,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM52122.2024.10621240
   ee: https://doi.org/10.1109/INFOCOM52122.2024.10621240
   url: https://dblp.org/rec/conf/infocom/Xia0RZWCZ24
+- author: Fei Gao, Yunfeng Zhao, Chao Qiu, Xiaofei Wang 0001
+  title: Efficient Adapting for Vision-language Foundation Model in Edge Computing
+    Based on Personalized and Multi-Granularity Federated Learning.
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/GaoZQW24
+  doi: 10.1109/INFOCOMWKSHPS61880.2024.10620835
+  ee: https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620835
+  url: https://dblp.org/rec/conf/infocom/GaoZQW24
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -33364,6 +33375,17 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3627703.3629559
   ee: https://doi.org/10.1145/3627703.3629559
   url: https://dblp.org/rec/conf/eurosys/Jiang0C24
+- author: Qiang He 0001, Kaibin Wang, Zeqian Dong, Liang Yuan, Feifei Chen, Hai Jin
+    0001, Yun Yang 0001
+  title: 'Hourglass: Enabling Efficient Split Federated Learning with Data Parallelism.'
+  venue: EuroSys
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/0001WDYC0025
+  doi: 10.1145/3689031.3717467
+  ee: https://doi.org/10.1145/3689031.3717467
+  url: https://dblp.org/rec/conf/eurosys/0001WDYC0025
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001

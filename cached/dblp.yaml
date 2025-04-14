@@ -11647,6 +11647,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/1b80fe066fdbceb3a2960117bac33917-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YanZCLS0023
+- author: Fengyu Gao, Ruiquan Huang, Jing Yang 0002
+  title: 'Federated Online Prediction from Experts with Differential Privacy: Separations
+    and Regret Speed-ups.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/GaoHY24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/e3490ed7541c826d9156c322c910e41b-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/GaoHY24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -16741,6 +16752,16 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=sLQb8q0sUi
   url: https://dblp.org/rec/conf/iclr/FanFWZPFZ24
+- author: Zhong Zheng, Fengyu Gao, Lingzhou Xue, Jing Yang 0002
+  title: 'Federated Q-Learning: Linear Regret Speedup with Low Communication Cost.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ZhengGXY24
+  doi: ''
+  ee: https://openreview.net/forum?id=fe6ANBxcKM
+  url: https://dblp.org/rec/conf/iclr/ZhengGXY24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -22096,6 +22117,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.00779
   ee: https://doi.org/10.1109/CVPR52729.2023.00779
   url: https://dblp.org/rec/conf/cvpr/FengLX0FZ23
+- author: Yuanhao Xiong, Ruochen Wang, Minhao Cheng, Felix X. Yu, Cho-Jui Hsieh
+  title: 'FedDM: Iterative Distribution Matching for Communication-Efficient Federated
+    Learning.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/XiongWCYH23
+  doi: 10.1109/CVPR52729.2023.01566
+  ee: https://doi.org/10.1109/CVPR52729.2023.01566
+  url: https://dblp.org/rec/conf/cvpr/XiongWCYH23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

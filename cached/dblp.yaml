@@ -6081,6 +6081,62 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I10.26400
   ee: https://doi.org/10.1609/aaai.v37i10.26400
   url: https://dblp.org/rec/conf/aaai/LiuZ0LC23
+- author: Keke Gai, Dongjue Wang, Jing Yu 0007, Mohan Wang, Liehuang Zhu, Qi Wu 0001
+  title: 'MFL-Owner: Ownership Protection for Multi-modal Federated Learning via Orthogonal
+    Transform Watermark.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/GaiW0WZ025
+  doi: 10.1609/AAAI.V39I3.32313
+  ee: https://doi.org/10.1609/aaai.v39i3.32313
+  url: https://dblp.org/rec/conf/aaai/GaiW0WZ025
+- author: Dongping Liao, Xitong Gao, Yabo Xu, Cheng-Zhong Xu 0001
+  title: Progressive Distribution Matching for Federated Semi-Supervised Learning.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/LiaoGX025
+  doi: 10.1609/AAAI.V39I5.32551
+  ee: https://doi.org/10.1609/aaai.v39i5.32551
+  url: https://dblp.org/rec/conf/aaai/LiaoGX025
+- author: Delin Pan, Jiansong Fan, Jie Zhu, Llihua Li, Xiang Pan
+  title: Dual-calibrated Co-training Framework for Personalized Federated Semi-Supervised
+    Medical Image Segmentation.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/PanFZLP25
+  doi: 10.1609/AAAI.V39I6.32671
+  ee: https://doi.org/10.1609/aaai.v39i6.32671
+  url: https://dblp.org/rec/conf/aaai/PanFZLP25
+- author: Aowen Wang, Zhiwang Zhang, Dongang Wang, Fanyi Wang, Haotian Hu, Jinyang
+    Guo, Yipeng Zhou, Chaoyi Pang, Shiting Wen
+  title: 'Overcoming Heterogeneous Data in Federated Medical Vision-Language Pre-training:
+    A Triple-Embedding Model Selector Approach.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/WangZWWHGZPW25
+  doi: 10.1609/AAAI.V39I7.32807
+  ee: https://doi.org/10.1609/aaai.v39i7.32807
+  url: https://dblp.org/rec/conf/aaai/WangZWWHGZPW25
+- author: Zeke Xia, Ming Hu, Dengke Yan, Ruixuan Liu, Anran Li 0001, Xiaofei Xie,
+    Mingsong Chen 0001
+  title: 'MultiSFL: Towards Accurate Split Federated Learning via Multi-Model Aggregation
+    and Knowledge Replay.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/XiaHYL0X025
+  doi: 10.1609/AAAI.V39I1.32076
+  ee: https://doi.org/10.1609/aaai.v39i1.32076
+  url: https://dblp.org/rec/conf/aaai/XiaHYL0X025
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -11658,6 +11714,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/e3490ed7541c826d9156c322c910e41b-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GaoHY24
+- author: Qingxiang Liu, Xu Liu 0014, Chenghao Liu, Qingsong Wen, Yuxuan Liang
+  title: 'Time-FFM: Towards LM-Empowered Federated Foundation Model for Time Series
+    Forecasting.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiuLLWL24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/abc1943857a42935ceacff03c524bb44-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiuLLWL24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -33409,6 +33476,17 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   url: https://dblp.org/rec/conf/eurosys/Jiang0C24
 - author: Qiang He 0001, Kaibin Wang, Zeqian Dong, Liang Yuan, Feifei Chen, Hai Jin
     0001, Yun Yang 0001
+  title: 'Hourglass: Enabling Efficient Split Federated Learning with Data Parallelism.'
+  venue: EuroSys
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/0001WDYC0025
+  doi: 10.1145/3689031.3717467
+  ee: https://doi.org/10.1145/3689031.3717467
+  url: https://dblp.org/rec/conf/eurosys/0001WDYC0025
+- author: Qiang He 0001, Kaibin Wang, Zeqian Dong, Liang Yuan, Feifei Chen 0001, Hai
+    Jin 0001, Yun Yang 0001
   title: 'Hourglass: Enabling Efficient Split Federated Learning with Data Parallelism.'
   venue: EuroSys
   year: '2025'

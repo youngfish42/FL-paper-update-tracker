@@ -6137,6 +6137,211 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I1.32076
   ee: https://doi.org/10.1609/aaai.v39i1.32076
   url: https://dblp.org/rec/conf/aaai/XiaHYL0X025
+- author: Daniel Halpern 0002, Ariel D. Procaccia, Ehud Shapiro, Nimrod Talmon
+  title: Federated Assemblies.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/0002PST25
+  doi: 10.1609/AAAI.V39I13.33520
+  ee: https://doi.org/10.1609/aaai.v39i13.33520
+  url: https://dblp.org/rec/conf/aaai/0002PST25
+- author: Amr Abourayya, Jens Kleesiek, Kanishka Rao, Erman Ayday, Bharat Rao, Geoffrey
+    I. Webb, Michael Kamp
+  title: 'Little Is Enough: Boosting Privacy by Sharing Only Hard Labels in Federated
+    Semi-Supervised Learning.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/AbourayyaKRARWK25
+  doi: 10.1609/AAAI.V39I15.33678
+  ee: https://doi.org/10.1609/aaai.v39i15.33678
+  url: https://dblp.org/rec/conf/aaai/AbourayyaKRARWK25
+- author: Hongyan Bao, Pengwen Chen, Ying Sun 0003, Zhize Li
+  title: 'EFSkip: A New Error Feedback with Linear Speedup for Compressed Federated
+    Learning with Arbitrary Data Heterogeneity.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/BaoC0L25
+  doi: 10.1609/AAAI.V39I15.33700
+  ee: https://doi.org/10.1609/aaai.v39i15.33700
+  url: https://dblp.org/rec/conf/aaai/BaoC0L25
+- author: "Haokun Chen, Denis Krompa\xDF, Jindong Gu, Volker Tresp"
+  title: 'FedPop: Federated Population-based Hyperparameter Tuning.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/ChenKGT25
+  doi: 10.1609/AAAI.V39I15.33732
+  ee: https://doi.org/10.1609/aaai.v39i15.33732
+  url: https://dblp.org/rec/conf/aaai/ChenKGT25
+- author: Shengchao Chen, Guodong Long, Jing Jiang 0002, Chengqi Zhang
+  title: Federated Foundation Models on Heterogeneous Time Series.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/ChenL0Z25
+  doi: 10.1609/AAAI.V39I15.33739
+  ee: https://doi.org/10.1609/aaai.v39i15.33739
+  url: https://dblp.org/rec/conf/aaai/ChenL0Z25
+- author: Xiaobing Chen, Xiangwei Zhou, Songyang Zhang, Mingxuan Sun
+  title: 'DualGFL: Federated Learning with a Dual-Level Coalition-Auction Game.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/ChenZZS25
+  doi: 10.1609/AAAI.V39I15.33746
+  ee: https://doi.org/10.1609/aaai.v39i15.33746
+  url: https://dblp.org/rec/conf/aaai/ChenZZS25
+- author: Yun-Wei Chu, Dong-Jun Han, Seyyedali Hosseinalipour, Christopher G. Brinton
+  title: 'Rethinking the Starting Point: Collaborative Pre-Training for Federated
+    Downstream Tasks.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/ChuHHB25
+  doi: 10.1609/AAAI.V39I15.33764
+  ee: https://doi.org/10.1609/aaai.v39i15.33764
+  url: https://dblp.org/rec/conf/aaai/ChuHHB25
+- author: Sebastian Dalleiger, Aristides Gionis
+  title: Creating Coherence in Federated Non-Negative Matrix Factorization.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/DalleigerG25
+  doi: 10.1609/AAAI.V39I15.33772
+  ee: https://doi.org/10.1609/aaai.v39i15.33772
+  url: https://dblp.org/rec/conf/aaai/DalleigerG25
+- author: Sebastian Dalleiger, Jilles Vreeken, Michael Kamp
+  title: Federated Binary Matrix Factorization Using Proximal Optimization.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/DalleigerVK25
+  doi: 10.1609/AAAI.V39I15.33773
+  ee: https://doi.org/10.1609/aaai.v39i15.33773
+  url: https://dblp.org/rec/conf/aaai/DalleigerVK25
+- author: "Francesco Diana, Othmane Marfoq, Chuan Xu 0002, Giovanni Neglia, Fr\xE9\
+    d\xE9ric Giroire, Eoin Thomas"
+  title: Attribute Inference Attacks for Federated Regression Tasks.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/DianaM0NGT25
+  doi: 10.1609/AAAI.V39I15.33787
+  ee: https://doi.org/10.1609/aaai.v39i15.33787
+  url: https://dblp.org/rec/conf/aaai/DianaM0NGT25
+- author: Wenjun Ding, Ying An, Lixing Chen, Shichao Kan, Fan Wu, Zhe Qu
+  title: How Does the Smoothness Approximation Method Facilitate Generalization for
+    Federated Adversarial Learning?
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/DingACKWQ25
+  doi: 10.1609/AAAI.V39I15.33788
+  ee: https://doi.org/10.1609/aaai.v39i15.33788
+  url: https://dblp.org/rec/conf/aaai/DingACKWQ25
+- author: Gangqiang Hu, Jianfeng Lu 0002, Jianmin Han, Shuqin Cao, Jing Liu, Hao Fu
+  title: 'TRAIL: Trust-Aware Client Scheduling for Semi-Decentralized Federated Learning.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/Hu0HCLF25
+  doi: 10.1609/AAAI.V39I13.33524
+  ee: https://doi.org/10.1609/aaai.v39i13.33524
+  url: https://dblp.org/rec/conf/aaai/Hu0HCLF25
+- author: Qingxiang Liu, Sheng Sun, Yuxuan Liang, Min Liu 0001, Jingjing Xue
+  title: 'Personalized Federated Learning for Spatio-Temporal Forecasting: A Dual
+    Semantic Alignment-Based Contrastive Approach.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/LiuSL0X25
+  doi: 10.1609/AAAI.V39I11.33328
+  ee: https://doi.org/10.1609/aaai.v39i11.33328
+  url: https://dblp.org/rec/conf/aaai/LiuSL0X25
+- author: Meng Pang, Houwei Xu, Zheng Huang, Yintao Zhou, Wei Huang 0013, Binghui
+    Wang
+  title: 'Breaking Data Silos in Parkinson&apos;s Disease Diagnosis: An Adaptive Federated
+    Learning Approach for Privacy-Preserving Facial Expression Analysis.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/PangXHZ0W25
+  doi: 10.1609/AAAI.V39I13.33572
+  ee: https://doi.org/10.1609/aaai.v39i13.33572
+  url: https://dblp.org/rec/conf/aaai/PangXHZ0W25
+- author: Zhihao Wang, He Bai, Wenke Huang, Duantengchuan Li, Jian Wang, Bing Li
+  title: Federated Recommendation with Explicitly Encoding Item Bias.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/WangBHLWL25
+  doi: 10.1609/AAAI.V39I12.33395
+  ee: https://doi.org/10.1609/aaai.v39i12.33395
+  url: https://dblp.org/rec/conf/aaai/WangBHLWL25
+- author: Zeke Xia, Ming Hu 0003, Dengke Yan, Ruixuan Liu, Anran Li 0001, Xiaofei
+    Xie, Mingsong Chen 0001
+  title: 'MultiSFL: Towards Accurate Split Federated Learning via Multi-Model Aggregation
+    and Knowledge Replay.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/XiaHYL0X025
+  doi: 10.1609/AAAI.V39I1.32076
+  ee: https://doi.org/10.1609/aaai.v39i1.32076
+  url: https://dblp.org/rec/conf/aaai/XiaHYL0X025
+- author: Bo Yan, Sihao He, Cheng Yang, Shang Liu, Yang Cao, Chuan Shi
+  title: Federated Graph Condensation with Information Bottleneck Principles.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/YanHYLCS25
+  doi: 10.1609/AAAI.V39I12.33417
+  ee: https://doi.org/10.1609/aaai.v39i12.33417
+  url: https://dblp.org/rec/conf/aaai/YanHYLCS25
+- author: Chunxu Zhang, Guodong Long, Hongkuan Guo, Zhaojie Liu, Guorui Zhou, Zijian
+    Zhang 0009, Yang Liu, Bo Yang
+  title: 'Multifaceted User Modeling in Recommendation: A Federated Foundation Models
+    Approach.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/ZhangLGLZ0LY25
+  doi: 10.1609/AAAI.V39I12.33440
+  ee: https://doi.org/10.1609/aaai.v39i12.33440
+  url: https://dblp.org/rec/conf/aaai/ZhangLGLZ0LY25
+- author: Zhongjian Zhang, Mengmei Zhang, Xiao Wang, Lingjuan Lyu, Bo Yan 0005, Junping
+    Du 0001, Chuan Shi 0001
+  title: Rethinking Byzantine Robustness in Federated Recommendation from Sparse Aggregation
+    Perspective.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/ZhangZWL00025
+  doi: 10.1609/AAAI.V39I12.33455
+  ee: https://doi.org/10.1609/aaai.v39i12.33455
+  url: https://dblp.org/rec/conf/aaai/ZhangZWL00025
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

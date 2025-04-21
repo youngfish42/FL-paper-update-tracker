@@ -37044,6 +37044,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3324426
   ee: https://doi.org/10.1109/TPDS.2023.3324426
   url: https://dblp.org/rec/journals/tpds/YangXDL24
+- author: Zerui Shao, Beibei Li 0002, Peiran Wang, Yi Zhang 0018, Kim-Kwang Raymond
+    Choo
+  title: 'FedLoRE: Communication-Efficient and Personalized Edge Intelligence Framework
+    via Federated Low-Rank Estimation.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ShaoLWZC25
+  doi: 10.1109/TPDS.2025.3548444
+  ee: https://doi.org/10.1109/TPDS.2025.3548444
+  url: https://dblp.org/rec/journals/tpds/ShaoLWZC25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

@@ -8247,6 +8247,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I21.34475
   ee: https://doi.org/10.1609/aaai.v39i21.34475
   url: https://dblp.org/rec/conf/aaai/ZuoZZLXLQ25
+- author: Hao Zheng 0009, Zhigang Hu, Liu Yang, Meiguang Zheng, Aikun Xu, Boyu Wang
+    0004
+  title: 'ConFREE: Conflict-free Client Update Aggregation for Personalized Federated
+    Learning.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhengHYZX025
+  doi: 10.1609/AAAI.V39I21.34449
+  ee: https://doi.org/10.1609/aaai.v39i21.34449
+  url: https://dblp.org/rec/conf/aaai/ZhengHYZX025
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

@@ -13881,6 +13881,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/9482f45fdd89aba9130bb04c44f788a9-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiuL0SLJL24
+- author: Mingyi Li, Xiao Zhang 0015, Qi Wang, Tengfei Liu, Ruofan Wu, Weiqiang Wang
+    0002, Fuzhen Zhuang, Hui Xiong 0001, Dongxiao Yu
+  title: Resource-Aware Federated Self-Supervised Learning with Global Class Representations.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/Li0WLWWZ0Y24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/13707aad517ddd6c09ea02e0f55e1e7a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Li0WLWWZ0Y24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -26681,6 +26692,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3611966
   ee: https://doi.org/10.1145/3581783.3611966
   url: https://dblp.org/rec/conf/mm/LongXCZWZD23
+- author: Xinting Liao, Chaochao Chen 0001, Weiming Liu 0005, Pengyang Zhou, Huabin
+    Zhu, Shuheng Shen, Weiqiang Wang 0002, Mengling Hu, Yanchao Tan, Xiaolin Zheng
+  title: Joint Local Relational Augmentation and Global Nash Equilibrium for Federated
+    Learning with Non-IID Data.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Liao0LZZSWHTZ23
+  doi: 10.1145/3581783.3612178
+  ee: https://doi.org/10.1145/3581783.3612178
+  url: https://dblp.org/rec/conf/mm/Liao0LZZSWHTZ23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -28086,6 +28109,18 @@ federate%20venue%3ACOLING%3A:
   doi: ''
   ee: https://aclanthology.org/2025.coling-main.581/
   url: https://dblp.org/rec/conf/coling/Zheng0ZZWFLTX025
+- author: Dongyi Zheng, Hongyu Zhang 0002, Jianyang Zhai, Lin Zhong, Lingzhi Wang,
+    Jiyuan Feng, Xiangke Liao, Yonghong Tian 0001, Nong Xiao 0001, Qing Liao 0001
+  title: 'FedCSR: A Federated Framework for Multi-Platform Cross-Domain Sequential
+    Recommendation with Dual Contrastive Learning.'
+  venue: COLING
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/coling/Zheng0ZZWFLTX025
+  doi: ''
+  ee: https://aclanthology.org/2025.coling-main.581/
+  url: https://dblp.org/rec/conf/coling/Zheng0ZZWFLTX025
 federate%20venue%3ASIGIR%3A:
 - author: Zexi Li, Qunwei Li, Yi Zhou, Wenliang Zhong, Guannan Zhang, Chao Wu 0001
   title: Edge-cloud Collaborative Learning with Federated and Centralized Features.
@@ -28634,6 +28669,18 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3539618.3591722
   ee: https://doi.org/10.1145/3539618.3591722
   url: https://dblp.org/rec/conf/sigir/YuanNHCY23
+- author: Jiajie Su, Chaochao Chen 0001, Weiming Liu 0005, Zibin Lin, Shuheng Shen,
+    Weiqiang Wang 0002, Xiaolin Zheng
+  title: 'Revisit Targeted Model Poisoning on Federated Recommendation: Optimize via
+    Multi-objective Transport.'
+  venue: SIGIR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/SuC0LSWZ24
+  doi: 10.1145/3626772.3657764
+  ee: https://doi.org/10.1145/3626772.3657764
+  url: https://dblp.org/rec/conf/sigir/SuC0LSWZ24
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -34627,6 +34674,194 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645425
   ee: https://doi.org/10.1145/3589334.3645425
   url: https://dblp.org/rec/conf/www/QinYZD24
+- author: Yongqiang Huang 0003, Zerui Shao, Ziyuan Yang, Zexin Lu, Yi Zhang
+  title: 'FedRIR: Rethinking Information Representation in Federated Learning.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/0003SYLZ25
+  doi: 10.1145/3696410.3714612
+  ee: https://doi.org/10.1145/3696410.3714612
+  url: https://dblp.org/rec/conf/www/0003SYLZ25
+- author: Yichen Li 0006, Yijing Shan, Yi Liu, Haozhao Wang, Wei Wang, Yi Wang, Ruixuan
+    Li 0001
+  title: Personalized Federated Recommendation for Cold-Start Users via Adaptive Knowledge
+    Fusion.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/0006SLWWW025
+  doi: 10.1145/3696410.3714635
+  ee: https://doi.org/10.1145/3696410.3714635
+  url: https://dblp.org/rec/conf/www/0006SLWWW025
+- author: Ruonan Chen, Ye Dong, Yizhong Liu, Tingyu Fan, Dawei Li 0009, Zhenyu Guan,
+    Jianwei Liu 0001, Jianying Zhou 0001
+  title: 'FLock: Robust and Privacy-Preserving Federated Learning based on Practical
+    Blockchain State Channels.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ChenDLF0G0025
+  doi: 10.1145/3696410.3714666
+  ee: https://doi.org/10.1145/3696410.3714666
+  url: https://dblp.org/rec/conf/www/ChenDLF0G0025
+- author: Kai Fang, Jiangtao Deng, Chengzu Dong, Usman Naseem, Tongcun Liu, Hailin
+    Feng, Wei Wang 0077
+  title: 'MoCFL: Mobile Cluster Federated Learning Framework for Highly Dynamic Network.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/FangDDNLF025
+  doi: 10.1145/3696410.3714515
+  ee: https://doi.org/10.1145/3696410.3714515
+  url: https://dblp.org/rec/conf/www/FangDDNLF025
+- author: Minghong Fang, Xilong Wang, Neil Zhenqiang Gong
+  title: Provably Robust Federated Reinforcement Learning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/FangWG25
+  doi: 10.1145/3696410.3714728
+  ee: https://doi.org/10.1145/3696410.3714728
+  url: https://dblp.org/rec/conf/www/FangWG25
+- author: Yu Feng, Yangli-ao Geng, Yifan Zhu 0001, Zongfu Han, Xie Yu, Kaiwen Xue,
+    Haoran Luo 0001, Mengyang Sun, Guangwei Zhang, Meina Song
+  title: 'PM-MOE: Mixture of Experts on Private Model Parameters for Personalized
+    Federated Learning.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/FengG0HYX0SZS25
+  doi: 10.1145/3696410.3714561
+  ee: https://doi.org/10.1145/3696410.3714561
+  url: https://dblp.org/rec/conf/www/FengG0HYX0SZS25
+- author: Ken Li, Bin Shi, Jiazhe Wei, Bo Dong 0001
+  title: 'NI-GDBA: Non-Intrusive Distributed Backdoor Attack Based on Adaptive Perturbation
+    on Federated Graph Learning.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LiSW025
+  doi: 10.1145/3696410.3714630
+  ee: https://doi.org/10.1145/3696410.3714630
+  url: https://dblp.org/rec/conf/www/LiSW025
+- author: Fan Liu, Hao Liu
+  title: Subgraph Federated Unlearning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LiuL25
+  doi: 10.1145/3696410.3714821
+  ee: https://doi.org/10.1145/3696410.3714821
+  url: https://dblp.org/rec/conf/www/LiuL25
+- author: Yi Liu, Cong Wang, Xingliang Yuan
+  title: 'FedMobile: Enabling Knowledge Contribution-aware Multi-modal Federated Learning
+    with Incomplete Modalities.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LiuWY25
+  doi: 10.1145/3696410.3714623
+  ee: https://doi.org/10.1145/3696410.3714623
+  url: https://dblp.org/rec/conf/www/LiuWY25
+- author: Zhengyang Liu, Hang Yu, Xiangfeng Luo
+  title: Federated Graph Anomaly Detection via Disentangled Representation Learning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LiuYL25
+  doi: 10.1145/3696410.3714567
+  ee: https://doi.org/10.1145/3696410.3714567
+  url: https://dblp.org/rec/conf/www/LiuYL25
+- author: Kaibin Wang, Qiang He 0001, Zeqian Dong, Rui Chen, Chuan He, Caslon Chua,
+    Feifei Chen 0001, Yun Yang 0001
+  title: 'Maverick: Personalized Edge-Assisted Federated Learning with Contrastive
+    Training.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/Wang0DCHC0025
+  doi: 10.1145/3696410.3714884
+  ee: https://doi.org/10.1145/3696410.3714884
+  url: https://dblp.org/rec/conf/www/Wang0DCHC0025
+- author: Hengzhi Wang, Haoran Chen, Minghe Ma, Laizhong Cui
+  title: 'Dealing with Noisy Data in Federated Learning: An Incentive Mechanism with
+    Flexible Pricing.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangCMC25
+  doi: 10.1145/3696410.3714961
+  ee: https://doi.org/10.1145/3696410.3714961
+  url: https://dblp.org/rec/conf/www/WangCMC25
+- author: Jia Wang, Yawen Li, Zhe Xue, Yingxia Shao, Zeli Guan, Wenling Li
+  title: 'Horizontal Federated Heterogeneous Graph Learning: A Multi-Scale Adaptive
+    Solution to Data Distribution Challenges.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangLXSGL25
+  doi: 10.1145/3696410.3714722
+  ee: https://doi.org/10.1145/3696410.3714722
+  url: https://dblp.org/rec/conf/www/WangLXSGL25
+- author: Zheng Wang, Wanwan Wang, Yimin Huang, Zhaopeng Peng, Ziqi Yang, Ming Yao,
+    Cheng Wang, Xiaoliang Fan
+  title: 'P4GCN: Vertical Federated Social Recommendation with Privacy-Preserving
+    Two-Party Graph Convolution Network.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangWHPYYWF25
+  doi: 10.1145/3696410.3714721
+  ee: https://doi.org/10.1145/3696410.3714721
+  url: https://dblp.org/rec/conf/www/WangWHPYYWF25
+- author: Wenhan Wu, Jiawei Jiang, Chuang Hu
+  title: 'Aegis: Post-Training Attribute Unlearning in Federated Recommender Systems
+    against Attribute Inference Attacks.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WuJH25
+  doi: 10.1145/3696410.3714823
+  ee: https://doi.org/10.1145/3696410.3714823
+  url: https://dblp.org/rec/conf/www/WuJH25
+- author: Linan Yue, Qi Liu, Yawen Li 0001, Fangzhou Yao, Weibo Gao, Junping Du 0001
+  title: Empowering Federated Graph Rationale Learning with Latent Environments.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YueL0YG025
+  doi: 10.1145/3696410.3714929
+  ee: https://doi.org/10.1145/3696410.3714929
+  url: https://dblp.org/rec/conf/www/YueL0YG025
+- author: Yuke Hu, Wei Liang, Ruofan Wu, Kai Xiao, Weiqiang Wang 0002, Xiaochen Li,
+    Jinfei Liu, Zhan Qin
+  title: Quantifying and Defending against Privacy Threats on Federated Knowledge
+    Graph Embedding.
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/HuLWXWLLQ23
+  doi: 10.1145/3543507.3583450
+  ee: https://doi.org/10.1145/3543507.3583450
+  url: https://dblp.org/rec/conf/www/HuLWXWLLQ23
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -37068,6 +37303,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3548444
   ee: https://doi.org/10.1109/TPDS.2025.3548444
   url: https://dblp.org/rec/journals/tpds/ShaoLWZC25
+- author: Yeting Guo, Fang Liu 0002, Tongqing Zhou, Zhiping Cai, Nong Xiao 0001
+  title: 'Privacy vs. Efficiency: Achieving Both Through Adaptive Hierarchical Federated
+    Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/GuoLZCX23
+  doi: 10.1109/TPDS.2023.3244198
+  ee: https://doi.org/10.1109/TPDS.2023.3244198
+  url: https://dblp.org/rec/journals/tpds/GuoLZCX23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

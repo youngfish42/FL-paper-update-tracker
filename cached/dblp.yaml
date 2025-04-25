@@ -34862,6 +34862,83 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583450
   ee: https://doi.org/10.1145/3543507.3583450
   url: https://dblp.org/rec/conf/www/HuLWXWLLQ23
+- author: Yongqiang Huang 0003, Zerui Shao, Ziyuan Yang, Zexin Lu, Yi Zhang 0018
+  title: 'FedRIR: Rethinking Information Representation in Federated Learning.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/0003SYLZ25
+  doi: 10.1145/3696410.3714612
+  ee: https://doi.org/10.1145/3696410.3714612
+  url: https://dblp.org/rec/conf/www/0003SYLZ25
+- author: Yichen Li 0006, Yijing Shan, Yi Liu, Haozhao Wang, Wei Wang, Yi Wang 0004,
+    Ruixuan Li 0001
+  title: Personalized Federated Recommendation for Cold-Start Users via Adaptive Knowledge
+    Fusion.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/0006SLWWW025
+  doi: 10.1145/3696410.3714635
+  ee: https://doi.org/10.1145/3696410.3714635
+  url: https://dblp.org/rec/conf/www/0006SLWWW025
+- author: Yi Liu 0057, Cong Wang 0001, Xingliang Yuan
+  title: 'FedMobile: Enabling Knowledge Contribution-aware Multi-modal Federated Learning
+    with Incomplete Modalities.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LiuWY25
+  doi: 10.1145/3696410.3714623
+  ee: https://doi.org/10.1145/3696410.3714623
+  url: https://dblp.org/rec/conf/www/LiuWY25
+- author: Zhengyang Liu, Hang Yu 0006, Xiangfeng Luo
+  title: Federated Graph Anomaly Detection via Disentangled Representation Learning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LiuYL25
+  doi: 10.1145/3696410.3714567
+  ee: https://doi.org/10.1145/3696410.3714567
+  url: https://dblp.org/rec/conf/www/LiuYL25
+- author: Zheng Wang, Wanwan Wang, Yimin Huang, Zhaopeng Peng, Ziqi Yang, Ming Yao,
+    Cheng Wang 0003, Xiaoliang Fan
+  title: 'P4GCN: Vertical Federated Social Recommendation with Privacy-Preserving
+    Two-Party Graph Convolution Network.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangWHPYYWF25
+  doi: 10.1145/3696410.3714721
+  ee: https://doi.org/10.1145/3696410.3714721
+  url: https://dblp.org/rec/conf/www/WangWHPYYWF25
+- author: Wenhan Wu, Jiawei Jiang 0001, Chuang Hu
+  title: 'Aegis: Post-Training Attribute Unlearning in Federated Recommender Systems
+    against Attribute Inference Attacks.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WuJH25
+  doi: 10.1145/3696410.3714823
+  ee: https://doi.org/10.1145/3696410.3714823
+  url: https://dblp.org/rec/conf/www/WuJH25
+- author: Linan Yue, Qi Liu 0003, Yawen Li 0001, Fangzhou Yao, Weibo Gao, Junping
+    Du 0001
+  title: Empowering Federated Graph Rationale Learning with Latent Environments.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YueL0YG025
+  doi: 10.1145/3696410.3714929
+  ee: https://doi.org/10.1145/3696410.3714929
+  url: https://dblp.org/rec/conf/www/YueL0YG025
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -38429,6 +38506,17 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2024.3514302
   ee: https://doi.org/10.1109/TC.2024.3514302
   url: https://dblp.org/rec/journals/tc/ChenDWGZKXW25
+- author: Dongxiao Yu, Yuan Yuan, Yifei Zou, Xiao Zhang 0015, Yu Liu, Lizhen Cui,
+    Xiuzhen Cheng 0001
+  title: Pruning-Based Adaptive Federated Learning at the Edge.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/YuYZZLCC25
+  doi: 10.1109/TC.2025.3533095
+  ee: https://doi.org/10.1109/TC.2025.3533095
+  url: https://dblp.org/rec/journals/tc/YuYZZLCC25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

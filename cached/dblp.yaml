@@ -8259,6 +8259,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I21.34449
   ee: https://doi.org/10.1609/aaai.v39i21.34449
   url: https://dblp.org/rec/conf/aaai/ZhengHYZX025
+- author: Zhihao Wang, He Bai 0014, Wenke Huang, Duantengchuan Li, Jian Wang, Bing
+    Li
+  title: Federated Recommendation with Explicitly Encoding Item Bias.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangBHLWL25
+  doi: 10.1609/AAAI.V39I12.33395
+  ee: https://doi.org/10.1609/aaai.v39i12.33395
+  url: https://dblp.org/rec/conf/aaai/WangBHLWL25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

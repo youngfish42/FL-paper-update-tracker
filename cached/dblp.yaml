@@ -2009,6 +2009,28 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2023/507
   ee: https://doi.org/10.24963/ijcai.2023/507
   url: https://dblp.org/rec/conf/ijcai/ZhangL0YZZY23
+- author: Zhaopeng Peng, Xiaoliang Fan, Yufan Chen, Zheng Wang 0076, Shirui Pan, Chenglu
+    Wen, Ruisheng Zhang, Cheng Wang 0003
+  title: 'FedPFT: Federated Proxy Fine-Tuning of Foundation Models.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/PengFCWPWZ024
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/531
+  url: https://dblp.org/rec/conf/ijcai/PengFCWPWZ024
+- author: Zheng Wang 0076, Xiaoliang Fan, Jianzhong Qi 0001, Chenglu Wen, Cheng Wang
+    0003, Rongshan Yu
+  title: Federated Learning with Fair Averaging.
+  venue: IJCAI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/WangF0WWY21
+  doi: 10.24963/IJCAI.2021/223
+  ee: https://doi.org/10.24963/ijcai.2021/223
+  url: https://dblp.org/rec/conf/ijcai/WangF0WWY21
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -8270,6 +8292,29 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I12.33395
   ee: https://doi.org/10.1609/aaai.v39i12.33395
   url: https://dblp.org/rec/conf/aaai/WangBHLWL25
+- author: Tianlong Zhang, Zhe Xue, Adnan Mahmood, Junping Du 0001, Yuchen Dong, Shilong
+    Ou, Lang Feng 0006, Ming-Hsuan Yang 0001, Yuankai Qi
+  title: Generating Synthetic Data for Unsupervised Federated Learning of Cross-Modal
+    Retrieval.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangXM0DOF0Q25
+  doi: 10.1609/AAAI.V39I21.34415
+  ee: https://doi.org/10.1609/aaai.v39i21.34415
+  url: https://dblp.org/rec/conf/aaai/ZhangXM0DOF0Q25
+- author: Zheng Wang 0076, Xiaoliang Fan, Jianzhong Qi 0001, Haibing Jin, Peizhen
+    Yang, Siqi Shen, Cheng Wang 0003
+  title: 'FedGS: Federated Graph-Based Sampling with Arbitrary Client Availability.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangF0JYSW23
+  doi: 10.1609/AAAI.V37I8.26223
+  ee: https://doi.org/10.1609/aaai.v37i8.26223
+  url: https://dblp.org/rec/conf/aaai/WangF0JYSW23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -21645,6 +21690,18 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3580305.3599344
   ee: https://doi.org/10.1145/3580305.3599344
   url: https://dblp.org/rec/conf/kdd/QinDZY23
+- author: Zihui Wang, Zheng Wang 0076, Lingjuan Lyu, Zhaopeng Peng, Zhicheng Yang,
+    Chenglu Wen, Rongshan Yu, Cheng Wang 0003, Xiaoliang Fan
+  title: 'FedSAC: Dynamic Submodel Allocation for Collaborative Fairness in Federated
+    Learning.'
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/WangWLPYWYWF24
+  doi: 10.1145/3637528.3671748
+  ee: https://doi.org/10.1145/3637528.3671748
+  url: https://dblp.org/rec/conf/kdd/WangWLPYWYWF24
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -28692,6 +28749,16 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3626772.3657764
   ee: https://doi.org/10.1145/3626772.3657764
   url: https://dblp.org/rec/conf/sigir/SuC0LSWZ24
+- author: Wei Jiang 0026, Luo Si, Jing Li
+  title: Protecting source privacy in federated search.
+  venue: SIGIR
+  year: '2007'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/JiangSL07
+  doi: 10.1145/1277741.1277896
+  ee: https://doi.org/10.1145/1277741.1277896
+  url: https://dblp.org/rec/conf/sigir/JiangSL07
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -34950,6 +35017,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3696410.3714929
   ee: https://doi.org/10.1145/3696410.3714929
   url: https://dblp.org/rec/conf/www/YueL0YG025
+- author: Zheng Wang 0076, Wanwan Wang, Yimin Huang, Zhaopeng Peng, Ziqi Yang, Ming
+    Yao, Cheng Wang 0003, Xiaoliang Fan
+  title: 'P4GCN: Vertical Federated Social Recommendation with Privacy-Preserving
+    Two-Party Graph Convolution Network.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangWHPYYWF25
+  doi: 10.1145/3696410.3714721
+  ee: https://doi.org/10.1145/3696410.3714721
+  url: https://dblp.org/rec/conf/www/WangWHPYYWF25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

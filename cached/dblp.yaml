@@ -33416,6 +33416,18 @@ federate%20venue%3ANSDI%3A:
   doi: ''
   ee: https://www.usenix.org/conference/nsdi19/presentation/curino
   url: https://dblp.org/rec/conf/nsdi/CurinoKKRFHCSCH19
+- author: Harish Srinivas, Graham Cormode, Mehrdad Honarkhah, Samuel Lurye, Jonathan
+    Hehir, Lunwen He, George Hong, Ahmed Magdy, Dzmitry Huba, Kaikai Wang, Shen Guo,
+    Shoubhik Bhattacharya
+  title: 'PAPAYA Federated Analytics Stack: Engineering Privacy, Scalability and Practicality.'
+  venue: NSDI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nsdi/SrinivasCHLHHHM25
+  doi: ''
+  ee: https://www.usenix.org/conference/nsdi25/presentation/srinivas
+  url: https://dblp.org/rec/conf/nsdi/SrinivasCHLHHHM25
 federate%20venue%3AWWW%3A:
 - author: Yao Chen, Shan Huang, Wensheng Gan, Gengsen Huang, Yongdong Wu
   title: 'Federated Learning for Metaverse: A Survey.'

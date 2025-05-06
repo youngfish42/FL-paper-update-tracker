@@ -8315,6 +8315,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I8.26223
   ee: https://doi.org/10.1609/aaai.v37i8.26223
   url: https://dblp.org/rec/conf/aaai/WangF0JYSW23
+- author: Zhihao Wang 0002, He Bai 0014, Wenke Huang, Duantengchuan Li, Jian Wang,
+    Bing Li
+  title: Federated Recommendation with Explicitly Encoding Item Bias.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangBHLWL25
+  doi: 10.1609/AAAI.V39I12.33395
+  ee: https://doi.org/10.1609/aaai.v39i12.33395
+  url: https://dblp.org/rec/conf/aaai/WangBHLWL25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -20054,6 +20065,18 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2024.3520708
   ee: https://doi.org/10.1109/TPAMI.2024.3520708
   url: https://dblp.org/rec/journals/pami/YangS25
+- author: Wenke Huang, Mang Ye, Zekun Shi, Guancheng Wan, He Li, Bo Du 0001, Qiang
+    Yang 0008
+  title: 'Federated Learning for Generalization, Robustness, Fairness: A Survey and
+    Benchmark.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/HuangYSWLDY24
+  doi: 10.1109/TPAMI.2024.3418862
+  ee: https://doi.org/10.1109/TPAMI.2024.3418862
+  url: https://dblp.org/rec/journals/pami/HuangYSWLDY24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -21714,6 +21737,29 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3690624.3709311
   ee: https://doi.org/10.1145/3690624.3709311
   url: https://dblp.org/rec/conf/kdd/ZhangLL0CS25
+- author: Junliang Lyu, Yixuan Zhang, Xiaoling Lu, Feng Zhou 0011
+  title: 'Task Diversity in Bayesian Federated Learning: Simultaneous Processing of
+    Classification and Regression.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/LyuZLZ25
+  doi: 10.1145/3690624.3709341
+  ee: https://doi.org/10.1145/3690624.3709341
+  url: https://dblp.org/rec/conf/kdd/LyuZLZ25
+- author: Zhenyu Wen, Wanglei Feng, Di Wu 0065, Haozhen Hu, Chang Xu, Bin Qian 0002,
+    Zhen Hong, Cong Wang 0006, Shouling Ji
+  title: 'FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for Federated
+    Learning.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/WenFWHX0HWJ25
+  doi: 10.1145/3690624.3709346
+  ee: https://doi.org/10.1145/3690624.3709346
+  url: https://dblp.org/rec/conf/kdd/WenFWHX0HWJ25
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -25316,6 +25362,17 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV48922.2021.01480
   ee: https://doi.org/10.1109/ICCV48922.2021.01480
   url: https://dblp.org/rec/conf/iccv/GongSKWCDI21
+- author: Yaopei Zeng, Lei Liu 0049, Li Liu 0036, Li Shen 0008, Shaoguo Liu, Baoyuan
+    Wu
+  title: Global Balanced Experts for Federated Long-Tailed Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZengLLSLW23
+  doi: 10.1109/ICCV51070.2023.00444
+  ee: https://doi.org/10.1109/ICCV51070.2023.00444
+  url: https://dblp.org/rec/conf/iccv/ZengLLSLW23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

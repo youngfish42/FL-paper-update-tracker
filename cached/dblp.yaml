@@ -13959,6 +13959,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/13707aad517ddd6c09ea02e0f55e1e7a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Li0WLWWZ0Y24
+- author: Xiang Liu 0002, Liangxi Liu, Feiyang Ye 0004, Yunheng Shen, Xia Li 0005,
+    Linshan Jiang, Jialin Li 0001
+  title: 'FedLPA: One-shot Federated Learning with Layer-Wise Posterior Aggregation.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiuL0SLJL24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/9482f45fdd89aba9130bb04c44f788a9-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiuL0SLJL24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -21760,6 +21771,28 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3690624.3709346
   ee: https://doi.org/10.1145/3690624.3709346
   url: https://dblp.org/rec/conf/kdd/WenFWHX0HWJ25
+- author: Junliang Lyu, Yixuan Zhang 0006, Xiaoling Lu, Feng Zhou 0011
+  title: 'Task Diversity in Bayesian Federated Learning: Simultaneous Processing of
+    Classification and Regression.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/LyuZLZ25
+  doi: 10.1145/3690624.3709341
+  ee: https://doi.org/10.1145/3690624.3709341
+  url: https://dblp.org/rec/conf/kdd/LyuZLZ25
+- author: Ming Hu 0003, Zhihao Yue, Xiaofei Xie, Cheng Chen 0015, Yihao Huang 0001,
+    Xian Wei, Xiang Lian 0001, Yang Liu 0003, Mingsong Chen 0001
+  title: Is Aggregation the Only Choice? Federated Learning via Layer-wise Model Recombination.
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/0003YXC0WLLC24
+  doi: 10.1145/3637528.3671722
+  ee: https://doi.org/10.1145/3637528.3671722
+  url: https://dblp.org/rec/conf/kdd/0003YXC0WLLC24
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -26841,6 +26874,17 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3612178
   ee: https://doi.org/10.1145/3581783.3612178
   url: https://dblp.org/rec/conf/mm/Liao0LZZSWHTZ23
+- author: Jingzhi Li, Fengling Li 0001, Lei Zhu 0002, Hui Cui 0004, Jingjing Li 0001
+  title: Prototype-guided Knowledge Transfer for Federated Unsupervised Cross-modal
+    Hashing.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LiL0C023
+  doi: 10.1145/3581783.3613837
+  ee: https://doi.org/10.1145/3581783.3613837
+  url: https://dblp.org/rec/conf/mm/LiL0C023
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -30167,6 +30211,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE55515.2023.00120
   ee: https://doi.org/10.1109/ICDE55515.2023.00120
   url: https://dblp.org/rec/conf/icde/WangGLLY23
+- author: Ming Hu 0003, Peiheng Zhou, Zhihao Yue, Zhiwei Ling, Yihao Huang 0001, Anran
+    Li 0001, Yang Liu 0003, Xiang Lian 0001, Mingsong Chen 0001
+  title: 'FedCross: Towards Accurate Federated Learning via Multi-Model Cross-Aggregation.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/0003ZYL0LLLC24
+  doi: 10.1109/ICDE60146.2024.00170
+  ee: https://doi.org/10.1109/ICDE60146.2024.00170
+  url: https://dblp.org/rec/conf/icde/0003ZYL0LLLC24
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou

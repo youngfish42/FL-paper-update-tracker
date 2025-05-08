@@ -38220,6 +38220,19 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2024.3446881
   ee: https://doi.org/10.1109/TCAD.2024.3446881
   url: https://dblp.org/rec/journals/tcad/XiaHYXLLZC24
+- author: Zhaohui Chen, Zhen Gu, Yanheng Lu, Xuanle Ren, Ruiguang Zhong, Wen-Jie Lu,
+    Jiansong Zhang, Yichi Zhang, Hanghang Wu, Xiaofu Zheng, Heng Liu, Tingqiang Chu,
+    Cheng Hong 0001, Changzheng Wei, Dimin Niu, Yuan Xie 0001
+  title: 'SAFE: A Scalable Homomorphic Encryption Accelerator for Vertical Federated
+    Learning.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/ChenGLRZLZZWZLCHWNX25
+  doi: 10.1109/TCAD.2024.3496836
+  ee: https://doi.org/10.1109/TCAD.2024.3496836
+  url: https://dblp.org/rec/journals/tcad/ChenGLRZLZZWZLCHWNX25
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

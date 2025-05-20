@@ -142,6 +142,18 @@ federate%20venue%3ADAC%3A:
   doi: 10.1109/DAC18074.2021.9586101
   ee: https://doi.org/10.1109/DAC18074.2021.9586101
   url: https://dblp.org/rec/conf/dac/CaoLLZJ21
+- author: Yutong Ye 0001, Wupan Zhao, Tongquan Wei, Shiyan Hu 0001, Mingsong Chen
+    0001
+  title: 'FedLight: Federated Reinforcement Learning for Autonomous Multi-Intersection
+    Traffic Signal Control.'
+  venue: DAC
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/YeZWHC21
+  doi: 10.1109/DAC18074.2021.9586175
+  ee: https://doi.org/10.1109/DAC18074.2021.9586175
+  url: https://dblp.org/rec/conf/dac/YeZWHC21
 federate%20venue%3AIJCAI%3A:
 - author: Tao Qi, Fangzhao Wu, Lingjuan Lyu, Yongfeng Huang 0001, Xing Xie 0001
   title: 'FedSampling: A Better Sampling Strategy for Federated Learning.'
@@ -28231,6 +28243,17 @@ federate%20venue%3AACL%3A:
   doi: 10.18653/V1/2023.FINDINGS-ACL.470
   ee: https://doi.org/10.18653/v1/2023.findings-acl.470
   url: https://dblp.org/rec/conf/acl/Wang0WZKZMH23
+- author: Tianshu Zhang 0001, Changchang Liu, Wei-Han Lee, Yu Su 0001, Huan Sun 0001
+  title: 'Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup,
+    New Algorithms.'
+  venue: ACL
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/ZhangLL0023
+  doi: 10.18653/V1/2023.ACL-LONG.678
+  ee: https://doi.org/10.18653/v1/2023.acl-long.678
+  url: https://dblp.org/rec/conf/acl/ZhangLL0023
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"
@@ -39220,6 +39243,17 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2024.3496836
   ee: https://doi.org/10.1109/TCAD.2024.3496836
   url: https://dblp.org/rec/journals/tcad/ChenGLRZLZZWZLCHWNX25
+- author: Xinqian Zhang, Ming Hu 0003, Jun Xia 0003, Tongquan Wei, Mingsong Chen 0001,
+    Shiyan Hu 0001
+  title: Efficient Federated Learning for Cloud-Based AIoT Applications.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/ZhangHXWCH21
+  doi: 10.1109/TCAD.2020.3046665
+  ee: https://doi.org/10.1109/TCAD.2020.3046665
+  url: https://dblp.org/rec/journals/tcad/ZhangHXWCH21
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

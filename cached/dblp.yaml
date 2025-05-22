@@ -8382,6 +8382,38 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V34I04.5826
   ee: https://doi.org/10.1609/aaai.v34i04.5826
   url: https://dblp.org/rec/conf/aaai/Han020
+- author: Jianfeng Lu 0002, Ying Zhang, Riheng Jia, Shuqin Cao, Jing Liu 0032, Hao
+    Fu
+  title: 'FedCross: Intertemporal Federated Learning Under Evolutionary Games.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/0002ZJCLF25
+  doi: 10.1609/AAAI.V39I18.34104
+  ee: https://doi.org/10.1609/aaai.v39i18.34104
+  url: https://dblp.org/rec/conf/aaai/0002ZJCLF25
+- author: Gangqiang Hu, Jianfeng Lu 0002, Jianmin Han, Shuqin Cao, Jing Liu 0032,
+    Hao Fu
+  title: 'TRAIL: Trust-Aware Client Scheduling for Semi-Decentralized Federated Learning.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/Hu0HCLF25
+  doi: 10.1609/AAAI.V39I13.33524
+  ee: https://doi.org/10.1609/aaai.v39i13.33524
+  url: https://dblp.org/rec/conf/aaai/Hu0HCLF25
+- author: Bo Yan, Sihao He, Cheng Yang 0002, Shang Liu, Yang Cao, Chuan Shi 0001
+  title: Federated Graph Condensation with Information Bottleneck Principles.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YanHYLCS25
+  doi: 10.1609/AAAI.V39I12.33417
+  ee: https://doi.org/10.1609/aaai.v39i12.33417
+  url: https://dblp.org/rec/conf/aaai/YanHYLCS25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

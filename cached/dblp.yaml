@@ -8414,6 +8414,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I12.33417
   ee: https://doi.org/10.1609/aaai.v39i12.33417
   url: https://dblp.org/rec/conf/aaai/YanHYLCS25
+- author: Bo Yan, Sihao He, Cheng Yang 0002, Shang Liu, Yang Cao 0011, Chuan Shi 0001
+  title: Federated Graph Condensation with Information Bottleneck Principles.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YanHYLCS25
+  doi: 10.1609/AAAI.V39I12.33417
+  ee: https://doi.org/10.1609/aaai.v39i12.33417
+  url: https://dblp.org/rec/conf/aaai/YanHYLCS25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

@@ -17045,6 +17045,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/chen23j.html
   url: https://dblp.org/rec/conf/icml/ChenHLCX0Z23
+- author: Hanxiao Chen 0001, Meng Hao 0001, Hongwei Li 0001, Kangjie Chen, Guowen
+    Xu, Tianwei Zhang 0004, Xilin Zhang
+  title: 'GuardHFL: Privacy Guardian for Heterogeneous Federated Learning.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ChenHLCX0Z23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/chen23j.html
+  url: https://dblp.org/rec/conf/icml/ChenHLCX0Z23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -36226,6 +36237,155 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3442381.3449851
   ee: https://doi.org/10.1145/3442381.3449851
   url: https://dblp.org/rec/conf/www/YangWXCBLL21
+- author: Shuai Wang 0032, Shengyao Zhuang, Bevan Koopman, Guido Zuccon
+  title: 'ReSLLM: Large Language Models are Strong Resource Selectors for Federated
+    Search.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/0032ZKZ25
+  doi: 10.1145/3701716.3715595
+  ee: https://doi.org/10.1145/3701716.3715595
+  url: https://dblp.org/rec/conf/www/0032ZKZ25
+- author: Minghong Fang, Zhuqing Liu, Xuecen Zhao, Jia Liu
+  title: Byzantine-Robust Federated Learning over Ring-All-Reduce Distributed Computing.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/FangLZL25
+  doi: 10.1145/3701716.3715491
+  ee: https://doi.org/10.1145/3701716.3715491
+  url: https://dblp.org/rec/conf/www/FangLZL25
+- author: Jing Jiang, Chunxu Zhang, Honglei Zhang, Zhiwei Li, Yidong Li, Bo Yang
+  title: 'A Tutorial of Personalized Federated Recommender Systems: Recent Advances
+    and Future Directions.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/JiangZZLLY25
+  doi: 10.1145/3701716.3715860
+  ee: https://doi.org/10.1145/3701716.3715860
+  url: https://dblp.org/rec/conf/www/JiangZZLLY25
+- author: Irwin King, Guodong Long, Zenglin Xu, Yifei Zhang, Han Yu 0001
+  title: 'FL@FM-TheWebConf&apos;25: International Workshop on Federated Foundation
+    Models for the Web 2025.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/KingLXZ025
+  doi: 10.1145/3701716.3717650
+  ee: https://doi.org/10.1145/3701716.3717650
+  url: https://dblp.org/rec/conf/www/KingLXZ025
+- author: Noorain Mukhtiar
+  title: 'A Fairer Client Selection Framework for Federated Internet of Things: Equality,
+    Equity, and Trade-off Perspectives.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/Mukhtiar25
+  doi: 10.1145/3701716.3715278
+  ee: https://doi.org/10.1145/3701716.3715278
+  url: https://dblp.org/rec/conf/www/Mukhtiar25
+- author: Naima Noor, Afra Mashhadi
+  title: Quantifying Individual Fairness in Continual Federated Learning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/NoorM25
+  doi: 10.1145/3701716.3717646
+  ee: https://doi.org/10.1145/3701716.3717646
+  url: https://dblp.org/rec/conf/www/NoorM25
+- author: Nazmus Shakib Shadin, Xinyue Zhang
+  title: 'FedKDShap: Enhancing Federated Learning via Shapley Values Driven Knowledge
+    Distillation on Non-IID Data.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ShadinZ25
+  doi: 10.1145/3701716.3717645
+  ee: https://doi.org/10.1145/3701716.3717645
+  url: https://dblp.org/rec/conf/www/ShadinZ25
+- author: "Zixing Song, Irwin King, Jos\xE9 Miguel Hern\xE1ndez-Lobato"
+  title: 'FedEDM: Federated Equivariant Diffusion Model for 3D Molecule Generation
+    with Enhanced Communication Efficiency.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/SongKH25
+  doi: 10.1145/3701716.3717648
+  ee: https://doi.org/10.1145/3701716.3717648
+  url: https://dblp.org/rec/conf/www/SongKH25
+- author: Fernando Spadea, Oshani Seneviratne
+  title: 'Federated Fine-Tuning of Large Language Models: Kahneman-Tversky vs. Direct
+    Preference Optimization.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/SpadeaS25
+  doi: 10.1145/3701716.3717647
+  ee: https://doi.org/10.1145/3701716.3717647
+  url: https://dblp.org/rec/conf/www/SpadeaS25
+- author: Wenbin Wang, Qiwen Ma, Zifan Zhang, Yuchen Liu, Zhuqing Liu, Minghong Fang
+  title: Poisoning Attacks and Defenses to Federated Unlearning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangMZLLF25
+  doi: 10.1145/3701716.3715494
+  ee: https://doi.org/10.1145/3701716.3715494
+  url: https://dblp.org/rec/conf/www/WangMZLLF25
+- author: Bijun Wu, Oshani Seneviratne
+  title: Blockchain-based Framework for Scalable and Incentivized Federated Learning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WuS25
+  doi: 10.1145/3701716.3717649
+  ee: https://doi.org/10.1145/3701716.3717649
+  url: https://dblp.org/rec/conf/www/WuS25
+- author: Peng Yan, Shengchao Chen, Guodong Long
+  title: 'Federated Intelligence in Web: A Tutorial.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YanCL25
+  doi: 10.1145/3701716.3715864
+  ee: https://doi.org/10.1145/3701716.3715864
+  url: https://dblp.org/rec/conf/www/YanCL25
+- author: Yuqiu Zhang, Hans-Arno Jacobsen
+  title: Decentralized and Policy-Aware Serverless Orchestration for the Federated
+    Web.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangJ25
+  doi: 10.1145/3701716.3715573
+  ee: https://doi.org/10.1145/3701716.3715573
+  url: https://dblp.org/rec/conf/www/ZhangJ25
+- author: Yudong Zhang, Xu Wang, Xuan Yu, Kuo Yang, Zhengyang Zhou, Yang Wang
+  title: 'FedSTG: Breaking through Spatio-Temporal Data Silos with Federated Graph
+    Learning.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangWYYZW25
+  doi: 10.1145/3701716.3715562
+  ee: https://doi.org/10.1145/3701716.3715562
+  url: https://dblp.org/rec/conf/www/ZhangWYYZW25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

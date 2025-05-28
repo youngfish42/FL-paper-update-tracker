@@ -14102,6 +14102,39 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/a11e42a37c6bc926d6dc57e0cca0e825-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WangBZ0024
+- author: Xiang Liu 0017, Liangxi Liu, Feiyang Ye 0004, Yunheng Shen, Xia Li 0005,
+    Linshan Jiang, Jialin Li 0001
+  title: 'FedLPA: One-shot Federated Learning with Layer-Wise Posterior Aggregation.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiuL0SLJL24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/9482f45fdd89aba9130bb04c44f788a9-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiuL0SLJL24
+- author: Jianqiao Zhang 0002, Caifeng Shan, Jungong Han
+  title: 'FedGMKD: An Efficient Prototype Federated Learning Framework through Knowledge
+    Distillation and Discrepancy-Aware Aggregation.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhangSH24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/d6520fa7f71dc8e09ed5939a60a64218-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhangSH24
+- author: Henger Li, Xiaolin Sun 0002, Zizhan Zheng
+  title: 'Learning to Attack Federated Learning: A Model-based Reinforcement Learning
+    Attack Framework.'
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiSZ22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/e2ef0cae667dbe9bfdbcaed1bd91807b-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiSZ22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -20459,6 +20492,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06770-9
   ee: https://doi.org/10.1007/s10994-025-06770-9
   url: https://dblp.org/rec/journals/ml/XieXL25
+- author: Mao Zhang 0002, Tie Zhang, Yifei Cheng 0002, Changcun Bao, Haoyu Cao, Deqiang
+    Jiang, Linli Xu
+  title: Communication-efficient clustered federated learning via model distance.
+  venue: Mach. Learn.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/ZhangZCBCJX24
+  doi: 10.1007/S10994-023-06443-5
+  ee: https://doi.org/10.1007/s10994-023-06443-5
+  url: https://dblp.org/rec/journals/ml/ZhangZCBCJX24
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -36386,6 +36430,27 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3701716.3715562
   ee: https://doi.org/10.1145/3701716.3715562
   url: https://dblp.org/rec/conf/www/ZhangWYYZW25
+- author: Jing Jiang, Chunxu Zhang, Honglei Zhang, Zhiwei Li, Yidong Li, Bo Yang 0002
+  title: 'A Tutorial of Personalized Federated Recommender Systems: Recent Advances
+    and Future Directions.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/JiangZZLLY25
+  doi: 10.1145/3701716.3715860
+  ee: https://doi.org/10.1145/3701716.3715860
+  url: https://dblp.org/rec/conf/www/JiangZZLLY25
+- author: Peng Yan 0002, Shengchao Chen, Guodong Long
+  title: 'Federated Intelligence in Web: A Tutorial.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YanCL25
+  doi: 10.1145/3701716.3715864
+  ee: https://doi.org/10.1145/3701716.3715864
+  url: https://dblp.org/rec/conf/www/YanCL25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

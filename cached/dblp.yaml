@@ -19982,6 +19982,16 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=cznqgb4DNv
   url: https://dblp.org/rec/conf/iclr/ZehtabiHPHB25
+- author: Ziheng Cheng, Xinmeng Huang, Pengfei Wu 0006, Kun Yuan 0001
+  title: Momentum Benefits Non-iid Federated Learning Simply and Provably.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ChengHWY24
+  doi: ''
+  ee: https://openreview.net/forum?id=TdhkAcXkRi
+  url: https://dblp.org/rec/conf/iclr/ChengHWY24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -34002,6 +34012,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOMWKSHPS61880.2024.10620699
   ee: https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620699
   url: https://dblp.org/rec/conf/infocom/LiHXWFD24
+- author: Jing Qiao, Zuyuan Zhang, Sheng Yue, Yuan Yuan 0014, Zhipeng Cai 0001, Xiao
+    Zhang 0015, Ju Ren 0001, Dongxiao Yu
+  title: 'BR-DeFedRL: Byzantine-Robust Decentralized Federated Reinforcement Learning
+    with Fast Convergence and Communication Efficiency.'
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/QiaoZYYCZRY24
+  doi: 10.1109/INFOCOM52122.2024.10621347
+  ee: https://doi.org/10.1109/INFOCOM52122.2024.10621347
+  url: https://dblp.org/rec/conf/infocom/QiaoZYYCZRY24
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -40076,6 +40098,17 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3244632
   ee: https://doi.org/10.1109/TC.2023.3244632
   url: https://dblp.org/rec/journals/tc/GuanPQ23
+- author: Dongxiao Yu, Yuan Yuan 0014, Yifei Zou, Xiao Zhang 0015, Yu Liu, Lizhen
+    Cui, Xiuzhen Cheng 0001
+  title: Pruning-Based Adaptive Federated Learning at the Edge.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/YuYZZLCC25
+  doi: 10.1109/TC.2025.3533095
+  ee: https://doi.org/10.1109/TC.2025.3533095
+  url: https://dblp.org/rec/journals/tc/YuYZZLCC25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

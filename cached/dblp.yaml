@@ -40109,6 +40109,29 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2025.3533095
   ee: https://doi.org/10.1109/TC.2025.3533095
   url: https://dblp.org/rec/journals/tc/YuYZZLCC25
+- author: Yuchen Liu, Ligang He, Zhigao Zhang, Shenyuan Ren
+  title: 'PFed-NS: An Adaptive Personalized Federated Learning Scheme Through Neural
+    Network Segmentation.'
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/LiuHZR25
+  doi: 10.1109/TC.2025.3547138
+  ee: https://doi.org/10.1109/TC.2025.3547138
+  url: https://dblp.org/rec/journals/tc/LiuHZR25
+- author: Nang Hung Nguyen, Truong Thao Nguyen, Trong Nghia Hoang, Hieu H. Pham 0001,
+    Thanh Hung Nguyen, Phi Le Nguyen
+  title: 'SAFA: Handling Sparse and Scarce Data in Federated Learning With Accumulative
+    Learning.'
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/NguyenNHPNN25
+  doi: 10.1109/TC.2025.3543682
+  ee: https://doi.org/10.1109/TC.2025.3543682
+  url: https://dblp.org/rec/journals/tc/NguyenNHPNN25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

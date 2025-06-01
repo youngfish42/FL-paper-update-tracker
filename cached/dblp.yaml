@@ -28065,6 +28065,16 @@ federate%20streamid%3Ajournals%2Fijcv%3A:
   doi: 10.1007/S11263-024-02077-9
   ee: https://doi.org/10.1007/s11263-024-02077-9
   url: https://dblp.org/rec/journals/ijcv/YangTZLZ24
+- author: Qiushi Yang, Zhen Chen 0013, Zhe Peng, Yixuan Yuan
+  title: Relation-Guided Versatile Regularization for Federated Semi-Supervised Learning.
+  venue: Int. J. Comput. Vis.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/YangCPY25
+  doi: 10.1007/S11263-024-02330-1
+  ee: https://doi.org/10.1007/s11263-024-02330-1
+  url: https://dblp.org/rec/journals/ijcv/YangCPY25
 federate%20venue%3AACL%3A:
 - author: Zheng Xu 0002, Yanxiang Zhang, Galen Andrew, Christopher A. Choquette-Choo,
     Peter Kairouz, H. Brendan McMahan, Jesse Rosenstock, Yuanbo Zhang

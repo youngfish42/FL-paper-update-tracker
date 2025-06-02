@@ -38935,6 +38935,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3244198
   ee: https://doi.org/10.1109/TPDS.2023.3244198
   url: https://dblp.org/rec/journals/tpds/GuoLZCX23
+- author: Zhaorui Zhang, Sheng Di, Kai Zhao 0008, Sian Jin, Dingwen Tao, Zhuoran Ji,
+    Benben Liu, Khalid Ayedh Alharthi, Jiannong Cao 0001, Franck Cappello
+  title: 'FedCSpc: A Cross-Silo Federated Learning System With Error-Bounded Lossy
+    Parameter Compression.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhangDZJTJLACC25
+  doi: 10.1109/TPDS.2025.3564736
+  ee: https://doi.org/10.1109/TPDS.2025.3564736
+  url: https://dblp.org/rec/journals/tpds/ZhangDZJTJLACC25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

@@ -36483,6 +36483,52 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3701716.3715864
   ee: https://doi.org/10.1145/3701716.3715864
   url: https://dblp.org/rec/conf/www/YanCL25
+- author: Jing Jiang, Chunxu Zhang, Honglei Zhang, Zhiwei Li 0007, Yidong Li, Bo Yang
+    0002
+  title: 'A Tutorial of Personalized Federated Recommender Systems: Recent Advances
+    and Future Directions.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/JiangZZLLY25
+  doi: 10.1145/3701716.3715860
+  ee: https://doi.org/10.1145/3701716.3715860
+  url: https://dblp.org/rec/conf/www/JiangZZLLY25
+- author: Nazmus Shakib Shadin, Xinyue Zhang 0001
+  title: 'FedKDShap: Enhancing Federated Learning via Shapley Values Driven Knowledge
+    Distillation on Non-IID Data.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ShadinZ25
+  doi: 10.1145/3701716.3717645
+  ee: https://doi.org/10.1145/3701716.3717645
+  url: https://dblp.org/rec/conf/www/ShadinZ25
+- author: Wenbin Wang, Qiwen Ma, Zifan Zhang, Yuchen Liu 0001, Zhuqing Liu, Minghong
+    Fang
+  title: Poisoning Attacks and Defenses to Federated Unlearning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangMZLLF25
+  doi: 10.1145/3701716.3715494
+  ee: https://doi.org/10.1145/3701716.3715494
+  url: https://dblp.org/rec/conf/www/WangMZLLF25
+- author: Yudong Zhang 0005, Xu Wang 0029, Xuan Yu, Kuo Yang, Zhengyang Zhou, Yang
+    Wang
+  title: 'FedSTG: Breaking through Spatio-Temporal Data Silos with Federated Graph
+    Learning.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangWYYZW25
+  doi: 10.1145/3701716.3715562
+  ee: https://doi.org/10.1145/3701716.3715562
+  url: https://dblp.org/rec/conf/www/ZhangWYYZW25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

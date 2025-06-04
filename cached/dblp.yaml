@@ -19992,6 +19992,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=TdhkAcXkRi
   url: https://dblp.org/rec/conf/iclr/ChengHWY24
+- author: Yujun Shi, Jian Liang 0001, Wenqing Zhang, Vincent Y. F. Tan, Song Bai 0001
+  title: Towards Understanding and Mitigating Dimensional Collapse in Heterogeneous
+    Federated Learning.
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ShiLZTB23
+  doi: ''
+  ee: https://openreview.net/forum?id=EXnIyMVTL8s
+  url: https://dblp.org/rec/conf/iclr/ShiLZTB23
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -21027,6 +21038,17 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2025.3546659
   ee: https://doi.org/10.1109/TPAMI.2025.3546659
   url: https://dblp.org/rec/journals/pami/LiSLYT25
+- author: Yujun Shi, Jian Liang 0001, Wenqing Zhang, Chuhui Xue, Vincent Y. F. Tan,
+    Song Bai 0001
+  title: Understanding and Mitigating Dimensional Collapse in Federated Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ShiLZXTB24
+  doi: 10.1109/TPAMI.2023.3338063
+  ee: https://doi.org/10.1109/TPAMI.2023.3338063
+  url: https://dblp.org/rec/journals/pami/ShiLZXTB24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -36519,6 +36541,18 @@ federate%20venue%3AWWW%3A:
   url: https://dblp.org/rec/conf/www/WangMZLLF25
 - author: Yudong Zhang 0005, Xu Wang 0029, Xuan Yu, Kuo Yang, Zhengyang Zhou, Yang
     Wang
+  title: 'FedSTG: Breaking through Spatio-Temporal Data Silos with Federated Graph
+    Learning.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangWYYZW25
+  doi: 10.1145/3701716.3715562
+  ee: https://doi.org/10.1145/3701716.3715562
+  url: https://dblp.org/rec/conf/www/ZhangWYYZW25
+- author: Yudong Zhang 0005, Xu Wang 0029, Xuan Yu, Kuo Yang, Zhengyang Zhou, Yang
+    Wang 0015
   title: 'FedSTG: Breaking through Spatio-Temporal Data Silos with Federated Graph
     Learning.'
   venue: WWW

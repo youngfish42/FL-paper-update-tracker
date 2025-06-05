@@ -8435,6 +8435,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I12.33417
   ee: https://doi.org/10.1609/aaai.v39i12.33417
   url: https://dblp.org/rec/conf/aaai/YanHYLCS25
+- author: Zhiwei Li 0007, Guodong Long, Tianyi Zhou 0001, Jing Jiang 0002, Chengqi
+    Zhang
+  title: 'Personalized Federated Collaborative Filtering: A Variational AutoEncoder
+    Approach.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiL00Z25
+  doi: 10.1609/AAAI.V39I17.34047
+  ee: https://doi.org/10.1609/aaai.v39i17.34047
+  url: https://dblp.org/rec/conf/aaai/LiL00Z25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -20003,6 +20015,16 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=EXnIyMVTL8s
   url: https://dblp.org/rec/conf/iclr/ShiLZTB23
+- author: Zhiwei Li 0007, Guodong Long, Tianyi Zhou 0001
+  title: Federated Recommendation with Additive Personalization.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiL024
+  doi: ''
+  ee: https://openreview.net/forum?id=xkXdE81mOK
+  url: https://dblp.org/rec/conf/iclr/LiL024
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -37645,6 +37667,18 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3689031.3717467
   ee: https://doi.org/10.1145/3689031.3717467
   url: https://dblp.org/rec/conf/eurosys/0001WDYC0025
+- author: Pau-Chen Cheng, Kevin Eykholt, Zhongshu Gu, Hani Jamjoom, K. R. Jayaram,
+    Enriquillo Valdez, Ashish Verma 0001
+  title: 'DeTA: Minimizing Data Leaks in Federated Learning via Decentralized and
+    Trustworthy Aggregation.'
+  venue: EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/ChengEGJJVV24
+  doi: 10.1145/3627703.3650082
+  ee: https://doi.org/10.1145/3627703.3650082
+  url: https://dblp.org/rec/conf/eurosys/ChengEGJJVV24
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001

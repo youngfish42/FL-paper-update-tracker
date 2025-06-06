@@ -2043,6 +2043,59 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2021/223
   ee: https://doi.org/10.24963/ijcai.2021/223
   url: https://dblp.org/rec/conf/ijcai/WangF0WWY21
+- author: Xiaoli Tang 0001, Han Yu 0001, Xiaoxiao Li, Sarit Kraus
+  title: 'Intelligent Agents for Auction-based Federated Learning: A Survey.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Tang0LK24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/912
+  url: https://dblp.org/rec/conf/ijcai/Tang0LK24
+- author: Xiaoli Tang 0001, Han Yu 0001, Zengxiang Li, Xiaoxiao Li
+  title: A Bias-Free Revenue-Maximizing Bidding Strategy for Data Consumers in Auction-based
+    Federated Learning.
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Tang0LL24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/552
+  url: https://dblp.org/rec/conf/ijcai/Tang0LL24
+- author: Xiaoli Tang 0001, Han Yu 0001, Run Tang, Chao Ren 0006, Anran Li 0001, Xiaoxiao
+    Li
+  title: Dual Calibration-based Personalised Federated Learning.
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Tang0T0LL24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/551
+  url: https://dblp.org/rec/conf/ijcai/Tang0T0LL24
+- author: Xiaoli Tang 0001
+  title: Stakeholder-oriented Decision Support for Auction-based Federated Learning.
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Tang24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/972
+  url: https://dblp.org/rec/conf/ijcai/Tang24
+- author: Xiaoli Tang 0001, Han Yu 0001
+  title: Competitive-Cooperative Multi-Agent Reinforcement Learning for Auction-based
+    Federated Learning.
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/TangY23
+  doi: 10.24963/IJCAI.2023/474
+  ee: https://doi.org/10.24963/ijcai.2023/474
+  url: https://dblp.org/rec/conf/ijcai/TangY23
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -8447,6 +8500,28 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I17.34047
   ee: https://doi.org/10.1609/aaai.v39i17.34047
   url: https://dblp.org/rec/conf/aaai/LiL00Z25
+- author: Xiaoli Tang 0001, Han Yu 0001
+  title: Reputation-aware Revenue Allocation for Auction-based Federated Learning.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/Tang025
+  doi: 10.1609/AAAI.V39I19.34296
+  ee: https://doi.org/10.1609/aaai.v39i19.34296
+  url: https://dblp.org/rec/conf/aaai/Tang025
+- author: Hao Sun, Xiaoli Tang 0001, Chengyi Yang, Zhenpeng Yu, Xiuli Wang, Qijie
+    Ding, Zengxiang Li, Han Yu 0001
+  title: 'HiFi-Gas: Hierarchical Federated Learning Incentive Mechanism Enhanced Gas
+    Usage Estimation.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/SunTYYWDLY24
+  doi: 10.1609/AAAI.V38I21.30317
+  ee: https://doi.org/10.1609/aaai.v38i21.30317
+  url: https://dblp.org/rec/conf/aaai/SunTYYWDLY24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -14147,6 +14222,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/e2ef0cae667dbe9bfdbcaed1bd91807b-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiSZ22
+- author: Mengmeng Chen, Xiaohu Wu, Xiaoli Tang 0001, Tiantian He 0001, Yew Soon Ong,
+    Qiqi Liu, Qicheng Lao, Han Yu 0001
+  title: Free-Rider and Conflict Aware Collaboration Formation for Cross-Silo Federated
+    Learning.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ChenWT0OLL024
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/62ffefbe8dfc8548d22564f3c1d21488-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ChenWT0OLL024
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -17101,6 +17188,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/chen23j.html
   url: https://dblp.org/rec/conf/icml/ChenHLCX0Z23
+- author: Hongyi Peng, Han Yu 0001, Xiaoli Tang 0001, Xiaoxiao Li
+  title: 'FedCal: Achieving Local and Global Calibration in Federated Learning via
+    Aggregated Parameterized Scaler.'
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Peng0TL24
+  doi: ''
+  ee: https://openreview.net/forum?id=XecUTmB9yD
+  url: https://dblp.org/rec/conf/icml/Peng0TL24
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -36585,6 +36683,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3701716.3715562
   ee: https://doi.org/10.1145/3701716.3715562
   url: https://dblp.org/rec/conf/www/ZhangWYYZW25
+- author: Jing Jiang 0002, Chunxu Zhang, Honglei Zhang, Zhiwei Li 0007, Yidong Li,
+    Bo Yang 0002
+  title: 'A Tutorial of Personalized Federated Recommender Systems: Recent Advances
+    and Future Directions.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/JiangZZLLY25
+  doi: 10.1145/3701716.3715860
+  ee: https://doi.org/10.1145/3701716.3715860
+  url: https://dblp.org/rec/conf/www/JiangZZLLY25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

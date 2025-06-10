@@ -3,7 +3,7 @@ name: Run DBLP Watch
 on:
   workflow_dispatch:
   schedule:
-    - cron: "* 0/12 * * *" #'*/60 * * * *'
+    - cron: '0 0 * * *'
   push:
     branches: [main]
 

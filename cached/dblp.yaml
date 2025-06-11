@@ -14234,6 +14234,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/62ffefbe8dfc8548d22564f3c1d21488-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenWT0OLL024
+- author: Zhiwei Li, Yiqiu LI, Binbin Lin, Zhongming Jin 0001, Weizhong Zhang
+  title: Low Precision Local Training is Enough for Federated Learning.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiLLJZ24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/a421e88bb7db67cd0401475a0ed4a17d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiLLJZ24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -36695,6 +36705,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3701716.3715860
   ee: https://doi.org/10.1145/3701716.3715860
   url: https://dblp.org/rec/conf/www/JiangZZLLY25
+- author: Yu Feng 0015, Yangli-ao Geng, Yifan Zhu 0001, Zongfu Han, Xie Yu, Kaiwen
+    Xue, Haoran Luo 0001, Mengyang Sun, Guangwei Zhang, Meina Song
+  title: 'PM-MOE: Mixture of Experts on Private Model Parameters for Personalized
+    Federated Learning.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/FengG0HYX0SZS25
+  doi: 10.1145/3696410.3714561
+  ee: https://doi.org/10.1145/3696410.3714561
+  url: https://dblp.org/rec/conf/www/FengG0HYX0SZS25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -39811,6 +39833,28 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2020.3046665
   ee: https://doi.org/10.1109/TCAD.2020.3046665
   url: https://dblp.org/rec/journals/tcad/ZhangHXWCH21
+- author: "Kilian Pfeiffer, Konstantinos Balaskas, Kostas Siozios, J\xF6rg Henkel"
+  title: Energy-Aware Heterogeneous Federated Learning via Approximate DNN Accelerators.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/PfeifferBSH25
+  doi: 10.1109/TCAD.2024.3509793
+  ee: https://doi.org/10.1109/TCAD.2024.3509793
+  url: https://dblp.org/rec/journals/tcad/PfeifferBSH25
+- author: Qing Zhang 0008, Yuhang Zhang 0008, Rui Chen, Wei Lu, Huajie Huang, Zhiqiang
+    Li, Yongfu Li 0002
+  title: 'pFed-Litho: Lithography Modeling With a Personalized Federated Learning-Based
+    Framework.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/ZhangZCLHLL25
+  doi: 10.1109/TCAD.2024.3513264
+  ee: https://doi.org/10.1109/TCAD.2024.3513264
+  url: https://dblp.org/rec/journals/tcad/ZhangZCLHLL25
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

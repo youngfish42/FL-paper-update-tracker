@@ -9378,6 +9378,16 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v151/jin22a.html
   url: https://dblp.org/rec/conf/aistats/JinPYWZ22
+- author: Feihu Huang 0001, Xinrui Wang 0003, Junyi Li, Songcan Chen
+  title: Adaptive Federated Minimax Optimization with Lower Complexities.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/HuangWLC24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/huang24c.html
+  url: https://dblp.org/rec/conf/aistats/HuangWLC24
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -20491,6 +20501,17 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v244/deng24a.html
   url: https://dblp.org/rec/conf/uai/DengZM0L24
+- author: Ruihan Wu, Xiangyu Chen 0007, Chuan Guo 0001, Kilian Q. Weinberger
+  title: 'Learning To Invert: Simple Adaptive Attacks for Gradient Inversion in Federated
+    Learning.'
+  venue: UAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/WuCGW23
+  doi: ''
+  ee: https://proceedings.mlr.press/v216/wu23a.html
+  url: https://dblp.org/rec/conf/uai/WuCGW23
 federate%20streamid%3Ajournals%2Fml%3A:
 - author: Adnan Ahmad, Wei Luo 0001, Antonio Robles-Kelly
   title: Robust federated learning under statistical heterogeneity via hessian-weighted

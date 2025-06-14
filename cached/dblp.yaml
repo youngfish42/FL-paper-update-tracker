@@ -20155,6 +20155,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=xkXdE81mOK
   url: https://dblp.org/rec/conf/iclr/LiL024
+- author: Loka Li, Ignavier Ng, Gongxu Luo, Biwei Huang, Guangyi Chen 0002, Tongliang
+    Liu, Bin Gu 0001, Kun Zhang 0001
+  title: Federated Causal Discovery from Heterogeneous Data.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiNLH0L0024
+  doi: ''
+  ee: https://openreview.net/forum?id=m7tJxajC3G
+  url: https://dblp.org/rec/conf/iclr/LiNLH0L0024
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -29293,6 +29304,86 @@ federate%20venue%3AEMNLP%3A:
   doi: 10.18653/V1/2023.EMNLP-MAIN.734
   ee: https://doi.org/10.18653/v1/2023.emnlp-main.734
   url: https://dblp.org/rec/conf/emnlp/ShinYLPLCL23
+- author: Ji Liu 0003, Jiaxiang Ren 0001, Ruoming Jin, Zijie Zhang 0001, Yang Zhou
+    0001, Patrick Valduriez, Dejing Dou
+  title: Fisher Information-based Efficient Curriculum Federated Learning with Large
+    Language Models.
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/00030J00VD24
+  doi: 10.18653/V1/2024.EMNLP-MAIN.587
+  ee: https://doi.org/10.18653/v1/2024.emnlp-main.587
+  url: https://dblp.org/rec/conf/emnlp/00030J00VD24
+- author: Yae Jee Cho, Luyang Liu, Zheng Xu 0002, Aldi Fahrezi, Gauri Joshi
+  title: Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models.
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/ChoL0FJ24
+  doi: 10.18653/V1/2024.EMNLP-MAIN.717
+  ee: https://doi.org/10.18653/v1/2024.emnlp-main.717
+  url: https://dblp.org/rec/conf/emnlp/ChoL0FJ24
+- author: Hugh McMahan, Zheng Xu 0002, Yanxiang Zhang
+  title: A Hassle-free Algorithm for Strong Differential Privacy in Federated Learning
+    Systems.
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/McMahan0Z24
+  doi: 10.18653/V1/2024.EMNLP-INDUSTRY.64
+  ee: https://doi.org/10.18653/v1/2024.emnlp-industry.64
+  url: https://dblp.org/rec/conf/emnlp/McMahan0Z24
+- author: "Viktor Moskvoretskii, Nazarii Tupitsa, Chris Biemann, Samuel Horv\xE1th,\
+    \ Eduard Gorbunov, Irina Nikishina"
+  title: Low-Resource Machine Translation through the Lens of Personalized Federated
+    Learning.
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/MoskvoretskiiTB24
+  doi: 10.18653/V1/2024.FINDINGS-EMNLP.514
+  ee: https://doi.org/10.18653/v1/2024.findings-emnlp.514
+  url: https://dblp.org/rec/conf/emnlp/MoskvoretskiiTB24
+- author: Xiaochen Wang 0002, Jiaqi Wang 0002, Houping Xiao, Jinghui Chen, Fenglong
+    Ma
+  title: 'FEDKIM: Adaptive Federated Knowledge Injection into Medical Foundation Models.'
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/Wang0XCM24
+  doi: 10.18653/V1/2024.EMNLP-MAIN.464
+  ee: https://doi.org/10.18653/v1/2024.emnlp-main.464
+  url: https://dblp.org/rec/conf/emnlp/Wang0XCM24
+- author: Jiaying Zheng, Hainan Zhang, Lingxiang Wang, Wangjie Qiu, Hong-Wei Zheng,
+    Zhi Ming Zheng
+  title: 'Safely Learning with Private Data: A Federated Learning Framework for Large
+    Language Model.'
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/ZhengZWQZZ24
+  doi: 10.18653/V1/2024.EMNLP-MAIN.303
+  ee: https://doi.org/10.18653/v1/2024.emnlp-main.303
+  url: https://dblp.org/rec/conf/emnlp/ZhengZWQZZ24
+- author: Jianhao Zhu, Changze Lv, Xiaohua Wang, Muling Wu, Wenhao Liu, Tianlong Li,
+    Zixuan Ling, Cenyuan Zhang, Xiaoqing Zheng, Xuanjing Huang 0001
+  title: Promoting Data and Model Privacy in Federated Learning through Quantized
+    LoRA.
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/ZhuLWWLLLZZ024
+  doi: 10.18653/V1/2024.FINDINGS-EMNLP.615
+  ee: https://doi.org/10.18653/v1/2024.findings-emnlp.615
+  url: https://dblp.org/rec/conf/emnlp/ZhuLWWLLLZZ024
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.
@@ -36750,6 +36841,16 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3696410.3714561
   ee: https://doi.org/10.1145/3696410.3714561
   url: https://dblp.org/rec/conf/www/FengG0HYX0SZS25
+- author: Minghong Fang, Zhuqing Liu, Xuecen Zhao, Jia Liu 0002
+  title: Byzantine-Robust Federated Learning over Ring-All-Reduce Distributed Computing.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/FangLZL25
+  doi: 10.1145/3701716.3715491
+  ee: https://doi.org/10.1145/3701716.3715491
+  url: https://dblp.org/rec/conf/www/FangLZL25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

@@ -9423,6 +9423,18 @@ federate%20streamid%3Ajournals%2Fai%3A:
   doi: 10.1016/J.ARTINT.2025.104333
   ee: https://doi.org/10.1016/j.artint.2025.104333
   url: https://dblp.org/rec/journals/ai/YaoPSODWZJS25
+- author: Dezhong Yao 0002, Wanning Pan, Yuexin Shi, Michael J. O&apos;Neill 0002,
+    Yutong Dai 0002, Yao Wan 0001, Peilin Zhao, Hai Jin 0001, Limin Sun 0001
+  title: 'FedHM: Efficient federated learning for heterogeneous models via low-rank
+    factorization.'
+  venue: Artif. Intell.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ai/YaoPSODWZJS25
+  doi: 10.1016/J.ARTINT.2025.104333
+  ee: https://doi.org/10.1016/j.artint.2025.104333
+  url: https://dblp.org/rec/journals/ai/YaoPSODWZJS25
 federate%20venue%3ANeurIPS%3A:
 - author: Karan Singhal, Hakim Sidahmed, Zachary Garrett, Shanshan Wu, John Rush,
     Sushant Prakash
@@ -20166,6 +20178,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=m7tJxajC3G
   url: https://dblp.org/rec/conf/iclr/LiNLH0L0024
+- author: Chen Qiu, Xingyu Li, Chaithanya Kumar Mummadi, Madan Ravi Ganesh, Zhenzhen
+    Li, Lu Peng 0001, Wan-Yi Lin
+  title: Federated Text-driven Prompt Generation for Vision-Language Models.
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/QiuLMGLPL24
+  doi: ''
+  ee: https://openreview.net/forum?id=NW31gAylIm
+  url: https://dblp.org/rec/conf/iclr/QiuLMGLPL24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -23240,6 +23263,17 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/3701551.3703513
   ee: https://doi.org/10.1145/3701551.3703513
   url: https://dblp.org/rec/conf/wsdm/ZhangD0SLZ25
+- author: Yue Ding 0001, Yanbiao Ji, Xun Cai, Xin Xin 0003, Yuxiang Lu, Suizhi Huang,
+    Chang Liu 0078, Xiaofeng Gao 0001, Tsuyoshi Murata, Hongtao Lu 0001
+  title: Towards Personalized Federated Multi-Scenario Multi-Task Recommendation.
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/0001JC0LHL0ML25
+  doi: 10.1145/3701551.3703523
+  ee: https://doi.org/10.1145/3701551.3703523
+  url: https://dblp.org/rec/conf/wsdm/0001JC0LHL0ML25
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using
@@ -25779,6 +25813,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.02253
   ee: https://doi.org/10.1109/CVPR52733.2024.02253
   url: https://dblp.org/rec/conf/cvpr/TranLLHP24
+- author: Yuxiang Lu, Suizhi Huang, Yuwen Yang, Shalayiding Sirejiding, Yue Ding 0001,
+    Hongtao Lu 0001
+  title: 'Fedhca2: Towards Hetero-Client Federated Multi-Task Learning.'
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LuHYS0L24
+  doi: 10.1109/CVPR52733.2024.00535
+  ee: https://doi.org/10.1109/CVPR52733.2024.00535
+  url: https://dblp.org/rec/conf/cvpr/LuHYS0L24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -28120,6 +28165,17 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681260
   ee: https://doi.org/10.1145/3664647.3681260
   url: https://dblp.org/rec/conf/mm/Zhu000WZ24
+- author: Shiwei Li 0002, Yingyi Cheng, Haozhao Wang, Xing Tang 0007, Shijie Xu, Weihong
+    Luo, Yuhua Li 0003, Dugang Liu, Xiuqiang He 0001, Ruixuan Li 0001
+  title: Masked Random Noise for Communication-Efficient Federated Learning.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LiCW0XL0L0024
+  doi: 10.1145/3664647.3680608
+  ee: https://doi.org/10.1145/3664647.3680608
+  url: https://dblp.org/rec/conf/mm/LiCW0XL0L0024
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -40556,6 +40612,17 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2025.3543682
   ee: https://doi.org/10.1109/TC.2025.3543682
   url: https://dblp.org/rec/journals/tc/NguyenNHPNN25
+- author: Yannis Steve Nsuloun Fotse, Vianney Kengne Tchendji, Mthulisi Velempini
+  title: Federated Learning Based DDoS Attacks Detection in Large Scale Software-Defined
+    Network.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/tc/FotseTV25
+  doi: 10.1109/TC.2024.3474180
+  ee: https://doi.org/10.1109/TC.2024.3474180
+  url: https://dblp.org/rec/journals/tc/FotseTV25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

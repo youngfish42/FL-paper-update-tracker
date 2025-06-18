@@ -8534,6 +8534,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I21.30317
   ee: https://doi.org/10.1609/aaai.v38i21.30317
   url: https://dblp.org/rec/conf/aaai/SunTYYWDLY24
+- author: Xingbo Fu, Zihan Chen 0002, Yinhan He, Song Wang 0013, Binchi Zhang, Chen
+    Chen 0022, Jundong Li
+  title: 'Virtual Nodes Can Help: Tackling Distribution Shifts in Federated Graph
+    Learning.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/Fu0HWZCL25
+  doi: 10.1609/AAAI.V39I16.33830
+  ee: https://doi.org/10.1609/aaai.v39i16.33830
+  url: https://dblp.org/rec/conf/aaai/Fu0HWZCL25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -17243,6 +17255,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=XecUTmB9yD
   url: https://dblp.org/rec/conf/icml/Peng0TL24
+- author: Shiwei Li 0002, Wenchao Xu 0001, Haozhao Wang, Xing Tang 0007, Yining Qi,
+    Shijie Xu, Weihong Luo, Yuhua Li 0003, Xiuqiang He 0001, Ruixuan Li 0001
+  title: 'FedBAT: Communication-Efficient Federated Learning via Learnable Binarization.'
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LiXW0QXL0H024
+  doi: ''
+  ee: https://openreview.net/forum?id=x2zxPwCkAZ
+  url: https://dblp.org/rec/conf/icml/LiXW0QXL0H024
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -22985,6 +23008,17 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671908
   ee: https://doi.org/10.1145/3637528.3671908
   url: https://dblp.org/rec/conf/kdd/Zhang0ZZ0024
+- author: Song Wang 0013, Xingbo Fu, Kaize Ding, Chen Chen 0022, Huiyuan Chen, Jundong
+    Li
+  title: Federated Few-shot Learning.
+  venue: KDD
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/WangFDCCL23
+  doi: 10.1145/3580305.3599347
+  ee: https://doi.org/10.1145/3580305.3599347
+  url: https://dblp.org/rec/conf/kdd/WangFDCCL23
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.

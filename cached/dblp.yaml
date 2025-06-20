@@ -21269,6 +21269,16 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2023.3338063
   ee: https://doi.org/10.1109/TPAMI.2023.3338063
   url: https://dblp.org/rec/journals/pami/ShiLZXTB24
+- author: Yichen Li 0006, Haozhao Wang, Yining Qi, Wei Liu 0144, Ruixuan Li 0001
+  title: 'Re-Fed+: A Better Replay Strategy for Federated Incremental Learning.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiWQLL25
+  doi: 10.1109/TPAMI.2025.3551732
+  ee: https://doi.org/10.1109/TPAMI.2025.3551732
+  url: https://dblp.org/rec/journals/pami/LiWQLL25
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

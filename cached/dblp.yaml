@@ -14302,6 +14302,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/a421e88bb7db67cd0401475a0ed4a17d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiLLJZ24
+- author: Mingjia Shi, Yuhao Zhou, Kai Wang 0036, Huaizheng Zhang, Shudong Huang,
+    Qing Ye, Jiancheng Lv 0001
+  title: 'PRIOR: Personalized Prior for Reactivating the Information Overlooked in
+    Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ShiZWZHY023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/5a3674849d6d6d23ac088b9a2552f323-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ShiZWZHY023
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

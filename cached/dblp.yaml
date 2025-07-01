@@ -8558,6 +8558,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I20.35460
   ee: https://doi.org/10.1609/aaai.v39i20.35460
   url: https://dblp.org/rec/conf/aaai/WuJ0X0D25
+- author: Jia Wang, Yawen Li 0001, Yingxia Shao, Zhe Xue, Zeli Guan, Ang Li, Guanhua
+    Ye
+  title: Reinforcement Active Client Selection for Federated Heterogeneous Graph Learning.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangLSXGLY25
+  doi: 10.1609/AAAI.V39I20.35409
+  ee: https://doi.org/10.1609/aaai.v39i20.35409
+  url: https://dblp.org/rec/conf/aaai/WangLSXGLY25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -20768,6 +20779,30 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-023-06443-5
   ee: https://doi.org/10.1007/s10994-023-06443-5
   url: https://dblp.org/rec/journals/ml/ZhangZCBCJX24
+- author: Qixuan Dong, Boyang Zhou, ZhiQiang Ru, Ying He, Jingyu Hua, Sheng Zhong
+    0002
+  title: 'HFIA: a parasitic feature inference attack and gradient-based defense strategy
+    in SplitNN-based vertical federated learning.'
+  venue: Mach. Learn.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/DongZRHHZ25
+  doi: 10.1007/S10994-025-06804-2
+  ee: https://doi.org/10.1007/s10994-025-06804-2
+  url: https://dblp.org/rec/journals/ml/DongZRHHZ25
+- author: Franca Rocco di Torrepadula, Marco Fisichella, Sergio Di Martino, Nicola
+    Mazzocca
+  title: 'Fedflow: a personalized federated learning framework for passenger flow
+    prediction.'
+  venue: Mach. Learn.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/TorrepadulaFMM25
+  doi: 10.1007/S10994-025-06795-0
+  ee: https://doi.org/10.1007/s10994-025-06795-0
+  url: https://dblp.org/rec/journals/ml/TorrepadulaFMM25
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -23053,6 +23088,16 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3580305.3599347
   ee: https://doi.org/10.1145/3580305.3599347
   url: https://dblp.org/rec/conf/kdd/WangFDCCL23
+- author: Yejin Kim 0001, Jimeng Sun 0001, Hwanjo Yu, Xiaoqian Jiang
+  title: Federated Tensor Factorization for Computational Phenotyping.
+  venue: KDD
+  year: '2017'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/KimSYJ17
+  doi: 10.1145/3097983.3098118
+  ee: https://doi.org/10.1145/3097983.3098118
+  url: https://dblp.org/rec/conf/kdd/KimSYJ17
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -37089,6 +37134,30 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3701716.3715491
   ee: https://doi.org/10.1145/3701716.3715491
   url: https://dblp.org/rec/conf/www/FangLZL25
+- author: Kaibin Wang, Qiang He 0001, Feifei Chen 0001, Chunyang Chen 0001, Faliang
+    Huang, Hai Jin 0001, Yun Yang 0001
+  title: 'FlexiFed: Personalized Federated Learning for Edge Clients with Heterogeneous
+    Model Architectures.'
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/Wang00CHJ023
+  doi: 10.1145/3543507.3583347
+  ee: https://doi.org/10.1145/3543507.3583347
+  url: https://dblp.org/rec/conf/www/Wang00CHJ023
+- author: Yingguang Yang, Renyu Yang, Hao Peng 0001, Yangyang Li, Tong Li 0013, Yong
+    Liao, Pengyuan Zhou
+  title: 'FedACK: Federated Adversarial Contrastive Knowledge Distillation for Cross-Lingual
+    and Cross-Model Social Bot Detection.'
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YangYPLLLZ23
+  doi: 10.1145/3543507.3583500
+  ee: https://doi.org/10.1145/3543507.3583500
+  url: https://dblp.org/rec/conf/www/YangYPLLLZ23
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -41045,6 +41114,17 @@ federate%20streamid%3Aconf%2Ficse%3A:
   doi: 10.1145/3639478.3643533
   ee: https://doi.org/10.1145/3639478.3643533
   url: https://dblp.org/rec/conf/icse/CaiCCWZO24
+- author: Waris Gill, Ali Anwar, Muhammad Ali Gulzar
+  title: 'TraceFL: Interpretability-Driven Debugging in Federated Learning via Neuron
+    Provenance.'
+  venue: ICSE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/GillAG25
+  doi: 10.1109/ICSE55347.2025.00128
+  ee: https://doi.org/10.1109/ICSE55347.2025.00128
+  url: https://dblp.org/rec/conf/icse/GillAG25
 federate%20streamid%3Ajournals%2Ffocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

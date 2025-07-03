@@ -8569,6 +8569,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I20.35409
   ee: https://doi.org/10.1609/aaai.v39i20.35409
   url: https://dblp.org/rec/conf/aaai/WangLSXGLY25
+- author: Jia Wang, Yawen Li 0001, Yingxia Shao, Zhe Xue, Zeli Guan, Ang Li 0015,
+    Guanhua Ye
+  title: Reinforcement Active Client Selection for Federated Heterogeneous Graph Learning.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangLSXGLY25
+  doi: 10.1609/AAAI.V39I20.35409
+  ee: https://doi.org/10.1609/aaai.v39i20.35409
+  url: https://dblp.org/rec/conf/aaai/WangLSXGLY25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -20247,6 +20258,18 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=NW31gAylIm
   url: https://dblp.org/rec/conf/iclr/QiuLMGLPL24
+- author: Rui Ye, Jingyi Chai, Xiangrui Liu, Yaodong Yang, Yanfeng Wang 0001, Siheng
+    Chen
+  title: Emerging Safety Attack and Defense in Federated Instruction Tuning of Large
+    Language Models.
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/YeCLYWC25
+  doi: ''
+  ee: https://openreview.net/forum?id=sYNWqQYJhz
+  url: https://dblp.org/rec/conf/iclr/YeCLYWC25
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -21338,6 +21361,17 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2025.3551732
   ee: https://doi.org/10.1109/TPAMI.2025.3551732
   url: https://dblp.org/rec/journals/pami/LiWQLL25
+- author: Yan Sun, Li Shen 0008, Hao Sun 0019, Liang Ding 0006, Dacheng Tao
+  title: Efficient Federated Learning Via Local Adaptive Amended Optimizer With Linear
+    Speedup.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/SunSSDT23
+  doi: 10.1109/TPAMI.2023.3300886
+  ee: https://doi.org/10.1109/TPAMI.2023.3300886
+  url: https://dblp.org/rec/journals/pami/SunSSDT23
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -24397,6 +24431,18 @@ federate%20streamid%3Aconf%2Fuss%3A:
   doi: ''
   ee: https://www.usenix.org/conference/usenixsecurity24/presentation/lyu
   url: https://dblp.org/rec/conf/uss/LyuH0LZXL024
+- author: Qi Tan 0003, Qi Li 0002, Yi Zhao 0011, Zhuotao Liu, Xiaobing Guo, Ke Xu
+    0002
+  title: 'Defending Against Data Reconstruction Attacks in Federated Learning: An
+    Information Theory Approach.'
+  venue: USENIX Security Symposium
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/Tan00LG024
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity24/presentation/tan
+  url: https://dblp.org/rec/conf/uss/Tan00LG024
 federate%20venue%3ANDSS%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -25960,6 +26006,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.00535
   ee: https://doi.org/10.1109/CVPR52733.2024.00535
   url: https://dblp.org/rec/conf/cvpr/LuHYS0L24
+- author: Pengfei Guo, Puyang Wang, Jinyuan Zhou, Shanshan Jiang 0002, Vishal M. Patel
+  title: Multi-Institutional Collaborations for Improving Deep Learning-Based Magnetic
+    Resonance Image Reconstruction Using Federated Learning.
+  venue: CVPR
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/GuoWZJP21
+  doi: 10.1109/CVPR46437.2021.00245
+  ee: https://openaccess.thecvf.com/content/CVPR2021/html/Guo_Multi-Institutional_Collaborations_for_Improving_Deep_Learning-Based_Magnetic_Resonance_Image_Reconstruction_CVPR_2021_paper.html
+  url: https://dblp.org/rec/conf/cvpr/GuoWZJP21
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -39646,6 +39703,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3334398
   ee: https://doi.org/10.1109/TPDS.2023.3334398
   url: https://dblp.org/rec/journals/tpds/WangXXJLC24
+- author: Kechang Yang, Biao Hu 0001, Mingguo Zhao
+  title: Coordinating Computational Capacity for Adaptive Federated Learning in Heterogeneous
+    Edge Computing Systems.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/YangHZ25
+  doi: 10.1109/TPDS.2025.3574718
+  ee: https://doi.org/10.1109/TPDS.2025.3574718
+  url: https://dblp.org/rec/journals/tpds/YangHZ25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -40886,6 +40954,18 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2024.3474180
   ee: https://doi.org/10.1109/TC.2024.3474180
   url: https://dblp.org/rec/journals/tc/FotseTV25
+- author: Shijing Yuan, Beiyu Dong, Jie Li 0002, Song Guo 0001, Hongyang Chen, Chentao
+    Wu, Jie Wu 0001, Wei Zhao 0001
+  title: Adaptive Incentivize for Federated Learning With Cloud-Edge Collaboration
+    Under Multi-Level Information Sharing.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/YuanDLGCWWZ25
+  doi: 10.1109/TC.2025.3566864
+  ee: https://doi.org/10.1109/TC.2025.3566864
+  url: https://dblp.org/rec/journals/tc/YuanDLGCWWZ25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

@@ -41205,6 +41205,39 @@ federate%20streamid%3Aconf%2Ficse%3A:
   doi: 10.1109/ICSE55347.2025.00128
   ee: https://doi.org/10.1109/ICSE55347.2025.00128
   url: https://dblp.org/rec/conf/icse/GillAG25
+- author: Nourah S. AlOtaibi, Muhamad Felemban, Sajjad Mahmood
+  title: Edge-Based Detection of Label Flipping Attacks in Federated Learning Using
+    Explainable AI.
+  venue: SVM@ICSE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/AlOtaibiFM25
+  doi: 10.1109/SVM66695.2025.00005
+  ee: https://doi.org/10.1109/SVM66695.2025.00005
+  url: https://dblp.org/rec/conf/icse/AlOtaibiFM25
+- author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
+  title: 'TraceFL: Interpretability-Driven Debugging in Federated Learning via Neuron
+    Provenance.'
+  venue: ICSE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/GillAG25
+  doi: 10.1109/ICSE55347.2025.00128
+  ee: https://doi.org/10.1109/ICSE55347.2025.00128
+  url: https://dblp.org/rec/conf/icse/GillAG25
+- author: Alex Mwotil, Innocent Ndubuisi-Obi, Kurtis Heimerl, Benjamin Kanagwa, Engineer
+    Bainomugisha
+  title: Towards an Adaptive and Federated Testbed for AI Research in Africa.
+  venue: SEiGS@ICSE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/MwotilNHKB25
+  doi: 10.1109/SEIGS66664.2025.00011
+  ee: https://doi.org/10.1109/SEiGS66664.2025.00011
+  url: https://dblp.org/rec/conf/icse/MwotilNHKB25
 federate%20streamid%3Ajournals%2Ffocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

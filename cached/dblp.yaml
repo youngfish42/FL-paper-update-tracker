@@ -8580,6 +8580,39 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I20.35409
   ee: https://doi.org/10.1609/aaai.v39i20.35409
   url: https://dblp.org/rec/conf/aaai/WangLSXGLY25
+- author: Zibin Pan, Zhichao Wang, Chi Li, Kaiyan Zheng, Boqi Wang, Xiaoying Tang
+    0002, Junhua Zhao 0001
+  title: Federated Unlearning with Gradient Descent and Conflict Mitigation.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PanWLZW0Z25
+  doi: 10.1609/AAAI.V39I19.34181
+  ee: https://doi.org/10.1609/aaai.v39i19.34181
+  url: https://dblp.org/rec/conf/aaai/PanWLZW0Z25
+- author: Zibin Pan, Chi Li, Fangchen Yu, Shuyi Wang, Haijin Wang, Xiaoying Tang 0002,
+    Junhua Zhao 0001
+  title: 'FedLF: Layer-Wise Fair Federated Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PanLYWWTZ24
+  doi: 10.1609/AAAI.V38I13.29368
+  ee: https://doi.org/10.1609/aaai.v38i13.29368
+  url: https://dblp.org/rec/conf/aaai/PanLYWWTZ24
+- author: Zibin Pan, Shuyi Wang, Chi Li, Haijin Wang, Xiaoying Tang 0002, Junhua Zhao
+    0001
+  title: 'FedMDFG: Federated Learning with Multi-Gradient Descent and Fair Guidance.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PanWLWTZ23
+  doi: 10.1609/AAAI.V37I8.26122
+  ee: https://doi.org/10.1609/aaai.v37i8.26122
+  url: https://dblp.org/rec/conf/aaai/PanWLWTZ23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

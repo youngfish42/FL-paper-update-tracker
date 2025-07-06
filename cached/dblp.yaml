@@ -26900,6 +26900,18 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00444
   ee: https://doi.org/10.1109/ICCV51070.2023.00444
   url: https://dblp.org/rec/conf/iccv/ZengLLSLW23
+- author: "Guangyu Sun 0004, Mat\xEDas Mendieta, Jun Luo 0010, Shandong Wu, Chen Chen\
+    \ 0001"
+  title: 'FedPerfix: Towards Partial Model Personalization of Vision Transformers
+    in Federated Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/SunM0W023
+  doi: 10.1109/ICCV51070.2023.00460
+  ee: https://doi.org/10.1109/ICCV51070.2023.00460
+  url: https://dblp.org/rec/conf/iccv/SunM0W023
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -27453,6 +27465,17 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-19821-2_29
   ee: https://doi.org/10.1007/978-3-031-19821-2_29
   url: https://dblp.org/rec/conf/eccv/RehmanGSGL22
+- author: "Guangyu Sun 0004, Mat\xEDas Mendieta, Aritra Dutta, Xin Li 0022, Chen Chen\
+    \ 0001"
+  title: Towards Multi-modal Transformers in Federated Learning.
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/SunMDLC24
+  doi: 10.1007/978-3-031-72633-0_13
+  ee: https://doi.org/10.1007/978-3-031-72633-0_13
+  url: https://dblp.org/rec/conf/eccv/SunMDLC24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

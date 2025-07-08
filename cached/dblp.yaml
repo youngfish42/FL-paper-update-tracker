@@ -34706,6 +34706,250 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM42981.2021.9488756
   ee: https://doi.org/10.1109/INFOCOM42981.2021.9488756
   url: https://dblp.org/rec/conf/infocom/WangXLHQZ21
+- author: Juncheng Wang 0001, Yituo Liu, Ben Liang 0001, Min Dong 0001
+  title: Constrained Over-the-Air Model Updating for Wireless Online Federated Learning
+    with Delayed Information.
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/0001L0025
+  doi: 10.1109/INFOCOM55648.2025.11044570
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044570
+  url: https://dblp.org/rec/conf/infocom/0001L0025
+- author: Xiang Liu 0014, Hau Chan, Minming Li, Xianlong Zeng, Chenchen Fu, Weiwei
+    Wu 0001
+  title: 'CARE: Compatibility-Aware Incentive Mechanisms for Federated Learning with
+    Budgeted Requesters.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/0014CLZF025
+  doi: 10.1109/INFOCOM55648.2025.11044535
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044535
+  url: https://dblp.org/rec/conf/infocom/0014CLZF025
+- author: Zheyi Chen, Longxiang Xue, Luying Zhong, Geyong Min
+  title: 'FedGPA: Federated Learning with Global-Personalized Collaboration for Edge
+    Anomaly Detection.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/ChenXZM25
+  doi: 10.1109/INFOCOM55648.2025.11044589
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044589
+  url: https://dblp.org/rec/conf/infocom/ChenXZM25
+- author: Yunlai Cheng, Rui Han 0001, Qinglong Zhang, Chi Harold Liu
+  title: 'ElasticFed: Collaborative Large-Small Transformer Training for Federated
+    Continual Learning at Edge.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/Cheng0ZL25
+  doi: 10.1109/INFOCOM55648.2025.11044503
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044503
+  url: https://dblp.org/rec/conf/infocom/Cheng0ZL25
+- author: Yue Cui, Ningning Ding, Man Hon Cheung
+  title: AoI-Aware Federated Unlearning for Streaming Data with Online Client Selection
+    and Pricing.
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/CuiDC25
+  doi: 10.1109/INFOCOM55648.2025.11044760
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044760
+  url: https://dblp.org/rec/conf/infocom/CuiDC25
+- author: Hengrui Cui, Zhihao Qu, Xinyu Wang, Bin Tang, Baoliu Ye
+  title: 'LCO-AGQ: A Lightweight Client-Oriented Adaptive Gradient Quantization Algorithm
+    for Federated Learning.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/CuiQWTY25
+  doi: 10.1109/INFOCOM55648.2025.11044636
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044636
+  url: https://dblp.org/rec/conf/infocom/CuiQWTY25
+- author: Maolin Gan, Lanpeng Li, Samiul Alam, Li Liu, Luyang Liu, Mi Zhang, Zhichao
+    Cao 0001
+  title: 'GeoFL: A Framework for Efficient Geo-Distributed Cross-Device Federated
+    Learning.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/GanLALLZ025
+  doi: 10.1109/INFOCOM55648.2025.11044713
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044713
+  url: https://dblp.org/rec/conf/infocom/GanLALLZ025
+- author: Zhidong Gao, Zhenxiao Zhang, Yuanxiong Guo, Yanmin Gong 0001
+  title: Federated Adaptive Fine-Tuning of Large Language Models with Heterogeneous
+    Quantization and LoRA.
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/GaoZG025
+  doi: 10.1109/INFOCOM55648.2025.11044641
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044641
+  url: https://dblp.org/rec/conf/infocom/GaoZG025
+- author: Zhangshuang Guan, Yulin Zhao, Zhiguo Wan, Wei Wang
+  title: 'Input Integrity and Authentic Results: Towards Trustworthy Aggregation in
+    Federated Learning.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/GuanZWW25
+  doi: 10.1109/INFOCOM55648.2025.11044719
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044719
+  url: https://dblp.org/rec/conf/infocom/GuanZWW25
+- author: Shu Hong, Xiaojun Lin 0001, Lingjie Duan
+  title: Lightweight Federated Learning with Differential Privacy and Straggler Resilience.
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/Hong0D25
+  doi: 10.1109/INFOCOM55648.2025.11044562
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044562
+  url: https://dblp.org/rec/conf/infocom/Hong0D25
+- author: Yuhong Jiang, Jia Hu
+  title: Accelerating Clustered Federated Learning in Dynamic D2D Networks with Transferable
+    GNN.
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/JiangH25
+  doi: 10.1109/INFOCOM55648.2025.11044690
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044690
+  url: https://dblp.org/rec/conf/infocom/JiangH25
+- author: Hongjia Li, Leshui Lv, Ding Tang, Yan Zhang 0014, Weiping Wang, Xinghua
+    Yang
+  title: 'VaniKG: Vanishing Key Gradient Attack and Defense for Robust Federated Aggregation.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiLT0WY25
+  doi: 10.1109/INFOCOM55648.2025.11044620
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044620
+  url: https://dblp.org/rec/conf/infocom/LiLT0WY25
+- author: Yimin Liu, Peng Jiang, Liehuang Zhu
+  title: Preference Profiling Attacks Against Vertical Federated Learning Over Graph
+    Data.
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiuJZ25
+  doi: 10.1109/INFOCOM55648.2025.11044459
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044459
+  url: https://dblp.org/rec/conf/infocom/LiuJZ25
+- author: Rongwei Lu, Yutong Jiang, Jinrui Zhang, Chunyang Li, Yifei Zhu 0001, Bin
+    Chen, Zhi Wang
+  title: "\u03B3-FedHT: Stepsize-Aware Hard-Threshold Gradient Compression in Federated\
+    \ Learning."
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LuJZL0CW25
+  doi: 10.1109/INFOCOM55648.2025.11044558
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044558
+  url: https://dblp.org/rec/conf/infocom/LuJZL0CW25
+- author: Wenqi Qiu, Yipeng Zhou, Jinzhi Wang, Quan Z. Sheng, Laizhong Cui
+  title: 'FLM-TopK: Expediting Federated Large Language Model Tuning by Sparsifying
+    Intervalized Gradients.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/QiuZWSC25
+  doi: 10.1109/INFOCOM55648.2025.11044514
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044514
+  url: https://dblp.org/rec/conf/infocom/QiuZWSC25
+- author: Zerui Shao, Beibei Li 0002, Zhibo Wang, Yanbing Yang, Peiran Wang, Jun Luo
+  title: 'FedUFD: Personalized Edge Computing Using Federated Uncertainty-Driven Feature
+    Distillation.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/Shao0WYWL25
+  doi: 10.1109/INFOCOM55648.2025.11044664
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044664
+  url: https://dblp.org/rec/conf/infocom/Shao0WYWL25
+- author: Zhenyu Wang, Shahriar Nirjon
+  title: 'FedEXT: Differential Federated Learning with Complementary Extension of
+    Edge Models.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WangN25
+  doi: 10.1109/INFOCOM55648.2025.11044645
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044645
+  url: https://dblp.org/rec/conf/infocom/WangN25
+- author: Xiaoyu Wang, Yangming Zhao, Chen Tian 0001, Kai Chen 0005, Qi Li, Kun Yang,
+    Chunming Qiao
+  title: Combating Deep Leakage from Gradients in Cross-Silo Federated Learning with
+    QKD.
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WangZ00LYQ25
+  doi: 10.1109/INFOCOM55648.2025.11044743
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044743
+  url: https://dblp.org/rec/conf/infocom/WangZ00LYQ25
+- author: "Qifan Yan, Andrew Liu, Shiqi He, Mathias L\xE9cuyer, Ivan Beschastnikh"
+  title: 'FedFetch: Faster Federated Learning with Adaptive Downstream Prefetching.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/YanLHLB25
+  doi: 10.1109/INFOCOM55648.2025.11044717
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044717
+  url: https://dblp.org/rec/conf/infocom/YanLHLB25
+- author: Hansong Zhou, Jingjing Fu, Yukun Yuan 0001, Linke Guo, Xiaonan Zhang 0001
+  title: Similarity-Guided Rapid Deployment of Federated Intelligence Over Heterogeneous
+    Edge Computing.
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/ZhouF0G025
+  doi: 10.1109/INFOCOM55648.2025.11044586
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044586
+  url: https://dblp.org/rec/conf/infocom/ZhouF0G025
+- author: Zhi Zhou, Jiajie Xie, Mengke Huang, Tao Ouyang, Fangming Liu, Xu Chen
+  title: 'Towards Federated Inference: An Online Model Ensemble Framework for Cooperative
+    Edge AI.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/ZhouXHOLC25
+  doi: 10.1109/INFOCOM55648.2025.11044578
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044578
+  url: https://dblp.org/rec/conf/infocom/ZhouXHOLC25
+- author: Jinrui Zhou, Yu Zhao, Yin Xu 0004, Mingjun Xiao, Jie Wu 0001, Sheng Zhang
+    0001
+  title: 'PSFL: Parallel-Sequential Federated Learning with Convergence Guarantees.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/ZhouZ0X0025
+  doi: 10.1109/INFOCOM55648.2025.11044534
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044534
+  url: https://dblp.org/rec/conf/infocom/ZhouZ0X0025
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

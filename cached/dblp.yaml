@@ -8624,6 +8624,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I13.26995
   ee: https://doi.org/10.1609/aaai.v37i13.26995
   url: https://dblp.org/rec/conf/aaai/LiuCLZ023
+- author: Xuan Liu 0001, Siqi Cai 0001, Lin Li 0001, Rui Zhang 0080, Song Guo 0001
+  title: 'MGIA: Mutual Gradient Inversion Attack in Multi-Modal Federated Learning
+    (Student Abstract).'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuCLZ023
+  doi: 10.1609/AAAI.V37I13.26995
+  ee: https://doi.org/10.1609/aaai.v37i13.26995
+  url: https://dblp.org/rec/conf/aaai/LiuCLZ023
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -14380,6 +14391,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/5a3674849d6d6d23ac088b9a2552f323-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ShiZWZHY023
+- author: Youssef Allouah, Akash Balasaheb Dhasade, Rachid Guerraoui, Nirupam Gupta,
+    Anne-Marie Kermarrec, Rafael Pinot, Rafael Pires 0001, Rishi Sharma 0001
+  title: Revisiting Ensembling in One-Shot Federated Learning.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/AllouahDGGKP0024
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/7ea46207ec9bda974b140fe11d8dd727-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/AllouahDGGKP0024
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -40082,6 +40104,29 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3574718
   ee: https://doi.org/10.1109/TPDS.2025.3574718
   url: https://dblp.org/rec/journals/tpds/YangHZ25
+- author: Mohamed Yassine Boukhari, Akash Balasaheb Dhasade, Anne-Marie Kermarrec,
+    Rafael Pires 0001, Othmane Safsafi, Rishi Sharma 0001
+  title: Boosting Resource-Constrained Federated Learning Systems With Guessed Updates.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/BoukhariDKPSS25
+  doi: 10.1109/TPDS.2025.3578522
+  ee: https://doi.org/10.1109/TPDS.2025.3578522
+  url: https://dblp.org/rec/journals/tpds/BoukhariDKPSS25
+- author: Yuhui Zhang, Hong Liao, Lutan Zhao, Yuncong Shao, Zhihong Tian, XiaoFeng
+    Wang, Dan Meng, Rui Hou 0001
+  title: An Efficient Speculative Federated Tree Learning System With a Lightweight
+    NN-Based Predictor.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhangLZSTWMH25
+  doi: 10.1109/TPDS.2025.3581295
+  ee: https://doi.org/10.1109/TPDS.2025.3581295
+  url: https://dblp.org/rec/journals/tpds/ZhangLZSTWMH25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

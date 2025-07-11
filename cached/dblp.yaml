@@ -20336,6 +20336,72 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=sYNWqQYJhz
   url: https://dblp.org/rec/conf/iclr/YeCLYWC25
+- author: Mingyuan Fan 0003, Zhanyi Hu, Fuyi Wang, Cen Chen 0001
+  title: 'Bad-PFL: Exploiting Backdoor Attacks against Personalized Federated Learning.'
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/0003HW025
+  doi: ''
+  ee: https://openreview.net/forum?id=79nO2DPjVX
+  url: https://dblp.org/rec/conf/iclr/0003HW025
+- author: Guangchen Lan, Dong-Jun Han, Abolfazl Hashemi, Vaneet Aggarwal, Christopher
+    Brinton 0001
+  title: 'Asynchronous Federated Reinforcement Learning with Policy Gradient Updates:
+    Algorithm Design and Convergence Analysis.'
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LanHHA025
+  doi: ''
+  ee: https://openreview.net/forum?id=5DUekOKWcS
+  url: https://dblp.org/rec/conf/iclr/LanHHA025
+- author: Yingqi Liu, Qinglun Li, Jie Tang 0001, Yifan Shi, Li Shen 0008, Xiaochun
+    Cao
+  title: Understanding the Stability-based Generalization of Personalized Federated
+    Learning.
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiuL0S0C25
+  doi: ''
+  ee: https://openreview.net/forum?id=znhZbonEoe
+  url: https://dblp.org/rec/conf/iclr/LiuL0S0C25
+- author: Milad Khademi Nori, Il-Min Kim 0001, Guanghui Wang
+  title: 'Federated Class-Incremental Learning: A Hybrid Approach Using Latent Exemplars
+    and Data-Free Techniques to Address Local and Global Forgetting.'
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Nori0W25
+  doi: ''
+  ee: https://openreview.net/forum?id=ydREOIttdC
+  url: https://dblp.org/rec/conf/iclr/Nori0W25
+- author: Pedro Valdeira, Shiqiang Wang, Yuejie Chi
+  title: Vertical Federated Learning with Missing Features During Training and Inference.
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ValdeiraWC25
+  doi: ''
+  ee: https://openreview.net/forum?id=OXi1FmHGzz
+  url: https://dblp.org/rec/conf/iclr/ValdeiraWC25
+- author: Yunlu Yan, Chun-Mei Feng 0001, Wangmeng Zuo, Rick Siow Mong Goh, Yong Liu
+    0026, Lei Zhu 0003
+  title: Federated Residual Low-Rank Adaptation of Large Language Models.
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Yan0ZG0025
+  doi: ''
+  ee: https://openreview.net/forum?id=e0rQRMUhs7
+  url: https://dblp.org/rec/conf/iclr/Yan0ZG0025
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -40127,6 +40193,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3581295
   ee: https://doi.org/10.1109/TPDS.2025.3581295
   url: https://dblp.org/rec/journals/tpds/ZhangLZSTWMH25
+- author: Zichuan Xu, Dapeng Zhao, Weifa Liang, Omer F. Rana, Pan Zhou 0001, Mingchu
+    Li, Wenzheng Xu, Hao Li 0080, Qiufen Xia
+  title: 'HierFedML: Aggregator Placement and UE Assignment for Hierarchical Federated
+    Learning in Mobile Edge Computing.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/XuZLRZLXLX23
+  doi: 10.1109/TPDS.2022.3218807
+  ee: https://doi.org/10.1109/TPDS.2022.3218807
+  url: https://dblp.org/rec/journals/tpds/XuZLRZLXLX23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

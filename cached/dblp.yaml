@@ -20402,6 +20402,41 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=e0rQRMUhs7
   url: https://dblp.org/rec/conf/iclr/Yan0ZG0025
+- author: "Yury Demidovich, Petr Ostroukhov, Grigory Malinovsky, Samuel Horv\xE1th,\
+    \ Martin Tak\xE1c 0001, Peter Richt\xE1rik, Eduard Gorbunov"
+  title: Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex
+    Federated Optimization.
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/DemidovichOMH0R25
+  doi: ''
+  ee: https://openreview.net/forum?id=TrJ36UfD9P
+  url: https://dblp.org/rec/conf/iclr/DemidovichOMH0R25
+- author: Rui Ye, Jingyi Chai, Xiangrui Liu, Yaodong Yang 0001, Yanfeng Wang 0001,
+    Siheng Chen
+  title: Emerging Safety Attack and Defense in Federated Instruction Tuning of Large
+    Language Models.
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/YeCLYWC25
+  doi: ''
+  ee: https://openreview.net/forum?id=sYNWqQYJhz
+  url: https://dblp.org/rec/conf/iclr/YeCLYWC25
+- author: Zhong Zheng, Haochen Zhang, Lingzhou Xue
+  title: 'Federated Q-Learning with Reference-Advantage Decomposition: Almost Optimal
+    Regret and Logarithmic Communication Cost.'
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ZhengZX25a
+  doi: ''
+  ee: https://openreview.net/forum?id=FoUpv84hMw
+  url: https://dblp.org/rec/conf/iclr/ZhengZX25a
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -26149,6 +26184,16 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR46437.2021.00245
   ee: https://openaccess.thecvf.com/content/CVPR2021/html/Guo_Multi-Institutional_Collaborations_for_Improving_Deep_Learning-Based_Magnetic_Resonance_Image_Reconstruction_CVPR_2021_paper.html
   url: https://dblp.org/rec/conf/cvpr/GuoWZJP21
+- author: Ka Ho Chow, Ling Liu 0001, Wenqi Wei 0001, Fatih Ilhan, Yanzhao Wu 0001
+  title: 'STDLens: Model Hijacking-Resilient Federated Learning for Object Detection.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ChowLWIW23
+  doi: 10.1109/CVPR52729.2023.01568
+  ee: https://doi.org/10.1109/CVPR52729.2023.01568
+  url: https://dblp.org/rec/conf/cvpr/ChowLWIW23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

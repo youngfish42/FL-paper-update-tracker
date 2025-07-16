@@ -30792,6 +30792,51 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/1277741.1277896
   ee: https://doi.org/10.1145/1277741.1277896
   url: https://dblp.org/rec/conf/sigir/JiangSL07
+- author: Mingzhe Han, Dongsheng Li 0002, Jiafeng Xia, Jiahao Liu, Hansu Gu, Peng
+    Zhang, Ning Gu, Tun Lu
+  title: 'FedCIA: Federated Collaborative Information Aggregation for Privacy-Preserving
+    Recommendation.'
+  venue: SIGIR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/Han0XLGZGL25
+  doi: 10.1145/3726302.3729977
+  ee: https://doi.org/10.1145/3726302.3729977
+  url: https://dblp.org/rec/conf/sigir/Han0XLGZGL25
+- author: Diarmuid O&apos;Reilly-Morgan, Erika Duriakova, Elias Z. Tragos, Neil Hurley,
+    Aonghus Lawlor
+  title: 'NodeRec+: A Lightweight Framework for Federated Recommender Systems.'
+  venue: SIGIR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/OReilly-MorganD25
+  doi: 10.1145/3726302.3730138
+  ee: https://doi.org/10.1145/3726302.3730138
+  url: https://dblp.org/rec/conf/sigir/OReilly-MorganD25
+- author: Yiling Tao, Shuyi Wang 0001, Jiaxi Yang, Guido Zuccon
+  title: 'Unlearning for Federated Online Learning to Rank: A Reproducibility Study.'
+  venue: SIGIR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/Tao0YZ25
+  doi: 10.1145/3726302.3730336
+  ee: https://doi.org/10.1145/3726302.3730336
+  url: https://dblp.org/rec/conf/sigir/Tao0YZ25
+- author: Pengyang Zhou, Chaochao Chen 0001, Weiming Liu 0005, Wenkai Shen, Xinting
+    Liao, Huarong Deng, Zhihui Fu, Jun Wang 0020, Wu Wen, Xiaolin Zheng
+  title: Joint Item Embedding Dual-view Exploration and Adaptive Local-Global Fusion
+    for Federated Recommendation.
+  venue: SIGIR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/Zhou00SLDF0WZ25
+  doi: 10.1145/3726302.3730016
+  ee: https://doi.org/10.1145/3726302.3730016
+  url: https://dblp.org/rec/conf/sigir/Zhou00SLDF0WZ25
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for

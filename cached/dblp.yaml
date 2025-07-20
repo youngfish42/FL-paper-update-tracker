@@ -26442,6 +26442,97 @@ federate%20venue%3ACVPR%3A:
   doi: ''
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_FedMIA_An_Effective_Membership_Inference_Attack_Exploiting_All_for_One_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/ZhuLGYF025
+- author: Haokun Chen, Hang Li 0010, Yao Zhang, Jinhe Bi, Gengyuan Zhang, Yueqi Zhang,
+    Philip Torr 0001, Jindong Gu, Denis Krompass, Volker Tresp
+  title: 'FedBiP: Heterogeneous One-Shot Federated Learning with Personalized Latent
+    Diffusion Models.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/Chen0ZBZZ0GKT25
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Chen_FedBiP_Heterogeneous_One-Shot_Federated_Learning_with_Personalized_Latent_Diffusion_Models_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/Chen0ZBZZ0GKT25
+- author: Yasser H. Khalil, Leo Maxime Brunswic, Soufiane Lamghari, Xu Li 0001, Mahdi
+    Beitollahi, Xi Chen 0009
+  title: 'NoT: Federated Unlearning via Weight Negation.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/KhalilBL0B025
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Khalil_NoT_Federated_Unlearning_via_Weight_Negation_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/KhalilBL0B025
+- author: Ye Li, Yanchao Zhao, Chengcheng Zhu, Jiale Zhang
+  title: 'Infighting in the Dark: Multi-Label Backdoor Attack in Federated Learning.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LiZZZ25
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Li_Infighting_in_the_Dark_Multi-Label_Backdoor_Attack_in_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/LiZZZ25
+- author: Farchan Hakim Raswa, Chun-Shien Lu, Jia-Ching Wang
+  title: 'HistoFS: Non-IID Histopathologic Whole Slide Image Classification via Federated
+    Style Transfer with RoI-Preserving.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/RaswaLW25
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Raswa_HistoFS_Non-IID_Histopathologic_Whole_Slide_Image_Classification_via_Federated_Style_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/RaswaLW25
+- author: Changlong Shi, He Zhao, Bingjie Zhang, Mingyuan Zhou, Dandan Guo, Yi Chang
+    0001
+  title: 'FedAWA: Adaptive Optimization of Aggregation Weights in Federated Learning
+    Using Client Vectors.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ShiZZZG025
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Shi_FedAWA_Adaptive_Optimization_of_Aggregation_Weights_in_Federated_Learning_Using_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ShiZZZG025
+- author: Yunlu Yan, Huazhu Fu, Yuexiang Li, Jinheng Xie, Jun Ma, Guang Yang 0006,
+    Lei Zhu
+  title: A Simple Data Augmentation for Feature Distribution Skewed Federated Learning.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/YanFLXM0Z25
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Yan_A_Simple_Data_Augmentation_for_Feature_Distribution_Skewed_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/YanFLXM0Z25
+- author: Yifei Zhang, Hao Zhu, Alysa Ziying Tan, Dianzhi Yu, Longtao Huang, Han Yu
+    0001
+  title: 'pFedMxF: Personalized Federated Class-Incremental Learning with Mixture
+    of Frequency Aggregation.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ZhangZTYH025
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_pFedMxF_Personalized_Federated_Class-Incremental_Learning_with_Mixture_of_Frequency_Aggregation_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhangZTYH025
+- author: Zhengyi Zhong, Weidong Bao 0001, Ji Wang 0002, Shuai Zhang 0004, Jingxuan
+    Zhou, Lingjuan Lyu, Wei Yang Bryan Lim
+  title: 'Unlearning through Knowledge Overwriting: Reversible Federated Unlearning
+    via Selective Sparse Adapter.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/Zhong000ZLL25
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhong_Unlearning_through_Knowledge_Overwriting_Reversible_Federated_Unlearning_via_Selective_Sparse_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/Zhong000ZLL25
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

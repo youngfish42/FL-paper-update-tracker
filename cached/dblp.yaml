@@ -33325,6 +33325,17 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3579075.3579081
   ee: https://www.vldb.org/pvldb/vol16/p1059-li.pdf
   url: https://dblp.org/rec/journals/pvldb/XieWGCYKLDZ23
+- author: Xunkai Li, Yinlin Zhu, Boyang Pang, Guochen Yan, Yeyu Yan, Zening Li, Zhengyu
+    Wu, Wentao Zhang 0001, Ronghua Li, Guoren Wang
+  title: 'OpenFGL: A Comprehensive Benchmark for Federated Graph Learning.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiZPYYLWZLW25
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol18/p1305-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiZPYYLWZLW25
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -41886,6 +41897,16 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2025.3566864
   ee: https://doi.org/10.1109/TC.2025.3566864
   url: https://dblp.org/rec/journals/tc/YuanDLGCWWZ25
+- author: Qinglun Li, Miao Zhang, Nan Yin, Quanjun Yin, Li Shen 0008, Xiaochun Cao
+  title: Asymmetrically Decentralized Federated Learning.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/LiZYYSC25
+  doi: 10.1109/TC.2025.3569185
+  ee: https://doi.org/10.1109/TC.2025.3569185
+  url: https://dblp.org/rec/journals/tc/LiZYYSC25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

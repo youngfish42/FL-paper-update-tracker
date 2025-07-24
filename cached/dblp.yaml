@@ -26871,6 +26871,17 @@ federate%20venue%3ACVPR%3A:
   doi: ''
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_FedMIA_An_Effective_Membership_Inference_Attack_Exploiting_All_for_One_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/ZhuLGYF025
+- author: Yunlu Yan, Huazhu Fu, Yuexiang Li, Jinheng Xie, Jun Ma 0008, Guang Yang
+    0006, Lei Zhu 0003
+  title: A Simple Data Augmentation for Feature Distribution Skewed Federated Learning.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/YanFLXM0Z25
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Yan_A_Simple_Data_Augmentation_for_Feature_Distribution_Skewed_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/YanFLXM0Z25
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -29715,6 +29726,28 @@ federate%20venue%3AACL%3A:
   doi: 10.18653/V1/2023.ACL-LONG.678
   ee: https://doi.org/10.18653/v1/2023.acl-long.678
   url: https://dblp.org/rec/conf/acl/ZhangLL0023
+- author: Jabin Koo, Minwoo Jang, Jungseul Ok
+  title: Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous
+    Clients.
+  venue: ACL
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/KooJO25
+  doi: ''
+  ee: https://aclanthology.org/2025.acl-long.19/
+  url: https://dblp.org/rec/conf/acl/KooJO25
+- author: Raghav Singhal, Kaustubh Ponkshe, Praneeth Vepakomma
+  title: 'FedEx-LoRA: Exact Aggregation for Federated and Efficient Fine-Tuning of
+    Large Language Models.'
+  venue: ACL
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/SinghalPV25
+  doi: ''
+  ee: https://aclanthology.org/2025.acl-long.67/
+  url: https://dblp.org/rec/conf/acl/SinghalPV25
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"

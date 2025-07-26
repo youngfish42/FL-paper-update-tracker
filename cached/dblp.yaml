@@ -8658,6 +8658,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I19.34277
   ee: https://doi.org/10.1609/aaai.v39i19.34277
   url: https://dblp.org/rec/conf/aaai/SunDLHYL25
+- author: Xiangping Kang, Guoxian Yu, Jun Wang 0035, Wei Guo 0017, Carlotta Domeniconi,
+    Jinglin Zhang
+  title: Incentive-Boosted Federated Crowdsourcing.
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/KangYWGDZ23
+  doi: 10.1609/AAAI.V37I5.25744
+  ee: https://doi.org/10.1609/aaai.v37i5.25744
+  url: https://dblp.org/rec/conf/aaai/KangYWGDZ23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -29748,6 +29759,28 @@ federate%20venue%3AACL%3A:
   doi: ''
   ee: https://aclanthology.org/2025.acl-long.67/
   url: https://dblp.org/rec/conf/acl/SinghalPV25
+- author: Jabin Koo, Minwoo Jang, Jungseul Ok
+  title: Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous
+    Clients.
+  venue: ACL
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/KooJO25
+  doi: ''
+  ee: https://aclanthology.org/2025.acl-long.19/
+  url: https://dblp.org/rec/conf/acl/KooJO25
+- author: Raghav Singhal, Kaustubh Ponkshe, Praneeth Vepakomma
+  title: 'FedEx-LoRA: Exact Aggregation for Federated and Efficient Fine-Tuning of
+    Large Language Models.'
+  venue: ACL
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/SinghalPV25
+  doi: ''
+  ee: https://aclanthology.org/2025.acl-long.67/
+  url: https://dblp.org/rec/conf/acl/SinghalPV25
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"
@@ -31838,6 +31871,17 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/3709739
   ee: https://doi.org/10.1145/3709739
   url: https://dblp.org/rec/journals/pacmmod/ZhangYH25
+- author: Anran Li 0001, Yuanyuan Chen, Jian Zhang 0087, Mingfei Cheng, Yihao Huang
+    0001, Yueming Wu 0001, Anh Tuan Luu, Han Yu 0001
+  title: Historical Embedding-Guided Efficient Large-Scale Federated Graph Learning.
+  venue: Proc. ACM Manag. Data
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/LiCZC0WL024
+  doi: 10.1145/3654947
+  ee: https://doi.org/10.1145/3654947
+  url: https://dblp.org/rec/journals/pacmmod/LiCZC0WL024
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous
@@ -41039,6 +41083,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2022.3218807
   ee: https://doi.org/10.1109/TPDS.2022.3218807
   url: https://dblp.org/rec/journals/tpds/XuZLRZLXLX23
+- author: Yuhui Zhang, Hong Liao, Lutan Zhao, Yuncong Shao, Zhihong Tian, XiaoFeng
+    Wang, Dan Meng 0002, Rui Hou 0001
+  title: An Efficient Speculative Federated Tree Learning System With a Lightweight
+    NN-Based Predictor.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhangLZSTWMH25
+  doi: 10.1109/TPDS.2025.3581295
+  ee: https://doi.org/10.1109/TPDS.2025.3581295
+  url: https://dblp.org/rec/journals/tpds/ZhangLZSTWMH25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

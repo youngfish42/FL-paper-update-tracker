@@ -29781,6 +29781,50 @@ federate%20venue%3AACL%3A:
   doi: ''
   ee: https://aclanthology.org/2025.acl-long.67/
   url: https://dblp.org/rec/conf/acl/SinghalPV25
+- author: Zhen Qin 0004, Zhaomin Wu, Bingsheng He, Shuiguang Deng
+  title: Federated Data-Efficient Instruction Tuning for Large Language Models.
+  venue: ACL
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/0004WHD25
+  doi: ''
+  ee: https://aclanthology.org/2025.findings-acl.803/
+  url: https://dblp.org/rec/conf/acl/0004WHD25
+- author: Yaxin Du, Rui Ye, Fengting Yuchi, Wanru Zhao, Jingjing Qu, Yanfeng Wang,
+    Siheng Chen
+  title: 'FedDQC: Data Quality Control in Federated Instruction-tuning of Large Language
+    Models.'
+  venue: ACL
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/DuYYZQWC25
+  doi: ''
+  ee: https://aclanthology.org/2025.findings-acl.791/
+  url: https://dblp.org/rec/conf/acl/DuYYZQWC25
+- author: Sajjad Ghiasvand, Yifan Yang, Zhiyu Xue, Mahnoosh Alizadeh, Zheng Zhang,
+    Ramtin Pedarsani
+  title: Communication-Efficient and Tensorized Federated Fine-Tuning of Large Language
+    Models.
+  venue: ACL
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/GhiasvandYXAZP25
+  doi: ''
+  ee: https://aclanthology.org/2025.findings-acl.1241/
+  url: https://dblp.org/rec/conf/acl/GhiasvandYXAZP25
+- author: Zongkai Zhao, Guozeng Xu, Xiuhua Li, Kaiwen Wei, Jiang Zhong
+  title: 'FedLEKE: Federated Locate-then-Edit Knowledge Editing for Multi-Client Collaboration.'
+  venue: ACL
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/ZhaoXLWZ25
+  doi: ''
+  ee: https://aclanthology.org/2025.findings-acl.733/
+  url: https://dblp.org/rec/conf/acl/ZhaoXLWZ25
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"

@@ -30931,6 +30931,17 @@ federate%20venue%3ACOLING%3A:
   doi: ''
   ee: https://aclanthology.org/2025.coling-industry.33/
   url: https://dblp.org/rec/conf/coling/ShojaeeHLM0025
+- author: Parshin Shojaee, Sai Sree Harsha, Dan Luo, Akash Maharaj, Tong Yu 0001,
+    Yunyao Li 0001
+  title: Federated Retrieval Augmented Generation for Multi-Product Question Answering.
+  venue: COLING
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/coling/ShojaeeHLM0025
+  doi: ''
+  ee: https://aclanthology.org/2025.coling-industry.33/
+  url: https://dblp.org/rec/conf/coling/ShojaeeHLM0025
 federate%20venue%3ASIGIR%3A:
 - author: Zexi Li, Qunwei Li, Yi Zhou, Wenliang Zhong, Guannan Zhang, Chao Wu 0001
   title: Edge-cloud Collaborative Learning with Federated and Centralized Features.

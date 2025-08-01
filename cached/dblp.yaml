@@ -21048,6 +21048,27 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06795-0
   ee: https://doi.org/10.1007/s10994-025-06795-0
   url: https://dblp.org/rec/journals/ml/TorrepadulaFMM25
+- author: Thanh Vinh Vo, Young Lee, Tze-Yun Leong
+  title: Federated causal inference from observational data.
+  venue: Mach. Learn.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/VoLL25
+  doi: 10.1007/S10994-025-06819-9
+  ee: https://doi.org/10.1007/s10994-025-06819-9
+  url: https://dblp.org/rec/journals/ml/VoLL25
+- author: Linghui Zeng, Ruixuan Liu, Li Xiong, Joyce C. Ho
+  title: 'TransFed: cross-domain feature alignment for semi-supervised federated transfer
+    learning.'
+  venue: Mach. Learn.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/ZengLXH25
+  doi: 10.1007/S10994-025-06805-1
+  ee: https://doi.org/10.1007/s10994-025-06805-1
+  url: https://dblp.org/rec/journals/ml/ZengLXH25
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous

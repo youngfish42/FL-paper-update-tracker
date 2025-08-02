@@ -2120,6 +2120,18 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/526
   url: https://dblp.org/rec/conf/ijcai/NingT00WL0Z24
+- author: Jianfeng Lu 0002, Yue Chen, Shuqin Cao, Longbiao Chen, Wei Wang 0170, Yun
+    Xin
+  title: 'LEAP: Optimization Hierarchical Federated Learning on Non-IID Data with
+    Coalition Formation Game.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LuCCCWX24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/515
+  url: https://dblp.org/rec/conf/ijcai/LuCCCWX24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -8669,6 +8681,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I5.25744
   ee: https://doi.org/10.1609/aaai.v37i5.25744
   url: https://dblp.org/rec/conf/aaai/KangYWGDZ23
+- author: Jingtao Li, Xing Chen 0009, Li Yang 0009, Adnan Siraj Rakin, Deliang Fan,
+    Chaitali Chakrabarti
+  title: 'EMGAN: Early-Mix-GAN on Extracting Server-Side Model in Split Federated
+    Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiC0RFC24
+  doi: 10.1609/AAAI.V38I12.29258
+  ee: https://doi.org/10.1609/aaai.v38i12.29258
+  url: https://dblp.org/rec/conf/aaai/LiC0RFC24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -21069,6 +21093,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06805-1
   ee: https://doi.org/10.1007/s10994-025-06805-1
   url: https://dblp.org/rec/journals/ml/ZengLXH25
+- author: Linghui Zeng, Ruixuan Liu, Li Xiong 0001, Joyce C. Ho
+  title: 'TransFed: cross-domain feature alignment for semi-supervised federated transfer
+    learning.'
+  venue: Mach. Learn.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/ZengLXH25
+  doi: 10.1007/S10994-025-06805-1
+  ee: https://doi.org/10.1007/s10994-025-06805-1
+  url: https://dblp.org/rec/journals/ml/ZengLXH25
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -26914,6 +26949,18 @@ federate%20venue%3ACVPR%3A:
   doi: ''
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Yan_A_Simple_Data_Augmentation_for_Feature_Distribution_Skewed_Federated_Learning_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/YanFLXM0Z25
+- author: Jingtao Li, Adnan Siraj Rakin, Xing Chen 0009, Zhezhi He, Deliang Fan, Chaitali
+    Chakrabarti
+  title: 'ResSFL: A Resistance Transfer Framework for Defending Model Inversion Attack
+    in Split Federated Learning.'
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LiRCHFC22
+  doi: 10.1109/CVPR52688.2022.00995
+  ee: https://doi.org/10.1109/CVPR52688.2022.00995
+  url: https://dblp.org/rec/conf/cvpr/LiRCHFC22
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -38659,6 +38706,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583500
   ee: https://doi.org/10.1145/3543507.3583500
   url: https://dblp.org/rec/conf/www/YangYPLLLZ23
+- author: Kai Fang 0001, Jiangtao Deng, Chengzu Dong, Usman Naseem, Tongcun Liu, Hailin
+    Feng, Wei Wang 0077
+  title: 'MoCFL: Mobile Cluster Federated Learning Framework for Highly Dynamic Network.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/FangDDNLF025
+  doi: 10.1145/3696410.3714515
+  ee: https://doi.org/10.1145/3696410.3714515
+  url: https://dblp.org/rec/conf/www/FangDDNLF025
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

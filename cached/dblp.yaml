@@ -20516,6 +20516,16 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=ipQrjRsl11
   url: https://dblp.org/rec/conf/iclr/SwaroopKD25
+- author: Jian Xu 0016, Xinyi Tong 0002, Shao-Lun Huang
+  title: Personalized Federated Learning with Feature Alignment and Classifier Collaboration.
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/XuTH23
+  doi: ''
+  ee: https://openreview.net/forum?id=SXZr8aDKia
+  url: https://dblp.org/rec/conf/iclr/XuTH23
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.

@@ -38727,6 +38727,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3696410.3714515
   ee: https://doi.org/10.1145/3696410.3714515
   url: https://dblp.org/rec/conf/www/FangDDNLF025
+- author: Yichen Li 0006, Yijing Shan, Yi Liu, Haozhao Wang, Wei Wang 0395, Yi Wang
+    0004, Ruixuan Li 0001
+  title: Personalized Federated Recommendation for Cold-Start Users via Adaptive Knowledge
+    Fusion.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/0006SLWWW025
+  doi: 10.1145/3696410.3714635
+  ee: https://doi.org/10.1145/3696410.3714635
+  url: https://dblp.org/rec/conf/www/0006SLWWW025
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

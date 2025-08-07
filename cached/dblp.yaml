@@ -26971,6 +26971,18 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.00995
   ee: https://doi.org/10.1109/CVPR52688.2022.00995
   url: https://dblp.org/rec/conf/cvpr/LiRCHFC22
+- author: Hao Yu, Xin Yang 0012, Le Zhang 0001, Hanlin Gu, Tianrui Li 0001, Lixin
+    Fan, Qiang Yang 0001
+  title: Handling Spatial-Temporal Data Heterogeneity for Federated Continual Learning
+    via Tail Anchor.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/YuYZG0F025
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Yu_Handling_Spatial-Temporal_Data_Heterogeneity_for_Federated_Continual_Learning_via_Tail_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/YuYZG0F025
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -29926,6 +29938,18 @@ federate%20venue%3AACL%3A:
   doi: ''
   ee: https://aclanthology.org/2025.findings-acl.791/
   url: https://dblp.org/rec/conf/acl/DuYYZQWC25
+- author: Zhuo Zhang 0007, Yuanhang Yang, Yong Dai 0001, Qifan Wang, Yue Yu 0001,
+    Lizhen Qu, Zenglin Xu
+  title: 'FedPETuning: When Federated Learning Meets the Parameter-Efficient Tuning
+    Methods of Pre-trained Language Models.'
+  venue: ACL
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/ZhangYDWYQX23
+  doi: 10.18653/V1/2023.FINDINGS-ACL.632
+  ee: https://doi.org/10.18653/v1/2023.findings-acl.632
+  url: https://dblp.org/rec/conf/acl/ZhangYDWYQX23
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"
@@ -36151,6 +36175,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM55648.2025.11044514
   ee: https://doi.org/10.1109/INFOCOM55648.2025.11044514
   url: https://dblp.org/rec/conf/infocom/QiuZWSC25
+- author: Jiaming Yan, Jianchun Liu, Shilong Wang 0002, Hongli Xu, Haifeng Liu, Jianhua
+    Zhou
+  title: 'Heroes: Lightweight Federated Learning with Neural Composition and Adaptive
+    Local Update in Heterogeneous Edge Networks.'
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/YanLWXLZ24
+  doi: 10.1109/INFOCOM52122.2024.10621351
+  ee: https://doi.org/10.1109/INFOCOM52122.2024.10621351
+  url: https://dblp.org/rec/conf/infocom/YanLWXLZ24
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -38739,6 +38775,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3696410.3714635
   ee: https://doi.org/10.1145/3696410.3714635
   url: https://dblp.org/rec/conf/www/0006SLWWW025
+- author: Zengxiang Li, Zhaoxiang Hou, Hui Liu, Tongzhi Li, Chengyi Yang, Ying Wang
+    0086, Chao Shi, Longfei Xie, Weishan Zhang, Liang Xu 0009, Zelei Liu
+  title: 'Federated Learning in Large Model Era: Vision-Language Model for Smart City
+    Safety Operation Management.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LiHLLYWSXZ0L24
+  doi: 10.1145/3589335.3651939
+  ee: https://doi.org/10.1145/3589335.3651939
+  url: https://dblp.org/rec/conf/www/LiHLLYWSXZ0L24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -42547,6 +42595,18 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2025.3569185
   ee: https://doi.org/10.1109/TC.2025.3569185
   url: https://dblp.org/rec/journals/tc/LiZYYSC25
+- author: Zichuan Xu, Lin Wang 0093, Weifa Liang, Qiufen Xia, Wenzheng Xu, Pan Zhou
+    0001, Omer F. Rana
+  title: Age-Aware Data Selection and Aggregator Placement for Timely Federated Continual
+    Learning in Mobile Edge Computing.
+  venue: IEEE Trans. Computers
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/XuWLXXZR24
+  doi: 10.1109/TC.2023.3333213
+  ee: https://doi.org/10.1109/TC.2023.3333213
+  url: https://dblp.org/rec/journals/tc/XuWLXXZR24
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

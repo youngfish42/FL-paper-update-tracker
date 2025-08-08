@@ -17436,6 +17436,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=x2zxPwCkAZ
   url: https://dblp.org/rec/conf/icml/LiXW0QXL0H024
+- author: Zhengming Zhang 0001, Ashwinee Panda, Linyue Song, Yaoqing Yang, Michael
+    W. Mahoney, Prateek Mittal, Kannan Ramchandran, Joseph Gonzalez 0001
+  title: 'Neurotoxin: Durable Backdoors in Federated Learning.'
+  venue: ICML
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ZhangPSYMMR022
+  doi: ''
+  ee: https://proceedings.mlr.press/v162/zhang22w.html
+  url: https://dblp.org/rec/conf/icml/ZhangPSYMMR022
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -24495,6 +24506,17 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3548606.3560580
   ee: https://doi.org/10.1145/3548606.3560580
   url: https://dblp.org/rec/conf/ccs/NaseriHMSSC22
+- author: Qi Li 0040, Zhuotao Liu, Qi Li 0002, Ke Xu 0002
+  title: 'martFL: Enabling Utility-Driven Data Marketplace with a Robust and Verifiable
+    Federated Learning Architecture.'
+  venue: CCS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/LiLLX23
+  doi: 10.1145/3576915.3623134
+  ee: https://doi.org/10.1145/3576915.3623134
+  url: https://dblp.org/rec/conf/ccs/LiLLX23
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist
@@ -36187,6 +36209,39 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM52122.2024.10621351
   ee: https://doi.org/10.1109/INFOCOM52122.2024.10621351
   url: https://dblp.org/rec/conf/infocom/YanLWXLZ24
+- author: Salma Emara, Daniel Liu, Fei Wang 0075, Baochun Li
+  title: 'Cascade: Enhancing Reinforcement Learning with Curriculum Federated Learning
+    and Interference Avoidance - A Case Study in Adaptive Bitrate Selection.'
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/EmaraLWL24
+  doi: 10.1109/INFOCOMWKSHPS61880.2024.10620892
+  ee: https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620892
+  url: https://dblp.org/rec/conf/infocom/EmaraLWL24
+- author: Fei Wang 0075, Ethan Hugh, Baochun Li
+  title: 'More than Enough is Too Much: Adaptive Defenses against Gradient Leakage
+    in Production Federated Learning.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WangHL23
+  doi: 10.1109/INFOCOM53939.2023.10228919
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10228919
+  url: https://dblp.org/rec/conf/infocom/WangHL23
+- author: Fei Wang 0136, Lei Jiao 0002, Konglin Zhu, Xiaojun Lin 0001, Lei Li
+  title: 'Toward Sustainable AI: Federated Learning Demand Response in Cloud-Edge
+    Systems via Auctions.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WangJZLL23
+  doi: 10.1109/INFOCOM53939.2023.10229014
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10229014
+  url: https://dblp.org/rec/conf/infocom/WangJZLL23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

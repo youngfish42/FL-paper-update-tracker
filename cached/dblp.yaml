@@ -2132,6 +2132,17 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/515
   url: https://dblp.org/rec/conf/ijcai/LuCCCWX24
+- author: Yijing Lin, Zhipeng Gao 0001, Hongyang Du, Dusit Niyato, Gui Gui, Shuguang
+    Cui, Jinke Ren
+  title: Scalable Federated Unlearning via Isolated and Coded Sharding.
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LinGDNGCR24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/503
+  url: https://dblp.org/rec/conf/ijcai/LinGDNGCR24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -9547,6 +9558,146 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/huang24c.html
   url: https://dblp.org/rec/conf/aistats/HuangWLC24
+- author: Safwan Labbi, Daniil Tiapkin, Lorenzo Mancini, Paul Mangold, Eric Moulines
+  title: 'Federated UCBVI: Communication-Efficient Federated Regret Minimization with
+    Heterogeneous Agents.'
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/LabbiTMMM25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/labbi25a.html
+  url: https://dblp.org/rec/conf/aistats/LabbiTMMM25
+- author: Paul Mangold, Alain Oliviero Durmus, Aymeric Dieuleveut, Sergey Samsonov,
+    Eric Moulines
+  title: Refined Analysis of Constant Step Size Federated Averaging and Federated
+    Richardson-Romberg Extrapolation.
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/MangoldDDSM25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/mangold25a.html
+  url: https://dblp.org/rec/conf/aistats/MangoldDDSM25
+- author: Baris Askin, Pranay Sharma, Gauri Joshi, Carlee Joe-Wong
+  title: Federated Communication-Efficient Multi-Objective Optimization.
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/AskinSJJ25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/askin25a.html
+  url: https://dblp.org/rec/conf/aistats/AskinSJJ25
+- author: Yuying Duan, Gelei Xu, Yiyu Shi 0001, Michael Lemmon 0001
+  title: The cost of local and global fairness in Federated Learning.
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/DuanXSL25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/duan25a.html
+  url: https://dblp.org/rec/conf/aistats/DuanXSL25
+- author: Satish Kumar Keshri, Nazreen Shah, Ranjitha Prasad
+  title: On the Convergence of Continual Federated Learning Using Incrementally Aggregated
+    Gradients.
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/KeshriSP25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/keshri25a.html
+  url: https://dblp.org/rec/conf/aistats/KeshriSP25
+- author: "Salma Kharrat, Marco Canini, Samuel Horv\xE1th"
+  title: 'DPFL: Decentralized Personalized Federated Learning.'
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/KharratCH25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/kharrat25a.html
+  url: https://dblp.org/rec/conf/aistats/KharratCH25
+- author: "R\xE9mi Khellaf, Aur\xE9lien Bellet, Julie Josse"
+  title: 'Federated Causal Inference: Multi-Study ATE Estimation beyond Meta-Analysis.'
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/KhellafBJ25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/khellaf25a.html
+  url: https://dblp.org/rec/conf/aistats/KhellafBJ25
+- author: Kaan Ozkara, Bruce Huang, Ruida Zhou, Suhas N. Diggavi
+  title: 'ADEPT: Hierarchical Bayes Approach to Personalized Federated Unsupervised
+    Learning.'
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/OzkaraHZD25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/ozkara25a.html
+  url: https://dblp.org/rec/conf/aistats/OzkaraHZD25
+- author: "Jong-Ik Park, Srinivasa Pranav, Jos\xE9 M. F. Moura, Carlee Joe-Wong"
+  title: 'FedBaF: Federated Learning Aggregation Biased by a Foundation Model.'
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ParkPMJ25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/park25b.html
+  url: https://dblp.org/rec/conf/aistats/ParkPMJ25
+- author: Yves Rychener, Daniel Kuhn 0001, Yifan Hu
+  title: Global Group Fairness in Federated Learning via Function Tracking.
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/RychenerKH25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/rychener25a.html
+  url: https://dblp.org/rec/conf/aistats/RychenerKH25
+- author: Anshul Thakur, Soheila Molaei, Patrick Schwab, Danielle Belgrave, Kim Branson
+    0001, David A. Clifton
+  title: Optimising Clinical Federated Learning through Mode Connectivity-based Model
+    Aggregation.
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ThakurMSBBC25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/thakur25a.html
+  url: https://dblp.org/rec/conf/aistats/ThakurMSBBC25
+- author: Dun Zeng, Zenglin Xu, Shiyu Liu, Yu Pan 0005, Qifan Wang, Xiaoying Tang
+    0002
+  title: On the Power of Adaptive Weighted Aggregation in Heterogeneous Federated
+    Learning and Beyond.
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ZengXLPWT25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/zeng25b.html
+  url: https://dblp.org/rec/conf/aistats/ZengXLPWT25
+- author: Boning Zhang, Dongzhu Liu, Osvaldo Simeone, Guanchu Wang, Dimitrios Pezaros,
+    Guangxu Zhu
+  title: Personalizing Low-Rank Bayesian Neural Networks Via Federated Learning.
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ZhangLSWPZ25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/zhang25l.html
+  url: https://dblp.org/rec/conf/aistats/ZhangLSWPZ25
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -14472,6 +14623,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/c8cdab0e890c59255c27977072fdb0f0-Abstract-Datasets_and_Benchmarks_Track.html
   url: https://dblp.org/rec/conf/nips/Ye0ZCDL0C24
+- author: Haolin Wang 0002, Xuefeng Liu 0001, Jianwei Niu 0002, Wenkai Guo, Shaojie
+    Tang 0001
+  title: Why Go Full? Elevating Federated Learning Through Partial Network Updates.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/Wang00G024
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/b4baac5d3f7508a4eb2b65376470a5a2-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Wang00G024
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -29469,6 +29631,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3680608
   ee: https://doi.org/10.1145/3664647.3680608
   url: https://dblp.org/rec/conf/mm/LiCW0XL0L0024
+- author: Xinghao Wu, Xuefeng Liu 0001, Jianwei Niu 0002, Haolin Wang 0002, Shaojie
+    Tang 0001, Guogang Zhu, Hao Su
+  title: Decoupling General and Personalized Knowledge in Federated Learning via Additive
+    and Low-rank Decomposition.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Wu00W0ZS24
+  doi: 10.1145/3664647.3681588
+  ee: https://doi.org/10.1145/3664647.3681588
+  url: https://dblp.org/rec/conf/mm/Wu00W0ZS24
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -30062,6 +30236,18 @@ federate%20venue%3AACL%3A:
   doi: ''
   ee: https://aclanthology.org/2025.findings-acl.791/
   url: https://dblp.org/rec/conf/acl/DuYYZQWC25
+- author: Zhuo Zhang 0007, Yuanhang Yang, Yong Dai 0001, Qifan Wang 0001, Yue Yu 0001,
+    Lizhen Qu, Zenglin Xu
+  title: 'FedPETuning: When Federated Learning Meets the Parameter-Efficient Tuning
+    Methods of Pre-trained Language Models.'
+  venue: ACL
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/ZhangYDWYQX23
+  doi: 10.18653/V1/2023.FINDINGS-ACL.632
+  ee: https://doi.org/10.18653/v1/2023.findings-acl.632
+  url: https://dblp.org/rec/conf/acl/ZhangYDWYQX23
 federate%20venue%3AEMNLP%3A:
 - author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
     \ Gupta 0003"
@@ -30857,6 +31043,16 @@ federate%20venue%3AEMNLP%3A:
   doi: 10.18653/V1/2024.FINDINGS-EMNLP.615
   ee: https://doi.org/10.18653/v1/2024.findings-emnlp.615
   url: https://dblp.org/rec/conf/emnlp/ZhuLWWLLLZZ024
+- author: Zhuo Zhang 0007, Xiangjing Hu, Lizhen Qu, Qifan Wang 0001, Zenglin Xu
+  title: Federated Model Decomposition with Private Vocabulary for Text Classification.
+  venue: EMNLP
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/ZhangHQWX22
+  doi: 10.18653/V1/2022.EMNLP-MAIN.430
+  ee: https://doi.org/10.18653/v1/2022.emnlp-main.430
+  url: https://dblp.org/rec/conf/emnlp/ZhangHQWX22
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.
@@ -36356,6 +36552,16 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10229014
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10229014
   url: https://dblp.org/rec/conf/infocom/WangJZLL23
+- author: Haolin Wang 0002, Xuefeng Liu 0001, Jianwei Niu 0002, Shaojie Tang 0001
+  title: 'SVDFed: Enabling Communication-Efficient Federated Learning via Singular-Value-Decomposition.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WangLNT23
+  doi: 10.1109/INFOCOM53939.2023.10229042
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10229042
+  url: https://dblp.org/rec/conf/infocom/WangLNT23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -38967,6 +39173,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589335.3651939
   ee: https://doi.org/10.1145/3589335.3651939
   url: https://dblp.org/rec/conf/www/LiHLLYWSXZ0L24
+- author: Yijing Lin, Zhipeng Gao 0001, Hongyang Du, Dusit Niyato, Jiawen Kang 0001,
+    Xiaoyuan Liu 0002
+  title: Incentive and Dynamic Client Selection for Federated Unlearning.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LinGDNK024
+  doi: 10.1145/3589334.3645462
+  ee: https://doi.org/10.1145/3589334.3645462
+  url: https://dblp.org/rec/conf/www/LinGDNK024
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -41513,6 +41730,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3581295
   ee: https://doi.org/10.1109/TPDS.2025.3581295
   url: https://dblp.org/rec/journals/tpds/ZhangLZSTWMH25
+- author: Jin Wang 0024, Jia Hu 0001, Jed Mills, Geyong Min, Ming Xia, Nektarios Georgalas
+  title: Federated Ensemble Model-Based Reinforcement Learning in Edge Computing.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WangHMMXG23
+  doi: 10.1109/TPDS.2023.3264480
+  ee: https://doi.org/10.1109/TPDS.2023.3264480
+  url: https://dblp.org/rec/journals/tpds/WangHMMXG23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -42787,6 +43014,16 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3333213
   ee: https://doi.org/10.1109/TC.2023.3333213
   url: https://dblp.org/rec/journals/tc/XuWLXXZR24
+- author: Jed Mills, Jia Hu 0001, Geyong Min, Rui Jin, Siwei Zheng, Jin Wang 0024
+  title: Accelerating Federated Learning With a Global Biased Optimiser.
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/MillsHMJZW23
+  doi: 10.1109/TC.2022.3212631
+  ee: https://doi.org/10.1109/TC.2022.3212631
+  url: https://dblp.org/rec/journals/tc/MillsHMJZW23
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

@@ -9698,6 +9698,18 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v258/zhang25l.html
   url: https://dblp.org/rec/conf/aistats/ZhangLSWPZ25
+- author: Dun Zeng, Zenglin Xu, Shiyu Liu, Yu Pan 0005, Qifan Wang 0001, Xiaoying
+    Tang 0002
+  title: On the Power of Adaptive Weighted Aggregation in Heterogeneous Federated
+    Learning and Beyond.
+  venue: AISTATS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ZengXLPWT25
+  doi: ''
+  ee: https://proceedings.mlr.press/v258/zeng25b.html
+  url: https://dblp.org/rec/conf/aistats/ZengXLPWT25
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -39184,6 +39196,16 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645462
   ee: https://doi.org/10.1145/3589334.3645462
   url: https://dblp.org/rec/conf/www/LinGDNK024
+- author: Zhengyang Liu 0007, Hang Yu 0006, Xiangfeng Luo
+  title: Federated Graph Anomaly Detection via Disentangled Representation Learning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LiuYL25
+  doi: 10.1145/3696410.3714567
+  ee: https://doi.org/10.1145/3696410.3714567
+  url: https://dblp.org/rec/conf/www/LiuYL25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

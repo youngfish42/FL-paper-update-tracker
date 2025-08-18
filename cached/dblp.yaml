@@ -8716,6 +8716,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I8.26212
   ee: https://doi.org/10.1609/aaai.v37i8.26212
   url: https://dblp.org/rec/conf/aaai/WangXWCQS23
+- author: Nimesh Agrawal, Anuj Kumar Sirohi, Sandeep Kumar 0005, Jayadeva
+  title: No Prejudice! Fair Federated Graph Neural Networks for Personalized Recommendation.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/AgrawalSKJ24
+  doi: 10.1609/AAAI.V38I10.28950
+  ee: https://doi.org/10.1609/aaai.v38i10.28950
+  url: https://dblp.org/rec/conf/aaai/AgrawalSKJ24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -39321,6 +39331,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3696410.3714567
   ee: https://doi.org/10.1145/3696410.3714567
   url: https://dblp.org/rec/conf/www/LiuYL25
+- author: Yichen Li 0006, Yijing Shan, Yi Liu 0087, Haozhao Wang, Wei Wang 0395, Yi
+    Wang 0004, Ruixuan Li 0001
+  title: Personalized Federated Recommendation for Cold-Start Users via Adaptive Knowledge
+    Fusion.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/0006SLWWW025
+  doi: 10.1145/3696410.3714635
+  ee: https://doi.org/10.1145/3696410.3714635
+  url: https://dblp.org/rec/conf/www/0006SLWWW025
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

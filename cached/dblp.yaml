@@ -2143,6 +2143,18 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/503
   url: https://dblp.org/rec/conf/ijcai/LinGDNGCR24
+- author: Zhenghong Lin, Wei Huang, Hengyu Zhang 0001, Jiayu Xu, Weiming Liu 0005,
+    Xinting Liao, Fan Wang 0020, Shiping Wang, Yanchao Tan
+  title: Enhancing Dual-Target Cross-Domain Recommendation with Federated Privacy-Preserving
+    Learning.
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LinHZX0L0WT24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/238
+  url: https://dblp.org/rec/conf/ijcai/LinHZX0L0WT24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -21157,6 +21169,102 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v216/wu23a.html
   url: https://dblp.org/rec/conf/uai/WuCGW23
+- author: Zhiyong Ma, Yuanjie Shi, Yan Yan 0006, Jian Chen
+  title: "Federated R\xE9nyi Fair Inference in Federated Heterogeneous System."
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/MaSYC25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/ma25a.html
+  url: https://dblp.org/rec/conf/uai/MaSYC25
+- author: "\xD6mer Faruk Akg\xFCl, Rajgopal Kannan, Viktor K. Prasanna"
+  title: Conformal Prediction for Federated Graph Neural Networks with Missing Neighbor
+    Information.
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/AkgulKP25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/akgul25a.html
+  url: https://dblp.org/rec/conf/uai/AkgulKP25
+- author: "Francesco Diana, Andr\xE9 Nusser, Chuan Xu 0002, Giovanni Neglia"
+  title: 'Cutting Through Privacy: A Hyperplane-Based Data Reconstruction Attack in
+    Federated Learning.'
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/DianaNXN25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/diana25a.html
+  url: https://dblp.org/rec/conf/uai/DianaNXN25
+- author: Michael Ibrahim 0004, Heraldo Rozas, Nagi Gebraeel, Weijun Xie 0001
+  title: 'FDR-SVM: A Federated Distributionally Robust Support Vector Machine via
+    a Mixture of Wasserstein Balls Ambiguity Set.'
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/IbrahimRGX25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/ibrahim25a.html
+  url: https://dblp.org/rec/conf/uai/IbrahimRGX25
+- author: "Avetik G. Karagulyan, Peter Richt\xE1rik"
+  title: 'ELF: Federated Langevin Algorithms with Primal, Dual and Bidirectional Compression.'
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/KaragulyanR25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/karagulyan25a.html
+  url: https://dblp.org/rec/conf/uai/KaragulyanR25
+- author: I-Cheng Lin, Osman Yagan, Carlee Joe-Wong
+  title: 'FedSPD: A Soft-clustering Approach for Personalized Decentralized Federated
+    Learning.'
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/LinYJ25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/lin25a.html
+  url: https://dblp.org/rec/conf/uai/LinYJ25
+- author: Md. Musfiqur Rahman, Murat Kocaoglu
+  title: 'FeDCM: Federated Learning of Deep Causal Generative Models.'
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/RahmanK25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/rahman25a.html
+  url: https://dblp.org/rec/conf/uai/RahmanK25
+- author: Jialu Tang, Yali Gao, Xiaoyong Li, Jiawei Li, Shui Yu, Binxing Fang
+  title: 'FALCON: Adaptive Cross-Domain APT Attack Investigation with Federated Causal
+    Learning.'
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/TangGLLYF25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/tang25a.html
+  url: https://dblp.org/rec/conf/uai/TangGLLYF25
+- author: Haoran Zhang, Xuchuang Wang, Hao-Xu Chen, Hao Qiu, Lin Yang, Yang Gao
+  title: Near-Optimal Regret Bounds for Federated Multi-armed Bandits with Fully Distributed
+    Communication.
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/ZhangWCQYG25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/zhang25f.html
+  url: https://dblp.org/rec/conf/uai/ZhangWCQYG25
 federate%20streamid%3Ajournals%2Fml%3A:
 - author: Adnan Ahmad, Wei Luo 0001, Antonio Robles-Kelly
   title: Robust federated learning under statistical heterogeneity via hessian-weighted
@@ -27303,6 +27411,18 @@ federate%20venue%3ACVPR%3A:
   doi: ''
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Yu_Handling_Spatial-Temporal_Data_Heterogeneity_for_Federated_Continual_Learning_via_Tail_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/YuYZG0F025
+- author: Gongxi Zhu, Donghao Li, Hanlin Gu, Yuan Yao 0011, Lixin Fan, Yuxing Han
+    0001
+  title: 'FedMIA: An Effective Membership Inference Attack Exploiting &quot;All for
+    One&quot; Principle in Federated Learning.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhuLGYF025
+  doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_FedMIA_An_Effective_Membership_Inference_Attack_Exploiting_All_for_One_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhuLGYF025
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

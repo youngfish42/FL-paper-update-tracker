@@ -8738,6 +8738,27 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I10.28950
   ee: https://doi.org/10.1609/aaai.v38i10.28950
   url: https://dblp.org/rec/conf/aaai/AgrawalSKJ24
+- author: Wenjie Li, Qifan Song, Jean Honorio, Guang Lin 0001
+  title: Federated X-armed Bandit.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiSHL24
+  doi: 10.1609/AAAI.V38I12.29267
+  ee: https://doi.org/10.1609/aaai.v38i12.29267
+  url: https://dblp.org/rec/conf/aaai/LiSHL24
+- author: Tao Liu 0038, Yuhang Zhang, Zhu Feng, Zhiqin Yang, Chen Xu 0008, Dapeng
+    Man, Wu Yang 0001
+  title: 'Beyond Traditional Threats: A Persistent Backdoor Attack on Federated Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuZFYXM024
+  doi: 10.1609/AAAI.V38I19.30131
+  ee: https://doi.org/10.1609/aaai.v38i19.30131
+  url: https://dblp.org/rec/conf/aaai/LiuZFYXM024
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -21265,6 +21286,37 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v286/zhang25f.html
   url: https://dblp.org/rec/conf/uai/ZhangWCQYG25
+- author: Zhiyong Ma, Yuanjie Shi, Yan Yan 0006, Jian Chen 0011
+  title: "Federated R\xE9nyi Fair Inference in Federated Heterogeneous System."
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/MaSYC25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/ma25a.html
+  url: https://dblp.org/rec/conf/uai/MaSYC25
+- author: Jialu Tang, Yali Gao, Xiaoyong Li 0003, Jiawei Li, Shui Yu, Binxing Fang
+  title: 'FALCON: Adaptive Cross-Domain APT Attack Investigation with Federated Causal
+    Learning.'
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/TangGLLYF25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/tang25a.html
+  url: https://dblp.org/rec/conf/uai/TangGLLYF25
+- author: Wei Deng 0002, Qian Zhang 0067, Yian Ma, Zhao Song 0002, Guang Lin 0001
+  title: On Convergence of Federated Averaging Langevin Dynamics.
+  venue: UAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/DengZM0L24
+  doi: ''
+  ee: https://proceedings.mlr.press/v244/deng24a.html
+  url: https://dblp.org/rec/conf/uai/DengZM0L24
 federate%20streamid%3Ajournals%2Fml%3A:
 - author: Adnan Ahmad, Wei Luo 0001, Antonio Robles-Kelly
   title: Robust federated learning under statistical heterogeneity via hessian-weighted
@@ -22042,6 +22094,16 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2023.3300886
   ee: https://doi.org/10.1109/TPAMI.2023.3300886
   url: https://dblp.org/rec/journals/pami/SunSSDT23
+- author: Bowen Li 0013, Lixin Fan, Hanlin Gu, Jie Li 0002, Qiang Yang 0001
+  title: 'FedIPR: Ownership Verification for Federated Deep Neural Network Models.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiFGLY23
+  doi: 10.1109/TPAMI.2022.3195956
+  ee: https://doi.org/10.1109/TPAMI.2022.3195956
+  url: https://dblp.org/rec/journals/pami/LiFGLY23
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -27421,6 +27483,301 @@ federate%20venue%3ACVPR%3A:
   access: open
   key: conf/cvpr/ZhuLGYF025
   doi: ''
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_FedMIA_An_Effective_Membership_Inference_Attack_Exploiting_All_for_One_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhuLGYF025
+- author: Ziyuan Yang 0001, Yingyu Chen, Zhiwen Wang 0002, Hongming Shan, Yang Chen
+    0008, Yi Zhang 0018
+  title: 'Patient-Level Anatomy Meets Scanning-Level Physics: Personalized Federated
+    Low-Dose CT Denoising Empowered by Large Language Model.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/0001C0SC025
+  doi: 10.1109/CVPR52734.2025.00486
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Patient-Level_Anatomy_Meets_Scanning-Level_Physics_Personalized_Federated_Low-Dose_CT_Denoising_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/0001C0SC025
+- author: Zheng Wang 0077, Zihui Wang, Zheng Wang 0076, Xiaoliang Fan, Cheng Wang
+    0003
+  title: Federated Learning with Domain Shift Eraser.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/0077WWF025
+  doi: 10.1109/CVPR52734.2025.00469
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Federated_Learning_with_Domain_Shift_Eraser_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/0077WWF025
+- author: Debora Caldarola, Pietro Cagnasso, Barbara Caputo, Marco Ciccone
+  title: 'Beyond Local Sharpness: Communication-Efficient Global Sharpness-aware Minimization
+    for Federated Learning.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/CaldarolaCCC25
+  doi: 10.1109/CVPR52734.2025.02345
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Caldarola_Beyond_Local_Sharpness_Communication-Efficient_Global_Sharpness-aware_Minimization_for_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/CaldarolaCCC25
+- author: Haokun Chen, Hang Li 0010, Yao Zhang, Jinhe Bi, Gengyuan Zhang, Yueqi Zhang,
+    Philip Torr 0001, Jindong Gu, Denis Krompass, Volker Tresp
+  title: 'FedBiP: Heterogeneous One-Shot Federated Learning with Personalized Latent
+    Diffusion Models.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/Chen0ZBZZ0GKT25
+  doi: 10.1109/CVPR52734.2025.02834
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Chen_FedBiP_Heterogeneous_One-Shot_Federated_Learning_with_Personalized_Latent_Diffusion_Models_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/Chen0ZBZZ0GKT25
+- author: Chenhe Hao, Weiying Xie, Daixun Li, Haonan Qin, Hangyu Ye, Leyuan Fang,
+    Yunsong Li
+  title: 'FedCS: Coreset Selection for Federated Learning.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/HaoXLQYFL25
+  doi: 10.1109/CVPR52734.2025.01438
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Hao_FedCS_Coreset_Selection_for_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/HaoXLQYFL25
+- author: Run He, Kai Tong, Di Fang 0004, Han Sun, Ziqian Zeng, Haoran Li, Tianyi
+    Chen, Huiping Zhuang
+  title: 'AFL: A Single-Round Analytic Approach for Federated Learning with Pre-trained
+    Models.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/HeT0SZLCZ25
+  doi: 10.1109/CVPR52734.2025.00470
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/He_AFL_A_Single-Round_Analytic_Approach_for_Federated_Learning_with_Pre-trained_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/HeT0SZLCZ25
+- author: Yasser H. Khalil, Leo Maxime Brunswic, Soufiane Lamghari, Xu Li 0001, Mahdi
+    Beitollahi, Xi Chen 0009
+  title: 'NoT: Federated Unlearning via Weight Negation.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/KhalilBL0B025
+  doi: 10.1109/CVPR52734.2025.02399
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Khalil_NoT_Federated_Unlearning_via_Weight_Negation_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/KhalilBL0B025
+- author: K. Naveen Kumar, Ranjeet Ranjan Jha, C. Krishna Mohan, Ravindra Babu Tallamraju
+  title: Fortifying Federated Learning Towards Trustworthiness via Auditable Data
+    Valuation and Verifiable Client Contribution.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/KumarJMT25
+  doi: 10.1109/CVPR52734.2025.00471
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Kumar_Fortifying_Federated_Learning_Towards_Trustworthiness_via_Auditable_Data_Valuation_and_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/KumarJMT25
+- author: Ye Li, Yanchao Zhao, Chengcheng Zhu, Jiale Zhang 0001
+  title: 'Infighting in the Dark: Multi-Label Backdoor Attack in Federated Learning.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/LiZZZ25
+  doi: 10.1109/CVPR52734.2025.02400
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Li_Infighting_in_the_Dark_Multi-Label_Backdoor_Attack_in_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/LiZZZ25
+- author: Yijie Liu, Xinyi Shang, Yiqun Zhang 0006, Yang Lu 0009, Chen Gong, Jing-Hao
+    Xue, Hanzi Wang
+  title: 'Mind the Gap: Confidence Discrepancy Can Guide Federated Semi-Supervised
+    Learning Across Pseudo-Mismatch.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/LiuSZ0GXW25
+  doi: 10.1109/CVPR52734.2025.00951
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Mind_the_Gap_Confidence_Discrepancy_Can_Guide_Federated_Semi-Supervised_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/LiuSZ0GXW25
+- author: Yanbiao Ma, Wei Dai, Wenke Huang, Jiayi Chen
+  title: Geometric Knowledge-Guided Localized Global Distribution Alignment for Federated
+    Learning.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/MaDHC25
+  doi: 10.1109/CVPR52734.2025.01952
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Geometric_Knowledge-Guided_Localized_Global_Distribution_Alignment_for_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/MaDHC25
+- author: Farchan Hakim Raswa, Chun-Shien Lu, Jia-Ching Wang
+  title: 'HistoFS: Non-IID Histopathologic Whole Slide Image Classification via Federated
+    Style Transfer with RoI-Preserving.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/RaswaLW25
+  doi: 10.1109/CVPR52734.2025.02816
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Raswa_HistoFS_Non-IID_Histopathologic_Whole_Slide_Image_Classification_via_Federated_Style_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/RaswaLW25
+- author: Pramit Saha, Felix Wagner 0001, Divyanshu Mishra, Can Peng, Anshul Thakur,
+    David A. Clifton, Konstantinos Kamnitsas, J. Alison Noble
+  title: F3OCUS - Federated Finetuning of Vision-Language Foundation Models with Optimal
+    Client Layer Updating Strategy via Multi-objective Meta-Heuristics.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/Saha0MPTCKN25
+  doi: 10.1109/CVPR52734.2025.01863
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Saha_F3OCUS_-_Federated_Finetuning_of_Vision-Language_Foundation_Models_with_Optimal_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/Saha0MPTCKN25
+- author: Changlong Shi, He Zhao 0001, Bingjie Zhang 0009, Mingyuan Zhou, Dandan Guo,
+    Yi Chang 0001
+  title: 'FedAWA: Adaptive Optimization of Aggregation Weights in Federated Learning
+    Using Client Vectors.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ShiZZZG025
+  doi: 10.1109/CVPR52734.2025.02854
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Shi_FedAWA_Adaptive_Optimization_of_Aggregation_Weights_in_Federated_Learning_Using_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ShiZZZG025
+- author: Zihan Tan, Guancheng Wan, Wenke Huang, He Li, Guibin Zhang, Carl Yang 0001,
+    Mang Ye
+  title: 'FedSPA: Generalizable Federated Graph Learning under Homophily Heterogeneity.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/TanWHLZ0Y25
+  doi: 10.1109/CVPR52734.2025.01441
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Tan_FedSPA_Generalizable_Federated_Graph_Learning_under_Homophily_Heterogeneity_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/TanWHLZ0Y25
+- author: Zhuoyao Wang, Fan Yi, Peizhu Gong, Caitou He, Cheng Jin 0001, Weizhong Zhang
+  title: Population Normalization for Federated Learning.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/WangYGH0Z25
+  doi: 10.1109/CVPR52734.2025.00955
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Population_Normalization_for_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/WangYGH0Z25
+- author: Yueqi Xie, Minghong Fang, Neil Zhenqiang Gong
+  title: Model Poisoning Attacks to Federated Learning via Multi-Round Consistency.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/XieFG25
+  doi: 10.1109/CVPR52734.2025.01440
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Xie_Model_Poisoning_Attacks_to_Federated_Learning_via_Multi-Round_Consistency_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/XieFG25
+- author: Luyuan Xie, Tianyu Luan, Wenyuan Cai, Guochen Yan, Zhaoyu Chen, Nan Xi,
+    Yuejian Fang, Qingni Shen, Zhonghai Wu, Junsong Yuan 0001
+  title: 'dFLMoE: Decentralized Federated Learning via Mixture of Experts for Medical
+    Data Analysis.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/XieLCYCXFSW025
+  doi: 10.1109/CVPR52734.2025.00954
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Xie_dFLMoE_Decentralized_Federated_Learning_via_Mixture_of_Experts_for_Medical_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/XieLCYCXFSW025
+- author: Jiahao Xu, Zikai Zhang, Rui Hu
+  title: Detecting Backdoor Attacks in Federated Learning via Direction Alignment
+    Inspection.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/XuZH25
+  doi: 10.1109/CVPR52734.2025.01923
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Xu_Detecting_Backdoor_Attacks_in_Federated_Learning_via_Direction_Alignment_Inspection_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/XuZH25
+- author: Yunlu Yan, Huazhu Fu, Yuexiang Li, Jinheng Xie, Jun Ma 0008, Guang Yang
+    0006, Lei Zhu 0003
+  title: A Simple Data Augmentation for Feature Distribution Skewed Federated Learning.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/YanFLXM0Z25
+  doi: 10.1109/CVPR52734.2025.02398
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Yan_A_Simple_Data_Augmentation_for_Feature_Distribution_Skewed_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/YanFLXM0Z25
+- author: Hao Yu, Xin Yang 0012, Le Zhang 0001, Hanlin Gu, Tianrui Li 0001, Lixin
+    Fan, Qiang Yang 0001
+  title: Handling Spatial-Temporal Data Heterogeneity for Federated Continual Learning
+    via Tail Anchor.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/YuYZG0F025
+  doi: 10.1109/CVPR52734.2025.00459
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Yu_Handling_Spatial-Temporal_Data_Heterogeneity_for_Federated_Continual_Learning_via_Tail_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/YuYZG0F025
+- author: Xiangtao Zhang, Sheng Li, Ao Li, Yipeng Liu, Fan Zhang, Ce Zhu, Le Zhang
+  title: Subspace Constraint and Contribution Estimation for Heterogeneous Federated
+    Learning.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhangLLLZZZ25
+  doi: 10.1109/CVPR52734.2025.01921
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Subspace_Constraint_and_Contribution_Estimation_for_Heterogeneous_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhangLLLZZZ25
+- author: Yifei Zhang, Hao Zhu 0010, Alysa Ziying Tan, Dianzhi Yu, Longtao Huang,
+    Han Yu 0001
+  title: 'pFedMxF: Personalized Federated Class-Incremental Learning with Mixture
+    of Frequency Aggregation.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhangZTYH025
+  doi: 10.1109/CVPR52734.2025.02853
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_pFedMxF_Personalized_Federated_Class-Incremental_Learning_with_Mixture_of_Frequency_Aggregation_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhangZTYH025
+- author: Hao Zheng 0009, Zhigang Hu, Liu Yang, Meiguang Zheng, Aikun Xu, Boyu Wang
+    0004
+  title: 'FedCALM: Conflict-aware Layer-wise Mitigation for Selective Aggregation
+    in Deeper Personalized Federated Learning.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhengHYZX025
+  doi: 10.1109/CVPR52734.2025.01439
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_FedCALM_Conflict-aware_Layer-wise_Mitigation_for_Selective_Aggregation_in_Deeper_Personalized_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhengHYZX025
+- author: Zhengyi Zhong, Weidong Bao 0001, Ji Wang 0002, Shuai Zhang 0004, Jingxuan
+    Zhou, Lingjuan Lyu, Wei Yang Bryan Lim
+  title: 'Unlearning through Knowledge Overwriting: Reversible Federated Unlearning
+    via Selective Sparse Adapter.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/Zhong000ZLL25
+  doi: 10.1109/CVPR52734.2025.02855
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhong_Unlearning_through_Knowledge_Overwriting_Reversible_Federated_Unlearning_via_Selective_Sparse_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/Zhong000ZLL25
+- author: Gongxi Zhu, Donghao Li, Hanlin Gu, Yuan Yao 0011, Lixin Fan, Yuxing Han
+    0001
+  title: 'FedMIA: An Effective Membership Inference Attack Exploiting &quot;All for
+    One&quot; Principle in Federated Learning.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhuLGYF025
+  doi: 10.1109/CVPR52734.2025.01922
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_FedMIA_An_Effective_Membership_Inference_Attack_Exploiting_All_for_One_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/ZhuLGYF025
 federate%20venue%3AICCV%3A:
@@ -34498,6 +34855,16 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: ''
   ee: https://www.vldb.org/pvldb/vol18/p1305-li.pdf
   url: https://dblp.org/rec/journals/pvldb/LiZPYYLWZLW25
+- author: Graham Cormode, Daniel Ting
+  title: Federated Data Shift Distance Estimation.
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/CormodeT25
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol18/p2399-cormode.pdf
+  url: https://dblp.org/rec/journals/pvldb/CormodeT25
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things

@@ -21317,6 +21317,18 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v244/deng24a.html
   url: https://dblp.org/rec/conf/uai/DengZM0L24
+- author: Jialu Tang, Yali Gao, Xiaoyong Li 0003, Jiawei Li 0002, Shui Yu 0001, Binxing
+    Fang
+  title: 'FALCON: Adaptive Cross-Domain APT Attack Investigation with Federated Causal
+    Learning.'
+  venue: UAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uai/TangGLLYF25
+  doi: ''
+  ee: https://proceedings.mlr.press/v286/tang25a.html
+  url: https://dblp.org/rec/conf/uai/TangGLLYF25
 federate%20streamid%3Ajournals%2Fml%3A:
 - author: Adnan Ahmad, Wei Luo 0001, Antonio Robles-Kelly
   title: Robust federated learning under statistical heterogeneity via hessian-weighted
@@ -32527,6 +32539,17 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3726302.3729977
   ee: https://doi.org/10.1145/3726302.3729977
   url: https://dblp.org/rec/conf/sigir/Han0XLGZGL25
+- author: Wentao Ouyang, Rui Dong 0004, Ri Tao, Xiangzheng Liu
+  title: 'FedUD: Exploiting Unaligned Data for Cross-Platform Federated Click-Through
+    Rate Prediction.'
+  venue: SIGIR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/OuyangDTL24
+  doi: 10.1145/3626772.3657941
+  ee: https://doi.org/10.1145/3626772.3657941
+  url: https://dblp.org/rec/conf/sigir/OuyangDTL24
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -34865,6 +34888,17 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: ''
   ee: https://www.vldb.org/pvldb/vol18/p2399-cormode.pdf
   url: https://dblp.org/rec/journals/pvldb/CormodeT25
+- author: Youming Tao 0001, Cheng-Long Wang 0003, Miao Pan, Dongxiao Yu, Xiuzhen Cheng
+    0001, Di Wang 0015
+  title: Communication Efficient and Provable Federated Unlearning.
+  venue: Proc. VLDB Endow.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/TaoWPYCW24
+  doi: 10.14778/3641204.3641220
+  ee: https://www.vldb.org/pvldb/vol17/p1119-wang.pdf
+  url: https://dblp.org/rec/journals/pvldb/TaoWPYCW24
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things

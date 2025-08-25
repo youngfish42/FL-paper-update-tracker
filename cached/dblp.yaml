@@ -14701,6 +14701,28 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/b4baac5d3f7508a4eb2b65376470a5a2-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Wang00G024
+- author: Kunjal Panchal, Nisarg Parikh, Sunav Choudhary, Lijun Zhang 0005, Yuriy
+    Brun, Hui Guan 0001
+  title: 'Thinking Forward: Memory-Efficient Federated Finetuning of Language Models.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/PanchalPCZB024
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/7fc914993440219b64254e0c27964e11-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/PanchalPCZB024
+- author: Kunjal Panchal, Sunav Choudhary, Nisarg Parikh, Lijun Zhang 0005, Hui Guan
+    0001
+  title: 'Flow: Per-instance Personalized Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/PanchalCPZG23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/3baf4eeffad860ca9c54aeab632716b4-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/PanchalCPZG23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -40958,6 +40980,17 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3627703.3650082
   ee: https://doi.org/10.1145/3627703.3650082
   url: https://dblp.org/rec/conf/eurosys/ChengEGJJVV24
+- author: Cheng-Wei Ching, Xin Chen 0084, Taehwan Kim, Bo Ji 0001, Qingyang Wang 0001,
+    Dilma Da Silva, Liting Hu
+  title: 'Totoro: A Scalable Federated Learning Engine for the Edge.'
+  venue: EuroSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/ChingCKJWSH24
+  doi: 10.1145/3627703.3629575
+  ee: https://doi.org/10.1145/3627703.3629575
+  url: https://dblp.org/rec/conf/eurosys/ChingCKJWSH24
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001

@@ -31934,6 +31934,18 @@ federate%20venue%3ACOLING%3A:
   doi: ''
   ee: https://aclanthology.org/2025.coling-main.581/
   url: https://dblp.org/rec/conf/coling/Zheng0ZZWFLTX025
+- author: Tao Fan 0002, Guoqiang Ma, Yan Kang 0001, Hanlin Gu, Yuanfeng Song, Lixin
+    Fan, Kai Chen 0005, Qiang Yang 0001
+  title: 'FedMKT: Federated Mutual Knowledge Transfer for Large and Small Language
+    Models.'
+  venue: COLING
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/coling/FanMKGSF0025
+  doi: ''
+  ee: https://aclanthology.org/2025.coling-main.17/
+  url: https://dblp.org/rec/conf/coling/FanMKGSF0025
 federate%20venue%3ASIGIR%3A:
 - author: Zexi Li, Qunwei Li, Yi Zhou, Wenliang Zhong, Guannan Zhang, Chao Wu 0001
   title: Edge-cloud Collaborative Learning with Federated and Centralized Features.
@@ -37242,6 +37254,29 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10228957
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10228957
   url: https://dblp.org/rec/conf/infocom/WangCLLJL23
+- author: Hengrui Cui, Zhihao Qu, Xinyu Wang, Bin Tang 0002, Baoliu Ye
+  title: 'LCO-AGQ: A Lightweight Client-Oriented Adaptive Gradient Quantization Algorithm
+    for Federated Learning.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/CuiQWTY25
+  doi: 10.1109/INFOCOM55648.2025.11044636
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044636
+  url: https://dblp.org/rec/conf/infocom/CuiQWTY25
+- author: Tao Huang 0007, Baoliu Ye, Zhihao Qu, Bin Tang 0002, Lei Xie 0004, Sanglu
+    Lu
+  title: Physical-Layer Arithmetic for Federated Learning in Uplink MU-MIMO Enabled
+    Wireless Networks.
+  venue: INFOCOM
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/HuangYQTXL20
+  doi: 10.1109/INFOCOM41043.2020.9155479
+  ee: https://doi.org/10.1109/INFOCOM41043.2020.9155479
+  url: https://dblp.org/rec/conf/infocom/HuangYQTXL20
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -39886,6 +39921,16 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3696410.3714635
   ee: https://doi.org/10.1145/3696410.3714635
   url: https://dblp.org/rec/conf/www/0006SLWWW025
+- author: Yao Chen, Shan Huang 0009, Wensheng Gan, Gengsen Huang, Yongdong Wu
+  title: 'Federated Learning for Metaverse: A Survey.'
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ChenHGHW23
+  doi: 10.1145/3543873.3587584
+  ee: https://doi.org/10.1145/3543873.3587584
+  url: https://dblp.org/rec/conf/www/ChenHGHW23
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

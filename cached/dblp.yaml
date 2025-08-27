@@ -39931,6 +39931,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543873.3587584
   ee: https://doi.org/10.1145/3543873.3587584
   url: https://dblp.org/rec/conf/www/ChenHGHW23
+- author: Haozhao Wang, Yabo Jia, Meng Zhang, Qinghao Hu 0004, Hao Ren 0001, Peng
+    Sun 0006, Yonggang Wen 0001, Tianwei Zhang 0004
+  title: 'FedDSE: Distribution-aware Sub-model Extraction for Federated Learning over
+    Resource-constrained Devices.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangJZHR00024
+  doi: 10.1145/3589334.3645416
+  ee: https://doi.org/10.1145/3589334.3645416
+  url: https://dblp.org/rec/conf/www/WangJZHR00024
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -43803,6 +43815,28 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2022.3212631
   ee: https://doi.org/10.1109/TC.2022.3212631
   url: https://dblp.org/rec/journals/tc/MillsHMJZW23
+- author: Wei Li, Zicheng Shen, Xiulong Liu, Chuntao Ding, Jiaxing Shen
+  title: 'Fed-OGD: Mitigating Straggler Effects in Federated Learning via Orthogonal
+    Gradient Descent.'
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/LiSLDS25
+  doi: 10.1109/TC.2025.3584272
+  ee: https://doi.org/10.1109/TC.2025.3584272
+  url: https://dblp.org/rec/journals/tc/LiSLDS25
+- author: Ping Luo, Xiaoge Deng, Ziqing Wen, Tao Sun 0005, Dongsheng Li 0001
+  title: 'BHerd: Accelerating Federated Learning by Selecting Beneficial Herd of Local
+    Gradients.'
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/LuoDWSL25
+  doi: 10.1109/TC.2025.3583827
+  ee: https://doi.org/10.1109/TC.2025.3583827
+  url: https://dblp.org/rec/journals/tc/LuoDWSL25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

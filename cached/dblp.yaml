@@ -8759,6 +8759,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I19.30131
   ee: https://doi.org/10.1609/aaai.v38i19.30131
   url: https://dblp.org/rec/conf/aaai/LiuZFYXM024
+- author: Qingxiang Liu 0004, Sheng Sun, Yuxuan Liang, Min Liu 0001, Jingjing Xue
+  title: 'Personalized Federated Learning for Spatio-Temporal Forecasting: A Dual
+    Semantic Alignment-Based Contrastive Approach.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuSL0X25
+  doi: 10.1609/AAAI.V39I11.33328
+  ee: https://doi.org/10.1609/aaai.v39i11.33328
+  url: https://dblp.org/rec/conf/aaai/LiuSL0X25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -21582,6 +21593,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06805-1
   ee: https://doi.org/10.1007/s10994-025-06805-1
   url: https://dblp.org/rec/journals/ml/ZengLXH25
+- author: Mao Zhang 0002, Tie Zhang, Yifei Cheng 0002, Changcun Bao, Haoyu Cao 0001,
+    Deqiang Jiang, Linli Xu
+  title: Communication-efficient clustered federated learning via model distance.
+  venue: Mach. Learn.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/ZhangZCBCJX24
+  doi: 10.1007/S10994-023-06443-5
+  ee: https://doi.org/10.1007/s10994-023-06443-5
+  url: https://dblp.org/rec/journals/ml/ZhangZCBCJX24
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -43837,6 +43859,17 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2025.3583827
   ee: https://doi.org/10.1109/TC.2025.3583827
   url: https://dblp.org/rec/journals/tc/LuoDWSL25
+- author: Wei Li 0121, Zicheng Shen, Xiulong Liu, Chuntao Ding, Jiaxing Shen
+  title: 'Fed-OGD: Mitigating Straggler Effects in Federated Learning via Orthogonal
+    Gradient Descent.'
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/LiSLDS25
+  doi: 10.1109/TC.2025.3584272
+  ee: https://doi.org/10.1109/TC.2025.3584272
+  url: https://dblp.org/rec/journals/tc/LiSLDS25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

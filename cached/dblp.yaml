@@ -2155,6 +2155,17 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/238
   url: https://dblp.org/rec/conf/ijcai/LinHZX0L0WT24
+- author: Hua Huang, Fanhua Shang, Yuanyuan Liu 0001, Hongying Liu 0001
+  title: 'Behavior Mimics Distribution: Combining Individual and Group Behaviors for
+    Federated Learning.'
+  venue: IJCAI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/HuangS0L21
+  doi: 10.24963/IJCAI.2021/352
+  ee: https://doi.org/10.24963/ijcai.2021/352
+  url: https://dblp.org/rec/conf/ijcai/HuangS0L21
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -8770,6 +8781,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I11.33328
   ee: https://doi.org/10.1609/aaai.v39i11.33328
   url: https://dblp.org/rec/conf/aaai/LiuSL0X25
+- author: Hao Zheng 0009, Zhigang Hu 0001, Liu Yang, Meiguang Zheng, Aikun Xu, Boyu
+    Wang 0004
+  title: 'ConFREE: Conflict-free Client Update Aggregation for Personalized Federated
+    Learning.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhengHYZX025
+  doi: 10.1609/AAAI.V39I21.34449
+  ee: https://doi.org/10.1609/aaai.v39i21.34449
+  url: https://dblp.org/rec/conf/aaai/ZhengHYZX025
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -27847,6 +27870,18 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52734.2025.01922
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_FedMIA_An_Effective_Membership_Inference_Attack_Exploiting_All_for_One_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/ZhuLGYF025
+- author: Hao Zheng 0009, Zhigang Hu 0001, Liu Yang, Meiguang Zheng, Aikun Xu, Boyu
+    Wang 0004
+  title: 'FedCALM: Conflict-aware Layer-wise Mitigation for Selective Aggregation
+    in Deeper Personalized Federated Learning.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhengHYZX025
+  doi: 10.1109/CVPR52734.2025.01439
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_FedCALM_Conflict-aware_Layer-wise_Mitigation_for_Selective_Aggregation_in_Deeper_Personalized_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhengHYZX025
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -30245,6 +30280,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681588
   ee: https://doi.org/10.1145/3664647.3681588
   url: https://dblp.org/rec/conf/mm/Wu00W0ZS24
+- author: Junkang Liu, Fanhua Shang, Yuanyuan Liu 0001, Hongying Liu 0001, Yuangang
+    Li 0002, YunXiang Gong
+  title: 'FedBCGD: Communication-Efficient Accelerated Block Coordinate Gradient Descent
+    for Federated Learning.'
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/LiuSLLLG24
+  doi: 10.1145/3664647.3681094
+  ee: https://doi.org/10.1145/3664647.3681094
+  url: https://dblp.org/rec/conf/mm/LiuSLLLG24
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

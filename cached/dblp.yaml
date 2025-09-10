@@ -34150,6 +34150,127 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE53745.2022.00228
   ee: https://doi.org/10.1109/ICDE53745.2022.00228
   url: https://dblp.org/rec/conf/icde/FanFZPFLZ22
+- author: Jihoon Moon, Ling Liu, Hyuk-Yoon Kwon
+  title: 'FedSDP: Federated Self-Derived Prototypes for Personalized Federated Learning.'
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/MoonLK25
+  doi: 10.1109/ICDE65448.2025.00210
+  ee: https://doi.org/10.1109/ICDE65448.2025.00210
+  url: https://dblp.org/rec/conf/icde/MoonLK25
+- author: Yue Cui 0001, Liuyi Yao, Zitao Li, Yaliang Li, Keqin Zhong, Bingyi Liu,
+    Bolin Ding, Xiaofang Zhou 0001
+  title: A Bargaining-Based Approach for Feature Trading in Vertical Federated Learning.
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/CuiYLLZLDZ25
+  doi: 10.1109/ICDE65448.2025.00080
+  ee: https://doi.org/10.1109/ICDE65448.2025.00080
+  url: https://dblp.org/rec/conf/icde/CuiYLLZLDZ25
+- author: Yuting Li, Wenhua Wang, Tian Wang
+  title: 'pFSSL-D: Generalization Meets Personalization in Dual-Phase Federated Semi-Supervised
+    Learning.'
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/LiWW25
+  doi: 10.1109/ICDE65448.2025.00166
+  ee: https://doi.org/10.1109/ICDE65448.2025.00166
+  url: https://dblp.org/rec/conf/icde/LiWW25
+- author: Juntao Liang, Lan Zhang, Xiangmou Qu, Jun Wang
+  title: 'FedEcover: Fast and Stable Converging Model-Heterogeneous Federated Learning
+    with Efficient-Coverage Submodel Extraction.'
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/LiangZQW25
+  doi: 10.1109/ICDE65448.2025.00194
+  ee: https://doi.org/10.1109/ICDE65448.2025.00194
+  url: https://dblp.org/rec/conf/icde/LiangZQW25
+- author: Hao Miao 0001, Ziqiao Liu, Yan Zhao 0008, Kai Zheng 0001, Yupu Zhang, Christian
+    S. Jensen
+  title: Federated Trajectory Similarity Learning with Privacy-Preserving Clustering.
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/MiaoLZZZJ25
+  doi: 10.1109/ICDE65448.2025.00077
+  ee: https://doi.org/10.1109/ICDE65448.2025.00077
+  url: https://dblp.org/rec/conf/icde/MiaoLZZZJ25
+- author: Jiayi Wang 0002, Lei Cao 0004, Chengliang Chai, Guoliang Li 0001
+  title: Federated Data Analytics with Differentially Private Density Estimation Model.
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/WangCCL25
+  doi: 10.1109/ICDE65448.2025.00208
+  ee: https://doi.org/10.1109/ICDE65448.2025.00208
+  url: https://dblp.org/rec/conf/icde/WangCCL25
+- author: Shuyue Wei, Yongxin Tong, Zimu Zhou, Tianran He, Yi Xu 0013
+  title: 'Efficient Data Valuation Approximation in Federated Learning: A Sampling-Based
+    Approach.'
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/WeiTZHX25
+  doi: 10.1109/ICDE65448.2025.00219
+  ee: https://doi.org/10.1109/ICDE65448.2025.00219
+  url: https://dblp.org/rec/conf/icde/WeiTZHX25
+- author: Liping Yi, Han Yu, Gang Wang, Xiaoguang Liu, Xiaoxiao Li
+  title: 'pFedAFM: Adaptive Feature Mixture for Data-Level Personalization in Heterogeneous
+    Federated Learning on Mobile Edge Devices.'
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/YiYWLL25
+  doi: 10.1109/ICDE65448.2025.00151
+  ee: https://doi.org/10.1109/ICDE65448.2025.00151
+  url: https://dblp.org/rec/conf/icde/YiYWLL25
+- author: Zhihao Zeng, Ziquan Fang, Yuting Huang 0009, Qilong Wang, Lu Chen 0001,
+    Yunjun Gao
+  title: 'Heterogeneous-Aware Traffic Prediction: A Privacy-Preserving Federated Learning
+    Framework.'
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/ZengFHWCG25
+  doi: 10.1109/ICDE65448.2025.00038
+  ee: https://doi.org/10.1109/ICDE65448.2025.00038
+  url: https://dblp.org/rec/conf/icde/ZengFHWCG25
+- author: Xichong Zhang, Haotian Xu, Yin Xu 0004, Mingjun Xiao, Jie Wu 0001, Jinrui
+    Zhou
+  title: Online Federated Learning on Distributed Unknown Data Using UAVs.
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/ZhangXXXWZ25
+  doi: 10.1109/ICDE65448.2025.00009
+  ee: https://doi.org/10.1109/ICDE65448.2025.00009
+  url: https://dblp.org/rec/conf/icde/ZhangXXXWZ25
+- author: Xiaokai Zhou, Xiao Yan 0002, Fangcheng Fu, Xinyan Li, Hao Huang, Quanqing
+    Xu, Chuanhui Yang, Bo Du 0001, Tieyun Qian, Jiawei Jiang 0001
+  title: 'Hounding Data Diversity: Towards Participant Selection in Vertical Federated
+    Learning.'
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/ZhouYFLHXYDQJ25
+  doi: 10.1109/ICDE65448.2025.00211
+  ee: https://doi.org/10.1109/ICDE65448.2025.00211
+  url: https://dblp.org/rec/conf/icde/ZhouYFLHXYDQJ25
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou
@@ -42623,6 +42744,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3396133
   ee: https://doi.org/10.1109/TPDS.2024.3396133
   url: https://dblp.org/rec/journals/tpds/LanWLKL24
+- author: Yishan Chen 0001, Xiangwei Zeng, Huashuai Cai, Qing Xu, Zhiquan Liu
+  title: Decentralized QoS-Aware Model Inference Using Federated Split Learning for
+    Cloud-Edge Medical Detection.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ChenZCXL25
+  doi: 10.1109/TPDS.2025.3594694
+  ee: https://doi.org/10.1109/TPDS.2025.3594694
+  url: https://dblp.org/rec/journals/tpds/ChenZCXL25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -43285,6 +43417,18 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2024.3513264
   ee: https://doi.org/10.1109/TCAD.2024.3513264
   url: https://dblp.org/rec/journals/tcad/ZhangZCLHLL25
+- author: Zirui Lian, Qianyue Cao, Chao Liang, Jing Cao, Zongwei Zhu, Zhi Yang, Cheng
+    Ji 0002, Changlong Li, Xuehai Zhou
+  title: 'HaloFL: Efficient Heterogeneity-Aware Federated Learning Through Optimal
+    Submodel Extraction and Dynamic Sparse Adjustment.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/LianCLCZYJLZ25
+  doi: 10.1109/TCAD.2025.3548003
+  ee: https://doi.org/10.1109/TCAD.2025.3548003
+  url: https://dblp.org/rec/journals/tcad/LianCLCZYJLZ25
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

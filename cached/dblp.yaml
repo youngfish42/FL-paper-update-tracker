@@ -17765,6 +17765,18 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/ye23f.html
   url: https://dblp.org/rec/conf/icml/YeXWXCW23
+- author: Fan Lai 0001, Yinwei Dai, Sanjay Sri Vallabh Singapuram, Jiachen Liu, Xiangfeng
+    Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
+  title: 'FedScale: Benchmarking Model and System Performance of Federated Learning
+    at Scale.'
+  venue: ICML
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LaiDSLZMC22
+  doi: ''
+  ee: https://proceedings.mlr.press/v162/lai22a.html
+  url: https://dblp.org/rec/conf/icml/LaiDSLZMC22
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -21627,6 +21639,18 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-023-06443-5
   ee: https://doi.org/10.1007/s10994-023-06443-5
   url: https://dblp.org/rec/journals/ml/ZhangZCBCJX24
+- author: Siqin Zeng, Xiaohong Wu, Yonggen Gu, Jie Tao 0001, Benfeng Chen, Guoqiang
+    Li 0001
+  title: Auction-based incentive mechanism with personalized privacy protection in
+    federated learning.
+  venue: Mach. Learn.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/ZengWGTCL25
+  doi: 10.1007/S10994-025-06836-8
+  ee: https://doi.org/10.1007/s10994-025-06836-8
+  url: https://dblp.org/rec/journals/ml/ZengWGTCL25
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -27882,6 +27906,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52734.2025.01439
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_FedCALM_Conflict-aware_Layer-wise_Mitigation_for_Selective_Aggregation_in_Deeper_Personalized_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/ZhengHYZX025
+- author: Chenhe Hao, Weiying Xie, Daixun Li, Haonan Qin, Hangyu Ye, Leyuan Fang,
+    Yunsong Li 0001
+  title: 'FedCS: Coreset Selection for Federated Learning.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/HaoXLQYFL25
+  doi: 10.1109/CVPR52734.2025.01438
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Hao_FedCS_Coreset_Selection_for_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/HaoXLQYFL25
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -30292,6 +30327,26 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681094
   ee: https://doi.org/10.1145/3664647.3681094
   url: https://dblp.org/rec/conf/mm/LiuSLLLG24
+- author: Ruofan Jia, Weiying Xie, Jie Lei 0001, Yunsong Li 0001
+  title: Adaptive Hierarchical Aggregation for Federated Object Detection.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/JiaX0L24
+  doi: 10.1145/3664647.3681158
+  ee: https://doi.org/10.1145/3664647.3681158
+  url: https://dblp.org/rec/conf/mm/JiaX0L24
+- author: Hengyi Wang, Weiying Xie, Jitao Ma, Daixun Li, Yunsong Li 0001
+  title: 'FedSLS: Exploring Federated Aggregation in Saliency Latent Space.'
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/WangXMLL24
+  doi: 10.1145/3664647.3681278
+  ee: https://doi.org/10.1145/3664647.3681278
+  url: https://dblp.org/rec/conf/mm/WangXMLL24
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -40385,6 +40440,16 @@ federate%20venue%3AOSDI%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss2014/hardening-persona-improving-federated-web-login
   url: https://dblp.org/rec/conf/ndss/DietzW14
+- author: Fan Lai 0001, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
+  title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
+  venue: OSDI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/osdi/LaiZMC21
+  doi: ''
+  ee: https://www.usenix.org/conference/osdi21/presentation/lai
+  url: https://dblp.org/rec/conf/osdi/LaiZMC21
 federate%20venue%3AISCA%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -40818,6 +40883,16 @@ federate%20venue%3AMLSys%3A:
   doi: ''
   ee: https://proceedings.mlsys.org/paper_files/paper/2024/hash/0badcb4e95306df76a719409155e46e8-Abstract-Conference.html
   url: https://dblp.org/rec/conf/mlsys/Kim0HKKVW24
+- author: Yuxuan Zhu, Jiachen Liu, Mosharaf Chowdhury, Fan Lai 0001
+  title: 'FedTrans: Efficient Federated Learning via Multi-Model Transformation.'
+  venue: MLSys
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/mlsys/ZhuLCL24
+  doi: ''
+  ee: https://proceedings.mlsys.org/paper_files/paper/2024/hash/bbd7d8bd780fcf7143add2317ba04638-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/mlsys/ZhuLCL24
 federate%20streamid%3Aconf%2Feurosys%3A:
 - author: Ahmed M. Abdelmoniem, Atal Narayan Sahu, Marco Canini, Suhaib A. Fahmy
   title: 'REFL: Resource-Efficient Federated Learning.'

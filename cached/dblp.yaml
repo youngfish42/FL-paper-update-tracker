@@ -14757,6 +14757,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/3baf4eeffad860ca9c54aeab632716b4-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/PanchalCPZG23
+- author: Tong Yang 0007, Shicong Cen, Yuting Wei 0001, Yuxin Chen 0002, Yuejie Chi
+  title: Federated Natural Policy Gradient and Actor Critic Methods for Multi-task
+    Reinforcement Learning.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YangC00C24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/dbdea7859f1d2fc10f2c9e79b8f5ae54-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YangC00C24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -30347,6 +30358,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681278
   ee: https://doi.org/10.1145/3664647.3681278
   url: https://dblp.org/rec/conf/mm/WangXMLL24
+- author: Dong Chen 0017, Siliang Tang, Zijin Shen, Guoming Wang, Jun Xiao 0001, Yueting
+    Zhuang, Carl Yang 0001
+  title: 'FedAA: Using Non-sensitive Modalities to Improve Federated Learning while
+    Preserving Image Privacy.'
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ChenTSWXZY23
+  doi: 10.1145/3581783.3611953
+  ee: https://doi.org/10.1145/3581783.3611953
+  url: https://dblp.org/rec/conf/mm/ChenTSWXZY23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -34315,6 +34338,18 @@ federate%20venue%3AICDE%3A:
   ee: https://doi.org/10.1109/ICDE65448.2025.00009
   url: https://dblp.org/rec/conf/icde/ZhangXXXWZ25
 - author: Xiaokai Zhou, Xiao Yan 0002, Fangcheng Fu, Xinyan Li, Hao Huang, Quanqing
+    Xu, Chuanhui Yang, Bo Du 0001, Tieyun Qian, Jiawei Jiang 0001
+  title: 'Hounding Data Diversity: Towards Participant Selection in Vertical Federated
+    Learning.'
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/ZhouYFLHXYDQJ25
+  doi: 10.1109/ICDE65448.2025.00211
+  ee: https://doi.org/10.1109/ICDE65448.2025.00211
+  url: https://dblp.org/rec/conf/icde/ZhouYFLHXYDQJ25
+- author: Xiaokai Zhou, Xiao Yan 0002, Fangcheng Fu, Xinyan Li, Hao Huang 0001, Quanqing
     Xu, Chuanhui Yang, Bo Du 0001, Tieyun Qian, Jiawei Jiang 0001
   title: 'Hounding Data Diversity: Towards Participant Selection in Vertical Federated
     Learning.'

@@ -40246,6 +40246,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645416
   ee: https://doi.org/10.1145/3589334.3645416
   url: https://dblp.org/rec/conf/www/WangJZHR00024
+- author: Haozhao Wang, Yabo Jia, Meng Zhang 0045, Qinghao Hu 0004, Hao Ren 0001,
+    Peng Sun 0006, Yonggang Wen 0001, Tianwei Zhang 0004
+  title: 'FedDSE: Distribution-aware Sub-model Extraction for Federated Learning over
+    Resource-constrained Devices.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangJZHR00024
+  doi: 10.1145/3589334.3645416
+  ee: https://doi.org/10.1145/3589334.3645416
+  url: https://dblp.org/rec/conf/www/WangJZHR00024
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -44194,6 +44206,17 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2025.3584272
   ee: https://doi.org/10.1109/TC.2025.3584272
   url: https://dblp.org/rec/journals/tc/LiSLDS25
+- author: Dongxiao Yu, Yuan Yuan 0014, Yifei Zou, Xiao Zhang 0015, Yu Liu 0085, Lizhen
+    Cui, Xiuzhen Cheng 0001
+  title: Pruning-Based Adaptive Federated Learning at the Edge.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/YuYZZLCC25
+  doi: 10.1109/TC.2025.3533095
+  ee: https://doi.org/10.1109/TC.2025.3533095
+  url: https://dblp.org/rec/journals/tc/YuYZZLCC25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

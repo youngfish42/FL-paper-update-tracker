@@ -37580,6 +37580,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM41043.2020.9155479
   ee: https://doi.org/10.1109/INFOCOM41043.2020.9155479
   url: https://dblp.org/rec/conf/infocom/HuangYQTXL20
+- author: Cheng Zhang 0035, Yang Xu 0013, Xiaowei Wu, En Wang, Hongbo Jiang 0001,
+    Yaoxue Zhang
+  title: A Semi-Asynchronous Decentralized Federated Learning Framework via Tree-Graph
+    Blockchain.
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/Zhang0WW0Z24
+  doi: 10.1109/INFOCOM52122.2024.10621425
+  ee: https://doi.org/10.1109/INFOCOM52122.2024.10621425
+  url: https://dblp.org/rec/conf/infocom/Zhang0WW0Z24
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -42877,6 +42889,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3594694
   ee: https://doi.org/10.1109/TPDS.2025.3594694
   url: https://dblp.org/rec/journals/tpds/ChenZCXL25
+- author: Zhiyuan Wu, Sheng Sun, Yuwei Wang 0003, Min Liu 0001, Quyang Pan, Xuefeng
+    Jiang, Bo Gao 0006
+  title: 'FedICT: Federated Multi-Task Distillation for Multi-Access Edge Computing.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuSWLPJG24
+  doi: 10.1109/TPDS.2023.3289444
+  ee: https://doi.org/10.1109/TPDS.2023.3289444
+  url: https://dblp.org/rec/journals/tpds/WuSWLPJG24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

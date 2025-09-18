@@ -2166,6 +2166,18 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2021/352
   ee: https://doi.org/10.24963/ijcai.2021/352
   url: https://dblp.org/rec/conf/ijcai/HuangS0L21
+- author: Hong Zhang 0059, Ji Liu 0003, Juncheng Jia, Yang Zhou 0001, Huaiyu Dai,
+    Dejing Dou
+  title: 'FedDUAP: Federated Learning with Dynamic Update and Adaptive Pruning Using
+    Shared Data on the Server.'
+  venue: IJCAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Zhang0JZDD22
+  doi: 10.24963/IJCAI.2022/385
+  ee: https://doi.org/10.24963/ijcai.2022/385
+  url: https://dblp.org/rec/conf/ijcai/Zhang0JZDD22
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -37592,6 +37604,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM52122.2024.10621425
   ee: https://doi.org/10.1109/INFOCOM52122.2024.10621425
   url: https://dblp.org/rec/conf/infocom/Zhang0WW0Z24
+- author: Nan Yan, Yuqing Li, Jing Chen 0003, Xiong Wang 0006, Jianan Hong, Kun He
+    0008, Wei Wang 0030
+  title: Efficient and Straggler-Resistant Homomorphic Encryption for Heterogeneous
+    Federated Learning.
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/YanL0WH0W24
+  doi: 10.1109/INFOCOM52122.2024.10621440
+  ee: https://doi.org/10.1109/INFOCOM52122.2024.10621440
+  url: https://dblp.org/rec/conf/infocom/YanL0WH0W24
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

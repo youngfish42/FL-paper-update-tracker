@@ -22230,6 +22230,16 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2022.3195956
   ee: https://doi.org/10.1109/TPAMI.2022.3195956
   url: https://dblp.org/rec/journals/pami/LiFGLY23
+- author: Xiaoshan Yang, Baochen Xiong, Yi Huang 0037, Changsheng Xu
+  title: Cross-Modal Federated Human Activity Recognition.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/YangXHX24
+  doi: 10.1109/TPAMI.2024.3367412
+  ee: https://doi.org/10.1109/TPAMI.2024.3367412
+  url: https://dblp.org/rec/journals/pami/YangXHX24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

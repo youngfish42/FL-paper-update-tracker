@@ -8805,6 +8805,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I21.34449
   ee: https://doi.org/10.1609/aaai.v39i21.34449
   url: https://dblp.org/rec/conf/aaai/ZhengHYZX025
+- author: Xiaoshan Yang, Baochen Xiong, Yi Huang 0037, Changsheng Xu
+  title: Cross-Modal Federated Human Activity Recognition via Modality-Agnostic and
+    Modality-Specific Representation Learning.
+  venue: AAAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YangXHX22
+  doi: 10.1609/AAAI.V36I3.20213
+  ee: https://doi.org/10.1609/aaai.v36i3.20213
+  url: https://dblp.org/rec/conf/aaai/YangXHX22
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

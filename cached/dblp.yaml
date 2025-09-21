@@ -8816,6 +8816,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V36I3.20213
   ee: https://doi.org/10.1609/aaai.v36i3.20213
   url: https://dblp.org/rec/conf/aaai/YangXHX22
+- author: Chenglu Pan, Jiarong Xu, Yue Yu, Ziqi Yang, Qingbiao Wu, Chunping Wang 0001,
+    Lei Chen 0082, Yang Yang 0009
+  title: Towards Fair Graph Federated Learning via Incentive Mechanisms.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PanXYYWWC024
+  doi: 10.1609/AAAI.V38I13.29365
+  ee: https://doi.org/10.1609/aaai.v38i13.29365
+  url: https://dblp.org/rec/conf/aaai/PanXYYWWC024
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

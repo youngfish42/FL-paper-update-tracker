@@ -199,6 +199,18 @@ federate%20venue%3ADAC%3A:
   doi: 10.1109/DAC63849.2025.11133116
   ee: https://doi.org/10.1109/DAC63849.2025.11133116
   url: https://dblp.org/rec/conf/dac/YanYHFC25
+- author: Zihan Li, Han Liu, Ao Li 0006, Ching-Hsiang Chan, Yevgeniy Vorobeychik,
+    William Yeoh 0001, Wenjing Lou, Ning Zhang 0017
+  title: Resilient Federated Learning on Embedded Devices with Constrained Network
+    Connectivity.
+  venue: DAC
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/LiLLCVYLZ25
+  doi: 10.1109/DAC63849.2025.11133269
+  ee: https://doi.org/10.1109/DAC63849.2025.11133269
+  url: https://dblp.org/rec/conf/dac/LiLLCVYLZ25
 federate%20venue%3AIJCAI%3A:
 - author: Tao Qi, Fangzhao Wu, Lingjuan Lyu, Yongfeng Huang 0001, Xing Xie 0001
   title: 'FedSampling: A Better Sampling Strategy for Federated Learning.'
@@ -2627,6 +2639,141 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/812
   ee: https://doi.org/10.24963/ijcai.2025/812
   url: https://dblp.org/rec/conf/ijcai/ZongJH25
+- author: Tian Chen, Wenke Huang, Zhihao Wang, Zekun Shi, He Li, Wenhui Dong, Mang
+    Ye, Bo Du 0001, Yongchao Xu
+  title: Pixel-wise Divide and Conquer for Federated Vessel Segmentation.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/ChenHWSLDYDX25
+  doi: 10.24963/IJCAI.2025/540
+  ee: https://doi.org/10.24963/ijcai.2025/540
+  url: https://dblp.org/rec/conf/ijcai/ChenHWSLDYDX25
+- author: Peng Chen 0030, Haolong Xiang, Xin Du 0002, Xiaolong Xu 0001, Xuhao Jiang,
+    Zhihui Lu 0002, Jirui Yang, Qiang Duan, Wanchun Dou
+  title: Universal Backdoor Defense via Label Consistency in Vertical Federated Learning.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/ChenXD0J0YDD25
+  doi: 10.24963/IJCAI.2025/528
+  ee: https://doi.org/10.24963/ijcai.2025/528
+  url: https://dblp.org/rec/conf/ijcai/ChenXD0J0YDD25
+- author: Haiyang Chen, Xiaolong Xu 0001, Xiang Zhu, Xiaokang Zhou, Fei Dai 0002,
+    Yansong Gao, Xiao Chen, Shuo Wang, Hongsheng Hu
+  title: Where Does This Data Come From? Enhanced Source Inference Attacks in Federated
+    Learning.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/ChenXZZDGCWH25
+  doi: 10.24963/IJCAI.2025/536
+  ee: https://doi.org/10.24963/ijcai.2025/536
+  url: https://dblp.org/rec/conf/ijcai/ChenXZZDGCWH25
+- author: Weishi Li, Yong Peng 0006, Mengyao Du, Fuhui Sun, Xiaoyan Wang, Li Shen
+    0008
+  title: Hypernetwork Aggregation for Decentralized Personalized Federated Learning.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/LiPDSW025
+  doi: 10.24963/IJCAI.2025/161
+  ee: https://doi.org/10.24963/ijcai.2025/161
+  url: https://dblp.org/rec/conf/ijcai/LiPDSW025
+- author: Xiang Liu, Zhenheng Tang, Xia Li 0005, Yijun Song, Sijie Ji, Zemin Liu,
+    Bo Han 0003, Linshan Jiang, Jialin Li 0001
+  title: 'One-shot Federated Learning Methods: A Practical Guide.'
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/LiuT0SJL0J025
+  doi: 10.24963/IJCAI.2025/1174
+  ee: https://doi.org/10.24963/ijcai.2025/1174
+  url: https://dblp.org/rec/conf/ijcai/LiuT0SJL0J025
+- author: Noorain Mukhtiar, Adnan Mahmood, Yipeng Zhou, Jian Yang 0001, Jing Teng,
+    Quan Z. Sheng
+  title: 'Federated Learning at the Forefront of Fairness: A Multifaceted Perspective.'
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/MukhtiarMZ0TS25
+  doi: 10.24963/IJCAI.2025/1177
+  ee: https://doi.org/10.24963/ijcai.2025/1177
+  url: https://dblp.org/rec/conf/ijcai/MukhtiarMZ0TS25
+- author: Zhihao Wang, Wenke Huang, Tian Chen, Zekun Shi, Guancheng Wan, Yu Qiao,
+    Bin Yang, Jian Wang, Bing Li, Mang Ye
+  title: An Empirical Study of Federated Prompt Learning for Vision Language Model.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/WangHCSWQYWLY25
+  doi: 10.24963/IJCAI.2025/1188
+  ee: https://doi.org/10.24963/ijcai.2025/1188
+  url: https://dblp.org/rec/conf/ijcai/WangHCSWQYWLY25
+- author: Wenhan Wu, Huanghuang Liang, Jingling Yuan, Jiawei Jiang 0001, Kanye Ye
+    Wang, Chuang Hu, Xiaobo Zhou 0002, Dazhao Cheng
+  title: Zero-shot Federated Unlearning via Transforming from Data-Dependent to Personalized
+    Model-Centric.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/WuLYJWH0C25
+  doi: 10.24963/IJCAI.2025/733
+  ee: https://doi.org/10.24963/ijcai.2025/733
+  url: https://dblp.org/rec/conf/ijcai/WuLYJWH0C25
+- author: Jirui Yang, Peng Chen, Zhihui Lu, Jianping Zeng, Qiang Duan, Xin Du, Ruijun
+    Deng
+  title: Backdoor Attack on Vertical Federated Graph Neural Network Learning.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/YangCLZDDD25
+  doi: 10.24963/IJCAI.2025/877
+  ee: https://doi.org/10.24963/ijcai.2025/877
+  url: https://dblp.org/rec/conf/ijcai/YangCLZDDD25
+- author: Yiyuan Yang, Guodong Long, Qinghua Lu 0001, Liming Zhu 0001, Jing Jiang
+    0002, Chengqi Zhang
+  title: 'Federated Low-Rank Adaptation for Foundation Models: A Survey.'
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/YangL000Z25
+  doi: 10.24963/IJCAI.2025/1196
+  ee: https://doi.org/10.24963/ijcai.2025/1196
+  url: https://dblp.org/rec/conf/ijcai/YangL000Z25
+- author: Lele Zheng, Yang Cao, Leo Yu Zhang, Wei Wang, Yulong Shen 0001, Xiaochun
+    Cao
+  title: 'MMGIA: Gradient Inversion Attack Against Multimodal Federated Learning via
+    Intermodal Correlation.'
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ijcai/ZhengCZW0C25
+  doi: 10.24963/IJCAI.2025/886
+  ee: https://doi.org/10.24963/ijcai.2025/886
+  url: https://dblp.org/rec/conf/ijcai/ZhengCZW0C25
+- author: Jiahao Liu 0001, Jiang Wu, Jinyu Chen, Miao Hu 0001, Yipeng Zhou, Di Wu
+    0001
+  title: 'FedDWA: Personalized Federated Learning with Dynamic Weight Adjustment.'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LiuWCHZ023
+  doi: 10.24963/IJCAI.2023/444
+  ee: https://doi.org/10.24963/ijcai.2023/444
+  url: https://dblp.org/rec/conf/ijcai/LiuWCHZ023
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -21407,6 +21554,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=3wEGdrV5Cb
   url: https://dblp.org/rec/conf/iclr/ZhangDNCL25
+- author: Zhe Li, Bicheng Ying, Zidong Liu, Chaosheng Dong, Haibo Yang 0001
+  title: Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order
+    Optimization.
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LiYLDY25
+  doi: ''
+  ee: https://openreview.net/forum?id=omrLHFzC37
+  url: https://dblp.org/rec/conf/iclr/LiYLDY25
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -29327,6 +29485,17 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00460
   ee: https://doi.org/10.1109/ICCV51070.2023.00460
   url: https://dblp.org/rec/conf/iccv/SunM0W023
+- author: Chun-Mei Feng 0001, Kai Yu 0009, Nian Liu 0002, Xinxing Xu, Salman Khan
+    0001, Wangmeng Zuo
+  title: Towards Instance-adaptive Inference for Federated Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/Feng0LXKZ23
+  doi: 10.1109/ICCV51070.2023.02128
+  ee: https://doi.org/10.1109/ICCV51070.2023.02128
+  url: https://dblp.org/rec/conf/iccv/Feng0LXKZ23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -33291,6 +33460,18 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3626772.3657763
   ee: https://doi.org/10.1145/3626772.3657763
   url: https://dblp.org/rec/conf/sigir/0008WWXZCFCL24
+- author: Mingzhe Han, Dongsheng Li 0002, Jiafeng Xia, Jiahao Liu 0009, Hansu Gu,
+    Peng Zhang 0060, Ning Gu, Tun Lu
+  title: 'FedCIA: Federated Collaborative Information Aggregation for Privacy-Preserving
+    Recommendation.'
+  venue: SIGIR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/Han0XLGZGL25
+  doi: 10.1145/3726302.3729977
+  ee: https://doi.org/10.1145/3726302.3729977
+  url: https://dblp.org/rec/conf/sigir/Han0XLGZGL25
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -38141,6 +38322,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM52122.2024.10621440
   ee: https://doi.org/10.1109/INFOCOM52122.2024.10621440
   url: https://dblp.org/rec/conf/infocom/YanL0WH0W24
+- author: Chen Zhang 0037, Boyang Zhou, Zhiqiang He, Zeyuan Liu, Yanjiao Chen, Wenyuan
+    Xu 0001, Baochun Li
+  title: 'Oblivion: Poisoning Federated Learning by Inducing Catastrophic Forgetting.'
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/ZhangZHLCXL23
+  doi: 10.1109/INFOCOM53939.2023.10228981
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10228981
+  url: https://dblp.org/rec/conf/infocom/ZhangZHLCXL23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

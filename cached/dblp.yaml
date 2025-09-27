@@ -36471,6 +36471,62 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3641204.3641220
   ee: https://www.vldb.org/pvldb/vol17/p1119-wang.pdf
   url: https://dblp.org/rec/journals/pvldb/TaoWPYCW24
+- author: Xiaoyu Fan, Kun Chen 0004, Jiping Yu, Xiaowei Zhu, Yunyi Chen, Huanchen
+    Zhang, Wei Xue 0003
+  title: 'GORAM: Graph-oriented ORAM for Efficient Ego-centric Queries on Federated
+    Graphs.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/FanCYZCZX25
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol18/p3601-fan.pdf
+  url: https://dblp.org/rec/journals/pvldb/FanCYZCZX25
+- author: Zeheng Fan, Yuxiang Zeng, Zhuanglin Zheng, Yongxin Tong
+  title: 'FedVSE: A Privacy-Preserving and Efficient Vector Search Engine for Federated
+    Databases.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/FanZZT25
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol18/p5371-tong.pdf
+  url: https://dblp.org/rec/journals/pvldb/FanZZT25
+- author: Yushuai Ji, Shengkun Zhu, Shixun Huang, Zepeng Liu, Sheng Wang 0007, Zhiyong
+    Peng 0001
+  title: Federated and Balanced Clustering for High-dimensional Data.
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/JiZHLWP25
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol18/p4032-wang.pdf
+  url: https://dblp.org/rec/journals/pvldb/JiZHLWP25
+- author: Yan Zhang, Shuwei Liang, Xiaoye Miao, Yangyang Wu, Jianwei Yin
+  title: Federated Incomplete Tabular Data Prediction with Missing Complementarity.
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhangLMWY25
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol18/p3531-miao.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhangLMWY25
+- author: Xiaokai Zhou, Xiao Yan 0002, Fangcheng Fu, Ziwen Fu, Tieyun Qian, Yuanyuan
+    Zhu, Qinbo Zhang, Bin Cui 0001, Jiawei Jiang 0001
+  title: 'PS-MI: Accurate, Efficient, and Private Data Valuation in Vertical Federated
+    Learning.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhouYFFQZZCJ25
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol18/p3559-zhou.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhouYFFQZZCJ25
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -36625,6 +36681,39 @@ federate%20venue%3ASIGCOMM%3A:
   doi: 10.1145/3651890.3672263
   ee: https://doi.org/10.1145/3651890.3672263
   url: https://dblp.org/rec/conf/sigcomm/0011SDJSH24
+- author: "Johann J. S. Bastos, Jo\xE3o Batista, Ramon R. Fontes, Eduardo Cerqueira,\
+    \ Rodolfo Villa\xE7a, Vin\xEDcius F. S. Mota"
+  title: A Lightweight Emulation Framework for Energy-Aware Federated Learning.
+  venue: SIGCOMM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigcomm/BastosBFCVM25
+  doi: 10.1145/3744969.3748395
+  ee: https://doi.org/10.1145/3744969.3748395
+  url: https://dblp.org/rec/conf/sigcomm/BastosBFCVM25
+- author: "Enrique Tom\xE1s Mart\xEDnez Beltr\xE1n, G\xE9r\xF4me Bovet, Gregorio Mart\xED\
+    nez P\xE9rez, Alberto Huertas Celdr\xE1n"
+  title: NEBULA - Decentralized Federated Learning for Heterogeneous Networks.
+  venue: SIGCOMM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigcomm/BeltranBPC25
+  doi: 10.1145/3744969.3748413
+  ee: https://doi.org/10.1145/3744969.3748413
+  url: https://dblp.org/rec/conf/sigcomm/BeltranBPC25
+- author: Boyu Fan, Xiang Su, Sasu Tarkoma, Pan Hui 0001
+  title: 'Federated Inference: Towards Collaborative and Privacy-Preserving Inference
+    over Edge Devices.'
+  venue: SIGCOMM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigcomm/FanST025
+  doi: 10.1145/3744969.3748418
+  ee: https://doi.org/10.1145/3744969.3748418
+  url: https://dblp.org/rec/conf/sigcomm/FanST025
 federate%20venue%3AINFOCOM%3A:
 - author: Hankyul Baek, Won Joon Yun, Yunseok Kwak, Soyi Jung, Mingyue Ji, Mehdi Bennis,
     Jihong Park, Joongheon Kim
@@ -41528,6 +41617,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645416
   ee: https://doi.org/10.1145/3589334.3645416
   url: https://dblp.org/rec/conf/www/WangJZHR00024
+- author: Nan Wu 0013, Xin Yuan 0004, Shuo Wang 0012, Hongsheng Hu, Minhui Xue 0001
+  title: 'Cardinality Counting in &quot;Alcatraz&quot;: A Privacy-aware Federated
+    Learning Approach.'
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WuYWHX24
+  doi: 10.1145/3589334.3645655
+  ee: https://doi.org/10.1145/3589334.3645655
+  url: https://dblp.org/rec/conf/www/WuYWHX24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -44169,6 +44269,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3454203
   ee: https://doi.org/10.1109/TPDS.2024.3454203
   url: https://dblp.org/rec/journals/tpds/LuoCXLW24
+- author: Yuhao Zhou 0004, Qing Ye, Jiancheng Lv 0001
+  title: Communication-Efficient Federated Learning With Compensated Overlap-FedAvg.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhouYL22
+  doi: 10.1109/TPDS.2021.3090331
+  ee: https://doi.org/10.1109/TPDS.2021.3090331
+  url: https://dblp.org/rec/journals/tpds/ZhouYL22
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

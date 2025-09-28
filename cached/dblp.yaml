@@ -15904,6 +15904,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/dbdea7859f1d2fc10f2c9e79b8f5ae54-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangC00C24
+- author: Mingjia Shi, Yuhao Zhou 0004, Kai Wang 0036, Huaizheng Zhang, Shudong Huang,
+    Qing Ye, Jiancheng Lv 0001
+  title: 'PRIOR: Personalized Prior for Reactivating the Information Overlooked in
+    Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ShiZWZHY023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/5a3674849d6d6d23ac088b9a2552f323-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ShiZWZHY023
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -22071,6 +22083,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=omrLHFzC37
   url: https://dblp.org/rec/conf/iclr/LiYLDY25
+- author: Durmus Alp Emre Acar, Yue Zhao 0041, Ramon Matas Navarro, Matthew Mattina,
+    Paul N. Whatmough, Venkatesh Saligrama
+  title: Federated Learning Based on Dynamic Regularization.
+  venue: ICLR
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/AcarZNMWS21
+  doi: ''
+  ee: https://openreview.net/forum?id=B7v4QMR6Z9w
+  url: https://dblp.org/rec/conf/iclr/AcarZNMWS21
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -30002,6 +30025,18 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.02128
   ee: https://doi.org/10.1109/ICCV51070.2023.02128
   url: https://dblp.org/rec/conf/iccv/Feng0LXKZ23
+- author: Yuhao Zhou 0004, Mingjia Shi, Yuanxi Li, Yanan Sun 0001, Qing Ye, Jiancheng
+    Lv 0001
+  title: Communication-efficient Federated Learning with Single-Step Synthetic Features
+    Compressor for Faster Convergence.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZhouSL0Y023
+  doi: 10.1109/ICCV51070.2023.00464
+  ee: https://doi.org/10.1109/ICCV51070.2023.00464
+  url: https://dblp.org/rec/conf/iccv/ZhouSL0Y023
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -35596,6 +35631,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE65448.2025.00211
   ee: https://doi.org/10.1109/ICDE65448.2025.00211
   url: https://dblp.org/rec/conf/icde/ZhouYFLHXYDQJ25
+- author: Pengpeng Qiao, Kangfei Zhao, Bei Bi, Zhiwei Zhang 0002, Ye Yuan 0001, Guoren
+    Wang
+  title: 'Feed: Towards Personalization-Effective Federated Learning.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/QiaoZBZYW24
+  doi: 10.1109/ICDE60146.2024.00144
+  ee: https://doi.org/10.1109/ICDE60146.2024.00144
+  url: https://dblp.org/rec/conf/icde/QiaoZBZYW24
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou
@@ -36517,6 +36563,30 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   url: https://dblp.org/rec/journals/pvldb/ZhangLMWY25
 - author: Xiaokai Zhou, Xiao Yan 0002, Fangcheng Fu, Ziwen Fu, Tieyun Qian, Yuanyuan
     Zhu, Qinbo Zhang, Bin Cui 0001, Jiawei Jiang 0001
+  title: 'PS-MI: Accurate, Efficient, and Private Data Valuation in Vertical Federated
+    Learning.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhouYFFQZZCJ25
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol18/p3559-zhou.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhouYFFQZZCJ25
+- author: Xiaoyu Fan, Kun Chen 0004, Jiping Yu, Xiaowei Zhu 0001, Yunyi Chen, Huanchen
+    Zhang, Wei Xue 0003
+  title: 'GORAM: Graph-oriented ORAM for Efficient Ego-centric Queries on Federated
+    Graphs.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/FanCYZCZX25
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol18/p3601-fan.pdf
+  url: https://dblp.org/rec/journals/pvldb/FanCYZCZX25
+- author: Xiaokai Zhou, Xiao Yan 0002, Fangcheng Fu, Ziwen Fu, Tieyun Qian, Yuanyuan
+    Zhu 0001, Qinbo Zhang, Bin Cui 0001, Jiawei Jiang 0001
   title: 'PS-MI: Accurate, Efficient, and Private Data Valuation in Vertical Federated
     Learning.'
   venue: Proc. VLDB Endow.

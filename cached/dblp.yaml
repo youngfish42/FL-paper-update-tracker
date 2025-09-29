@@ -18948,6 +18948,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=akyElNlUVA
   url: https://dblp.org/rec/conf/icml/LiuZ0HGS24
+- author: Durmus Alp Emre Acar, Yue Zhao 0041, Ruizhao Zhu, Ramon Matas Navarro, Matthew
+    Mattina, Paul N. Whatmough, Venkatesh Saligrama
+  title: Debiasing Model Updates for Improving Personalized Federated Training.
+  venue: ICML
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/AcarZZNMWS21
+  doi: ''
+  ee: http://proceedings.mlr.press/v139/acar21a.html
+  url: https://dblp.org/rec/conf/icml/AcarZZNMWS21
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -25240,6 +25251,17 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671663
   ee: https://doi.org/10.1145/3637528.3671663
   url: https://dblp.org/rec/conf/kdd/XingZ024
+- author: Hao Yu 0023, Xin Yang 0012, Xin Gao, Yan Kang 0001, Hao Wang 0068, Junbo
+    Zhang, Tianrui Li 0001
+  title: Personalized Federated Continual Learning via Multi-Granularity Prompt.
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/YuYGKWZ024
+  doi: 10.1145/3637528.3671948
+  ee: https://doi.org/10.1145/3637528.3671948
+  url: https://dblp.org/rec/conf/kdd/YuYGKWZ024
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -31617,6 +31639,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3611953
   ee: https://doi.org/10.1145/3581783.3611953
   url: https://dblp.org/rec/conf/mm/ChenTSWXZY23
+- author: Hao Yu 0023, Xin Yang 0012, Xin Gao, Yihui Feng, Hao Wang 0068, Yan Kang
+    0001, Tianrui Li 0001
+  title: Overcoming Spatial-Temporal Catastrophic Forgetting for Federated Class-Incremental
+    Learning.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Yu0GFWK024
+  doi: 10.1145/3664647.3681384
+  ee: https://doi.org/10.1145/3664647.3681384
+  url: https://dblp.org/rec/conf/mm/Yu0GFWK024
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -44349,6 +44383,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2021.3090331
   ee: https://doi.org/10.1109/TPDS.2021.3090331
   url: https://dblp.org/rec/journals/tpds/ZhouYL22
+- author: Zhiyuan Wang 0002, Hongli Xu 0001, Yang Xu 0020, Zhida Jiang, Jianchun Liu,
+    Suo Chen
+  title: 'FAST: Enhancing Federated Learning Through Adaptive Data Sampling and Local
+    Training.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WangXXJLC24
+  doi: 10.1109/TPDS.2023.3334398
+  ee: https://doi.org/10.1109/TPDS.2023.3334398
+  url: https://dblp.org/rec/journals/tpds/WangXXJLC24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

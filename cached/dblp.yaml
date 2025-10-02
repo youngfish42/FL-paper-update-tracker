@@ -18982,6 +18982,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/tang22d.html
   url: https://dblp.org/rec/conf/icml/TangZSHH022
+- author: Shusen Jing, Anlan Yu, Shuai Zhang, Songyang Zhang 0002
+  title: 'FedSC: Provable Federated Self-supervised Learning with Spectral Contrastive
+    Objective over Non-i.i.d. Data.'
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/JingYZZ24
+  doi: ''
+  ee: https://openreview.net/forum?id=0nMzOmkBHC
+  url: https://dblp.org/rec/conf/icml/JingYZZ24
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -22878,6 +22889,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06836-8
   ee: https://doi.org/10.1007/s10994-025-06836-8
   url: https://dblp.org/rec/journals/ml/ZengWGTCL25
+- author: Wei Xie 0011, Runqun Xiong, Junzhou Luo
+  title: Improve global generalization for personalized federated learning within
+    a Stackelberg game.
+  venue: Mach. Learn.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/XieXL25
+  doi: 10.1007/S10994-025-06770-9
+  ee: https://doi.org/10.1007/s10994-025-06770-9
+  url: https://dblp.org/rec/journals/ml/XieXL25
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -31696,6 +31718,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681384
   ee: https://doi.org/10.1145/3664647.3681384
   url: https://dblp.org/rec/conf/mm/Yu0GFWK024
+- author: Qiushi Li, Wenwu Zhu 0001, Chao Wu 0002, Xinglin Pan, Fan Yang 0134, Yuezhi
+    Zhou, Yaoxue Zhang
+  title: 'InvisibleFL: Federated Learning over Non-Informative Intermediate Updates
+    against Multimedia Privacy Leakages.'
+  venue: ACM Multimedia
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Li00PYZZ20
+  doi: 10.1145/3394171.3413923
+  ee: https://doi.org/10.1145/3394171.3413923
+  url: https://dblp.org/rec/conf/mm/Li00PYZZ20
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -34539,6 +34573,17 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/3626728
   ee: https://doi.org/10.1145/3626728
   url: https://dblp.org/rec/journals/pacmmod/ZhuXZWSYYP23
+- author: Anran Li 0001, Yuanyuan Chen 0012, Jian Zhang 0087, Mingfei Cheng, Yihao
+    Huang 0001, Yueming Wu 0001, Anh Tuan Luu, Han Yu 0001
+  title: Historical Embedding-Guided Efficient Large-Scale Federated Graph Learning.
+  venue: Proc. ACM Manag. Data
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/LiCZC0WL024
+  doi: 10.1145/3654947
+  ee: https://doi.org/10.1145/3654947
+  url: https://dblp.org/rec/journals/pacmmod/LiCZC0WL024
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous

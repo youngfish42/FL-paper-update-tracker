@@ -9940,6 +9940,51 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I14.29481
   ee: https://doi.org/10.1609/aaai.v38i14.29481
   url: https://dblp.org/rec/conf/aaai/WangBBK24
+- author: Yuanyuan Chen 0012, Zichen Chen, Sheng Guo, Yansong Zhao, Zelei Liu, Pengcheng
+    Wu, Chengyi Yang, Zengxiang Li, Han Yu 0001
+  title: Efficient Training of Large-Scale Industrial Fault Diagnostic Models through
+    Federated Opportunistic Block Dropout.
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ChenCGZLWYLY23
+  doi: 10.1609/AAAI.V37I13.26836
+  ee: https://doi.org/10.1609/aaai.v37i13.26836
+  url: https://dblp.org/rec/conf/aaai/ChenCGZLWYLY23
+- author: Zelei Liu, Yuanyuan Chen 0012, Yansong Zhao, Han Yu 0001, Yang Liu 0165,
+    Renyi Bao, Jinpeng Jiang, Zaiqing Nie, Qian Xu 0005, Qiang Yang 0001
+  title: Contribution-Aware Federated Learning for Smart Healthcare.
+  venue: AAAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuCZY0BJNX022
+  doi: 10.1609/AAAI.V36I11.21505
+  ee: https://doi.org/10.1609/aaai.v36i11.21505
+  url: https://dblp.org/rec/conf/aaai/LiuCZY0BJNX022
+- author: Qingsong Zhang, Bin Gu 0001, Cheng Deng 0002, Heng Huang
+  title: Secure Bilevel Asynchronous Vertical Federated Learning with Backward Updating.
+  venue: AAAI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangGDH21
+  doi: 10.1609/AAAI.V35I12.17301
+  ee: https://doi.org/10.1609/aaai.v35i12.17301
+  url: https://dblp.org/rec/conf/aaai/ZhangGDH21
+- author: Yang Liu 0165, Anbu Huang, Yun Luo, He Huang, Youzhi Liu, Yuanyuan Chen
+    0012, Lican Feng, Tianjian Chen, Han Yu 0001, Qiang Yang 0001
+  title: 'FedVision: An Online Visual Object Detection Platform Powered by Federated
+    Learning.'
+  venue: AAAI
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuHLHLCFCYY20
+  doi: 10.1609/AAAI.V34I08.7021
+  ee: https://doi.org/10.1609/aaai.v34i08.7021
+  url: https://dblp.org/rec/conf/aaai/LiuHLHLCFCYY20
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -22139,6 +22184,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=B7v4QMR6Z9w
   url: https://dblp.org/rec/conf/iclr/AcarZNMWS21
+- author: Minghui Chen, Ruinan Jin, Wenlong Deng, Yuanyuan Chen 0012, Zhi Huang, Han
+    Yu 0001, Xiaoxiao Li
+  title: Can Textual Gradient Work in Federated Learning?
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/ChenJDCH0L25
+  doi: ''
+  ee: https://openreview.net/forum?id=Cy5IKvYbR3
+  url: https://dblp.org/rec/conf/iclr/ChenJDCH0L25
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -25307,6 +25363,29 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671948
   ee: https://doi.org/10.1145/3637528.3671948
   url: https://dblp.org/rec/conf/kdd/YuYGKWZ024
+- author: Hao Yu 0023, Xin Yang 0012, Xin Gao, Yan Kang 0001, Hao Wang 0068, Junbo
+    Zhang 0004, Tianrui Li 0001
+  title: Personalized Federated Continual Learning via Multi-Granularity Prompt.
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/YuYGKWZ024
+  doi: 10.1145/3637528.3671948
+  ee: https://doi.org/10.1145/3637528.3671948
+  url: https://dblp.org/rec/conf/kdd/YuYGKWZ024
+- author: Qingsong Zhang, Bin Gu 0001, Cheng Deng 0002, Songxiang Gu, Liefeng Bo,
+    Jian Pei 0001, Heng Huang
+  title: 'AsySQN: Faster Vertical Federated Learning Algorithms with Better Computation
+    Resource Utilization.'
+  venue: KDD
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ZhangGDGBPH21
+  doi: 10.1145/3447548.3467169
+  ee: https://doi.org/10.1145/3447548.3467169
+  url: https://dblp.org/rec/conf/kdd/ZhangGDGBPH21
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.

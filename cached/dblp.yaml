@@ -3246,6 +3246,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/812
   ee: https://doi.org/10.24963/ijcai.2025/812
   url: https://dblp.org/rec/conf/ijcai/ZongJH25
+- author: Jiahao Liu 0001, Jiang Wu 0011, Jinyu Chen, Miao Hu 0001, Yipeng Zhou, Di
+    Wu 0001
+  title: 'FedDWA: Personalized Federated Learning with Dynamic Weight Adjustment.'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LiuWCHZ023
+  doi: 10.24963/IJCAI.2023/444
+  ee: https://doi.org/10.24963/ijcai.2023/444
+  url: https://dblp.org/rec/conf/ijcai/LiuWCHZ023
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -9985,6 +9996,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V34I08.7021
   ee: https://doi.org/10.1609/aaai.v34i08.7021
   url: https://dblp.org/rec/conf/aaai/LiuHLHLCFCYY20
+- author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang
+    0004, Yu Zheng 0004
+  title: 'Win-Win: A Privacy-Preserving Federated Framework for Dual-Target Cross-Domain
+    Recommendation.'
+  venue: AAAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/Chen0SLXZZ23
+  doi: 10.1609/AAAI.V37I4.25531
+  ee: https://doi.org/10.1609/aaai.v37i4.25531
+  url: https://dblp.org/rec/conf/aaai/Chen0SLXZZ23
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -15972,6 +15995,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/5a3674849d6d6d23ac088b9a2552f323-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ShiZWZHY023
+- author: Li Fan 0005, Ruida Zhou, Chao Tian 0002, Cong Shen 0001
+  title: Federated Linear Bandits with Finite Adversarial Actions.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/FanZ0023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/c4e380fb74dec9da9c7212e834657aa9-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/FanZ0023
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -31809,6 +31842,17 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3394171.3413923
   ee: https://doi.org/10.1145/3394171.3413923
   url: https://dblp.org/rec/conf/mm/Li00PYZZ20
+- author: Xinyue Chen 0004, Jie Xu 0044, Yazhou Ren 0001, Xiaorong Pu, Ce Zhu, Xiaofeng
+    Zhu 0001, Zhifeng Hao, Lifang He 0001
+  title: Federated Deep Multi-View Clustering with Global Self-Supervision.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/ChenX0PZ0H023
+  doi: 10.1145/3581783.3612027
+  ee: https://doi.org/10.1145/3581783.3612027
+  url: https://dblp.org/rec/conf/mm/ChenX0PZ0H023
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -42052,6 +42096,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3701716.3715860
   ee: https://doi.org/10.1145/3701716.3715860
   url: https://dblp.org/rec/conf/www/JiangZZLLY25
+- author: Hengzhi Wang, Haoran Chen 0012, Minghe Ma, Laizhong Cui
+  title: 'Dealing with Noisy Data in Federated Learning: An Incentive Mechanism with
+    Flexible Pricing.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangCMC25
+  doi: 10.1145/3696410.3714961
+  ee: https://doi.org/10.1145/3696410.3714961
+  url: https://dblp.org/rec/conf/www/WangCMC25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

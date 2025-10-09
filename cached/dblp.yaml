@@ -16073,6 +16073,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/412fb8623bf8b6d56fb6285ea295447e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Chen0XLP024
+- author: "Minsu Kim 0003, Walid Saad 0001, M\xE9rouane Debbah, Choong Seon Hong"
+  title: 'SpaFL: Communication-Efficient Federated Learning With Sparse Models And
+    Low Computational Overhead.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/0003SDH24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/9d6d351ba8028a50382f42a065d31bf0-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/0003SDH24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -31921,6 +31932,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3581783.3612027
   ee: https://doi.org/10.1145/3581783.3612027
   url: https://dblp.org/rec/conf/mm/ChenX0PZ0H023
+- author: Xingyuan Mao, Yuwen Liu 0003, Lianyong Qi, Li Duan, Xiaolong Xu 0001, Xuyun
+    Zhang, Wanchun Dou, Amin Beheshti, Xiaokang Zhou
+  title: Cluster-driven Personalized Federated Recommendation with Interest-aware
+    Graph Convolution Network for Multimedia.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/MaoLQD0ZDBZ24
+  doi: 10.1145/3664647.3680788
+  ee: https://doi.org/10.1145/3664647.3680788
+  url: https://dblp.org/rec/conf/mm/MaoLQD0ZDBZ24
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

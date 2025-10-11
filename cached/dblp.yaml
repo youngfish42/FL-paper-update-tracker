@@ -10065,6 +10065,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V36I6.20555
   ee: https://doi.org/10.1609/aaai.v36i6.20555
   url: https://dblp.org/rec/conf/aaai/BibikarVWC22
+- author: Jingxin Liu 0006, Jieren Cheng, Renda Han, Wenxuan Tu, Jiaxin Wang, Xin
+    Peng
+  title: Federated Graph-Level Clustering Network.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuCHTWP25
+  doi: 10.1609/AAAI.V39I18.34077
+  ee: https://doi.org/10.1609/aaai.v39i18.34077
+  url: https://dblp.org/rec/conf/aaai/LiuCHTWP25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

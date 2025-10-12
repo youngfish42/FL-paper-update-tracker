@@ -23079,6 +23079,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06770-9
   ee: https://doi.org/10.1007/s10994-025-06770-9
   url: https://dblp.org/rec/journals/ml/XieXL25
+- author: Lingzhi Gao, Zexi Li 0001, Xinyi Shang, Yang Lu 0009, Chao Wu 0001
+  title: 'FediOS: decoupling orthogonal subspaces for personalization in feature-skew
+    federated learning.'
+  venue: Mach. Learn.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/GaoLSLW25
+  doi: 10.1007/S10994-025-06861-7
+  ee: https://doi.org/10.1007/s10994-025-06861-7
+  url: https://dblp.org/rec/journals/ml/GaoLSLW25
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -25521,6 +25532,17 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3690624.3709346
   ee: https://doi.org/10.1145/3690624.3709346
   url: https://dblp.org/rec/conf/kdd/WenFWHX0HWJ25
+- author: Hao Yu 0023, Xin Yang 0012, Xin Gao 0038, Yan Kang 0001, Hao Wang 0068,
+    Junbo Zhang 0004, Tianrui Li 0001
+  title: Personalized Federated Continual Learning via Multi-Granularity Prompt.
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/YuYGKWZ024
+  doi: 10.1145/3637528.3671948
+  ee: https://doi.org/10.1145/3637528.3671948
+  url: https://dblp.org/rec/conf/kdd/YuYGKWZ024
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -31967,6 +31989,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3680788
   ee: https://doi.org/10.1145/3664647.3680788
   url: https://dblp.org/rec/conf/mm/MaoLQD0ZDBZ24
+- author: Hao Yu 0023, Xin Yang 0012, Xin Gao 0038, Yihui Feng, Hao Wang 0068, Yan
+    Kang 0001, Tianrui Li 0001
+  title: Overcoming Spatial-Temporal Catastrophic Forgetting for Federated Class-Incremental
+    Learning.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Yu0GFWK024
+  doi: 10.1145/3664647.3681384
+  ee: https://doi.org/10.1145/3664647.3681384
+  url: https://dblp.org/rec/conf/mm/Yu0GFWK024
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -46258,6 +46292,17 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2025.3566864
   ee: https://doi.org/10.1109/TC.2025.3566864
   url: https://dblp.org/rec/journals/tc/YuanDLGCWWZ25
+- author: Qinglun Li, Miao Zhang 0037, Nan Yin, Quanjun Yin, Li Shen 0008, Xiaochun
+    Cao
+  title: Asymmetrically Decentralized Federated Learning.
+  venue: IEEE Trans. Computers
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/LiZYYSC25
+  doi: 10.1109/TC.2025.3569185
+  ee: https://doi.org/10.1109/TC.2025.3569185
+  url: https://dblp.org/rec/journals/tc/LiZYYSC25
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

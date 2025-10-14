@@ -3280,6 +3280,29 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/633
   ee: https://doi.org/10.24963/ijcai.2025/633
   url: https://dblp.org/rec/conf/ijcai/LiaoXFHD0Z25
+- author: Tian Chen, Wenke Huang, Zhihao Wang, Zekun Shi, He Li 0054, Wenhui Dong,
+    Mang Ye, Bo Du 0001, Yongchao Xu
+  title: Pixel-wise Divide and Conquer for Federated Vessel Segmentation.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ChenHWSLDYDX25
+  doi: 10.24963/IJCAI.2025/540
+  ee: https://doi.org/10.24963/ijcai.2025/540
+  url: https://dblp.org/rec/conf/ijcai/ChenHWSLDYDX25
+- author: Jinqian Chen, Haoyu Tang 0002, Junhao Cheng, Ming Yan 0008, Ji Zhang 0011,
+    Mingzhu Xu, Yupeng Hu, Liqiang Nie
+  title: 'Breaking Barriers of System Heterogeneity: Straggler-Tolerant Multimodal
+    Federated Learning via Knowledge Distillation.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ChenTCYZXHN24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/419
+  url: https://dblp.org/rec/conf/ijcai/ChenTCYZXHN24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -16095,6 +16118,27 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/9d6d351ba8028a50382f42a065d31bf0-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/0003SDH24
+- author: Wenke Huang, Mang Ye, Zekun Shi, Guancheng Wan, He Li 0054, Bo Du 0001
+  title: Parameter Disparities Dissection for Backdoor Defense in Heterogeneous Federated
+    Learning.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/HuangYSWL024
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/db0ee27cb50dd9087b133f6e7d28a90e-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/HuangYSWL024
+- author: Lin Wang, Yongxin Guo 0001, Tao Lin, Xiaoying Tang 0002
+  title: 'DELTA: Diverse Client Sampling for Fasting Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WangGL023
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/949c57d30f8791e3ae42646081b3c102-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WangGL023
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -19161,6 +19205,39 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=0nMzOmkBHC
   url: https://dblp.org/rec/conf/icml/JingYZZ24
+- author: Yongxin Guo 0001, Xiaoying Tang 0002, Tao Lin
+  title: 'FedRC: Tackling Diverse Distribution Shifts Challenge in Federated Learning
+    by Robust Clustering.'
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/GuoTL24
+  doi: ''
+  ee: https://openreview.net/forum?id=kc4dZYJlJG
+  url: https://dblp.org/rec/conf/icml/GuoTL24
+- author: Wenke Huang, Zekun Shi, Mang Ye, He Li 0054, Bo Du 0001
+  title: Self-Driven Entropy Aggregation for Byzantine-Robust Heterogeneous Federated
+    Learning.
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/HuangSYL024
+  doi: ''
+  ee: https://openreview.net/forum?id=k2axqNsVVO
+  url: https://dblp.org/rec/conf/icml/HuangSYL024
+- author: Yongxin Guo 0001, Xiaoying Tang 0002, Tao Lin
+  title: 'FedBR: Improving Federated Learning on Heterogeneous Data via Local Learning
+    Bias Reduction.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Guo0L23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/guo23g.html
+  url: https://dblp.org/rec/conf/icml/Guo0L23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -22318,6 +22395,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=Cy5IKvYbR3
   url: https://dblp.org/rec/conf/iclr/ChenJDCH0L25
+- author: Yongxin Guo 0001, Xiaoying Tang 0002, Tao Lin
+  title: 'Enhancing Clustered Federated Learning: Integration of Strategies and Improved
+    Methodologies.'
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Guo0L25
+  doi: ''
+  ee: https://openreview.net/forum?id=zPDpdk3V8L
+  url: https://dblp.org/rec/conf/iclr/Guo0L25
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -23667,6 +23755,29 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   ee: https://doi.org/10.1109/TPAMI.2025.3581555
   url: https://dblp.org/rec/journals/pami/HuangLCGH25
 - author: Wenke Huang, Mang Ye, Zekun Shi, Guancheng Wan, He Li 0054, Bo Du 0001,
+    Qiang Yang 0008
+  title: 'Federated Learning for Generalization, Robustness, Fairness: A Survey and
+    Benchmark.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/HuangYSWLDY24
+  doi: 10.1109/TPAMI.2024.3418862
+  ee: https://doi.org/10.1109/TPAMI.2024.3418862
+  url: https://dblp.org/rec/journals/pami/HuangYSWLDY24
+- author: Wenke Huang 0003, Mang Ye, Zekun Shi, Bo Du 0001
+  title: Generalizable Heterogeneous Federated Cross-Correlation and Instance Similarity
+    Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/HuangYSD24
+  doi: 10.1109/TPAMI.2023.3327373
+  ee: https://doi.org/10.1109/TPAMI.2023.3327373
+  url: https://dblp.org/rec/journals/pami/HuangYSD24
+- author: Wenke Huang 0003, Mang Ye, Zekun Shi, Guancheng Wan, He Li 0054, Bo Du 0001,
     Qiang Yang 0008
   title: 'Federated Learning for Generalization, Robustness, Fairness: A Survey and
     Benchmark.'
@@ -29500,6 +29611,27 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.01565
   ee: https://doi.org/10.1109/CVPR52729.2023.01565
   url: https://dblp.org/rec/conf/cvpr/HuangYSL023
+- author: Zihan Tan, Guancheng Wan, Wenke Huang, He Li 0054, Guibin Zhang, Carl Yang
+    0001, Mang Ye
+  title: 'FedSPA: Generalizable Federated Graph Learning under Homophily Heterogeneity.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/TanWHLZ0Y25
+  doi: 10.1109/CVPR52734.2025.01441
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Tan_FedSPA_Generalizable_Federated_Graph_Learning_under_Homophily_Heterogeneity_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/TanWHLZ0Y25
+- author: Wenke Huang 0003, Mang Ye, Bo Du 0001
+  title: Learn from Others and Be Yourself in Heterogeneous Federated Learning.
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/HuangY022
+  doi: 10.1109/CVPR52688.2022.00990
+  ee: https://doi.org/10.1109/CVPR52688.2022.00990
+  url: https://dblp.org/rec/conf/cvpr/HuangY022
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -30970,6 +31102,16 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-20059-5_39
   ee: https://doi.org/10.1007/978-3-031-20059-5_39
   url: https://dblp.org/rec/conf/eccv/ZhouW22
+- author: Wenke Huang 0003, Mang Ye, Zekun Shi, Bo Du 0001, Dacheng Tao
+  title: Fisher Calibration for Backdoor-Robust Heterogeneous Federated Learning.
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/HuangYSDT24
+  doi: 10.1007/978-3-031-72633-0_14
+  ee: https://doi.org/10.1007/978-3-031-72633-0_14
+  url: https://dblp.org/rec/conf/eccv/HuangYSDT24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.
@@ -32034,6 +32176,16 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681384
   ee: https://doi.org/10.1145/3664647.3681384
   url: https://dblp.org/rec/conf/mm/Yu0GFWK024
+- author: Wenke Huang 0003, Mang Ye, Bo Du 0001, Xiang Gao
+  title: Few-Shot Model Agnostic Federated Learning.
+  venue: ACM Multimedia
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/HuangY0G22
+  doi: 10.1145/3503161.3548764
+  ee: https://doi.org/10.1145/3503161.3548764
+  url: https://dblp.org/rec/conf/mm/HuangY0G22
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

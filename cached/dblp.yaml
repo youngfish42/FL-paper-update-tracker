@@ -3303,6 +3303,38 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/419
   url: https://dblp.org/rec/conf/ijcai/ChenTCYZXHN24
+- author: Tian Chen, Wenke Huang 0003, Zhihao Wang, Zekun Shi, He Li 0054, Wenhui
+    Dong, Mang Ye, Bo Du 0001, Yongchao Xu
+  title: Pixel-wise Divide and Conquer for Federated Vessel Segmentation.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ChenHWSLDYDX25
+  doi: 10.24963/IJCAI.2025/540
+  ee: https://doi.org/10.24963/ijcai.2025/540
+  url: https://dblp.org/rec/conf/ijcai/ChenHWSLDYDX25
+- author: Zhihao Wang, Wenke Huang 0003, Tian Chen, Zekun Shi, Guancheng Wan, Yu Qiao,
+    Bin Yang 0026, Jian Wang, Bing Li, Mang Ye
+  title: An Empirical Study of Federated Prompt Learning for Vision Language Model.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/WangHCSWQYWLY25
+  doi: 10.24963/IJCAI.2025/1188
+  ee: https://doi.org/10.24963/ijcai.2025/1188
+  url: https://dblp.org/rec/conf/ijcai/WangHCSWQYWLY25
+- author: Wenke Huang 0003, Guancheng Wan, Mang Ye, Bo Du 0001
+  title: Federated Graph Semantic and Structural Learning.
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/HuangWY023
+  doi: 10.24963/IJCAI.2023/426
+  ee: https://doi.org/10.24963/ijcai.2023/426
+  url: https://dblp.org/rec/conf/ijcai/HuangWY023
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -10099,6 +10131,37 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I18.34077
   ee: https://doi.org/10.1609/aaai.v39i18.34077
   url: https://dblp.org/rec/conf/aaai/LiuCHTWP25
+- author: Wei Shen 0006, Wenke Huang 0003, Guancheng Wan, Mang Ye
+  title: Label-Free Backdoor Attacks in Vertical Federated Learning.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/0006HWY25
+  doi: 10.1609/AAAI.V39I19.34246
+  ee: https://doi.org/10.1609/aaai.v39i19.34246
+  url: https://dblp.org/rec/conf/aaai/0006HWY25
+- author: Pengyu Qiu, Yuwen Pu, Yongchao Liu 0004, Wenyan Liu, Yun Yue, Xiaowei Zhu,
+    Lichun Li, Jinbao Li, Shouling Ji
+  title: 'Integer Is Enough: When Vertical Federated Learning Meets Rounding.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/QiuPLLYZLLJ24
+  doi: 10.1609/AAAI.V38I13.29388
+  ee: https://doi.org/10.1609/aaai.v38i13.29388
+  url: https://dblp.org/rec/conf/aaai/QiuPLLYZLLJ24
+- author: Guancheng Wan, Wenke Huang 0003, Mang Ye
+  title: Federated Graph Learning under Domain Shift with Generalizable Prototypes.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WanHY24
+  doi: 10.1609/AAAI.V38I14.29468
+  ee: https://doi.org/10.1609/aaai.v38i14.29468
+  url: https://dblp.org/rec/conf/aaai/WanHY24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -16139,6 +16202,38 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/949c57d30f8791e3ae42646081b3c102-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WangGL023
+- author: Wenke Huang 0003, Mang Ye, Zekun Shi, Guancheng Wan, He Li 0054, Bo Du 0001
+  title: Parameter Disparities Dissection for Backdoor Defense in Heterogeneous Federated
+    Learning.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/HuangYSWL024
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/db0ee27cb50dd9087b133f6e7d28a90e-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/HuangYSWL024
+- author: Zihan Tan, Guancheng Wan, Wenke Huang 0003, Mang Ye
+  title: 'FedSSP: Federated Graph Learning with Spectral Knowledge and Personalized
+    Preference.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/TanWHY24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/3d226fb8fbd6ee6ec70d0427f1319707-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/TanWHY24
+- author: Xiyuan Yang, Wenke Huang 0003, Mang Ye
+  title: Dynamic Personalized Federated Learning with Adaptive Differential Privacy.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YangHY23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/e4724af0e2a0d52ce5a0a4e084b87f59-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YangHY23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -19238,6 +19333,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/guo23g.html
   url: https://dblp.org/rec/conf/icml/Guo0L23
+- author: Wenke Huang 0003, Zekun Shi, Mang Ye, He Li 0054, Bo Du 0001
+  title: Self-Driven Entropy Aggregation for Byzantine-Robust Heterogeneous Federated
+    Learning.
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/HuangSYL024
+  doi: ''
+  ee: https://openreview.net/forum?id=k2axqNsVVO
+  url: https://dblp.org/rec/conf/icml/HuangSYL024
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -22406,6 +22512,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=zPDpdk3V8L
   url: https://dblp.org/rec/conf/iclr/Guo0L25
+- author: Guancheng Wan, Zitong Shi, Wenke Huang 0003, Guibin Zhang, Dacheng Tao,
+    Mang Ye
+  title: Energy-based Backdoor Defense Against Federated Graph Learning.
+  venue: ICLR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/WanSHZTY25
+  doi: ''
+  ee: https://openreview.net/forum?id=5Jc7r5aqHJ
+  url: https://dblp.org/rec/conf/iclr/WanSHZTY25
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -26738,6 +26855,17 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3576915.3623134
   ee: https://doi.org/10.1145/3576915.3623134
   url: https://dblp.org/rec/conf/ccs/LiLLX23
+- author: Shuangqing Xu, Yifeng Zheng 0001, Zhongyun Hua
+  title: 'Camel: Communication-Efficient and Maliciously Secure Federated Learning
+    in the Shuffle Model of Differential Privacy.'
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/XuZH24
+  doi: 10.1145/3658644.3690200
+  ee: https://doi.org/10.1145/3658644.3690200
+  url: https://dblp.org/rec/conf/ccs/XuZH24
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist
@@ -29632,6 +29760,48 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.00990
   ee: https://doi.org/10.1109/CVPR52688.2022.00990
   url: https://dblp.org/rec/conf/cvpr/HuangY022
+- author: Zihan Tan, Guancheng Wan, Wenke Huang 0003, He Li 0054, Guibin Zhang, Carl
+    Yang 0001, Mang Ye
+  title: 'FedSPA: Generalizable Federated Graph Learning under Homophily Heterogeneity.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/TanWHLZ0Y25
+  doi: 10.1109/CVPR52734.2025.01441
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Tan_FedSPA_Generalizable_Federated_Graph_Learning_under_Homophily_Heterogeneity_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/TanWHLZ0Y25
+- author: Yuhang Chen, Wenke Huang 0003, Mang Ye
+  title: Fair Federated Learning Under Domain Skew with Local Consistency and Domain
+    Diversity.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ChenHY24
+  doi: 10.1109/CVPR52733.2024.01148
+  ee: https://doi.org/10.1109/CVPR52733.2024.01148
+  url: https://dblp.org/rec/conf/cvpr/ChenHY24
+- author: Xiyuan Yang, Wenke Huang 0003, Mang Ye
+  title: 'FedAS: Bridging Inconsistency in Personalized Federated Learning.'
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/YangHY24
+  doi: 10.1109/CVPR52733.2024.01139
+  ee: https://doi.org/10.1109/CVPR52733.2024.01139
+  url: https://dblp.org/rec/conf/cvpr/YangHY24
+- author: Wenke Huang 0003, Mang Ye, Zekun Shi, He Li 0054, Bo Du 0001
+  title: 'Rethinking Federated Learning with Domain Shift: A Prototype View.'
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/HuangYSL023
+  doi: 10.1109/CVPR52729.2023.01565
+  ee: https://doi.org/10.1109/CVPR52729.2023.01565
+  url: https://dblp.org/rec/conf/cvpr/HuangYSL023
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

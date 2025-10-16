@@ -10162,6 +10162,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I14.29468
   ee: https://doi.org/10.1609/aaai.v38i14.29468
   url: https://dblp.org/rec/conf/aaai/WanHY24
+- author: Pengyu Qiu, Yuwen Pu, Yongchao Liu 0004, Wenyan Liu, Yun Yue, Xiaowei Zhu
+    0001, Lichun Li, Jinbao Li, Shouling Ji
+  title: 'Integer Is Enough: When Vertical Federated Learning Meets Rounding.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/QiuPLLYZLLJ24
+  doi: 10.1609/AAAI.V38I13.29388
+  ee: https://doi.org/10.1609/aaai.v38i13.29388
+  url: https://dblp.org/rec/conf/aaai/QiuPLLYZLLJ24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -16234,6 +16245,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/e4724af0e2a0d52ce5a0a4e084b87f59-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangHY23
+- author: Jianyu Wang 0019, Qinghua Liu, Hao Liang 0002, Gauri Joshi, H. Vincent Poor
+  title: Tackling the Objective Inconsistency Problem in Heterogeneous Federated Optimization.
+  venue: NeurIPS
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WangLLJP20
+  doi: ''
+  ee: https://proceedings.neurips.cc/paper/2020/hash/564127c03caab942e503ee6f810f54fd-Abstract.html
+  url: https://dblp.org/rec/conf/nips/WangLLJP20
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -19344,6 +19365,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=k2axqNsVVO
   url: https://dblp.org/rec/conf/icml/HuangSYL024
+- author: Rui Ye 0001, Mingkai Xu, Jianyu Wang 0019, Chenxin Xu, Siheng Chen, Yanfeng
+    Wang 0001
+  title: 'FedDisco: Federated Learning with Discrepancy-Aware Collaboration.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/YeXWXCW23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/ye23f.html
+  url: https://dblp.org/rec/conf/icml/YeXWXCW23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -39897,6 +39929,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM42981.2021.9488679
   ee: https://doi.org/10.1109/INFOCOM42981.2021.9488679
   url: https://dblp.org/rec/conf/infocom/LuoLWHT21
+- author: Tao Wu 0011, Yuben Qu, Chunsheng Liu 0003, Yuqian Jing, Feiyu Wu, Haipeng
+    Dai 0001, Chao Dong 0001, Jiannong Cao 0001
+  title: Joint Edge Aggregation and Association for Cost-Efficient Multi-Cell Federated
+    Learning.
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/WuQLJWDDC23
+  doi: 10.1109/INFOCOM53939.2023.10229060
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10229060
+  url: https://dblp.org/rec/conf/infocom/WuQLJWDDC23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

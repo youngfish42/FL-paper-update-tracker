@@ -10173,6 +10173,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I13.29388
   ee: https://doi.org/10.1609/aaai.v38i13.29388
   url: https://dblp.org/rec/conf/aaai/QiuPLLYZLLJ24
+- author: Hongyan Bao, Pengwen Chen, Ying Sun 0003, Zhize Li 0001
+  title: 'EFSkip: A New Error Feedback with Linear Speedup for Compressed Federated
+    Learning with Arbitrary Data Heterogeneity.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/BaoC0L25
+  doi: 10.1609/AAAI.V39I15.33700
+  ee: https://doi.org/10.1609/aaai.v39i15.33700
+  url: https://dblp.org/rec/conf/aaai/BaoC0L25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -11179,6 +11190,17 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v258/zeng25b.html
   url: https://dblp.org/rec/conf/aistats/ZengXLPWT25
+- author: Sijin Chen, Zhize Li 0001, Yuejie Chi
+  title: Escaping Saddle Points in Heterogeneous Federated Learning via Distributed
+    SGD with Communication Compression.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ChenLC24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/chen24d.html
+  url: https://dblp.org/rec/conf/aistats/ChenLC24
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -16255,6 +16277,28 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2020/hash/564127c03caab942e503ee6f810f54fd-Abstract.html
   url: https://dblp.org/rec/conf/nips/WangLLJP20
+- author: Lingxiao Huang, Zhize Li 0001, Jialin Sun, Haoyu Zhao
+  title: 'Coresets for Vertical Federated Learning: Regularized Linear Regression
+    and $K$-Means Clustering.'
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/HuangLSZ22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/be7b70477c8fca697f14b1dbb1c086d1-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/HuangLSZ22
+- author: Zhize Li 0001, Haoyu Zhao, Boyue Li, Yuejie Chi
+  title: 'SoteriaFL: A Unified Framework for Private Federated Learning with Communication
+    Compression.'
+  venue: NeurIPS
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiZLC22
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2022/hash/1b645a77cf48821afc3ee7e5b5d42617-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiZLC22
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -19376,6 +19420,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/ye23f.html
   url: https://dblp.org/rec/conf/icml/YeXWXCW23
+- author: "Zhize Li 0001, Dmitry Kovalev, Xun Qian, Peter Richt\xE1rik"
+  title: Acceleration for Compressed Gradient Descent in Distributed and Federated
+    Optimization.
+  venue: ICML
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LiKQR20
+  doi: ''
+  ee: http://proceedings.mlr.press/v119/li20g.html
+  url: https://dblp.org/rec/conf/icml/LiKQR20
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -39941,6 +39996,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10229060
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10229060
   url: https://dblp.org/rec/conf/infocom/WuQLJWDDC23
+- author: Hongjia Li 0002, Leshui Lv, Ding Tang, Yan Zhang 0014, Weiping Wang 0005,
+    Xinghua Yang
+  title: 'VaniKG: Vanishing Key Gradient Attack and Defense for Robust Federated Aggregation.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiLT0WY25
+  doi: 10.1109/INFOCOM55648.2025.11044620
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044620
+  url: https://dblp.org/rec/conf/infocom/LiLT0WY25
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

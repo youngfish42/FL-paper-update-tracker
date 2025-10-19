@@ -47564,6 +47564,17 @@ federate%20venue%3ANAACL-HLT%3A:
   doi: 10.18653/V1/2024.FINDINGS-NAACL.286
   ee: https://doi.org/10.18653/v1/2024.findings-naacl.286
   url: https://dblp.org/rec/conf/naacl/WangYZKRZWMYH24
+- author: Yunchao Zhang, Zonglin Di, Kaiwen Zhou, Cihang Xie, Xin Wang 0119
+  title: Navigation as Attackers Wish? Towards Building Robust Embodied Agents under
+    Federated Learning.
+  venue: NAACL-HLT
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/ZhangDZXW24
+  doi: 10.18653/V1/2024.NAACL-LONG.57
+  ee: https://doi.org/10.18653/v1/2024.naacl-long.57
+  url: https://dblp.org/rec/conf/naacl/ZhangDZXW24
 federate%20venue%3ASOSP%3A:
 - author: Elizabeth Margolin, Karan Newatia, Tao Luo, Edo Roth, Andreas Haeberlen
   title: 'Arboretum: A Planner for Large-Scale Federated Analytics with Differential

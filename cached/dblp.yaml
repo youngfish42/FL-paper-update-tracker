@@ -42742,6 +42742,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645513
   ee: https://doi.org/10.1145/3589334.3645513
   url: https://dblp.org/rec/conf/www/00320HY0024
+- author: Xue Yang 0003, Yan Feng, Weijun Fang, Jun Shao 0001, Xiaohu Tang 0004, Shu-Tao
+    Xia, Rongxing Lu
+  title: An Accuracy-Lossless Perturbation Method for Defending Privacy Attacks in
+    Federated Learning.
+  venue: WWW
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/0003FFSTXL22
+  doi: 10.1145/3485447.3512233
+  ee: https://doi.org/10.1145/3485447.3512233
+  url: https://dblp.org/rec/conf/www/0003FFSTXL22
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

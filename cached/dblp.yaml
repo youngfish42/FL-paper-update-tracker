@@ -29889,6 +29889,18 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.01565
   ee: https://doi.org/10.1109/CVPR52729.2023.01565
   url: https://dblp.org/rec/conf/cvpr/HuangYSL023
+- author: Yijie Liu, Xinyi Shang, Yiqun Zhang 0006, Yang Lu 0009, Chen Gong 0002,
+    Jing-Hao Xue, Hanzi Wang
+  title: 'Mind the Gap: Confidence Discrepancy Can Guide Federated Semi-Supervised
+    Learning Across Pseudo-Mismatch.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/LiuSZ0GXW25
+  doi: 10.1109/CVPR52734.2025.00951
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Mind_the_Gap_Confidence_Discrepancy_Can_Guide_Federated_Semi-Supervised_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/LiuSZ0GXW25
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

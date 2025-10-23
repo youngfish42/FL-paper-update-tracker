@@ -25870,6 +25870,49 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671948
   ee: https://doi.org/10.1145/3637528.3671948
   url: https://dblp.org/rec/conf/kdd/YuYGKWZ024
+- author: Jun Bai, Yiliao Song, Di Wu 0050, Atul Sajjanhar, Yong Xiang 0001, Wei Zhou
+    0044, Xiaohui Tao 0001, Yan Li 0002, Yue Li 0046
+  title: A Unified Solution to Diverse Heterogeneities in One-Shot Federated Learning.
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/BaiS0S0000025
+  doi: 10.1145/3711896.3736825
+  ee: https://doi.org/10.1145/3711896.3736825
+  url: https://dblp.org/rec/conf/kdd/BaiS0S0000025
+- author: Zeheng Fan, Yuxiang Zeng, Zhuanglin Zheng, Binhan Yang, Yongxin Tong
+  title: 'FedVS: Towards Federated Vector Similarity Search with Filters.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/FanZZYT25
+  doi: 10.1145/3711896.3736958
+  ee: https://doi.org/10.1145/3711896.3736958
+  url: https://dblp.org/rec/conf/kdd/FanZZYT25
+- author: Wei Guo, Yiqi Tong, Yiyang Duan, Fuzhen Zhuang, Xiao Zhang 0015, Zhaojun
+    Hu, Jin Dong
+  title: 'FEZE: Alignment-Flexible Zero-Shot Vertical Federated Learning.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/GuoTDZ0HD25
+  doi: 10.1145/3711896.3736959
+  ee: https://doi.org/10.1145/3711896.3736959
+  url: https://dblp.org/rec/conf/kdd/GuoTDZ0HD25
+- author: Runze Lei, Pinghui Wang, Juxiang Zeng, Chenxu Wang 0001, Hongbin Pei, Junzhou
+    Zhao
+  title: 'PARSIFAL: Private and Robust Sign Federated Learning.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/LeiWZ0PZ25
+  doi: 10.1145/3711896.3737074
+  ee: https://doi.org/10.1145/3711896.3737074
+  url: https://dblp.org/rec/conf/kdd/LeiWZ0PZ25
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.

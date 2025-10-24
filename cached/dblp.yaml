@@ -3335,6 +3335,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2023/426
   ee: https://doi.org/10.24963/ijcai.2023/426
   url: https://dblp.org/rec/conf/ijcai/HuangWY023
+- author: Jirui Yang, Peng Chen, Zhihui Lu 0002, Jianping Zeng, Qiang Duan, Xin Du,
+    Ruijun Deng
+  title: Backdoor Attack on Vertical Federated Graph Neural Network Learning.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/YangCLZDDD25
+  doi: 10.24963/IJCAI.2025/877
+  ee: https://doi.org/10.24963/ijcai.2025/877
+  url: https://dblp.org/rec/conf/ijcai/YangCLZDDD25
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng

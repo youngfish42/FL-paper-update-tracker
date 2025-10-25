@@ -19442,6 +19442,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: http://proceedings.mlr.press/v119/li20g.html
   url: https://dblp.org/rec/conf/icml/LiKQR20
+- author: Jinkyu Kim 0005, Geeho Kim, Bohyung Han
+  title: Multi-Level Branched Regularization for Federated Learning.
+  venue: ICML
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/KimKH22
+  doi: ''
+  ee: https://proceedings.mlr.press/v162/kim22a.html
+  url: https://dblp.org/rec/conf/icml/KimKH22
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -29955,6 +29965,26 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52734.2025.00951
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Mind_the_Gap_Confidence_Discrepancy_Can_Guide_Federated_Semi-Supervised_Learning_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/LiuSZ0GXW25
+- author: Geeho Kim, Jinkyu Kim 0005, Bohyung Han
+  title: Communication-Efficient Federated Learning with Accelerated Client Gradient.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/KimKH24
+  doi: 10.1109/CVPR52733.2024.01177
+  ee: https://doi.org/10.1109/CVPR52733.2024.01177
+  url: https://dblp.org/rec/conf/cvpr/KimKH24
+- author: Seonguk Seo, Jinkyu Kim 0005, Geeho Kim, Bohyung Han
+  title: Relaxed Contrastive Learning for Federated Learning.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/SeoKKH24
+  doi: 10.1109/CVPR52733.2024.01167
+  ee: https://doi.org/10.1109/CVPR52733.2024.01167
+  url: https://dblp.org/rec/conf/cvpr/SeoKKH24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

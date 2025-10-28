@@ -3346,6 +3346,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/877
   ee: https://doi.org/10.24963/ijcai.2025/877
   url: https://dblp.org/rec/conf/ijcai/YangCLZDDD25
+- author: Jirui Yang, Peng Chen 0030, Zhihui Lu 0002, Jianping Zeng 0002, Qiang Duan,
+    Xin Du 0002, Ruijun Deng
+  title: Backdoor Attack on Vertical Federated Graph Neural Network Learning.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/YangCLZDDD25
+  doi: 10.24963/IJCAI.2025/877
+  ee: https://doi.org/10.24963/ijcai.2025/877
+  url: https://dblp.org/rec/conf/ijcai/YangCLZDDD25
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -22631,6 +22642,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=5Jc7r5aqHJ
   url: https://dblp.org/rec/conf/iclr/WanSHZTY25
+- author: Di Wu 0050, Jun Bai, Yiliao Song, Junjun Chen, Wei Zhou 0044, Yong Xiang
+    0001, Atul Sajjanhar
+  title: 'FedInverse: Evaluating Privacy Leakage in Federated Learning.'
+  venue: ICLR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/0050BSCZ0S24
+  doi: ''
+  ee: https://openreview.net/forum?id=nTNgkEIfeb
+  url: https://dblp.org/rec/conf/iclr/0050BSCZ0S24
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.

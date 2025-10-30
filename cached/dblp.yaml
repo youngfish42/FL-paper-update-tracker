@@ -19463,6 +19463,18 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/kim22a.html
   url: https://dblp.org/rec/conf/icml/KimKH22
+- author: Feilong Zhang 0002, Xianming Liu 0005, Shiyi Lin, Gang Wu 0010, Xiong Zhou,
+    Junjun Jiang, Xiangyang Ji
+  title: 'No One Idles: Efficient Heterogeneous Federated Learning with Parallel Edge
+    and Server Computation.'
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ZhangLLWZJJ23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/zhang23aa.html
+  url: https://dblp.org/rec/conf/icml/ZhangLLWZJJ23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -24036,6 +24048,17 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2024.3418862
   ee: https://doi.org/10.1109/TPAMI.2024.3418862
   url: https://dblp.org/rec/journals/pami/HuangYSWLDY24
+- author: Qinglun Li, Li Shen 0008, Guanghao Li 0002, Quanjun Yin, Dacheng Tao
+  title: 'DFedADMM: Dual Constraint Controlled Model Inconsistency for Decentralize
+    Federated Learning.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiSLYT25
+  doi: 10.1109/TPAMI.2025.3546659
+  ee: https://doi.org/10.1109/TPAMI.2025.3546659
+  url: https://dblp.org/rec/journals/pami/LiSLYT25
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -36687,6 +36710,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE53745.2022.00015
   ee: https://doi.org/10.1109/ICDE53745.2022.00015
   url: https://dblp.org/rec/conf/icde/WangXXLWH22
+- author: Yihang Cheng 0002, Lan Zhang 0002, Junyang Wang 0004, Xiaokai Chu, Dongbo
+    Huang, Lan Xu 0001
+  title: 'FedMix: Boosting with Data Mixture for Vertical Federated Learning.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/00020WCHX24
+  doi: 10.1109/ICDE60146.2024.00261
+  ee: https://doi.org/10.1109/ICDE60146.2024.00261
+  url: https://dblp.org/rec/conf/icde/00020WCHX24
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou

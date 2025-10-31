@@ -35013,6 +35013,18 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3539618.3591748
   ee: https://doi.org/10.1145/3539618.3591748
   url: https://dblp.org/rec/conf/sigir/PangZZWX23
+- author: Mingzhe Han, Dongsheng Li 0002, Jiafeng Xia, Jiahao Liu 0009, Hansu Gu,
+    Peng Zhang 0060, Ning Gu 0001, Tun Lu
+  title: 'FedCIA: Federated Collaborative Information Aggregation for Privacy-Preserving
+    Recommendation.'
+  venue: SIGIR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/Han0XLGZGL25
+  doi: 10.1145/3726302.3729977
+  ee: https://doi.org/10.1145/3726302.3729977
+  url: https://dblp.org/rec/conf/sigir/Han0XLGZGL25
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -36721,6 +36733,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE60146.2024.00261
   ee: https://doi.org/10.1109/ICDE60146.2024.00261
   url: https://dblp.org/rec/conf/icde/00020WCHX24
+- author: Lun Wang 0003, Yang Xu 0020, Hongli Xu 0001, Jianchun Liu, Zhiyuan Wang
+    0002, Liusheng Huang
+  title: Enhancing Federated Learning with In-Cloud Unlabeled Data.
+  venue: ICDE
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/WangXXLWH22
+  doi: 10.1109/ICDE53745.2022.00015
+  ee: https://doi.org/10.1109/ICDE53745.2022.00015
+  url: https://dblp.org/rec/conf/icde/WangXXLWH22
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou

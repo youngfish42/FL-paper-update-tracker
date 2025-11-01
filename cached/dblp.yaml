@@ -23437,6 +23437,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06861-7
   ee: https://doi.org/10.1007/s10994-025-06861-7
   url: https://dblp.org/rec/journals/ml/GaoLSLW25
+- author: Shuo Chen, Tanping Zhou, Huiyu Xie, Weidong Du, Xiaoyuan Yang 0002
+  title: 'DP-FedSecure: a secure and efficient federated learning scheme based on
+    adaptive differential privacy.'
+  venue: Mach. Learn.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/ChenZXDY25
+  doi: 10.1007/S10994-025-06888-W
+  ee: https://doi.org/10.1007/s10994-025-06888-w
+  url: https://dblp.org/rec/journals/ml/ChenZXDY25
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -26268,6 +26279,16 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/3701551.3703523
   ee: https://doi.org/10.1145/3701551.3703523
   url: https://dblp.org/rec/conf/wsdm/0001JC0LHL0ML25
+- author: Bin Li 0030, Li Cheng 0001, Zheng Qin 0002, Yunlong Wu 0002
+  title: Density-aware and Cluster-based Federated Anomaly Detection on Data Streams.
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/LiCQW25
+  doi: 10.1145/3701551.3703548
+  ee: https://doi.org/10.1145/3701551.3703548
+  url: https://dblp.org/rec/conf/wsdm/LiCQW25
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using
@@ -27345,6 +27366,85 @@ federate%20streamid%3Aconf%2Fuss%3A:
   doi: ''
   ee: https://www.usenix.org/conference/usenixsecurity24/presentation/tan
   url: https://dblp.org/rec/conf/uss/Tan00LG024
+- author: Xiangrui Xu 0001, Zhize Li 0001, Yufei Han 0001, Bin Wang 0062, Jiqiang
+    Liu, Wei Wang 0012
+  title: 'From Risk to Resilience: Towards Assessing and Mitigating the Risk of Data
+    Reconstruction Attacks in Federated Learning.'
+  venue: USENIX Security Symposium
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/0001000L025
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity25/presentation/xu-xiangrui
+  url: https://dblp.org/rec/conf/uss/0001000L025
+- author: Mingyuan Fan 0003, Cen Chen 0001, Chengyu Wang 0001, Xiaodan Li, Wenmeng
+    Zhou
+  title: 'Refiner: Data Refining against Gradient Leakage Attacks in Federated Learning.'
+  venue: USENIX Security Symposium
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/000300LZ25
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity25/presentation/fan-refiner
+  url: https://dblp.org/rec/conf/uss/000300LZ25
+- author: Vincenzo Carletti, Pasquale Foggia, Carlo Mazzocca, Giuseppe Parrella, Mario
+    Vento
+  title: 'SoK: Gradient Inversion Attacks in Federated Learning.'
+  venue: USENIX Security Symposium
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/CarlettiFMPV25
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity25/presentation/carletti
+  url: https://dblp.org/rec/conf/uss/CarlettiFMPV25
+- author: Abdulrahman Diaa, Thomas Humphries, Florian Kerschbaum
+  title: 'FastLloyd: Federated, Accurate, Secure, and Tunable k-Means Clustering with
+    Differential Privacy.'
+  venue: USENIX Security Symposium
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/DiaaHK25
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity25/presentation/diaa
+  url: https://dblp.org/rec/conf/uss/DiaaHK25
+- author: Jiacheng Du, Jiahui Hu, Zhibo Wang 0001, Peng Sun 0003, Neil Gong 0001,
+    Kui Ren 0001, Chun Chen 0001
+  title: 'SoK: On Gradient Leakage in Federated Learning.'
+  venue: USENIX Security Symposium
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/DuH0000025
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity25/presentation/du
+  url: https://dblp.org/rec/conf/uss/DuH0000025
+- author: Xiaolan Gu, Ming Li 0003, Li Xiong 0001
+  title: 'DP-BREM: Differentially-Private and Byzantine-Robust Federated Learning
+    with Client Momentum.'
+  venue: USENIX Security Symposium
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/Gu0025
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity25/presentation/gu-xiaolan
+  url: https://dblp.org/rec/conf/uss/Gu0025
+- author: Xiaoyi Pang, Chenxu Zhao, Zhibo Wang 0001, Jiahui Hu, Yinggui Wang, Lei
+    Wang, Tao Wei 0002, Kui Ren 0001, Chun Chen 0001
+  title: 'PoiSAFL: Scalable Poisoning Attack Framework to Byzantine-resilient Semi-asynchronous
+    Federated Learning.'
+  venue: USENIX Security Symposium
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/PangZ0HWW00025
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity25/presentation/pang-xiaoyi
+  url: https://dblp.org/rec/conf/uss/PangZ0HWW00025
 federate%20venue%3ANDSS%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -36744,6 +36844,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE53745.2022.00015
   ee: https://doi.org/10.1109/ICDE53745.2022.00015
   url: https://dblp.org/rec/conf/icde/WangXXLWH22
+- author: Yunming Liao, Yang Xu 0020, Hongli Xu 0001, Lun Wang 0003, Zhiwei Yao, Chunming
+    Qiao
+  title: 'MergeSFL: Split Federated Learning with Feature Merging and Batch Size Regulation.'
+  venue: ICDE
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/LiaoXXWYQ24
+  doi: 10.1109/ICDE60146.2024.00164
+  ee: https://doi.org/10.1109/ICDE60146.2024.00164
+  url: https://dblp.org/rec/conf/icde/LiaoXXWYQ24
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou
@@ -40204,6 +40315,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM55648.2025.11044620
   ee: https://doi.org/10.1109/INFOCOM55648.2025.11044620
   url: https://dblp.org/rec/conf/infocom/LiLT0WY25
+- author: Yunming Liao, Yang Xu 0020, Hongli Xu 0001, Lun Wang 0003, Chen Qian 0001
+  title: Adaptive Configuration for Heterogeneous Participants in Decentralized Federated
+    Learning.
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiaoXXWQ23
+  doi: 10.1109/INFOCOM53939.2023.10228945
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10228945
+  url: https://dblp.org/rec/conf/infocom/LiaoXXWQ23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

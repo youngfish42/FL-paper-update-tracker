@@ -46420,6 +46420,18 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2025.3548003
   ee: https://doi.org/10.1109/TCAD.2025.3548003
   url: https://dblp.org/rec/journals/tcad/LianCLCZYJLZ25
+- author: Zirui Lian, Qianyue Cao, Chao Liang, Jing Cao, Zongwei Zhu, Zhi Yang, Cheng
+    Ji 0002, Changlong Li 0006, Xuehai Zhou
+  title: 'HaloFL: Efficient Heterogeneity-Aware Federated Learning Through Optimal
+    Submodel Extraction and Dynamic Sparse Adjustment.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/LianCLCZYJLZ25
+  doi: 10.1109/TCAD.2025.3548003
+  ee: https://doi.org/10.1109/TCAD.2025.3548003
+  url: https://dblp.org/rec/journals/tcad/LianCLCZYJLZ25
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

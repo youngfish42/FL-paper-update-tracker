@@ -43073,6 +43073,70 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3485447.3512233
   ee: https://doi.org/10.1145/3485447.3512233
   url: https://dblp.org/rec/conf/www/0003FFSTXL22
+- author: Shuai Wang 0032, Shengyao Zhuang, Bevan Koopman, Guido Zuccon
+  title: 'ReSLLM: Large Language Models are Strong Resource Selectors for Federated
+    Search.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/www/0032ZKZ25
+  doi: 10.1145/3701716.3715595
+  ee: https://doi.org/10.1145/3701716.3715595
+  url: https://dblp.org/rec/conf/www/0032ZKZ25
+- author: Minghong Fang, Zhuqing Liu, Xuecen Zhao, Jia Liu 0002
+  title: Byzantine-Robust Federated Learning over Ring-All-Reduce Distributed Computing.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/www/FangLZL25
+  doi: 10.1145/3701716.3715491
+  ee: https://doi.org/10.1145/3701716.3715491
+  url: https://dblp.org/rec/conf/www/FangLZL25
+- author: Noorain Mukhtiar
+  title: 'A Fairer Client Selection Framework for Federated Internet of Things: Equality,
+    Equity, and Trade-off Perspectives.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/www/Mukhtiar25
+  doi: 10.1145/3701716.3715278
+  ee: https://doi.org/10.1145/3701716.3715278
+  url: https://dblp.org/rec/conf/www/Mukhtiar25
+- author: Naima Noor, Afra Mashhadi
+  title: Quantifying Individual Fairness in Continual Federated Learning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/www/NoorM25
+  doi: 10.1145/3701716.3717646
+  ee: https://doi.org/10.1145/3701716.3717646
+  url: https://dblp.org/rec/conf/www/NoorM25
+- author: "Zixing Song, Irwin King, Jos\xE9 Miguel Hern\xE1ndez-Lobato"
+  title: 'FedEDM: Federated Equivariant Diffusion Model for 3D Molecule Generation
+    with Enhanced Communication Efficiency.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/www/SongKH25
+  doi: 10.1145/3701716.3717648
+  ee: https://doi.org/10.1145/3701716.3717648
+  url: https://dblp.org/rec/conf/www/SongKH25
+- author: Wenbin Wang, Qiwen Ma, Zifan Zhang, Yuchen Liu 0001, Zhuqing Liu, Minghong
+    Fang
+  title: Poisoning Attacks and Defenses to Federated Unlearning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/www/WangMZLLF25
+  doi: 10.1145/3701716.3715494
+  ee: https://doi.org/10.1145/3701716.3715494
+  url: https://dblp.org/rec/conf/www/WangMZLLF25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

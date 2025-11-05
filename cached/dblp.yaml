@@ -32696,6 +32696,16 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3503161.3548764
   ee: https://doi.org/10.1145/3503161.3548764
   url: https://dblp.org/rec/conf/mm/HuangY0G22
+- author: Wenke Huang 0003, Mang Ye, Bo Du 0001, Xiang Gao 0021
+  title: Few-Shot Model Agnostic Federated Learning.
+  venue: ACM Multimedia
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/HuangY0G22
+  doi: 10.1145/3503161.3548764
+  ee: https://doi.org/10.1145/3503161.3548764
+  url: https://dblp.org/rec/conf/mm/HuangY0G22
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -46496,6 +46506,17 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2025.3548003
   ee: https://doi.org/10.1109/TCAD.2025.3548003
   url: https://dblp.org/rec/journals/tcad/LianCLCZYJLZ25
+- author: Jun Mai, Kun Cao 0001, Tongquan Wei
+  title: Personalized Federated Learning With State-Adaptive IoT Device Scheduling
+    in Mobile-Edge Computing.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/MaiCW25
+  doi: 10.1109/TCAD.2025.3560221
+  ee: https://doi.org/10.1109/TCAD.2025.3560221
+  url: https://dblp.org/rec/journals/tcad/MaiCW25
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

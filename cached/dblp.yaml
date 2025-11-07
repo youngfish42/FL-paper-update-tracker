@@ -43147,6 +43147,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3701716.3715494
   ee: https://doi.org/10.1145/3701716.3715494
   url: https://dblp.org/rec/conf/www/WangMZLLF25
+- author: Ruonan Chen, Ye Dong, Yizhong Liu, Tingyu Fan, Dawei Li 0009, Zhenyu Guan
+    0002, Jianwei Liu 0001, Jianying Zhou 0001
+  title: 'FLock: Robust and Privacy-Preserving Federated Learning based on Practical
+    Blockchain State Channels.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ChenDLF0G0025
+  doi: 10.1145/3696410.3714666
+  ee: https://doi.org/10.1145/3696410.3714666
+  url: https://dblp.org/rec/conf/www/ChenDLF0G0025
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

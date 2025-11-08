@@ -3357,6 +3357,28 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/877
   ee: https://doi.org/10.24963/ijcai.2025/877
   url: https://dblp.org/rec/conf/ijcai/YangCLZDDD25
+- author: Jinqian Chen, Haoyu Tang 0002, Junhao Cheng, Ming Yan 0008, Ji Zhang 0011,
+    Mingzhu Xu, Yupeng Hu 0003, Liqiang Nie
+  title: 'Breaking Barriers of System Heterogeneity: Straggler-Tolerant Multimodal
+    Federated Learning via Knowledge Distillation.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ChenTCYZXHN24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/419
+  url: https://dblp.org/rec/conf/ijcai/ChenTCYZXHN24
+- author: Wenbo Zheng 0001, Lan Yan, Chao Gou, Fei-Yue Wang 0001
+  title: Federated Meta-Learning for Fraudulent Credit Card Detection.
+  venue: IJCAI
+  year: '2020'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ZhengYG020
+  doi: 10.24963/IJCAI.2020/642
+  ee: https://doi.org/10.24963/ijcai.2020/642
+  url: https://dblp.org/rec/conf/ijcai/ZhengYG020
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -22665,6 +22687,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=nTNgkEIfeb
   url: https://dblp.org/rec/conf/iclr/0050BSCZ0S24
+- author: Kailang Ma, Yu Sun 0015, Jian Cui, Dawei Li 0009, Zhenyu Guan 0002, Jianwei
+    Liu 0001
+  title: Instance-wise Batch Label Restoration via Gradients in Federated Learning.
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/Ma0CLG023
+  doi: ''
+  ee: https://openreview.net/forum?id=FIrQfNSOoTr
+  url: https://dblp.org/rec/conf/iclr/Ma0CLG023
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -38007,6 +38040,17 @@ federate%20venue%3ASIGCOMM%3A:
   doi: 10.1145/3744969.3748418
   ee: https://doi.org/10.1145/3744969.3748418
   url: https://dblp.org/rec/conf/sigcomm/FanST025
+- author: Boyu Fan, Xiang Su 0001, Sasu Tarkoma, Pan Hui 0001
+  title: 'Federated Inference: Towards Collaborative and Privacy-Preserving Inference
+    over Edge Devices.'
+  venue: SIGCOMM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigcomm/FanST025
+  doi: 10.1145/3744969.3748418
+  ee: https://doi.org/10.1145/3744969.3748418
+  url: https://dblp.org/rec/conf/sigcomm/FanST025
 federate%20venue%3AINFOCOM%3A:
 - author: Hankyul Baek, Won Joon Yun, Yunseok Kwak, Soyi Jung, Mingyue Ji, Mehdi Bennis,
     Jihong Park, Joongheon Kim
@@ -45832,6 +45876,40 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3334398
   ee: https://doi.org/10.1109/TPDS.2023.3334398
   url: https://dblp.org/rec/journals/tpds/WangXXJLC24
+- author: Jianjun Huang 0002, Hao Huang, Li Kang 0001, Lixin Ye
+  title: 'FedSR: A Semi-Decentralized Federated Learning Framework for Non-IID Data
+    Based on Incremental Subgradient Optimization.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/HuangHKY25
+  doi: 10.1109/TPDS.2025.3611304
+  ee: https://doi.org/10.1109/TPDS.2025.3611304
+  url: https://dblp.org/rec/journals/tpds/HuangHKY25
+- author: Shiwei Li 0002, Qunwei Li, Haozhao Wang, Ruixuan Li 0001, Jianbin Lin, Wenliang
+    Zhong
+  title: 'FedBiF: Communication-Efficient Federated Learning via Bits Freezing.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiLWLLZ25
+  doi: 10.1109/TPDS.2025.3610224
+  ee: https://doi.org/10.1109/TPDS.2025.3610224
+  url: https://dblp.org/rec/journals/tpds/LiLWLLZ25
+- author: Zhaorui Zhang, Sheng Di, Benben Liu, Zhuoran Ji, Guanpeng Li, Xiaoyi Lu,
+    Amelie Chi Zhou, Khalid Ayedh Alharthi, Jiannong Cao 0001
+  title: 'FedEFsz: Fair Cross-Silo Federated Learning System With Error-Bounded Lossy
+    Compression.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhangDLJLLZAC25
+  doi: 10.1109/TPDS.2025.3593896
+  ee: https://doi.org/10.1109/TPDS.2025.3593896
+  url: https://dblp.org/rec/journals/tpds/ZhangDLJLLZAC25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

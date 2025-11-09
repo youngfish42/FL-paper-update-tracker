@@ -10228,6 +10228,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I15.33700
   ee: https://doi.org/10.1609/aaai.v39i15.33700
   url: https://dblp.org/rec/conf/aaai/BaoC0L25
+- author: Xinhui Liu, Zhenghao Chen, Luping Zhou, Dong Xu 0001, Wei Xi 0003, Gairui
+    Bai, Yihan Zhao, Jizhong Zhao
+  title: 'UFDA: Universal Federated Domain Adaptation with Practical Assumptions.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuCZ0XBZZ24
+  doi: 10.1609/AAAI.V38I12.29311
+  ee: https://doi.org/10.1609/aaai.v38i12.29311
+  url: https://dblp.org/rec/conf/aaai/LiuCZ0XBZZ24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -40380,6 +40391,18 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10228945
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10228945
   url: https://dblp.org/rec/conf/infocom/LiaoXXWQ23
+- author: Vivian Ukamaka Ihekoronye, Urslla Uchechi Izuazu, Cosmas Ifeanyi Nwakanma,
+    Jae Min Lee 0001, Dong-Seong Kim 0002
+  title: 'ASR-FED: Agnostic Straggler Resilient Federated Algorithm for Drone Networks
+    Security.'
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/IhekoronyeINL024
+  doi: 10.1109/INFOCOMWKSHPS61880.2024.10620729
+  ee: https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620729
+  url: https://dblp.org/rec/conf/infocom/IhekoronyeINL024
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -45910,6 +45933,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3593896
   ee: https://doi.org/10.1109/TPDS.2025.3593896
   url: https://dblp.org/rec/journals/tpds/ZhangDLJLLZAC25
+- author: Jun Li 0004, Yumeng Shao, Kang Wei 0004, Ming Ding 0001, Chuan Ma 0001,
+    Long Shi 0001, Zhu Han 0001, H. Vincent Poor
+  title: 'Blockchain Assisted Decentralized Federated Learning (BLADE-FL): Performance
+    Analysis and Resource Allocation.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiSWDMSHP22
+  doi: 10.1109/TPDS.2021.3138848
+  ee: https://doi.org/10.1109/TPDS.2021.3138848
+  url: https://dblp.org/rec/journals/tpds/LiSWDMSHP22
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

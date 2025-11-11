@@ -19508,6 +19508,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/zhang23aa.html
   url: https://dblp.org/rec/conf/icml/ZhangLLWZJJ23
+- author: Yifan Shi, Li Shen 0008, Kang Wei 0004, Yan Sun, Bo Yuan 0003, Xueqian Wang
+    0001, Dacheng Tao
+  title: Improving the Model Consistency of Decentralized Federated Learning.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Shi0WS00T23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/shi23d.html
+  url: https://dblp.org/rec/conf/icml/Shi0WS00T23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -30186,6 +30197,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.02576
   ee: https://doi.org/10.1109/CVPR52733.2024.02576
   url: https://dblp.org/rec/conf/cvpr/BaiZGLGHHL24
+- author: Yifan Shi, Yingqi Liu, Kang Wei 0004, Li Shen 0008, Xueqian Wang 0001, Dacheng
+    Tao
+  title: Make Landscape Flatter in Differentially Private Federated Learning.
+  venue: CVPR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ShiLWS0T23
+  doi: 10.1109/CVPR52729.2023.02352
+  ee: https://doi.org/10.1109/CVPR52729.2023.02352
+  url: https://dblp.org/rec/conf/cvpr/ShiLWS0T23
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

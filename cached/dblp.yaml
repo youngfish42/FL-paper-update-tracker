@@ -19519,6 +19519,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/shi23d.html
   url: https://dblp.org/rec/conf/icml/Shi0WS00T23
+- author: Changyu Gao, Andrew Lowy, Xingyu Zhou 0001, Stephen J. Wright 0001
+  title: 'Private Heterogeneous Federated Learning Without a Trusted Server Revisited:
+    Error-Optimal and Communication-Efficient Algorithms for Convex Losses.'
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/GaoLZ024
+  doi: ''
+  ee: https://openreview.net/forum?id=sSAEhcdB9N
+  url: https://dblp.org/rec/conf/icml/GaoLZ024
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

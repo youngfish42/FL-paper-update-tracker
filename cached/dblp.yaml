@@ -10239,6 +10239,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I12.29311
   ee: https://doi.org/10.1609/aaai.v38i12.29311
   url: https://dblp.org/rec/conf/aaai/LiuCZ0XBZZ24
+- author: Xinyuan Ji, Zhaowei Zhu, Wei Xi 0003, Olga Gadyatskaya, Zilong Song, Yong
+    Cai, Yang Liu 0018
+  title: 'FedFixer: Mitigating Heterogeneous Label Noise in Federated Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/JiZXGSCL24
+  doi: 10.1609/AAAI.V38I11.29179
+  ee: https://doi.org/10.1609/aaai.v38i11.29179
+  url: https://dblp.org/rec/conf/aaai/JiZXGSCL24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -24136,6 +24147,17 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2025.3546659
   ee: https://doi.org/10.1109/TPAMI.2025.3546659
   url: https://dblp.org/rec/journals/pami/LiSLYT25
+- author: Liangxi Liu, Xi Jiang 0009, Feng Zheng 0001, Hong Chen 0004, Guo-Jun Qi,
+    Heng Huang, Ling Shao 0001
+  title: A Bayesian Federated Learning Framework With Online Laplace Approximation.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiuJZCQHS24
+  doi: 10.1109/TPAMI.2023.3322743
+  ee: https://doi.org/10.1109/TPAMI.2023.3322743
+  url: https://dblp.org/rec/journals/pami/LiuJZCQHS24
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -26056,6 +26078,17 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3711896.3737074
   ee: https://doi.org/10.1145/3711896.3737074
   url: https://dblp.org/rec/conf/kdd/LeiWZ0PZ25
+- author: Wei Guo, Yiqi Tong, Yiyang Duan, Fuzhen Zhuang, Xiao Zhang 0015, Zhaojun
+    Hu, Jin Dong 0004
+  title: 'FEZE: Alignment-Flexible Zero-Shot Vertical Federated Learning.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/GuoTDZ0HD25
+  doi: 10.1145/3711896.3736959
+  ee: https://doi.org/10.1145/3711896.3736959
+  url: https://dblp.org/rec/conf/kdd/GuoTDZ0HD25
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -40436,6 +40469,29 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOMWKSHPS61880.2024.10620729
   ee: https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620729
   url: https://dblp.org/rec/conf/infocom/IhekoronyeINL024
+- author: Bing Luo 0002, Wenli Xiao, Shiqiang Wang 0001, Jianwei Huang 0001, Leandros
+    Tassiulas
+  title: Tackling System and Statistical Heterogeneity for Federated Learning with
+    Adaptive Client Sampling.
+  venue: INFOCOM
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LuoXWHT22
+  doi: 10.1109/INFOCOM48880.2022.9796935
+  ee: https://doi.org/10.1109/INFOCOM48880.2022.9796935
+  url: https://dblp.org/rec/conf/infocom/LuoXWHT22
+- author: Bing Luo 0002, Xiang Li 0148, Shiqiang Wang 0001, Jianwei Huang 0001, Leandros
+    Tassiulas
+  title: Cost-Effective Federated Learning Design.
+  venue: INFOCOM
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LuoLWHT21
+  doi: 10.1109/INFOCOM42981.2021.9488679
+  ee: https://doi.org/10.1109/INFOCOM42981.2021.9488679
+  url: https://dblp.org/rec/conf/infocom/LuoLWHT21
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

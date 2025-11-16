@@ -3379,6 +3379,28 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2020/642
   ee: https://doi.org/10.24963/ijcai.2020/642
   url: https://dblp.org/rec/conf/ijcai/ZhengYG020
+- author: Tian Chen, Wenke Huang 0003, Zhihao Wang 0002, Zekun Shi, He Li 0054, Wenhui
+    Dong, Mang Ye, Bo Du 0001, Yongchao Xu
+  title: Pixel-wise Divide and Conquer for Federated Vessel Segmentation.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ChenHWSLDYDX25
+  doi: 10.24963/IJCAI.2025/540
+  ee: https://doi.org/10.24963/ijcai.2025/540
+  url: https://dblp.org/rec/conf/ijcai/ChenHWSLDYDX25
+- author: Zhihao Wang 0002, Wenke Huang 0003, Tian Chen, Zekun Shi, Guancheng Wan,
+    Yu Qiao, Bin Yang 0026, Jian Wang, Bing Li, Mang Ye
+  title: An Empirical Study of Federated Prompt Learning for Vision Language Model.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/WangHCSWQYWLY25
+  doi: 10.24963/IJCAI.2025/1188
+  ee: https://doi.org/10.24963/ijcai.2025/1188
+  url: https://dblp.org/rec/conf/ijcai/WangHCSWQYWLY25
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -10283,6 +10305,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V37I5.25744
   ee: https://doi.org/10.1609/aaai.v37i5.25744
   url: https://dblp.org/rec/conf/aaai/KangYWGDZ23
+- author: Qingxiang Liu 0004, Sheng Sun, Yuxuan Liang 0002, Min Liu 0001, Jingjing
+    Xue
+  title: 'Personalized Federated Learning for Spatio-Temporal Forecasting: A Dual
+    Semantic Alignment-Based Contrastive Approach.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuSL0X25
+  doi: 10.1609/AAAI.V39I11.33328
+  ee: https://doi.org/10.1609/aaai.v39i11.33328
+  url: https://dblp.org/rec/conf/aaai/LiuSL0X25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -11300,6 +11334,16 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/chen24d.html
   url: https://dblp.org/rec/conf/aistats/ChenLC24
+- author: Wei Shen, Minhui Huang, Jiawei Zhang, Cong Shen 0001
+  title: Stochastic Smoothed Gradient Descent Ascent for Federated Minimax Optimization.
+  venue: AISTATS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aistats/ShenHZS24
+  doi: ''
+  ee: https://proceedings.mlr.press/v238/shen24c.html
+  url: https://dblp.org/rec/conf/aistats/ShenHZS24
 federate%20streamid%3Aconf%2Falt%3A:
 - author: Zachary Charles, Keith Rush
   title: Iterated Vector Fields and Conservatism, with Applications to Federated Learning.
@@ -16398,6 +16442,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/1b645a77cf48821afc3ee7e5b5d42617-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiZLC22
+- author: Qingxiang Liu, Xu Liu 0014, Chenghao Liu, Qingsong Wen, Yuxuan Liang 0002
+  title: 'Time-FFM: Towards LM-Empowered Federated Foundation Model for Time Series
+    Forecasting.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiuLLWL24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/abc1943857a42935ceacff03c524bb44-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiuLLWL24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -26849,6 +26904,18 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SPW67851.2025.00021
   ee: https://doi.org/10.1109/SPW67851.2025.00021
   url: https://dblp.org/rec/conf/sp/ZhangCW25
+- author: Haoyang Li 0018, Qingqing Ye 0001, Haibo Hu 0001, Jin Li 0002, Leixia Wang,
+    Chengfang Fang, Jie Shi
+  title: '3DFed: Adaptive and Extensible Framework for Covert Backdoor Attack in Federated
+    Learning.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/LiYHLWFS23
+  doi: 10.1109/SP46215.2023.10179401
+  ee: https://doi.org/10.1109/SP46215.2023.10179401
+  url: https://dblp.org/rec/conf/sp/LiYHLWFS23
 federate%20venue%3ACCS%3A:
 - author: Amrita Roy Chowdhury 0001, Chuan Guo, Somesh Jha, Laurens van der Maaten
   title: 'EIFFeL: Ensuring Integrity for Federated Learning.'

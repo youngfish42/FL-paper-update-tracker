@@ -16453,6 +16453,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/abc1943857a42935ceacff03c524bb44-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiuLLWL24
+- author: Qingxiang Liu 0004, Xu Liu 0014, Chenghao Liu, Qingsong Wen, Yuxuan Liang
+    0002
+  title: 'Time-FFM: Towards LM-Empowered Federated Foundation Model for Time Series
+    Forecasting.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiuLLWL24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/abc1943857a42935ceacff03c524bb44-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiuLLWL24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -26499,6 +26511,18 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/3701551.3703548
   ee: https://doi.org/10.1145/3701551.3703548
   url: https://dblp.org/rec/conf/wsdm/LiCQW25
+- author: Siqing Zhang 0002, Yuchen Ding, Wei Tang 0015, Wei Sun, Yong Liao 0003,
+    Peng Yuan Zhou
+  title: Privacy-Preserving Orthogonal Aggregation for Guaranteeing Gender Fairness
+    in Federated Recommendation.
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/ZhangD0SLZ25
+  doi: 10.1145/3701551.3703513
+  ee: https://doi.org/10.1145/3701551.3703513
+  url: https://dblp.org/rec/conf/wsdm/ZhangD0SLZ25
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using
@@ -43470,6 +43494,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3696410.3714666
   ee: https://doi.org/10.1145/3696410.3714666
   url: https://dblp.org/rec/conf/www/ChenDLF0G0025
+- author: Yingguang Yang, Renyu Yang, Hao Peng 0001, Yangyang Li, Tong Li 0013, Yong
+    Liao 0003, Pengyuan Zhou
+  title: 'FedACK: Federated Adversarial Contrastive Knowledge Distillation for Cross-Lingual
+    and Cross-Model Social Bot Detection.'
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YangYPLLLZ23
+  doi: 10.1145/3543507.3583500
+  ee: https://doi.org/10.1145/3543507.3583500
+  url: https://dblp.org/rec/conf/www/YangYPLLLZ23
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

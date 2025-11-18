@@ -3401,6 +3401,16 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/1188
   ee: https://doi.org/10.24963/ijcai.2025/1188
   url: https://dblp.org/rec/conf/ijcai/WangHCSWQYWLY25
+- author: Yimin Liu 0002, Peng Jiang 0007
+  title: Generic Adversarial Attack Framework Against Vertical Federated Learning.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Liu025
+  doi: 10.24963/IJCAI.2025/646
+  ee: https://doi.org/10.24963/ijcai.2025/646
+  url: https://dblp.org/rec/conf/ijcai/Liu025
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -32974,6 +32984,17 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3503161.3548764
   ee: https://doi.org/10.1145/3503161.3548764
   url: https://dblp.org/rec/conf/mm/HuangY0G22
+- author: Xiaorui Jiang, Zhongyi Ma, Yulin Fu, Yong Liao 0003, Pengyuan Zhou
+  title: Heterogeneity-Aware Federated Deep Multi-View Clustering towards Diverse
+    Feature Representations.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/JiangMFLZ24
+  doi: 10.1145/3664647.3681302
+  ee: https://doi.org/10.1145/3664647.3681302
+  url: https://dblp.org/rec/conf/mm/JiangMFLZ24
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -40671,6 +40692,17 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOMWKSHPS61880.2024.10620662
   ee: https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620662
   url: https://dblp.org/rec/conf/infocom/HeTZSONL24
+- author: Yimin Liu 0002, Peng Jiang 0007, Liehuang Zhu
+  title: Preference Profiling Attacks Against Vertical Federated Learning Over Graph
+    Data.
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiuJZ25
+  doi: 10.1109/INFOCOM55648.2025.11044459
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044459
+  url: https://dblp.org/rec/conf/infocom/LiuJZ25
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous

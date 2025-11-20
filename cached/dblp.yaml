@@ -40715,6 +40715,29 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM55648.2025.11044664
   ee: https://doi.org/10.1109/INFOCOM55648.2025.11044664
   url: https://dblp.org/rec/conf/infocom/Shao0WYWL25
+- author: Zerui Shao, Beibei Li 0002, Zhibo Wang, Yanbing Yang 0001, Peiran Wang,
+    Jun Luo 0001
+  title: 'FedUFD: Personalized Edge Computing Using Federated Uncertainty-Driven Feature
+    Distillation.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/Shao0WYWL25
+  doi: 10.1109/INFOCOM55648.2025.11044664
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044664
+  url: https://dblp.org/rec/conf/infocom/Shao0WYWL25
+- author: Jinliang Yuan, Shangguang Wang, Shihe Wang, Yuanchun Li, Xiao Ma 0009, Ao
+    Zhou 0001, Mengwei Xu 0001
+  title: Privacy as a Resource in Differentially Private Federated Learning.
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/YuanWWLMZX23
+  doi: 10.1109/INFOCOM53939.2023.10228953
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10228953
+  url: https://dblp.org/rec/conf/infocom/YuanWWLMZX23
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -41169,6 +41192,28 @@ federate%20venue%3AMobiCom%3A:
   doi: 10.1145/3636534.3690665
   ee: https://doi.org/10.1145/3636534.3690665
   url: https://dblp.org/rec/conf/mobicom/Liao0XYHQ24
+- author: Dongqi Cai 0001, Yaozong Wu, Shangguang Wang, Felix Xiaozhu Lin, Mengwei
+    Xu 0001
+  title: Efficient Federated Learning for Modern NLP.
+  venue: MobiCom
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/CaiWWLX23
+  doi: 10.1145/3570361.3592505
+  ee: https://doi.org/10.1145/3570361.3592505
+  url: https://dblp.org/rec/conf/mobicom/CaiWWLX23
+- author: Dongqi Cai 0001, Shangguang Wang, Yaozong Wu, Felix Xiaozhu Lin, Mengwei
+    Xu 0001
+  title: Federated Few-Shot Learning for Mobile NLP.
+  venue: MobiCom
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/CaiWWLX23a
+  doi: 10.1145/3570361.3613277
+  ee: https://doi.org/10.1145/3570361.3613277
+  url: https://dblp.org/rec/conf/mobicom/CaiWWLX23a
 federate%20venue%3ANSDI%3A:
 - author: Junxue Zhang 0001, Xiaodian Cheng, Wei Wang, Liu Yang, Jinbin Hu, Kai Chen
     0005
@@ -43550,6 +43595,30 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583500
   ee: https://doi.org/10.1145/3543507.3583500
   url: https://dblp.org/rec/conf/www/YangYPLLLZ23
+- author: Jinliang Yuan, Shangguang Wang, Hongyu Li, Daliang Xu, Yuanchun Li, Mengwei
+    Xu 0001, Xuanzhe Liu
+  title: Towards Energy-efficient Federated Learning via INT8-based Training on Mobile
+    DSPs.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YuanWLXLXL24
+  doi: 10.1145/3589334.3645341
+  ee: https://doi.org/10.1145/3589334.3645341
+  url: https://dblp.org/rec/conf/www/YuanWLXLXL24
+- author: Chengxu Yang, Qipeng Wang, Mengwei Xu 0001, Zhenpeng Chen, Kaigui Bian,
+    Yunxin Liu 0001, Xuanzhe Liu
+  title: Characterizing Impacts of Heterogeneity in Federated Learning upon Large-Scale
+    Smartphone Data.
+  venue: WWW
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YangWXCBLL21
+  doi: 10.1145/3442381.3449851
+  ee: https://doi.org/10.1145/3442381.3449851
+  url: https://dblp.org/rec/conf/www/YangWXCBLL21
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

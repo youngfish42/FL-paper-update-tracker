@@ -16475,6 +16475,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/abc1943857a42935ceacff03c524bb44-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiuLLWL24
+- author: Taehyeon Kim 0001, Eric Lin, Junu Lee, Christian Lau, Vaikkunth Mugunthan
+  title: 'Navigating Data Heterogeneity in Federated Learning: A Semi-Supervised Approach
+    for Object Detection.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/KimLLLM23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/066e4dbfeccb5dc2851acd5eca584937-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/KimLLLM23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -41406,6 +41417,18 @@ federate%20venue%3ANSDI%3A:
   doi: ''
   ee: https://www.usenix.org/conference/nsdi25/presentation/srinivas
   url: https://dblp.org/rec/conf/nsdi/SrinivasCHLHHHM25
+- author: Junxue Zhang 0001, Xiaodian Cheng, Wei Wang, Liu Yang 0008, Jinbin Hu 0001,
+    Kai Chen 0005
+  title: 'FLASH: Towards a High-performance Hardware Acceleration Architecture for
+    Cross-silo Federated Learning.'
+  venue: NSDI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nsdi/0001CWYH023
+  doi: ''
+  ee: https://www.usenix.org/conference/nsdi23/presentation/zhang-junxue
+  url: https://dblp.org/rec/conf/nsdi/0001CWYH023
 federate%20venue%3AWWW%3A:
 - author: Yao Chen, Shan Huang, Wensheng Gan, Gengsen Huang, Yongdong Wu
   title: 'Federated Learning for Metaverse: A Survey.'
@@ -46338,6 +46361,29 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2021.3138848
   ee: https://doi.org/10.1109/TPDS.2021.3138848
   url: https://dblp.org/rec/journals/tpds/LiSWDMSHP22
+- author: Renyou Xie, Chaojie Li, Xiaojun Zhou 0001, Zhaoyang Dong
+  title: Accelerating Communication-Efficient Federated Multi-Task Learning With Personalization
+    and Fairness.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/XieLZD24
+  doi: 10.1109/TPDS.2024.3411815
+  ee: https://doi.org/10.1109/TPDS.2024.3411815
+  url: https://dblp.org/rec/journals/tpds/XieLZD24
+- author: Junxue Zhang 0001, Xiaodian Cheng, Liu Yang 0008, Jinbin Hu 0001, Han Tian,
+    Kai Chen 0005
+  title: High-Performance Hardware Acceleration Architecture for Cross-Silo Federated
+    Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2024'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhangCYHTC24
+  doi: 10.1109/TPDS.2024.3413718
+  ee: https://doi.org/10.1109/TPDS.2024.3413718
+  url: https://dblp.org/rec/journals/tpds/ZhangCYHTC24
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

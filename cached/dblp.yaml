@@ -43642,6 +43642,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3442381.3449851
   ee: https://doi.org/10.1145/3442381.3449851
   url: https://dblp.org/rec/conf/www/YangWXCBLL21
+- author: Jinliang Yuan, Shangguang Wang, Hongyu Li, Daliang Xu, Yuanchun Li 0003,
+    Mengwei Xu 0001, Xuanzhe Liu
+  title: Towards Energy-efficient Federated Learning via INT8-based Training on Mobile
+    DSPs.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YuanWLXLXL24
+  doi: 10.1145/3589334.3645341
+  ee: https://doi.org/10.1145/3589334.3645341
+  url: https://dblp.org/rec/conf/www/YuanWLXLXL24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

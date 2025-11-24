@@ -35445,6 +35445,17 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3726302.3730336
   ee: https://doi.org/10.1145/3726302.3730336
   url: https://dblp.org/rec/conf/sigir/Tao0YZ25
+- author: "Shuchang Liu 0001, Shuyuan Xu, Wenhui Yu, Zuohui Fu, Yongfeng Zhang 0003,\
+    \ Am\xE9lie Marian"
+  title: 'FedCT: Federated Collaborative Transfer for Recommendation.'
+  venue: SIGIR
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/LiuXYFZM21
+  doi: 10.1145/3404835.3462825
+  ee: https://doi.org/10.1145/3404835.3462825
+  url: https://dblp.org/rec/conf/sigir/LiuXYFZM21
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -40740,6 +40751,17 @@ federate%20venue%3AINFOCOM%3A:
   url: https://dblp.org/rec/conf/infocom/Shao0WYWL25
 - author: Jinliang Yuan, Shangguang Wang, Shihe Wang, Yuanchun Li, Xiao Ma 0009, Ao
     Zhou 0001, Mengwei Xu 0001
+  title: Privacy as a Resource in Differentially Private Federated Learning.
+  venue: INFOCOM
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/YuanWWLMZX23
+  doi: 10.1109/INFOCOM53939.2023.10228953
+  ee: https://doi.org/10.1109/INFOCOM53939.2023.10228953
+  url: https://dblp.org/rec/conf/infocom/YuanWWLMZX23
+- author: Jinliang Yuan, Shangguang Wang, Shihe Wang, Yuanchun Li 0003, Xiao Ma 0009,
+    Ao Zhou 0001, Mengwei Xu 0001
   title: Privacy as a Resource in Differentially Private Federated Learning.
   venue: INFOCOM
   year: '2023'

@@ -10327,6 +10327,28 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I11.33328
   ee: https://doi.org/10.1609/aaai.v39i11.33328
   url: https://dblp.org/rec/conf/aaai/LiuSL0X25
+- author: Jia Wang 0011, Yawen Li 0001, Yingxia Shao, Zhe Xue, Zeli Guan, Ang Li 0015,
+    Guanhua Ye
+  title: Reinforcement Active Client Selection for Federated Heterogeneous Graph Learning.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangLSXGLY25
+  doi: 10.1609/AAAI.V39I20.35409
+  ee: https://doi.org/10.1609/aaai.v39i20.35409
+  url: https://dblp.org/rec/conf/aaai/WangLSXGLY25
+- author: Chendi Zhou, Ji Liu 0003, Juncheng Jia, Jingbo Zhou 0003, Yang Zhou 0001,
+    Huaiyu Dai, Dejing Dou
+  title: Efficient Device Scheduling with Multi-Job Federated Learning.
+  venue: AAAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhouLJZZDD22
+  doi: 10.1609/AAAI.V36I9.21235
+  ee: https://doi.org/10.1609/aaai.v36i9.21235
+  url: https://dblp.org/rec/conf/aaai/ZhouLJZZDD22
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -27350,6 +27372,61 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3658644.3690200
   ee: https://doi.org/10.1145/3658644.3690200
   url: https://dblp.org/rec/conf/ccs/XuZH24
+- author: Yiping Ma 0001, Yue Guo, Harish Karthikeyan, Antigoni Polychroniadou
+  title: 'Armadillo: Robust Single-Server Secure Aggregation for Federated Learning
+    with Input Validation.'
+  venue: CCS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/0001GKP25
+  doi: 10.1145/3719027.3765216
+  ee: https://doi.org/10.1145/3719027.3765216
+  url: https://dblp.org/rec/conf/ccs/0001GKP25
+- author: Hao Zhou 0043, Hua Dai, Siqi Cai, Geng Yang, Yang Xiang
+  title: 'Poster: Adaptive Gradient Clipping with Personalized Differential Privacy
+    for Heterogeneous Federated Learning.'
+  venue: CCS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/0043DCYX25
+  doi: 10.1145/3719027.3760710
+  ee: https://doi.org/10.1145/3719027.3760710
+  url: https://dblp.org/rec/conf/ccs/0043DCYX25
+- author: Simon Lachnit, Ghassan Karame
+  title: On Hyperparameters and Backdoor-Resistance in Horizontal Federated Learning.
+  venue: CCS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/LachnitK25
+  doi: 10.1145/3719027.3765211
+  ee: https://doi.org/10.1145/3719027.3765211
+  url: https://dblp.org/rec/conf/ccs/LachnitK25
+- author: Shuangqing Xu, Yifeng Zheng 0001, Zhongyun Hua
+  title: 'Harnessing Sparsification in Federated Learning: A Secure, Efficient, and
+    Differentially Private Realization.'
+  venue: CCS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/Xu0H25
+  doi: 10.1145/3719027.3765044
+  ee: https://doi.org/10.1145/3719027.3765044
+  url: https://dblp.org/rec/conf/ccs/Xu0H25
+- author: Yanxin Yang, Ming Hu 0003, Xiaofei Xie, Yue Cao, Pengyu Zhang, Yihao Huang
+    0001, Mingsong Chen 0001
+  title: 'FilterFL: Knowledge Filtering-based Data-Free Backdoor Defense for Federated
+    Learning.'
+  venue: CCS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/Yang0XCZ0025
+  doi: 10.1145/3719027.3744883
+  ee: https://doi.org/10.1145/3719027.3744883
+  url: https://dblp.org/rec/conf/ccs/Yang0XCZ0025
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist
@@ -43676,6 +43753,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645341
   ee: https://doi.org/10.1145/3589334.3645341
   url: https://dblp.org/rec/conf/www/YuanWLXLXL24
+- author: Jia Wang 0011, Yawen Li 0001, Zhe Xue, Yingxia Shao, Zeli Guan, Wenling
+    Li
+  title: 'Horizontal Federated Heterogeneous Graph Learning: A Multi-Scale Adaptive
+    Solution to Data Distribution Challenges.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/WangLXSGL25
+  doi: 10.1145/3696410.3714722
+  ee: https://doi.org/10.1145/3696410.3714722
+  url: https://dblp.org/rec/conf/www/WangLXSGL25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -46418,6 +46507,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2024.3413718
   ee: https://doi.org/10.1109/TPDS.2024.3413718
   url: https://dblp.org/rec/journals/tpds/ZhangCYHTC24
+- author: Ji Liu 0003, Juncheng Jia, Beichen Ma, Chendi Zhou, Jingbo Zhou 0003, Yang
+    Zhou 0001, Huaiyu Dai, Dejing Dou
+  title: Multi-Job Intelligent Scheduling With Cross-Device Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiuJMZZZDD23
+  doi: 10.1109/TPDS.2022.3224941
+  ee: https://doi.org/10.1109/TPDS.2022.3224941
+  url: https://dblp.org/rec/journals/tpds/LiuJMZZZDD23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -48121,6 +48221,18 @@ federate%20streamid%3Aconf%2Ficse%3A:
   doi: 10.1109/SEIGS66664.2025.00011
   ee: https://doi.org/10.1109/SEiGS66664.2025.00011
   url: https://dblp.org/rec/conf/icse/MwotilNHKB25
+- author: Ziqi Zhang, Yuanchun Li 0003, Bingyan Liu, Yifeng Cai, Ding Li 0001, Yao
+    Guo 0001, Xiangqun Chen
+  title: 'FedSlice: Protecting Federated Learning Models from Malicious Participants
+    with Model Slicing.'
+  venue: ICSE
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icse/ZhangLLCLGC23
+  doi: 10.1109/ICSE48619.2023.00049
+  ee: https://doi.org/10.1109/ICSE48619.2023.00049
+  url: https://dblp.org/rec/conf/icse/ZhangLLCLGC23
 federate%20streamid%3Ajournals%2Ffocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

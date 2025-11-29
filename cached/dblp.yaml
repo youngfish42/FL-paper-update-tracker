@@ -10349,6 +10349,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V36I9.21235
   ee: https://doi.org/10.1609/aaai.v36i9.21235
   url: https://dblp.org/rec/conf/aaai/ZhouLJZZDD22
+- author: Huai-An Su, Jiaxiang Geng, Liang Li 0021, Xiaoqi Qin, Yanzhao Hou, Hao Wang
+    0022, Xin Fu, Miao Pan
+  title: 'WHALE-FL: Wireless and Heterogeneity Aware Latency Efficient Federated Learning
+    over Mobile Devices via Adaptive Subnetwork Scheduling.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/SuGLQHWFP25
+  doi: 10.1609/AAAI.V39I19.34272
+  ee: https://doi.org/10.1609/aaai.v39i19.34272
+  url: https://dblp.org/rec/conf/aaai/SuGLQHWFP25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -22885,6 +22897,16 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=FIrQfNSOoTr
   url: https://dblp.org/rec/conf/iclr/Ma0CLG023
+- author: Chencheng Xu, Zhiwei Hong, Minlie Huang, Tao Jiang 0001
+  title: Acceleration of Federated Learning with Alleviated Forgetting in Local Training.
+  venue: ICLR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/XuHHJ22
+  doi: ''
+  ee: https://openreview.net/forum?id=541PxiEKN3F
+  url: https://dblp.org/rec/conf/iclr/XuHHJ22
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -40848,6 +40870,29 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM53939.2023.10228953
   ee: https://doi.org/10.1109/INFOCOM53939.2023.10228953
   url: https://dblp.org/rec/conf/infocom/YuanWWLMZX23
+- author: Zhi Zhou 0006, Jiajie Xie, Mengke Huang, Tao Ouyang, Fangming Liu, Xu Chen
+    0004
+  title: 'Towards Federated Inference: An Online Model Ensemble Framework for Cooperative
+    Edge AI.'
+  venue: INFOCOM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/ZhouXHOLC25
+  doi: 10.1109/INFOCOM55648.2025.11044578
+  ee: https://doi.org/10.1109/INFOCOM55648.2025.11044578
+  url: https://dblp.org/rec/conf/infocom/ZhouXHOLC25
+- author: Liang Li 0021, Dian Shi, Ronghui Hou, Hui Li 0006, Miao Pan, Zhu Han 0001
+  title: 'To Talk or to Work: Flexible Communication Compression for Energy Efficient
+    Federated Learning over Heterogeneous Mobile Edge Devices.'
+  venue: INFOCOM
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/LiSHLPH21
+  doi: 10.1109/INFOCOM42981.2021.9488839
+  ee: https://doi.org/10.1109/INFOCOM42981.2021.9488839
+  url: https://dblp.org/rec/conf/infocom/LiSHLPH21
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -47949,6 +47994,29 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2025.3603683
   ee: https://doi.org/10.1109/TC.2025.3603683
   url: https://dblp.org/rec/journals/tc/YuanZZZSY25
+- author: Shaoyong Guo 0001, Keqin Zhang, Bei Gong, Liandong Chen, Yinlin Ren, Feng
+    Qi 0004, Xuesong Qiu 0001
+  title: 'Sandbox Computing: A Data Privacy Trusted Sharing Paradigm Via Blockchain
+    and Federated Learning.'
+  venue: IEEE Trans. Computers
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/GuoZGCRQQ23
+  doi: 10.1109/TC.2022.3180968
+  ee: https://doi.org/10.1109/TC.2022.3180968
+  url: https://dblp.org/rec/journals/tc/GuoZGCRQQ23
+- author: Lei Feng 0001, Yiqi Zhao, Shaoyong Guo 0001, Xuesong Qiu 0001, Wenjing Li
+    0001, Peng Yu 0001
+  title: 'BAFL: A Blockchain-Based Asynchronous Federated Learning Framework.'
+  venue: IEEE Trans. Computers
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/FengZGQLY22
+  doi: 10.1109/TC.2021.3072033
+  ee: https://doi.org/10.1109/TC.2021.3072033
+  url: https://dblp.org/rec/journals/tc/FengZGQLY22
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

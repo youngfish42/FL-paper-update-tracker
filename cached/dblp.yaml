@@ -3411,6 +3411,18 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/646
   ee: https://doi.org/10.24963/ijcai.2025/646
   url: https://dblp.org/rec/conf/ijcai/Liu025
+- author: Guogang Zhu, Xuefeng Liu 0001, Xinghao Wu, Shaojie Tang 0001, Chao Tang,
+    Jianwei Niu 0002, Hao Su 0001
+  title: 'Estimating before Debiasing: A Bayesian Approach to Detaching Prior Bias
+    in Federated Semi-Supervised Learning.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Zhu0W0T0S24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/290
+  url: https://dblp.org/rec/conf/ijcai/Zhu0W0T0S24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -27811,6 +27823,18 @@ federate%20streamid%3Aconf%2Fuss%3A:
   doi: ''
   ee: https://www.usenix.org/conference/usenixsecurity25/presentation/pang-xiaoyi
   url: https://dblp.org/rec/conf/uss/PangZ0HWW00025
+- author: Xiaoyi Pang, Chenxu Zhao, Zhibo Wang 0001, Jiahui Hu, Yinggui Wang, Lei
+    Wang 0251, Tao Wei 0002, Kui Ren 0001, Chun Chen 0001
+  title: 'PoiSAFL: Scalable Poisoning Attack Framework to Byzantine-resilient Semi-asynchronous
+    Federated Learning.'
+  venue: USENIX Security Symposium
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/PangZ0HWW00025
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity25/presentation/pang-xiaoyi
+  url: https://dblp.org/rec/conf/uss/PangZ0HWW00025
 federate%20venue%3ANDSS%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -33105,6 +33129,18 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3664647.3681302
   ee: https://doi.org/10.1145/3664647.3681302
   url: https://dblp.org/rec/conf/mm/JiangMFLZ24
+- author: Xinghao Wu, Xuefeng Liu 0001, Jianwei Niu 0002, Haolin Wang 0002, Shaojie
+    Tang 0001, Guogang Zhu, Hao Su 0001
+  title: Decoupling General and Personalized Knowledge in Federated Learning via Additive
+    and Low-rank Decomposition.
+  venue: ACM Multimedia
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Wu00W0ZS24
+  doi: 10.1145/3664647.3681588
+  ee: https://doi.org/10.1145/3664647.3681588
+  url: https://dblp.org/rec/conf/mm/Wu00W0ZS24
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

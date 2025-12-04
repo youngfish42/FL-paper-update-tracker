@@ -211,6 +211,17 @@ federate%20venue%3ADAC%3A:
   doi: 10.1109/DAC63849.2025.11133269
   ee: https://doi.org/10.1109/DAC63849.2025.11133269
   url: https://dblp.org/rec/conf/dac/LiLLCVYLZ25
+- author: Dengke Yan, Yanxin Yang, Ming Hu 0003, Xin Fu 0001, Mingsong Chen 0001
+  title: 'MMDFL: Multi-Model-based Decentralized Federated Learning for Resource-Constrained
+    AIoT Systems.'
+  venue: DAC
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/YanYHFC25
+  doi: 10.1109/DAC63849.2025.11133116
+  ee: https://doi.org/10.1109/DAC63849.2025.11133116
+  url: https://dblp.org/rec/conf/dac/YanYHFC25
 federate%20venue%3AIJCAI%3A:
 - author: Tao Qi, Fangzhao Wu, Lingjuan Lyu, Yongfeng Huang 0001, Xing Xie 0001
   title: 'FedSampling: A Better Sampling Strategy for Federated Learning.'
@@ -10363,6 +10374,18 @@ federate%20venue%3AAAAI%3A:
   url: https://dblp.org/rec/conf/aaai/ZhouLJZZDD22
 - author: Huai-An Su, Jiaxiang Geng, Liang Li 0021, Xiaoqi Qin, Yanzhao Hou, Hao Wang
     0022, Xin Fu, Miao Pan
+  title: 'WHALE-FL: Wireless and Heterogeneity Aware Latency Efficient Federated Learning
+    over Mobile Devices via Adaptive Subnetwork Scheduling.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/SuGLQHWFP25
+  doi: 10.1609/AAAI.V39I19.34272
+  ee: https://doi.org/10.1609/aaai.v39i19.34272
+  url: https://dblp.org/rec/conf/aaai/SuGLQHWFP25
+- author: Huai-An Su, Jiaxiang Geng, Liang Li 0021, Xiaoqi Qin, Yanzhao Hou, Hao Wang
+    0022, Xin Fu 0001, Miao Pan
   title: 'WHALE-FL: Wireless and Heterogeneity Aware Latency Efficient Federated Learning
     over Mobile Devices via Adaptive Subnetwork Scheduling.'
   venue: AAAI
@@ -22919,6 +22942,17 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=541PxiEKN3F
   url: https://dblp.org/rec/conf/iclr/XuHHJ22
+- author: Xiaolin Hu 0001, Shaojie Li, Yong Liu 0018
+  title: 'Generalization Bounds for Federated Learning: Fast Rates, Unparticipating
+    Clients and Unbounded Losses.'
+  venue: ICLR
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/HuLL23
+  doi: ''
+  ee: https://openreview.net/forum?id=-EHqoysUYLx
+  url: https://dblp.org/rec/conf/iclr/HuLL23
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -31439,6 +31473,18 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00464
   ee: https://doi.org/10.1109/ICCV51070.2023.00464
   url: https://dblp.org/rec/conf/iccv/ZhouSL0Y023
+- author: Rui Chen 0026, Qiyu Wan, Pavana Prakash, Lan Zhang 0005, Xu Yuan 0001, Yanmin
+    Gong 0001, Xin Fu 0001, Miao Pan
+  title: 'Workie-Talkie: Accelerating Federated Learning by Overlapping Computing
+    and Communications via Contrastive Regularization.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ChenWP0Y0FP23
+  doi: 10.1109/ICCV51070.2023.01559
+  ee: https://doi.org/10.1109/ICCV51070.2023.01559
+  url: https://dblp.org/rec/conf/iccv/ChenWP0Y0FP23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -47296,6 +47342,17 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2025.3560221
   ee: https://doi.org/10.1109/TCAD.2025.3560221
   url: https://dblp.org/rec/journals/tcad/MaiCW25
+- author: Jun Xia 0003, Tian Liu 0005, Zhiwei Ling, Ting Wang 0001, Xin Fu 0001, Mingsong
+    Chen 0001
+  title: 'PervasiveFL: Pervasive Federated Learning for Heterogeneous IoT Systems.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2022'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/XiaLLWFC22
+  doi: 10.1109/TCAD.2022.3197491
+  ee: https://doi.org/10.1109/TCAD.2022.3197491
+  url: https://dblp.org/rec/journals/tcad/XiaLLWFC22
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

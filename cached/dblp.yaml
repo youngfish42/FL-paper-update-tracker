@@ -20432,6 +20432,51 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=0n2nXmOxZS
   url: https://dblp.org/rec/conf/icml/ZhangZX25
+- author: Lang Pu, Jingjing Gu, Chao Lin 0003, Xinyi Huang 0001
+  title: 'Janus: Dual-Server Multi-Round Secure Aggregation with Verifiability for
+    Federated Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/PuGL025
+  doi: ''
+  ee: https://openreview.net/forum?id=HdS6tZwwa7
+  url: https://dblp.org/rec/conf/icml/PuGL025
+- author: Jiaqi Wang 0002, Jingtao Li, Weiming Zhuang, Chen Chen 0043, Lingjuan Lyu,
+    Fenglong Ma
+  title: Enhancing Foundation Models with Federated Domain Knowledge Infusion.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/WangLZ0LM25
+  doi: ''
+  ee: https://openreview.net/forum?id=6SIVFmjIm4
+  url: https://dblp.org/rec/conf/icml/WangLZ0LM25
+- author: Yihao Yang, Wenke Huang 0003, Guancheng Wan, Bin Yang 0026, Mang Ye
+  title: Federated Disentangled Tuning with Textual Prior Decoupling and Visual Dynamic
+    Adaptation.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/YangHW0Y25
+  doi: ''
+  ee: https://openreview.net/forum?id=0p86Mhg014
+  url: https://dblp.org/rec/conf/icml/YangHW0Y25
+- author: Hui Zeng, Wenke Huang 0003, Tongqing Zhou, Xinyi Wu, Guancheng Wan, Yingwen
+    Chen 0001, Zhiping Cai
+  title: Does One-shot Give the Best Shot? Mitigating Model Inconsistency in One-shot
+    Federated Learning.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ZengHZWW0C25
+  doi: ''
+  ee: https://openreview.net/forum?id=2XvF67vbCK
+  url: https://dblp.org/rec/conf/icml/ZengHZWW0C25
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.

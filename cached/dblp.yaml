@@ -28241,6 +28241,17 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3719027.3744883
   ee: https://doi.org/10.1145/3719027.3744883
   url: https://dblp.org/rec/conf/ccs/Yang0XCZ0025
+- author: Hao Zhou 0043, Hua Dai 0003, Siqi Cai, Geng Yang 0002, Yang Xiang 0001
+  title: 'Poster: Adaptive Gradient Clipping with Personalized Differential Privacy
+    for Heterogeneous Federated Learning.'
+  venue: CCS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/0043DCYX25
+  doi: 10.1145/3719027.3760710
+  ee: https://doi.org/10.1145/3719027.3760710
+  url: https://dblp.org/rec/conf/ccs/0043DCYX25
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist
@@ -31334,6 +31345,18 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52734.2025.01952
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Geometric_Knowledge-Guided_Localized_Global_Distribution_Alignment_for_Federated_Learning_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/MaDHC25
+- author: Liang Gao 0001, Huazhu Fu, Li Li 0064, Yingwen Chen 0001, Ming Xu 0002,
+    Cheng-Zhong Xu 0001
+  title: 'FedDC: Federated Learning with Non-IID Data via Local Drift Decoupling and
+    Correction.'
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/GaoFLC0022
+  doi: 10.1109/CVPR52688.2022.00987
+  ee: https://doi.org/10.1109/CVPR52688.2022.00987
+  url: https://dblp.org/rec/conf/cvpr/GaoFLC0022
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

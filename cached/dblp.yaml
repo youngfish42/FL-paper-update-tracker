@@ -27069,6 +27069,127 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3711896.3736959
   ee: https://doi.org/10.1145/3711896.3736959
   url: https://dblp.org/rec/conf/kdd/GuoTDZ0HD25
+- author: Zexi Li 0001, Jie Lin, Zhiqi Li 0004, Didi Zhu, Tao Shen 0002, Tao Lin 0004,
+    Chao Wu 0001, Nicholas D. Lane
+  title: 'FedGuCci: Making Local Models More Connected in Landscape for Federated
+    Learning.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/0001L0Z000L25
+  doi: 10.1145/3711896.3737037
+  ee: https://doi.org/10.1145/3711896.3737037
+  url: https://dblp.org/rec/conf/kdd/0001L0Z000L25
+- author: Gang Yan 0002, Wan Du
+  title: 'FedDiAL: Adaptive Federated Learning with Hierarchical Discriminative Network
+    for Large Pre-trained Models.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/0002D25
+  doi: 10.1145/3711896.3736955
+  ee: https://doi.org/10.1145/3711896.3736955
+  url: https://dblp.org/rec/conf/kdd/0002D25
+- author: Yan Zhang 0111, Xiaoye Miao, Bin Li, Yangyang Wu, Yongheng Shang
+  title: Proxy-Validated Importance-Aware Federated Sample Selection with Meta Learning.
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/0111MLWS25
+  doi: 10.1145/3711896.3737093
+  ee: https://doi.org/10.1145/3711896.3737093
+  url: https://dblp.org/rec/conf/kdd/0111MLWS25
+- author: Zhufeng Lu, Chentao Jia, Ming Hu 0003, Xiaofei Xie, Mingsong Chen 0001
+  title: 'Gradients as An Action: Towards Communication-Efficient Federated Recommender
+    Systems via Adaptive Action Sharing.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/LuJ0X025
+  doi: 10.1145/3711896.3736987
+  ee: https://doi.org/10.1145/3711896.3736987
+  url: https://dblp.org/rec/conf/kdd/LuJ0X025
+- author: Lehao Qu, Shuyuan Li, Zimu Zhou, Boyi Liu 0002, Yi Xu 0013, Yongxin Tong
+  title: 'DarkDistill: Difficulty-Aligned Federated Early-Exit Network Training on
+    Heterogeneous Devices.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/QuLZ00T25
+  doi: 10.1145/3711896.3736902
+  ee: https://doi.org/10.1145/3711896.3736902
+  url: https://dblp.org/rec/conf/kdd/QuLZ00T25
+- author: Huan Wang, Haoran Li 0024, Huaming Chen, Jun Yan 0005, Jiahua Shi, Jun Shen
+    0001
+  title: 'FedSC: Federated Learning with Semantic-Aware Collaboration.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/Wang0C0S025
+  doi: 10.1145/3711896.3736957
+  ee: https://doi.org/10.1145/3711896.3736957
+  url: https://dblp.org/rec/conf/kdd/Wang0C0S025
+- author: Tianrun Yu, Jiaqi Wang 0002, Haoyu Wang 0004, Mingquan Lin, Han Liu 0008,
+    Nelson S. Yee, Fenglong Ma
+  title: Towards Collaborative Fairness in Federated Learning Under Imbalanced Covariate
+    Shift.
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/Yu00L0YM25
+  doi: 10.1145/3711896.3737161
+  ee: https://doi.org/10.1145/3711896.3737161
+  url: https://dblp.org/rec/conf/kdd/Yu00L0YM25
+- author: Luying Zhong, Xuan Lai, Junjie Zhang 0010, Zhiqin Huang, Zheyi Chen
+  title: 'GuardFGL: Similarity-driven Federated Graph Learning with Adversarial Robustness
+    and Membership Privacy.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ZhongL0HC25
+  doi: 10.1145/3711896.3736994
+  ee: https://doi.org/10.1145/3711896.3736994
+  url: https://dblp.org/rec/conf/kdd/ZhongL0HC25
+- author: Yinlin Zhu, Miao Hu 0001, Di Wu 0001
+  title: Federated Continual Graph Learning.
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/Zhu0025
+  doi: 10.1145/3711896.3736956
+  ee: https://doi.org/10.1145/3711896.3736956
+  url: https://dblp.org/rec/conf/kdd/Zhu0025
+- author: Huabin Zhu, Chaochao Chen 0001, Xinting Liao, Pengyang Zhou, Xiaolin Zheng
+  title: Tackling Federated Long-Tailed Learning via Synthetic Feature-Based Decoupled
+    Training.
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/Zhu0LZZ25
+  doi: 10.1145/3711896.3737143
+  ee: https://doi.org/10.1145/3711896.3737143
+  url: https://dblp.org/rec/conf/kdd/Zhu0LZZ25
+- author: Shengkun Zhu, Feiteng Nie, Jinshan Zeng, Sheng Wang 0007, Yuan Sun 0003,
+    Yuan Yao 0011, Shangfeng Chen, Quanqing Xu, Chuanhui Yang
+  title: 'FedAPM: Federated Learning via ADMM with Partial Model Personalization.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ZhuNZ000CXY25
+  doi: 10.1145/3711896.3736954
+  ee: https://doi.org/10.1145/3711896.3736954
+  url: https://dblp.org/rec/conf/kdd/ZhuNZ000CXY25
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -38136,6 +38257,16 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE60146.2024.00164
   ee: https://doi.org/10.1109/ICDE60146.2024.00164
   url: https://dblp.org/rec/conf/icde/LiaoXXWYQ24
+- author: Jihoon Moon, Ling Liu 0001, Hyuk-Yoon Kwon
+  title: 'FedSDP: Federated Self-Derived Prototypes for Personalized Federated Learning.'
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/MoonLK25
+  doi: 10.1109/ICDE65448.2025.00210
+  ee: https://doi.org/10.1109/ICDE65448.2025.00210
+  url: https://dblp.org/rec/conf/icde/MoonLK25
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou
@@ -39091,6 +39222,16 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: ''
   ee: https://www.vldb.org/pvldb/vol18/p3559-zhou.pdf
   url: https://dblp.org/rec/journals/pvldb/ZhouYFFQZZCJ25
+- author: Yan Zhang 0111, Shuwei Liang, Xiaoye Miao, Yangyang Wu, Jianwei Yin
+  title: Federated Incomplete Tabular Data Prediction with Missing Complementarity.
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhangLMWY25
+  doi: ''
+  ee: https://www.vldb.org/pvldb/vol18/p3531-miao.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhangLMWY25
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things

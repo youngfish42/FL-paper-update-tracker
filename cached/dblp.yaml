@@ -20477,6 +20477,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=2XvF67vbCK
   url: https://dblp.org/rec/conf/icml/ZengHZWW0C25
+- author: Zexi Li 0001, Tao Lin 0004, Xinyi Shang, Chao Wu 0001
+  title: Revisiting Weighted Aggregation in Federated Learning with Neural Networks.
+  venue: ICML
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LiLSW23
+  doi: ''
+  ee: https://proceedings.mlr.press/v202/li23s.html
+  url: https://dblp.org/rec/conf/icml/LiLSW23
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -32375,6 +32385,17 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.01559
   ee: https://doi.org/10.1109/ICCV51070.2023.01559
   url: https://dblp.org/rec/conf/iccv/ChenWP0Y0FP23
+- author: Zexi Li 0001, Xinyi Shang, Rui He, Tao Lin 0004, Chao Wu 0001
+  title: 'No Fear of Classifier Biases: Neural Collapse Inspired Federated Learning
+    with Synthetic and Fixed Classifier.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/0001SHLW23
+  doi: 10.1109/ICCV51070.2023.00490
+  ee: https://doi.org/10.1109/ICCV51070.2023.00490
+  url: https://dblp.org/rec/conf/iccv/0001SHLW23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

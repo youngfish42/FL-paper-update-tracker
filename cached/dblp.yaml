@@ -10396,6 +10396,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I19.34272
   ee: https://doi.org/10.1609/aaai.v39i19.34272
   url: https://dblp.org/rec/conf/aaai/SuGLQHWFP25
+- author: Jianqing Zhang, Yang Liu 0165, Yang Hua 0001, Jian Cao 0001
+  title: 'FedTGP: Trainable Global Prototypes with Adaptive-Margin-Enhanced Contrastive
+    Learning for Data and Model Heterogeneity in Federated Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangLHC24
+  doi: 10.1609/AAAI.V38I15.29617
+  ee: https://doi.org/10.1609/aaai.v38i15.29617
+  url: https://dblp.org/rec/conf/aaai/ZhangLHC24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -16555,6 +16566,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/066e4dbfeccb5dc2851acd5eca584937-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/KimLLLM23
+- author: Jianqing Zhang, Yang Hua 0001, Jian Cao 0001, Hao Wang 0022, Tao Song 0003,
+    Zhengui Xue, Ruhui Ma, Haibing Guan
+  title: Eliminating Domain Bias for Federated Learning in Representation Space.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhangHCWSXMG23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/2e0d3c6ad1a4d85bef3cfe63af58bc76-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhangHCWSXMG23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -27236,6 +27258,29 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671613
   ee: https://doi.org/10.1145/3637528.3671613
   url: https://dblp.org/rec/conf/kdd/YangCHWXZT24
+- author: Carl Yang 0001, Guancheng Wan, Zhuangdi Zhu, Zheng Xu 0002, Junyuan Hong,
+    Nathalie Baracaldo, Neil Shah, Salman Avestimehr, Jiayu Zhou
+  title: 'FedKDD 2025: The 2025 International Joint Workshop on Federated Learning
+    for Data Mining and Graph Analytics.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/0001WZ0HBSAZ25
+  doi: 10.1145/3711896.3737861
+  ee: https://doi.org/10.1145/3711896.3737861
+  url: https://dblp.org/rec/conf/kdd/0001WZ0HBSAZ25
+- author: Jianqing Zhang, Xinghao Wu, Yanbing Zhou, Xiaoting Sun, Qiqi Cai, Yang Liu
+    0165, Yang Hua 0001, Zhenzhe Zheng, Jian Cao 0001, Qiang Yang 0001
+  title: 'HtFLlib: A Comprehensive Heterogeneous Federated Learning Library and Benchmark.'
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ZhangWZSC00Z0025
+  doi: 10.1145/3711896.3737379
+  ee: https://doi.org/10.1145/3711896.3737379
+  url: https://dblp.org/rec/conf/kdd/ZhangWZSC00Z0025
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -31524,6 +31569,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.00987
   ee: https://doi.org/10.1109/CVPR52688.2022.00987
   url: https://dblp.org/rec/conf/cvpr/GaoFLC0022
+- author: Jianqing Zhang, Yang Liu 0165, Yang Hua 0001, Jian Cao 0001
+  title: An Upload-Efficient Scheme for Transferring Knowledge From a Server-Side
+    Pre-trained Generator to Clients in Heterogeneous Federated Learning.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/ZhangLHC24
+  doi: 10.1109/CVPR52733.2024.01151
+  ee: https://doi.org/10.1109/CVPR52733.2024.01151
+  url: https://dblp.org/rec/conf/cvpr/ZhangLHC24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -32432,6 +32488,18 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00490
   ee: https://doi.org/10.1109/ICCV51070.2023.00490
   url: https://dblp.org/rec/conf/iccv/0001SHLW23
+- author: Jianqing Zhang, Yang Hua 0001, Hao Wang 0022, Tao Song 0003, Zhengui Xue,
+    Ruhui Ma, Jian Cao 0001, Haibing Guan
+  title: 'GPFL: Simultaneously Learning Global and Personalized Feature Information
+    for Personalized Federated Learning.'
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZhangHWSXMCG23
+  doi: 10.1109/ICCV51070.2023.00465
+  ee: https://doi.org/10.1109/ICCV51070.2023.00465
+  url: https://dblp.org/rec/conf/iccv/ZhangHWSXMCG23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -39310,6 +39378,83 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3685800.3685896
   ee: https://www.vldb.org/pvldb/vol17/p4445-wei.pdf
   url: https://dblp.org/rec/journals/pvldb/WeiZZZX24
+- author: Graham Cormode, Daniel Ting
+  title: Federated Data Shift Distance Estimation.
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/CormodeT25
+  doi: 10.14778/3742728.3742736
+  ee: https://www.vldb.org/pvldb/vol18/p2399-cormode.pdf
+  url: https://dblp.org/rec/journals/pvldb/CormodeT25
+- author: Xiaoyu Fan, Kun Chen 0004, Jiping Yu, Xiaowei Zhu 0001, Yunyi Chen, Huanchen
+    Zhang, Wei Xue 0003
+  title: 'GORAM: Graph-oriented ORAM for Efficient Ego-centric Queries on Federated
+    Graphs.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/FanCYZCZX25
+  doi: 10.14778/3748191.3748218
+  ee: https://www.vldb.org/pvldb/vol18/p3601-fan.pdf
+  url: https://dblp.org/rec/journals/pvldb/FanCYZCZX25
+- author: Zeheng Fan, Yuxiang Zeng, Zhuanglin Zheng, Yongxin Tong
+  title: 'FedVSE: A Privacy-Preserving and Efficient Vector Search Engine for Federated
+    Databases.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/FanZZT25
+  doi: 10.14778/3750601.3750674
+  ee: https://www.vldb.org/pvldb/vol18/p5371-tong.pdf
+  url: https://dblp.org/rec/journals/pvldb/FanZZT25
+- author: Yushuai Ji, Shengkun Zhu, Shixun Huang, Zepeng Liu, Sheng Wang 0007, Zhiyong
+    Peng 0001
+  title: Federated and Balanced Clustering for High-dimensional Data.
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/JiZHLWP25
+  doi: 10.14778/3749646.3749673
+  ee: https://www.vldb.org/pvldb/vol18/p4032-wang.pdf
+  url: https://dblp.org/rec/journals/pvldb/JiZHLWP25
+- author: Xunkai Li, Yinlin Zhu, Boyang Pang, Guochen Yan, Yeyu Yan, Zening Li, Zhengyu
+    Wu, Wentao Zhang 0001, Ronghua Li, Guoren Wang
+  title: 'OpenFGL: A Comprehensive Benchmark for Federated Graph Learning.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/LiZPYYLWZLW25
+  doi: 10.14778/3718057.3718061
+  ee: https://www.vldb.org/pvldb/vol18/p1305-li.pdf
+  url: https://dblp.org/rec/journals/pvldb/LiZPYYLWZLW25
+- author: Yan Zhang 0111, Shuwei Liang, Xiaoye Miao, Yangyang Wu, Jianwei Yin
+  title: Federated Incomplete Tabular Data Prediction with Missing Complementarity.
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhangLMWY25
+  doi: 10.14778/3748191.3748213
+  ee: https://www.vldb.org/pvldb/vol18/p3531-miao.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhangLMWY25
+- author: Xiaokai Zhou, Xiao Yan 0002, Fangcheng Fu, Ziwen Fu, Tieyun Qian, Yuanyuan
+    Zhu 0001, Qinbo Zhang, Bin Cui 0001, Jiawei Jiang 0001
+  title: 'PS-MI: Accurate, Efficient, and Private Data Valuation in Vertical Federated
+    Learning.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/ZhouYFFQZZCJ25
+  doi: 10.14778/3748191.3748215
+  ee: https://www.vldb.org/pvldb/vol18/p3559-zhou.pdf
+  url: https://dblp.org/rec/journals/pvldb/ZhouYFFQZZCJ25
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things

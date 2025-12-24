@@ -11481,6 +11481,28 @@ federate%20streamid%3Ajournals%2Fai%3A:
   doi: 10.1016/J.ARTINT.2025.104333
   ee: https://doi.org/10.1016/j.artint.2025.104333
   url: https://dblp.org/rec/journals/ai/YaoPSODWZJS25
+- author: Hui Chen 0026, Xuhui Fan 0001, Hengyu Liu 0001, Yaqiong Li, Zhi-Lin Zhao
+    0001, Feng Zhou 0011, Christopher John Quinn, Longbing Cao
+  title: Federated neural nonparametric point processes.
+  venue: Artif. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ai/ChenFLLZZQC26
+  doi: 10.1016/J.ARTINT.2025.104454
+  ee: https://doi.org/10.1016/j.artint.2025.104454
+  url: https://dblp.org/rec/journals/ai/ChenFLLZZQC26
+- author: Xinyuan Zhao, Hanlin Gu, Lixin Fan, Yuxing Han 0001, Qiang Yang
+  title: Disentangling data distribution for optimal and communication-efficient federated
+    learning.
+  venue: Artif. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ai/ZhaoGFHY26
+  doi: 10.1016/J.ARTINT.2025.104455
+  ee: https://doi.org/10.1016/j.artint.2025.104455
+  url: https://dblp.org/rec/journals/ai/ZhaoGFHY26
 federate%20venue%3ANeurIPS%3A:
 - author: Karan Singhal, Hakim Sidahmed, Zachary Garrett, Shanshan Wu, John Rush,
     Sushant Prakash
@@ -47812,6 +47834,50 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2022.3224941
   ee: https://doi.org/10.1109/TPDS.2022.3224941
   url: https://dblp.org/rec/journals/tpds/LiuJMZZZDD23
+- author: Huanghuang Liang, Xin Yang, Xiaoming Han, Boan Liu, Chuang Hu, Dan Wang
+    0002, Xiaobo Zhou 0002, Dazhao Cheng
+  title: 'Spread+: Scalable Model Aggregation in Federated Learning With Non-IID Data.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LiangYHLHWZC25
+  doi: 10.1109/TPDS.2025.3539738
+  ee: https://doi.org/10.1109/tpds.2025.3539738
+  url: https://dblp.org/rec/journals/tpds/LiangYHLHWZC25
+- author: Yaxin Luopan, Rui Han 0001, Qinglong Zhang, Xiaojiang Zuo, Chi Harold Liu,
+    Guoren Wang, Lydia Y. Chen
+  title: 'Loci: Federated Continual Learning of Heterogeneous Tasks at Edge.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/LuopanHZZLWC25
+  doi: 10.1109/TPDS.2025.3531123
+  ee: https://doi.org/10.1109/tpds.2025.3531123
+  url: https://dblp.org/rec/journals/tpds/LuopanHZZLWC25
+- author: Daniel Manu, Abee Alazzwi, Jingjing Yao, Youzuo Lin, Xiang Sun 0001
+  title: 'AsyncFedGAN: An Efficient and Staleness-Aware Asynchronous Federated Learning
+    Framework for Generative Adversarial Networks.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ManuAYLS25
+  doi: 10.1109/TPDS.2024.3521016
+  ee: https://doi.org/10.1109/tpds.2024.3521016
+  url: https://dblp.org/rec/journals/tpds/ManuAYLS25
+- author: Neha Singh, Mainak Adhikari
+  title: 'FedTune-SGM: A Stackelberg-Driven Personalized Federated Learning Strategy
+    for Edge Networks.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/SinghA25
+  doi: 10.1109/TPDS.2025.3543368
+  ee: https://doi.org/10.1109/tpds.2025.3543368
+  url: https://dblp.org/rec/journals/tpds/SinghA25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

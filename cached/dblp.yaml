@@ -11503,6 +11503,17 @@ federate%20streamid%3Ajournals%2Fai%3A:
   doi: 10.1016/J.ARTINT.2025.104455
   ee: https://doi.org/10.1016/j.artint.2025.104455
   url: https://dblp.org/rec/journals/ai/ZhaoGFHY26
+- author: Xinyuan Zhao, Hanlin Gu, Lixin Fan, Yuxing Han 0001, Qiang Yang 0001
+  title: Disentangling data distribution for optimal and communication-efficient federated
+    learning.
+  venue: Artif. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ai/ZhaoGFHY26
+  doi: 10.1016/J.ARTINT.2025.104455
+  ee: https://doi.org/10.1016/j.artint.2025.104455
+  url: https://dblp.org/rec/journals/ai/ZhaoGFHY26
 federate%20venue%3ANeurIPS%3A:
 - author: Karan Singhal, Hakim Sidahmed, Zachary Garrett, Shanshan Wu, John Rush,
     Sushant Prakash

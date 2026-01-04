@@ -3434,6 +3434,18 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/290
   url: https://dblp.org/rec/conf/ijcai/Zhu0W0T0S24
+- author: Zhenghong Lin, Wei Huang 0037, Hengyu Zhang 0001, Jiayu Xu, Weiming Liu
+    0005, Xinting Liao, Fan Wang 0020, Shiping Wang, Yanchao Tan
+  title: Enhancing Dual-Target Cross-Domain Recommendation with Federated Privacy-Preserving
+    Learning.
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LinHZX0L0WT24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/238
+  url: https://dblp.org/rec/conf/ijcai/LinHZX0L0WT24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -10407,6 +10419,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I15.29617
   ee: https://doi.org/10.1609/aaai.v38i15.29617
   url: https://dblp.org/rec/conf/aaai/ZhangLHC24
+- author: Pengyu Qiu, Yuwen Pu, Yongchao Liu 0004, Wenyan Liu 0001, Yun Yue, Xiaowei
+    Zhu 0001, Lichun Li, Jinbao Li, Shouling Ji
+  title: 'Integer Is Enough: When Vertical Federated Learning Meets Rounding.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/QiuPLLYZLLJ24
+  doi: 10.1609/AAAI.V38I13.29388
+  ee: https://doi.org/10.1609/aaai.v38i13.29388
+  url: https://dblp.org/rec/conf/aaai/QiuPLLYZLLJ24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

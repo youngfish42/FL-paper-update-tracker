@@ -10430,6 +10430,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I13.29388
   ee: https://doi.org/10.1609/aaai.v38i13.29388
   url: https://dblp.org/rec/conf/aaai/QiuPLLYZLLJ24
+- author: Puning Zhao, Fei Yu 0012, Zhiguo Wan
+  title: A Huber Loss Minimization Approach to Byzantine Robust Federated Learning.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhaoYW24
+  doi: 10.1609/AAAI.V38I19.30181
+  ee: https://doi.org/10.1609/aaai.v38i19.30181
+  url: https://dblp.org/rec/conf/aaai/ZhaoYW24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -25238,6 +25248,17 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2025.3602282
   ee: https://doi.org/10.1109/TPAMI.2025.3602282
   url: https://dblp.org/rec/journals/pami/YoonHY25
+- author: Jiyuan Liu 0003, Xinwang Liu 0002, Siqi Wang 0001, Xinhang Wan, Dongsheng
+    Li 0001, Kai Lu 0001, Kunlun He
+  title: Communication-Efficient Federated Multi-View Clustering.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiuLWWLLH26
+  doi: 10.1109/TPAMI.2025.3601533
+  ee: https://doi.org/10.1109/TPAMI.2025.3601533
+  url: https://dblp.org/rec/journals/pami/LiuLWWLLH26
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

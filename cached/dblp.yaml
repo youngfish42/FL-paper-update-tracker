@@ -24645,6 +24645,16 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06888-W
   ee: https://doi.org/10.1007/s10994-025-06888-w
   url: https://dblp.org/rec/journals/ml/ChenZXDY25
+- author: "Pablo Torrijos, Jos\xE9 A. G\xE1mez 0001, Jos\xE9 M. Puerta"
+  title: 'FedGES: A Federated Learning Approach for Bayesian Network Structure Learning.'
+  venue: Mach. Learn.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/TorrijosGP26
+  doi: 10.1007/S10994-025-06939-2
+  ee: https://doi.org/10.1007/s10994-025-06939-2
+  url: https://dblp.org/rec/journals/ml/TorrijosGP26
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous

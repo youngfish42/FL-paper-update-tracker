@@ -16686,6 +16686,28 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/1229eaae5bf1db93e1e4c539258eb472-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuSHLZH23
+- author: Mohammad Mahdi Kamani, Yuhang Yao 0003, Hanjia Lyu, Zhongwei Cheng, Lin
+    Chen 0021, Liangju Li, Carlee Joe-Wong, Jiebo Luo 0001
+  title: 'Wyze Rule: Federated Rule Dataset for Rule Recommendation Benchmarking.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/KamaniYLCCLJL23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/02b9d1e6d1b5295a6f883969ddc1bbbd-Abstract-Datasets_and_Benchmarks.html
+  url: https://dblp.org/rec/conf/nips/KamaniYLCCLJL23
+- author: Yuhang Yao 0003, Weizhao Jin, Srivatsan Ravi, Carlee Joe-Wong
+  title: 'FedGCN: Convergence-Communication Tradeoffs in Federated Training of Graph
+    Convolutional Networks.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YaoJRJ23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/fc07feae9af49dd3f1a1e049b77f4e17-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YaoJRJ23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -25322,6 +25344,16 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2025.3601533
   ee: https://doi.org/10.1109/TPAMI.2025.3601533
   url: https://dblp.org/rec/journals/pami/LiuLWWLLH26
+- author: Yawei Zhao, Qinghe Liu, Pan Liu 0004, Xinwang Liu 0002, Kunlun He
+  title: Medical Federated Model With Mixture of Personalized and Shared Components.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ZhaoLLLH25
+  doi: 10.1109/TPAMI.2024.3470072
+  ee: https://doi.org/10.1109/TPAMI.2024.3470072
+  url: https://dblp.org/rec/journals/pami/ZhaoLLLH25
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -27431,6 +27463,20 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3534678.3539328
   ee: https://doi.org/10.1145/3534678.3539328
   url: https://dblp.org/rec/conf/kdd/LiPH22
+- author: Shanshan Han, Baturalp Buyukates, Zijian Hu 0001, Han Jin, Weizhao Jin,
+    Lichao Sun 0001, Xiaoyang Wang, Wenxuan Wu, Chulin Xie, Yuhang Yao 0003, Kai Zhang
+    0039, Qifan Zhang 0002, Yuhui Zhang, Carlee Joe-Wong, Salman Avestimehr, Chaoyang
+    He 0001
+  title: 'FedSecurity: A Benchmark for Attacks and Defenses in Federated Learning
+    and Federated LLMs.'
+  venue: KDD
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/HanB0JJ0WWXYZZZ24
+  doi: 10.1145/3637528.3671545
+  ee: https://doi.org/10.1145/3637528.3671545
+  url: https://dblp.org/rec/conf/kdd/HanB0JJ0WWXYZZZ24
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.

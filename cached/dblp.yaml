@@ -3446,6 +3446,17 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/238
   url: https://dblp.org/rec/conf/ijcai/LinHZX0L0WT24
+- author: Ke Hu, Liyao Xiang, Peng Tang 0002, Weidong Qiu
+  title: 'Feature Norm Regularized Federated Learning: Utilizing Data Disparities
+    for Model Performance Gains.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/HuXTQ24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/457
+  url: https://dblp.org/rec/conf/ijcai/HuXTQ24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -10440,6 +10451,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I19.30181
   ee: https://doi.org/10.1609/aaai.v38i19.30181
   url: https://dblp.org/rec/conf/aaai/ZhaoYW24
+- author: Jiarong Yang, Yuan Liu 0001
+  title: 'GAS: Generative Activation-Aided Asynchronous Split Federated Learning.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YangL25
+  doi: 10.1609/AAAI.V39I20.35503
+  ee: https://doi.org/10.1609/aaai.v39i20.35503
+  url: https://dblp.org/rec/conf/aaai/YangL25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

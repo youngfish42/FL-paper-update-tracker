@@ -10461,6 +10461,28 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I20.35503
   ee: https://doi.org/10.1609/aaai.v39i20.35503
   url: https://dblp.org/rec/conf/aaai/YangL25
+- author: Jingxin Liu 0006, Jieren Cheng, Renda Han, Wenxuan Tu, Jiaxin Wang, Xin
+    Peng 0010
+  title: Federated Graph-Level Clustering Network.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuCHTWP25
+  doi: 10.1609/AAAI.V39I18.34077
+  ee: https://doi.org/10.1609/aaai.v39i18.34077
+  url: https://dblp.org/rec/conf/aaai/LiuCHTWP25
+- author: Yujing Wang 0010, Hainan Zhang, Sijia Wen, Wangjie Qiu, Binghui Guo
+  title: Defending Against Sophisticated Poisoning Attacks with RL-based Aggregation
+    in Federated Learning.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangZWQG25
+  doi: 10.1609/AAAI.V39I24.34733
+  ee: https://doi.org/10.1609/aaai.v39i24.34733
+  url: https://dblp.org/rec/conf/aaai/WangZWQG25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -33323,6 +33345,18 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-72633-0_14
   ee: https://doi.org/10.1007/978-3-031-72633-0_14
   url: https://dblp.org/rec/conf/eccv/HuangYSDT24
+- author: Jinglin Liang, Jin Zhong 0001, Hanlin Gu, Zhongqi Lu, Xingxing Tang, Gang
+    Dai 0002, Shuangping Huang, Lixin Fan, Qiang Yang 0001
+  title: 'Diffusion-Driven Data Replay: A Novel Approach to Combat Forgetting in Federated
+    Class Continual Learning.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/LiangZGLTDHFY24
+  doi: 10.1007/978-3-031-73404-5_18
+  ee: https://doi.org/10.1007/978-3-031-73404-5_18
+  url: https://dblp.org/rec/conf/eccv/LiangZGLTDHFY24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

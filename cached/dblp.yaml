@@ -10483,6 +10483,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I24.34733
   ee: https://doi.org/10.1609/aaai.v39i24.34733
   url: https://dblp.org/rec/conf/aaai/WangZWQG25
+- author: Li Zhang, Chaochao Chen 0001, Zhongxuan Han, Qiyong Zhong, Xiaolin Zheng
+  title: 'LoGoFair: Post-Processing for Local and Global Fairness in Federated Learning.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangCHZZ25
+  doi: 10.1609/AAAI.V39I21.34404
+  ee: https://doi.org/10.1609/aaai.v39i21.34404
+  url: https://dblp.org/rec/conf/aaai/ZhangCHZZ25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -33357,6 +33367,17 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-73404-5_18
   ee: https://doi.org/10.1007/978-3-031-73404-5_18
   url: https://dblp.org/rec/conf/eccv/LiangZGLTDHFY24
+- author: Boyu Fan, Chenrui Wu 0002, Xiang Su 0001, Pan Hui 0001
+  title: 'FedTSA: A Cluster-Based Two-Stage Aggregation Method for Model-Heterogeneous
+    Federated Learning.'
+  venue: ECCV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/FanWSH24
+  doi: 10.1007/978-3-031-73010-8_22
+  ee: https://doi.org/10.1007/978-3-031-73010-8_22
+  url: https://dblp.org/rec/conf/eccv/FanWSH24
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

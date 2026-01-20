@@ -27530,6 +27530,17 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671545
   ee: https://doi.org/10.1145/3637528.3671545
   url: https://dblp.org/rec/conf/kdd/HanB0JJ0WWXYZZZ24
+- author: Jingwei Yi, Fangzhao Wu, Bin Zhu 0008, Jing Yao 0003, Zhulin Tao, Guangzhong
+    Sun, Xing Xie 0001
+  title: 'UA-FedRec: Untargeted Attack on Federated News Recommendation.'
+  venue: KDD
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/YiWZYTS023
+  doi: 10.1145/3580305.3599923
+  ee: https://doi.org/10.1145/3580305.3599923
+  url: https://dblp.org/rec/conf/kdd/YiWZYTS023
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -29328,6 +29339,17 @@ federate%20venue%3ANDSS%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/urvfl-undetectable-data-reconstruction-attack-on-vertical-federated-learning/
   url: https://dblp.org/rec/conf/ndss/YaoLGHP25
+- author: Chunyi Zhou 0001, Yansong Gao 0001, Anmin Fu, Kai Chen 0012, Zhiyang Dai,
+    Zhi Zhang 0001, Minhui Xue 0001, Yuqing Zhang 0001
+  title: 'PPA: Preference Profiling Attack Against Federated Learning.'
+  venue: NDSS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhouGFCD0X023
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/ppa-preference-profiling-attack-against-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/ZhouGFCD0X023
 federate%20venue%3ACVPR%3A:
 - author: Yiqing Shen 0003, Yuyin Zhou, Lequan Yu
   title: 'CD2-pFed: Cyclic Distillation-guided Channel Decoupling for Model Personalization

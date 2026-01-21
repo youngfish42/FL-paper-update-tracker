@@ -10493,6 +10493,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I21.34404
   ee: https://doi.org/10.1609/aaai.v39i21.34404
   url: https://dblp.org/rec/conf/aaai/ZhangCHZZ25
+- author: Haoming Wang 0002, Wei Gao 0006
+  title: Tackling Intertwined Data and Device Heterogeneities in Federated Learning
+    with Unlimited Staleness.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangG25a
+  doi: 10.1609/AAAI.V39I20.35405
+  ee: https://doi.org/10.1609/aaai.v39i20.35405
+  url: https://dblp.org/rec/conf/aaai/WangG25a
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -39760,6 +39771,18 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   doi: 10.14778/3748191.3748215
   ee: https://www.vldb.org/pvldb/vol18/p3559-zhou.pdf
   url: https://dblp.org/rec/journals/pvldb/ZhouYFFQZZCJ25
+- author: Xiaoyu Fan, Kun Chen 0004, Jiping Yu, Xiaowei Zhu 0001, Yunyi Chen 0001,
+    Huanchen Zhang, Wei Xue 0003
+  title: 'GORAM: Graph-oriented ORAM for Efficient Ego-centric Queries on Federated
+    Graphs.'
+  venue: Proc. VLDB Endow.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/pvldb/FanCYZCZX25
+  doi: 10.14778/3748191.3748218
+  ee: https://www.vldb.org/pvldb/vol18/p3601-fan.pdf
+  url: https://dblp.org/rec/journals/pvldb/FanCYZCZX25
 federate%20venue%3ASIGCOMM%3A:
 - author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
@@ -42911,6 +42934,60 @@ federate%20venue%3AMobiCom%3A:
   doi: 10.1145/3570361.3613277
   ee: https://doi.org/10.1145/3570361.3613277
   url: https://dblp.org/rec/conf/mobicom/CaiWWLX23a
+- author: Haoming Wang 0002, Wei Gao 0006
+  title: When Device Delays Meet Data Heterogeneity in Federated AIoT Applications.
+  venue: MobiCom
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/0002025
+  doi: 10.1145/3680207.3723481
+  ee: https://doi.org/10.1145/3680207.3723481
+  url: https://dblp.org/rec/conf/mobicom/0002025
+- author: Boyi Liu 0002, Shuyuan Li, Zimu Zhou, Shuo Kang, Yiming Ma 0005, Yongxin
+    Tong
+  title: 'Poster: Asynchronous Federated Learning Library and Benchmark with AFL-Lib.'
+  venue: MobiCom
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/0002LZK0T25
+  doi: 10.1145/3680207.3765660
+  ee: https://doi.org/10.1145/3680207.3765660
+  url: https://dblp.org/rec/conf/mobicom/0002LZK0T25
+- author: Zhidu Li, Dongsheng Luo, Qing Xue, Yue Tian, Zhengwei Ni, Mingliang Deng
+  title: 'Poster: FedFNS: A Robust Federated Learning Method for Data Shift over Unreliable
+    Communication Links.'
+  venue: MobiCom
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/LiLXTND25
+  doi: 10.1145/3680207.3765674
+  ee: https://doi.org/10.1145/3680207.3765674
+  url: https://dblp.org/rec/conf/mobicom/LiLXTND25
+- author: Shantanu Pal, Saifur Rahman 0002, Robin Doss, Chandan K. Karmakar
+  title: 'Poster: BlockFL-Med: Blockchain-Enabled and Lightweight Federated Learning
+    for Smart Medical Spaces.'
+  venue: MobiCom
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/Pal0DK25
+  doi: 10.1145/3680207.3765687
+  ee: https://doi.org/10.1145/3680207.3765687
+  url: https://dblp.org/rec/conf/mobicom/Pal0DK25
+- author: Ke Xing, Yanjie Dong, Xiaoyi Fan 0001, Xiping Hu
+  title: 'Poster: Learning to Personalize in Federated Networks with Contribution-Aware
+    Aggregation.'
+  venue: MobiCom
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/XingD0H25
+  doi: 10.1145/3680207.3765661
+  ee: https://doi.org/10.1145/3680207.3765661
+  url: https://dblp.org/rec/conf/mobicom/XingD0H25
 federate%20venue%3ANSDI%3A:
 - author: Junxue Zhang 0001, Xiaodian Cheng, Wei Wang, Liu Yang, Jinbin Hu, Kai Chen
     0005

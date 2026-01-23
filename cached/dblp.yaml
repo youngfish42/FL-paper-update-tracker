@@ -20716,6 +20716,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=C7dmhyTDrx
   url: https://dblp.org/rec/conf/icml/LiFWL00SZ025
+- author: Hongyao Chen, Tianyang Xu 0001, Xiaojun Wu 0001, Josef Kittler
+  title: 'Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation
+    in Federated Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ChenX0K25
+  doi: ''
+  ee: https://openreview.net/forum?id=zV5pkTMHPP
+  url: https://dblp.org/rec/conf/icml/ChenX0K25
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -45429,6 +45440,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3696410.3714722
   ee: https://doi.org/10.1145/3696410.3714722
   url: https://dblp.org/rec/conf/www/WangLXSGL25
+- author: Chengxu Yang, Qipeng Wang 0001, Mengwei Xu 0001, Zhenpeng Chen, Kaigui Bian,
+    Yunxin Liu 0001, Xuanzhe Liu
+  title: Characterizing Impacts of Heterogeneity in Federated Learning upon Large-Scale
+    Smartphone Data.
+  venue: WWW
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YangWXCBLL21
+  doi: 10.1145/3442381.3449851
+  ee: https://doi.org/10.1145/3442381.3449851
+  url: https://dblp.org/rec/conf/www/YangWXCBLL21
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -48238,6 +48261,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3543368
   ee: https://doi.org/10.1109/tpds.2025.3543368
   url: https://dblp.org/rec/journals/tpds/SinghA25
+- author: Yixiao Xia, Yinghui Zhao, Jian Wan 0001, Congfeng Jiang
+  title: 'FLUXLog: A Federated Mixture-of-Experts Framework for Unified Log Anomaly
+    Detection.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/XiaZWJ26
+  doi: 10.1109/TPDS.2025.3638693
+  ee: https://doi.org/10.1109/TPDS.2025.3638693
+  url: https://dblp.org/rec/journals/tpds/XiaZWJ26
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

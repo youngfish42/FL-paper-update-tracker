@@ -3469,6 +3469,18 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/628
   ee: https://doi.org/10.24963/ijcai.2025/628
   url: https://dblp.org/rec/conf/ijcai/LiNYI025
+- author: Mingyang Chen 0002, Wen Zhang 0015, Zhen Yao 0001, Xiangnan Chen, Mengxiao
+    Ding, Fei Huang 0002, Huajun Chen
+  title: Meta-Learning Based Knowledge Extrapolation for Knowledge Graphs in the Federated
+    Setting.
+  venue: IJCAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Chen0YCDHC22
+  doi: 10.24963/IJCAI.2022/273
+  ee: https://doi.org/10.24963/ijcai.2022/273
+  url: https://dblp.org/rec/conf/ijcai/Chen0YCDHC22
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -37764,6 +37776,18 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/3654947
   ee: https://doi.org/10.1145/3654947
   url: https://dblp.org/rec/journals/pacmmod/LiCZC0WL024
+- author: Zongda Han, Xiang Cheng 0003, Wenhong Zhao, Jiaxin Fu, Zhaofeng He 0001,
+    Sen Su
+  title: 'SecureXGB: A Secure and Efficient Multi-party Protocol for Vertical Federated
+    XGBoost.'
+  venue: Proc. ACM Manag. Data
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/HanCZFHS25
+  doi: 10.1145/3709723
+  ee: https://doi.org/10.1145/3709723
+  url: https://dblp.org/rec/journals/pacmmod/HanCZFHS25
 federate%20venue%3AICDE%3A:
 - author: Min Chen 0033, Yang Xu, Hongli Xu, Liusheng Huang
   title: Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous

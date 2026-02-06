@@ -20955,6 +20955,707 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=jrHUbftLd6
   url: https://dblp.org/rec/conf/icml/ChenZ24
+- author: Guan Huang 0004, Tao Shu
+  title: 'Federated Oriented Learning: A Practical One-Shot Personalized Federated
+    Learning Framework.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/0004S25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/huang25ae.html
+  url: https://dblp.org/rec/conf/icml/0004S25
+- author: Terje Mildner, Oliver Hamelijnck, Paris Giampouras, Theodoros Damoulas
+  title: 'Federated Generalised Variational Inference: A Robust Probabilistic Federated
+    Learning Framework.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/MildnerHGD25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/mildner25a.html
+  url: https://dblp.org/rec/conf/icml/MildnerHGD25
+- author: Jiayuan Zhang 0001, Xuefeng Liu 0001, Jianwei Niu 0002, Shaojie Tang 0001,
+    Haotian Yang, Xinghao Wu
+  title: Causality Inspired Federated Learning for OOD Generalization.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/0001000YW25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/zhang25ba.html
+  url: https://dblp.org/rec/conf/icml/0001000YW25
+- author: Xiaoli Tang 0001, Han Yu 0001, Zengxiang Li, Xiaoxiao Li
+  title: Multi-Session Budget Optimization for Forward Auction-based Federated Learning.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/00010LL25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/tang25m.html
+  url: https://dblp.org/rec/conf/icml/00010LL25
+- author: Shiwei Li 0002, Xiandi Luo, Haozhao Wang, Xing Tang 0007, Shijie Xu, Weihong
+    Luo, Yuhua Li 0003, Xiuqiang He 0001, Ruixuan Li 0001
+  title: The Panaceas for Improving Low-Rank Decomposition in Communication-Efficient
+    Federated Learning.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/0002LW0XL00025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/li25bn.html
+  url: https://dblp.org/rec/conf/icml/0002LW0XL00025
+- author: Amir Najafi 0002, Samin Mahdizadeh Sani, Farzan Farnia
+  title: Certifiably Robust Model Evaluation in Federated Learning under Meta-Distributional
+    Shifts.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/0002SF25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/najafi25a.html
+  url: https://dblp.org/rec/conf/icml/0002SF25
+- author: Xinyue Chen 0004, Jinfeng Peng, Yuhao Li, Xiaorong Pu, Yang Yang 0002, Yazhou
+    Ren 0001
+  title: An Effective and Secure Federated Multi-View Clustering Method with Information-Theoretic
+    Perspective.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/0004PLP0025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/chen25az.html
+  url: https://dblp.org/rec/conf/icml/0004PLP0025
+- author: Jingxin Liu 0006, Renda Han, Wenxuan Tu, Haotian Wang, Junlong Wu, Jieren
+    Cheng
+  title: Federated Node-Level Clustering Network with Cross-Subgraph Link Mending.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/0006HTWWC25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/liu25v.html
+  url: https://dblp.org/rec/conf/icml/0006HTWWC25
+- author: Yichen Li 0006, Yuying Wang, Haozhao Wang, Yining Qi, Tianzhe Xiao, Ruixuan
+    Li 0001
+  title: 'FedSSI: Rehearsal-Free Continual Federated Learning with Synergistic Synaptic
+    Intelligence.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/0006WWQX025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/li25cq.html
+  url: https://dblp.org/rec/conf/icml/0006WWQX025
+- author: Aayushya Agarwal, Gauri Joshi, Lawrence T. Pileggi
+  title: 'FedECADO: A Dynamical System Model of Federated Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/AgarwalJP25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/agarwal25c.html
+  url: https://dblp.org/rec/conf/icml/AgarwalJP25
+- author: Youssef Allouah, Rachid Guerraoui, John Stephan
+  title: Towards Trustworthy Federated Learning with Untrusted Participants.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/AllouahGS25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/allouah25a.html
+  url: https://dblp.org/rec/conf/icml/AllouahGS25
+- author: Alexander Bienstock, Ujjwal Kumar, Antigoni Polychroniadou
+  title: 'DMM: Distributed Matrix Mechanism for Differentially-Private Federated Learning
+    Based on Constant-Overhead Linear Secret Resharing.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/BienstockKP25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/bienstock25a.html
+  url: https://dblp.org/rec/conf/icml/BienstockKP25
+- author: Guoqing Chao, Zhenghao Zhang, Lei Meng, Jie Wen, Dianhui Chu
+  title: Federated Incomplete Multi-view Clustering with Globally Fused Graph Guidance.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ChaoZMWC25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/chao25a.html
+  url: https://dblp.org/rec/conf/icml/ChaoZMWC25
+- author: Mengmeng Chen, Xiaohu Wu, Qiqi Liu, Tiantian He 0001, Yew-Soon Ong, Yaochu
+    Jin, Qicheng Lao, Han Yu 0001
+  title: Voronoi-grid-based Pareto Front Learning and Its Application to Collaborative
+    Federated Learning.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ChenWL0OJL025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/chen25br.html
+  url: https://dblp.org/rec/conf/icml/ChenWL0OJL025
+- author: Hongyao Chen, Tianyang Xu 0001, Xiaojun Wu 0001, Josef Kittler
+  title: 'Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation
+    in Federated Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ChenX0K25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/chen25by.html
+  url: https://dblp.org/rec/conf/icml/ChenX0K25
+- author: Li Ding, Hao Zhang, Wenrui Dai, Chenglin Li, Weijia Lu, Zhifei Yang 0005,
+    Xiaodong Zhang, Xiaofeng Ma, Junni Zou, Hongkai Xiong
+  title: 'LBI-FL: Low-Bit Integerized Federated Learning with Temporally Dynamic Bit-Width
+    Allocation.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/DingZDLL0ZMZX25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/ding25e.html
+  url: https://dblp.org/rec/conf/icml/DingZDLL0ZMZX25
+- author: Chengying Fang, Wenke Huang 0003, Guancheng Wan, Yihao Yang, Mang Ye
+  title: 'FedPHA: Federated Prompt Learning for Heterogeneous Client Adaptation.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Fang0WYY25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/fang25e.html
+  url: https://dblp.org/rec/conf/icml/Fang0WYY25
+- author: Vitaly Feldman, Audra McMillan, Guy N. Rothblum, Kunal Talwar
+  title: Local Pan-privacy for Federated Analytics.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/FeldmanMRT25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/feldman25a.html
+  url: https://dblp.org/rec/conf/icml/FeldmanMRT25
+- author: Lele Fu, Bowen Deng 0002, Sheng Huang, Tianchi Liao, Shirui Pan, Chuan Chen
+    0001
+  title: 'Less is More: Federated Graph Learning with Alleviating Topology Heterogeneity
+    from A Causal Perspective.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Fu0HLP025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/fu25a.html
+  url: https://dblp.org/rec/conf/icml/Fu0HLP025
+- author: Wenwen He, Wenke Huang 0003, Bin Yang 0026, Shukan Liu, Mang Ye
+  title: 'SPMC: Self-Purifying Federated Backdoor Defense via Margin Contribution.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/He00LY25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/he25f.html
+  url: https://dblp.org/rec/conf/icml/He00LY25
+- author: Charlie Hou, Mei-Yu Wang, Yige Zhu, Daniel Lazar, Giulia Fanti
+  title: Private Federated Learning using Preference-Optimized Synthetic Data.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/HouWZLF25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/hou25g.html
+  url: https://dblp.org/rec/conf/icml/HouWZLF25
+- author: Won-Jun Jang, Hyeon-Seo Park, Si-Hyeon Lee
+  title: Provably Near-Optimal Federated Ensemble Distillation with Negligible Overhead.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/JangPL25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/jang25b.html
+  url: https://dblp.org/rec/conf/icml/JangPL25
+- author: Xiaoqian Jiang, Jing Zhang
+  title: 'FedClean: A General Robust Label Noise Correction for Federated Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/JiangZ25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/jiang25m.html
+  url: https://dblp.org/rec/conf/icml/JiangZ25
+- author: Dongwon Kim, Donghee Kim, Sung Kuk Shyn, Kwangsu Kim
+  title: Federated Learning for Feature Generalization with Convex Constraints.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/KimKSK25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/kim25o.html
+  url: https://dblp.org/rec/conf/icml/KimKSK25
+- author: Yuecheng Li, Lele Fu, Tong Wang, Jian Lou 0001, Bin Chen 0011, Lei Yang
+    0030, Jian Shen, Zibin Zheng, Chuan Chen 0001
+  title: 'Clients Collaborate: Flexible Differentially Private Federated Learning
+    with Guaranteed Improvement of Utility-Privacy Trade-off.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LiFWL00SZ025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/li25n.html
+  url: https://dblp.org/rec/conf/icml/LiFWL00SZ025
+- author: Yuhang Li, Tong Liu 0001, Yangguang Cui, Ming Hu, Xiaoqiang Li 0002
+  title: 'One Arrow, Two Hawks: Sharpness-aware Minimization for Federated Learning
+    via Global Model Trajectory.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LiLCHL25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/li25bd.html
+  url: https://dblp.org/rec/conf/icml/LiLCHL25
+- author: Xinting Liao, Weiming Liu 0005, Jiaming Qian, Pengyang Zhou, Jiahe Xu 0003,
+    Wenjie Wang 0007, Chaochao Chen 0001, Xiaolin Zheng, Tat-Seng Chua
+  title: 'FOCoOp: Enhancing Out-of-Distribution Robustness in Federated Prompt Learning
+    for Vision-Language Models.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Liao0QZ0W0ZC25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/liao25e.html
+  url: https://dblp.org/rec/conf/icml/Liao0QZ0W0ZC25
+- author: Yangxu Liao, Wenke Huang 0003, Guancheng Wan, Jian Liang 0003, Bin Yang
+    0026, Mang Ye
+  title: Splitting with Importance-aware Updating for Heterogeneous Federated Learning
+    with Large Language Models.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Liao0W00Y25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/liao25c.html
+  url: https://dblp.org/rec/conf/icml/Liao0W00Y25
+- author: "Alessandro Licciardi, Davide Leo, Eros Fan\xEC, Barbara Caputo, Marco Ciccone"
+  title: Interaction-Aware Gaussian Weighting for Clustered Federated Learning.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LicciardiLFCC25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/licciardi25a.html
+  url: https://dblp.org/rec/conf/icml/LicciardiLFCC25
+- author: Junkang Liu, Yuanyuan Liu 0001, Fanhua Shang, Hongying Liu 0001, Jin Liu,
+    Wei Feng 0005
+  title: Improving Generalization in Federated Learning with Highly Heterogeneous
+    Data via Momentum-Based Stochastic Controlled Weight Averaging.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Liu0S0L025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/liu25am.html
+  url: https://dblp.org/rec/conf/icml/Liu0S0L025
+- author: Suyuan Liu, Hao Yu 0017, Hao Tan, Ke Liang 0006, Siwei Wang 0001, Shengju
+    Yu, En Zhu, Xinwang Liu 0002
+  title: Efficient Federated Incomplete Multi-View Clustering.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Liu0T00YZ025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/liu25cq.html
+  url: https://dblp.org/rec/conf/icml/Liu0T00YZ025
+- author: Xinyi Lu, Hao Zhang, Chenglin Li, Weijia Lu, Zhifei Yang 0005, Wenrui Dai,
+    Xiaodong Zhang, Xiaofeng Ma, Can Zhang, Junni Zou, Hongkai Xiong
+  title: 'FedSMU: Communication-Efficient and Generalization-Enhanced Federated Learning
+    through Symbolic Model Updates.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/LuZLL0DZMZZX25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/lu25u.html
+  url: https://dblp.org/rec/conf/icml/LuZLL0DZMZZX25
+- author: Peihua Mai, Youlong Ding, Ziyan Lyu, Minxin Du, Yan Pang
+  title: 'SecEmb: Sparsity-Aware Secure Federated Learning of On-Device Recommender
+    System with Large Embedding.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/MaiDLDP25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/mai25a.html
+  url: https://dblp.org/rec/conf/icml/MaiDLDP25
+- author: Aniket Murhekar, Jiaxin Song, Parnian Shahkar, Bhaskar Ray Chaudhury, Ruta
+    Mehta
+  title: 'You Get What You Give: Reciprocally Fair Federated Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/MurhekarSSCM25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/murhekar25a.html
+  url: https://dblp.org/rec/conf/icml/MurhekarSSCM25
+- author: Srijith Nair, Michael Lin, Peizhong Ju, Amirreza Talebi, Elizabeth Serena
+    Bentley, Jia Liu 0002
+  title: 'FSL-SAGE: Accelerating Federated Split Learning via Smashed Activation Gradient
+    Estimation.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/NairLJTB025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/nair25b.html
+  url: https://dblp.org/rec/conf/icml/NairLJTB025
+- author: Quan Minh Nguyen, Minh N. Vu, Truc Nguyen, My T. Thai
+  title: Theoretically Unmasking Inference Attacks Against LDP-Protected Clients in
+    Federated Vision Models.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/NguyenVNT25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/nguyen25j.html
+  url: https://dblp.org/rec/conf/icml/NguyenVNT25
+- author: Lang Pu, Jingjing Gu, Chao Lin 0003, Xinyi Huang 0001
+  title: 'Janus: Dual-Server Multi-Round Secure Aggregation with Verifiability for
+    Federated Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/PuGL025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/pu25a.html
+  url: https://dblp.org/rec/conf/icml/PuGL025
+- author: Fan Qi, Daxu Shi, Chuokun Xu, Shuai Li, Changsheng Xu
+  title: Rethinking the Temperature for Federated Heterogeneous Distillation.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/QiSXLX25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/qi25a.html
+  url: https://dblp.org/rec/conf/icml/QiSXLX25
+- author: Jiaru Qian, Guancheng Wan, Wenke Huang 0003, Guibin Zhang, Yuxin Wu, Bo
+    Du 0001, Mang Ye
+  title: 'GHOST: Generalizable One-Shot Federated Graph Learning with Proxy-Based
+    Topology Knowledge Retention.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/QianW0ZW0Y25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/qian25a.html
+  url: https://dblp.org/rec/conf/icml/QianW0ZW0Y25
+- author: Roie Reshef, Kfir Yehuda Levy
+  title: 'Privacy-Preserving Federated Convex Optimization: Balancing Partial-Participation
+    and Efficiency via Noise Cancellation.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ReshefL25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/reshef25a.html
+  url: https://dblp.org/rec/conf/icml/ReshefL25
+- author: Xuankun Rong, Jianshu Zhang 0003, Kun He, Mang Ye
+  title: 'CAN: Leveraging Clients As Navigators for Generative Replay in Federated
+    Continual Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Rong0HY25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/rong25a.html
+  url: https://dblp.org/rec/conf/icml/Rong0HY25
+- author: Jonathan Scott, Christoph H. Lampert, David Saulpic
+  title: Differentially Private Federated k-Means Clustering with Server-Side Data.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ScottLS25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/scott25a.html
+  url: https://dblp.org/rec/conf/icml/ScottLS25
+- author: Zitong Shi, Guancheng Wan, Wenke Huang 0003, Guibin Zhang, He Li 0054, Carl
+    Yang 0001, Mang Ye
+  title: 'EAGLES: Towards Effective, Efficient, and Economical Federated Graph Learning
+    via Unified Sparsification.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ShiW0Z00Y25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/shi25j.html
+  url: https://dblp.org/rec/conf/icml/ShiW0Z00Y25
+- author: Supratim Shit, Gurmehak Kaur Chadha, Surendra Kumar, Bapi Chatterjee
+  title: 'Improved Coresets for Vertical Federated Learning: Regularized Linear and
+    Logistic Regressions.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ShitCKC25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/shit25a.html
+  url: https://dblp.org/rec/conf/icml/ShitCKC25
+- author: Yao Shu, Wenyang Hu, See-Kiong Ng, Bryan Kian Hsiang Low, Fei Richard Yu
+  title: 'Ferret: Federated Full-Parameter Tuning at Scale for Large Language Models.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ShuHNLY25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/shu25a.html
+  url: https://dblp.org/rec/conf/icml/ShuHNLY25
+- author: Ankit Pratap Singh, Ahmed Ali Abbasi, Namrata Vaswani
+  title: Byzantine-Resilient Federated Alternating Gradient Descent and Minimization
+    for Partly-Decoupled Low Rank Matrix Learning.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/SinghAV25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/singh25a.html
+  url: https://dblp.org/rec/conf/icml/SinghAV25
+- author: Jacopo Talpini, Marco Savi, Giovanni Neglia
+  title: 'FedBEns: One-Shot Federated Learning based on Bayesian Ensemble.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/TalpiniSN25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/talpini25a.html
+  url: https://dblp.org/rec/conf/icml/TalpiniSN25
+- author: Zihan Tan, Suyuan Huang 0003, Guancheng Wan, Wenke Huang 0003, He Li 0054,
+    Mang Ye
+  title: 'S2FGL: Spatial Spectral Federated Graph Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Tan0W00Y25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/tan25d.html
+  url: https://dblp.org/rec/conf/icml/Tan0W00Y25
+- author: Ying-Peng Tang, Chao Ren 0006, Xiaoli Tang 0001, Sheng-Jun Huang, Lizhen
+    Cui, Han Yu 0001
+  title: Efficient Heterogeneity-Aware Federated Active Data Selection.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Tang00HC025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/tang25i.html
+  url: https://dblp.org/rec/conf/icml/Tang00HC025
+- author: Mahendra Singh Thapa, Rui Li
+  title: Harnessing Heterogeneous Statistical Strength for Personalized Federated
+    Learning via Hierarchical Bayesian Inference.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ThapaL25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/thapa25a.html
+  url: https://dblp.org/rec/conf/icml/ThapaL25
+- author: Gabriel Thompson, Kai Yue, Chau-Wai Wong, Huaiyu Dai
+  title: 'NTK-DFL: Enhancing Decentralized Federated Learning in Heterogeneous Settings
+    via Neural Tangent Kernel.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ThompsonYWD25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/thompson25a.html
+  url: https://dblp.org/rec/conf/icml/ThompsonYWD25
+- author: Yunxia Wang, Fuyuan Cao, Kui Yu, Jiye Liang
+  title: Federated Causal Structure Learning with Non-identical Variable Sets.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/WangCYL25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/wang25j.html
+  url: https://dblp.org/rec/conf/icml/WangCYL25
+- author: Ganyu Wang, Jinjie Fang, Maxwell J. Yin, Bin Gu 0001, Xi Chen 0009, Boyu
+    Wang 0004, Yi Chang 0001, Charles Ling 0001
+  title: 'FedOne: Query-Efficient Federated Learning for Black-box Discrete Prompt
+    Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/WangFY0000025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/wang25ab.html
+  url: https://dblp.org/rec/conf/icml/WangFY0000025
+- author: Ziqiao Wang, Cheng Long, Yongyi Mao
+  title: 'Generalization in Federated Learning: A Conditional Mutual Information Framework.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/WangLM25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/wang25bs.html
+  url: https://dblp.org/rec/conf/icml/WangLM25
+- author: Jiaqi Wang 0002, Jingtao Li, Weiming Zhuang, Chen Chen 0043, Lingjuan Lyu,
+    Fenglong Ma
+  title: Enhancing Foundation Models with Federated Domain Knowledge Infusion.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/WangLZ0LM25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/wang25bk.html
+  url: https://dblp.org/rec/conf/icml/WangLZ0LM25
+- author: Ruhan Wang, Zhiyong Wang, Chengkai Huang, Rui Wang, Tong Yu 0001, Lina Yao
+    0001, John C. S. Lui, Dongruo Zhou
+  title: 'Federated In-Context Learning: Iterative Refinement for Improved Answer
+    Quality.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/WangWHW00LZ25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/wang25db.html
+  url: https://dblp.org/rec/conf/icml/WangWHW00LZ25
+- author: Haozhao Wang, Shengyu Wang, Jiaming Li, Hao Ren 0001, Xingshuo Han, Wenchao
+    Xu 0001, Shangwei Guo, Tianwei Zhang 0004, Ruixuan Li 0001
+  title: 'BSemiFL: Semi-supervised Federated Learning via a Bayesian Approach.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/WangWL0H0G0025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/wang25dc.html
+  url: https://dblp.org/rec/conf/icml/WangWL0H0G0025
+- author: Wenjing Yan, Xiangyu Zhong, Xiaolu Wang, Ying-Jun Angela Zhang
+  title: 'Momentum-Driven Adaptivity: Towards Tuning-Free Asynchronous Federated Learning.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/YanZWZ25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/yan25f.html
+  url: https://dblp.org/rec/conf/icml/YanZWZ25
+- author: Yihao Yang, Wenke Huang 0003, Guancheng Wan, Bin Yang 0026, Mang Ye
+  title: Federated Disentangled Tuning with Textual Prior Decoupling and Visual Dynamic
+    Adaptation.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/YangHW0Y25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/yang25k.html
+  url: https://dblp.org/rec/conf/icml/YangHW0Y25
+- author: Mingzhao Yang, Shangchao Su, Bin Li 0015, Xiangyang Xue 0001
+  title: One-Shot Heterogeneous Federated Learning with Local Model-Guided Diffusion
+    Models.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/YangS0025
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/yang25ad.html
+  url: https://dblp.org/rec/conf/icml/YangS0025
+- author: Xin Yu, Zelin He, Ying Sun, Lingzhou Xue, Runze Li
+  title: Understanding the Statistical Accuracy-Communication Trade-off in Personalized
+    Federated Learning with Minimax Guarantees.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/YuHSXL25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/yu25h.html
+  url: https://dblp.org/rec/conf/icml/YuHSXL25
+- author: Hui Zeng, Wenke Huang 0003, Tongqing Zhou, Xinyi Wu, Guancheng Wan, Yingwen
+    Chen 0001, Zhiping Cai
+  title: Does One-shot Give the Best Shot? Mitigating Model Inconsistency in One-shot
+    Federated Learning.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ZengHZWW0C25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/zeng25c.html
+  url: https://dblp.org/rec/conf/icml/ZengHZWW0C25
+- author: Tianyi Zhang, Yu Cao 0001, Dianbo Liu
+  title: Uncertainty-Based Extensible Codebook for Discrete Federated Learning in
+    Heterogeneous Data Silos.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Zhang0L25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/zhang25f.html
+  url: https://dblp.org/rec/conf/icml/Zhang0L25
+- author: Haochen Zhang, Zhong Zheng, Lingzhou Xue
+  title: Gap-Dependent Bounds for Federated Q-Learning.
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ZhangZX25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/zhang25dl.html
+  url: https://dblp.org/rec/conf/icml/ZhangZX25
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -32211,6 +32912,16 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.01173
   ee: https://doi.org/10.1109/CVPR52733.2024.01173
   url: https://dblp.org/rec/conf/cvpr/GaoLZZ0H24
+- author: Ye Li 0041, Yanchao Zhao, Chengcheng Zhu, Jiale Zhang 0001
+  title: 'Infighting in the Dark: Multi-Label Backdoor Attack in Federated Learning.'
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/LiZZZ25
+  doi: 10.1109/CVPR52734.2025.02400
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Li_Infighting_in_the_Dark_Multi-Label_Backdoor_Attack_in_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/LiZZZ25
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -46189,6 +46900,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645626
   ee: https://doi.org/10.1145/3589334.3645626
   url: https://dblp.org/rec/conf/www/HeLKH24
+- author: Yu Feng 0015, Yangli-ao Geng, Yifan Zhu 0001, Zongfu Han, Xie Yu, Kaiwen
+    Xue 0001, Haoran Luo 0001, Mengyang Sun, Guangwei Zhang 0003, Meina Song
+  title: 'PM-MOE: Mixture of Experts on Private Model Parameters for Personalized
+    Federated Learning.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/FengG0HYX0SZS25
+  doi: 10.1145/3696410.3714561
+  ee: https://doi.org/10.1145/3696410.3714561
+  url: https://dblp.org/rec/conf/www/FengG0HYX0SZS25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

@@ -26476,6 +26476,28 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2024.3470072
   ee: https://doi.org/10.1109/TPAMI.2024.3470072
   url: https://dblp.org/rec/journals/pami/ZhaoLLLH25
+- author: Xuming An, Li Shen 0008, Yong Luo 0002, Han Hu 0003, Dacheng Tao
+  title: Adaptive Batch Size Time Evolving Stochastic Gradient Descent for Federated
+    Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/AnSLHT26
+  doi: 10.1109/TPAMI.2025.3610169
+  ee: https://doi.org/10.1109/TPAMI.2025.3610169
+  url: https://dblp.org/rec/journals/pami/AnSLHT26
+- author: Chuizheng Meng, Jianke Yang, Hao Niu 0001, Guillaume Habault, Roberto Legaspi,
+    Shinya Wada, Chihiro Ono, Yan Liu 0002
+  title: Sample-Level Prototypical Federated Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/MengYNHLWOL26
+  doi: 10.1109/TPAMI.2025.3612302
+  ee: https://doi.org/10.1109/TPAMI.2025.3612302
+  url: https://dblp.org/rec/journals/pami/MengYNHLWOL26
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -29396,6 +29418,18 @@ federate%20streamid%3Aconf%2Fsp%3A:
   url: https://dblp.org/rec/conf/sp/ZhangCW25
 - author: Haoyang Li 0018, Qingqing Ye 0001, Haibo Hu 0001, Jin Li 0002, Leixia Wang,
     Chengfang Fang, Jie Shi
+  title: '3DFed: Adaptive and Extensible Framework for Covert Backdoor Attack in Federated
+    Learning.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/LiYHLWFS23
+  doi: 10.1109/SP46215.2023.10179401
+  ee: https://doi.org/10.1109/SP46215.2023.10179401
+  url: https://dblp.org/rec/conf/sp/LiYHLWFS23
+- author: Haoyang Li 0018, Qingqing Ye 0001, Haibo Hu 0001, Jin Li 0002, Leixia Wang,
+    Chengfang Fang, Jie Shi 0005
   title: '3DFed: Adaptive and Extensible Framework for Covert Backdoor Attack in Federated
     Learning.'
   venue: SP

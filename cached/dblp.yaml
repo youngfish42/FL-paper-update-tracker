@@ -10626,6 +10626,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I13.29439
   ee: https://doi.org/10.1609/aaai.v38i13.29439
   url: https://dblp.org/rec/conf/aaai/SunWHZ24
+- author: Qian Dai, Dong Wei 0004, Hong Liu, Jinghan Sun, Liansheng Wang 0002, Yefeng
+    Zheng 0001
+  title: Federated Modality-Specific Encoders and Multimodal Anchors for Personalized
+    Brain Tumor Segmentation.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/Dai0LSW024
+  doi: 10.1609/AAAI.V38I2.27909
+  ee: https://doi.org/10.1609/aaai.v38i2.27909
+  url: https://dblp.org/rec/conf/aaai/Dai0LSW024
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -26467,6 +26479,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06974-Z
   ee: https://doi.org/10.1007/s10994-025-06974-z
   url: https://dblp.org/rec/journals/ml/NiuYFZLQX26
+- author: Ke Niu 0004, Haiyang Yu 0004, Teng Fu 0001, Mengyang Zhao, Bin Li 0015,
+    Xuelin Qian, Xiangyang Xue 0001
+  title: 'FDGReID: Federated Domain Generalization for Person Re-identification.'
+  venue: Mach. Learn.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/NiuYFZLQX26
+  doi: 10.1007/S10994-025-06974-Z
+  ee: https://doi.org/10.1007/s10994-025-06974-z
+  url: https://dblp.org/rec/journals/ml/NiuYFZLQX26
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -30108,6 +30131,16 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SP46215.2023.10179401
   ee: https://doi.org/10.1109/SP46215.2023.10179401
   url: https://dblp.org/rec/conf/sp/LiYHLWFS23
+- author: Qi Pang, Yuanyuan Yuan 0001, Shuai Wang 0011, Wenting Zheng
+  title: 'ADI: Adversarial Dominating Inputs in Vertical Federated Learning Systems.'
+  venue: SP
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/X23
+  doi: 10.1109/SP46215.2023.10179446
+  ee: https://doi.org/10.1109/SP46215.2023.10179446
+  url: https://dblp.org/rec/conf/sp/X23
 federate%20venue%3ACCS%3A:
 - author: Amrita Roy Chowdhury 0001, Chuan Guo, Somesh Jha, Laurens van der Maaten
   title: 'EIFFeL: Ensuring Integrity for Federated Learning.'
@@ -35261,6 +35294,16 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-73404-5_18
   ee: https://doi.org/10.1007/978-3-031-73404-5_18
   url: https://dblp.org/rec/conf/eccv/LiangZGLTDHFY24
+- author: Jiacheng Wang 0002, Yueming Jin, Liansheng Wang 0002
+  title: Personalizing Federated Medical Image Segmentation via Local Calibration.
+  venue: ECCV
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/WangJW22
+  doi: 10.1007/978-3-031-19803-8_27
+  ee: https://doi.org/10.1007/978-3-031-19803-8_27
+  url: https://dblp.org/rec/conf/eccv/WangJW22
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

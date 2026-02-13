@@ -26490,6 +26490,18 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06974-Z
   ee: https://doi.org/10.1007/s10994-025-06974-z
   url: https://dblp.org/rec/journals/ml/NiuYFZLQX26
+- author: Pietro Ducange, Francesco Marcelloni, Giustino Claudio Miglionico, Alessandro
+    Renda, Fabrizio Ruffini
+  title: 'Federated SHAP: Privacy-Preserving and Consistent Post-hoc Explainability
+    in Federated Learning.'
+  venue: Mach. Learn.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/DucangeMMRR26
+  doi: 10.1007/S10994-025-06956-1
+  ee: https://doi.org/10.1007/s10994-025-06956-1
+  url: https://dblp.org/rec/journals/ml/DucangeMMRR26
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -47787,6 +47799,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583426
   ee: https://doi.org/10.1145/3543507.3583426
   url: https://dblp.org/rec/conf/www/GongZ0SLC23
+- author: Yudong Zhang 0005, Xu Wang 0029, Xuan Yu, Kuo Yang 0002, Zhengyang Zhou,
+    Yang Wang 0015
+  title: 'FedSTG: Breaking through Spatio-Temporal Data Silos with Federated Graph
+    Learning.'
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangWYYZW25
+  doi: 10.1145/3701716.3715562
+  ee: https://doi.org/10.1145/3701716.3715562
+  url: https://dblp.org/rec/conf/www/ZhangWYYZW25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

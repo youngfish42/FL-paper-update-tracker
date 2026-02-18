@@ -27201,6 +27201,46 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2025.3612302
   ee: https://doi.org/10.1109/TPAMI.2025.3612302
   url: https://dblp.org/rec/journals/pami/MengYNHLWOL26
+- author: Peng Wu 0019, Tales Imbiriba, Pau Closas
+  title: A Bayesian Framework for Clustered Federated Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/WuIC26
+  doi: 10.1109/TPAMI.2025.3637562
+  ee: https://doi.org/10.1109/TPAMI.2025.3637562
+  url: https://dblp.org/rec/journals/pami/WuIC26
+- author: Zhiyuan Zhai, Xiaojun Yuan, Xin Wang 0003, Geoffrey Ye Li
+  title: Decentralized Federated Learning With Distributed Aggregation Weight Optimization.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ZhaiYWL26
+  doi: 10.1109/TPAMI.2025.3640709
+  ee: https://doi.org/10.1109/TPAMI.2025.3640709
+  url: https://dblp.org/rec/journals/pami/ZhaiYWL26
+- author: Xingcai Zhou, Guang Yang, Haotian Zheng, Linglong Kong, Jinde Cao
+  title: 'FedFask: Fast Sketching Distributed PCA for Large-Scale Federated Data.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ZhouYZKC26
+  doi: 10.1109/TPAMI.2025.3639635
+  ee: https://doi.org/10.1109/TPAMI.2025.3639635
+  url: https://dblp.org/rec/journals/pami/ZhouYZKC26
+- author: Siquan Huang, Yijiang Li, Chong Chen 0011, Ying Gao 0004, Xiping Hu
+  title: 'FedID: Enhancing Federated Learning Security Through Dynamic Identification.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/HuangLCGH25
+  doi: 10.1109/TPAMI.2025.3581555
+  ee: https://doi.org/10.1109/TPAMI.2025.3581555
+  url: https://dblp.org/rec/journals/pami/HuangLCGH25
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -34676,6 +34716,16 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00465
   ee: https://doi.org/10.1109/ICCV51070.2023.00465
   url: https://dblp.org/rec/conf/iccv/ZhangHWSXMCG23
+- author: Siquan Huang, Yijiang Li, Chong Chen 0011, Leyu Shi, Ying Gao 0004
+  title: Multi-metrics adaptively identifies backdoors in Federated learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/HuangLCS023
+  doi: 10.1109/ICCV51070.2023.00429
+  ee: https://doi.org/10.1109/ICCV51070.2023.00429
+  url: https://dblp.org/rec/conf/iccv/HuangLCS023
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -50686,6 +50736,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2020.3040981
   ee: https://doi.org/10.1109/TPDS.2020.3040981
   url: https://dblp.org/rec/journals/tpds/UddinXLYG21
+- author: Zhaorui Zhang, Sheng Di, Benben Liu, Zhuoran Ji, Guanpeng Li, Xiaoyi Lu
+    0001, Amelie Chi Zhou, Khalid Ayedh Alharthi, Jiannong Cao 0001
+  title: 'FedEFsz: Fair Cross-Silo Federated Learning System With Error-Bounded Lossy
+    Compression.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhangDLJLLZAC25
+  doi: 10.1109/TPDS.2025.3593896
+  ee: https://doi.org/10.1109/TPDS.2025.3593896
+  url: https://dblp.org/rec/journals/tpds/ZhangDLJLLZAC25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

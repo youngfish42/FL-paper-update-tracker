@@ -27241,6 +27241,16 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2025.3581555
   ee: https://doi.org/10.1109/TPAMI.2025.3581555
   url: https://dblp.org/rec/journals/pami/HuangLCGH25
+- author: Zhiyuan Zhai, Xiaojun Yuan 0002, Xin Wang 0003, Geoffrey Ye Li
+  title: Decentralized Federated Learning With Distributed Aggregation Weight Optimization.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ZhaiYWL26
+  doi: 10.1109/TPAMI.2025.3640709
+  ee: https://doi.org/10.1109/TPAMI.2025.3640709
+  url: https://dblp.org/rec/journals/pami/ZhaiYWL26
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -29754,6 +29764,27 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/3701551.3703513
   ee: https://doi.org/10.1145/3701551.3703513
   url: https://dblp.org/rec/conf/wsdm/ZhangD0SLZ25
+- author: Ruiyu Li, Peige Zhao, Guangxia Li, Pengcheng Wu, Xingyu Gao, Zhiqiang Xu
+    0003
+  title: Sharpness-aware Federated Graph Learning.
+  venue: WSDM
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/LiZLWG026
+  doi: 10.1145/3773966.3777989
+  ee: https://doi.org/10.1145/3773966.3777989
+  url: https://dblp.org/rec/conf/wsdm/LiZLWG026
+- author: Sheng-Po Tseng, Lo-Yao Yeh, Hui-Ju Hung, Chih-Ya Shen
+  title: Federated Watermarking of Deep Neural Networks with Distributed Verification.
+  venue: WSDM
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/TsengYHS26
+  doi: 10.1145/3773966.3777930
+  ee: https://doi.org/10.1145/3773966.3777930
+  url: https://dblp.org/rec/conf/wsdm/TsengYHS26
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using

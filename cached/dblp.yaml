@@ -10682,6 +10682,16 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V35I12.17301
   ee: https://doi.org/10.1609/aaai.v35i12.17301
   url: https://dblp.org/rec/conf/aaai/ZhangGDH21
+- author: Jianhui Sun, Xidong Wu, Heng Huang 0001, Aidong Zhang 0001
+  title: On the Role of Server Momentum in Federated Learning.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/SunWHZ24
+  doi: 10.1609/AAAI.V38I13.29439
+  ee: https://doi.org/10.1609/aaai.v38i13.29439
+  url: https://dblp.org/rec/conf/aaai/SunWHZ24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -17076,6 +17086,16 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/1229eaae5bf1db93e1e4c539258eb472-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuSHLZH23
+- author: Xidong Wu, Jianhui Sun, Zhengmian Hu, Aidong Zhang 0001, Heng Huang 0001
+  title: Solving a Class of Non-Convex Minimax Optimization in Federated Learning.
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WuSHZH23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/254009e8d528f98764a060e877a1b01c-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WuSHZH23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.

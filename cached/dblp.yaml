@@ -48212,6 +48212,16 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645337
   ee: https://doi.org/10.1145/3589334.3645337
   url: https://dblp.org/rec/conf/www/0008LYNY24
+- author: Xiangrong Zhu 0001, Guangyao Li 0004, Wei Hu 0007
+  title: Heterogeneous Federated Knowledge Graph Embedding Learning and Unlearning.
+  venue: WWW
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhuL023
+  doi: 10.1145/3543507.3583305
+  ee: https://doi.org/10.1145/3543507.3583305
+  url: https://dblp.org/rec/conf/www/ZhuL023
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

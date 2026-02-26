@@ -10692,6 +10692,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I13.29439
   ee: https://doi.org/10.1609/aaai.v38i13.29439
   url: https://dblp.org/rec/conf/aaai/SunWHZ24
+- author: Yuting Ma 0001, Yuanzhi Yao, Xiaohua Xu 0002
+  title: 'PPIDSG: A Privacy-Preserving Image Distribution Sharing Scheme with GAN
+    in Federated Learning.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/MaYX24
+  doi: 10.1609/AAAI.V38I13.29339
+  ee: https://doi.org/10.1609/aaai.v38i13.29339
+  url: https://dblp.org/rec/conf/aaai/MaYX24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

@@ -10703,6 +10703,18 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I13.29339
   ee: https://doi.org/10.1609/aaai.v38i13.29339
   url: https://dblp.org/rec/conf/aaai/MaYX24
+- author: Shanli Tan, Hao Cheng 0014, Xiaohu Wu, Han Yu 0001, Tiantian He 0001, Yew
+    Soon Ong, Chongjun Wang, Xiaofeng Tao 0001
+  title: 'FedCompetitors: Harmonious Collaboration in Federated Learning with Competing
+    Participants.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/TanCWYHOWT24
+  doi: 10.1609/AAAI.V38I14.29446
+  ee: https://doi.org/10.1609/aaai.v38i14.29446
+  url: https://dblp.org/rec/conf/aaai/TanCWYHOWT24
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -34077,6 +34089,29 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.02338
   ee: https://doi.org/10.1109/CVPR52733.2024.02338
   url: https://dblp.org/rec/conf/cvpr/SunLWL24
+- author: Xiangtao Zhang, Sheng Li, Ao Li 0007, Yipeng Liu 0001, Fan Zhang, Ce Zhu,
+    Le Zhang 0001
+  title: Subspace Constraint and Contribution Estimation for Heterogeneous Federated
+    Learning.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhangLLLZZZ25
+  doi: 10.1109/CVPR52734.2025.01921
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Subspace_Constraint_and_Contribution_Estimation_for_Heterogeneous_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhangLLLZZZ25
+- author: Peng Sun 0003, Xinyang Liu, Zhibo Wang 0001, Bo Liu
+  title: Byzantine-robust Decentralized Federated Learning via Dual-domain Clustering
+    and Trust Bootstrapping.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/SunLWL24
+  doi: 10.1109/CVPR52733.2024.02338
+  ee: https://doi.org/10.1109/CVPR52733.2024.02338
+  url: https://dblp.org/rec/conf/cvpr/SunLWL24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -51177,6 +51212,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3593896
   ee: https://doi.org/10.1109/TPDS.2025.3593896
   url: https://dblp.org/rec/journals/tpds/ZhangDLJLLZAC25
+- author: Zihao Zhou, Shusen Yang, Fangyuan Zhao, Xuebin Ren
+  title: 'FairGFL: Privacy-Preserving Fairness-Aware Federated Learning With Overlapping
+    Subgraphs.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ZhouYZR26
+  doi: 10.1109/TPDS.2025.3649863
+  ee: https://doi.org/10.1109/TPDS.2025.3649863
+  url: https://dblp.org/rec/journals/tpds/ZhouYZR26
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -52687,6 +52733,17 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2025.3584272
   ee: https://doi.org/10.1109/TC.2025.3584272
   url: https://dblp.org/rec/journals/tc/LiSLDS25
+- author: Bowen Zhao 0001, Weibin Guo, Jiahui Chen 0002, Yang Xiao 0014, Liang Zhai,
+    Qingqi Pei
+  title: 'FedInf: An Efficient and Secure Inference With Federated Participants.'
+  venue: IEEE Trans. Computers
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZhaoGCXZP26
+  doi: 10.1109/TC.2025.3642408
+  ee: https://doi.org/10.1109/TC.2025.3642408
+  url: https://dblp.org/rec/journals/tc/ZhaoGCXZP26
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

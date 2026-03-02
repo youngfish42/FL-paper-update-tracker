@@ -34112,6 +34112,29 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.02338
   ee: https://doi.org/10.1109/CVPR52733.2024.02338
   url: https://dblp.org/rec/conf/cvpr/SunLWL24
+- author: Xiangtao Zhang, Sheng Li, Ao Li 0007, Yipeng Liu 0001, Fan Zhang 0013, Ce
+    Zhu, Le Zhang 0001
+  title: Subspace Constraint and Contribution Estimation for Heterogeneous Federated
+    Learning.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/ZhangLLLZZZ25
+  doi: 10.1109/CVPR52734.2025.01921
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Subspace_Constraint_and_Contribution_Estimation_for_Heterogeneous_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/ZhangLLLZZZ25
+- author: Peng Sun 0003, Xinyang Liu, Zhibo Wang 0001, Bo Liu 0034
+  title: Byzantine-robust Decentralized Federated Learning via Dual-domain Clustering
+    and Trust Bootstrapping.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/SunLWL24
+  doi: 10.1109/CVPR52733.2024.02338
+  ee: https://doi.org/10.1109/CVPR52733.2024.02338
+  url: https://dblp.org/rec/conf/cvpr/SunLWL24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

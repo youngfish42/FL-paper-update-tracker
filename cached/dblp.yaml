@@ -22498,6 +22498,18 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v235/zhuang24c.html
   url: https://dblp.org/rec/conf/icml/ZhuangX0LL24
+- author: Luyuan Xie, Manqing Lin, Tianyu Luan, Cong Li 0024, Yuejian Fang, Qingni
+    Shen, Zhonghai Wu
+  title: 'MH-pFLID: Model Heterogeneous personalized Federated Learning via Injection
+    and Distillation for Medical Data Analysis.'
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/XieLLLFSW24
+  doi: ''
+  ee: https://proceedings.mlr.press/v235/xie24h.html
+  url: https://dblp.org/rec/conf/icml/XieLLLFSW24
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -48348,6 +48360,16 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543507.3583305
   ee: https://doi.org/10.1145/3543507.3583305
   url: https://dblp.org/rec/conf/www/ZhuL023
+- author: Fan Liu 0011, Hao Liu 0026
+  title: Subgraph Federated Unlearning.
+  venue: WWW
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LiuL25
+  doi: 10.1145/3696410.3714821
+  ee: https://doi.org/10.1145/3696410.3714821
+  url: https://dblp.org/rec/conf/www/LiuL25
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

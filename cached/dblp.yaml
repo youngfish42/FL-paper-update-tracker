@@ -3527,6 +3527,17 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/238
   url: https://dblp.org/rec/conf/ijcai/LinHZX0L0WT24
+- author: Yijing Lin, Zhipeng Gao 0001, Hongyang Du 0001, Dusit Niyato, Gui Gui, Shuguang
+    Cui, Jinke Ren
+  title: Scalable Federated Unlearning via Isolated and Coded Sharding.
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LinGDNGCR24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/503
+  url: https://dblp.org/rec/conf/ijcai/LinGDNGCR24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -48370,6 +48381,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3696410.3714821
   ee: https://doi.org/10.1145/3696410.3714821
   url: https://dblp.org/rec/conf/www/LiuL25
+- author: Yijing Lin, Zhipeng Gao 0001, Hongyang Du 0001, Dusit Niyato, Jiawen Kang
+    0001, Xiaoyuan Liu 0002
+  title: Incentive and Dynamic Client Selection for Federated Unlearning.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/LinGDNK024
+  doi: 10.1145/3589334.3645462
+  ee: https://doi.org/10.1145/3589334.3645462
+  url: https://dblp.org/rec/conf/www/LinGDNK024
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

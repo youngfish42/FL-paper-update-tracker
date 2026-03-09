@@ -38640,6 +38640,18 @@ federate%20venue%3AEMNLP%3A:
   doi: ''
   ee: https://aclanthology.org/2025.findings-emnlp.769/
   url: https://dblp.org/rec/conf/emnlp/HeYWLN25
+- author: Jiaying Zheng, Hainan Zhang 0001, Lingxiang Wang, Wangjie Qiu, Hongwei Zheng
+    0007, Zhi Ming Zheng
+  title: 'Safely Learning with Private Data: A Federated Learning Framework for Large
+    Language Model.'
+  venue: EMNLP
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/ZhengZWQZZ24
+  doi: 10.18653/V1/2024.EMNLP-MAIN.303
+  ee: https://doi.org/10.18653/v1/2024.emnlp-main.303
+  url: https://dblp.org/rec/conf/emnlp/ZhengZWQZZ24
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.

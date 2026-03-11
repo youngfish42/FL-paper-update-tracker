@@ -31304,6 +31304,18 @@ federate%20streamid%3Aconf%2Fuss%3A:
   doi: ''
   ee: https://www.usenix.org/conference/usenixsecurity25/presentation/pang-xiaoyi
   url: https://dblp.org/rec/conf/uss/PangZ0HWW00025
+- author: Zhifeng Jiang 0001, Peng Ye 0005, Shiqi He, Wei Wang 0030, Ruichuan Chen,
+    Bo Li 0001
+  title: 'Lotto: Secure Participant Selection against Adversarial Servers in Federated
+    Learning.'
+  venue: USENIX Security Symposium
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/uss/JiangYH0C024
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity24/presentation/jiang-zhifeng
+  url: https://dblp.org/rec/conf/uss/JiangYH0C024
 federate%20venue%3ANDSS%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

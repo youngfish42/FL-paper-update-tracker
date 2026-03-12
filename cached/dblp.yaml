@@ -51314,6 +51314,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3649863
   ee: https://doi.org/10.1109/TPDS.2025.3649863
   url: https://dblp.org/rec/journals/tpds/ZhouYZR26
+- author: Yixiao Xia, Yinghui Zhao, Jian Wan 0001, Congfeng Jiang
+  title: 'FLUXLog: A Federated Mixture-of-Experts Framework for Unified Log Anomaly
+    Detection.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2026'
+  type: Journal Articles
+  access: open
+  key: journals/tpds/XiaZWJ26
+  doi: 10.1109/TPDS.2025.3638693
+  ee: https://doi.org/10.1109/TPDS.2025.3638693
+  url: https://dblp.org/rec/journals/tpds/XiaZWJ26
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

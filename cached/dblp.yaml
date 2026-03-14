@@ -25827,6 +25827,18 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=kjn99xFUF3
   url: https://dblp.org/rec/conf/iclr/LiHH24
+- author: Nan Lu 0001, Zhao Wang 0006, Xiaoxiao Li, Gang Niu 0001, Qi Dou 0001, Masashi
+    Sugiyama
+  title: Federated Learning from Only Unlabeled Data with Class-conditional-sharing
+    Clients.
+  venue: ICLR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/iclr/LuWL0DS22
+  doi: ''
+  ee: https://openreview.net/forum?id=WHA8009laxu
+  url: https://dblp.org/rec/conf/iclr/LuWL0DS22
 federate%20venue%3ACOLT%3A:
 - author: Xuyang Zhao, Huiyuan Wang, Wei Lin
   title: The Aggregation-Heterogeneity Trade-off in Federated Learning.
@@ -35100,6 +35112,18 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00429
   ee: https://doi.org/10.1109/ICCV51070.2023.00429
   url: https://dblp.org/rec/conf/iccv/HuangLCS023
+- author: Chi Zhang 0123, Xiaoman Zhang, Ekanut Sotthiwat, Yanyu Xu 0001, Ping Liu,
+    Liangli Zhen, Yong Liu 0026
+  title: Generative Gradient Inversion via Over-Parameterized Networks in Federated
+    Learning.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/ZhangZSXLZL23
+  doi: 10.1109/ICCV51070.2023.00473
+  ee: https://doi.org/10.1109/ICCV51070.2023.00473
+  url: https://dblp.org/rec/conf/iccv/ZhangZSXLZL23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.
@@ -38676,6 +38700,16 @@ federate%20venue%3AEMNLP%3A:
   doi: 10.18653/V1/2024.EMNLP-MAIN.303
   ee: https://doi.org/10.18653/v1/2024.emnlp-main.303
   url: https://dblp.org/rec/conf/emnlp/ZhengZWQZZ24
+- author: Abhijit Chakraborty 0004, Chahana Dahal, Vivek Gupta 0001
+  title: 'Federated Retrieval-Augmented Generation: A Systematic Mapping Study.'
+  venue: EMNLP
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/ChakrabortyDG25
+  doi: ''
+  ee: https://aclanthology.org/2025.findings-emnlp.388/
+  url: https://dblp.org/rec/conf/emnlp/ChakrabortyDG25
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.
@@ -52045,6 +52079,29 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2022.3197491
   ee: https://doi.org/10.1109/TCAD.2022.3197491
   url: https://dblp.org/rec/journals/tcad/XiaLLWFC22
+- author: Haizhou Wang, Guobing Zou, Kun Cao 0001, Yangguang Cui, Tongquan Wei, Shiyan
+    Hu 0001
+  title: An Elastic Federated Learning Collaboration Framework for Computing-Constrained
+    IoT.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/WangZCCWH26
+  doi: 10.1109/TCAD.2025.3593436
+  ee: https://doi.org/10.1109/TCAD.2025.3593436
+  url: https://dblp.org/rec/journals/tcad/WangZCCWH26
+- author: Yongbo Yu, Fuxun Yu, Zirui Xu, Di Wang 0003, Minjia Zhang, Ang Li 0005,
+    Chenchen Liu, Zhi Tian, Xiang Chen 0010
+  title: 'FedMT: Multitask Federated Learning With Competitive GPU Resource Sharing.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/YuYXWZLLTC26
+  doi: 10.1109/TCAD.2025.3600367
+  ee: https://doi.org/10.1109/TCAD.2025.3600367
+  url: https://dblp.org/rec/journals/tcad/YuYXWZLLTC26
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng

@@ -26863,6 +26863,49 @@ federate%20streamid%3Ajournals%2Fjmlr%3A:
   doi: ''
   ee: https://jmlr.org/papers/v24/21-0445.html
   url: https://dblp.org/rec/journals/jmlr/QiuPFGGBTML23
+- author: Yuze Han, Xiang Li 0050, Shiyun Lin, Zhihua Zhang 0004
+  title: 'A Random Projection Approach to Personalized Federated Learning: Enhancing
+    Communication Efficiency, Robustness, and Fairness.'
+  venue: J. Mach. Learn. Res.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/Han0L024
+  doi: ''
+  ee: https://jmlr.org/papers/v25/23-0215.html
+  url: https://dblp.org/rec/journals/jmlr/Han0L024
+- author: Elissa Mhanna, Mohamad Assaad
+  title: 'Countering the Communication Bottleneck in Federated Learning: A Highly
+    Efficient Zero-Order Optimization Technique.'
+  venue: J. Mach. Learn. Res.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/MhannaA24
+  doi: ''
+  ee: https://jmlr.org/papers/v25/24-1189.html
+  url: https://dblp.org/rec/journals/jmlr/MhannaA24
+- author: Constantin Philippenko, Aymeric Dieuleveut
+  title: 'Compressed and distributed least-squares regression: convergence rates with
+    applications to federated learning.'
+  venue: J. Mach. Learn. Res.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/PhilippenkoD24
+  doi: ''
+  ee: https://jmlr.org/papers/v25/23-1040.html
+  url: https://dblp.org/rec/journals/jmlr/PhilippenkoD24
+- author: Keith Rush, Zachary Charles, Zachary Garrett
+  title: Federated Automatic Differentiation.
+  venue: J. Mach. Learn. Res.
+  year: '2024'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/RushCG24
+  doi: ''
+  ee: https://jmlr.org/papers/v25/23-0223.html
+  url: https://dblp.org/rec/journals/jmlr/RushCG24
 federate%20streamid%3Ajournals%2Fpami%3A:
 - author: Bowen Li, Lixin Fan, Hanlin Gu, Jie Li 0002, Qiang Yang 0001
   title: 'FedIPR: Ownership Verification for Federated Deep Neural Network Models.'
@@ -48845,6 +48888,18 @@ federate%20venue%3AISCA%3A:
   doi: 10.1109/ISCA59077.2024.00071
   ee: https://doi.org/10.1109/ISCA59077.2024.00071
   url: https://dblp.org/rec/conf/isca/PanALMZLJZ24
+- author: Xiurui Pan, Yuda An, Shengwen Liang, Bo Mao 0003, Mingzhe Zhang 0005, Qiao
+    Li 0001, Myoungsoo Jung, Jie Zhang 0048
+  title: 'Flagger: Cooperative Acceleration for Large-Scale Cross-Silo Federated Learning
+    Aggregation.'
+  venue: ISCA
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/isca/PanALMZLJZ24
+  doi: 10.1109/ISCA59077.2024.00071
+  ee: https://doi.org/10.1109/ISCA59077.2024.00071
+  url: https://dblp.org/rec/conf/isca/PanALMZLJZ24
 federate%20venue%3AMLSys%3A:
 - author: Dzmitry Huba, John Nguyen, Kshitiz Malik, Ruiyu Zhu, Mike Rabbat, Ashkan
     Yousefpour, Carole-Jean Wu, Hongyuan Zhan, Pavel Ustinov, Harish Srinivas, Kaikai
@@ -51371,6 +51426,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3638693
   ee: https://doi.org/10.1109/TPDS.2025.3638693
   url: https://dblp.org/rec/journals/tpds/XiaZWJ26
+- author: Xueyu Wu 0001, Xin Yao, Cho-Li Wang
+  title: 'FedSCR: Structure-Based Communication Reduction for Federated Learning.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/WuYW21
+  doi: 10.1109/TPDS.2020.3046250
+  ee: https://doi.org/10.1109/TPDS.2020.3046250
+  url: https://dblp.org/rec/journals/tpds/WuYW21
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

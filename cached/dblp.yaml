@@ -26906,6 +26906,71 @@ federate%20streamid%3Ajournals%2Fjmlr%3A:
   doi: ''
   ee: https://jmlr.org/papers/v25/23-0223.html
   url: https://dblp.org/rec/journals/jmlr/RushCG24
+- author: Minyoung Kim 0001, Timothy M. Hospedales
+  title: 'FedHB: Hierarchical Bayesian Federated Learning.'
+  venue: J. Mach. Learn. Res.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/0001H25
+  doi: ''
+  ee: https://jmlr.org/papers/v26/23-1350.html
+  url: https://dblp.org/rec/journals/jmlr/0001H25
+- author: Yipeng Li, Xinchen Lyu
+  title: Sharp Bounds for Sequential Federated Learning on Heterogeneous Data.
+  venue: J. Mach. Learn. Res.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/LiL25
+  doi: ''
+  ee: https://jmlr.org/papers/v26/24-0668.html
+  url: https://dblp.org/rec/journals/jmlr/LiL25
+- author: Jiin Woo, Gauri Joshi, Yuejie Chi
+  title: 'The Blessing of Heterogeneity in Federated Q-Learning: Linear Speedup and
+    Beyond.'
+  venue: J. Mach. Learn. Res.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/WooJC25
+  doi: ''
+  ee: https://jmlr.org/papers/v26/24-0579.html
+  url: https://dblp.org/rec/journals/jmlr/WooJC25
+- author: Zhijie Xie, Shenghui Song 0001
+  title: Client Selection for Federated Policy Optimization with Environment Heterogeneity.
+  venue: J. Mach. Learn. Res.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/Xie025
+  doi: ''
+  ee: https://jmlr.org/papers/v26/24-0233.html
+  url: https://dblp.org/rec/journals/jmlr/Xie025
+- author: Jianqing Zhang, Yang Liu 0165, Yang Hua 0001, Hao Wang 0022, Tao Song 0003,
+    Zhengui Xue, Ruhui Ma, Jian Cao 0001
+  title: 'PFLlib: A Beginner-Friendly and Comprehensive Personalized Federated Learning
+    Library and Benchmark.'
+  venue: J. Mach. Learn. Res.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/Zhang0000XM025
+  doi: ''
+  ee: https://jmlr.org/papers/v26/23-1634.html
+  url: https://dblp.org/rec/journals/jmlr/Zhang0000XM025
+- author: Boxin Zhao, Lingxiao Wang, Ziqi Liu, Zhiqiang Zhang 0012, Jun Zhou 0011,
+    Chaochao Chen 0001, Mladen Kolar
+  title: Adaptive Client Sampling in Federated Learning via Online Learning with Bandit
+    Feedback.
+  venue: J. Mach. Learn. Res.
+  year: '2025'
+  type: Journal Articles
+  access: open
+  key: journals/jmlr/ZhaoWL000K25
+  doi: ''
+  ee: https://jmlr.org/papers/v26/24-0385.html
+  url: https://dblp.org/rec/journals/jmlr/ZhaoWL000K25
 federate%20streamid%3Ajournals%2Fpami%3A:
 - author: Bowen Li, Lixin Fan, Hanlin Gu, Jie Li 0002, Qiang Yang 0001
   title: 'FedIPR: Ownership Verification for Federated Deep Neural Network Models.'

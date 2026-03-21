@@ -10726,6 +10726,71 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V38I14.29446
   ee: https://doi.org/10.1609/aaai.v38i14.29446
   url: https://dblp.org/rec/conf/aaai/TanCWYHOWT24
+- author: Xin Chang, Lixin Liu, Jingyu Wang, Jinling Yu, Xiaolin Zhang
+  title: 'AEFGL: Reverse Auction and Value Evaluation-Based Federated Graph Learning
+    Incentive Mechanism (Student Abstract).'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ChangLWYZ26
+  doi: 10.1609/AAAI.V40I48.42197
+  ee: https://doi.org/10.1609/aaai.v40i48.42197
+  url: https://dblp.org/rec/conf/aaai/ChangLWYZ26
+- author: Bryan Shan Guanrong, Alysa Ziying Tan, Han Yu 0001
+  title: Federated Learning Playground.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/GuanrongTY26
+  doi: 10.1609/AAAI.V40I48.42349
+  ee: https://doi.org/10.1609/aaai.v40i48.42349
+  url: https://dblp.org/rec/conf/aaai/GuanrongTY26
+- author: Sunny Gupta, Nikita Jangid, Amit Sethi
+  title: 'UniVarFL: Uniformity and Variance Regularized Federated Learning for Heterogeneous
+    Data (Student Abstract).'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/GuptaJS26
+  doi: 10.1609/AAAI.V40I48.42220
+  ee: https://doi.org/10.1609/aaai.v40i48.42220
+  url: https://dblp.org/rec/conf/aaai/GuptaJS26
+- author: Suraj Prasad, Navyansh Mahla, Sunny Gupta, Amit Sethi
+  title: Federated Cross-Modal Style-Aware Prompt Generation (Student Abstract).
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PrasadMGS26
+  doi: 10.1609/AAAI.V40I48.42268
+  ee: https://doi.org/10.1609/aaai.v40i48.42268
+  url: https://dblp.org/rec/conf/aaai/PrasadMGS26
+- author: Jarin Tasneem
+  title: 'Breaking Cross-View Associations: Byzantine Model Poisoning Attack against
+    Vertical Federated Learning.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/Tasneem26
+  doi: 10.1609/AAAI.V40I48.42327
+  ee: https://doi.org/10.1609/aaai.v40i48.42327
+  url: https://dblp.org/rec/conf/aaai/Tasneem26
+- author: Jiaxu Zhao 0002, Meng Fang, Mingze Zhong, Shunfeng Zheng, Ling Chen 0006,
+    Mykola Pechenizkiy
+  title: Investigating Social Bias Propagation in Federated Fine-tuning of Large Language
+    Models.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhaoFZZCP26
+  doi: 10.1609/AAAI.V40I46.41316
+  ee: https://doi.org/10.1609/aaai.v40i46.41316
+  url: https://dblp.org/rec/conf/aaai/ZhaoFZZCP26
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

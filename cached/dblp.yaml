@@ -10791,6 +10791,51 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V40I46.41316
   ee: https://doi.org/10.1609/aaai.v40i46.41316
   url: https://dblp.org/rec/conf/aaai/ZhaoFZZCP26
+- author: Zhanyi Hu, Cen Chen 0001, Yanhao Wang 0001
+  title: 'FILTER: A Framework for Defending Against Backdoor Attacks in Vertical Federated
+    Learning.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/HuCW26
+  doi: 10.1609/AAAI.V40I42.40859
+  ee: https://doi.org/10.1609/aaai.v40i42.40859
+  url: https://dblp.org/rec/conf/aaai/HuCW26
+- author: Yimin Liu, Peng Jiang, Qi Liu, Liehuang Zhu
+  title: Generic Adversarial Attack Framework Against Graph-based Vertical Federated
+    Learning.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuJLZ26
+  doi: 10.1609/AAAI.V40I42.40878
+  ee: https://doi.org/10.1609/aaai.v40i42.40878
+  url: https://dblp.org/rec/conf/aaai/LiuJLZ26
+- author: Yuhan Xie, Chen Lyu 0002
+  title: 'HealSplit: Towards Self-Healing Through Adversarial Distillation in Split
+    Federated Learning.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/XieL26
+  doi: 10.1609/AAAI.V40I42.40908
+  ee: https://doi.org/10.1609/aaai.v40i42.40908
+  url: https://dblp.org/rec/conf/aaai/XieL26
+- author: Xu Zhang, Hangcheng Liu, Shangwei Guo, Shudong Zhang, Tianwei Zhang 0004,
+    Tao Xiang 0001
+  title: 'ShadeEdit: A Utility-Preserving and Defense-Evasive Knowledge Manipulation
+    Attack in Federated LLMs.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangLGZZX26
+  doi: 10.1609/AAAI.V40I41.40787
+  ee: https://doi.org/10.1609/aaai.v40i41.40787
+  url: https://dblp.org/rec/conf/aaai/ZhangLGZZX26
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -53930,6 +53975,17 @@ federate%20venue%3ANAACL-HLT%3A:
   ee: https://doi.org/10.18653/v1/2024.findings-naacl.286
   url: https://dblp.org/rec/conf/naacl/WangYZKRZWMYH24
 - author: Yunchao Zhang, Zonglin Di, Kaiwen Zhou, Cihang Xie, Xin Wang 0119
+  title: Navigation as Attackers Wish? Towards Building Robust Embodied Agents under
+    Federated Learning.
+  venue: NAACL-HLT
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/naacl/ZhangDZXW24
+  doi: 10.18653/V1/2024.NAACL-LONG.57
+  ee: https://doi.org/10.18653/v1/2024.naacl-long.57
+  url: https://dblp.org/rec/conf/naacl/ZhangDZXW24
+- author: Yunchao Zhang, Zonglin Di, Kaiwen Zhou 0002, Cihang Xie, Xin Wang 0119
   title: Navigation as Attackers Wish? Towards Building Robust Embodied Agents under
     Federated Learning.
   venue: NAACL-HLT

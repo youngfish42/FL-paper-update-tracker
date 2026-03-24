@@ -10836,6 +10836,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V40I41.40787
   ee: https://doi.org/10.1609/aaai.v40i41.40787
   url: https://dblp.org/rec/conf/aaai/ZhangLGZZX26
+- author: Yimin Liu 0002, Peng Jiang 0007, Qi Liu, Liehuang Zhu
+  title: Generic Adversarial Attack Framework Against Graph-based Vertical Federated
+    Learning.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuJLZ26
+  doi: 10.1609/AAAI.V40I42.40878
+  ee: https://doi.org/10.1609/aaai.v40i42.40878
+  url: https://dblp.org/rec/conf/aaai/LiuJLZ26
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

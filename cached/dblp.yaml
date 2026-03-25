@@ -3538,6 +3538,18 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/503
   url: https://dblp.org/rec/conf/ijcai/LinGDNGCR24
+- author: Zhiyuan Ning 0001, Chunlin Tian, Meng Xiao 0001, Wei Fan 0010, Pengyang
+    Wang, Li Li 0064, Pengfei Wang 0008, Yuanchun Zhou
+  title: 'FedGCS: A Generative Framework for Efficient Client Selection in Federated
+    Learning via Gradient-based Optimization.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/NingT00WL0Z24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/526
+  url: https://dblp.org/rec/conf/ijcai/NingT00WL0Z24
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -10847,6 +10859,27 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V40I42.40878
   ee: https://doi.org/10.1609/aaai.v40i42.40878
   url: https://dblp.org/rec/conf/aaai/LiuJLZ26
+- author: Yimin Liu 0002, Peng Jiang 0007, Qi Liu 0068, Liehuang Zhu
+  title: Generic Adversarial Attack Framework Against Graph-based Vertical Federated
+    Learning.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuJLZ26
+  doi: 10.1609/AAAI.V40I42.40878
+  ee: https://doi.org/10.1609/aaai.v40i42.40878
+  url: https://dblp.org/rec/conf/aaai/LiuJLZ26
+- author: Yuanzhe Peng, Wenwei Zhao, Zhuo Lu, Jie Xu 0001
+  title: Equilibrium-Driven Vertical Federated Learning with Selective Privacy Protection.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PengZLX26
+  doi: 10.1609/AAAI.V40I35.40206
+  ee: https://doi.org/10.1609/aaai.v40i35.40206
+  url: https://dblp.org/rec/conf/aaai/PengZLX26
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

@@ -11066,6 +11066,287 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V40I34.40163
   ee: https://doi.org/10.1609/aaai.v40i34.40163
   url: https://dblp.org/rec/conf/aaai/ZhuangWHLYFD26
+- author: Soheila Molaei, Bahareh Fatemi, Anshul Thakur, Andrew A. S. Soltan, Fazle
+    Rabbi 0001, Andreas L. Opdahl, Kim Branson 0001, Patrick Schwab, Danielle Belgrave,
+    David A. Clifton
+  title: 'Neuro-Symbolic Federated Learning over Heterogeneous Data-Views: A Structured
+    Approach to Distributive EHR Modelling.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/MolaeiFTSROBSBC26
+  doi: 10.1609/AAAI.V40I29.39624
+  ee: https://doi.org/10.1609/aaai.v40i29.39624
+  url: https://dblp.org/rec/conf/aaai/MolaeiFTSROBSBC26
+- author: Noorain Mukhtiar, Adnan Mahmood, Quan Z. Sheng
+  title: 'CoRe-Fed: Bridging Collaborative and Representation Fairness via Federated
+    Embedding Distillation.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/MukhtiarMS26
+  doi: 10.1609/AAAI.V40I29.39628
+  ee: https://doi.org/10.1609/aaai.v40i29.39628
+  url: https://dblp.org/rec/conf/aaai/MukhtiarMS26
+- author: Bangqi Pan, Jianfeng Lu 0002, Shuqin Cao, Xiao Zhang 0006, Gang Li 0028,
+    Guanghui Wen
+  title: 'OPTION: An Online Pricing Strategy for Asynchronous Federated Learning Against
+    Free-Riding Attacks.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PanLCZLW26
+  doi: 10.1609/AAAI.V40I29.39653
+  ee: https://doi.org/10.1609/aaai.v40i29.39653
+  url: https://dblp.org/rec/conf/aaai/PanLCZLW26
+- author: Quyang Pan, Sheng Sun, Tingting Wi, Zhiyuan Wu, Yuwei Wang 0003, Min Liu
+    0001, Bo Gao, Jingyuan Wang 0001
+  title: Re-architecting Personalized Federated Learning for Demanding Edge Environments.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PanSWWWLGW26
+  doi: 10.1609/AAAI.V40I29.39655
+  ee: https://doi.org/10.1609/aaai.v40i29.39655
+  url: https://dblp.org/rec/conf/aaai/PanSWWWLGW26
+- author: Yiran Pang, Zhen Ni, Xiangnan Zhong
+  title: 'Decoupling Shared and Personalized Knowledge: A Dual-Branch Federated Learning
+    Framework for Multi-Domain with Non-IID Data.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/PangNZ26
+  doi: 10.1609/AAAI.V40I29.39660
+  ee: https://doi.org/10.1609/aaai.v40i29.39660
+  url: https://dblp.org/rec/conf/aaai/PangNZ26
+- author: Xinyi Sheng, Wei Bao 0001, Hequn Wang, Yuqin Liu, Sen Fu
+  title: Retaliatory Attacks Against Federated Unlearning via Data Leakage.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ShengBWLF26
+  doi: 10.1609/AAAI.V40I30.39725
+  ee: https://doi.org/10.1609/aaai.v40i30.39725
+  url: https://dblp.org/rec/conf/aaai/ShengBWLF26
+- author: Zitong Shi, Guancheng Wan, Wenke Huang 0003, Yuxin Wu, Quan Zhang, Mang
+    Ye
+  title: 'Towards Robust Text-Attributed Federated Graph Learning: Multimodal Threats
+    and Defense.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ShiWHWZY26
+  doi: 10.1609/AAAI.V40I30.39732
+  ee: https://doi.org/10.1609/aaai.v40i30.39732
+  url: https://dblp.org/rec/conf/aaai/ShiWHWZY26
+- author: Zhou Tan, De Li, Yirui Huang, Duanshu Fang, Jia-Li Yin, Xiaolei Liu, Songze
+    Li, Shouling Ji
+  title: 'DoBlock: Blocking Malicious Association Propagation for Backdoor-Robust
+    Federated Learning Under Domain Skew.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/TanLHFYLLJ26
+  doi: 10.1609/AAAI.V40I30.39778
+  ee: https://doi.org/10.1609/aaai.v40i30.39778
+  url: https://dblp.org/rec/conf/aaai/TanLHFYLLJ26
+- author: Dahao Tang, Nan Yang, Yanli Li, Zhiyu Zhu, Zhibo Jin, Dong Yuan 0001
+  title: Optimal Look-back Horizon for Time Series Forecasting in Federated Learning.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/TangYLZJY26
+  doi: 10.1609/AAAI.V40I30.39781
+  ee: https://doi.org/10.1609/aaai.v40i30.39781
+  url: https://dblp.org/rec/conf/aaai/TangYLZJY26
+- author: Ran Tao, Qiugang Zhan, Shantian Yang, Xiurui Xie, Qi Tian, Guisong Liu
+  title: 'SFedHIFI: Fire Rate-Based Heterogeneous Information Fusion for Spiking Federated
+    Learning.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/TaoZYXTL26
+  doi: 10.1609/AAAI.V40I31.39787
+  ee: https://doi.org/10.1609/aaai.v40i31.39787
+  url: https://dblp.org/rec/conf/aaai/TaoZYXTL26
+- author: Joana Tirana, Dimitra Tsigkari, David Solans Noguero, Nicolas Kourtellis
+  title: Data Heterogeneity and Forgotten Labels in Split Federated Learning.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/TiranaTNK26
+  doi: 10.1609/AAAI.V40I31.39794
+  ee: https://doi.org/10.1609/aaai.v40i31.39794
+  url: https://dblp.org/rec/conf/aaai/TiranaTNK26
+- author: Zhihao Wang 0002, Xiaoying Liao, Wenke Huang 0003, Bingqian Liu, Tian Chen,
+    Jian Wang, Bing Li
+  title: Federated Context-Aware Personalized Recommendation.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangLHLCWL26
+  doi: 10.1609/AAAI.V40I31.39888
+  ee: https://doi.org/10.1609/aaai.v40i31.39888
+  url: https://dblp.org/rec/conf/aaai/WangLHLCWL26
+- author: Bingjun Wei, Xuemei Cao 0001, Jiafen Liu, Haoyang Liang, Xin Yang 0012
+  title: Enhanced Federated Deep Multi-View Clustering Under Uncertainty Scenario.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WeiCLLY26
+  doi: 10.1609/AAAI.V40I32.39891
+  ee: https://doi.org/10.1609/aaai.v40i32.39891
+  url: https://dblp.org/rec/conf/aaai/WeiCLLY26
+- author: Siyuan Wen, Meng Zhang 0013, Yang Yang, Ningning Ding
+  title: 'FedShard: Federated Unlearning with Efficiency Fairness and Performance
+    Fairness.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WenZYD26
+  doi: 10.1609/AAAI.V40I32.39895
+  ee: https://doi.org/10.1609/aaai.v40i32.39895
+  url: https://dblp.org/rec/conf/aaai/WenZYD26
+- author: Yihang Wu, Ahmad Chaddad
+  title: Federated CLIP for Resource-Efficient Heterogeneous Medical Image Classification.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WuC26a
+  doi: 10.1609/AAAI.V40I32.39912
+  ee: https://doi.org/10.1609/aaai.v40i32.39912
+  url: https://dblp.org/rec/conf/aaai/WuC26a
+- author: Wenhan Wu, Zhili He, Huanghuang Liang, Yili Gong, Jiawei Jiang 0001, Chuang
+    Hu, Dazhao Cheng
+  title: 'REMISVFU: Vertical Federated Unlearning via Representation Misdirection
+    for Intermediate Output Feature.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WuHLGJHC26
+  doi: 10.1609/AAAI.V40I32.39911
+  ee: https://doi.org/10.1609/aaai.v40i32.39911
+  url: https://dblp.org/rec/conf/aaai/WuHLGJHC26
+- author: Yun Xin, Jianfeng Lu 0002, Gang Li 0028, Shuqin Cao, Guanghui Wen, Kehao
+    Wang
+  title: 'OursFed: Provable Group Fairness-Aware Federated Learning Against Distrust
+    and Fragility.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/XinLLCWW26
+  doi: 10.1609/AAAI.V40I32.39926
+  ee: https://doi.org/10.1609/aaai.v40i32.39926
+  url: https://dblp.org/rec/conf/aaai/XinLLCWW26
+- author: Meng Xu 0009, Xinhong Chen 0003, Zhongying Chen, Guanyi Zhao, Yang Jin,
+    Jianping Wang 0001
+  title: A Unified Self-Regulating Training Framework for Federated Deep Reinforcement
+    Learning.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/XuCCZJW26
+  doi: 10.1609/AAAI.V40I32.39946
+  ee: https://doi.org/10.1609/aaai.v40i32.39946
+  url: https://dblp.org/rec/conf/aaai/XuCCZJW26
+- author: Yang Xu 0013, Xiaowei Wu, Zifeng Xu, Cheng Zhang 0035, Ju Ren 0001, Yaoxue
+    Zhang
+  title: 'MSCFL: Model Structure-Aware Clustered Federated Learning for System Heterogeneity
+    and Data Drift.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/XuWXZRZ26
+  doi: 10.1609/AAAI.V40I32.39952
+  ee: https://doi.org/10.1609/aaai.v40i32.39952
+  url: https://dblp.org/rec/conf/aaai/XuWXZRZ26
+- author: Meiting Xue, Miaoqi Li, Yukun Shi, Yan Zeng, Jilin Zhang, Jing Ma
+  title: Class-Aware Active Annotation in Federated Semi-Supervised Learning for Medical
+    Image Classification.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/XueLSZZM26
+  doi: 10.1609/AAAI.V40I32.39964
+  ee: https://doi.org/10.1609/aaai.v40i32.39964
+  url: https://dblp.org/rec/conf/aaai/XueLSZZM26
+- author: Qiantao Yang, Liquan Chen, Mingfu Xue, Songze Li
+  title: Tackling Resource-Constrained and Data-Heterogeneity in Federated Learning
+    with Double-Weight Sparse Pack.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YangCXL26
+  doi: 10.1609/AAAI.V40I32.39979
+  ee: https://doi.org/10.1609/aaai.v40i32.39979
+  url: https://dblp.org/rec/conf/aaai/YangCXL26
+- author: Mingkun Yang, Ran Zhu, Qing Wang 0007, Jie Yang 0028
+  title: 'SMoFi: Step-wise Momentum Fusion for Split Federated Learning on Heterogeneous
+    Data.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YangZWY26
+  doi: 10.1609/AAAI.V40I32.39977
+  ee: https://doi.org/10.1609/aaai.v40i32.39977
+  url: https://dblp.org/rec/conf/aaai/YangZWY26
+- author: Honglei Zhang 0002, Zhiwei Li 0007, Haoxuan Li 0001, Xin Zhou 0008, Jie
+    Zhang 0002, Yidong Li
+  title: 'TransFR: Transferable Federated Recommendation with Adapter Tuning on Pre-trained
+    Language Models.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangLLZZL26
+  doi: 10.1609/AAAI.V40I33.40048
+  ee: https://doi.org/10.1609/aaai.v40i33.40048
+  url: https://dblp.org/rec/conf/aaai/ZhangLLZZL26
+- author: Jiale Zhang 0001, Yanan Wang, Bosen Rao, Chengcheng Zhu, Xiaobing Sun 0001,
+    Yu Li
+  title: 'MultiKD: Backdoor Defense in Federated Graph Learning via Attention-Guided
+    Multi-Teacher Distillation.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangWRZSL26
+  doi: 10.1609/AAAI.V40I33.40051
+  ee: https://doi.org/10.1609/aaai.v40i33.40051
+  url: https://dblp.org/rec/conf/aaai/ZhangWRZSL26
+- author: Hang Zhou, Wentao Yu, Yang Wei 0003, Guangyu Li, Sha Xu, Chen Gong 0002
+  title: Inter-Client Dependency Recovery with Hidden Global Components for Federated
+    Traffic Prediction.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhouYWLXG26
+  doi: 10.1609/AAAI.V40I34.40130
+  ee: https://doi.org/10.1609/aaai.v40i34.40130
+  url: https://dblp.org/rec/conf/aaai/ZhouYWLXG26
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'

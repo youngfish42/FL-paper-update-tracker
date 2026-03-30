@@ -3572,6 +3572,16 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/570
   ee: https://doi.org/10.24963/ijcai.2025/570
   url: https://dblp.org/rec/conf/ijcai/FengBWD25
+- author: Wei Feng 0010, Zeyu Bi, Qianqian Wang 0001, Bo Dong 0001
+  title: Federated Multi-view Graph Clustering with Incomplete Attribute Imputation.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/FengBWD25
+  doi: 10.24963/IJCAI.2025/570
+  ee: https://doi.org/10.24963/ijcai.2025/570
+  url: https://dblp.org/rec/conf/ijcai/FengBWD25
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -11805,6 +11815,16 @@ federate%20venue%3AAAAI%3A:
   ee: https://doi.org/10.1609/aaai.v40i33.40057
   url: https://dblp.org/rec/conf/aaai/ZhangFLGDL26
 - author: Wei Feng 0010, Danting Liu, Qianqian Wang 0001, Wenqi Liang, Zheng Yan
+  title: Scalable Federated One-Step Multi-View Clustering with Tensorized Regularization.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/FengLWLY25
+  doi: 10.1609/AAAI.V39I16.33822
+  ee: https://doi.org/10.1609/aaai.v39i16.33822
+  url: https://dblp.org/rec/conf/aaai/FengLWLY25
+- author: Wei Feng 0010, Danting Liu, Qianqian Wang 0001, Wenqi Liang, Zheng Yan 0002
   title: Scalable Federated One-Step Multi-View Clustering with Tensorized Regularization.
   venue: AAAI
   year: '2025'
@@ -28644,6 +28664,40 @@ federate%20streamid%3Ajournals%2Fpami%3A:
   doi: 10.1109/TPAMI.2023.3322743
   ee: https://doi.org/10.1109/TPAMI.2023.3322743
   url: https://dblp.org/rec/journals/pami/LiuJZCQHS24
+- author: Pengxin Guo 0001, Runxi Wang, Shuang Zeng, Jinjing Zhu, Haoning Jiang, Yanran
+    Wang, Yuyin Zhou, Feifei Wang, Hui Xiong 0001, Liangqiong Qu
+  title: 'Exploring the Vulnerabilities of Federated Learning: A Deep Dive Into Gradient
+    Inversion Attacks.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/GuoWZZJWZWXQ26
+  doi: 10.1109/TPAMI.2025.3646639
+  ee: https://doi.org/10.1109/TPAMI.2025.3646639
+  url: https://dblp.org/rec/journals/pami/GuoWZZJWZWXQ26
+- author: Yan Sun, Li Shen 0008, Dacheng Tao
+  title: Toward Understanding Generalization and Stability Gaps Between Centralized
+    and Decentralized Federated Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/SunST26
+  doi: 10.1109/TPAMI.2025.3647762
+  ee: https://doi.org/10.1109/TPAMI.2025.3647762
+  url: https://dblp.org/rec/journals/pami/SunST26
+- author: Jianing Zhu, Bo Han 0003, Jiangchao Yao, Quanming Yao, Tongliang Liu, Jianliang
+    Xu
+  title: Slack Federated Adversarial Training.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ZhuHYYLX26
+  doi: 10.1109/TPAMI.2025.3646649
+  ee: https://doi.org/10.1109/TPAMI.2025.3646649
+  url: https://dblp.org/rec/journals/pami/ZhuHYYLX26
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -54311,6 +54365,17 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2023.3257510
   ee: https://doi.org/10.1109/TC.2023.3257510
   url: https://dblp.org/rec/journals/tc/TaoCXYYLC23
+- author: Fei Wu, Jia Hu 0001, Geyong Min, Shiqiang Wang 0001
+  title: Adaptive Rank Allocation for Federated Parameter-Efficient Fine-Tuning of
+    Language Models.
+  venue: IEEE Trans. Computers
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/WuHMW26
+  doi: 10.1109/TC.2026.3655161
+  ee: https://doi.org/10.1109/TC.2026.3655161
+  url: https://dblp.org/rec/journals/tc/WuHMW26
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

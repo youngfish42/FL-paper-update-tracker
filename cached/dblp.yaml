@@ -11834,6 +11834,29 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I16.33822
   ee: https://doi.org/10.1609/aaai.v39i16.33822
   url: https://dblp.org/rec/conf/aaai/FengLWLY25
+- author: Jundong Chen 0003, Honglei Zhang 0002, Chunxu Zhang, Fangyuan Luo, Yidong
+    Li
+  title: 'Breaking the Aggregation Bottleneck in Federated Recommendation: A Personalized
+    Model Merging Approach.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ChenZZLL26
+  doi: 10.1609/AAAI.V40I17.38472
+  ee: https://doi.org/10.1609/aaai.v40i17.38472
+  url: https://dblp.org/rec/conf/aaai/ChenZZLL26
+- author: Haochen Yuan 0001, Yang Zhang 0095, Xiang He 0002, Quan Z. Sheng, Zhongjie
+    Wang 0003
+  title: Plug-and-Play Parameter-Efficient Tuning of Embeddings for Federated Recommendation.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YuanZHSW26
+  doi: 10.1609/AAAI.V40I19.38660
+  ee: https://doi.org/10.1609/aaai.v40i19.38660
+  url: https://dblp.org/rec/conf/aaai/YuanZHSW26
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -23629,6 +23652,17 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v235/xie24h.html
   url: https://dblp.org/rec/conf/icml/XieLLLFSW24
+- author: Chanho Park 0002, Namyoon Lee
+  title: 'SignSGD with Federated Defense: Harnessing Adversarial Attacks through Gradient
+    Sign Decoding.'
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/ParkL24
+  doi: ''
+  ee: https://proceedings.mlr.press/v235/park24h.html
+  url: https://dblp.org/rec/conf/icml/ParkL24
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -52732,6 +52766,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2021.3056773
   ee: https://doi.org/10.1109/TPDS.2021.3056773
   url: https://dblp.org/rec/journals/tpds/QuWHC21
+- author: Zuo Gan, Chen Chen 0067, Jiayi Zhang 0006, Yifei Zhu 0001, Jieru Zhao, Quan
+    Chen 0002, Minyi Guo
+  title: Flexible Synchronization Control for Accurate and Efficient Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/GanCZZZCG26
+  doi: 10.1109/TPDS.2026.3670216
+  ee: https://doi.org/10.1109/TPDS.2026.3670216
+  url: https://dblp.org/rec/journals/tpds/GanCZZZCG26
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

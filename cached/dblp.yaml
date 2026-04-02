@@ -3582,6 +3582,17 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/570
   ee: https://doi.org/10.24963/ijcai.2025/570
   url: https://dblp.org/rec/conf/ijcai/FengBWD25
+- author: Zhihao Wang 0002, Wenke Huang 0003, Tian Chen, Zekun Shi, Guancheng Wan,
+    Yu Qiao, Bin Yang 0026, Jian Wang 0018, Bing Li 0010, Mang Ye
+  title: An Empirical Study of Federated Prompt Learning for Vision Language Model.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/WangHCSWQYWLY25
+  doi: 10.24963/IJCAI.2025/1188
+  ee: https://doi.org/10.24963/ijcai.2025/1188
+  url: https://dblp.org/rec/conf/ijcai/WangHCSWQYWLY25
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -11857,6 +11868,50 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V40I19.38660
   ee: https://doi.org/10.1609/aaai.v40i19.38660
   url: https://dblp.org/rec/conf/aaai/YuanZHSW26
+- author: Zhihao Wang 0002, Xiaoying Liao, Wenke Huang 0003, Bingqian Liu, Tian Chen,
+    Jian Wang 0018, Bing Li 0010
+  title: Federated Context-Aware Personalized Recommendation.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangLHLCWL26
+  doi: 10.1609/AAAI.V40I31.39888
+  ee: https://doi.org/10.1609/aaai.v40i31.39888
+  url: https://dblp.org/rec/conf/aaai/WangLHLCWL26
+- author: Hanwen Zhang, Qiaojin Shen, Yuxi Liu 0005, Yuesheng Zhu, Guibo Luo
+  title: 'DSFedMed: Dual-Scale Federated Medical Image Segmentation via Mutual Distillation
+    Between Foundation and Lightweight Models.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangSLZL26
+  doi: 10.1609/AAAI.V40I15.38239
+  ee: https://doi.org/10.1609/aaai.v40i15.38239
+  url: https://dblp.org/rec/conf/aaai/ZhangSLZL26
+- author: Xiaojie Zhao, Jinqiao Shi, Yi Li, Junmin Huang, Chongru Fan
+  title: 'Good Gradients Poison Your Model: Evading Defenses in Federated Learning
+    via Boundary-adaptive Perturbation.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhaoSLHF26
+  doi: 10.1609/AAAI.V40I16.38328
+  ee: https://doi.org/10.1609/aaai.v40i16.38328
+  url: https://dblp.org/rec/conf/aaai/ZhaoSLHF26
+- author: Zhihao Wang 0002, He Bai 0014, Wenke Huang 0003, Duantengchuan Li, Jian
+    Wang 0018, Bing Li 0010
+  title: Federated Recommendation with Explicitly Encoding Item Bias.
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangBHLWL25
+  doi: 10.1609/AAAI.V39I12.33395
+  ee: https://doi.org/10.1609/aaai.v39i12.33395
+  url: https://dblp.org/rec/conf/aaai/WangBHLWL25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -49803,6 +49858,27 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645462
   ee: https://doi.org/10.1145/3589334.3645462
   url: https://dblp.org/rec/conf/www/LinGDNK024
+- author: Yichang Xu, Ming Yin 0009, Minghong Fang, Neil Zhenqiang Gong
+  title: Robust Federated Learning Mitigates Client-side Training Data Distribution
+    Inference Attacks.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/XuYFG24
+  doi: 10.1145/3589335.3651555
+  ee: https://doi.org/10.1145/3589335.3651555
+  url: https://dblp.org/rec/conf/www/XuYFG24
+- author: Ming Yin 0009, Yichang Xu, Minghong Fang, Neil Zhenqiang Gong
+  title: Poisoning Federated Recommender Systems with Fake Users.
+  venue: WWW
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/YinXFG24
+  doi: 10.1145/3589334.3645492
+  ee: https://doi.org/10.1145/3589334.3645492
+  url: https://dblp.org/rec/conf/www/YinXFG24
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

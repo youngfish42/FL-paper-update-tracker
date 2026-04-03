@@ -11912,6 +11912,28 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I12.33395
   ee: https://doi.org/10.1609/aaai.v39i12.33395
   url: https://dblp.org/rec/conf/aaai/WangBHLWL25
+- author: Xin Xu 0007, Binchang Ma, Zhixi Yu, Wei Liu 0183
+  title: 'FedARKS: Federated Aggregation via Robust and Discriminative Knowledge Selection
+    and Integration for Person Re-identification.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/XuMYL26
+  doi: 10.1609/AAAI.V40I14.38124
+  ee: https://doi.org/10.1609/aaai.v40i14.38124
+  url: https://dblp.org/rec/conf/aaai/XuMYL26
+- author: Zhixi Yu, Wei Liu, Wenke Huang 0003, Bin Yang 0026, Qian Bie, Guancheng
+    Wan, Xin Xu 0007
+  title: Domain-Aware Suppression and Aggregation for Federated DG ReID.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/aaai/YuLHYBWX26
+  doi: 10.1609/AAAI.V40I14.38214
+  ee: https://doi.org/10.1609/aaai.v40i14.38214
+  url: https://dblp.org/rec/conf/aaai/YuLHYBWX26
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -52853,6 +52875,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2026.3670216
   ee: https://doi.org/10.1109/TPDS.2026.3670216
   url: https://dblp.org/rec/journals/tpds/GanCZZZCG26
+- author: Yishan Chen 0001, Xiangwei Zeng, Huashuai Cai, Qing Xu, Zhiquan Liu 0001
+  title: Decentralized QoS-Aware Model Inference Using Federated Split Learning for
+    Cloud-Edge Medical Detection.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2025'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ChenZCXL25
+  doi: 10.1109/TPDS.2025.3594694
+  ee: https://doi.org/10.1109/TPDS.2025.3594694
+  url: https://dblp.org/rec/journals/tpds/ChenZCXL25
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

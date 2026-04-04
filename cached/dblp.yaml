@@ -11934,6 +11934,39 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V40I14.38214
   ee: https://doi.org/10.1609/aaai.v40i14.38214
   url: https://dblp.org/rec/conf/aaai/YuLHYBWX26
+- author: Cheng-Chang Tsai, Kai-Wen Cheng, Chun-Shien Lu
+  title: 'FedSDA: Federated Stain Distribution Alignment for Non-IID Histopathological
+    Image Classification.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/TsaiCL26
+  doi: 10.1609/AAAI.V40I12.37918
+  ee: https://doi.org/10.1609/aaai.v40i12.37918
+  url: https://dblp.org/rec/conf/aaai/TsaiCL26
+- author: Xin Xu 0007, Binchang Ma, Zhixi Yu, Wei Liu 0183
+  title: 'FedARKS: Federated Aggregation via Robust and Discriminative Knowledge Selection
+    and Integration for Person Re-identification.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/XuMYL26
+  doi: 10.1609/AAAI.V40I14.38124
+  ee: https://doi.org/10.1609/aaai.v40i14.38124
+  url: https://dblp.org/rec/conf/aaai/XuMYL26
+- author: Zhixi Yu, Wei Liu 0183, Wenke Huang 0003, Bin Yang 0026, Qian Bie, Guancheng
+    Wan, Xin Xu 0007
+  title: Domain-Aware Suppression and Aggregation for Federated DG ReID.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/YuLHYBWX26
+  doi: 10.1609/AAAI.V40I14.38214
+  ee: https://doi.org/10.1609/aaai.v40i14.38214
+  url: https://dblp.org/rec/conf/aaai/YuLHYBWX26
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -27907,6 +27940,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06956-1
   ee: https://doi.org/10.1007/s10994-025-06956-1
   url: https://dblp.org/rec/journals/ml/DucangeMMRR26
+- author: Haolin Yu, Kaiyang Guo, Mahdi Karami, Guojun Zhang, Hongliang Li, Xi Chen,
+    Pascal Poupart
+  title: 'FedBNR: A Fully Global Federated Gaussian Process.'
+  venue: Mach. Learn.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/YuGKZLCP26
+  doi: 10.1007/S10994-025-06936-5
+  ee: https://doi.org/10.1007/s10994-025-06936-5
+  url: https://dblp.org/rec/journals/ml/YuGKZLCP26
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -42931,6 +42975,17 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE65448.2025.00219
   ee: https://doi.org/10.1109/ICDE65448.2025.00219
   url: https://dblp.org/rec/conf/icde/WeiTZHX25
+- author: Liping Yi, Han Yu 0001, Gang Wang 0001, Xiaoguang Liu 0001, Xiaoxiao Li
+  title: 'pFedAFM: Adaptive Feature Mixture for Data-Level Personalization in Heterogeneous
+    Federated Learning on Mobile Edge Devices.'
+  venue: ICDE
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/YiYWLL25
+  doi: 10.1109/ICDE65448.2025.00151
+  ee: https://doi.org/10.1109/ICDE65448.2025.00151
+  url: https://dblp.org/rec/conf/icde/YiYWLL25
 federate%20streamid%3Ajournals%2Fpvldb%3A:
 - author: Yuexiang Xie, Zhen Wang, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui Kuang,
     Yaliang Li, Bolin Ding, Jingren Zhou

@@ -35622,6 +35622,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.02338
   ee: https://doi.org/10.1109/CVPR52733.2024.02338
   url: https://dblp.org/rec/conf/cvpr/SunLWL24
+- author: Yanbiao Ma, Wei Dai 0015, Wenke Huang 0003, Jiayi Chen
+  title: Geometric Knowledge-Guided Localized Global Distribution Alignment for Federated
+    Learning.
+  venue: CVPR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/cvpr/MaDHC25
+  doi: 10.1109/CVPR52734.2025.01952
+  ee: https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Geometric_Knowledge-Guided_Localized_Global_Distribution_Alignment_for_Federated_Learning_CVPR_2025_paper.html
+  url: https://dblp.org/rec/conf/cvpr/MaDHC25
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje

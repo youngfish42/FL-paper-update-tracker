@@ -11978,6 +11978,26 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V40I14.38214
   ee: https://doi.org/10.1609/aaai.v40i14.38214
   url: https://dblp.org/rec/conf/aaai/YuLHYBWX26
+- author: An Xu, Heng Huang 0001
+  title: Coordinating Momenta for Cross-Silo Federated Learning.
+  venue: AAAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/XuH22
+  doi: 10.1609/AAAI.V36I8.20853
+  ee: https://doi.org/10.1609/aaai.v36i8.20853
+  url: https://dblp.org/rec/conf/aaai/XuH22
+- author: Hongchang Gao, An Xu, Heng Huang 0001
+  title: On the Convergence of Communication-Efficient Local SGD for Federated Learning.
+  venue: AAAI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/GaoXH21
+  doi: 10.1609/AAAI.V35I9.16920
+  ee: https://doi.org/10.1609/aaai.v35i9.16920
+  url: https://dblp.org/rec/conf/aaai/GaoXH21
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -18382,6 +18402,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/254009e8d528f98764a060e877a1b01c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuSHZH23
+- author: Mingyi Li, Xiao Zhang 0015, Qi Wang, Tengfei Liu 0007, Ruofan Wu, Weiqiang
+    Wang 0002, Fuzhen Zhuang, Hui Xiong 0001, Dongxiao Yu
+  title: Resource-Aware Federated Self-Supervised Learning with Global Class Representations.
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/Li0WLWWZ0Y24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/13707aad517ddd6c09ea02e0f55e1e7a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Li0WLWWZ0Y24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -35644,6 +35675,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52734.2025.01952
   ee: https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Geometric_Knowledge-Guided_Localized_Global_Distribution_Alignment_for_Federated_Learning_CVPR_2025_paper.html
   url: https://dblp.org/rec/conf/cvpr/MaDHC25
+- author: An Xu, Wenqi Li 0001, Pengfei Guo, Dong Yang 0005, Holger Roth, Ali Hatamizadeh,
+    Can Zhao 0001, Daguang Xu, Heng Huang 0001, Ziyue Xu 0001
+  title: Closing the Generalization Gap of Cross-silo Federated Medical Image Segmentation.
+  venue: CVPR
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/Xu0GYRHZXH022
+  doi: 10.1109/CVPR52688.2022.02020
+  ee: https://doi.org/10.1109/CVPR52688.2022.02020
+  url: https://dblp.org/rec/conf/cvpr/Xu0GYRHZXH022
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -40172,6 +40214,18 @@ federate%20venue%3AEMNLP%3A:
   doi: ''
   ee: https://aclanthology.org/2025.findings-emnlp.388/
   url: https://dblp.org/rec/conf/emnlp/ChakrabortyDG25
+- author: Zezhou Wang, Yaxin Du, Xingjun Ma, Yu-Gang Jiang 0001, Zhuzhong Qian, Siheng
+    Chen
+  title: Optimizing Cross-Client Domain Coverage for Federated Instruction Tuning
+    of Large Language Models.
+  venue: EMNLP
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/emnlp/WangDMJQC25
+  doi: ''
+  ee: https://aclanthology.org/2025.findings-emnlp.52/
+  url: https://dblp.org/rec/conf/emnlp/WangDMJQC25
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.
@@ -47379,6 +47433,17 @@ federate%20venue%3AMobiCom%3A:
   doi: 10.1145/3680207.3765674
   ee: https://doi.org/10.1145/3680207.3765674
   url: https://dblp.org/rec/conf/mobicom/LiLXTND25
+- author: Ke Xing, Yanjie Dong 0003, Xiaoyi Fan 0001, Xiping Hu
+  title: 'Poster: Learning to Personalize in Federated Networks with Contribution-Aware
+    Aggregation.'
+  venue: MobiCom
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mobicom/XingD0H25
+  doi: 10.1145/3680207.3765661
+  ee: https://doi.org/10.1145/3680207.3765661
+  url: https://dblp.org/rec/conf/mobicom/XingD0H25
 federate%20venue%3ANSDI%3A:
 - author: Junxue Zhang 0001, Xiaodian Cheng, Wei Wang, Liu Yang, Jinbin Hu, Kai Chen
     0005

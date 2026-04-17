@@ -3604,6 +3604,17 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/611
   url: https://dblp.org/rec/conf/ijcai/Zhang00XLC24
+- author: Xiguang Wei, Quan Li 0002, Yang Liu 0165, Han Yu 0001, Tianjian Chen, Qiang
+    Yang 0001
+  title: Multi-Agent Visualization for Explaining Federated Learning.
+  venue: IJCAI
+  year: '2019'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/WeiLL0CY19
+  doi: 10.24963/IJCAI.2019/960
+  ee: https://doi.org/10.24963/ijcai.2019/960
+  url: https://dblp.org/rec/conf/ijcai/WeiLL0CY19
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -12021,6 +12032,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V35I12.17263
   ee: https://doi.org/10.1609/aaai.v35i12.17263
   url: https://dblp.org/rec/conf/aaai/XueNZTL0C21
+- author: Ziru Niu, Hai Dong, A. K. Qin 0001
+  title: 'FedSPU: Personalized Federated Learning for Resource-Constrained Devices
+    with Stochastic Parameter Update.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/NiuDQ25
+  doi: 10.1609/AAAI.V39I18.34172
+  ee: https://doi.org/10.1609/aaai.v39i18.34172
+  url: https://dblp.org/rec/conf/aaai/NiuDQ25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -32481,6 +32503,22 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3719027.3760710
   ee: https://doi.org/10.1145/3719027.3760710
   url: https://dblp.org/rec/conf/ccs/0043DCYX25
+- author: "Kunal Talwar, Shan Wang 0020, Audra McMillan, Vitaly Feldman, Pansy Bansal,\
+    \ Bailey Basile, \xC1ine Cahill, Yi Sheng Chan, Mike Chatzidakis, Junye Chen,\
+    \ Oliver R. A. Chick, Mona Chitnis, Suman Ganta, Yusuf Goren, Filip Granqvist,\
+    \ Kristine Guo, Frederic Jacobs, Omid Javidbakht, Albert Liu, Richard Low, Dan\
+    \ Mascenik, Steve Myers, David Park, Wonhee Park, Gianni Parsa, Tommy Pauly, Christian\
+    \ Priebe, Rehan Rishi, Guy N. Rothblum, Congzheng Song, Linmao Song, Karl Tarbe,\
+    \ Sebastian Vogt 0003, Shundong Zhou, Vojta Jina, Michael Scaria, Luke Winstrom"
+  title: Samplable Anonymous Aggregation for Private Federated Data Analysis.
+  venue: CCS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/ccs/TalwarWMFBBCCCC24
+  doi: 10.1145/3658644.3690224
+  ee: https://doi.org/10.1145/3658644.3690224
+  url: https://dblp.org/rec/conf/ccs/TalwarWMFBBCCCC24
 federate%20streamid%3Aconf%2Fuss%3A:
 - author: Hamid Mozaffari, Virat Shejwalkar, Amir Houmansadr
   title: 'Every Vote Counts: Ranking-Based Training of Federated Learning to Resist
@@ -44412,6 +44450,17 @@ federate%20venue%3ASIGCOMM%3A:
   doi: 10.1145/3744969.3748418
   ee: https://doi.org/10.1145/3744969.3748418
   url: https://dblp.org/rec/conf/sigcomm/FanST025
+- author: "Johann J. S. Bastos, Jo\xE3o Batista, Ramon R. Fontes, Eduardo Cerqueira,\
+    \ Rodolfo da Silva Villa\xE7a, Vin\xEDcius F. S. Mota"
+  title: A Lightweight Emulation Framework for Energy-Aware Federated Learning.
+  venue: SIGCOMM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigcomm/BastosBFCVM25
+  doi: 10.1145/3744969.3748395
+  ee: https://doi.org/10.1145/3744969.3748395
+  url: https://dblp.org/rec/conf/sigcomm/BastosBFCVM25
 federate%20venue%3AINFOCOM%3A:
 - author: Hankyul Baek, Won Joon Yun, Yunseok Kwak, Soyi Jung, Mingyue Ji, Mehdi Bennis,
     Jihong Park, Joongheon Kim
@@ -46981,6 +47030,38 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM52122.2024.10621140
   ee: https://doi.org/10.1109/INFOCOM52122.2024.10621140
   url: https://dblp.org/rec/conf/infocom/YueQHD024
+- author: Xiaoxin Su 0001, Yipeng Zhou, Laizhong Cui, Song Guo 0001
+  title: Expediting In-Network Federated Learning by Voting-Based Consensus Model
+    Compression.
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/SuZC024
+  doi: 10.1109/INFOCOM52122.2024.10621376
+  ee: https://doi.org/10.1109/INFOCOM52122.2024.10621376
+  url: https://dblp.org/rec/conf/infocom/SuZC024
+- author: Xiaoxin Su 0001, Yipeng Zhou, Laizhong Cui, John C. S. Lui, Jiangchuan Liu
+  title: 'Fed-CVLC: Compressing Federated Learning Communications with Variable-Length
+    Codes.'
+  venue: INFOCOM
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/SuZCLL24
+  doi: 10.1109/INFOCOM52122.2024.10621361
+  ee: https://doi.org/10.1109/INFOCOM52122.2024.10621361
+  url: https://dblp.org/rec/conf/infocom/SuZCLL24
+- author: Laizhong Cui, Xiaoxin Su 0001, Yipeng Zhou, Jiangchuan Liu
+  title: Optimal Rate Adaption in Federated Learning with Compressed Communications.
+  venue: INFOCOM
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/infocom/CuiSZL22
+  doi: 10.1109/INFOCOM48880.2022.9796982
+  ee: https://doi.org/10.1109/INFOCOM48880.2022.9796982
+  url: https://dblp.org/rec/conf/infocom/CuiSZL22
 federate%20venue%3AMobiCom%3A:
 - author: Tianyue Zheng, Ang Li 0005, Zhe Chen 0015, Hongbo Wang, Jun Luo 0001
   title: 'AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous
@@ -50595,6 +50676,86 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3792663
   ee: https://doi.org/10.1145/3774904.3792663
   url: https://dblp.org/rec/conf/www/ZhouZZMZLH26
+- author: Kai Cheng, Zhengyu Zhang, Tong Wu 0014, Huan Zhou 0002, Xinggang Fan
+  title: 'C2-SFL: Class-Balanced and Cost-Aware Split Federated Learning for Mobile
+    Edge Computing.'
+  venue: WWW
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ChengZWZF26
+  doi: 10.1145/3774904.3792897
+  ee: https://doi.org/10.1145/3774904.3792897
+  url: https://dblp.org/rec/conf/www/ChengZWZF26
+- author: Haoran Shi 0003, Junru Zhang 0001, Cheng Peng 0011, Xiaoli Tang 0001, Longtao
+    Huang, Han Yu 0001
+  title: 'FedDiG: Frequency-Guided Diffusion Diversity for Generalizable Federated
+    Time Series Classification.'
+  venue: WWW
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ShiZPTHY26
+  doi: 10.1145/3774904.3792329
+  ee: https://doi.org/10.1145/3774904.3792329
+  url: https://dblp.org/rec/conf/www/ShiZPTHY26
+- author: Tao Tang 0007, Mujie Liu, Botao Liu, Wei Du, Liping Chen, Xinrui Cheng,
+    Jiaxin Du, Xiangjie Kong 0001
+  title: 'FairFRL: Fairness-aware Federated Representation Learning for Cross-domain
+    Sequential Recommendation.'
+  venue: WWW
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/TangLLDCCDK26
+  doi: 10.1145/3774904.3793003
+  ee: https://doi.org/10.1145/3774904.3793003
+  url: https://dblp.org/rec/conf/www/TangLLDCCDK26
+- author: Chi Xu 0004, Jiaxing Li 0006, Mengdi Jin, William I. Atlas, Mark A. Spoljaric,
+    Edith C. H. Ngai, Jiangchuan Liu
+  title: 'FUSED: Toward Federated Multimodal Retrieval across Sovereign Data Domains.'
+  venue: WWW
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/XuLJASNL26
+  doi: 10.1145/3774904.3793009
+  ee: https://doi.org/10.1145/3774904.3793009
+  url: https://dblp.org/rec/conf/www/XuLJASNL26
+- author: Yongkang Zhao, Hailin Feng, Tingting Wang, Thippa Reddy Gadekallu, Kai Fang,
+    Wei Wang
+  title: Communication-Efficient Federated Learning for Post-Flood Risk Assessment
+    Using UAV Swarms.
+  venue: WWW
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhaoFWGFW26
+  doi: 10.1145/3774904.3792983
+  ee: https://doi.org/10.1145/3774904.3792983
+  url: https://dblp.org/rec/conf/www/ZhaoFWGFW26
+- author: Chengyang Zhou, Zijian Zhang 0009, Chunxu Zhang, Hao Miao 0001, Yulin Zhang,
+    Kedi Lyu, Juncheng Hu
+  title: 'FedDis: A Causal Disentanglement Framework for Federated Traffic Prediction.'
+  venue: WWW
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhouZZMZLH26
+  doi: 10.1145/3774904.3792663
+  ee: https://doi.org/10.1145/3774904.3792663
+  url: https://dblp.org/rec/conf/www/ZhouZZMZLH26
+- author: Ruixiao Zhu, Kun Zhu 0024, Nana Zhang, Qi Zhang 0020, Changjun Jiang 0002
+  title: Dynamic Min-Max Multi-Dimensional Reinforcement Backdoor Attacks and Orchestrated
+    Closed-Loop Defense in Fairness-Aware Web Federated Finance.
+  venue: WWW
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhuZZZJ26
+  doi: 10.1145/3774904.3792994
+  ee: https://doi.org/10.1145/3774904.3792994
+  url: https://dblp.org/rec/conf/www/ZhuZZZJ26
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -53580,6 +53741,16 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2025.3594694
   ee: https://doi.org/10.1109/TPDS.2025.3594694
   url: https://dblp.org/rec/journals/tpds/ChenZCXL25
+- author: Xiaoxin Su 0001, Yipeng Zhou, Laizhong Cui, Jiangchuan Liu
+  title: On Model Transmission Strategies in Federated Learning With Lossy Communications.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2023'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/SuZCL23
+  doi: 10.1109/TPDS.2023.3240883
+  ee: https://doi.org/10.1109/TPDS.2023.3240883
+  url: https://dblp.org/rec/journals/tpds/SuZCL23
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

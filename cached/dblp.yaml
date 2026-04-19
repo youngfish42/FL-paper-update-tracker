@@ -12043,6 +12043,17 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I18.34172
   ee: https://doi.org/10.1609/aaai.v39i18.34172
   url: https://dblp.org/rec/conf/aaai/NiuDQ25
+- author: Yihao Xue, Chaoyue Niu, Zhenzhe Zheng 0001, Shaojie Tang 0001, Chengfei
+    Lyu, Fan Wu 0006, Guihai Chen
+  title: Toward Understanding the Influence of Individual Clients in Federated Learning.
+  venue: AAAI
+  year: '2021'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/XueNZTL0C21
+  doi: 10.1609/AAAI.V35I12.17263
+  ee: https://doi.org/10.1609/aaai.v35i12.17263
+  url: https://dblp.org/rec/conf/aaai/XueNZTL0C21
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -50768,6 +50779,17 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3792983
   ee: https://doi.org/10.1145/3774904.3792983
   url: https://dblp.org/rec/conf/www/ZhaoFWGFW26
+- author: Yicheng Zhang, Zhen Qin 0004, Zhaomin Wu, Jian Hou 0002, Shuiguang Deng
+  title: Personalized Federated Fine-Tuning for LLMs via Data-Driven Heterogeneous
+    Model Architectures.
+  venue: WWW
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhangQWHD26
+  doi: 10.1145/3774904.3792147
+  ee: https://doi.org/10.1145/3774904.3792147
+  url: https://dblp.org/rec/conf/www/ZhangQWHD26
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

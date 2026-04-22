@@ -3615,6 +3615,18 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2019/960
   ee: https://doi.org/10.24963/ijcai.2019/960
   url: https://dblp.org/rec/conf/ijcai/WeiLL0CY19
+- author: Xinting Liao, Weiming Liu 0005, Chaochao Chen 0001, Pengyang Zhou 0001,
+    Huabin Zhu, Yanchao Tan, Jun Wang 0020, Yue Qi
+  title: 'HyperFed: Hyperbolic Prototypes Exploration with Consistent Aggregation
+    for Non-IID Data in Federated Learning.'
+  venue: IJCAI
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LiaoLCZZTWQ23
+  doi: 10.24963/IJCAI.2023/440
+  ee: https://doi.org/10.24963/ijcai.2023/440
+  url: https://dblp.org/rec/conf/ijcai/LiaoLCZZTWQ23
 federate%20venue%3AAAAI%3A:
 - author: Gaode Chen, Xinghua Zhang 0001, Yijun Su, Yantong Lai, Ji Xiang, Junbo Zhang,
     Yu Zheng
@@ -12054,6 +12066,30 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V35I12.17263
   ee: https://doi.org/10.1609/aaai.v35i12.17263
   url: https://dblp.org/rec/conf/aaai/XueNZTL0C21
+- author: Fuyao Zhang, Xinyu Yan 0003, Tiantong Wu, Wenjie Li 0008, Tianxiang Chen,
+    Yang Cao 0011, Ran Yan, Longtao Huang, Wei Yang Bryan Lim, Qiang Yang 0001
+  title: 'Oblivionis: A Lightweight Learning and Unlearning Framework for Federated
+    Large Language Models.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangYWLCCYHLY26
+  doi: 10.1609/AAAI.V40I33.40045
+  ee: https://doi.org/10.1609/aaai.v40i33.40045
+  url: https://dblp.org/rec/conf/aaai/ZhangYWLCCYHLY26
+- author: Pengyang Zhou 0001, Chaochao Chen 0001, Weiming Liu 0005, Xinting Liao,
+    Wenkai Shen, Jiahe Xu 0003, Zhihui Fu, Jun Wang 0020, Wu Wen, Xiaolin Zheng
+  title: 'FedGOG: Federated Graph Out-of-Distribution Generalization with Diffusion
+    Data Exploration and Latent Embedding Decorrelation.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/Zhou00LS0FWWZ25
+  doi: 10.1609/AAAI.V39I21.34459
+  ee: https://doi.org/10.1609/aaai.v39i21.34459
+  url: https://dblp.org/rec/conf/aaai/Zhou00LS0FWWZ25
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -18481,6 +18517,18 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/24f7b98aef14fcd68acf3c941af1b59e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenJZQWL24
+- author: Xinting Liao, Weiming Liu 0005, Pengyang Zhou 0001, Fengyuan Yu, Jiahe Xu
+    0003, Jun Wang 0020, Wenjie Wang 0007, Chaochao Chen 0001, Xiaolin Zheng
+  title: 'FOOGD: Federated Collaboration for Both Out-of-distribution Generalization
+    and Detection.'
+  venue: NeurIPS
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/Liao0ZY0WW0Z24
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2024/hash/efd1e27afcb94addd03b9e14c8d9f78f-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Liao0ZY0WW0Z24
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -23905,6 +23953,18 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/zhang22w.html
   url: https://dblp.org/rec/conf/icml/ZhangPSYMMR022
+- author: Xinting Liao, Weiming Liu 0005, Jiaming Qian, Pengyang Zhou 0001, Jiahe
+    Xu 0003, Wenjie Wang 0007, Chaochao Chen 0001, Xiaolin Zheng, Tat-Seng Chua
+  title: 'FOCoOp: Enhancing Out-of-Distribution Robustness in Federated Prompt Learning
+    for Vision-Language Models.'
+  venue: ICML
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/Liao0QZ0W0ZC25
+  doi: ''
+  ee: https://proceedings.mlr.press/v267/liao25e.html
+  url: https://dblp.org/rec/conf/icml/Liao0QZ0W0ZC25
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -31265,6 +31325,18 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3580305.3599521
   ee: https://doi.org/10.1145/3580305.3599521
   url: https://dblp.org/rec/conf/kdd/Wang0LLCX0Y23
+- author: Huabin Zhu, Chaochao Chen 0001, Xinting Liao, Pengyang Zhou 0001, Xiaolin
+    Zheng
+  title: Tackling Federated Long-Tailed Learning via Synthetic Feature-Based Decoupled
+    Training.
+  venue: KDD
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/Zhu0LZZ25
+  doi: 10.1145/3711896.3737143
+  ee: https://doi.org/10.1145/3711896.3737143
+  url: https://dblp.org/rec/conf/kdd/Zhu0LZZ25
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -31608,6 +31680,18 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/3773966.3777989
   ee: https://doi.org/10.1145/3773966.3777989
   url: https://dblp.org/rec/conf/wsdm/LiZLWG026
+- author: Pengyang Zhou 0001, Chaochao Chen 0001, Weiming Liu 0005, Xinting Liao,
+    Fengyuan Yu, Zhihui Fu, Xingyu Lou, Wu Wen, Xiaolin Zheng, Jun Wang 0020
+  title: 'FedGF: Enhancing Structural Knowledge via Graph Factorization for Federated
+    Graph Learning.'
+  venue: WSDM
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wsdm/Zhou00LYFLWZW25
+  doi: 10.1145/3701551.3703493
+  ee: https://doi.org/10.1145/3701551.3703493
+  url: https://dblp.org/rec/conf/wsdm/Zhou00LYFLWZW25
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using
@@ -35792,6 +35876,18 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.02020
   ee: https://doi.org/10.1109/CVPR52688.2022.02020
   url: https://dblp.org/rec/conf/cvpr/Xu0GYRHZXH022
+- author: Xinting Liao, Weiming Liu 0005, Chaochao Chen 0001, Pengyang Zhou 0001,
+    Fengyuan Yu, Huabin Zhu, Binhui Yao, Tao Wang, Xiaolin Zheng, Yanchao Tan
+  title: Rethinking the Representation in Federated Unsupervised Learning with Non-IID
+    Data.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/Liao00ZYZYWZT24
+  doi: 10.1109/CVPR52733.2024.02155
+  ee: https://doi.org/10.1109/CVPR52733.2024.02155
+  url: https://dblp.org/rec/conf/cvpr/Liao00ZYZYWZT24
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -38718,6 +38814,19 @@ federate%20streamid%3Aconf%2Fmm%3A:
   doi: 10.1145/3394171.3413923
   ee: https://doi.org/10.1145/3394171.3413923
   url: https://dblp.org/rec/conf/mm/Li00PYZZ20
+- author: Xinting Liao, Chaochao Chen 0001, Weiming Liu 0005, Pengyang Zhou 0001,
+    Huabin Zhu, Shuheng Shen, Weiqiang Wang 0002, Mengling Hu, Yanchao Tan, Xiaolin
+    Zheng
+  title: Joint Local Relational Augmentation and Global Nash Equilibrium for Federated
+    Learning with Non-IID Data.
+  venue: ACM Multimedia
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/mm/Liao0LZZSWHTZ23
+  doi: 10.1145/3581783.3612178
+  ee: https://doi.org/10.1145/3581783.3612178
+  url: https://dblp.org/rec/conf/mm/Liao0LZZSWHTZ23
 federate%20streamid%3Ajournals%2Fijcv%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"
@@ -41394,6 +41503,18 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3397271.3401081
   ee: https://doi.org/10.1145/3397271.3401081
   url: https://dblp.org/rec/conf/sigir/LinRCRY0RC20
+- author: Pengyang Zhou 0001, Chaochao Chen 0001, Weiming Liu 0005, Wenkai Shen, Xinting
+    Liao, Huarong Deng, Zhihui Fu, Jun Wang 0020, Wu Wen, Xiaolin Zheng
+  title: Joint Item Embedding Dual-view Exploration and Adaptive Local-Global Fusion
+    for Federated Recommendation.
+  venue: SIGIR
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/Zhou00SLDF0WZ25
+  doi: 10.1145/3726302.3730016
+  ee: https://doi.org/10.1145/3726302.3730016
+  url: https://dblp.org/rec/conf/sigir/Zhou00SLDF0WZ25
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -50790,6 +50911,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3792147
   ee: https://doi.org/10.1145/3774904.3792147
   url: https://dblp.org/rec/conf/www/ZhangQWHD26
+- author: Pengyang Zhou 0001, Zhihao Huang, Jiahe Xu 0003, Wu Wen, Xiaolin Zheng,
+    Chaochao Chen 0001, Jianwei Yin
+  title: LLM-enhanced Federated Graph Learning with Geometry-aware Graph Projection
+    and Shared Subspace Aggregation.
+  venue: WWW
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/ZhouHXWZCY26
+  doi: 10.1145/3774904.3792546
+  ee: https://doi.org/10.1145/3774904.3792546
+  url: https://dblp.org/rec/conf/www/ZhouHXWZCY26
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

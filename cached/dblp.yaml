@@ -31337,6 +31337,51 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3711896.3737143
   ee: https://doi.org/10.1145/3711896.3737143
   url: https://dblp.org/rec/conf/kdd/Zhu0LZZ25
+- author: Mingsheng Cao, Tianci Chen, Ming Hu 0003, Zhuang Qi, Yangguang Cui, Junlong
+    Zhou, Xiaofei Xie
+  title: 'Two Heads Are Better Than One: Generalized Cross-Domain Federated Learning
+    via Dual-Prototype.'
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/CaoCHQCZX26
+  doi: 10.1145/3770854.3780269
+  ee: https://doi.org/10.1145/3770854.3780269
+  url: https://dblp.org/rec/conf/kdd/CaoCHQCZX26
+- author: Xiaxia He, Boyue Wang, Junbin Gao, Yongli Hu, Baocai Yin
+  title: 'MFC: Mixed Federated Clustering based on Cross-modal Feature Decoupling.'
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/HeWGHY26
+  doi: 10.1145/3770854.3780327
+  ee: https://doi.org/10.1145/3770854.3780327
+  url: https://dblp.org/rec/conf/kdd/HeWGHY26
+- author: Wenhao Li, Christos Anagnostopoulos 0001, Shameem A Puthiya Parambath, Kevin
+    Bryson 0001
+  title: 'FedKDMR: Robust Federated Learning via Joint Knowledge Distillation &amp;
+    Model Recombination.'
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/LiAPB26
+  doi: 10.1145/3770854.3780160
+  ee: https://doi.org/10.1145/3770854.3780160
+  url: https://dblp.org/rec/conf/kdd/LiAPB26
+- author: Feijiang Li, Jinhao Jiang, Jieting Wang, Liang Du 0003, Yuhua Qian
+  title: Vertical Federated K-Means for Multi-View Data Guided by a K-Means Cost Bound
+    after Projection.
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/LiJWDQ26
+  doi: 10.1145/3770854.3780182
+  ee: https://doi.org/10.1145/3770854.3780182
+  url: https://dblp.org/rec/conf/kdd/LiJWDQ26
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -50923,6 +50968,18 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3792546
   ee: https://doi.org/10.1145/3774904.3792546
   url: https://dblp.org/rec/conf/www/ZhouHXWZCY26
+- author: Wenzheng Jiang, Ke Liang 0006, Wenke Huang 0003, Xiongtao Zhang, Zhenxing
+    Xu, Guancheng Wan, Cheston Tan, Flint Xiaofeng Fan, Ji Wang 0002
+  title: Unveiling and Mitigating Untargeted Poisoning Attacks on Federated Knowledge
+    Graph Embedding.
+  venue: WWW
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/www/JiangLHZXWTFW26
+  doi: 10.1145/3774904.3792117
+  ee: https://doi.org/10.1145/3774904.3792117
+  url: https://dblp.org/rec/conf/www/JiangLHZXWTFW26
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'

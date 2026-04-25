@@ -31382,6 +31382,73 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780182
   ee: https://doi.org/10.1145/3770854.3780182
   url: https://dblp.org/rec/conf/kdd/LiJWDQ26
+- author: Wenhao Li 0004, Christos Anagnostopoulos 0001, Shameem A Puthiya Parambath,
+    Kevin Bryson 0001
+  title: 'FedKDMR: Robust Federated Learning via Joint Knowledge Distillation &amp;
+    Model Recombination.'
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/LiAPB26
+  doi: 10.1145/3770854.3780160
+  ee: https://doi.org/10.1145/3770854.3780160
+  url: https://dblp.org/rec/conf/kdd/LiAPB26
+- author: Zihan Tan, Guancheng Wan, Wenke Huang 0003, Bin Yang 0026, Mang Ye
+  title: 'FedPRE: Robust Federated Graph Learning against Topological Corruption.'
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/TanWHYY26
+  doi: 10.1145/3770854.3780330
+  ee: https://doi.org/10.1145/3770854.3780330
+  url: https://dblp.org/rec/conf/kdd/TanWHYY26
+- author: Xiuling Wang, Xin Huang 0001, Haibo Hu 0001, Jianliang Xu
+  title: Communication-efficient Federated Graph Classification via Generative Diffusion
+    Modeling.
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/WangHHX26
+  doi: 10.1145/3770854.3780262
+  ee: https://doi.org/10.1145/3770854.3780262
+  url: https://dblp.org/rec/conf/kdd/WangHHX26
+- author: Xingchen Wang, Feijie Wu, Chenglin Miao, Tianchun Li, Haoyu Hu, Qiming Cao,
+    Jing Gao 0004, Lu Su 0001
+  title: Towards Privacy-Preserving and Heterogeneity-aware Split Federated Learning
+    via Probabilistic Masking.
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/WangWMLHCGS26
+  doi: 10.1145/3770854.3780255
+  ee: https://doi.org/10.1145/3770854.3780255
+  url: https://dblp.org/rec/conf/kdd/WangWMLHCGS26
+- author: Jiaming Yan, Jianchun Liu, Hongli Xu 0001, Zhenguo Ma, Shilong Wang 0002
+  title: 'Caesar: Optimizing Federated Learning via Low-deviation Compression.'
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/YanLXMW26
+  doi: 10.1145/3770854.3780170
+  ee: https://doi.org/10.1145/3770854.3780170
+  url: https://dblp.org/rec/conf/kdd/YanLXMW26
+- author: Xiaokai Zhou, Xiao Yan 0002, Xinyan Li, Yuxiang Wang, Quanqing Xu, Chuang
+    Hu, Tieyun Qian, Jiawei Jiang 0001
+  title: 'HAL: Accurate, Private, and Efficient Sample Alignment for Multimodal Federated
+    Learning.'
+  venue: KDD
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/kdd/ZhouYLWXHQJ26
+  doi: 10.1145/3770854.3780223
+  ee: https://doi.org/10.1145/3770854.3780223
+  url: https://dblp.org/rec/conf/kdd/ZhouYLWXHQJ26
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -53975,6 +54042,18 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3240883
   ee: https://doi.org/10.1109/TPDS.2023.3240883
   url: https://dblp.org/rec/journals/tpds/SuZCL23
+- author: Yongzhe Jia, Xuyun Zhang, Cheng Chen, Quan Z. Sheng, Lianyong Qi, Xiaolong
+    Xu 0001, Amin Beheshti, Wanchun Dou, Chunhe Song
+  title: 'FedAOP: Attention-Guided One-Shot Federated Pruning for Heterogeneous Edge
+    Clients.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/JiaZCSQXBDS26
+  doi: 10.1109/TPDS.2026.3678517
+  ee: https://doi.org/10.1109/TPDS.2026.3678517
+  url: https://dblp.org/rec/journals/tpds/JiaZCSQXBDS26
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

@@ -54,7 +54,9 @@ jobs:
       # TODO [√] 更新仓库数据
       # ============================================
       - name: Setup GIT user
-        uses: fregante/setup-git-user@v1
+        run: |
+          git config --global user.name "youngfish42"
+          git config --global user.email "youngfish42@users.noreply.github.com"
 
       - name: Push done work
         run: |

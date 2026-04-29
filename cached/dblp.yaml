@@ -28143,6 +28143,16 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06936-5
   ee: https://doi.org/10.1007/s10994-025-06936-5
   url: https://dblp.org/rec/journals/ml/YuGKZLCP26
+- author: Zhenwei Huang, Wen Huang 0001, Pratik Jawanpuria, Bamdev Mishra
+  title: Federated Learning on Riemannian Manifolds with Differential Privacy.
+  venue: Mach. Learn.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/HuangHJM26
+  doi: 10.1007/S10994-026-07018-W
+  ee: https://doi.org/10.1007/s10994-026-07018-w
+  url: https://dblp.org/rec/journals/ml/HuangHJM26
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -52274,6 +52284,28 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3627703.3629575
   ee: https://doi.org/10.1145/3627703.3629575
   url: https://dblp.org/rec/conf/eurosys/ChingCKJWSH24
+- author: Fahao Chen, Jie Wan, Peng Li, Zhou Su, Dongxiao Yu
+  title: Federated Fine-Tuning of Sparsely-Activated Large Language Models on Resource-Constrained
+    Devices.
+  venue: EuroSys
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/ChenWLSY26
+  doi: 10.1145/3767295.3769329
+  ee: https://doi.org/10.1145/3767295.3769329
+  url: https://dblp.org/rec/conf/eurosys/ChenWLSY26
+- author: Yuhui Zhang, Guang Yan, Xin Zhang, Zimu Guo, Lutan Zhao, Jiangfeng Cao,
+    Dan Meng 0002, Rui Hou 0001
+  title: 'SwiftFL: Enabling Speculative Training for On-Device Federated Deep Learning.'
+  venue: EuroSys
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/ZhangYZGZCMH26
+  doi: 10.1145/3767295.3803605
+  ee: https://doi.org/10.1145/3767295.3803605
+  url: https://dblp.org/rec/conf/eurosys/ZhangYZGZCMH26
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001

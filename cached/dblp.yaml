@@ -12090,6 +12090,39 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I21.34459
   ee: https://doi.org/10.1609/aaai.v39i21.34459
   url: https://dblp.org/rec/conf/aaai/Zhou00LS0FWWZ25
+- author: Shudong Liu 0008, Hanwen Zhang 0007, Xiuling Wang, Yuesheng Zhu, Guibo Luo
+  title: Feature-Aware One-Shot Federated Learning via Hierarchical Token Sequences.
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuZWZL26
+  doi: 10.1609/AAAI.V40I28.39557
+  ee: https://doi.org/10.1609/aaai.v40i28.39557
+  url: https://dblp.org/rec/conf/aaai/LiuZWZL26
+- author: Hanwen Zhang 0007, Qiaojin Shen, Yuxi Liu 0005, Yuesheng Zhu, Guibo Luo
+  title: 'DSFedMed: Dual-Scale Federated Medical Image Segmentation via Mutual Distillation
+    Between Foundation and Lightweight Models.'
+  venue: AAAI
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ZhangSLZL26
+  doi: 10.1609/AAAI.V40I15.38239
+  ee: https://doi.org/10.1609/aaai.v40i15.38239
+  url: https://dblp.org/rec/conf/aaai/ZhangSLZL26
+- author: Zhonghua Jiang 0006, Jimin Xu, Shengyu Zhang 0001, Tao Shen 0002, Jiwei
+    Li 0001, Kun Kuang 0001, Haibin Cai, Fei Wu 0001
+  title: 'FedCFA: Alleviating Simpson&apos;s Paradox in Model Aggregation with Counterfactual
+    Federated Learning.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/0007X000KC025
+  doi: 10.1609/AAAI.V39I17.33942
+  ee: https://doi.org/10.1609/aaai.v39i17.33942
+  url: https://dblp.org/rec/conf/aaai/0007X000KC025
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -18529,6 +18562,17 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/efd1e27afcb94addd03b9e14c8d9f78f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Liao0ZY0WW0Z24
+- author: Zhongyi Cai, Ye Shi 0001, Wei Huang 0034, Jingya Wang 0001
+  title: 'Fed-CO2: Cooperation of Online and Offline Models for Severe Data Heterogeneity
+    in Federated Learning.'
+  venue: NeurIPS
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/Cai0HW23
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2023/hash/431d53d513461ff155d5bc8faa9a440c-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Cai0HW23
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -23965,6 +24009,16 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v267/liao25e.html
   url: https://dblp.org/rec/conf/icml/Liao0QZ0W0ZC25
+- author: Tianyu Cui, Hongxia Li, Jingya Wang 0001, Ye Shi 0001
+  title: Harmonizing Generalization and Personalization in Federated Prompt Learning.
+  venue: ICML
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/icml/CuiLW024
+  doi: ''
+  ee: https://proceedings.mlr.press/v235/cui24c.html
+  url: https://dblp.org/rec/conf/icml/CuiLW024
 federate%20venue%3AICLR%3A:
 - author: Ahmed Khaled 0001, Chi Jin 0001
   title: Faster federated optimization under second-order similarity.
@@ -36022,6 +36076,17 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52733.2024.02155
   ee: https://doi.org/10.1109/CVPR52733.2024.02155
   url: https://dblp.org/rec/conf/cvpr/Liao00ZYZYWZT24
+- author: Hongxia Li, Wei Huang 0034, Jingya Wang 0001, Ye Shi 0001
+  title: Global and Local Prompts Cooperation via Optimal Transport for Federated
+    Learning.
+  venue: CVPR
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/cvpr/LiHW024
+  doi: 10.1109/CVPR52733.2024.01155
+  ee: https://doi.org/10.1109/CVPR52733.2024.01155
+  url: https://dblp.org/rec/conf/cvpr/LiHW024
 federate%20venue%3AICCV%3A:
 - author: Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen,
     David S. Doermann, Arun Innanje
@@ -36964,6 +37029,16 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00473
   ee: https://doi.org/10.1109/ICCV51070.2023.00473
   url: https://dblp.org/rec/conf/iccv/ZhangZSXLZL23
+- author: Yu-Tong Cao, Ye Shi 0001, Baosheng Yu, Jingya Wang 0001, Dacheng Tao
+  title: Knowledge-Aware Federated Active Learning with Non-IID Data.
+  venue: ICCV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/iccv/Cao0YWT23
+  doi: 10.1109/ICCV51070.2023.02036
+  ee: https://doi.org/10.1109/ICCV51070.2023.02036
+  url: https://dblp.org/rec/conf/iccv/Cao0YWT23
 federate%20venue%3AECCV%3A:
 - author: Debora Caldarola, Barbara Caputo, Marco Ciccone
   title: Improving Generalization in Federated Learning by Seeking Flat Minima.

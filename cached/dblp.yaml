@@ -52381,6 +52381,17 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3767295.3803605
   ee: https://doi.org/10.1145/3767295.3803605
   url: https://dblp.org/rec/conf/eurosys/ZhangYZGZCMH26
+- author: Fahao Chen, Jie Wan, Peng Li 0017, Zhou Su, Dongxiao Yu
+  title: Federated Fine-Tuning of Sparsely-Activated Large Language Models on Resource-Constrained
+    Devices.
+  venue: EuroSys
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eurosys/ChenWLSY26
+  doi: 10.1145/3767295.3769329
+  ee: https://doi.org/10.1145/3767295.3769329
+  url: https://dblp.org/rec/conf/eurosys/ChenWLSY26
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001
@@ -54184,6 +54195,17 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2026.3678517
   ee: https://doi.org/10.1109/TPDS.2026.3678517
   url: https://dblp.org/rec/journals/tpds/JiaZCSQXBDS26
+- author: Moming Duan, Duo Liu, Xianzhang Chen, Renping Liu 0002, Yujuan Tan, Liang
+    Liang 0002
+  title: Self-Balancing Federated Learning With Global Imbalanced Data in Mobile Systems.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2021'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/DuanLCLTL21
+  doi: 10.1109/TPDS.2020.3009406
+  ee: https://doi.org/10.1109/TPDS.2020.3009406
+  url: https://dblp.org/rec/journals/tpds/DuanLCLTL21
 federate%20streamid%3Ajournals%2Ftocs%3A:
 - author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
     \ Nikolaos Laoutaris"

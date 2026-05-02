@@ -60,7 +60,7 @@ jobs:
 
       - name: Push done work
         run: |
-          git diff --exit-code || git commit -am "获取新论文 @ $(date '+%Y-%m-%d %H:%M')"
+          git diff --exit-code || git commit -am "Fetch new papers @ $(date '+%Y-%m-%d %H:%M')"
           git push --force origin main
 
       - name: Create an issue for new papers

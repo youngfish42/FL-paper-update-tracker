@@ -132,23 +132,50 @@ def get_dblp_items(dblp_data):
     return res_items
 
 
-def get_msg(items, topic, aggregated=False):
-    # change "topic" from url to string
+def get_topic_short_name(topic):
+    """提取 topic 的简称，取 '/' 分隔后的最后一段"""
     string_topic = urllib.parse.unquote(topic)
-    # get name of topic
+    name_topic = string_topic.split(":")[-2]
+    return name_topic.split("/")[-1]
+
+
+def format_title_topics(topics, max_len=80):
+    """将 topic 列表格式化为标题字符串，超长时自动截断为 'a, b, c 等N个'"""
+    if not topics:
+        return ""
+    full = ", ".join(topics)
+    if len(full) <= max_len:
+        return full
+    # 从后往前尝试去掉一些 topic，确保加上"等N个"后不超长度
+    for i in range(len(topics) - 1, 0, -1):
+        prefix = ", ".join(topics[:i])
+        suffix = f"等{len(topics) - i}个"
+        candidate = f"{prefix} {suffix}"
+        if len(candidate) <= max_len:
+            return candidate
+    # 如果连第一个 topic + 等N个 都太长
+    return f"{topics[0]} 等{len(topics) - 1}个"
+
+
+def get_msg(items, topic, aggregated=False):
+    # 将 URL 编码的 topic 转回可读字符串
+    string_topic = urllib.parse.unquote(topic)
+    # 提取 topic 名称（取倒数第二个冒号分隔的部分）
     name_topic = string_topic.split(":")[-2]
 
-    # print information of topic
-    msg = f"## [{name_topic}](https://dblp.org/search?q={topic})\\n\\n"
-    msg += f"""Explore {len(items)} new papers about {name_topic}.\\n\\n"""
+    # 输出 topic 名称及新增条目数，如 "TopicName [+5]"
+    msg = f"## [{name_topic}](https://dblp.org/search?q={topic}) [+{len(items)}]\\n\\n"
 
+    # 仅在非聚合模式下输出无序列表详情
     if aggregated == False:
         for item in items:
-            msg += f"{item['title']}\\n"
-            # msg += f"[{item['title']}]({item['url']})\\n"
-            # msg += f"- Authors: {item['author']}\\n"
-            # msg += f"- Venue: {item['venue']}\\n"
-            msg += f"- Year: {item['year']}\\n\\n"
+            ee = item.get("ee", "")
+            if ee:
+                # 格式：- title. [PUB](ee超链接)
+                msg += f"- {item['title']}. [[PUB]({ee})]\\n"
+            else:
+                msg += f"- {item['title']}.\\n"
+        msg += "\\n"
 
     msg = msg.replace("'", "")
     return msg

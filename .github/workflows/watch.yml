@@ -69,5 +69,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MSG: ${{ steps.vars.outputs.content }}
+          ISSUE_TITLE_TOPICS: ${{ env.ISSUE_TITLE_TOPICS }}
         with:
           filename: .github/issue-template.md

@@ -1,6 +1,6 @@
 from loguru import logger
 from fire import Fire
-from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee, filter_items_by_year
+from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee, filter_items_by_year, get_topic_short_name, format_title_topics
 import yaml
 import datetime
 
@@ -27,6 +27,7 @@ class Scaffold:
         aggregated_msg = ""
         msg = ""
         flag = False
+        active_topics = []  # 收集本次有新增论文的 topic 简称
 
         logger.info(f"topics: {cfg['dblp']['topics']}")
 
@@ -76,6 +77,8 @@ class Scaffold:
             if len(new_items) > 0:
                 aggregated_msg += get_msg(new_items, topic, aggregated=True)
                 msg += get_msg(new_items, topic)
+                # 收集该 topic 的简称，用于后续 Issue 标题
+                active_topics.append(get_topic_short_name(topic))
             logger.info(f"aggregated_msg: {aggregated_msg}")
             logger.info(f"msg: {msg}")
 
@@ -92,9 +95,11 @@ class Scaffold:
                 msg = msg[:4096] + "..."
 
             if flag:
+                # 生成 Issue 标题中的 topic 片段，控制长度不超过 80 字符
+                title_topics = format_title_topics(active_topics)
                 with open(env_file, "a") as f:
-                    f.write("MSG=$'" + aggregated_msg + msg + "'")
-                    # f.write("MSG=$'" + msg + "'")
+                    f.write("MSG=$'" + aggregated_msg + msg + "'\n")
+                    f.write(f"ISSUE_TITLE_TOPICS={title_topics}\n")
 
 
 if __name__ == "__main__":

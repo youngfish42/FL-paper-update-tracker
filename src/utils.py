@@ -52,6 +52,25 @@ def get_item_info(item, key):
         return ""
 
 
+def filter_items_by_year(items, current_year):
+    """按年份过滤论文列表，只保留近三年及未来一年的数据"""
+    min_year = current_year - 3
+    max_year = current_year + 1
+    filtered = []
+    for item in items:
+        year_str = item.get("year", "")
+        if not year_str:
+            continue
+        try:
+            year = int(year_str)
+        except ValueError:
+            continue
+        # 仅保留在 [current_year-3, current_year+1] 范围内的论文
+        if min_year <= year <= max_year:
+            filtered.append(item)
+    return filtered
+
+
 def deduplicate_items_by_ee(items):
     """根据 ee 字段对论文列表进行去重，保留第一条记录"""
     seen_ee = set()

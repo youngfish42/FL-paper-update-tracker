@@ -1,7 +1,8 @@
 from loguru import logger
 from fire import Fire
-from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee
+from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee, filter_items_by_year
 import yaml
+import datetime
 
 
 
@@ -43,6 +44,10 @@ class Scaffold:
             # 解析 DBLP 返回的原始数据，提取需要的字段
             items = get_dblp_items(dblp_data)
             # logger.info(f"items: {items}")
+
+            # 按年份过滤，仅保留近三年及未来一年的论文（如 2026 年则保留 2023-2027）
+            current_year = datetime.datetime.now().year
+            items = filter_items_by_year(items, current_year)
 
             # 对当前 topic 获取的论文列表按 ee 去重，消除同一次查询中返回的重复论文
             items = deduplicate_items_by_ee(items)

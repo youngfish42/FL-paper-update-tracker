@@ -1,6 +1,6 @@
 from loguru import logger
 from fire import Fire
-from utils import get_msg, init, get_dblp_items, request_data
+from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee
 import yaml
 
 
@@ -40,19 +40,25 @@ class Scaffold:
             # 如果没有异常，则执行这里的代码
             # logger.info(f"dblp_data: {dblp_data}")
 
-            # get items
+            # 解析 DBLP 返回的原始数据，提取需要的字段
             items = get_dblp_items(dblp_data)
             # logger.info(f"items: {items}")
 
-            # add new cache for this topic
-            cached_items = dblp_cache.get(
-                topic, []
-            )  # get the value of the key "topic" in dblp_cache, if not exist, return []
-            new_items = [item for item in items if item not in cached_items]  # get the new items
+            # 对当前 topic 获取的论文列表按 ee 去重，消除同一次查询中返回的重复论文
+            items = deduplicate_items_by_ee(items)
+
+            # 从缓存中读取该 topic 已保存的论文列表
+            cached_items = dblp_cache.get(topic, [])
+            # 构建已缓存论文的 ee 集合，用于判断哪些是新论文
+            cached_ee_set = {item.get("ee", "") for item in cached_items if item.get("ee", "")}
+            # 筛选出 ee 不在缓存集合中的论文作为新论文（基于 ee 去重，避免作者字段微差异导致重复）
+            new_items = [item for item in items if item.get("ee", "") not in cached_ee_set]
             dblp_new_cache[topic] = new_items
 
+            # 若该 topic 首次查询，则初始化为空列表
             if topic not in dblp_cache:
                 dblp_cache[topic] = []
+            # 将新论文追加到缓存中（已保证无 ee 重复）
             dblp_cache[topic].extend(new_items)
 
             logger.info(f"new_items: {new_items}")

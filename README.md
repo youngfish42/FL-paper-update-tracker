@@ -1,9 +1,5 @@
 # FL-paper-update-tracker
 
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/youngfish42/Awesome-FL)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/youngfish42/Awesome-FL.svg?color=orange)](https://github.com/youngfish42/Awesome-FL)
-
 This project is a part of [Awesome-FL](https://github.com/youngfish42/Awesome-FL).  ![Stars](https://img.shields.io/github/stars/youngfish42/Awesome-FL.svg?color=orange)
 
 An automated paper tracking bot for **Federated Learning** research. It periodically queries the [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) for new publications across 40+ top-tier conferences and journals, deduplicates entries by their electronic edition (`ee`) field, and automatically opens GitHub Issues to notify subscribers.
@@ -14,7 +10,7 @@ An automated paper tracking bot for **Federated Learning** research. It periodic
 - **Smart Deduplication**: Uses the `ee` (electronic edition) field to eliminate duplicate records caused by minor author-name variations in DBLP.
 - **Year-Based Filtering**: Only tracks papers published within the last 3 years and the next 1 year (e.g., 2023–2027 when running in 2026).
 - **Auto-Notification**: Creates nicely formatted GitHub Issues daily via GitHub Actions.
-- **Topic-Aware Titles**: Issue titles include the short names of venues that have new papers, truncated gracefully when too long.
+
 
 ## Supported Conferences & Journals
 
@@ -58,13 +54,9 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
 
 # FL-paper-update-tracker（中文版）
 
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/youngfish42/Awesome-FL)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/youngfish42/Awesome-FL.svg?color=orange)](https://github.com/youngfish42/Awesome-FL)
-
 本项目是 [Awesome-FL](https://github.com/youngfish42/Awesome-FL) 的配套子项目。
 
-一个面向**联邦学习（Federated Learning）**研究的自动化论文追踪机器人。它定期通过 [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) 查询 40 余个顶级会议与期刊的新发表论文，通过 `ee`（电子版链接）字段智能去重，并自动创建 GitHub Issue 通知订阅者。
+一个面向 **联邦学习** 研究的自动化论文追踪机器人。它定期通过 [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) 查询 40 余个顶级会议与期刊的新发表论文，通过 `ee`（电子版链接）字段智能去重，并自动创建 GitHub Issue 通知订阅者。
 
 ## 功能特性
 
@@ -72,7 +64,7 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
 - **智能去重**：利用 `ee`（电子版链接）字段消除 DBLP 中因作者名称微差异（如 `Ming Hu 0003` 与 `Ming Hu`）导致的重复记录。
 - **年份过滤**：仅追踪近三年及未来一年内发表的论文（例如 2026 年运行时，保留 2023–2027 年的论文）。
 - **自动通知**：通过 GitHub Actions 每日自动生成格式化的 GitHub Issue。
-- **Topic 感知标题**：Issue 标题会包含有新增论文的会议/期刊简称，过长时自动截断。
+
 
 ## 支持的会议与期刊
 

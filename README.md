@@ -11,6 +11,27 @@ An automated paper tracking bot for **Federated Learning** research. It periodic
 - **Year-Based Filtering**: Only tracks papers published within the last 3 years and the next 1 year (e.g., 2023–2027 when running in 2026).
 - **Auto-Notification**: Creates nicely formatted GitHub Issues daily via GitHub Actions.
 
+## Extending to Other Research Domains
+
+This tracker is not limited to Federated Learning. The domain keyword is controlled by a single field in `config.yaml`:
+
+```yaml
+dblp:
+  keyword: federate          # <-- change this to any research term
+  queries:
+    - "venue:IJCAI:"
+    - "venue:ICML:"
+    # ... adjust venue list as needed
+```
+
+To switch to a new domain (e.g., *diffusion models*, *LLM*, *reinforcement learning*):
+
+1. **Change the keyword** — edit `config.yaml` → `dblp.keyword`.
+2. **Adjust the venue list** — keep, add, or remove entries under `dblp.queries`.
+3. **Update category mappings** — edit `scripts/convert_cache_to_md.py` so that venue names and categories match your new domain.
+4. **Reset the cache** — delete or rename `cached/dblp.yaml` so the next run treats every paper as new.
+
+No other code changes are required.
 
 ## Supported Conferences & Journals
 
@@ -65,6 +86,27 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
 - **年份过滤**：仅追踪近三年及未来一年内发表的论文（例如 2026 年运行时，保留 2023–2027 年的论文）。
 - **自动通知**：通过 GitHub Actions 每日自动生成格式化的 GitHub Issue。
 
+## 扩展到其他研究领域
+
+本追踪器不限于联邦学习。领域关键词由 `config.yaml` 中的单个字段控制：
+
+```yaml
+dblp:
+  keyword: federate          # <-- 修改此字段即可切换研究领域
+  queries:
+    - "venue:IJCAI:"
+    - "venue:ICML:"
+    # ... 按需增删会议/期刊
+```
+
+切换到新领域（例如 *扩散模型*、*大语言模型*、*强化学习*）的步骤：
+
+1. **修改关键词** — 编辑 `config.yaml` → `dblp.keyword`。
+2. **调整会议/期刊列表** — 在 `dblp.queries` 中保留、添加或删除条目。
+3. **更新类别映射** — 编辑 `scripts/convert_cache_to_md.py`，使其 venue 名称与类别匹配新领域。
+4. **重置缓存** — 删除或重命名 `cached/dblp.yaml`，下次运行将重新抓取全部论文。
+
+无需修改其他代码。
 
 ## 支持的会议与期刊
 

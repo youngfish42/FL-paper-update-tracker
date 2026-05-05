@@ -1,5 +1,22 @@
 #!/usr/bin/env python3
-"""Convert cached/dblp.yaml into a structured Markdown file."""
+"""
+Convert cached/dblp.yaml into a structured Markdown file.
+
+NOTE ON DOMAIN SWITCHING ──────────────────────────────────────────────
+The mappings below (VENUE_MAP, CATEGORY_MAP, CATEGORY_ORDER, VENUE_ORDER)
+are tailored to the current research domain (Federated Learning) and the
+venue list in config.yaml. If you change the ``keyword`` in config.yaml
+to track a different domain (e.g. diffusion, LLM), you MUST review and
+update these mappings to match the new venue set and desired categories.
+
+Quick checklist when switching domains:
+1. Update ``keyword`` and ``queries`` in config.yaml.
+2. Update VENUE_MAP to map DBLP raw venue names → your display names.
+3. Update CATEGORY_MAP to assign each display name → a category.
+4. Update CATEGORY_ORDER and VENUE_ORDER to control output ordering.
+5. Delete or rename cached/dblp.yaml to force a fresh crawl.
+───────────────────────────────────────────────────────────────────────
+"""
 
 import yaml
 from pathlib import Path

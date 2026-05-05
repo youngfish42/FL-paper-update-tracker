@@ -8,7 +8,7 @@
 
 ### High-Level Workflow
 1. GitHub Actions runs the tracker once per day (cron: `0 0 * * *`) and on every push to `main`.
-2. `src/main.py` iterates over all configured topics (venues), queries the DBLP search API, and parses the JSON response.
+2. `src/main.py` reads `config.yaml` → takes `dblp.keyword` (e.g. `federate`) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API.
 3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year) and **deduplicated by `ee` field**.
 4. New papers (not yet in `cached/dblp.yaml`) are collected, formatted as Markdown, and written to the `GITHUB_ENV` variable `MSG`.
 5. `scripts/convert_cache_to_md.py` regenerates `FL-Papers.md` from the updated cache.
@@ -37,14 +37,15 @@
 ├── cached/
 │   └── dblp.yaml                    # Persistent cache of already-reported papers
 ├── scripts/
-│   └── convert_cache_to_md.py       # Converts cache to structured Markdown
+│   └── convert_cache_to_md.py       # Converts cache to structured Markdown (domain-specific maps)
 ├── src/
-│   ├── main.py                      # Entry point: orchestrates query, filter, dedup, notify
+│   ├── main.py                      # Entry point: assembles topics from keyword+queries, orchestrates API calls
 │   └── utils.py                     # Helper functions: API call, parsing, formatting, dedup
-├── config.yaml                      # List of DBLP search topics (venues) and mail targets
+├── config.yaml                      # keyword, plain queries (venues), and mail targets
 ├── FL-Papers.md                     # Structured Markdown output of all tracked papers
 ├── requirements.txt                 # Python dependencies
 ├── README.md                        # Human-facing documentation (EN + CN)
+├── TECHNICAL.md                     # Deployment and configuration guide
 └── AGENTS.md                        # This file
 ```
 
@@ -101,10 +102,28 @@ dblp:
 
 ### Adding a New Venue
 1. Find the DBLP venue code (e.g., `venue:ICML` or `streamid:journals/pami`).
-2. Encode the full query string (e.g., `federate%20venue%3AICML%3A`).
-3. Append it to `config.yaml` under `dblp.topics`.
+2. Append the **plain** query string to `config.yaml` under `dblp.queries` (e.g., `venue:ICML:`). The runner handles URL encoding automatically.
+3. Update `scripts/convert_cache_to_md.py` if you want the new venue mapped to a specific category in `FL-Papers.md`.
 4. Update `README.md` (both EN and CN sections) to list the new venue.
 5. Update this `AGENTS.md` if the change affects architecture or conventions.
+
+### Switching to a Different Research Domain
+The tracker is domain-agnostic. To pivot from Federated Learning to any other field (e.g., diffusion models, LLMs, reinforcement learning):
+
+1. **Change the keyword** in `config.yaml`:
+   ```yaml
+   dblp:
+     keyword: diffusion   # or LLM, "reinforcement learning", etc.
+   ```
+2. **Adjust the venue list** under `dblp.queries` to match the venues relevant to the new domain.
+3. **Update `scripts/convert_cache_to_md.py`**:
+   - `VENUE_MAP` — map DBLP raw venue names to your preferred display names.
+   - `CATEGORY_MAP` — assign each display name to a category.
+   - `CATEGORY_ORDER` and `VENUE_ORDER` — control the output ordering.
+4. **Reset the cache** by deleting or renaming `cached/dblp.yaml` so the next run treats all fetched papers as new.
+5. (Optional) Update `README.md` and `TECHNICAL.md` to reflect the new domain.
+
+No changes to `src/main.py` or the GitHub Actions workflow are required.
 
 ### Changing Message Format
 - Edit `src/utils.py` → `get_msg`.

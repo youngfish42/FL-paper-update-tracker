@@ -3,6 +3,7 @@ from fire import Fire
 from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee, filter_items_by_year, get_topic_short_name, format_title_topics
 import yaml
 import datetime
+import urllib.parse
 
 
 
@@ -24,14 +25,17 @@ class Scaffold:
         dblp_new_cache = {}
 
         dblp_url = cfg["dblp"]["url"]
+        keyword = cfg["dblp"]["keyword"]
+        queries = cfg["dblp"]["queries"]
         aggregated_msg = ""
         msg = ""
         flag = False
         active_topics = []  # 收集本次有新增论文的 topic 简称
 
-        logger.info(f"topics: {cfg['dblp']['topics']}")
+        logger.info(f"keyword: {keyword}, queries: {queries}")
 
-        for topic in cfg["dblp"]["topics"]:
+        for query in queries:
+            topic = f"{keyword}%20{urllib.parse.quote(query, safe='')}"
             # random sleep to avoid being blocked
             dblp_data = request_data(dblp_url.format(topic))
 

@@ -34,6 +34,18 @@ class Scaffold:
 
         logger.info(f"keyword: {keyword}, queries: {queries}")
 
+        # 全局去重集合：跨所有 topic 跟踪已见过的 ee 和 title，防止同一论文被缓存到多个 topic 下
+        global_seen_ee = set()
+        global_seen_title = set()
+        for topic, items in dblp_cache.items():
+            for item in items:
+                ee = item.get("ee", "")
+                title = item.get("title", "").strip()
+                if ee:
+                    global_seen_ee.add(ee)
+                if title:
+                    global_seen_title.add(title)
+
         for query in queries:
             topic = f"{keyword}%20{urllib.parse.quote(query, safe='')}"
             # random sleep to avoid being blocked
@@ -63,18 +75,29 @@ class Scaffold:
             # 构建已缓存论文的 ee 集合和 title 集合，用于判断哪些是新论文
             cached_ee_set = {item.get("ee", "") for item in cached_items if item.get("ee", "")}
             cached_title_set = {item.get("title", "").strip() for item in cached_items if item.get("title", "")}
-            # 筛选出 ee 和 title 均不在缓存集合中的论文作为新论文
+            # 筛选出 ee 和 title 均不在该 topic 缓存集合中，且不在全局集合中的论文作为新论文
             new_items = [
                 item for item in items
                 if item.get("ee", "") not in cached_ee_set
                 and item.get("title", "").strip() not in cached_title_set
+                and item.get("ee", "") not in global_seen_ee
+                and item.get("title", "").strip() not in global_seen_title
             ]
             dblp_new_cache[topic] = new_items
+
+            # 将新论文的 ee 和 title 加入全局集合
+            for item in new_items:
+                ee = item.get("ee", "")
+                title = item.get("title", "").strip()
+                if ee:
+                    global_seen_ee.add(ee)
+                if title:
+                    global_seen_title.add(title)
 
             # 若该 topic 首次查询，则初始化为空列表
             if topic not in dblp_cache:
                 dblp_cache[topic] = []
-            # 将新论文追加到缓存中（已保证无 ee 重复）
+            # 将新论文追加到缓存中（已保证无 ee/title 重复）
             dblp_cache[topic].extend(new_items)
 
             logger.info(f"new_items: {new_items}")

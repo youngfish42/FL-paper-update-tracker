@@ -58,10 +58,11 @@
 - **Agent Note**: If you change this window, update both the implementation **and** this document.
 
 ### 2. Deduplication
-- Location: `src/utils.py`
-- **Two-stage dedup**:
-  1. `deduplicate_items_by_ee` — Two papers are considered the same if their `ee` (electronic edition URL) strings match exactly. Rationale: DBLP sometimes returns multiple records for the same paper with minor author-name differences (e.g., `Ming Hu 0003` vs `Ming Hu`). The `ee` field is stable and unique.
-  2. `deduplicate_items_by_title` — After `ee` dedup, papers with identical `title` strings are also deduplicated. Rationale: DBLP may list the same paper multiple times under different `ee` URLs (e.g., preprint vs. proceedings version), or the same title may appear with slightly different metadata.
+- Location: `src/utils.py` + `src/main.py`
+- **Three-stage dedup**:
+  1. `deduplicate_items_by_ee` (per-topic) — Within a single DBLP query result, papers with identical `ee` are deduplicated. Rationale: DBLP sometimes returns multiple records for the same paper with minor author-name differences (e.g., `Ming Hu 0003` vs `Ming Hu`).
+  2. `deduplicate_items_by_title` (per-topic) — Within a single query result, papers with identical `title` are also deduplicated. Rationale: DBLP may list the same paper multiple times under different `ee` URLs (e.g., preprint vs. proceedings version).
+  3. **Global cross-topic dedup** (in `main.py`) — A paper that has already been cached under any topic is skipped when processing subsequent topics. Rationale: DBLP search API can return the same paper for multiple venue queries (e.g., a keyword match may cross venue boundaries), so a global `seen_ee`/`seen_title` set prevents the same paper from being stored under multiple topic keys.
 - **Agent Note**: Do **not** switch back to full-dict comparison (`item not in cached_items`) unless you also normalize author names.
 
 ### 3. Cache Format (`cached/dblp.yaml`)

@@ -1,0 +1,26 @@
+name: Close All Open Issues
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "yes" to confirm closing all open issues'
+        required: true
+        default: 'no'
+
+permissions:
+  issues: write
+
+jobs:
+  close-issues:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.inputs.confirm == 'yes' }}
+    steps:
+      - name: Close all open issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching open issues..."
+          gh issue list --repo ${{ github.repository }} --state open --limit 1000 --json number -q '.[].number' | \
+          xargs -I{} gh issue close {} --repo ${{ github.repository }} || true
+          echo "Done."

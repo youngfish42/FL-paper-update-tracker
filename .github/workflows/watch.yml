@@ -42,6 +42,10 @@ jobs:
         run: |
           cd src && python main.py run --env=${{ env.RUN_ENV }}
 
+      - name: Update FL-Papers.md
+        run: |
+          python scripts/convert_cache_to_md.py
+
       - name: Setup var
         id: vars
         run: |

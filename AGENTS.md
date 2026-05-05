@@ -11,8 +11,9 @@
 2. `src/main.py` iterates over all configured topics (venues), queries the DBLP search API, and parses the JSON response.
 3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year) and **deduplicated by `ee` field**.
 4. New papers (not yet in `cached/dblp.yaml`) are collected, formatted as Markdown, and written to the `GITHUB_ENV` variable `MSG`.
-5. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
-6. The cache file `cached/dblp.yaml` is committed back to the repo so that subsequent runs know what has already been reported.
+5. `scripts/convert_cache_to_md.py` regenerates `FL-Papers.md` from the updated cache.
+6. If new papers exist, the action `JasonEtco/create-an-issue@v2` creates a GitHub Issue using `.github/issue-template.md`.
+7. Both `cached/dblp.yaml` and `FL-Papers.md` are committed back to the repo so that subsequent runs know what has already been reported.
 
 ## Tech Stack
 
@@ -35,10 +36,13 @@
 │   └── issue-template.md            # Nunjucks template for auto-created issues
 ├── cached/
 │   └── dblp.yaml                    # Persistent cache of already-reported papers
+├── scripts/
+│   └── convert_cache_to_md.py       # Converts cache to structured Markdown
 ├── src/
 │   ├── main.py                      # Entry point: orchestrates query, filter, dedup, notify
 │   └── utils.py                     # Helper functions: API call, parsing, formatting, dedup
 ├── config.yaml                      # List of DBLP search topics (venues) and mail targets
+├── FL-Papers.md                     # Structured Markdown output of all tracked papers
 ├── requirements.txt                 # Python dependencies
 ├── README.md                        # Human-facing documentation (EN + CN)
 └── AGENTS.md                        # This file

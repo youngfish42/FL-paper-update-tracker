@@ -1,6 +1,6 @@
 from loguru import logger
 from fire import Fire
-from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee, filter_items_by_year, get_topic_short_name, format_title_topics
+from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee, deduplicate_items_by_title, filter_items_by_year, get_topic_short_name, format_title_topics
 import yaml
 import datetime
 import urllib.parse
@@ -54,15 +54,21 @@ class Scaffold:
             current_year = datetime.datetime.now().year
             items = filter_items_by_year(items, current_year)
 
-            # 对当前 topic 获取的论文列表按 ee 去重，消除同一次查询中返回的重复论文
+            # 对当前 topic 获取的论文列表先按 ee 去重，再按 title 去重
             items = deduplicate_items_by_ee(items)
+            items = deduplicate_items_by_title(items)
 
             # 从缓存中读取该 topic 已保存的论文列表
             cached_items = dblp_cache.get(topic, [])
-            # 构建已缓存论文的 ee 集合，用于判断哪些是新论文
+            # 构建已缓存论文的 ee 集合和 title 集合，用于判断哪些是新论文
             cached_ee_set = {item.get("ee", "") for item in cached_items if item.get("ee", "")}
-            # 筛选出 ee 不在缓存集合中的论文作为新论文（基于 ee 去重，避免作者字段微差异导致重复）
-            new_items = [item for item in items if item.get("ee", "") not in cached_ee_set]
+            cached_title_set = {item.get("title", "").strip() for item in cached_items if item.get("title", "")}
+            # 筛选出 ee 和 title 均不在缓存集合中的论文作为新论文
+            new_items = [
+                item for item in items
+                if item.get("ee", "") not in cached_ee_set
+                and item.get("title", "").strip() not in cached_title_set
+            ]
             dblp_new_cache[topic] = new_items
 
             # 若该 topic 首次查询，则初始化为空列表

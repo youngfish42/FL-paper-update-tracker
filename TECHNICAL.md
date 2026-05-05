@@ -97,7 +97,7 @@ This repository uses [GitHub Actions](.github/workflows/watch.yml) to run the tr
 1. **Checkout** – Clones the repository.
 2. **Setup Python** – Installs Python 3.8.
 3. **Install Dependencies** – Runs `pip install -r requirements.txt`.
-4. **Run Tracker** – Executes `src/main.py` with `--env=prod`. It assembles each API query from `keyword` + `queries`, fetches results, filters by year, deduplicates by `ee`, and updates `cached/dblp.yaml`.
+4. **Run Tracker** – Executes `src/main.py` with `--env=prod`. It assembles each API query from `keyword` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`.
 5. **Update FL-Papers.md** – Runs `scripts/convert_cache_to_md.py` to regenerate the categorized Markdown paper list from the updated cache.
 6. **Setup Var** – Escapes the generated Markdown message for GitHub Actions.
 7. **Push Done Work** – Commits `cached/dblp.yaml` and `FL-Papers.md` back to the `main` branch.
@@ -139,8 +139,8 @@ The issue body contains:
 
 ### Key Modules
 
-- **`src/main.py`** – Loads cache, iterates over topics, queries DBLP, filters by year, deduplicates by `ee`, compares against cache, and writes new papers to `GITHUB_ENV`.
-- **`src/utils.py`** – Contains `get_dblp_items` (JSON parsing), `deduplicate_items_by_ee` (dedup logic), `filter_items_by_year` (year window filter), `get_msg` (Markdown formatting), and helpers for topic short-name extraction.
+- **`src/main.py`** – Loads cache, iterates over topics, queries DBLP, filters by year, deduplicates by `ee` and by `title`, compares against cache, and writes new papers to `GITHUB_ENV`.
+- **`src/utils.py`** – Contains `get_dblp_items` (JSON parsing), `deduplicate_items_by_ee` / `deduplicate_items_by_title` (two-stage dedup logic), `filter_items_by_year` (year window filter), `get_msg` (Markdown formatting), and helpers for topic short-name extraction.
 - **`cached/dblp.yaml`** – YAML mapping of topic → list of paper dicts. Serves as the source of truth for what has already been reported.
 
 ---

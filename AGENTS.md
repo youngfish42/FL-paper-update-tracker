@@ -58,9 +58,10 @@
 - **Agent Note**: If you change this window, update both the implementation **and** this document.
 
 ### 2. Deduplication
-- Location: `src/utils.py` (`deduplicate_items_by_ee`)
-- Rule: Two papers are considered the same if their `ee` (electronic edition URL) strings match exactly.
-- Rationale: DBLP sometimes returns multiple records for the same paper with minor author-name differences (e.g., `Ming Hu 0003` vs `Ming Hu`). The `ee` field is stable and unique.
+- Location: `src/utils.py`
+- **Two-stage dedup**:
+  1. `deduplicate_items_by_ee` — Two papers are considered the same if their `ee` (electronic edition URL) strings match exactly. Rationale: DBLP sometimes returns multiple records for the same paper with minor author-name differences (e.g., `Ming Hu 0003` vs `Ming Hu`). The `ee` field is stable and unique.
+  2. `deduplicate_items_by_title` — After `ee` dedup, papers with identical `title` strings are also deduplicated. Rationale: DBLP may list the same paper multiple times under different `ee` URLs (e.g., preprint vs. proceedings version), or the same title may appear with slightly different metadata.
 - **Agent Note**: Do **not** switch back to full-dict comparison (`item not in cached_items`) unless you also normalize author names.
 
 ### 3. Cache Format (`cached/dblp.yaml`)

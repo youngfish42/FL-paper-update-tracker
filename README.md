@@ -2,12 +2,12 @@
 
 This project is a part of [Awesome-FL](https://github.com/youngfish42/Awesome-FL).  ![Stars](https://img.shields.io/github/stars/youngfish42/Awesome-FL.svg?color=orange)
 
-An automated paper tracking bot for **Federated Learning** research. It periodically queries the [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) for new publications across 40+ top-tier conferences and journals, deduplicates entries by their electronic edition (`ee`) field, and automatically opens GitHub Issues to notify subscribers.
+An automated paper tracking bot for **Federated Learning** research. It periodically queries the [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) for new publications across 40+ top-tier conferences and journals, deduplicates entries by their electronic edition (`ee`) field **and by title**, and automatically opens GitHub Issues to notify subscribers.
 
 ## Features
 
 - **Broad Coverage**: Monitors 40+ leading venues in AI, ML, CV, NLP, Systems, Security, and more.
-- **Smart Deduplication**: Uses the `ee` (electronic edition) field to eliminate duplicate records caused by minor author-name variations in DBLP.
+- **Smart Deduplication**: Uses the `ee` (electronic edition) field and the `title` field to eliminate duplicate records caused by minor author-name variations or multiple URLs for the same paper in DBLP.
 - **Year-Based Filtering**: Only tracks papers published within the last 3 years and the next 1 year (e.g., 2023–2027 when running in 2026).
 - **Auto-Notification**: Creates nicely formatted GitHub Issues daily via GitHub Actions.
 
@@ -77,12 +77,12 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
 
 本项目是 [Awesome-FL](https://github.com/youngfish42/Awesome-FL) 的配套子项目。
 
-一个面向 **联邦学习** 研究的自动化论文追踪机器人。它定期通过 [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) 查询 40 余个顶级会议与期刊的新发表论文，通过 `ee`（电子版链接）字段智能去重，并自动创建 GitHub Issue 通知订阅者。
+一个面向 **联邦学习** 研究的自动化论文追踪机器人。它定期通过 [DBLP API](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) 查询 40 余个顶级会议与期刊的新发表论文，通过 `ee`（电子版链接）和 `title`（标题）字段智能去重，并自动创建 GitHub Issue 通知订阅者。
 
 ## 功能特性
 
 - **覆盖广泛**：持续监控人工智能、机器学习、计算机视觉、自然语言处理、系统、安全等领域的 40+ 顶级学术会议与期刊。
-- **智能去重**：利用 `ee`（电子版链接）字段消除 DBLP 中因作者名称微差异（如 `Ming Hu 0003` 与 `Ming Hu`）导致的重复记录。
+- **智能去重**：利用 `ee`（电子版链接）和 `title`（标题）字段消除 DBLP 中因作者名称微差异或同一论文多版本链接导致的重复记录。
 - **年份过滤**：仅追踪近三年及未来一年内发表的论文（例如 2026 年运行时，保留 2023–2027 年的论文）。
 - **自动通知**：通过 GitHub Actions 每日自动生成格式化的 GitHub Issue。
 

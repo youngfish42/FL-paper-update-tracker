@@ -86,6 +86,21 @@ def deduplicate_items_by_ee(items):
     return res
 
 
+def deduplicate_items_by_title(items):
+    """根据 title 字段对论文列表进行去重，保留第一条记录"""
+    seen_title = set()
+    res = []
+    for item in items:
+        title = item.get("title", "").strip()
+        # 若 title 存在且已出现过，则跳过该条记录（视为重复论文）
+        if title and title in seen_title:
+            continue
+        if title:
+            seen_title.add(title)
+        res.append(item)
+    return res
+
+
 def get_dblp_items(dblp_data):
     try:
         items = dblp_data["result"]["hits"]["hit"]

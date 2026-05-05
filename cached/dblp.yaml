@@ -736,8 +736,8 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/457
   url: https://dblp.org/rec/conf/ijcai/HuXTQ24
-- author: Nikita Kotelevskii, Samuel Horváth, Karthik Nandakumar, Martin Takác 0001,
-    Maxim Panov
+- author: "Nikita Kotelevskii, Samuel Horv\xE1th, Karthik Nandakumar, Martin Tak\xE1\
+    c 0001, Maxim Panov"
   title: Dirichlet-based Uncertainty Quantification for Personalized Federated Learning
     with Improved Posterior Networks.
   venue: IJCAI
@@ -910,7 +910,8 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/972
   url: https://dblp.org/rec/conf/ijcai/Tang24
-- author: Nurbek Tastan, Samar Fares, Toluwani Aremu, Samuel Horváth, Karthik Nandakumar
+- author: "Nurbek Tastan, Samar Fares, Toluwani Aremu, Samuel Horv\xE1th, Karthik\
+    \ Nandakumar"
   title: 'Redefining Contributions: Shapley-Driven Federated Learning.'
   venue: IJCAI
   year: '2024'
@@ -920,8 +921,8 @@ federate%20venue%3AIJCAI%3A:
   doi: ''
   ee: https://www.ijcai.org/proceedings/2024/554
   url: https://dblp.org/rec/conf/ijcai/TastanFAHN24
-- author: Herbert Woisetschläger, Alexander Erben, Shiqiang Wang 0001, Ruben Mayer,
-    Hans-Arno Jacobsen
+- author: "Herbert Woisetschl\xE4ger, Alexander Erben, Shiqiang Wang 0001, Ruben Mayer,\
+    \ Hans-Arno Jacobsen"
   title: A Survey on Efficient Federated Learning Methods for Foundation Model Training.
   venue: IJCAI
   year: '2024'
@@ -1395,7 +1396,7 @@ federate%20venue%3AIJCAI%3A:
   doi: 10.24963/IJCAI.2025/784
   ee: https://doi.org/10.24963/ijcai.2025/784
   url: https://dblp.org/rec/conf/ijcai/ZhangD0LG25
-- author: Zirui Zhang, Donghai Guan, Çetin Kaya Koç, Jie Wen 0001, Qi Zhu 0001
+- author: "Zirui Zhang, Donghai Guan, \xC7etin Kaya Ko\xE7, Jie Wen 0001, Qi Zhu 0001"
   title: 'AdaptPFL: Unlocking Cross-Device Palmprint Recognition via Adaptive Personalized
     Federated Learning with Feature Decoupling.'
   venue: IJCAI
@@ -1646,16 +1647,16 @@ federate%20venue%3AAAAI%3A:
   doi: ''
   ee: https://ojs.aaai.org/index.php/AAAI/article/view/26083
   url: https://dblp.org/rec/conf/aaai/LyuHWLWL023
-- author: Martijn Oldenhof, Gergely Ács, Balázs Pejó, Ansgar Schuffenhauer, Nicholas
-    Holway, Noé Sturm, Arne Dieckmann, Oliver Fortmeier, Eric Boniface, Clément Mayer,
-    Arnaud Gohier, Peter Schmidtke, Ritsuya Niwayama, Dieter Kopecky, Lewis H. Mervin,
-    Prakash Chandra Rathi, Lukas Friedrich, András Formanek, Peter Antal, Jordon Rahaman,
-    Adam Zalewski, Wouter Heyndrickx, Ezron Oluoch, Manuel Stößel, Michal Vanco, David
-    Endico, Fabien Gelus, Thaïs de Boisfossé, Adrien Darbier, Ashley Nicollet, Matthieu
-    Blottière, Maria Telenczuk, Van Tien Nguyen, Thibaud Martinez, Camille Boillet,
-    Kelvin Moutet, Alexandre Picosson, Aurélien Gasser, Inal Djafar, Antoine Simon,
-    Adam Arany, Jaak Simm, Yves Moreau, Ola Engkvist, Hugo Ceulemans, Camille Marini,
-    Mathieu Galtier
+- author: "Martijn Oldenhof, Gergely \xC1cs, Bal\xE1zs Pej\xF3, Ansgar Schuffenhauer,\
+    \ Nicholas Holway, No\xE9 Sturm, Arne Dieckmann, Oliver Fortmeier, Eric Boniface,\
+    \ Cl\xE9ment Mayer, Arnaud Gohier, Peter Schmidtke, Ritsuya Niwayama, Dieter Kopecky,\
+    \ Lewis H. Mervin, Prakash Chandra Rathi, Lukas Friedrich, Andr\xE1s Formanek,\
+    \ Peter Antal, Jordon Rahaman, Adam Zalewski, Wouter Heyndrickx, Ezron Oluoch,\
+    \ Manuel St\xF6\xDFel, Michal Vanco, David Endico, Fabien Gelus, Tha\xEFs de Boisfoss\xE9\
+    , Adrien Darbier, Ashley Nicollet, Matthieu Blotti\xE8re, Maria Telenczuk, Van\
+    \ Tien Nguyen, Thibaud Martinez, Camille Boillet, Kelvin Moutet, Alexandre Picosson,\
+    \ Aur\xE9lien Gasser, Inal Djafar, Antoine Simon, Adam Arany, Jaak Simm, Yves\
+    \ Moreau, Ola Engkvist, Hugo Ceulemans, Camille Marini, Mathieu Galtier"
   title: Industry-Scale Orchestrated Federated Learning for Drug Discovery.
   venue: AAAI
   year: '2023'
@@ -1675,7 +1676,7 @@ federate%20venue%3AAAAI%3A:
   doi: ''
   ee: https://ojs.aaai.org/index.php/AAAI/article/view/26122
   url: https://dblp.org/rec/conf/aaai/PanWLWTZ23
-- author: Jinhyun So, Ramy E. Ali, Basak Güler, Jiantao Jiao, Amir Salman Avestimehr
+- author: "Jinhyun So, Ramy E. Ali, Basak G\xFCler, Jiantao Jiao, Amir Salman Avestimehr"
   title: 'Securing Secure Aggregation: Mitigating Multi-Round Privacy Leakage in Federated
     Learning.'
   venue: AAAI
@@ -2157,7 +2158,7 @@ federate%20venue%3AAAAI%3A:
   doi: ''
   ee: https://ojs.aaai.org/index.php/AAAI/article/view/17093
   url: https://dblp.org/rec/conf/aaai/NagalapattiN21
-- author: Mustafa Safa Özdayi, Murat Kantarcioglu, Yulia R. Gel
+- author: "Mustafa Safa \xD6zdayi, Murat Kantarcioglu, Yulia R. Gel"
   title: Defending against Backdoors in Federated Learning with Robust Learning Rate.
   venue: AAAI
   year: '2021'
@@ -2187,8 +2188,8 @@ federate%20venue%3AAAAI%3A:
   doi: ''
   ee: https://ojs.aaai.org/index.php/AAAI/article/view/17219
   url: https://dblp.org/rec/conf/aaai/WangXW021
-- author: Ruiyuan Wu, Anna Scaglione, Hoi-To Wai, Nurullah Karakoç, Kari Hreinsson,
-    Wing-Kin Ma
+- author: "Ruiyuan Wu, Anna Scaglione, Hoi-To Wai, Nurullah Karako\xE7, Kari Hreinsson,\
+    \ Wing-Kin Ma"
   title: Federated Block Coordinate Descent Scheme for Learning Global and Personalized
     Models.
   venue: AAAI
@@ -3237,7 +3238,7 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I15.33700
   ee: https://doi.org/10.1609/aaai.v39i15.33700
   url: https://dblp.org/rec/conf/aaai/BaoC0L25
-- author: Haokun Chen, Denis Krompaß, Jindong Gu, Volker Tresp
+- author: "Haokun Chen, Denis Krompa\xDF, Jindong Gu, Volker Tresp"
   title: 'FedPop: Federated Population-based Hyperparameter Tuning.'
   venue: AAAI
   year: '2025'
@@ -3298,8 +3299,8 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I15.33773
   ee: https://doi.org/10.1609/aaai.v39i15.33773
   url: https://dblp.org/rec/conf/aaai/DalleigerVK25
-- author: Francesco Diana, Othmane Marfoq, Chuan Xu 0002, Giovanni Neglia, Frédéric
-    Giroire, Eoin Thomas
+- author: "Francesco Diana, Othmane Marfoq, Chuan Xu 0002, Giovanni Neglia, Fr\xE9\
+    d\xE9ric Giroire, Eoin Thomas"
   title: Attribute Inference Attacks for Federated Regression Tasks.
   venue: AAAI
   year: '2025'
@@ -3761,7 +3762,7 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I19.34187
   ee: https://doi.org/10.1609/aaai.v39i19.34187
   url: https://dblp.org/rec/conf/aaai/Peng0FJ0GW25
-- author: Constantin Philippenko, Kevin Scaman, Laurent Massoulié
+- author: "Constantin Philippenko, Kevin Scaman, Laurent Massouli\xE9"
   title: In-depth Analysis of Low-rank Matrix Factorisation in a Federated Setting.
   venue: AAAI
   year: '2025'
@@ -4167,8 +4168,8 @@ federate%20venue%3AAAAI%3A:
   doi: 10.1609/AAAI.V39I21.34475
   ee: https://doi.org/10.1609/aaai.v39i21.34475
   url: https://dblp.org/rec/conf/aaai/ZuoZZLXLQ25
-- author: Khaoula Chehbouni, Martine De Cock, Gilles Caporossi, Afaf Taïk, Reihaneh
-    Rabbany, Golnoosh Farnadi
+- author: "Khaoula Chehbouni, Martine De Cock, Gilles Caporossi, Afaf Ta\xEFk, Reihaneh\
+    \ Rabbany, Golnoosh Farnadi"
   title: Enhancing Privacy in the Early Detection of Sexual Predators Through Federated
     Learning and Differential Privacy.
   venue: AAAI
@@ -5047,7 +5048,7 @@ federate%20venue%3AAAAI%3A:
   url: https://dblp.org/rec/conf/aaai/LeeC26
 - author: Royson Lee, Minyoung Kim 0001, Fady Rezk, Rui Li 0052, Stylianos I. Venieris,
     Timothy M. Hospedales
-  title: 'FedP²EFT: Federated Learning to Personalize PEFT for Multilingual LLMs.'
+  title: "FedP\xB2EFT: Federated Learning to Personalize PEFT for Multilingual LLMs."
   venue: AAAI
   year: '2026'
   type: Conference and Workshop Papers
@@ -5279,7 +5280,7 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v206/cheng23b.html
   url: https://dblp.org/rec/conf/aistats/0004CD23
-- author: Wei-Ning Chen, Ayfer Özgür, Graham Cormode, Akash Bharadwaj
+- author: "Wei-Ning Chen, Ayfer \xD6zg\xFCr, Graham Cormode, Akash Bharadwaj"
   title: The communication cost of security and privacy in federated frequency estimation.
   venue: AISTATS
   year: '2023'
@@ -5413,7 +5414,7 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v151/nguyen22b.html
   url: https://dblp.org/rec/conf/aistats/NguyenMZYR0H22
-- author: Maxence Noble, Aurélien Bellet, Aymeric Dieuleveut
+- author: "Maxence Noble, Aur\xE9lien Bellet, Aymeric Dieuleveut"
   title: Differentially Private Federated Learning on Heterogeneous Data.
   venue: AISTATS
   year: '2022'
@@ -5435,7 +5436,7 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v151/panda22a.html
   url: https://dblp.org/rec/conf/aistats/PandaMBCM22
-- author: Xun Qian, Rustem Islamov, Mher Safaryan, Peter Richtárik
+- author: "Xun Qian, Rustem Islamov, Mher Safaryan, Peter Richt\xE1rik"
   title: 'Basis Matters: Better Communication-Efficient Second Order Methods for Federated
     Learning.'
   venue: AISTATS
@@ -5466,7 +5467,7 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v151/vono22a.html
   url: https://dblp.org/rec/conf/aistats/VonoPDDM22
-- author: Zachary Charles, Jakub Konecný
+- author: "Zachary Charles, Jakub Konecn\xFD"
   title: Convergence and Accuracy Trade-Offs in Federated Learning and Meta-Learning.
   venue: AISTATS
   year: '2021'
@@ -5590,7 +5591,7 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v206/nguyen23e.html
   url: https://dblp.org/rec/conf/aistats/NguyenLTPT23
-- author: Elnur Gasanov, Ahmed Khaled 0001, Samuel Horváth, Peter Richtárik
+- author: "Elnur Gasanov, Ahmed Khaled 0001, Samuel Horv\xE1th, Peter Richt\xE1rik"
   title: 'FLIX: A Simple and Communication-Efficient Alternative to Local Methods
     in Federated Learning.'
   venue: AISTATS
@@ -5654,7 +5655,8 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/blaser24a.html
   url: https://dblp.org/rec/conf/aistats/BlaserLW24
-- author: Wei-Ning Chen, Graham Cormode, Akash Bharadwaj, Peter Romov, Ayfer Özgür
+- author: "Wei-Ning Chen, Graham Cormode, Akash Bharadwaj, Peter Romov, Ayfer \xD6\
+    zg\xFCr"
   title: Federated Experiment Design under Distributed Differential Privacy.
   venue: AISTATS
   year: '2024'
@@ -5675,7 +5677,7 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/chen24d.html
   url: https://dblp.org/rec/conf/aistats/ChenLC24
-- author: Mathieu Even, Anastasia Koloskova, Laurent Massoulié
+- author: "Mathieu Even, Anastasia Koloskova, Laurent Massouli\xE9"
   title: 'Asynchronous SGD on Graphs: a Unified Framework for Asynchronous Decentralized
     and Federated Optimization.'
   venue: AISTATS
@@ -5686,7 +5688,7 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/even24a.html
   url: https://dblp.org/rec/conf/aistats/EvenKM24
-- author: Mahmoud Hegazy, Rémi Leluc, Cheuk Ting Li, Aymeric Dieuleveut
+- author: "Mahmoud Hegazy, R\xE9mi Leluc, Cheuk Ting Li, Aymeric Dieuleveut"
   title: Compression with Exact Error Distribution for Federated Learning.
   venue: AISTATS
   year: '2024'
@@ -5706,8 +5708,8 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v238/huang24c.html
   url: https://dblp.org/rec/conf/aistats/HuangWLC24
-- author: Berivan Isik, Francesco Pase, Deniz Gündüz, Sanmi Koyejo, Tsachy Weissman,
-    Michele Zorzi
+- author: "Berivan Isik, Francesco Pase, Deniz G\xFCnd\xFCz, Sanmi Koyejo, Tsachy\
+    \ Weissman, Michele Zorzi"
   title: Adaptive Compression in Federated Learning via Side Information.
   venue: AISTATS
   year: '2024'
@@ -5884,7 +5886,7 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v258/keshri25a.html
   url: https://dblp.org/rec/conf/aistats/KeshriSP25
-- author: Salma Kharrat, Marco Canini, Samuel Horváth
+- author: "Salma Kharrat, Marco Canini, Samuel Horv\xE1th"
   title: 'DPFL: Decentralized Personalized Federated Learning.'
   venue: AISTATS
   year: '2025'
@@ -5894,7 +5896,7 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v258/kharrat25a.html
   url: https://dblp.org/rec/conf/aistats/KharratCH25
-- author: Rémi Khellaf, Aurélien Bellet, Julie Josse
+- author: "R\xE9mi Khellaf, Aur\xE9lien Bellet, Julie Josse"
   title: 'Federated Causal Inference: Multi-Study ATE Estimation beyond Meta-Analysis.'
   venue: AISTATS
   year: '2025'
@@ -5915,7 +5917,7 @@ federate%20venue%3AAISTATS%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v258/ozkara25a.html
   url: https://dblp.org/rec/conf/aistats/OzkaraHZD25
-- author: Jong-Ik Park, Srinivasa Pranav, José M. F. Moura, Carlee Joe-Wong
+- author: "Jong-Ik Park, Srinivasa Pranav, Jos\xE9 M. F. Moura, Carlee Joe-Wong"
   title: 'FedBaF: Federated Learning Aggregation Biased by a Foundation Model.'
   venue: AISTATS
   year: '2025'
@@ -6134,7 +6136,7 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/002262941c9edfd472a79298b2ac5e17-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/DingNWTLfC22
-- author: Mathieu Even, Laurent Massoulié, Kevin Scaman
+- author: "Mathieu Even, Laurent Massouli\xE9, Kevin Scaman"
   title: On Sample Optimality in Personalized Collaborative and Federated Learning.
   venue: NeurIPS
   year: '2022'
@@ -6294,7 +6296,7 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/2788b4cdf421e03650868cc4184bfed8-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiuHWS22
-- author: Grigory Malinovsky, Kai Yi, Peter Richtárik
+- author: "Grigory Malinovsky, Kai Yi, Peter Richt\xE1rik"
   title: 'Variance Reduced ProxSkip: Algorithm, Theory and Application to Federated
     Learning.'
   venue: NeurIPS
@@ -6402,12 +6404,12 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/7aa320d2b4b8f6400b18f6f77b6c1535-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/TanLML0022
-- author: Jean Ogier du Terrail, Samy-Safwan Ayed, Edwige Cyffers, Felix Grimberg,
-    Chaoyang He 0001, Regis Loeb, Paul Mangold, Tanguy Marchand, Othmane Marfoq, Erum
-    Mushtaq, Boris Muzellec, Constantin Philippenko, Santiago Silva, Maria Telenczuk,
-    Shadi Albarqouni, Salman Avestimehr, Aurélien Bellet, Aymeric Dieuleveut, Martin
-    Jaggi, Sai Praneeth Karimireddy, Marco Lorenzi, Giovanni Neglia, Marc Tommasi,
-    Mathieu Andreux
+- author: "Jean Ogier du Terrail, Samy-Safwan Ayed, Edwige Cyffers, Felix Grimberg,\
+    \ Chaoyang He 0001, Regis Loeb, Paul Mangold, Tanguy Marchand, Othmane Marfoq,\
+    \ Erum Mushtaq, Boris Muzellec, Constantin Philippenko, Santiago Silva, Maria\
+    \ Telenczuk, Shadi Albarqouni, Salman Avestimehr, Aur\xE9lien Bellet, Aymeric\
+    \ Dieuleveut, Martin Jaggi, Sai Praneeth Karimireddy, Marco Lorenzi, Giovanni\
+    \ Neglia, Marc Tommasi, Mathieu Andreux"
   title: 'FLamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic
     Healthcare Settings.'
   venue: NeurIPS
@@ -6502,7 +6504,7 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2021/hash/4c27cea8526af8cfee3be5e183ac9605-Abstract.html
   url: https://dblp.org/rec/conf/nips/DaiLJ21
-- author: Aymeric Dieuleveut, Gersende Fort, Eric Moulines, Geneviève Robin
+- author: "Aymeric Dieuleveut, Gersende Fort, Eric Moulines, Genevi\xE8ve Robin"
   title: Federated-EM with heterogeneity mitigation and variance reduction.
   venue: NeurIPS
   year: '2021'
@@ -6543,8 +6545,8 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2021/hash/64be20f6dd1dd46adf110cf871e3ed35-Abstract.html
   url: https://dblp.org/rec/conf/nips/GuHZH21
-- author: Samuel Horváth, Stefanos Laskaridis, Mário Almeida, Ilias Leontiadis, Stylianos
-    I. Venieris, Nicholas D. Lane
+- author: "Samuel Horv\xE1th, Stefanos Laskaridis, M\xE1rio Almeida, Ilias Leontiadis,\
+    \ Stylianos I. Venieris, Nicholas D. Lane"
   title: 'FjORD: Fair and Accurate Federated Learning under heterogeneous targets
     with Ordered Dropout.'
   venue: NeurIPS
@@ -6631,8 +6633,8 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2021/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html
   url: https://dblp.org/rec/conf/nips/LuoCHZLF21
-- author: Othmane Marfoq, Giovanni Neglia, Aurélien Bellet, Laetitia Kameni, Richard
-    Vidal
+- author: "Othmane Marfoq, Giovanni Neglia, Aur\xE9lien Bellet, Laetitia Kameni, Richard\
+    \ Vidal"
   title: Federated Multi-Task Learning under a Mixture of Distributions.
   venue: NeurIPS
   year: '2021'
@@ -6841,7 +6843,7 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2020/hash/4311359ed4969e8401880e3c1836fbe1-Abstract.html
   url: https://dblp.org/rec/conf/nips/DubeyP20
-- author: Jonas Geiping, Hartmut Bauermeister, Hannah Dröge, Michael Moeller 0001
+- author: "Jonas Geiping, Hartmut Bauermeister, Hannah Dr\xF6ge, Michael Moeller 0001"
   title: Inverting Gradients - How easy is it to break privacy in federated learning?
   venue: NeurIPS
   year: '2020'
@@ -6871,7 +6873,8 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: https://proceedings.neurips.cc/paper/2020/hash/47a658229eb2368a99f1d032c8848542-Abstract.html
   url: https://dblp.org/rec/conf/nips/GrammenosMCM20
-- author: Filip Hanzely, Slavomír Hanzely, Samuel Horváth, Peter Richtárik
+- author: "Filip Hanzely, Slavom\xEDr Hanzely, Samuel Horv\xE1th, Peter Richt\xE1\
+    rik"
   title: Lower Bounds and Optimal Algorithms for Personalized Federated Learning.
   venue: NeurIPS
   year: '2020'
@@ -7136,7 +7139,7 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/3baf4eeffad860ca9c54aeab632716b4-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/PanchalCPZG23
-- author: Sara Pieri, Jose Renato Restom, Samuel Horváth, Hisham Cholakkal
+- author: "Sara Pieri, Jose Renato Restom, Samuel Horv\xE1th, Hisham Cholakkal"
   title: Handling Data Heterogeneity via Architectural Design for Federated Visual
     Recognition.
   venue: NeurIPS
@@ -7441,7 +7444,7 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/c4e380fb74dec9da9c7212e834657aa9-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/FanZ0023
-- author: Larry Han, Zhu Shen, José R. Zubizarreta
+- author: "Larry Han, Zhu Shen, Jos\xE9 R. Zubizarreta"
   title: Multiply Robust Federated Estimation of Targeted Average Treatment Effects.
   venue: NeurIPS
   year: '2023'
@@ -7677,8 +7680,8 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/13707aad517ddd6c09ea02e0f55e1e7a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Li0WLWWZ0Y24
-- author: Paul Mangold, Sergey Samsonov, Safwan Labbi, Ilya Levin, Réda Alami, Alexey
-    Naumov, Eric Moulines
+- author: "Paul Mangold, Sergey Samsonov, Safwan Labbi, Ilya Levin, R\xE9da Alami,\
+    \ Alexey Naumov, Eric Moulines"
   title: 'SCAFFLSA: Taming Heterogeneity in Federated Linear Stochastic Approximation
     and TD Learning.'
   venue: NeurIPS
@@ -7755,9 +7758,9 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/558d48c1f08675daa636e09bfe94a89e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GaoW00W24
-- author: Filip Granqvist, Congzheng Song, Áine Cahill, Rogier C. van Dalen, Martin
-    Pelikan, Yi Sheng Chan, Xiaojun Feng, Natarajan Krishnaswami, Vojta Jina, Mona
-    Chitnis
+- author: "Filip Granqvist, Congzheng Song, \xC1ine Cahill, Rogier C. van Dalen, Martin\
+    \ Pelikan, Yi Sheng Chan, Xiaojun Feng, Natarajan Krishnaswami, Vojta Jina, Mona\
+    \ Chitnis"
   title: 'pfl-research: simulation framework for accelerating research in Private
     Federated Learning.'
   venue: NeurIPS
@@ -8003,7 +8006,7 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/7a9ee756fb71d401bcb5230db02c11db-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Yi00W0L24
-- author: Minsu Kim 0003, Walid Saad, Mérouane Debbah, Choong Seon Hong
+- author: "Minsu Kim 0003, Walid Saad, M\xE9rouane Debbah, Choong Seon Hong"
   title: 'SpaFL: Communication-Efficient Federated Learning With Sparse Models And
     Low Computational Overhead.'
   venue: NeurIPS
@@ -8167,7 +8170,8 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/b6d0df730c5976ad918bbf4fb30afe7d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/AllouahMGGP24
-- author: Dimitar I. Dimitrov, Maximilian Baader, Mark Niklas Müller, Martin T. Vechev
+- author: "Dimitar I. Dimitrov, Maximilian Baader, Mark Niklas M\xFCller, Martin T.\
+    \ Vechev"
   title: 'SPEAR: Exact Gradient Inversion of Batches in Federated Learning.'
   venue: NeurIPS
   year: '2024'
@@ -8351,7 +8355,7 @@ federate%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/db0ee27cb50dd9087b133f6e7d28a90e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/HuangYSWL024
-- author: Hanmin Li, Kirill Acharya, Peter Richtárik
+- author: "Hanmin Li, Kirill Acharya, Peter Richt\xE1rik"
   title: The Power of Extrapolation in Federated Learning.
   venue: NeurIPS
   year: '2024'
@@ -8507,7 +8511,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/cho23b.html
   url: https://dblp.org/rec/conf/icml/ChoSJ0KZ23
-- author: Edwige Cyffers, Aurélien Bellet, Debabrota Basu
+- author: "Edwige Cyffers, Aur\xE9lien Bellet, Debabrota Basu"
   title: From Noisy Fixed-Point Iterations to Private ADMM for Centralized and Federated
     Learning.
   venue: ICML
@@ -8539,7 +8543,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/dorfman23a.html
   url: https://dblp.org/rec/conf/icml/DorfmanVBL23
-- author: Adrià Gascón, Peter Kairouz, Ziteng Sun, Ananda Theertha Suresh
+- author: "Adri\xE0 Gasc\xF3n, Peter Kairouz, Ziteng Sun, Ananda Theertha Suresh"
   title: Federated Heavy Hitter Recovery under Linear Sketching.
   venue: ICML
   year: '2023'
@@ -8613,7 +8617,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v202/huang23q.html
   url: https://dblp.org/rec/conf/icml/HuangZMSHY23
-- author: Pierre Humbert, Batiste Le Bars, Aurélien Bellet, Sylvain Arlot
+- author: "Pierre Humbert, Batiste Le Bars, Aur\xE9lien Bellet, Sylvain Arlot"
   title: One-Shot Federated Conformal Prediction.
   venue: ICML
   year: '2023'
@@ -8761,8 +8765,8 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/bao22b.html
   url: https://dblp.org/rec/conf/icml/BaoCLL22
-- author: Alberto Bietti, Chen-Yu Wei, Miroslav Dudík, John Langford 0001, Zhiwei
-    Steven Wu
+- author: "Alberto Bietti, Chen-Yu Wei, Miroslav Dud\xEDk, John Langford 0001, Zhiwei\
+    \ Steven Wu"
   title: Personalization Improves Privacy-Accuracy Tradeoffs in Federated Learning.
   venue: ICML
   year: '2022'
@@ -8784,7 +8788,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/chen22c.html
   url: https://dblp.org/rec/conf/icml/ChenCKS22
-- author: Wei-Ning Chen, Ayfer Özgür, Peter Kairouz
+- author: "Wei-Ning Chen, Ayfer \xD6zg\xFCr, Peter Kairouz"
   title: The Poisson Binomial Mechanism for Unbiased Federated Learning with Secure
     Aggregation.
   venue: ICML
@@ -8818,7 +8822,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/elgabli22a.html
   url: https://dblp.org/rec/conf/icml/ElgabliIBRBA22
-- author: Robert Hönig, Yiren Zhao, Robert D. Mullins
+- author: "Robert H\xF6nig, Yiren Zhao, Robert D. Mullins"
   title: 'DAdaQuant: Doubly-adaptive quantization for communication-efficient Federated
     Learning.'
   venue: ICML
@@ -8935,7 +8939,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/marfoq22a.html
   url: https://dblp.org/rec/conf/icml/MarfoqNVK22
-- author: Konstantin Mishchenko, Ahmed Khaled 0001, Peter Richtárik
+- author: "Konstantin Mishchenko, Ahmed Khaled 0001, Peter Richt\xE1rik"
   title: Proximal and Federated Random Reshuffling.
   venue: ICML
   year: '2022'
@@ -8966,7 +8970,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v162/qu22a.html
   url: https://dblp.org/rec/conf/icml/QuLDLTL22
-- author: Mher Safaryan, Rustem Islamov, Xun Qian, Peter Richtárik
+- author: "Mher Safaryan, Rustem Islamov, Xun Qian, Peter Richt\xE1rik"
   title: 'FedNL: Making Newton-Type Methods Applicable to Federated Learning.'
   venue: ICML
   year: '2022'
@@ -9355,7 +9359,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: http://proceedings.mlr.press/v119/karimireddy20a.html
   url: https://dblp.org/rec/conf/icml/KarimireddyKMRS20
-- author: Zhize Li, Dmitry Kovalev, Xun Qian, Peter Richtárik
+- author: "Zhize Li, Dmitry Kovalev, Xun Qian, Peter Richt\xE1rik"
   title: Acceleration for Compressed Gradient Descent in Distributed and Federated
     Optimization.
   venue: ICML
@@ -9366,8 +9370,8 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: http://proceedings.mlr.press/v119/li20g.html
   url: https://dblp.org/rec/conf/icml/LiKQR20
-- author: Grigory Malinovskiy, Dmitry Kovalev, Elnur Gasanov, Laurent Condat, Peter
-    Richtárik
+- author: "Grigory Malinovskiy, Dmitry Kovalev, Elnur Gasanov, Laurent Condat, Peter\
+    \ Richt\xE1rik"
   title: From Local SGD to Local Fixed-Point Methods for Federated Learning.
   venue: ICML
   year: '2020'
@@ -9828,7 +9832,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=6axTFAlzRV
   url: https://dblp.org/rec/conf/icml/FanHY00SW24
-- author: Eros Fanì, Raffaello Camoriano, Barbara Caputo, Marco Ciccone
+- author: "Eros Fan\xEC, Raffaello Camoriano, Barbara Caputo, Marco Ciccone"
   title: Accelerating Heterogeneous Federated Learning with Closed-form Classifiers.
   venue: ICML
   year: '2024'
@@ -9978,9 +9982,9 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=J4HJUF70qm
   url: https://dblp.org/rec/conf/icml/KimKV24
-- author: Royson Lee, Javier Fernández-Marqués, Shell Xu Hu, Da Li 0001, Stefanos
-    Laskaridis, Lukasz Dudziak, Timothy M. Hospedales, Ferenc Huszár, Nicholas Donald
-    Lane
+- author: "Royson Lee, Javier Fern\xE1ndez-Marqu\xE9s, Shell Xu Hu, Da Li 0001, Stefanos\
+    \ Laskaridis, Lukasz Dudziak, Timothy M. Hospedales, Ferenc Husz\xE1r, Nicholas\
+    \ Donald Lane"
   title: Recurrent Early Exits for Federated Learning with Heterogeneous Clients.
   venue: ICML
   year: '2024'
@@ -10118,7 +10122,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=sTVSyqD6XX
   url: https://dblp.org/rec/conf/icml/ReshefL24
-- author: Jonathan Scott, Áine Cahill
+- author: "Jonathan Scott, \xC1ine Cahill"
   title: Improved Modelling of Federated Datasets using Mixtures-of-Dirichlet-Multinomials.
   venue: ICML
   year: '2024'
@@ -10583,7 +10587,7 @@ federate%20venue%3AICML%3A:
   doi: ''
   ee: https://openreview.net/forum?id=ny0m8YEUzH
   url: https://dblp.org/rec/conf/icml/Liao0W00Y25
-- author: Alessandro Licciardi, Davide Leo, Eros Fanì, Barbara Caputo, Marco Ciccone
+- author: "Alessandro Licciardi, Davide Leo, Eros Fan\xEC, Barbara Caputo, Marco Ciccone"
   title: Interaction-Aware Gaussian Weighting for Clustered Federated Learning.
   venue: ICML
   year: '2025'
@@ -11162,7 +11166,8 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/pdf?id=-EHqoysUYLx
   url: https://dblp.org/rec/conf/iclr/HuLL23
-- author: Berivan Isik, Francesco Pase, Deniz Gündüz, Tsachy Weissman, Michele Zorzi
+- author: "Berivan Isik, Francesco Pase, Deniz G\xFCnd\xFCz, Tsachy Weissman, Michele\
+    \ Zorzi"
   title: Sparse Random Networks for Communication-Efficient Federated Learning.
   venue: ICLR
   year: '2023'
@@ -11549,8 +11554,8 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=HuaYQfggn5u
   url: https://dblp.org/rec/conf/iclr/OhKY22
-- author: Xinchi Qiu, Javier Fernández-Marqués, Pedro P. B. de Gusmao, Yan Gao, Titouan
-    Parcollet, Nicholas Donald Lane
+- author: "Xinchi Qiu, Javier Fern\xE1ndez-Marqu\xE9s, Pedro P. B. de Gusmao, Yan\
+    \ Gao, Titouan Parcollet, Nicholas Donald Lane"
   title: 'ZeroFL: Efficient On-Device Training for Federated Learning with Local Sparsity.'
   venue: ICLR
   year: '2022'
@@ -11560,7 +11565,7 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=2sDQwC_hmnM
   url: https://dblp.org/rec/conf/iclr/QiuFGGPL22
-- author: Zebang Shen, Juan Cerviño, Hamed Hassani, Alejandro Ribeiro
+- author: "Zebang Shen, Juan Cervi\xF1o, Hamed Hassani, Alejandro Ribeiro"
   title: An Agnostic Approach to Federated Learning with Class Imbalance.
   venue: ICLR
   year: '2022'
@@ -11580,8 +11585,8 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=541PxiEKN3F
   url: https://dblp.org/rec/conf/iclr/XuHHJ22
-- author: Chen Zhu, Zheng Xu 0002, Mingqing Chen, Jakub Konecný, Andrew Hard, Tom
-    Goldstein
+- author: "Chen Zhu, Zheng Xu 0002, Mingqing Chen, Jakub Konecn\xFD, Andrew Hard,\
+    \ Tom Goldstein"
   title: Diurnal or Nocturnal? Federated Learning of Multi-branch Networks from Periodically
     Shifting Distributions.
   venue: ICLR
@@ -11666,8 +11671,8 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=6YEQUn0QICG
   url: https://dblp.org/rec/conf/iclr/LiJZKD21
-- author: Sashank J. Reddi, Zachary Charles, Manzil Zaheer, Zachary Garrett, Keith
-    Rush, Jakub Konecný, Sanjiv Kumar, Hugh Brendan McMahan
+- author: "Sashank J. Reddi, Zachary Charles, Manzil Zaheer, Zachary Garrett, Keith\
+    \ Rush, Jakub Konecn\xFD, Sanjiv Kumar, Hugh Brendan McMahan"
   title: Adaptive Federated Optimization.
   venue: ICLR
   year: '2021'
@@ -11698,8 +11703,8 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=Ogga20D2HO-
   url: https://dblp.org/rec/conf/iclr/YoonSHY21
-- author: Michael Zhang, Karan Sapra, Sanja Fidler, Serena Yeung, José M. Álvarez
-    0004
+- author: "Michael Zhang, Karan Sapra, Sanja Fidler, Serena Yeung, Jos\xE9 M. \xC1\
+    lvarez 0004"
   title: Personalized Federated Learning with First Order Model Optimization.
   venue: ICLR
   year: '2021'
@@ -11941,7 +11946,8 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=6J3ehSUrMU
   url: https://dblp.org/rec/conf/iclr/JiangZK24
-- author: Junhyung Lyle Kim, Mohammad Taha Toghani, César A. Uribe, Anastasios Kyrillidis
+- author: "Junhyung Lyle Kim, Mohammad Taha Toghani, C\xE9sar A. Uribe, Anastasios\
+    \ Kyrillidis"
   title: Adaptive Federated Learning with Auto-Tuned Clients.
   venue: ICLR
   year: '2024'
@@ -12185,7 +12191,7 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=NY3wMJuaLf
   url: https://dblp.org/rec/conf/iclr/YeDNWC24
-- author: Kai Yi, Nidham Gazagnadou, Peter Richtárik, Lingjuan Lyu
+- author: "Kai Yi, Nidham Gazagnadou, Peter Richt\xE1rik, Lingjuan Lyu"
   title: 'FedP3: Federated Personalized and Privacy-friendly Network Pruning under
     Model Heterogeneity.'
   venue: ICLR
@@ -12271,8 +12277,8 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=sqRgz88TM3
   url: https://dblp.org/rec/conf/iclr/ZouGHT0Z24
-- author: Bo Li 0119, Xiaowen Jiang, Mikkel N. Schmidt, Tommy Sonne Alstrøm, Sebastian
-    U. Stich
+- author: "Bo Li 0119, Xiaowen Jiang, Mikkel N. Schmidt, Tommy Sonne Alstr\xF8m, Sebastian\
+    \ U. Stich"
   title: An improved analysis of per-sample and per-update clipping in federated learning.
   venue: ICLR
   year: '2024'
@@ -12304,7 +12310,7 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=cH65nS5sOz
   url: https://dblp.org/rec/conf/iclr/00020OLY0K0025
-- author: Javad Aliakbari, Johan Östman, Alexandre Graell i Amat
+- author: "Javad Aliakbari, Johan \xD6stman, Alexandre Graell i Amat"
   title: Decoupled Subgraph Federated Learning.
   venue: ICLR
   year: '2025'
@@ -12697,8 +12703,8 @@ federate%20venue%3AICLR%3A:
   doi: ''
   ee: https://openreview.net/forum?id=e0rQRMUhs7
   url: https://dblp.org/rec/conf/iclr/Yan0ZG0025
-- author: Yury Demidovich, Petr Ostroukhov, Grigory Malinovsky, Samuel Horváth, Martin
-    Takác 0001, Peter Richtárik, Eduard Gorbunov
+- author: "Yury Demidovich, Petr Ostroukhov, Grigory Malinovsky, Samuel Horv\xE1th,\
+    \ Martin Tak\xE1c 0001, Peter Richt\xE1rik, Eduard Gorbunov"
   title: Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex
     Federated Optimization.
   venue: ICLR
@@ -12805,7 +12811,7 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v180/vo22a.html
   url: https://dblp.org/rec/conf/uai/VoLHL22
-- author: Raouf Kerkouche, Gergely Ács, Claude Castelluccia, Pierre Genevès
+- author: "Raouf Kerkouche, Gergely \xC1cs, Claude Castelluccia, Pierre Genev\xE8s"
   title: Constrained differentially private federated learning for low-bandwidth devices.
   venue: UAI
   year: '2021'
@@ -12942,7 +12948,7 @@ federate%20venue%3AUAI%3A:
   ee: https://proceedings.mlr.press/v244/wang24c.html
   url: https://dblp.org/rec/conf/uai/WangLSWGW24
 - author: Zhiyong Ma, Yuanjie Shi, Yan Yan 0006, Jian Chen
-  title: Federated Rényi Fair Inference in Federated Heterogeneous System.
+  title: "Federated R\xE9nyi Fair Inference in Federated Heterogeneous System."
   venue: UAI
   year: '2025'
   type: Conference and Workshop Papers
@@ -12951,7 +12957,7 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v286/ma25a.html
   url: https://dblp.org/rec/conf/uai/MaSYC25
-- author: Ömer Faruk Akgül, Rajgopal Kannan, Viktor K. Prasanna
+- author: "\xD6mer Faruk Akg\xFCl, Rajgopal Kannan, Viktor K. Prasanna"
   title: Conformal Prediction for Federated Graph Neural Networks with Missing Neighbor
     Information.
   venue: UAI
@@ -12962,7 +12968,7 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v286/akgul25a.html
   url: https://dblp.org/rec/conf/uai/AkgulKP25
-- author: Francesco Diana, André Nusser, Chuan Xu 0002, Giovanni Neglia
+- author: "Francesco Diana, Andr\xE9 Nusser, Chuan Xu 0002, Giovanni Neglia"
   title: 'Cutting Through Privacy: A Hyperplane-Based Data Reconstruction Attack in
     Federated Learning.'
   venue: UAI
@@ -12984,7 +12990,7 @@ federate%20venue%3AUAI%3A:
   doi: ''
   ee: https://proceedings.mlr.press/v286/ibrahim25a.html
   url: https://dblp.org/rec/conf/uai/IbrahimRGX25
-- author: Avetik G. Karagulyan, Peter Richtárik
+- author: "Avetik G. Karagulyan, Peter Richt\xE1rik"
   title: 'ELF: Federated Langevin Algorithms with Primal, Dual and Bidirectional Compression.'
   venue: UAI
   year: '2025'
@@ -13060,8 +13066,8 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-023-06360-7
   ee: https://doi.org/10.1007/s10994-023-06360-7
   url: https://dblp.org/rec/journals/ml/BadarNF23
-- author: Fernando E. Casado, Dylan Lema, Roberto Iglesias, Carlos Vázquez Regueiro,
-    Senén Barro
+- author: "Fernando E. Casado, Dylan Lema, Roberto Iglesias, Carlos V\xE1zquez Regueiro,\
+    \ Sen\xE9n Barro"
   title: Ensemble and continual federated learning for classification tasks.
   venue: Mach. Learn.
   year: '2023'
@@ -13071,7 +13077,7 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-023-06330-Z
   ee: https://doi.org/10.1007/s10994-023-06330-z
   url: https://dblp.org/rec/journals/ml/CasadoLIRB23
-- author: César Sabater, Aurélien Bellet, Jan Ramon
+- author: "C\xE9sar Sabater, Aur\xE9lien Bellet, Jan Ramon"
   title: An accurate, scalable and verifiable protocol for federated differentially
     private averaging.
   venue: Mach. Learn.
@@ -13092,7 +13098,7 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-022-06241-5
   ee: https://doi.org/10.1007/s10994-022-06241-5
   url: https://dblp.org/rec/journals/ml/LiZL24
-- author: Krishna Pillutla, Yassine Laguel, Jérôme Malick, Zaïd Harchaoui
+- author: "Krishna Pillutla, Yassine Laguel, J\xE9r\xF4me Malick, Za\xEFd Harchaoui"
   title: Federated learning with superquantile aggregation for heterogeneous data.
   venue: Mach. Learn.
   year: '2024'
@@ -13125,7 +13131,7 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-024-06541-Y
   ee: https://doi.org/10.1007/s10994-024-06541-y
   url: https://dblp.org/rec/journals/ml/WangZLWGL24
-- author: Ayush K. Varshney, Vicenç Torra
+- author: "Ayush K. Varshney, Vicen\xE7 Torra"
   title: Efficient federated unlearning under plausible deniability.
   venue: Mach. Learn.
   year: '2025'
@@ -13225,7 +13231,7 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06888-W
   ee: https://doi.org/10.1007/s10994-025-06888-w
   url: https://dblp.org/rec/journals/ml/ChenZXDY25
-- author: Pablo Torrijos, José A. Gámez 0001, José M. Puerta
+- author: "Pablo Torrijos, Jos\xE9 A. G\xE1mez 0001, Jos\xE9 M. Puerta"
   title: 'FedGES: A Federated Learning Approach for Bayesian Network Structure Learning.'
   venue: Mach. Learn.
   year: '2026'
@@ -13301,8 +13307,9 @@ federate%20streamid%3Ajournals%2Fjmlr%3A:
   doi: ''
   ee: http://jmlr.org/papers/v24/22-0014.html
   url: https://dblp.org/rec/journals/jmlr/LewisVN23
-- author: Xinchi Qiu, Titouan Parcollet, Javier Fernández-Marqués, Pedro P. B. de
-    Gusmao, Yan Gao, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas D. Lane
+- author: "Xinchi Qiu, Titouan Parcollet, Javier Fern\xE1ndez-Marqu\xE9s, Pedro P.\
+    \ B. de Gusmao, Yan Gao, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas\
+    \ D. Lane"
   title: A First Look into the Carbon Footprint of Federated Learning.
   venue: J. Mach. Learn. Res.
   year: '2023'
@@ -13355,7 +13362,8 @@ federate%20streamid%3Ajournals%2Fjmlr%3A:
   doi: ''
   ee: http://jmlr.org/papers/v24/21-0224.html
   url: https://dblp.org/rec/journals/jmlr/ChenZLS23
-- author: José A. Carrillo 0001, Nicolás García Trillos, Sixu Li, Yuhua Zhu
+- author: "Jos\xE9 A. Carrillo 0001, Nicol\xE1s Garc\xEDa Trillos, Sixu Li, Yuhua\
+    \ Zhu"
   title: 'FedCBO: Reaching Group Consensus in Clustered Federated Learning through
     Consensus-based Optimization.'
   venue: J. Mach. Learn. Res.
@@ -14439,7 +14447,7 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3637528.3671990
   ee: https://doi.org/10.1145/3637528.3671990
   url: https://dblp.org/rec/conf/kdd/MaddockCM24
-- author: Mohammad Naseri, Javier Fernández-Marqués, Yan Gao, Heng Pan
+- author: "Mohammad Naseri, Javier Fern\xE1ndez-Marqu\xE9s, Yan Gao, Heng Pan"
   title: Privacy-Preserving Federated Learning using Flower Framework.
   venue: KDD
   year: '2024'
@@ -15181,9 +15189,9 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SP46215.2023.10179336
   ee: https://doi.org/10.1109/SP46215.2023.10179336
   url: https://dblp.org/rec/conf/sp/CaoJZG23
-- author: David Froelicher, Hyunghoon Cho, Manaswitha Edupalli, Joao Sa Sousa, Jean-Philippe
-    Bossuat, Apostolos Pyrgelis, Juan Ramón Troncoso-Pastoriza, Bonnie Berger, Jean-Pierre
-    Hubaux
+- author: "David Froelicher, Hyunghoon Cho, Manaswitha Edupalli, Joao Sa Sousa, Jean-Philippe\
+    \ Bossuat, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, Bonnie Berger,\
+    \ Jean-Pierre Hubaux"
   title: Scalable and Privacy-Preserving Federated Principal Component Analysis.
   venue: SP
   year: '2023'
@@ -15237,8 +15245,8 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SP46215.2023.10179401
   ee: https://doi.org/10.1109/SP46215.2023.10179401
   url: https://dblp.org/rec/conf/sp/LiYHLWFS23
-- author: Hidde Lycklama, Lukas Burkhalter, Alexander Viand, Nicolas Küchler, Anwar
-    Hithnawi
+- author: "Hidde Lycklama, Lukas Burkhalter, Alexander Viand, Nicolas K\xFCchler,\
+    \ Anwar Hithnawi"
   title: 'RoFL: Robustness of Secure Federated Learning.'
   venue: SP
   year: '2023'
@@ -15292,9 +15300,9 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SP46214.2022.9833647
   ee: https://doi.org/10.1109/SP46214.2022.9833647
   url: https://dblp.org/rec/conf/sp/ShejwalkarHKR22
-- author: Hossein Fereidooni, Samuel Marchal, Markus Miettinen, Azalia Mirhoseini,
-    Helen Möllering, Thien Duc Nguyen, Phillip Rieger, Ahmad-Reza Sadeghi, Thomas
-    Schneider 0003, Hossein Yalame, Shaza Zeitouni
+- author: "Hossein Fereidooni, Samuel Marchal, Markus Miettinen, Azalia Mirhoseini,\
+    \ Helen M\xF6llering, Thien Duc Nguyen, Phillip Rieger, Ahmad-Reza Sadeghi, Thomas\
+    \ Schneider 0003, Hossein Yalame, Shaza Zeitouni"
   title: 'SAFELearn: Secure Aggregation for private FEderated Learning.'
   venue: SP Workshops
   year: '2021'
@@ -15304,7 +15312,7 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SPW53761.2021.00017
   ee: https://doi.org/10.1109/SPW53761.2021.00017
   url: https://dblp.org/rec/conf/sp/FereidooniMMMMN21
-- author: Ulrich Matchi Aïvodji, Sébastien Gambs, Alexandre Martin
+- author: "Ulrich Matchi A\xEFvodji, S\xE9bastien Gambs, Alexandre Martin"
   title: 'IOTFLA : A Secured and Privacy-Preserving Smart Home Architecture Implementing
     Federated Learning.'
   venue: IEEE Symposium on Security and Privacy Workshops
@@ -15326,7 +15334,7 @@ federate%20streamid%3Aconf%2Fsp%3A:
   doi: 10.1109/SP.2019.00065
   ee: https://doi.org/10.1109/SP.2019.00065
   url: https://dblp.org/rec/conf/sp/NasrSH19
-- author: Rainer Hoerbe, Walter Hötzendorfer
+- author: "Rainer Hoerbe, Walter H\xF6tzendorfer"
   title: Privacy by Design in Federated Identity Management.
   venue: IEEE Symposium on Security and Privacy Workshops
   year: '2015'
@@ -15573,7 +15581,7 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3576915.3624402
   ee: https://doi.org/10.1145/3576915.3624402
   url: https://dblp.org/rec/conf/ccs/HsuSY23
-- author: Torsten Krauß, Alexandra Dmitrienko
+- author: "Torsten Krau\xDF, Alexandra Dmitrienko"
   title: 'MESAS: Poisoning Defense for Federated Learning Resilient against Adaptive
     Attackers.'
   venue: CCS
@@ -15595,7 +15603,7 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3576915.3623134
   ee: https://doi.org/10.1145/3576915.3623134
   url: https://dblp.org/rec/conf/ccs/LiLLX23
-- author: Johannes Lohmöller, Eduard Vlad, Markus Dahlmanns, Klaus Wehrle
+- author: "Johannes Lohm\xF6ller, Eduard Vlad, Markus Dahlmanns, Klaus Wehrle"
   title: 'Poster: Bridging Trust Gaps: Data Usage Transparency in Federated Data Ecosystems.'
   venue: CCS
   year: '2023'
@@ -15672,13 +15680,13 @@ federate%20venue%3ACCS%3A:
   doi: 10.1145/3658644.3691383
   ee: https://doi.org/10.1145/3658644.3691383
   url: https://dblp.org/rec/conf/ccs/OchiaiT24
-- author: Kunal Talwar, Shan Wang, Audra McMillan, Vitaly Feldman, Pansy Bansal, Bailey
-    Basile, Áine Cahill, Yi Sheng Chan, Mike Chatzidakis, Junye Chen, Oliver R. A.
-    Chick, Mona Chitnis, Suman Ganta, Yusuf Goren, Filip Granqvist, Kristine Guo,
-    Frederic Jacobs, Omid Javidbakht, Albert Liu, Richard Low, Dan Mascenik, Steve
-    Myers, David Park, Wonhee Park, Gianni Parsa, Tommy Pauly, Christian Priebe, Rehan
-    Rishi, Guy N. Rothblum, Congzheng Song, Linmao Song, Karl Tarbe, Sebastian Vogt,
-    Shundong Zhou, Vojta Jina, Michael Scaria, Luke Winstrom
+- author: "Kunal Talwar, Shan Wang, Audra McMillan, Vitaly Feldman, Pansy Bansal,\
+    \ Bailey Basile, \xC1ine Cahill, Yi Sheng Chan, Mike Chatzidakis, Junye Chen,\
+    \ Oliver R. A. Chick, Mona Chitnis, Suman Ganta, Yusuf Goren, Filip Granqvist,\
+    \ Kristine Guo, Frederic Jacobs, Omid Javidbakht, Albert Liu, Richard Low, Dan\
+    \ Mascenik, Steve Myers, David Park, Wonhee Park, Gianni Parsa, Tommy Pauly, Christian\
+    \ Priebe, Rehan Rishi, Guy N. Rothblum, Congzheng Song, Linmao Song, Karl Tarbe,\
+    \ Sebastian Vogt, Shundong Zhou, Vojta Jina, Michael Scaria, Luke Winstrom"
   title: Samplable Anonymous Aggregation for Private Federated Data Analysis.
   venue: CCS
   year: '2024'
@@ -15787,8 +15795,8 @@ federate%20streamid%3Aconf%2Fuss%3A:
   doi: ''
   ee: https://www.usenix.org/conference/usenixsecurity23/presentation/mozaffari
   url: https://dblp.org/rec/conf/uss/MozaffariSH23
-- author: Viktor Valadi, Xinchi Qiu, Pedro Porto Buarque de Gusmão, Nicholas D. Lane,
-    Mina Alibeigi
+- author: "Viktor Valadi, Xinchi Qiu, Pedro Porto Buarque de Gusm\xE3o, Nicholas D.\
+    \ Lane, Mina Alibeigi"
   title: 'FedVal: Different good or different bad in federated learning.'
   venue: USENIX Security Symposium
   year: '2023'
@@ -15830,9 +15838,9 @@ federate%20streamid%3Aconf%2Fuss%3A:
   doi: ''
   ee: https://www.usenix.org/conference/usenixsecurity22/presentation/fu-chong
   url: https://dblp.org/rec/conf/uss/Fu0JCWG0L022
-- author: Thien Duc Nguyen, Phillip Rieger, Huili Chen, Hossein Yalame, Helen Möllering,
-    Hossein Fereidooni, Samuel Marchal, Markus Miettinen, Azalia Mirhoseini, Shaza
-    Zeitouni, Farinaz Koushanfar, Ahmad-Reza Sadeghi, Thomas Schneider 0003
+- author: "Thien Duc Nguyen, Phillip Rieger, Huili Chen, Hossein Yalame, Helen M\xF6\
+    llering, Hossein Fereidooni, Samuel Marchal, Markus Miettinen, Azalia Mirhoseini,\
+    \ Shaza Zeitouni, Farinaz Koushanfar, Ahmad-Reza Sadeghi, Thomas Schneider 0003"
   title: 'FLAME: Taming Backdoors in Federated Learning.'
   venue: USENIX Security Symposium
   year: '2022'
@@ -16034,8 +16042,8 @@ federate%20streamid%3Aconf%2Fuss%3A:
   ee: https://www.usenix.org/conference/usenixsecurity25/presentation/pang-xiaoyi
   url: https://dblp.org/rec/conf/uss/PangZ0HWW00025
 federate%20venue%3ANDSS%3A:
-- author: Tianyue Chu, Álvaro García-Recuero, Costas Iordanou, Georgios Smaragdakis,
-    Nikolaos Laoutaris
+- author: "Tianyue Chu, \xC1lvaro Garc\xEDa-Recuero, Costas Iordanou, Georgios Smaragdakis,\
+    \ Nikolaos Laoutaris"
   title: Securing Federated Sensitive Topic Classification against Poisoning Attacks.
   venue: NDSS
   year: '2023'
@@ -16110,8 +16118,8 @@ federate%20venue%3ANDSS%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/fltrust-byzantine-robust-federated-learning-via-trust-bootstrapping/
   url: https://dblp.org/rec/conf/ndss/CaoF0G21
-- author: Sinem Sav, Apostolos Pyrgelis, Juan Ramón Troncoso-Pastoriza, David Froelicher,
-    Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux
+- author: "Sinem Sav, Apostolos Pyrgelis, Juan Ram\xF3n Troncoso-Pastoriza, David\
+    \ Froelicher, Jean-Philippe Bossuat, Joao Sa Sousa, Jean-Pierre Hubaux"
   title: 'POSEIDON: Privacy-Preserving Federated Neural Network Learning.'
   venue: NDSS
   year: '2021'
@@ -16143,8 +16151,8 @@ federate%20venue%3ANDSS%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/
   url: https://dblp.org/rec/conf/ndss/ZhangWY20
-- author: Phillip Rieger, Torsten Krauß, Markus Miettinen, Alexandra Dmitrienko, Ahmad-Reza
-    Sadeghi
+- author: "Phillip Rieger, Torsten Krau\xDF, Markus Miettinen, Alexandra Dmitrienko,\
+    \ Ahmad-Reza Sadeghi"
   title: 'CrowdGuard: Federated Backdoor Detection in Federated Learning.'
   venue: NDSS
   year: '2024'
@@ -16176,7 +16184,7 @@ federate%20venue%3ANDSS%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/freqfed-a-frequency-analysis-based-approach-for-mitigating-poisoning-attacks-in-federated-learning/
   url: https://dblp.org/rec/conf/ndss/FereidooniPRDS24
-- author: Torsten Krauß, Jan König, Alexandra Dmitrienko, Christian Kanzow
+- author: "Torsten Krau\xDF, Jan K\xF6nig, Alexandra Dmitrienko, Christian Kanzow"
   title: Automatic Adversarial Adaption for Stealthy Poisoning Attacks in Federated
     Learning.
   venue: NDSS
@@ -16295,8 +16303,8 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52688.2022.00985
   ee: https://doi.org/10.1109/CVPR52688.2022.00985
   url: https://dblp.org/rec/conf/cvpr/MaZ0022
-- author: Matías Mendieta, Taojiannan Yang, Pu Wang 0001, Minwoo Lee 0001, Zhengming
-    Ding, Chen Chen 0001
+- author: "Mat\xEDas Mendieta, Taojiannan Yang, Pu Wang 0001, Minwoo Lee 0001, Zhengming\
+    \ Ding, Chen Chen 0001"
   title: 'Local Learning Matters: Rethinking Data Heterogeneity in Federated Learning.'
   venue: CVPR
   year: '2022'
@@ -16459,7 +16467,7 @@ federate%20venue%3ACVPR%3A:
   doi: 10.1109/CVPR52729.2023.00384
   ee: https://doi.org/10.1109/CVPR52729.2023.00384
   url: https://dblp.org/rec/conf/cvpr/KimBSY23
-- author: Bo Li, Mikkel N. Schmidt, Tommy S. Alstrøm, Sebastian U. Stich
+- author: "Bo Li, Mikkel N. Schmidt, Tommy S. Alstr\xF8m, Sebastian U. Stich"
   title: On the Effectiveness of Partial Variance Reduction in Federated Learning
     with Heterogeneous Data.
   venue: CVPR
@@ -17539,7 +17547,7 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00595
   ee: https://doi.org/10.1109/ICCV51070.2023.00595
   url: https://dblp.org/rec/conf/iccv/KimKJSKK23
-- author: Jun Luo, Matías Mendieta, Chen Chen 0001, Shandong Wu
+- author: "Jun Luo, Mat\xEDas Mendieta, Chen Chen 0001, Shandong Wu"
   title: 'PGFed: Personalize Each Client&apos;s Global Objective for Federated Learning.'
   venue: ICCV
   year: '2023'
@@ -17549,8 +17557,8 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.00365
   ee: https://doi.org/10.1109/ICCV51070.2023.00365
   url: https://dblp.org/rec/conf/iccv/LuoM0W23
-- author: Yasar Abbas Ur Rehman, Yan Gao, Pedro Porto Buarque de Gusmão, Mina Alibeigi,
-    Jiajun Shen, Nicholas D. Lane
+- author: "Yasar Abbas Ur Rehman, Yan Gao, Pedro Porto Buarque de Gusm\xE3o, Mina\
+    \ Alibeigi, Jiajun Shen, Nicholas D. Lane"
   title: 'L-DAWA: Layer-wise Divergence Aware Weight Aggregation in Federated Self-Supervised
     Visual Representation Learning.'
   venue: ICCV
@@ -17561,7 +17569,7 @@ federate%20venue%3AICCV%3A:
   doi: 10.1109/ICCV51070.2023.01509
   ee: https://doi.org/10.1109/ICCV51070.2023.01509
   url: https://dblp.org/rec/conf/iccv/RehmanGGASL23
-- author: Guangyu Sun, Matías Mendieta, Jun Luo 0010, Shandong Wu, Chen Chen 0001
+- author: "Guangyu Sun, Mat\xEDas Mendieta, Jun Luo 0010, Shandong Wu, Chen Chen 0001"
   title: 'FedPerfix: Towards Partial Model Personalization of Vision Transformers
     in Federated Learning.'
   venue: ICCV
@@ -17802,8 +17810,8 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-031-19775-8_5
   ee: https://doi.org/10.1007/978-3-031-19775-8_5
   url: https://dblp.org/rec/conf/eccv/MugunthanLGLKP22
-- author: Yasar Abbas Ur Rehman, Yan Gao, Jiajun Shen, Pedro Porto Buarque de Gusmão,
-    Nicholas D. Lane
+- author: "Yasar Abbas Ur Rehman, Yan Gao, Jiajun Shen, Pedro Porto Buarque de Gusm\xE3\
+    o, Nicholas D. Lane"
   title: Federated Self-supervised Learning for Video Understanding.
   venue: ECCV
   year: '2022'
@@ -18902,8 +18910,8 @@ federate%20venue%3AACL%3A:
   ee: https://aclanthology.org/2025.findings-acl.733/
   url: https://dblp.org/rec/conf/acl/ZhaoXLWZ25
 federate%20venue%3AEMNLP%3A:
-- author: Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Schütze, Pankaj
-    Gupta 0003
+- author: "Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Sch\xFCtze, Pankaj\
+    \ Gupta 0003"
   title: Federated Continual Learning for Text Classification via Selective Inter-client
     Transfer.
   venue: EMNLP
@@ -19146,8 +19154,8 @@ federate%20venue%3AEMNLP%3A:
   doi: ''
   ee: https://aclanthology.org/2024.emnlp-main.303
   url: https://dblp.org/rec/conf/emnlp/ZhengZWQZZ24
-- author: Viktor Moskvoretskii, Nazarii Tupitsa, Chris Biemann, Samuel Horváth, Eduard
-    Gorbunov, Irina Nikishina
+- author: "Viktor Moskvoretskii, Nazarii Tupitsa, Chris Biemann, Samuel Horv\xE1th,\
+    \ Eduard Gorbunov, Irina Nikishina"
   title: Low-Resource Machine Translation through the Lens of Personalized Federated
     Learning.
   venue: EMNLP
@@ -19447,8 +19455,8 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3477495.3531709
   ee: https://doi.org/10.1145/3477495.3531709
   url: https://dblp.org/rec/conf/sigir/WangZ22
-- author: Shuchang Liu 0001, Shuyuan Xu, Wenhui Yu, Zuohui Fu, Yongfeng Zhang, Amélie
-    Marian
+- author: "Shuchang Liu 0001, Shuyuan Xu, Wenhui Yu, Zuohui Fu, Yongfeng Zhang, Am\xE9\
+    lie Marian"
   title: 'FedCT: Federated Collaborative Transfer for Recommendation.'
   venue: SIGIR
   year: '2021'
@@ -19774,10 +19782,10 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/3514221.3526127
   ee: https://doi.org/10.1145/3514221.3526127
   url: https://dblp.org/rec/conf/sigmod/FuXCT022
-- author: Sebastian Baunsgaard, Matthias Boehm 0001, Ankit Chaudhary, Behrouz Derakhshan,
-    Stefan Geißelsöder, Philipp M. Grulich, Michael Hildebrand, Kevin Innerebner,
-    Volker Markl, Claus Neubauer, Sarah Osterburg, Olga Ovcharenko, Sergey Redyuk,
-    Tobias Rieger, Alireza Rezaei Mahdiraji, Sebastian Benjamin Wrede, Steffen Zeuch
+- author: "Sebastian Baunsgaard, Matthias Boehm 0001, Ankit Chaudhary, Behrouz Derakhshan,\
+    \ Stefan Gei\xDFels\xF6der, Philipp M. Grulich, Michael Hildebrand, Kevin Innerebner,\
+    \ Volker Markl, Claus Neubauer, Sarah Osterburg, Olga Ovcharenko, Sergey Redyuk,\
+    \ Tobias Rieger, Alireza Rezaei Mahdiraji, Sebastian Benjamin Wrede, Steffen Zeuch"
   title: 'ExDRa: Exploratory Data Science on Federated Raw Data.'
   venue: SIGMOD Conference
   year: '2021'
@@ -19863,8 +19871,8 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/564691.564751
   ee: https://doi.org/10.1145/564691.564751
   url: https://dblp.org/rec/conf/sigmod/JosifovskiSHL02
-- author: Elke Radeke, Ralf Böttger, Bernd Burkert, Yaron Engel, Gerd Kachel, Silvia
-    Kolmschlag, Dietmar Nolte
+- author: "Elke Radeke, Ralf B\xF6ttger, Bernd Burkert, Yaron Engel, Gerd Kachel,\
+    \ Silvia Kolmschlag, Dietmar Nolte"
   title: 'Efendi: Federated Database System of Cadlab.'
   venue: SIGMOD Conference
   year: '1995'
@@ -19915,8 +19923,8 @@ federate%20streamid%3Aconf%2Fsigmod%3A:
   doi: 10.1145/3639266
   ee: https://doi.org/10.1145/3639266
   url: https://dblp.org/rec/journals/pacmmod/ZhangWXPX24
-- author: Herbert Woisetschläger, Alexander Erben, Shiqiang Wang, Ruben Mayer, Hans-Arno
-    Jacobsen
+- author: "Herbert Woisetschl\xE4ger, Alexander Erben, Shiqiang Wang, Ruben Mayer,\
+    \ Hans-Arno Jacobsen"
   title: 'Federated Fine-Tuning of LLMs on the Very Edge: The Good, the Bad, the Ugly.'
   venue: DEEM@SIGMOD
   year: '2024'
@@ -20148,8 +20156,8 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE53745.2022.00286
   ee: https://doi.org/10.1109/ICDE53745.2022.00286
   url: https://dblp.org/rec/conf/icde/MarcadetCLSA22
-- author: Sergi Nadal, Alberto Abelló, Oscar Romero 0001, Stijn Vansummeren, Panos
-    Vassiliadis
+- author: "Sergi Nadal, Alberto Abell\xF3, Oscar Romero 0001, Stijn Vansummeren, Panos\
+    \ Vassiliadis"
   title: Graph-Driven Federated Data Management (Extended Abstract).
   venue: ICDE
   year: '2022'
@@ -20278,7 +20286,7 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE.1995.380385
   ee: https://doi.org/10.1109/ICDE.1995.380385
   url: https://dblp.org/rec/conf/icde/ZhaoSC95
-- author: Andrew Deacon, Hans-Jörg Schek, Gerhard Weikum
+- author: "Andrew Deacon, Hans-J\xF6rg Schek, Gerhard Weikum"
   title: Semantics-Based Multilevel Transaction Management in Federated Systems.
   venue: ICDE
   year: '1994'
@@ -20299,7 +20307,7 @@ federate%20venue%3AICDE%3A:
   doi: 10.1109/ICDE.1993.344033
   ee: https://doi.org/10.1109/ICDE.1993.344033
   url: https://dblp.org/rec/conf/icde/FangGMS93
-- author: Rafael Alonso, Daniel Barbará
+- author: "Rafael Alonso, Daniel Barbar\xE1"
   title: Negotiating Data Access in Federated Database Systems.
   venue: ICDE
   year: '1989'
@@ -20970,7 +20978,7 @@ federate%20streamid%3Ajournals%2Fpvldb%3A:
   ee: https://www.vldb.org/pvldb/vol18/p3559-zhou.pdf
   url: https://dblp.org/rec/journals/pvldb/ZhouYFFQZZCJ25
 federate%20venue%3ASIGCOMM%3A:
-- author: Tobias Markmann, Thomas C. Schmidt, Matthias Wählisch
+- author: "Tobias Markmann, Thomas C. Schmidt, Matthias W\xE4hlisch"
   title: Federated End-to-End Authentication for the Constrained Internet of Things
     Using IBC and ECC.
   venue: SIGCOMM
@@ -21004,8 +21012,8 @@ federate%20venue%3ASIGCOMM%3A:
   doi: 10.1145/3651890.3672263
   ee: https://doi.org/10.1145/3651890.3672263
   url: https://dblp.org/rec/conf/sigcomm/0011SDJSH24
-- author: Johann J. S. Bastos, João Batista, Ramon R. Fontes, Eduardo Cerqueira, Rodolfo
-    Villaça, Vinícius F. S. Mota
+- author: "Johann J. S. Bastos, Jo\xE3o Batista, Ramon R. Fontes, Eduardo Cerqueira,\
+    \ Rodolfo Villa\xE7a, Vin\xEDcius F. S. Mota"
   title: A Lightweight Emulation Framework for Energy-Aware Federated Learning.
   venue: SIGCOMM
   year: '2025'
@@ -21015,8 +21023,8 @@ federate%20venue%3ASIGCOMM%3A:
   doi: 10.1145/3744969.3748395
   ee: https://doi.org/10.1145/3744969.3748395
   url: https://dblp.org/rec/conf/sigcomm/BastosBFCVM25
-- author: Enrique Tomás Martínez Beltrán, Gérôme Bovet, Gregorio Martínez Pérez, Alberto
-    Huertas Celdrán
+- author: "Enrique Tom\xE1s Mart\xEDnez Beltr\xE1n, G\xE9r\xF4me Bovet, Gregorio Mart\xED\
+    nez P\xE9rez, Alberto Huertas Celdr\xE1n"
   title: NEBULA - Decentralized Federated Learning for Heterogeneous Networks.
   venue: SIGCOMM
   year: '2025'
@@ -22286,8 +22294,8 @@ federate%20venue%3AINFOCOM%3A:
   url: https://dblp.org/rec/conf/infocom/LiuJZ25
 - author: Rongwei Lu, Yutong Jiang, Jinrui Zhang, Chunyang Li, Yifei Zhu 0001, Bin
     Chen, Zhi Wang
-  title: 'γ-FedHT: Stepsize-Aware Hard-Threshold Gradient Compression in Federated
-    Learning.'
+  title: "\u03B3-FedHT: Stepsize-Aware Hard-Threshold Gradient Compression in Federated\
+    \ Learning."
   venue: INFOCOM
   year: '2025'
   type: Conference and Workshop Papers
@@ -22341,7 +22349,7 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM55648.2025.11044743
   ee: https://doi.org/10.1109/INFOCOM55648.2025.11044743
   url: https://dblp.org/rec/conf/infocom/WangZ00LYQ25
-- author: Qifan Yan, Andrew Liu, Shiqi He, Mathias Lécuyer, Ivan Beschastnikh
+- author: "Qifan Yan, Andrew Liu, Shiqi He, Mathias L\xE9cuyer, Ivan Beschastnikh"
   title: 'FedFetch: Faster Federated Learning with Adaptive Downstream Prefetching.'
   venue: INFOCOM
   year: '2025'
@@ -22441,7 +22449,7 @@ federate%20venue%3AMobiCom%3A:
   doi: 10.1145/3447993.3483278
   ee: https://doi.org/10.1145/3447993.3483278
   url: https://dblp.org/rec/conf/mobicom/0005SLPLC21
-- author: Stefanos Laskaridis, Dimitris Spathis, Mário Almeida
+- author: "Stefanos Laskaridis, Dimitris Spathis, M\xE1rio Almeida"
   title: Federated mobile sensing for activity recognition.
   venue: MobiCom
   year: '2021'
@@ -22789,8 +22797,8 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3543873.3587366
   ee: https://doi.org/10.1145/3543873.3587366
   url: https://dblp.org/rec/conf/www/LeonidouKSS23a
-- author: Gianluca Mittone, Filip Svoboda, Marco Aldinucci, Nicholas D. Lane, Pietro
-    Lió
+- author: "Gianluca Mittone, Filip Svoboda, Marco Aldinucci, Nicholas D. Lane, Pietro\
+    \ Li\xF3"
   title: A Federated Learning Benchmark for Drug-Target Interaction.
   venue: WWW
   year: '2023'
@@ -23064,7 +23072,7 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3184558.3186199
   ee: https://doi.org/10.1145/3184558.3186199
   url: https://dblp.org/rec/conf/www/SerranoGTN18
-- author: Diego Collarana, Christoph Lange 0002, Sören Auer
+- author: "Diego Collarana, Christoph Lange 0002, S\xF6ren Auer"
   title: 'FuhSen: A Platform for Federated, RDF-based Hybrid Search.'
   venue: WWW
   year: '2016'
@@ -23117,7 +23125,7 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/1963405.1963419
   ee: https://doi.org/10.1145/1963405.1963419
   url: https://dblp.org/rec/conf/www/PonnuswamiPBK11
-- author: Johannes Meinecke, Martin Gaedke, Frederic Majer, Alexander Brändle
+- author: "Johannes Meinecke, Martin Gaedke, Frederic Majer, Alexander Br\xE4ndle"
   title: Capturing the essentials of federated systems.
   venue: WWW
   year: '2006'
@@ -23169,8 +23177,8 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3589334.3645513
   ee: https://doi.org/10.1145/3589334.3645513
   url: https://dblp.org/rec/conf/www/00320HY0024
-- author: Julien Aimonier-Davat, Minh Hoang Dang, Pascal Molli, Brice Nédelec, Hala
-    Skaf-Molli
+- author: "Julien Aimonier-Davat, Minh Hoang Dang, Pascal Molli, Brice N\xE9delec,\
+    \ Hala Skaf-Molli"
   title: 'Fediscount: Shopping Online at a Federated Store Using FedUP as SPARQL Federation
     Engine.'
   venue: WWW
@@ -23719,7 +23727,7 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3701716.3717645
   ee: https://doi.org/10.1145/3701716.3717645
   url: https://dblp.org/rec/conf/www/ShadinZ25
-- author: Zixing Song, Irwin King, José Miguel Hernández-Lobato
+- author: "Zixing Song, Irwin King, Jos\xE9 Miguel Hern\xE1ndez-Lobato"
   title: 'FedEDM: Federated Equivariant Diffusion Model for 3D Molecule Generation
     with Enhanced Communication Efficiency.'
   venue: WWW
@@ -24328,9 +24336,9 @@ federate%20venue%3AMLSys%3A:
   doi: ''
   ee: https://proceedings.mlsys.org/book/316.pdf
   url: https://dblp.org/rec/conf/mlsys/LiSZSTS20
-- author: Kallista A. Bonawitz, Hubert Eichner, Wolfgang Grieskamp, Dzmitry Huba,
-    Alex Ingerman, Vladimir Ivanov, Chloé Kiddon, Jakub Konecný, Stefano Mazzocchi,
-    Brendan McMahan, Timon Van Overveldt, David Petrou, Daniel Ramage, Jason Roselander
+- author: "Kallista A. Bonawitz, Hubert Eichner, Wolfgang Grieskamp, Dzmitry Huba,\
+    \ Alex Ingerman, Vladimir Ivanov, Chlo\xE9 Kiddon, Jakub Konecn\xFD, Stefano Mazzocchi,\
+    \ Brendan McMahan, Timon Van Overveldt, David Petrou, Daniel Ramage, Jason Roselander"
   title: 'Towards Federated Learning at Scale: System Design.'
   venue: MLSys
   year: '2019'
@@ -24340,7 +24348,7 @@ federate%20venue%3AMLSys%3A:
   doi: ''
   ee: https://proceedings.mlsys.org/book/271.pdf
   url: https://dblp.org/rec/conf/mlsys/BonawitzEGHIIKK19
-- author: Shiqi He, Qifan Yan, Feijie Wu, Lanjun Wang, Mathias Lécuyer, Ivan Beschastnikh
+- author: "Shiqi He, Qifan Yan, Feijie Wu, Lanjun Wang, Mathias L\xE9cuyer, Ivan Beschastnikh"
   title: 'GlueFL: Reconciling Client Sampling and Model Masking for Bandwidth Efficient
     Federated Learning.'
   venue: MLSys
@@ -24482,7 +24490,7 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3578356.3592575
   ee: https://doi.org/10.1145/3578356.3592575
   url: https://dblp.org/rec/conf/eurosys/CaiWYWLX23
-- author: Alex Iacob, Pedro Porto Buarque de Gusmão, Nicholas D. Lane
+- author: "Alex Iacob, Pedro Porto Buarque de Gusm\xE3o, Nicholas D. Lane"
   title: Can Fair Federated Learning Reduce the need for Personalisation?
   venue: EuroMLSys@EuroSys
   year: '2023'
@@ -24839,7 +24847,7 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2023.3264473
   ee: https://doi.org/10.1109/TPDS.2023.3264473
   url: https://dblp.org/rec/journals/tpds/MohanMGR23
-- author: Laércio Lima Pilla
+- author: "La\xE9rcio Lima Pilla"
   title: Scheduling Algorithms for Federated Learning With Minimal Energy Consumption.
   venue: IEEE Trans. Parallel Distributed Syst.
   year: '2023'
@@ -25985,7 +25993,7 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
   doi: 10.1109/TCAD.2024.3496836
   ee: https://doi.org/10.1109/TCAD.2024.3496836
   url: https://dblp.org/rec/journals/tcad/ChenGLRZLZZWZLCHWNX25
-- author: Kilian Pfeiffer, Konstantinos Balaskas, Kostas Siozios, Jörg Henkel
+- author: "Kilian Pfeiffer, Konstantinos Balaskas, Kostas Siozios, J\xF6rg Henkel"
   title: Energy-Aware Heterogeneous Federated Learning via Approximate DNN Accelerators.
   venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
   year: '2025'
@@ -26087,8 +26095,8 @@ federate%20streamid%3Ajournals%2Ftc%3A:
   doi: 10.1109/TC.2022.3180968
   ee: https://doi.org/10.1109/TC.2022.3180968
   url: https://dblp.org/rec/journals/tc/GuoZGCRQQ23
-- author: Ching-Chi Lin, Junjie Shi, Niklas Ueter, Mario Günzel, Jan Reineke 0001,
-    Jian-Jia Chen
+- author: "Ching-Chi Lin, Junjie Shi, Niklas Ueter, Mario G\xFCnzel, Jan Reineke 0001,\
+    \ Jian-Jia Chen"
   title: Type-Aware Federated Scheduling for Typed DAG Tasks on Heterogeneous Multicore
     Platforms.
   venue: IEEE Trans. Computers
@@ -26586,7 +26594,8 @@ federate%20streamid%3Aconf%2Ficse%3A:
   doi: 10.1109/ICSE.2012.6227252
   ee: https://doi.org/10.1109/ICSE.2012.6227252
   url: https://dblp.org/rec/conf/icse/Chapman12
-- author: Attila Kertész, Gabor Kecskemeti, Zsolt Németh, Marc Oriol, Xavier Franch
+- author: "Attila Kert\xE9sz, Gabor Kecskemeti, Zsolt N\xE9meth, Marc Oriol, Xavier\
+    \ Franch"
   title: A holistic service provisioning solution for Federated Cloud infrastructures.
   venue: S-Cube@ICSE
   year: '2012'

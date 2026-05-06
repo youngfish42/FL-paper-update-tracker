@@ -131,3 +131,4 @@ dmypy.json
 
 # Cache backups
 cached/*.bak
+cached/abstract_progress.yaml

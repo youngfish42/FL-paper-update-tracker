@@ -9,7 +9,6 @@ import requests
 import json
 import time
 import random
-import datetime
 import re
 
 
@@ -247,10 +246,11 @@ def clean_abstract(text: str) -> str:
     return text.strip()
 
 
-def _fetch_crossref_abstract(doi: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
+def _fetch_crossref_abstract(doi: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3, contact_email: str = ""):
     """通过 Crossref 获取 abstract，返回 (abstract_or_None, last_request_time)。"""
     url = f"https://api.crossref.org/works/{doi}"
-    headers = {"User-Agent": "FL-paper-update-tracker/1.0 (mailto:im.young@foxmail.com)"}
+    agent = f"FL-paper-update-tracker/1.0 (mailto:{contact_email})" if contact_email else "FL-paper-update-tracker/1.0"
+    headers = {"User-Agent": agent}
     for attempt in range(1, max_retries + 1):
         try:
             resp, last_request_time = _rate_limited_request(
@@ -316,13 +316,14 @@ def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_int
     return None, last_request_time
 
 
-def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3):
+def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email=""):
     """为论文列表批量获取 abstract。
 
     Args:
         papers: 论文 dict 列表，每个 dict 应包含 doi、title 等字段。
         sleep_sec: 两次请求之间的最小间隔（秒），默认 1.0（即每秒最多 1 次）。
         max_retries: 每个 API 的最大重试次数。
+        contact_email: 用于 Crossref User-Agent 的联系邮箱（可选）。
 
     Returns:
         传入的 papers 列表（原地修改，为每个 dict 添加/更新 abstract 字段）。
@@ -347,7 +348,8 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3):
         if doi:
             # 优先 Crossref
             abstract, last_request_time = _fetch_crossref_abstract(
-                doi, last_request_time, min_interval=sleep_sec, max_retries=max_retries
+                doi, last_request_time, min_interval=sleep_sec, max_retries=max_retries,
+                contact_email=contact_email
             )
             # Crossref 失败则尝试 Semantic Scholar
             if not abstract:

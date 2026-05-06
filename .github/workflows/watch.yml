@@ -44,7 +44,7 @@ jobs:
 
       - name: Fetch missing abstracts
         run: |
-          python scripts/fetch_abstracts.py --year all
+          python scripts/fetch_abstracts.py
         continue-on-error: true
 
       - name: Update FL-Papers.md

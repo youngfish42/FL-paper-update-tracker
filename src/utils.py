@@ -10,6 +10,7 @@ import json
 import time
 import random
 import re
+import difflib
 
 
 def init_log():
@@ -246,8 +247,28 @@ def clean_abstract(text: str) -> str:
     return text.strip()
 
 
+def is_title_match(api_title: str, paper_title: str, threshold: float = 0.70) -> bool:
+    """基于标题模糊匹配的二次验证。
+
+    先进行包含检测（去除标点后一个标题是否包含另一个），
+    若不通过则回退到 difflib 相似度比对。
+    """
+    if not api_title or not paper_title:
+        return False
+    # 规范化：小写并去除所有非字母数字字符
+    norm = lambda t: re.sub(r"[^a-z0-9]", "", t.strip().lower())
+    n_api = norm(api_title)
+    n_paper = norm(paper_title)
+    # 包含检测：允许大小写、标点、副标题差异
+    if n_api in n_paper or n_paper in n_api:
+        return True
+    # 回退到相似度阈值
+    ratio = difflib.SequenceMatcher(None, n_api, n_paper).ratio()
+    return ratio >= threshold
+
+
 def _fetch_crossref_abstract(doi: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3, contact_email: str = ""):
-    """通过 Crossref 获取 abstract，返回 (abstract_or_None, last_request_time)。"""
+    """通过 Crossref 获取 abstract，返回 (abstract_or_None, api_title_or_None, last_request_time)。"""
     url = f"https://api.crossref.org/works/{doi}"
     agent = f"FL-paper-update-tracker/1.0 (mailto:{contact_email})" if contact_email else "FL-paper-update-tracker/1.0"
     headers = {"User-Agent": agent}
@@ -257,7 +278,7 @@ def _fetch_crossref_abstract(doi: str, last_request_time: float, min_interval: f
                 url, last_request_time, min_interval=min_interval, timeout=10, headers=headers
             )
             if resp.status_code in (404, 403):
-                return None, last_request_time
+                return None, None, last_request_time
             if resp.status_code == 429:
                 wait = 2 ** attempt
                 logger.warning(f"Rate limited (Crossref), waiting {wait}s...")
@@ -266,12 +287,20 @@ def _fetch_crossref_abstract(doi: str, last_request_time: float, min_interval: f
             resp.raise_for_status()
             data = resp.json()
             item = data.get("message", {})
+            # 提取返回的标题（Crossref 的 title 通常为列表）
+            raw_title = item.get("title")
+            if isinstance(raw_title, list) and raw_title:
+                api_title = str(raw_title[0]).strip() or None
+            elif raw_title:
+                api_title = str(raw_title).strip() or None
+            else:
+                api_title = None
             abstract = item.get("abstract")
             if abstract and isinstance(abstract, str):
                 cleaned = clean_abstract(abstract)
                 if cleaned:
-                    return cleaned, last_request_time
-            return None, last_request_time
+                    return cleaned, api_title, last_request_time
+            return None, api_title, last_request_time
         except requests.exceptions.Timeout:
             logger.warning(f"Crossref timeout for {doi}, attempt {attempt}")
             if attempt < max_retries:
@@ -280,11 +309,11 @@ def _fetch_crossref_abstract(doi: str, last_request_time: float, min_interval: f
             logger.warning(f"Crossref attempt {attempt} failed for {doi}: {e}")
             if attempt < max_retries:
                 time.sleep(2 ** attempt)
-    return None, last_request_time
+    return None, None, last_request_time
 
 
 def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
-    """通过 Semantic Scholar 获取 abstract，返回 (abstract_or_None, last_request_time)。"""
+    """通过 Semantic Scholar 获取 abstract，返回 (abstract_or_None, api_title_or_None, last_request_time)。"""
     url = f"https://api.semanticscholar.org/graph/v1/paper/DOI:{doi}"
     params = {"fields": "abstract,title"}
     for attempt in range(1, max_retries + 1):
@@ -293,7 +322,7 @@ def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_int
                 url, last_request_time, min_interval=min_interval, timeout=10, params=params
             )
             if resp.status_code in (404, 403):
-                return None, last_request_time
+                return None, None, last_request_time
             if resp.status_code == 429:
                 wait = 2 ** attempt
                 logger.warning(f"Rate limited (SS), waiting {wait}s...")
@@ -301,10 +330,13 @@ def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_int
                 continue
             resp.raise_for_status()
             data = resp.json()
+            api_title = data.get("title")
+            if api_title:
+                api_title = str(api_title).strip() or None
             abstract = data.get("abstract")
             if abstract and abstract.strip():
-                return clean_abstract(abstract), last_request_time
-            return None, last_request_time
+                return clean_abstract(abstract), api_title, last_request_time
+            return None, api_title, last_request_time
         except requests.exceptions.Timeout:
             logger.warning(f"SS timeout for {doi}, attempt {attempt}")
             if attempt < max_retries:
@@ -313,7 +345,7 @@ def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_int
             logger.warning(f"SS attempt {attempt} failed for {doi}: {e}")
             if attempt < max_retries:
                 time.sleep(2 ** attempt)
-    return None, last_request_time
+    return None, None, last_request_time
 
 
 def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email=""):
@@ -347,15 +379,27 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
 
         if doi:
             # 优先 Crossref
-            abstract, last_request_time = _fetch_crossref_abstract(
+            abstract, api_title, last_request_time = _fetch_crossref_abstract(
                 doi, last_request_time, min_interval=sleep_sec, max_retries=max_retries,
                 contact_email=contact_email
             )
+            if abstract and api_title and not is_title_match(api_title, title):
+                logger.warning(
+                    f"  -> Crossref title mismatch for DOI {doi}: "
+                    f"expected '{title[:80]}...', got '{api_title[:80]}...'"
+                )
+                abstract = None
             # Crossref 失败则尝试 Semantic Scholar
             if not abstract:
-                abstract, last_request_time = _fetch_semantic_scholar_abstract(
+                abstract, api_title, last_request_time = _fetch_semantic_scholar_abstract(
                     doi, last_request_time, min_interval=sleep_sec, max_retries=max_retries
                 )
+                if abstract and api_title and not is_title_match(api_title, title):
+                    logger.warning(
+                        f"  -> Semantic Scholar title mismatch for DOI {doi}: "
+                        f"expected '{title[:80]}...', got '{api_title[:80]}...'"
+                    )
+                    abstract = None
 
         if abstract:
             paper["abstract"] = abstract

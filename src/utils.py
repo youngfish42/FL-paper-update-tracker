@@ -9,6 +9,8 @@ import requests
 import json
 import time
 import random
+import datetime
+import re
 
 
 def init_log():
@@ -137,6 +139,7 @@ def get_dblp_items(dblp_data):
             "doi",
             "ee",
             "url",
+            "abstract",
         ]
         for key in needed_keys:
             key_temp = get_item_info(item["info"], key)
@@ -212,3 +215,154 @@ def request_data(url, retry=10, sleep_time=5):
         return None
     else:
         return data
+
+def _rate_limited_request(url, last_request_time, min_interval=1.0, timeout=10, **kwargs):
+    """发送限速 HTTP 请求，确保两次请求间隔至少 min_interval 秒。
+    返回 (response, new_last_request_time)。"""
+    now = time.time()
+    elapsed = now - last_request_time
+    if elapsed < min_interval:
+        time.sleep(min_interval - elapsed)
+    resp = requests.get(url, timeout=timeout, **kwargs)
+    return resp, time.time()
+
+
+def clean_abstract(text: str) -> str:
+    """清洗 abstract 文本：去除 XML 标签、合并不合理换行、压缩空白。"""
+    if not text:
+        return ""
+    # 去除 Crossref 残留的 XML 标签（保留标签内文本）
+    text = re.sub(r"<jats:p>(.*?)</jats:p>", r"\1", text, flags=re.DOTALL)
+    text = re.sub(r"<[^>]+>", "", text)
+    # 去除首尾空白
+    text = text.strip()
+    # 处理连字符换行（hyphenated line break）
+    text = re.sub(r"-\n\s*", "", text)
+    text = re.sub(r"-\r\n\s*", "", text)
+    # 合并句子内硬换行：换行后下一行以小写字母或数字开头
+    text = re.sub(r"\n\s*([a-z0-9])", r" \1", text)
+    text = re.sub(r"\r\n\s*([a-z0-9])", r" \1", text)
+    # 将连续空白（含制表符、换行）替换为单个空格
+    text = re.sub(r"[\s\t]+", " ", text)
+    return text.strip()
+
+
+def _fetch_crossref_abstract(doi: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
+    """通过 Crossref 获取 abstract，返回 (abstract_or_None, last_request_time)。"""
+    url = f"https://api.crossref.org/works/{doi}"
+    headers = {"User-Agent": "FL-paper-update-tracker/1.0 (mailto:im.young@foxmail.com)"}
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp, last_request_time = _rate_limited_request(
+                url, last_request_time, min_interval=min_interval, timeout=10, headers=headers
+            )
+            if resp.status_code in (404, 403):
+                return None, last_request_time
+            if resp.status_code == 429:
+                wait = 2 ** attempt
+                logger.warning(f"Rate limited (Crossref), waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            item = data.get("message", {})
+            abstract = item.get("abstract")
+            if abstract and isinstance(abstract, str):
+                cleaned = clean_abstract(abstract)
+                if cleaned:
+                    return cleaned, last_request_time
+            return None, last_request_time
+        except requests.exceptions.Timeout:
+            logger.warning(f"Crossref timeout for {doi}, attempt {attempt}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+        except Exception as e:
+            logger.warning(f"Crossref attempt {attempt} failed for {doi}: {e}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+    return None, last_request_time
+
+
+def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
+    """通过 Semantic Scholar 获取 abstract，返回 (abstract_or_None, last_request_time)。"""
+    url = f"https://api.semanticscholar.org/graph/v1/paper/DOI:{doi}"
+    params = {"fields": "abstract,title"}
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp, last_request_time = _rate_limited_request(
+                url, last_request_time, min_interval=min_interval, timeout=10, params=params
+            )
+            if resp.status_code in (404, 403):
+                return None, last_request_time
+            if resp.status_code == 429:
+                wait = 2 ** attempt
+                logger.warning(f"Rate limited (SS), waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            abstract = data.get("abstract")
+            if abstract and abstract.strip():
+                return clean_abstract(abstract), last_request_time
+            return None, last_request_time
+        except requests.exceptions.Timeout:
+            logger.warning(f"SS timeout for {doi}, attempt {attempt}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+        except Exception as e:
+            logger.warning(f"SS attempt {attempt} failed for {doi}: {e}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+    return None, last_request_time
+
+
+def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3):
+    """为论文列表批量获取 abstract。
+
+    Args:
+        papers: 论文 dict 列表，每个 dict 应包含 doi、title 等字段。
+        sleep_sec: 两次请求之间的最小间隔（秒），默认 1.0（即每秒最多 1 次）。
+        max_retries: 每个 API 的最大重试次数。
+
+    Returns:
+        传入的 papers 列表（原地修改，为每个 dict 添加/更新 abstract 字段）。
+    """
+    last_request_time = 0.0
+    success = 0
+    failed = 0
+    skipped = 0
+
+    for i, paper in enumerate(papers, 1):
+        doi = (paper.get("doi") or "").strip()
+        title = (paper.get("title") or "").strip()
+
+        # 跳过已有非空 abstract 的
+        if paper.get("abstract") and str(paper.get("abstract")).strip():
+            skipped += 1
+            continue
+
+        logger.info(f"[{i}/{len(papers)}] Fetching abstract: {title[:60]}... (DOI: {doi or 'N/A'})")
+        abstract = None
+
+        if doi:
+            # 优先 Crossref
+            abstract, last_request_time = _fetch_crossref_abstract(
+                doi, last_request_time, min_interval=sleep_sec, max_retries=max_retries
+            )
+            # Crossref 失败则尝试 Semantic Scholar
+            if not abstract:
+                abstract, last_request_time = _fetch_semantic_scholar_abstract(
+                    doi, last_request_time, min_interval=sleep_sec, max_retries=max_retries
+                )
+
+        if abstract:
+            paper["abstract"] = abstract
+            success += 1
+            logger.info(f"  -> OK ({len(abstract)} chars)")
+        else:
+            paper["abstract"] = ""
+            failed += 1
+            logger.info("  -> Failed")
+
+    logger.info(f"Abstract fetch done. Success: {success}, Failed: {failed}, Skipped: {skipped}")
+    return papers

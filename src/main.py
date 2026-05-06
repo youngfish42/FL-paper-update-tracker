@@ -97,6 +97,12 @@ class Scaffold:
             # 若该 topic 首次查询，则初始化为空列表
             if topic not in dblp_cache:
                 dblp_cache[topic] = []
+
+            # 为新增论文自动获取 abstract
+            if new_items:
+                from utils import fetch_abstract_for_papers
+                fetch_abstract_for_papers(new_items, sleep_sec=1.0, max_retries=3)
+
             # 将新论文追加到缓存中（已保证无 ee/title 重复）
             dblp_cache[topic].extend(new_items)
 

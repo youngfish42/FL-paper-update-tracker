@@ -128,3 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .vscode/*
+
+# Cache backups
+cached/*.bak
+cached/abstract_progress.yaml

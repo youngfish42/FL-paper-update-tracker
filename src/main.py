@@ -1,6 +1,6 @@
 from loguru import logger
 from fire import Fire
-from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee, deduplicate_items_by_title, filter_items_by_year, get_topic_short_name, format_title_topics
+from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee, deduplicate_items_by_title, filter_items_by_year, get_topic_short_name, format_title_topics, fetch_abstract_for_papers
 import yaml
 import datetime
 import urllib.parse
@@ -27,6 +27,8 @@ class Scaffold:
         dblp_url = cfg["dblp"]["url"]
         keyword = cfg["dblp"]["keyword"]
         queries = cfg["dblp"]["queries"]
+        mails = cfg["dblp"].get("mails", [])
+        contact_email = mails[0] if mails else ""
         aggregated_msg = ""
         msg = ""
         flag = False
@@ -97,6 +99,11 @@ class Scaffold:
             # 若该 topic 首次查询，则初始化为空列表
             if topic not in dblp_cache:
                 dblp_cache[topic] = []
+
+            # 为新增论文自动获取 abstract
+            if new_items:
+                fetch_abstract_for_papers(new_items, sleep_sec=1.0, max_retries=3, contact_email=contact_email)
+
             # 将新论文追加到缓存中（已保证无 ee/title 重复）
             dblp_cache[topic].extend(new_items)
 

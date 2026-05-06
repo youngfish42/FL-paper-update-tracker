@@ -67,7 +67,8 @@
 
 ### 3. Cache Format (`cached/dblp.yaml`)
 - Top-level keys: URL-encoded DBLP search topics (e.g., `federate%20venue%3ADAC%3A:`).
-- Each key maps to a list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`.
+- Each key maps to a list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`, `abstract`.
+  - `abstract`  may be empty for legacy entries; use `scripts/fetch_abstracts.py` to backfill it.
 - The file is overwritten after every successful run.
 - **Agent Note**: If you add new fields to the paper dict, ensure backward compatibility; old cache entries missing the new field should be handled gracefully.
 
@@ -108,6 +109,21 @@ dblp:
 3. Update `scripts/convert_cache_to_md.py` if you want the new venue mapped to a specific category in `FL-Papers.md`.
 4. Update `README.md` (both EN and CN sections) to list the new venue.
 5. Update this `AGENTS.md` if the change affects architecture or conventions.
+
+### Backfilling Abstracts for Existing Papers
+- A standalone script `scripts/fetch_abstracts.py` is provided to backfill `abstract` fields for papers already in `cached/dblp.yaml`.
+- It queries **Crossref** (primary) and **Semantic Scholar** (fallback) by DOI, with rate limiting (1 req/s), timeout handling (10s + exponential backoff), and automatic newline cleaning.
+- The cache is backed up to `cached/dblp.yaml.bak` before each overwrite; `*.bak` files are ignored by git (see `.gitignore`).
+- Usage:
+  ```bash
+  # Process current-year papers (default)
+  python scripts/fetch_abstracts.py
+  # Process all years
+  python scripts/fetch_abstracts.py --year all
+  # Retry previously failed entries (empty abstracts)
+  python scripts/fetch_abstracts.py --retry-failed
+  ```
+- **Automatic abstract fetching**: `src/main.py` already calls `fetch_abstract_for_papers()` for every batch of new papers before saving the cache, so newly discovered papers get their abstracts filled automatically during the daily GitHub Actions run.
 
 ### Switching to a Different Research Domain
 The tracker is domain-agnostic. To pivot from Federated Learning to any other field (e.g., diffusion models, LLMs, reinforcement learning):

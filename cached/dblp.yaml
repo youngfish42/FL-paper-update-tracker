@@ -7722,6 +7722,7 @@ federate%20streamid%3Ajournals%2Fai%3A:
   doi: 10.1016/J.ARTINT.2025.104455
   ee: https://doi.org/10.1016/j.artint.2025.104455
   url: https://dblp.org/rec/journals/ai/ZhaoGFHY26
+  abstract: ''
 federate%20venue%3ANeurIPS%3A:
 - author: Karan Singhal, Hakim Sidahmed, Zachary Garrett, Shanshan Wu, John Rush,
     Sushant Prakash
@@ -14958,6 +14959,7 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06974-Z
   ee: https://doi.org/10.1007/s10994-025-06974-z
   url: https://dblp.org/rec/journals/ml/NiuYFZLQX26
+  abstract: ''
 - author: Pietro Ducange, Francesco Marcelloni, Giustino Claudio Miglionico, Alessandro
     Renda, Fabrizio Ruffini
   title: 'Federated SHAP: Privacy-Preserving and Consistent Post-hoc Explainability
@@ -14970,6 +14972,7 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06956-1
   ee: https://doi.org/10.1007/s10994-025-06956-1
   url: https://dblp.org/rec/journals/ml/DucangeMMRR26
+  abstract: ''
 - author: Haolin Yu, Kaiyang Guo, Mahdi Karami, Guojun Zhang, Hongliang Li, Xi Chen,
     Pascal Poupart
   title: 'FedBNR: A Fully Global Federated Gaussian Process.'
@@ -14981,6 +14984,7 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-025-06936-5
   ee: https://doi.org/10.1007/s10994-025-06936-5
   url: https://dblp.org/rec/journals/ml/YuGKZLCP26
+  abstract: ''
 - author: Zhenwei Huang, Wen Huang 0001, Pratik Jawanpuria, Bamdev Mishra
   title: Federated Learning on Riemannian Manifolds with Differential Privacy.
   venue: Mach. Learn.
@@ -14991,6 +14995,7 @@ federate%20streamid%3Ajournals%2Fml%3A:
   doi: 10.1007/S10994-026-07018-W
   ee: https://doi.org/10.1007/s10994-026-07018-w
   url: https://dblp.org/rec/journals/ml/HuangHJM26
+  abstract: ''
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -16787,6 +16792,7 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780269
   ee: https://doi.org/10.1145/3770854.3780269
   url: https://dblp.org/rec/conf/kdd/CaoCHQCZX26
+  abstract: ''
 - author: Xiaxia He, Boyue Wang, Junbin Gao, Yongli Hu, Baocai Yin
   title: 'MFC: Mixed Federated Clustering based on Cross-modal Feature Decoupling.'
   venue: KDD
@@ -16797,6 +16803,7 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780327
   ee: https://doi.org/10.1145/3770854.3780327
   url: https://dblp.org/rec/conf/kdd/HeWGHY26
+  abstract: ''
 - author: Wenhao Li, Christos Anagnostopoulos 0001, Shameem A Puthiya Parambath, Kevin
     Bryson 0001
   title: 'FedKDMR: Robust Federated Learning via Joint Knowledge Distillation &amp;
@@ -16809,6 +16816,7 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780160
   ee: https://doi.org/10.1145/3770854.3780160
   url: https://dblp.org/rec/conf/kdd/LiAPB26
+  abstract: ''
 - author: Feijiang Li, Jinhao Jiang, Jieting Wang, Liang Du 0003, Yuhua Qian
   title: Vertical Federated K-Means for Multi-View Data Guided by a K-Means Cost Bound
     after Projection.
@@ -16820,6 +16828,7 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780182
   ee: https://doi.org/10.1145/3770854.3780182
   url: https://dblp.org/rec/conf/kdd/LiJWDQ26
+  abstract: ''
 - author: Zihan Tan, Guancheng Wan, Wenke Huang 0003, Bin Yang 0026, Mang Ye
   title: 'FedPRE: Robust Federated Graph Learning against Topological Corruption.'
   venue: KDD
@@ -16830,6 +16839,7 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780330
   ee: https://doi.org/10.1145/3770854.3780330
   url: https://dblp.org/rec/conf/kdd/TanWHYY26
+  abstract: ''
 - author: Xiuling Wang, Xin Huang 0001, Haibo Hu 0001, Jianliang Xu
   title: Communication-efficient Federated Graph Classification via Generative Diffusion
     Modeling.
@@ -16900,6 +16910,7 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780170
   ee: https://doi.org/10.1145/3770854.3780170
   url: https://dblp.org/rec/conf/kdd/YanLXMW26
+  abstract: ''
 - author: Xiaokai Zhou, Xiao Yan 0002, Xinyan Li, Yuxiang Wang, Quanqing Xu, Chuang
     Hu, Tieyun Qian, Jiawei Jiang 0001
   title: 'HAL: Accurate, Private, and Efficient Sample Alignment for Multimodal Federated
@@ -16912,6 +16923,7 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780223
   ee: https://doi.org/10.1145/3770854.3780223
   url: https://dblp.org/rec/conf/kdd/ZhouYLWXHQJ26
+  abstract: ''
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -17079,6 +17091,7 @@ federate%20venue%3AWSDM%3A:
   doi: 10.1145/3773966.3777989
   ee: https://doi.org/10.1145/3773966.3777989
   url: https://dblp.org/rec/conf/wsdm/LiZLWG026
+  abstract: ''
 - author: Sheng-Po Tseng, Lo-Yao Yeh, Hui-Ju Hung, Chih-Ya Shen
   title: Federated Watermarking of Deep Neural Networks with Distributed Verification.
   venue: WSDM
@@ -18165,6 +18178,44 @@ federate%20venue%3ANDSS%3A:
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/urvfl-undetectable-data-reconstruction-attack-on-vertical-federated-learning/
   url: https://dblp.org/rec/conf/ndss/YaoLGHP25
+- author: Jiacen Xu, Chenang Li, Yu Zheng, Zhou Li 0001
+  title: 'Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated
+    Learning.'
+  venue: NDSS
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/XuLZL26
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/entente-cross-silo-intrusion-detection-on-network-log-graphs-with-federated-learning/
+  url: https://dblp.org/rec/conf/ndss/XuLZL26
+  abstract: ''
+- author: Liwei Zhang, Linghui Li, Xiaotian Si, Ziduo Guo, Xingwu Wang, Kaiguo Yuan,
+    Bingyu Li
+  title: A Unified Defense Framework Against Membership Inference in Federated Learning
+    via Distillation and Contribution-Aware Aggregation.
+  venue: NDSS
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhangLSGWYL26
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/a-unified-defense-framework-against-membership-inference-in-federated-learning-via-distillation-and-contribution-aware-aggregation/
+  url: https://dblp.org/rec/conf/ndss/ZhangLSGWYL26
+  abstract: ''
+- author: Yixiao Zheng, Changzheng Wei, Xiaodong Qi, Hanghang Wu, Yuhan Wu, Li Lin,
+    Tianmin Song, Ying Yan, Yanqing Yang, Zhao Zhang 0009, Cheqing Jin, Aoying Zhou
+  title: 'ZKSL: Verifiable and Efficient Split Federated Learning via Asynchronous
+    Zero-Knowledge Proofs.'
+  venue: NDSS
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ndss/ZhengWQWWLSYYZJ26
+  doi: ''
+  ee: https://www.ndss-symposium.org/ndss-paper/zksl-verifiable-and-efficient-split-federated-learning-via-asynchronous-zero-knowledge-proofs/
+  url: https://dblp.org/rec/conf/ndss/ZhengWQWWLSYYZJ26
+  abstract: ''
 federate%20venue%3ACVPR%3A:
 - author: Yiqing Shen 0003, Yuyin Zhou, Lequan Yu
   title: 'CD2-pFed: Cyclic Distillation-guided Channel Decoupling for Model Personalization
@@ -26018,6 +26069,7 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3792619
   ee: https://doi.org/10.1145/3774904.3792619
   url: https://dblp.org/rec/conf/www/SongCZSZYX26
+  abstract: ''
 - author: Tao Tang 0007, Botao Liu, Ciyuan Peng, Ivan Lee 0001, Xiangjie Kong 0001
   title: Verifiable Federated Representation Learning for Cross-domain Sequential
     Recommendation.
@@ -26177,6 +26229,7 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3792655
   ee: https://doi.org/10.1145/3774904.3792655
   url: https://dblp.org/rec/conf/www/WeiZGFSZWH26
+  abstract: ''
 - author: Junlong Wu, Renda Han, Wenxuan Tu, Jingxin Liu 0006, Haotian Wang, Jieren
     Cheng
   title: 'FedCND: Federated Graph-Level Clustering under Inter-Client Cluster Number
@@ -26428,6 +26481,7 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3792897
   ee: https://doi.org/10.1145/3774904.3792897
   url: https://dblp.org/rec/conf/www/ChengZWZF26
+  abstract: ''
 - author: Qiang He 0001, Rui Chen, Yicheng Liu, Sheng Zhong, Haipeng Dai 0001, Feifei
     Chen 0001, Hai Jin 0001, Yun Yang 0001
   title: 'Thorki: Decoupling General and Personalized Knowledge with Collaborative
@@ -26468,6 +26522,26 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3792294
   ee: https://doi.org/10.1145/3774904.3792294
   url: https://dblp.org/rec/conf/www/HeLWNHBTH26
+  abstract: Federated cross-domain recommendation (Federated CDR) aims to collaboratively
+    learn personalized recommendation models across heterogeneous domains while preserving
+    data privacy. Recently, large language model (LLM)-based recommendation models
+    have demonstrated impressive performance by leveraging LLMs' strong reasoning
+    capabilities and broad knowledge. However, adopting LLM-based recommendation models
+    in Federated CDR scenarios introduces new challenges. First, there exists a risk
+    of overfitting with domain-specific local adapters. The magnitudes of locally
+    optimized parameter updates often vary across domains, causing biased aggregation
+    and overfitting toward domain-specific distributions. Second, unlike traditional
+    recommendation models (e.g., collaborative filtering, bipartite graph-based methods)
+    that learn explicit and comparable user/item representations, LLMs encode knowledge
+    implicitly through autoregressive text generation training. This poses additional
+    challenges for effectively measuring the cross-domain similarities under heterogeneity.
+    To address these challenges, we propose an LLM-based framework for federated cross-domain
+    recommendation, FeDecider. Specifically, FeDecider tackles the challenge of scale-specific
+    noise by disentangling each client's low-rank updates and sharing only their directional
+    components. To handle the need for flexible and effective integration, each client
+    further learns personalized weights that achieve the data-aware integration of
+    updates from other domains. Extensive experiments across diverse datasets validate
+    the effectiveness of our proposed FeDecider.
 - author: Zhiwei Hu, Liang Zhang, Guangxu Zhu
   title: 'FedRMamba: Federated Residual Mamba for Multivariate Time-Series Forecasting.'
   venue: WWW
@@ -26768,6 +26842,7 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3793003
   ee: https://doi.org/10.1145/3774904.3793003
   url: https://dblp.org/rec/conf/www/TangLLDCCDK26
+  abstract: ''
 - author: Chi Xu 0004, Jiaxing Li 0006, Mengdi Jin, William I. Atlas, Mark A. Spoljaric,
     Edith C. H. Ngai, Jiangchuan Liu
   title: 'FUSED: Toward Federated Multimodal Retrieval across Sovereign Data Domains.'
@@ -26779,6 +26854,7 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3793009
   ee: https://doi.org/10.1145/3774904.3793009
   url: https://dblp.org/rec/conf/www/XuLJASNL26
+  abstract: ''
 - author: Yongkang Zhao, Hailin Feng, Tingting Wang, Thippa Reddy Gadekallu, Kai Fang,
     Wei Wang
   title: Communication-Efficient Federated Learning for Post-Flood Risk Assessment
@@ -27293,6 +27369,7 @@ federate%20streamid%3Aconf%2Feurosys%3A:
   doi: 10.1145/3767295.3769329
   ee: https://doi.org/10.1145/3767295.3769329
   url: https://dblp.org/rec/conf/eurosys/ChenWLSY26
+  abstract: ''
 - author: Yuhui Zhang, Guang Yan, Xin Zhang, Zimu Guo, Lutan Zhao, Jiangfeng Cao,
     Dan Meng 0002, Rui Hou 0001
   title: 'SwiftFL: Enabling Speculative Training for On-Device Federated Deep Learning.'

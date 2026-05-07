@@ -37,7 +37,10 @@
 ├── cached/
 │   └── dblp.yaml                    # Persistent cache of already-reported papers
 ├── scripts/
-│   └── convert_cache_to_md.py       # Converts cache to structured Markdown (domain-specific maps)
+│   ├── convert_cache_to_md.py       # Converts cache to structured Markdown (domain-specific maps)
+│   ├── fetch_abstracts.py           # Backfill/refresh paper abstracts via external APIs
+│   ├── dedup_cache_by_title.py      # Deduplicate cache entries by title
+│   └── dedup_cache_global.py        # Global cross-topic deduplication for the cache
 ├── src/
 │   ├── main.py                      # Entry point: assembles topics from keyword+queries, orchestrates API calls
 │   └── utils.py                     # Helper functions: API call, parsing, formatting, dedup
@@ -98,7 +101,7 @@ dblp:
     - "im.young@foxmail.com"
 ```
 - `topics`: Each topic is a URL-encoded DBLP search query. The first word (`federate`) is the keyword; the rest restricts the venue.
-- `mails`: Currently reserved; not actively used in the code but kept for future mail-notification features.
+- `mails`: The first email address (`mails[0]`) is used as the `contact_email` for the Crossref API User-Agent (`mailto:...`), which is recommended for polite API access. Additional addresses are reserved for future mail-notification features.
 - **Agent Note**: When adding a new venue, find its DBLP query syntax (venue code or stream ID) and URL-encode it.
 
 ## Maintenance Notes
@@ -112,7 +115,11 @@ dblp:
 
 ### Backfilling Abstracts for Existing Papers
 - A standalone script `scripts/fetch_abstracts.py` is provided to backfill `abstract` fields for papers already in `cached/dblp.yaml`.
-- It queries **Crossref** (primary) and **Semantic Scholar** (fallback) by DOI, with rate limiting (1 req/s), timeout handling (10s + exponential backoff), and automatic newline cleaning.
+- It queries three APIs in order until a non-empty abstract is found:
+  1. **Crossref** (primary) — by DOI, with `contact_email` in the User-Agent header.
+  2. **Semantic Scholar** (fallback) — by DOI.
+  3. **arXiv** (final fallback) — by title via `export.arxiv.org/api/query`, parsing Atom XML. arXiv enforces a minimum 3-second interval between requests.
+- All queries use rate limiting, timeout handling (10s + exponential backoff), and automatic newline cleaning.
 - The cache is backed up to `cached/dblp.yaml.bak` before each overwrite; `*.bak` files are ignored by git (see `.gitignore`).
 - Usage:
   ```bash

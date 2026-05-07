@@ -41,6 +41,17 @@ def run(year: str = None, retry_failed: bool = False, clean_only: bool = False) 
     cache_path = project_root / "cached" / "dblp.yaml"
     backup_path = project_root / "cached" / "dblp.yaml.bak"
 
+    # 读取 config.yaml 获取 contact_email
+    config_path = project_root / "config.yaml"
+    contact_email = ""
+    if config_path.exists():
+        try:
+            config = yaml.safe_load(open(config_path, "r", encoding="utf-8"))
+            mails = config.get("dblp", {}).get("mails", [])
+            contact_email = mails[0] if mails else ""
+        except Exception as e:
+            logger.warning(f"Failed to load contact_email from config.yaml: {e}")
+
     dblp_cache = load_yaml(cache_path)
     if not dblp_cache:
         logger.error(f"Failed to load cache from {cache_path}")
@@ -90,7 +101,7 @@ def run(year: str = None, retry_failed: bool = False, clean_only: bool = False) 
 
     # 提取纯论文 dict 列表供批量获取
     papers = [t[2] for t in targets]
-    fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3)
+    fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email=contact_email)
 
     # 写回缓存
     logger.info("Saving results...")

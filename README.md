@@ -10,6 +10,7 @@ An automated paper tracking bot for **Federated Learning** research. It periodic
 - **Smart Deduplication**: Uses the `ee` (electronic edition) field and the `title` field to eliminate duplicate records caused by minor author-name variations or multiple URLs for the same paper in DBLP.
 - **Year-Based Filtering**: Only tracks papers published within the last 3 years and the next 1 year (e.g., 2023–2027 when running in 2026).
 - **Auto-Notification**: Creates nicely formatted GitHub Issues daily via GitHub Actions.
+- **Automatic Abstract Fetching**: Newly discovered papers automatically retrieve abstracts from Crossref, Semantic Scholar, and arXiv (in that order) to enrich the cache.
 
 ## Extending to Other Research Domains
 
@@ -85,6 +86,7 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
 - **智能去重**：利用 `ee`（电子版链接）和 `title`（标题）字段消除 DBLP 中因作者名称微差异或同一论文多版本链接导致的重复记录。
 - **年份过滤**：仅追踪近三年及未来一年内发表的论文（例如 2026 年运行时，保留 2023–2027 年的论文）。
 - **自动通知**：通过 GitHub Actions 每日自动生成格式化的 GitHub Issue。
+- **自动获取摘要**：新发现的论文会自动从 Crossref、Semantic Scholar 和 arXiv 依次查询并补充摘要，以丰富缓存数据。
 
 ## 扩展到其他研究领域
 

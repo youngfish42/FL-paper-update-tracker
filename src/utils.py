@@ -351,6 +351,59 @@ def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_int
     return None, None, last_request_time
 
 
+def _fetch_arxiv_abstract(title: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
+    """通过 arXiv API 获取 abstract，返回 (abstract_or_None, api_title_or_None, last_request_time)。"""
+    import xml.etree.ElementTree as ET
+
+    # arXiv API 建议至少 3 秒间隔
+    effective_interval = max(min_interval, 3.0)
+    encoded_title = urllib.parse.quote(title)
+    url = f"http://export.arxiv.org/api/query?search_query=ti:{encoded_title}&max_results=1"
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp, last_request_time = _rate_limited_request(
+                url, last_request_time, min_interval=effective_interval, timeout=10
+            )
+            if resp.status_code in (404, 403):
+                return None, None, last_request_time
+            if resp.status_code == 429:
+                wait = 2 ** attempt
+                logger.warning(f"Rate limited (arXiv), waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+
+            root = ET.fromstring(resp.text)
+            entry = root.find("atom:entry", ns)
+            if entry is None:
+                return None, None, last_request_time
+
+            api_title = None
+            title_elem = entry.find("atom:title", ns)
+            if title_elem is not None and title_elem.text:
+                api_title = title_elem.text.strip()
+
+            abstract = None
+            summary_elem = entry.find("atom:summary", ns)
+            if summary_elem is not None and summary_elem.text:
+                cleaned = clean_abstract(summary_elem.text)
+                if cleaned:
+                    abstract = cleaned
+
+            return abstract, api_title, last_request_time
+        except requests.exceptions.Timeout:
+            logger.warning(f"arXiv timeout for title '{title[:60]}...', attempt {attempt}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+        except Exception as e:
+            logger.warning(f"arXiv attempt {attempt} failed for title '{title[:60]}...': {e}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+    return None, None, last_request_time
+
+
 def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email=""):
     """为论文列表批量获取 abstract。
 
@@ -403,6 +456,18 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
                         f"expected '{title[:80]}...', got '{api_title[:80]}...'"
                     )
                     abstract = None
+
+        # Crossref + SS 都失败，尝试 arXiv 作为最后补充
+        if not abstract and title:
+            abstract, api_title, last_request_time = _fetch_arxiv_abstract(
+                title, last_request_time, min_interval=max(sleep_sec, 3.0), max_retries=max_retries
+            )
+            if abstract and api_title and not is_title_match(api_title, title):
+                logger.warning(
+                    f"  -> arXiv title mismatch: "
+                    f"expected '{title[:80]}...', got '{api_title[:80]}...'"
+                )
+                abstract = None
 
         if abstract:
             paper["abstract"] = abstract

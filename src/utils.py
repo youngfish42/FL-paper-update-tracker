@@ -255,10 +255,13 @@ def is_title_match(api_title: str, paper_title: str, threshold: float = 0.70) ->
     """
     if not api_title or not paper_title:
         return False
-    # 规范化：小写并去除所有非字母数字字符
-    norm = lambda t: re.sub(r"[^a-z0-9]", "", t.strip().lower())
+    # 规范化：小写并去除标点/空白，保留 Unicode 词字符（字母数字及下划线）
+    norm = lambda t: re.sub(r"[^\w]+", "", t.strip().lower(), flags=re.UNICODE)
     n_api = norm(api_title)
     n_paper = norm(paper_title)
+    # 若规范化后为空，无法进行可靠匹配（避免 "" in "" 误判）
+    if not n_api or not n_paper:
+        return False
     # 包含检测：允许大小写、标点、副标题差异
     if n_api in n_paper or n_paper in n_api:
         return True

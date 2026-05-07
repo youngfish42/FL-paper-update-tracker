@@ -351,6 +351,59 @@ def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_int
     return None, None, last_request_time
 
 
+def _fetch_arxiv_abstract(title: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
+    """通过 arXiv API 获取 abstract，返回 (abstract_or_None, api_title_or_None, last_request_time)。"""
+    import xml.etree.ElementTree as ET
+
+    # arXiv API 建议至少 3 秒间隔
+    effective_interval = max(min_interval, 3.0)
+    encoded_title = urllib.parse.quote(title)
+    url = f"http://export.arxiv.org/api/query?search_query=ti:{encoded_title}&max_results=1"
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp, last_request_time = _rate_limited_request(
+                url, last_request_time, min_interval=effective_interval, timeout=10
+            )
+            if resp.status_code in (404, 403):
+                return None, None, last_request_time
+            if resp.status_code == 429:
+                wait = 2 ** attempt
+                logger.warning(f"Rate limited (arXiv), waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+
+            root = ET.fromstring(resp.text)
+            entry = root.find("atom:entry", ns)
+            if entry is None:
+                return None, None, last_request_time
+
+            api_title = None
+            title_elem = entry.find("atom:title", ns)
+            if title_elem is not None and title_elem.text:
+                api_title = title_elem.text.strip()
+
+            abstract = None
+            summary_elem = entry.find("atom:summary", ns)
+            if summary_elem is not None and summary_elem.text:
+                cleaned = clean_abstract(summary_elem.text)
+                if cleaned:
+                    abstract = cleaned
+
+            return abstract, api_title, last_request_time
+        except requests.exceptions.Timeout:
+            logger.warning(f"arXiv timeout for title '{title[:60]}...', attempt {attempt}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+        except Exception as e:
+            logger.warning(f"arXiv attempt {attempt} failed for title '{title[:60]}...': {e}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+    return None, None, last_request_time
+
+
 def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email=""):
     """为论文列表批量获取 abstract。
 
@@ -363,7 +416,11 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
     Returns:
         传入的 papers 列表（原地修改，为每个 dict 添加/更新 abstract 字段）。
     """
-    last_request_time = 0.0
+    last_request_time = {
+        "crossref": 0.0,
+        "semanticscholar": 0.0,
+        "arxiv": 0.0,
+    }
     success = 0
     failed = 0
     skipped = 0
@@ -382,8 +439,8 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
 
         if doi:
             # 优先 Crossref
-            abstract, api_title, last_request_time = _fetch_crossref_abstract(
-                doi, last_request_time, min_interval=sleep_sec, max_retries=max_retries,
+            abstract, api_title, last_request_time["crossref"] = _fetch_crossref_abstract(
+                doi, last_request_time["crossref"], min_interval=sleep_sec, max_retries=max_retries,
                 contact_email=contact_email
             )
             if abstract and api_title and not is_title_match(api_title, title):
@@ -394,8 +451,8 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
                 abstract = None
             # Crossref 失败则尝试 Semantic Scholar
             if not abstract:
-                abstract, api_title, last_request_time = _fetch_semantic_scholar_abstract(
-                    doi, last_request_time, min_interval=sleep_sec, max_retries=max_retries
+                abstract, api_title, last_request_time["semanticscholar"] = _fetch_semantic_scholar_abstract(
+                    doi, last_request_time["semanticscholar"], min_interval=sleep_sec, max_retries=max_retries
                 )
                 if abstract and api_title and not is_title_match(api_title, title):
                     logger.warning(
@@ -403,6 +460,18 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
                         f"expected '{title[:80]}...', got '{api_title[:80]}...'"
                     )
                     abstract = None
+
+        # Crossref + SS 都失败，尝试 arXiv 作为最后补充
+        if not abstract and title:
+            abstract, api_title, last_request_time["arxiv"] = _fetch_arxiv_abstract(
+                title, last_request_time["arxiv"], min_interval=max(sleep_sec, 3.0), max_retries=max_retries
+            )
+            if abstract and api_title and not is_title_match(api_title, title):
+                logger.warning(
+                    f"  -> arXiv title mismatch: "
+                    f"expected '{title[:80]}...', got '{api_title[:80]}...'"
+                )
+                abstract = None
 
         if abstract:
             paper["abstract"] = abstract
@@ -414,4 +483,102 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
             logger.info("  -> Failed")
 
     logger.info(f"Abstract fetch done. Success: {success}, Failed: {failed}, Skipped: {skipped}")
+    return papers
+
+
+def _translate_with_qwen_mt(text: str, client, max_retries: int = 3):
+    """调用阿里云百炼 Qwen-MT-plus 将文本翻译为中文，失败返回 None。
+
+    使用 OpenAI 兼容接口（openai SDK）调用，逐条翻译。
+    """
+    if not text or client is None:
+        return None
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            completion = client.chat.completions.create(
+                model="qwen-mt-plus",
+                messages=[{"role": "user", "content": text}],
+                extra_body={
+                    "translation_options": {
+                        "source_lang": "auto",
+                        "target_lang": "Chinese",
+                    }
+                },
+            )
+            content = completion.choices[0].message.content
+            if content and content.strip():
+                return content.strip()
+            return None
+        except Exception as e:
+            err_str = str(e)
+            # 对限流错误做更长的等待
+            if "rate limit" in err_str.lower() or "429" in err_str:
+                wait = 2 ** attempt
+                logger.warning(f"Rate limited (Qwen-MT), waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            logger.warning(f"Qwen-MT attempt {attempt} failed: {e}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+    return None
+
+
+def translate_abstracts_for_papers(papers, api_key="", sleep_sec=0.5, max_retries=3):
+    """为成功获取英文摘要的论文批量翻译中文摘要（abstract_cn）。
+
+    Args:
+        papers: 论文 dict 列表，每个 dict 应包含 abstract 字段。
+        api_key: 阿里云百炼 API Key。
+        sleep_sec: 两次翻译请求之间的间隔（秒），默认 0.5。
+        max_retries: 每个请求的最大重试次数。
+
+    Returns:
+        传入的 papers 列表（原地修改，为每个 dict 添加/更新 abstract_cn 字段）。
+    """
+    if not api_key:
+        logger.warning("DASHSCOPE_API_KEY not set, skipping translation.")
+        return papers
+    try:
+        from openai import OpenAI
+    except ImportError:
+        logger.error("openai package is not installed. Run: pip install openai")
+        return papers
+    client = OpenAI(
+        api_key=api_key,
+        base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+    )
+
+    targets = []
+    for paper in papers:
+        abstract = str(paper.get("abstract") or "").strip()
+        existing_cn = str(paper.get("abstract_cn") or "").strip()
+        if abstract and not existing_cn:
+            targets.append(paper)
+
+    if not targets:
+        logger.info("No papers need Chinese translation.")
+        return papers
+
+    logger.info(f"Starting Chinese translation for {len(targets)} papers...")
+    success = 0
+    failed = 0
+
+    for i, paper in enumerate(targets, 1):
+        abstract = paper["abstract"]
+        title = (paper.get("title") or "").strip()
+        logger.info(f"[{i}/{len(targets)}] Translating: {title[:60]}...")
+        translated = _translate_with_qwen_mt(abstract, client, max_retries=max_retries)
+        if translated:
+            paper["abstract_cn"] = translated
+            success += 1
+            logger.info(f"  -> OK ({len(translated)} chars)")
+        else:
+            paper["abstract_cn"] = ""
+            failed += 1
+            logger.info("  -> Failed")
+        if i < len(targets):
+            time.sleep(sleep_sec)
+
+    logger.info(f"Translation done. Success: {success}, Failed: {failed}")
     return papers

@@ -16,9 +16,17 @@ from pathlib import Path
 # 将 src 加入路径以便导入 utils
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from utils import fetch_abstract_for_papers, clean_abstract
+from utils import fetch_abstract_for_papers, clean_abstract, translate_abstracts_for_papers
 from loguru import logger
 import yaml
+import os
+
+# 本地开发时从 .env 加载环境变量
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 
 def load_yaml(path: Path):
@@ -40,6 +48,18 @@ def run(year: str = None, retry_failed: bool = False, clean_only: bool = False) 
     project_root = Path(__file__).parent.parent.resolve()
     cache_path = project_root / "cached" / "dblp.yaml"
     backup_path = project_root / "cached" / "dblp.yaml.bak"
+
+    # 读取 config.yaml 获取 contact_email
+    config_path = project_root / "config.yaml"
+    contact_email = ""
+    if config_path.exists():
+        try:
+            with open(config_path, "r", encoding="utf-8") as f:
+                config = yaml.safe_load(f) or {}
+            mails = config.get("dblp", {}).get("mails", [])
+            contact_email = mails[0] if mails else ""
+        except Exception as e:
+            logger.warning(f"Failed to load contact_email from config.yaml: {e}")
 
     dblp_cache = load_yaml(cache_path)
     if not dblp_cache:
@@ -90,7 +110,9 @@ def run(year: str = None, retry_failed: bool = False, clean_only: bool = False) 
 
     # 提取纯论文 dict 列表供批量获取
     papers = [t[2] for t in targets]
-    fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3)
+    fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email=contact_email)
+    api_key = os.getenv("DASHSCOPE_API_KEY", "")
+    translate_abstracts_for_papers(papers, api_key=api_key, sleep_sec=0.5, max_retries=3)
 
     # 写回缓存
     logger.info("Saving results...")

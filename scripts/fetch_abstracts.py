@@ -54,7 +54,8 @@ def run(year: str = None, retry_failed: bool = False, clean_only: bool = False) 
     contact_email = ""
     if config_path.exists():
         try:
-            config = yaml.safe_load(open(config_path, "r", encoding="utf-8"))
+            with open(config_path, "r", encoding="utf-8") as f:
+                config = yaml.safe_load(f) or {}
             mails = config.get("dblp", {}).get("mails", [])
             contact_email = mails[0] if mails else ""
         except Exception as e:

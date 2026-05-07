@@ -416,7 +416,11 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
     Returns:
         传入的 papers 列表（原地修改，为每个 dict 添加/更新 abstract 字段）。
     """
-    last_request_time = 0.0
+    last_request_time = {
+        "crossref": 0.0,
+        "semanticscholar": 0.0,
+        "arxiv": 0.0,
+    }
     success = 0
     failed = 0
     skipped = 0
@@ -435,8 +439,8 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
 
         if doi:
             # 优先 Crossref
-            abstract, api_title, last_request_time = _fetch_crossref_abstract(
-                doi, last_request_time, min_interval=sleep_sec, max_retries=max_retries,
+            abstract, api_title, last_request_time["crossref"] = _fetch_crossref_abstract(
+                doi, last_request_time["crossref"], min_interval=sleep_sec, max_retries=max_retries,
                 contact_email=contact_email
             )
             if abstract and api_title and not is_title_match(api_title, title):
@@ -447,8 +451,8 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
                 abstract = None
             # Crossref 失败则尝试 Semantic Scholar
             if not abstract:
-                abstract, api_title, last_request_time = _fetch_semantic_scholar_abstract(
-                    doi, last_request_time, min_interval=sleep_sec, max_retries=max_retries
+                abstract, api_title, last_request_time["semanticscholar"] = _fetch_semantic_scholar_abstract(
+                    doi, last_request_time["semanticscholar"], min_interval=sleep_sec, max_retries=max_retries
                 )
                 if abstract and api_title and not is_title_match(api_title, title):
                     logger.warning(
@@ -459,8 +463,8 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
 
         # Crossref + SS 都失败，尝试 arXiv 作为最后补充
         if not abstract and title:
-            abstract, api_title, last_request_time = _fetch_arxiv_abstract(
-                title, last_request_time, min_interval=max(sleep_sec, 3.0), max_retries=max_retries
+            abstract, api_title, last_request_time["arxiv"] = _fetch_arxiv_abstract(
+                title, last_request_time["arxiv"], min_interval=max(sleep_sec, 3.0), max_retries=max_retries
             )
             if abstract and api_title and not is_title_match(api_title, title):
                 logger.warning(
@@ -482,24 +486,13 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
     return papers
 
 
-def _translate_with_qwen_mt(text: str, api_key: str, max_retries: int = 3):
+def _translate_with_qwen_mt(text: str, client, max_retries: int = 3):
     """调用阿里云百炼 Qwen-MT-plus 将文本翻译为中文，失败返回 None。
 
     使用 OpenAI 兼容接口（openai SDK）调用，逐条翻译。
     """
-    if not text or not api_key:
+    if not text or client is None:
         return None
-
-    try:
-        from openai import OpenAI
-    except ImportError:
-        logger.error("openai package is not installed. Run: pip install openai")
-        return None
-
-    client = OpenAI(
-        api_key=api_key,
-        base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-    )
 
     for attempt in range(1, max_retries + 1):
         try:
@@ -546,6 +539,15 @@ def translate_abstracts_for_papers(papers, api_key="", sleep_sec=0.5, max_retrie
     if not api_key:
         logger.warning("DASHSCOPE_API_KEY not set, skipping translation.")
         return papers
+    try:
+        from openai import OpenAI
+    except ImportError:
+        logger.error("openai package is not installed. Run: pip install openai")
+        return papers
+    client = OpenAI(
+        api_key=api_key,
+        base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+    )
 
     targets = []
     for paper in papers:
@@ -566,7 +568,7 @@ def translate_abstracts_for_papers(papers, api_key="", sleep_sec=0.5, max_retrie
         abstract = paper["abstract"]
         title = (paper.get("title") or "").strip()
         logger.info(f"[{i}/{len(targets)}] Translating: {title[:60]}...")
-        translated = _translate_with_qwen_mt(abstract, api_key, max_retries=max_retries)
+        translated = _translate_with_qwen_mt(abstract, client, max_retries=max_retries)
         if translated:
             paper["abstract_cn"] = translated
             success += 1

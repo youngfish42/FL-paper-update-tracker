@@ -480,3 +480,103 @@ def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_emai
 
     logger.info(f"Abstract fetch done. Success: {success}, Failed: {failed}, Skipped: {skipped}")
     return papers
+
+
+def _translate_with_qwen_mt(text: str, api_key: str, max_retries: int = 3):
+    """调用阿里云百炼 Qwen-MT-plus 将文本翻译为中文，失败返回 None。
+
+    使用 OpenAI 兼容接口（openai SDK）调用，逐条翻译。
+    """
+    if not text or not api_key:
+        return None
+
+    try:
+        from openai import OpenAI
+    except ImportError:
+        logger.error("openai package is not installed. Run: pip install openai")
+        return None
+
+    client = OpenAI(
+        api_key=api_key,
+        base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+    )
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            completion = client.chat.completions.create(
+                model="qwen-mt-plus",
+                messages=[{"role": "user", "content": text}],
+                extra_body={
+                    "translation_options": {
+                        "source_lang": "auto",
+                        "target_lang": "Chinese",
+                    }
+                },
+            )
+            content = completion.choices[0].message.content
+            if content and content.strip():
+                return content.strip()
+            return None
+        except Exception as e:
+            err_str = str(e)
+            # 对限流错误做更长的等待
+            if "rate limit" in err_str.lower() or "429" in err_str:
+                wait = 2 ** attempt
+                logger.warning(f"Rate limited (Qwen-MT), waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            logger.warning(f"Qwen-MT attempt {attempt} failed: {e}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+    return None
+
+
+def translate_abstracts_for_papers(papers, api_key="", sleep_sec=0.5, max_retries=3):
+    """为成功获取英文摘要的论文批量翻译中文摘要（abstract_cn）。
+
+    Args:
+        papers: 论文 dict 列表，每个 dict 应包含 abstract 字段。
+        api_key: 阿里云百炼 API Key。
+        sleep_sec: 两次翻译请求之间的间隔（秒），默认 0.5。
+        max_retries: 每个请求的最大重试次数。
+
+    Returns:
+        传入的 papers 列表（原地修改，为每个 dict 添加/更新 abstract_cn 字段）。
+    """
+    if not api_key:
+        logger.warning("DASHSCOPE_API_KEY not set, skipping translation.")
+        return papers
+
+    targets = []
+    for paper in papers:
+        abstract = str(paper.get("abstract") or "").strip()
+        existing_cn = str(paper.get("abstract_cn") or "").strip()
+        if abstract and not existing_cn:
+            targets.append(paper)
+
+    if not targets:
+        logger.info("No papers need Chinese translation.")
+        return papers
+
+    logger.info(f"Starting Chinese translation for {len(targets)} papers...")
+    success = 0
+    failed = 0
+
+    for i, paper in enumerate(targets, 1):
+        abstract = paper["abstract"]
+        title = (paper.get("title") or "").strip()
+        logger.info(f"[{i}/{len(targets)}] Translating: {title[:60]}...")
+        translated = _translate_with_qwen_mt(abstract, api_key, max_retries=max_retries)
+        if translated:
+            paper["abstract_cn"] = translated
+            success += 1
+            logger.info(f"  -> OK ({len(translated)} chars)")
+        else:
+            paper["abstract_cn"] = ""
+            failed += 1
+            logger.info("  -> Failed")
+        if i < len(targets):
+            time.sleep(sleep_sec)
+
+    logger.info(f"Translation done. Success: {success}, Failed: {failed}")
+    return papers

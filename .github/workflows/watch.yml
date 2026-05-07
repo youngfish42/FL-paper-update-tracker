@@ -15,6 +15,7 @@ jobs:
     env:
       TZ: "Asia/Shanghai"
       RUN_ENV: "prod" # within ['prod', 'dev']
+      DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
     steps:
       # ============================================
       # TODO [√] 检查工作分支及 Workflows 运行环境

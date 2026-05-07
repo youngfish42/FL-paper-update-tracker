@@ -11,6 +11,7 @@ An automated paper tracking bot for **Federated Learning** research. It periodic
 - **Year-Based Filtering**: Only tracks papers published within the last 3 years and the next 1 year (e.g., 2023–2027 when running in 2026).
 - **Auto-Notification**: Creates nicely formatted GitHub Issues daily via GitHub Actions.
 - **Automatic Abstract Fetching**: Newly discovered papers automatically retrieve abstracts from Crossref, Semantic Scholar, and arXiv (in that order) to enrich the cache.
+- **Automatic Chinese Translation**: Successfully retrieved abstracts are automatically translated into Chinese via Qwen-MT-plus and stored as `abstract_cn`.
 
 ## Extending to Other Research Domains
 
@@ -87,6 +88,7 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
 - **年份过滤**：仅追踪近三年及未来一年内发表的论文（例如 2026 年运行时，保留 2023–2027 年的论文）。
 - **自动通知**：通过 GitHub Actions 每日自动生成格式化的 GitHub Issue。
 - **自动获取摘要**：新发现的论文会自动从 Crossref、Semantic Scholar 和 arXiv 依次查询并补充摘要，以丰富缓存数据。
+- **自动中文翻译**：成功获取的英文摘要会自动通过 Qwen-MT-plus 翻译为中文，存储为 `abstract_cn` 字段。
 
 ## 扩展到其他研究领域
 

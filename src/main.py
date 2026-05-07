@@ -1,9 +1,23 @@
 from loguru import logger
 from fire import Fire
-from utils import get_msg, init, get_dblp_items, request_data, deduplicate_items_by_ee, deduplicate_items_by_title, filter_items_by_year, get_topic_short_name, format_title_topics, fetch_abstract_for_papers
+from utils import (
+    get_msg, init, get_dblp_items, request_data,
+    deduplicate_items_by_ee, deduplicate_items_by_title,
+    filter_items_by_year, get_topic_short_name,
+    format_title_topics, fetch_abstract_for_papers,
+    translate_abstracts_for_papers,
+)
 import yaml
 import datetime
 import urllib.parse
+import os
+
+# 本地开发时从 .env 加载环境变量
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 
 
@@ -103,6 +117,8 @@ class Scaffold:
             # 为新增论文自动获取 abstract
             if new_items:
                 fetch_abstract_for_papers(new_items, sleep_sec=1.0, max_retries=3, contact_email=contact_email)
+                api_key = os.getenv("DASHSCOPE_API_KEY", "")
+                translate_abstracts_for_papers(new_items, api_key=api_key, sleep_sec=0.5, max_retries=3)
 
             # 将新论文追加到缓存中（已保证无 ee/title 重复）
             dblp_cache[topic].extend(new_items)

@@ -131,6 +131,7 @@ dblp:
   python scripts/fetch_abstracts.py --retry-failed
   ```
 - **Automatic abstract fetching**: `src/main.py` already calls `fetch_abstract_for_papers()` for every batch of new papers before saving the cache, so newly discovered papers get their abstracts filled automatically during the daily GitHub Actions run.
+- **Automatic Chinese translation**: After a non-empty English `abstract` is obtained, `translate_abstracts_for_papers()` calls **Qwen-MT-plus** (via the Alibaba Cloud Bailian OpenAI-compatible API) to translate the abstract into Chinese, storing it as `abstract_cn`. Translation is skipped if the `DASHSCOPE_API_KEY` environment variable is missing, and individual translation failures do not block the pipeline.
 
 ### Switching to a Different Research Domain
 The tracker is domain-agnostic. To pivot from Federated Learning to any other field (e.g., diffusion models, LLMs, reinforcement learning):

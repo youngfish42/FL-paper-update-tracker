@@ -91,15 +91,22 @@ def run(year: str = None, retry_failed: bool = False, clean_only: bool = False) 
 
     logger.info(f"Starting abstract fetch. year={year}, retry_failed={retry_failed}")
 
-    # 收集目标论文
+    # 收集目标论文（增量）：
+    # - 缺失 abstract 的论文需要获取摘要
+    # - 缺失 abstract_cn 的论文需要翻译（前提是有 abstract）
     targets = []
     for topic, items in dblp_cache.items():
         for idx, item in enumerate(items):
             paper_year = str(item.get("year", ""))
             if year != "all" and paper_year != year:
                 continue
-            existing = str(item.get("abstract") or "").strip()
-            if existing and not retry_failed:
+            abstract = (item.get("abstract") or "").strip()
+            abstract_cn = (item.get("abstract_cn") or "").strip()
+            needs_abstract = (not abstract) or retry_failed
+            needs_translation = False
+            if not needs_abstract:
+                needs_translation = not abstract_cn
+            if not needs_abstract and not needs_translation:
                 continue
             targets.append((topic, idx, item))
 

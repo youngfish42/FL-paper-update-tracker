@@ -79,7 +79,13 @@ def run(year: str = None, retry_all: bool = False) -> None:
 
     # 提取纯论文 dict 列表供批量获取
     papers = [t[2] for t in targets]
-    fetch_doi_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email=contact_email)
+    fetch_doi_for_papers(
+        papers,
+        sleep_sec=1.0,
+        max_retries=3,
+        contact_email=contact_email,
+        overwrite=retry_all,
+    )
 
     # 写回缓存
     logger.info("Saving results...")

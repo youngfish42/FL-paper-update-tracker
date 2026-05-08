@@ -738,8 +738,8 @@ def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.
     return None, None, last_request_time
 
 
-def fetch_doi_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email=""):
-    """为论文列表批量获取 DOI（仅补充缺失 DOI 的条目）。
+def fetch_doi_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email="", overwrite=False):
+    """为论文列表批量获取 DOI（默认仅补充缺失 DOI 的条目）。
 
     查询优先级：
       1. DBLP API（通过论文 key 重新查询，最权威）
@@ -751,6 +751,7 @@ def fetch_doi_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email="")
         sleep_sec: 两次请求之间的最小间隔（秒），默认 1.0。
         max_retries: 每个 API 的最大重试次数。
         contact_email: 用于 Crossref User-Agent 的联系邮箱（可选）。
+        overwrite: 是否对已有 DOI 的条目也重新获取。默认 False。
 
     Returns:
         传入的 papers 列表（原地修改，为每个 dict 添加/更新 doi 字段）。
@@ -769,7 +770,7 @@ def fetch_doi_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email="")
         key = (paper.get("key") or "").strip()
         existing_doi = (paper.get("doi") or "").strip()
 
-        if existing_doi:
+        if existing_doi and not overwrite:
             skipped += 1
             continue
 

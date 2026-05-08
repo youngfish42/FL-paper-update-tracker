@@ -1,0 +1,45 @@
+name: Backfill Abstracts and CN Translation
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "Year to process (default: all)"
+        required: false
+        default: "all"
+
+permissions: write-all
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    env:
+      DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Incremental abstract + translation backfill
+        run: |
+          python scripts/fetch_abstracts.py --year "${{ github.event.inputs.year || 'all' }}"
+
+      - name: Setup GIT user
+        run: |
+          git config --global user.name "youngfish42"
+          git config --global user.email "youngfish42@users.noreply.github.com"
+
+      - name: Push updated cache
+        run: |
+          git add cached/dblp.yaml
+          git diff --cached --quiet || git commit -m "Backfill abstracts @ $(date '+%Y-%m-%d %H:%M')"
+          git push origin main

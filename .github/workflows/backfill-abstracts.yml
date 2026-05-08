@@ -42,5 +42,5 @@ jobs:
       - name: Push updated cache
         run: |
           git add cached/dblp.yaml
-          git diff --cached --quiet || git commit -m "Backfill abstracts @ $(date '+%Y-%m-%d %H:%M')"
+          git diff --cached --quiet || git commit -m "Backfill abstracts @ $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
           git push origin main

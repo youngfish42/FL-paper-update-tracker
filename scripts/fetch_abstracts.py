@@ -103,7 +103,9 @@ def run(year: str = None, retry_failed: bool = False, clean_only: bool = False) 
             abstract = (item.get("abstract") or "").strip()
             abstract_cn = (item.get("abstract_cn") or "").strip()
             needs_abstract = (not abstract) or retry_failed
-            needs_translation = bool(abstract) and (not abstract_cn)
+            needs_translation = False
+            if not needs_abstract:
+                needs_translation = not abstract_cn
             if not needs_abstract and not needs_translation:
                 continue
             targets.append((topic, idx, item))

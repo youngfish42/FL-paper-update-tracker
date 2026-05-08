@@ -4250,6 +4250,7 @@ federate%20venue%3AAAAI%3A:
     with high-quality graph data to participate in training within budget constraints,
     thereby improving the model quality. Experimental results validate the superiority
     of the AEFGL mechanism and the economic properties it satisfies.
+  abstract_cn: 联邦图学习使多个客户端能够在保护本地私有数据的同时协同训练图模型。然而，现有研究大多假设所有客户端均自愿且积极地贡献数据。若缺乏合理的激励机制，客户端往往不愿为模型训练提供个人数据。此外，激励预算通常有限；如果对图数据质量较低的客户端给予激励以参与训练，将对系统中各方的训练效果产生负面影响。为此，我们提出一种基于逆向拍卖与价值评估的联邦图学习激励机制——AEFGL。首先，我们设计了一种将图结构属性模式与客户端生产价值相结合的逆向拍卖机制；随后，提出了一种通过比较客户端预期收益与实际价值来评估其生产价值的方法。该机制能够在预算约束范围内激励高质量图数据的客户端参与训练，从而提升模型质量。实验结果验证了AEFGL机制的优越性及其所满足的经济特性。
 - author: Bryan Shan Guanrong, Alysa Ziying Tan, Han Yu 0001
   title: Federated Learning Playground.
   venue: AAAI
@@ -4271,6 +4272,9 @@ federate%20venue%3AAAAI%3A:
     AI while also offering a sandbox for rapidly prototyping and comparing FL methods.
     By democratizing exploration of FL, it promotes broader understanding and adoption
     of this important paradigm.
+  abstract_cn: 我们推出了联邦学习 Playground——一个受 TensorFlow Playground 启发并加以扩展的交互式浏览器平台，用于教授联邦学习（FL）的核心概念。用户无需编写代码或进行系统配置，即可在浏览器中直接试验异构的客户端数据分布、模型超参数和聚合算法，并通过实时可视化观察这些因素对客户端模型和全局模型的影响，从而深入理解非独立同分布数据、局部过拟合以及可扩展性等挑战。该
+    Playground 作为一个易于使用的教育工具，降低了分布式人工智能领域的入门门槛，同时也为快速原型设计和联邦学习方法的比较提供了一个沙盒环境。通过 democratize
+    联邦学习的探索，它促进了对这一重要范式的更广泛理解和应用。
 - author: Sunny Gupta, Nikita Jangid, Amit Sethi
   title: 'UniVarFL: Uniformity and Variance Regularized Federated Learning for Heterogeneous
     Data (Student Abstract).'
@@ -4297,6 +4301,7 @@ federate%20venue%3AAAAI%3A:
     on multiple benchmark datasets demonstrate that UniVarFL outperforms existing
     methods in accuracy, highlighting its potential as a highly scalable and efficient
     solution for real-world FL deployments, especially in resource-constrained settings.'
+  abstract_cn: 联邦学习（FL）在处理非独立同分布（Non-IID）数据时，性能往往会严重下降，这主要归因于本地分类器的偏差。传统的解决方法，如全局模型正则化或冻结部分网络层，要么计算开销过高，要么难以适应特征分布的变化。为此，我们提出了一种名为UniVarFL的新颖联邦学习框架，该框架直接在客户端层面模拟IID条件下的训练动态，从而无需依赖全局模型。UniVarFL在本地训练过程中采用两种互补的正则化策略：分类器方差正则化，通过使各类别的概率分布与IID条件下预期的分布对齐，有效缓解本地分类器偏差；以及超球面均匀性正则化，促使特征表示在超球面上均匀分布，进而提升模型在多样化数据分布下的泛化能力。我们在多个基准数据集上开展的大量实验表明，UniVarFL在准确率方面优于现有方法，凸显其作为高可扩展、高效解决方案的潜力，尤其适用于资源受限的实际联邦学习场景。
 - author: Suraj Prasad, Navyansh Mahla, Sunny Gupta, Amit Sethi
   title: Federated Cross-Modal Style-Aware Prompt Generation (Student Abstract).
   venue: AAAI
@@ -4320,6 +4325,7 @@ federate%20venue%3AAAAI%3A:
     Experiments on multiple image classification datasets demonstrate that FedCSAP
     significantly outperforms existing federated prompt learning methods in both accuracy
     and generalization.
+  abstract_cn: 现有的针对CLIP等视觉‑语言模型的联邦提示学习方法仅依赖于基于文本的提示和最后一层的视觉特征，因而忽略了关键的多尺度视觉细节以及客户端特有的风格差异。这限制了模型在非独立同分布数据分布和新类别上的泛化能力。为此，我们提出了FedCSAP（联邦跨模态风格感知提示生成），该方法同时利用CLIP视觉编码器中的多尺度特征与来自客户端数据的领域感知风格统计信息。通过将这些视觉表征与文本上下文融合，FedCSAP能够生成自适应的、上下文感知的提示，从而提升模型在已见及未见类别上的鲁棒性。我们的隐私保护方法采用本地训练与全局聚合的方式运行，可有效应对异构的客户端数据分布。在多个图像分类数据集上的实验结果表明，FedCSAP在准确率和泛化性能方面均显著优于现有的联邦提示学习方法。
 - author: Jarin Tasneem
   title: 'Breaking Cross-View Associations: Byzantine Model Poisoning Attack against
     Vertical Federated Learning.'
@@ -4344,6 +4350,7 @@ federate%20venue%3AAAAI%3A:
     inference accuracy in a VFL system by breaking cross-view association through
     feature-space corruption. Our findings emphasize the urgent need for robust, VFL-specific
     defenses to ensure reliability in collaborative, cross-silo AI systems.
+  abstract_cn: 联邦学习（FL）作为一种关键的跨机构协同训练框架，在保护敏感数据本地化的同时，正迅速崛起，其背后推动力源自数据规模的持续增长以及日益严峻的隐私担忧。在这一范式下，垂直联邦学习（VFL）使拥有同一样本空间不同特征的各方得以协作，从而支持欺诈检测、医学诊断和信用评分等任务。然而，多参与方的加入也带来了新的恶意干扰漏洞。VFL中一个至关重要但尚未得到充分研究的威胁是拜占庭污染攻击：攻击者通过故意破坏训练过程来降低模型的整体性能。本研究揭示了一种实际存在的漏洞——仅需一名恶意参与者，便可通过特征空间污染破坏跨视图关联，从而显著降低VFL系统的推理准确率。我们的研究结果强调，亟需构建针对VFL场景的稳健防御机制，以确保跨机构协作式人工智能系统的可靠性。
 - author: Jiaxu Zhao 0002, Meng Fang, Mingze Zhong, Shunfeng Zheng, Ling Chen 0006,
     Mykola Pechenizkiy
   title: Investigating Social Bias Propagation in Federated Fine-tuning of Large Language
@@ -4373,6 +4380,10 @@ federate%20venue%3AAAAI%3A:
     bias scores than segregated distributions. Additionally, we propose Bias-Aware
     Model Aggregation (BAMA), a novel debiasing method for federated fine-tuning that
     consistently reduces bias across various models and algorithms.
+  abstract_cn: 大型语言模型（LLMs）在诸多领域取得了显著成效，但数据质量和隐私方面的担忧日益加剧。联邦学习（FL）通过在本地客户端上训练模型而不共享数据，提供了一种保护隐私的解决方案。然而，经过联邦学习微调的大型语言模型受偏见性私有数据影响的程度仍鲜有研究。本工作探讨了在大型语言模型的联邦微调过程中，客户端侧的偏见性数据如何影响全局模型。我们通过大量实验，模拟了真实场景：部分客户端的数据集中存在社会偏见（如刻板印象、歧视性语言），而另一些客户端则拥有纯净数据。实验采用主流的联邦学习算法（FedAvg、FedAdam
+    和 FedProx）以及流行的大型语言模型（LLaMA、Mistral、Phi-3 和 Gemma），并针对不同偏见比例（33%、66%、100%）的数据集展开研究。研究结果表明：1）FedAdam
+    始终表现出最低的偏见传播，其 CrowS-Pairs 分数较 FedAvg 降低多达 15%；2）即使少量的偏见性数据（33%）也会显著影响全局模型的偏见程度；3）混合分布的偏见与中性数据会导致比分离分布高
+    5%–7% 的偏见得分。此外，我们还提出了一种面向偏见的模型聚合方法（BAMA），这是一种用于联邦微调的新型去偏方法，在多种模型和算法上均能持续降低偏见。
 - author: Zhanyi Hu, Cen Chen 0001, Yanhao Wang 0001
   title: 'FILTER: A Framework for Defending Against Backdoor Attacks in Vertical Federated
     Learning.'
@@ -4401,6 +4412,7 @@ federate%20venue%3AAAAI%3A:
     attacks, we demonstrate that FILTER significantly reduces the success rate of
     attacks while maintaining accuracy on clean data close to that of the models trained
     without such defenses.'
+  abstract_cn: 垂直联邦学习（VFL）是一种分布式机器学习范式，其中参与方使用垂直划分的数据来训练模型。先前的许多研究已经揭示了VFL系统中的后门漏洞。然而，针对此类攻击的防御机制研究却相对有限。与集中式机器学习或水平联邦学习不同，VFL在抵御后门攻击方面面临新的挑战，尤其是由于中央服务器无法控制整个模型。在本文中，我们首先探讨了当攻击者掌握充分的标签信息时，VFL中抵御后门攻击的防御方法。具体而言，我们提出了一种名为FILTER的框架，用于在存在恶意参与方的情况下，保障VFL系统在训练过程中的完整性。为应对VFL中的后门风险，FILTER集成了两种新颖的过滤器：基于嵌入的过滤器和基于损失的过滤器，它们能够在训练的后期阶段有效识别并移除被污染的样本。通过对五个基准数据集上四种最先进的后门攻击进行的大量实验，我们证明了FILTER能够显著降低攻击的成功率，同时保持对干净数据的准确率接近于未采用此类防御机制的模型。
 - author: Yimin Liu, Peng Jiang, Qi Liu, Liehuang Zhu
   title: Generic Adversarial Attack Framework Against Graph-based Vertical Federated
     Learning.
@@ -4429,6 +4441,7 @@ federate%20venue%3AAAAI%3A:
     SGAC crafts transferable contribution-monopoly adversarial inputs that hijack
     GVFL incentives. Extensive experiments across diverse model architectures validate
     SGAC's effectiveness.
+  abstract_cn: 基于图的纵向联邦学习（GVFL）使多方能够在对齐的节点上协同训练和推理，其中每一方都贡献基于不同属性和邻接关系生成的本地嵌入。攻击者注入的对抗性输入可将联合预测结果导向其期望的目标，同时削弱良性参与方的影响力并贬低其贡献。然而，大多数攻击通常依赖于预先设定的假设，例如能够访问服务器架构、查询模型或使用域内辅助图。在本文中，我们提出了一种名为SGAC的攻击框架，它无需上述假设即可实现对联合推理的完全控制。SGAC通过学习与标签相关的嵌入以及类别可迁移的概率，利用非训练域的辅助图构建一个能够精确模拟服务器端分类行为的代理模型。随后，SGAC进一步利用辅助图上节点属性和边的重要性得分，构造出一组多样化的影子输入，这些输入与具有高度影响力的测试样本极为相似。借助代理模型的高保真度和输入的多样性，SGAC能够生成具有迁移性的、用于垄断贡献份额的对抗性输入，从而劫持GVFL的激励机制。我们在多种不同模型架构上的大量实验验证了SGAC的有效性。
 - author: Yuhan Xie, Chen Lyu 0002
   title: 'HealSplit: Towards Self-Healing Through Adversarial Distillation in Split
     Federated Learning.'
@@ -4458,6 +4471,7 @@ federate%20venue%3AAAAI%3A:
     on four benchmark datasets demonstrate that HealSplit consistently outperforms
     ten state-of-the-art defenses, achieving superior robustness and defense effectiveness
     across diverse attack scenarios.'
+  abstract_cn: 分割联邦学习（SFL）是一种新兴的隐私保护分布式学习范式。然而，它仍然容易受到针对本地特征、标签、篡改数据和模型权重的复杂数据投毒攻击。现有的防御机制大多源自传统的联邦学习（FL），但在SFL场景下效果欠佳，这是因为无法获取完整的模型更新信息。本文提出了HealSplit，这是首个专为SFL设计的统一防御框架，能够对五类复杂的投毒攻击实现端到端的检测与恢复。HealSplit包含三个核心组件：（1）一种拓扑感知的检测模块，通过在篡改数据上构建图结构，利用拓扑异常评分（TAS）识别受污染样本；（2）一条生成式恢复流水线，为检测到的异常样本合成语义一致的替代数据，并由一致性验证学生模型进行验证；（3）一种对抗性多教师蒸馏框架，该框架以普通教师提供的语义监督以及异常影响去偏置（AD）教师提供的异常感知信号作为指导，结合拓扑交互矩阵与基于梯度的交互矩阵之间的对齐关系来训练学生模型。在四个基准数据集上的大量实验表明，HealSplit始终优于十种最先进的防御方法，在多种攻击场景下均展现出更优的鲁棒性和防御效能。
 - author: Xu Zhang, Hangcheng Liu, Shangwei Guo, Shudong Zhang, Tianwei Zhang 0004,
     Tao Xiang 0001
   title: 'ShadeEdit: A Utility-Preserving and Defense-Evasive Knowledge Manipulation
@@ -4488,6 +4502,7 @@ federate%20venue%3AAAAI%3A:
     ShadeEdit achieves an average 99.5% attack success rate over eight robust aggregation
     algorithms while preserving instruction-following accuracy, demonstrating its
     strong attack effectiveness and model-utility preservation.'
+  abstract_cn: 近期研究揭示，攻击者可通过模型编辑技术操纵大型语言模型（LLMs）在特定主题上的内部知识，从而在用户查询相关内容时诱导模型生成攻击者指定的有害或偏见性输出。一旦此类被篡改的LLM被分发出去，便可能在目标主题上误导用户，进而传播虚假信息或强化刻板印象。然而，现有的知识操纵攻击依赖于重新分发已被攻陷模型的能力，这在联邦指令微调（FedIT）等受限场景中难以实现——因为在这些场景中，中央服务器负责控制LLM的训练与分发过程。  在本工作中，我们提出了ShadeEdit，这是首个利用强化模型编辑技术、能够在FedIT场景下实施知识操纵的攻击框架。ShadeEdit引入了两个关键组件，以应对FedIT训练过程中面临的两大挑战：（1）基于释义的编辑数据集选择策略，通过构建高质量的编辑数据集来缓解良性更新对恶意更新的稀释效应；（2）自适应操纵机制，借助自适应裁剪策略规避基于聚合的防御措施。实验结果表明，ShadeEdit在八种稳健的聚合算法上均实现了平均99.5%的攻击成功率，同时保持了良好的指令遵循能力，充分展现了其强大的攻击效果以及对模型实用性的有效保护。
 - author: Yuanzhe Peng, Wenwei Zhao, Zhuo Lu, Jie Xu 0001
   title: Equilibrium-Driven Vertical Federated Learning with Selective Privacy Protection.
   venue: AAAI
@@ -4515,6 +4530,7 @@ federate%20venue%3AAAAI%3A:
     baselines, demonstrating significant improvements in the accuracy-privacy trade-off
     under various privacy settings. Extensive experimental results support our theoretical
     analysis.'
+  abstract_cn: 垂直联邦学习（VFL）允许特征划分数据的多个客户端在不泄露原始数据、仅传输嵌入表示的情况下协同训练模型，从而保护隐私。然而，这些嵌入仍可能暴露与目标任务无关的敏感属性（如性别或种族），使其容易遭受属性推断攻击。现有的大多数隐私保护策略虽然能够提供额外的防护，但往往以牺牲模型准确率和过度消耗隐私预算为代价。为此，本文提出了一种新颖的、基于均衡驱动的垂直联邦学习框架，针对难以从嵌入中分离的敏感属性实施选择性隐私保护，从而在小幅降低模型准确率的前提下提升本地隐私水平。我们引入了两项关键创新：（1）一种名为NashCoder的编码器，其内置代理头可联合优化模型准确率与隐私保护；（2）一种基于Shapley值的自适应分解策略，该策略从均衡视角出发，动态分解全局目标函数以支持分布式优化。我们对所提框架进行了理论分析，并在三个公开数据集上与五种基线方法进行了全面的实验评估，结果表明，在不同隐私设置下，我们的方法显著改善了准确率与隐私之间的权衡。丰富的实验结果也有力地支持了我们的理论分析。
 - author: Yiyuan Yang, Guodong Long, Qinghua Lu 0001, Liming Zhu 0001, Jing Jiang
     0002
   title: 'Bi-level Personalization for Federated Foundation Models: A Task-vector
@@ -4541,6 +4557,7 @@ federate%20venue%3AAAAI%3A:
     information while mitigating the disturbance of irrelevant or interest-conflict
     clients with non-IID data. The effectiveness of the proposed algorithm has been
     demonstrated by extensive experimental analysis in benchmark datasets.
+  abstract_cn: 联邦基础模型代表了一种新的范式，能够在多个客户端之间联合微调预训练的基础模型。然而，为少量新用户或特定场景微调基础模型仍面临挑战，因为这些情况下的数据往往远少于预训练阶段所使用的大规模数据。在这种背景下，个性化与联邦学习之间的权衡变得更加敏感。为此，我们提出了一种用于基础模型联邦微调的双层个性化框架。具体而言，在客户端层面利用其私有数据进行个性化微调；随后，在服务器层面基于客户端特定的任务向量度量相似用户，执行个性化的聚合操作。借助客户端层面微调获得的个性化信息，服务器层面的个性化聚合能够在减少非独立同分布数据中无关或利益冲突客户端干扰的同时，获取群体级别的个性化信息。通过在基准数据集上的大量实验分析，我们验证了所提出算法的有效性。
 - author: Zhiwei Ye, Songsong Zhang, Wen Zhou 0007, Libing Wu, Jun Shen 0001, Ting
     Cai 0002, Mingwei Wang 0003, Jixin Zhang
   title: Incomplete Multi-View Unsupervised Federated Feature Selection via Cooperative
@@ -4575,6 +4592,8 @@ federate%20venue%3AAAAI%3A:
     on multiple datasets demonstrate that IMUFFS consistently outperforms state-of-the-art
     methods, yielding more effective and robust FS and enhancing better missing-view
     completion.'
+  abstract_cn: 随着多视图数据在众多领域的广泛应用，多视图无监督特征选择（MUFS）在特征剪枝和缺失视图补全方面取得了显著进展。然而，现有的MUFS方法通常依赖于中心化服务器，难以满足实际应用中对隐私保护和分布式学习的需求，并且往往存在解的次优性以及收敛性保证较弱的问题。为此，本文提出了一种基于协同粒子群优化（CPSO）和张量对齐学习（TAL）的不完全多视图无监督联邦特征选择方法——IMUFFS。具体而言，每个客户端在两个阶段分别执行CPSO-TAL：(i)
+    外部优化阶段，采用受杂交育种优化算法协同进化机制启发的CPSO，在特征空间中进行全局搜索；(ii) 内部优化阶段，利用结合插值和CP分解的TAL，其中CP分解通过将原始张量分解为核心成分之和来实现降维，从而学习低维嵌入表示，并同时更新锚定图和视图偏好权重，以协同推进插值与表示学习。在服务器端，基于自适应归一化互信息（NMI）加权的联邦聚合策略，融合各客户端本地优化得到的特征选择权重及NMI分数，在保障隐私的同时提升特征选择质量和收敛性。在多个数据集上的大量实验表明，IMUFFS始终优于当前最先进的方法，能够生成更有效、更鲁棒的特征选择结果，并显著改善缺失视图的补全效果。
 - author: Moxuan Zeng, Wenxuan Tu, Yuanyi Chen, Yiying Wang, Miao Yu, Xiangyan Tang,
     Jieren Cheng
   title: 'FedPKDA: Personalized Federated Learning with Privacy-Preserving Knowledge
@@ -4608,6 +4627,7 @@ federate%20venue%3AAAAI%3A:
     facilitating effective cross-client knowledge sharing under heterogeneous settings
     while preserving client-specific characteristics. Extensive experiments on benchmark
     datasets have verified the superiority of FedPKDA against its competitors.
+  abstract_cn: 个性化联邦学习（PFL）旨在在保护数据隐私的同时为每个客户端定制模型，已成为应对数据异构性挑战的重要研究方向。现有研究通常通过将本地信息注入全局共享模型来增强全局参数的局部化程度。然而，这些方法过度关注单个客户端的个性化特征，未能充分挖掘跨客户端的差异性信息，从而限制了本地模型对未见样本的良好表征能力。为此，我们提出了一种新颖的个性化联邦隐私保护知识动态对齐框架（FedPKDA），该框架在客户端关键信息的采集及其融入联邦模型训练的过程中均能有效保障数据隐私。具体而言，在跨客户端信息采集阶段，我们首先对各客户端提取的局部原型进行特征裁剪并添加拉普拉斯噪声；随后，在隐空间中计算上传的局部原型的质心，并利用马氏距离引导全局原型的生成，以保留参与客户端的语义贡献。此外，为进一步提升本地模型的个性化程度，我们将共享模型所学表示同时与一组本地原型以及经过隐私保护处理的全局原型进行动态对齐，从而在异构环境下促进有效的跨客户端知识共享，同时保持客户端特有的个性化特征。在基准数据集上的大量实验结果证实，FedPKDA相较于现有方法具有显著优势。
 - author: Dewen Zeng, Wenlong Tian, Haozhao Wang, Jianfeng Lu 0002, Weijun Xiao, Zhiyong
     Xu 0003
   title: 'Ripple Shapley: Data Influence Attribution in One Federated Training Run.'
@@ -4633,6 +4653,9 @@ federate%20venue%3AAAAI%3A:
     significantly improving efficiency, robustness, and fairness in federated environments.
     We further demonstrate its effectiveness in dynamic federated learning scenarios
     and its potential for real-time data pricing.
+  abstract_cn: 贡献度评估是激励联邦学习（FL）中高质量数据共享的关键，然而现有的基于Shapley值的方法计算成本高昂，并且忽略了时间维度上的影响传播。在本文中，我们提出了一种名为Ripple
+    Shapley的新颖归因框架，能够在单次联邦训练过程中实现准确、实时的数据估值。我们的方法将每个样本的影响分解为瞬时下降项和递归涟漪项，其中后者通过全局更新过程中的雅可比链来捕捉下游影响。为了降低计算复杂度，我们引入了雅可比矩阵乘积的低秩近似，并构建了一个共享子空间，以高效地累积涟漪效应。在CIFAR-10和MNIST上的大量实验表明，Ripple
+    Shapley相较于现有基于Shapley值的联邦学习方法，速度最高可提升62倍，同时保持较高的归因精度，在联邦环境中显著提升了效率、鲁棒性和公平性。此外，我们还证明了该方法在动态联邦学习场景中的有效性，以及其在实时数据定价方面的潜力。
 - author: Li Zhang, Pinhan Fu, Li Lv, Qian Guo 0005, Liang Du 0003, Xinyan Liang
   title: 'EvoFMVC: Trusted Federated Multi-View Clustering with Evolutionary Fusion.'
   venue: AAAI
@@ -4663,6 +4686,7 @@ federate%20venue%3AAAAI%3A:
     algorithms, which significantly improves the fusion effect and model performance.
     Experimental results on multiple datasets show that our method is superior to
     existing FMVC methods in terms of clustering accuracy and communication efficiency.'
+  abstract_cn: 随着对隐私敏感数据的去中心化协同分析需求不断增长，联邦多视图聚类（FMVC）因其能够在保护隐私与协同建模之间取得平衡而备受关注。然而，现有方法仍面临以下挑战：（1）客户端需要频繁上传模型参数或图结构等高维数据，导致通信开销较高；（2）上传的结构化数据往往包含语义特征，存在较高的逆向推断风险；（3）服务器通常采用固定的融合规则来整合来自所有客户端的数据，在存在低质量客户端的情况下，可能导致聚类结果次优。为解决上述问题，我们提出了一种新的可信联邦多视图聚类框架（EvoFMVC），并引入三项关键创新：首先，采用轻量级的可信证据作为紧凑的通信媒介，相比传统的模型参数或图结构，显著降低了开销；其次，可信证据以概率分布的形式表达聚类结果，从而避免了结构化信息易被逆向推断的风险；最后，我们将服务器端的聚合过程形式化为一个神经架构搜索（NAS）任务，由服务器通过进化算法灵活选择不同的融合算子来筛选和融合必要的视图，从而显著提升融合效果和模型性能。在多个数据集上的实验结果表明，我们的方法在聚类准确性和通信效率方面均优于现有的FMVC方法。
 - author: Li Zhang, Zhongxuan Han, Xiaohua Feng 0002, Jiaming Zhang 0001, Yuyuan Li
     0001, Linbo Jiang, Jianan Lin, Chaochao Chen 0001
   title: 'TOFA: Training-Free One-Shot Federated Adaptation for Vision-Language Models.'
@@ -4698,6 +4722,7 @@ federate%20venue%3AAAAI%3A:
     relying on additional training resources on either the client or server side.
     Extensive experiments across 9 datasets in various federated settings demonstrate
     the effectiveness of the proposed TOFA method.'
+  abstract_cn: 通过本地客户端与中央服务器之间的协同交互，高效且轻量地将预训练的视觉—语言模型（VLM）适配到下游任务，是联邦学习领域中一个迅速兴起的研究方向。现有的适配算法通常采用迭代式训练，这不仅带来了高昂的通信开销，还增加了模型对潜在攻击的脆弱性。受单次联邦训练技术的启发——该技术可将客户端与服务器之间的交互缩减至一轮——开发一种轻量化的单次联邦VLM适配方法，以缓解上述问题，显得尤为吸引人。然而，当前的单次方法在联邦环境下的VLM适配中仍面临若干挑战：（1）未能充分挖掘VLM本身所蕴含的丰富多模态信息；（2）缺乏专门的适配策略来系统性地应对严重的数据异质性；以及（3）需要额外的客户端或服务器端训练资源。为弥补这些不足，我们提出了一种面向VLM的新型无训练单次联邦适配框架，命名为TOFA。为了充分利用预训练VLM中具有泛化能力的多模态特征，TOFA同时采用视觉和文本两条流水线来提取与任务相关的表征。在视觉流水线上，基于层次贝叶斯模型学习个性化的、类别特定的原型分布；而在文本流水线上，则对生成的本地文本提示进行评估并进行全局对齐，以提升鲁棒性。此外，TOFA还引入了一种自适应权重校准机制，用于融合来自两种模态的预测结果，从而在个性化与鲁棒性之间取得平衡，以有效应对数据异质性。我们的方法无需训练，既不依赖客户端侧的额外训练资源，也不依赖服务器侧的额外训练资源。在多种联邦设置下的9个数据集上开展的大量实验，充分验证了所提出的TOFA方法的有效性。
 - author: Honglei Zhang 0002, Zhiwei Li 0007, Haoxuan Li 0001, Xin Zhou 0008, Jie
     Zhang, Yidong Li
   title: 'TransFR: Transferable Federated Recommendation with Adapter Tuning on Pre-trained
@@ -4728,6 +4753,7 @@ federate%20venue%3AAAAI%3A:
     We theoretically prove the advantages of incorporating adapter tuning in FRs regarding
     both effectiveness and privacy. Through extensive experiments, we show that our
     TransFR surpasses state-of-the-art FRs on transferability.
+  abstract_cn: 联邦推荐（FRs）作为一种新兴的端侧服务，能够在不泄露用户隐私数据的前提下，协同多个本地客户端共同学习全局模型。在传统联邦推荐中，主流范式是使用离散标识来表示客户端和物品，再将其映射到特定领域的嵌入向量，以参与模型训练。尽管这一方法取得了显著的效果，但我们发现其在联邦场景下存在三个不容忽视的固有局限：跨域迁移能力不足、冷启动场景下效果不佳，以及联邦训练过程中可能引发的隐私风险。为此，我们提出了一种可迁移的联邦推荐模型——TransFR，该模型巧妙地融合了预训练模型所赋予的通用能力与通过微调本地私有数据实现的个性化能力。具体而言，首先利用基于公开文本语料库的预训练模型学习与领域无关的物品表征；为进一步适配联邦推荐任务，我们进一步引入高效的联邦适配器微调及后适配个性化机制，通过拟合本地私有数据为每个客户端生成个性化的适配器。我们从理论上证明了在联邦推荐中引入适配器微调在有效性与隐私保护方面的优势。大量实验结果表明，我们的TransFR在跨域迁移能力方面显著优于现有最先进方法。
 - author: Jiale Zhang, Yanan Wang, Bosen Rao, Chengcheng Zhu, Xiaobing Sun 0001, Yu
     Li
   title: 'MultiKD: Backdoor Defense in Federated Graph Learning via Attention-Guided
@@ -4755,6 +4781,7 @@ federate%20venue%3AAAAI%3A:
     Extensive experiments on four real-world datasets demonstrate the effectiveness
     of our approach in significantly reducing attack success rate (≤ 8%) with minimal
     impact on utility (≤ 5%).
+  abstract_cn: 后门攻击对联邦图学习（FGL）构成严重威胁：恶意客户端可在不被察觉的情况下将隐蔽触发器注入全局模型。由于图结构的复杂性以及触发模式的隐蔽性，防御此类攻击尤为困难。为此，我们提出了一种基于注意力引导的多教师蒸馏的新型后门防御方法——MultiKD。与现有侧重于检测可疑客户端或限制后门激活的防御机制不同，MultiKD通过利用中间表示，在服务器端直接净化全局模型。该方法整合来自多个客户端模型的知识，通过对齐注意力图并保持层间关系一致性，引导全局模型抑制后门行为。我们的防御思路使MultiKD能够在保留任务相关信息的同时缓解恶意模式，即便部分教师模型已被攻陷亦能有效工作。我们在四个真实数据集上开展的大量实验表明，该方法可显著降低攻击成功率（≤8%），且对模型效用的影响极小（≤5%）。
 - author: Yuhang Zhang, Xianda Wang, Wei Sun, Jiaxuan Chen, Fangxin Wang 0001
   title: 'FedBRICK: Structural Bias Aware Heterogeneous Foundation Model Federated
     Tuning.'
@@ -4785,6 +4812,9 @@ federate%20venue%3AAAAI%3A:
     devices. Extensive experiments on federated learning benchmarks confirm that FedBRICK
     delivers up to a 5% average accuracy gain while requiring no more than 1.44% extra
     storage per client.
+  abstract_cn: 模型异构联邦微调（MHFT）通过允许客户端和服务器采用不同的模型架构，实现了在异构系统中对基础模型的隐私保护型微调。深度部分训练——即每个客户端仅更新模型的一小部分层——虽然能在一定程度上缓解系统异构性，却会加剧客户端漂移问题。这种漂移源于各客户端优化不同的目标函数，从而导致整体性能下降。除了广为人知的统计偏差——即非独立同分布数据引发的客户端漂移之外——我们还发现了一种由客户端仅部署全局模型的部分层所引起的结构偏差，这也是导致漂移的重要原因。进一步的理论分析表明，结构偏差的可能范围会随着缺失层数的增加呈线性增长。为应对这一效应，我们提出了
+    FedBRICK（通过插入校准核进行联邦偏差恢复），该方法在每个客户端的子网络中插入微型 BRICK 模块。我们采用双端逐层蒸馏机制，利用客户端本地数据以及服务器端的小规模公共代理数据集来训练这些模块。这一设计能够有效缓解因层缺失带来的结构偏差、减少客户端漂移，并且对存储受限的设备也具有良好的实用性。在联邦学习基准数据集上的大量实验结果证实，FedBRICK
+    可带来高达 5% 的平均准确率提升，同时每个客户端所需的额外存储空间不超过 1.44%。
 - author: Fuyao Zhang, Xinyu Yan, Tiantong Wu, Wenjie Li 0008, Tianxiang Chen, Yang
     Cao 0011, Ran Yan, Longtao Huang, Wei Yang Bryan Lim, Qiang Yang 0001
   title: 'Oblivionis: A Lightweight Learning and Unlearning Framework for Federated
@@ -4816,6 +4846,7 @@ federate%20venue%3AAAAI%3A:
     demonstrate that Oblivionis outperforms local training, achieving a robust balance
     between forgetting efficacy and model utility, with cross-algorithm comparisons
     providing clear directions for future LLM development.
+  abstract_cn: 大型语言模型（LLMs）越来越多地采用联邦学习（FL）技术，以在保护数据隐私的同时，利用私有、任务特定的数据集进行微调。然而，尽管联邦LLM框架能够有效实现无需共享原始数据的协作训练，却严重缺乏诸如欧盟《通用数据保护条例》（GDPR）中“被遗忘权”之类的合规机制。引入私有数据会加剧对数据质量和长期治理的担忧，但现有的分布式训练框架并未提供一种基于原则的方法，用于在训练完成后有选择地移除特定客户端的贡献。由于数据分散在各个孤岛中、严格的隐私约束以及模型聚合之间的相互依赖性，联邦LLM的遗忘过程比集中式LLM的遗忘过程复杂得多。为弥补这一空白，我们提出了Oblivionis——一个轻量级的学习与遗忘框架，使客户端能够在联邦LLM训练过程中有选择地移除特定的私有数据，从而提升模型的可信度和合规性。通过将联邦学习与遗忘视为双重优化目标，我们将6种联邦学习算法和5种遗忘算法整合在一起，进行全方位评估与对比分析，构建了一条稳健的联邦LLM遗忘流程。大量实验表明，Oblivionis的表现优于本地训练，在遗忘效果与模型效用之间实现了稳健的平衡；不同算法之间的比较也为未来LLM的发展指明了清晰的方向。
 - author: Zishuai Zhang 0001, Hainan Zhang 0001, Weihua Li, Qinnan Zhang, Jin Dong
     0004, Yongxin Tong, Zhiming Zheng 0001
   title: 'FedSEA-LLaMA: A Secure, Efficient and Adaptive Federated Splitting Framework
@@ -4849,6 +4880,9 @@ federate%20venue%3AAAAI%3A:
     LLaMA2 and achieves up to 8× speedups in training and inference. Further analysis
     of privacy attacks and different partition points also demonstrates the effectiveness
     of FedSEA-LLaMA in security and adaptability.'
+  abstract_cn: 私有数据因其高质量而有望提升大语言模型的性能，然而，这些数据分散存储于各个数据孤岛，加之大语言模型本身的高计算需求，限制了其在联邦学习环境中的部署。为此，我们提出了基于Transformer的联邦分割模型，该模型将大部分模型参数卸载至服务器（或分布式客户端），仅在客户端保留一小部分参数，以确保数据隐私。尽管如此，这类模型仍面临三大挑战：1)
+    点对点密钥加密难以有效保护传输向量的安全；2) 大语言模型的自回归特性使得联邦分割学习只能顺序地进行训练和推理，从而导致高昂的通信开销；3) 固定的分割点缺乏对下游任务的适应性。在本文中，我们提出了一种基于LLaMA2的Secure,
+    Efficient, and Adaptive Federated Splitting框架——FedSEA-LLaMA。首先，我们在前向传播的隐藏状态中注入高斯噪声，以实现端到端的安全向量传输。其次，我们采用注意力掩码压缩与KV缓存协同机制来降低通信成本，从而加速训练和推理过程。最后，我们允许用户根据具体任务需求动态调整输入/输出块的分割点。在自然语言理解、文本摘要和对话式问答等任务上的实验结果表明，FedSEA-LLaMA能够保持与集中式LLaMA2相当的性能，并使训练和推理速度最高提升8倍。此外，针对隐私攻击及不同分割点的进一步分析也证实了FedSEA-LLaMA在安全性与适应性方面的有效性。
 - author: Xingyue Zhao, Wenke Huang 0003, Xingguang Wang, Haoyu Zhao, Linghao Zhuang,
     Anwen Jiang, Guancheng Wan, Mang Ye
   title: 'Divide, Conquer and Unite: Hierarchical Style-Recalibrated Prototype Alignment
@@ -4881,6 +4915,8 @@ federate%20venue%3AAAAI%3A:
     decoder and fuses them with contextual information for finer-grained representation
     alignment. Extensive experiments on two public datasets demonstrate that our method
     exhibits remarkable performance.'
+  abstract_cn: 联邦学习使多家医疗机构能够在不共享数据的情况下共同训练一个全局模型，然而，来自不同扫描设备或成像协议的特征异质性仍然是一个重大挑战。现有许多研究尝试通过利用模型表示（例如，特征均值向量）来校正本地训练过程，但这些方法通常面临两个关键局限：1)
+    上下文表征学习不充分：当前方法主要关注网络的最后一层特征，忽视了多层级的关键线索，从而削弱了用于精确分割的重要上下文信息；2) 层级间风格偏差累积：尽管使用中间层表示可以在一定程度上对齐全局特征，但这些方法忽略了中间层中存在的领域特异性偏差，导致风格差异不断积累，进而降低模型的鲁棒性。为应对上述挑战，我们提出了FedBCS框架，通过构建领域不变的上下文原型并进行对齐，以弥合特征表示差距。具体而言，在原型构建过程中引入频域自适应风格重校机制，该机制不仅能够解耦内容与风格表征，还能学习最优的风格参数，从而生成更为稳健的领域不变原型。此外，我们还设计了一种上下文感知的双层级原型对齐方法，分别从编码器和解码器的不同层提取领域不变的原型，并将其与上下文信息融合，实现更细粒度的表征对齐。在两个公开数据集上的大量实验表明，我们的方法表现出卓越的性能。
 - author: Hao Zheng 0009, Shiyu Song, Zhigang Hu 0001, Meiguang Zheng, Liu Yang 0015,
     Aikun Xu, Rongchang Zhao, Ruizhi Pu, Ruiyi Fang, Boyu Wang 0004
   title: Intra-Class Unbiased Prototype Aggregation and Classifier Collaboration for
@@ -4915,6 +4951,7 @@ federate%20venue%3AAAAI%3A:
     optimization strategy effectively circumvents the bias introduced by global alignment.
     Extensive experiments under various non-IID settings show that FedIC significantly
     outperforms existing Prototype-based and Clustered PFL Methods.
+  abstract_cn: 基于原型的个性化联邦学习方法因其能够通过学习到的类别原型有效地表征客户端特有的类别特征而成为一种极具前景的策略。这些原型捕捉了客户端本地数据中的关键特征，从而促进模型的个性化适配。然而，现有的基于原型的聚合策略大多依赖于加权平均，隐含地假设各客户端之间的原型具有一致性。这一假设忽视了客户端数据固有的异质性以及非独立同分布（non-IID）特性，迫使多样化的本地原型向单一的全局原型靠拢，进而导致严重的聚合偏差。基于对类内特征显著性分析的观察，我们发现即使对于同一类别，不同客户端也会侧重于不同的特征区域。为了充分利用这种类内多样性，我们提出了FedIC——一种新颖的原型聚类与协同分类器优化方法。具体而言，FedIC首先根据类内相似性对原型进行聚类，形成类内原型子空间，确保聚合仅在每个簇内部进行，从而消除因强制全局统一而产生的偏差。为进一步挖掘簇内协作的优势，我们将同一簇内各客户端分类器的联合预测增益表示为分类器组合权重的函数。这种有针对性的聚合与协同优化策略有效规避了全局对齐带来的偏差。在多种非IID设置下的大量实验表明，FedIC显著优于现有的基于原型及聚类的个性化联邦学习方法。
 - author: Hang Zhou, Wentao Yu, Yang Wei, Guangyu Li, Sha Xu, Chen Gong 0002
   title: Inter-Client Dependency Recovery with Hidden Global Components for Federated
     Traffic Prediction.
@@ -4950,6 +4987,7 @@ federate%20venue%3AAAAI%3A:
     Intensive experiments on multiple datasets demonstrate that our FedHINT significantly
     outperforms the state-of-the-art methods, with an average decrease of 3.73 and
     4.81 on MAE and RMSE, respectively.
+  abstract_cn: 交通预测在城市治理中发挥着重要作用。然而，现有方法依赖于集中式的交通数据，这可能引发隐私担忧。联邦交通预测为不同地区的客户（如交通管理部门）提供了一种有前景的解决方案，使其能够在不暴露私有数据的前提下，以分布式方式协同训练模型。尽管如此，数据隔离本质上会破坏来自不同地区的节点（即采集数据的交通传感器）之间的相关性，从而导致跨客户端依赖关系的缺失。因此，当前的研究要么无法捕捉这种缺失的跨客户端依赖关系，要么不得不牺牲数据隐私来恢复该依赖关系。为解决这一问题，我们提出了一种基于隐藏全局组件的新型联邦学习方法——FedHINT。我们发现，不同本地区域的交通数据实际上蕴含着反映跨区域交通变化的隐藏全局组件。为此，FedHINT旨在从每个客户端中提取这些隐藏全局组件，生成能够表征全局信息的代理节点，进而用于恢复跨客户端的依赖关系。具体而言，我们采用一个注意力模块，在共享全局查询的引导下，从本地交通数据中捕获隐藏全局组件，以生成代理节点。随后，FedHINT通过一个全局编码器自适应地学习代理节点与本地节点之间的相关性。在此过程中，代理节点中的全局信息弥补了跨区域节点信息的缺失，从而恢复了原本缺失的跨客户端依赖关系。在多个数据集上的大量实验表明，FedHINT显著优于当前最先进的方法，其平均绝对误差（MAE）和均方根误差（RMSE）分别降低了3.73和4.81。
 - author: Shuman Zhuang, Zhihao Wu 0003, Wei Huang 0013, Luojun Lin, Jiali Yin, Lele
     Fu, Hong-Ning Dai
   title: 'Prior Refinement Is Better: Diffusion-Driven Graph Harmonization for Federated
@@ -4983,6 +5021,7 @@ federate%20venue%3AAAAI%3A:
     deployed as a plug-and-play module to be easily integrated with existing FGL architectures.
     Extensive experiments demonstrate that FedGH consistently outperforms state-of-the-art
     FGL baselines.
+  abstract_cn: 联邦图学习（FGL）作为一种在保护多源图数据隐私的同时协同训练全局模型的有力范式，近年来备受关注。然而，FGL面临数据异构性的关键挑战：不同客户端之间存在的语义和结构差异会显著降低其性能。尽管现有方法试图在联邦训练过程中对各客户端的图分布进行校准，但由于参数的动态更新，它们仍难以有效对齐各客户端的优化行为，从而导致泛化能力提升陷入瓶颈。为应对这一挑战，我们从先验精炼的新视角出发，提出在联邦训练开始前主动协调各客户端图分布的解决方案。具体而言，我们提出了联邦图协调框架（FedGH），该框架利用图扩散模型的生成优势，对本地图进行先验精炼。简言之，FedGH在每个客户端上设计了一种条件扩散机制，用于合成同时包含特征与结构先验的伪图，从而显式地纠正客户端间的分布偏差。在服务器端，我们通过不同客户端伪图之间的图对比学习来融合全局信息，并以此指导本地数据的重建。值得注意的是，FedGH具有模型无关性，可作为即插即用的模块无缝集成到现有的FGL架构中。大量实验表明，FedGH始终优于当前最先进的FGL基线方法。
 - author: Soheila Molaei, Bahareh Fatemi, Anshul Thakur, Andrew A. S. Soltan, Fazle
     Rabbi 0001, Andreas L. Opdahl, Kim Branson 0001, Patrick Schwab, Danielle Belgrave,
     David A. Clifton
@@ -5016,6 +5055,7 @@ federate%20venue%3AAAAI%3A:
     emergency department dataset, we demonstrate that our method accommodates clients
     with partially missing modalities, highlighting its robustness and scalability
     in real-world clinical settings.
+  abstract_cn: 联邦学习（FL）能够在分布式的电子健康记录（EHR）系统间实现隐私保护下的模型训练，但其实际部署仍受限于数据视图异构性——即不同机构采用互不兼容的本地数据模式。现有方法大多通过强制构建扁平化、对齐的数据视图来解决这一问题，这需要大量的跨站点预处理和人工协调工作，往往会导致客户端特有的特征被丢弃；或者将输入投影到一个共享的潜在空间中，从而牺牲了模型的可解释性。为此，我们提出一种建模范式转变：从传统的基于向量化输入的联邦学习，转向以关系为中心的符号化框架。在该框架下，每个客户端将其EHR数据组织为结构化、类型感知的关系图。这种表示方式无需进行模式对齐即可实现客户端特定的推理，并支持跨异构数据视图的联邦学习。为了对这类符号化结构进行建模，我们提出了一种结合关系感知的消息传递机制与可学习特征重要性机制的架构，既能实现准确的本地预测和客户端特异性可解释性，又能在不同客户端之间共享参数。除了在三个存在数据视图异构性的真实世界EHR数据集上取得优异性能外，我们还进一步证明，该框架能够支持模态级异构条件下的多模态联邦学习。借助公开可用的多模态急诊科数据集MC‑MED，我们展示了所提方法能够有效处理部分模态缺失的客户端，充分体现了其在真实临床环境中的鲁棒性和可扩展性。
 - author: Noorain Mukhtiar, Adnan Mahmood, Quan Z. Sheng
   title: 'CoRe-Fed: Bridging Collaborative and Representation Fairness via Federated
     Embedding Distillation.'
@@ -5045,6 +5085,7 @@ federate%20venue%3AAAAI%3A:
     aggregation. Extensive experiments across diverse models and datasets demonstrate
     that CoRe-Fed improves both fairness and model performance over state-of-the-art
     baseline algorithms.
+  abstract_cn: 随着分布式数据源的日益增多，联邦学习（FL）作为一种关键方法，能够在保护数据隐私的同时，通过去中心化的模型训练实现协作式智能。然而，传统的联邦学习算法往往因数据分布的异质性及参与度不均而出现客户端间性能差异，从而导致不公平的结果。具体而言，我们聚焦于两大核心公平性挑战：一是由客户端表示不对齐引发的表征偏差；二是由于聚合过程中贡献不均而导致的协作偏差。这两类偏差都会降低模型性能与泛化能力。为缓解这些差异，我们提出了CoRe-Fed——一个统一的优化框架，它通过嵌入级正则化与公平感知聚合，同时弥合协作公平与表征公平之间的鸿沟。首先，一种基于对齐的机制促进局部与全局嵌入之间的语义一致性，以减少表征差异；随后，一种基于动态奖惩的聚合策略根据各客户端的参与历史及嵌入对齐程度调整其权重，从而实现贡献感知的聚合。在多种模型和数据集上的大量实验表明，与当前最先进的基线算法相比，CoRe-Fed能够同时提升公平性和模型性能。
 - author: Bangqi Pan, Jianfeng Lu 0002, Shuqin Cao, Xiao Zhang 0006, Gang Li 0028,
     Guanghui Wen
   title: 'OPTION: An Online Pricing Strategy for Asynchronous Federated Learning Against
@@ -5077,6 +5118,7 @@ federate%20venue%3AAAAI%3A:
     effectively mitigates freeriding attacks in AFL, increases the number of valid
     updates by at least 23.97%, and achieves a model accuracy improvement of at least
     3.01% compared to state-of-the-art baselines.
+  abstract_cn: 异步联邦学习（AFL）因通过消除对慢节点的等待而加速异构系统上的协同训练，备受推崇。然而，现有方案大多聚焦于在更新延迟情况下提升收敛性，却忽视了延迟聚合会诱发搭便车攻击——恶意客户端无需作出任何贡献即可轻易窃取全局模型。这种行为不仅导致严重的公平性问题，还会显著降低模型性能。为应对这一挑战，我们提出了OPTION，这是首个专为缓解AFL中的搭便车问题而设计的在线定价策略。OPTION构建了一种经济模型，用户需使用基于已验证贡献所获得的积分来购买模型更新。具体而言，OPTION根据每次模型更新的边际性能增益和训练成本为其定价，并依据霍特林模型向各客户端收取下载费用，以防止零成本获取。此外，OPTION还在无套利约束下奖励成功提交更新的客户端，从而有效平衡个体效用与任务预算。为在满足上述条件的同时最大化平均模型性能，OPTION利用李雅普诺夫漂移框架和基于概率采样的算法来优化定价参数。在三个真实数据集上的大量实验结果表明，OPTION能够有效抑制AFL中的搭便车攻击，使有效更新数量至少提升23.97%，并使模型准确率相比当前最优基线至少提高3.01%。
 - author: Quyang Pan, Sheng Sun, Tingting Wi, Zhiyuan Wu, Yuwei Wang 0003, Min Liu
     0001, Bo Gao, Jingyuan Wang 0001
   title: Re-architecting Personalized Federated Learning for Demanding Edge Environments.
@@ -5110,6 +5152,11 @@ federate%20venue%3AAAAI%3A:
     of model structures, data distributions, and modalities. (2) DistilCacheFL can
     train splendid personalized on-device models with at least 28.6 improvement in
     communication efficiency.
+  abstract_cn: 联邦边缘学习（FEL）作为一种有前景的方法，能够在保护数据隐私的同时，使边缘设备协同训练机器学习模型。然而，实际部署仍面临诸多挑战，包括设备资源受限以及设备与服务器之间的交互问题，这要求在通信资源有限且不稳定的情况下，实现异构、用户自适应的模型训练。尽管基于知识缓存的联邦学习为严苛的边缘环境提供了一种有潜力的解决方案，但其基于
+    logits 的交互设计在设备端模型优化过程中所交换的信息丰富度不足。为此，我们提出了 DistilCacheFL——一种新颖的个性化联邦边缘学习架构，它在提升优化信息交换效率的同时，以高效的通信开销实现了当前最先进的性能。DistilCacheFL
+    结合了数据蒸馏与知识缓存驱动联邦学习的优势：将蒸馏得到的数据作为“知识”存储并组织于服务器端的知识缓存中，供各设备定期下载并用于本地模型的个性化优化。此外，我们还提出了一种以设备为中心的缓存采样策略，在可控的通信带宽内为不同设备量身定制传输的知识。在涵盖图像分类、音频理解及移动传感器数据挖掘任务的五个数据集上开展的大量实验表明：(1)
+    无论模型结构、数据分布和模态如何，DistilCacheFL 均显著优于现有最先进方法；(2) DistilCacheFL 能够训练出卓越的个性化设备端模型，同时将通信效率提升至少
+    28.6%。
 - author: Yiran Pang, Zhen Ni, Xiangnan Zhong
   title: 'Decoupling Shared and Personalized Knowledge: A Dual-Branch Federated Learning
     Framework for Multi-Domain with Non-IID Data.'
@@ -5142,6 +5189,7 @@ federate%20venue%3AAAAI%3A:
     among clients. Experiments on our new Chest-X-Ray-4 suite and three public benchmarks
     show that the proposed pFedDB method obtains 30% saving in communication overhead
     per round and competitive or better accuracy performance than recent FL methods.
+  abstract_cn: 联邦学习（FL）能够在不集中化数据的情况下实现模型的协同训练。在数据非独立同分布（non-IID）且跨域分布的场景中，预测性能往往受到两方面问题的制约：一是本地专有知识的灾难性遗忘，二是来自冲突客户端更新的负迁移效应。为应对这些挑战，我们提出了一种具有双分支结构的个性化联邦学习框架——pFedDB，并设计了两阶段训练协议。该双分支架构将模型分为共享分支和私有分支：共享分支用于跨客户端聚合，而私有分支则保留在每个本地客户端上。私有分支不会被服务器端的更新所覆盖，从而有效避免领域特定知识的灾难性遗忘。此外，这种结构还显著降低了每轮通信开销，因为只需传输共享分支即可。  为缓解负迁移问题，我们的两阶段协议首先通过在每个客户端的本地数据上训练单分支专家模型，建立个性化的知识锚点。在第二阶段，将本地训练得到的模型克隆为私有分支和共享分支的初始状态，而在联邦训练过程中仅对共享分支进行聚合。这一过程使共享分支能够学习到一种通用表示，与已建立的本地专长相辅相成。实验结果表明，该设计能够持续提升各客户端相对于其单一域基线的性能，成功克服了客户端间负迁移的难题。我们在新构建的Chest-X-Ray-4数据集以及三个公开基准上的实验显示，所提出的pFedDB方法在每轮通信开销上可节省30%，同时在准确率方面达到或超越近期其他联邦学习方法的水平。
 - author: Xinyi Sheng, Wei Bao 0001, Hequn Wang, Yuqin Liu, Sen Fu
   title: Retaliatory Attacks Against Federated Unlearning via Data Leakage.
   venue: AAAI
@@ -5170,6 +5218,7 @@ federate%20venue%3AAAAI%3A:
     model’s performance on the unlearned data. Extensive experiments across a variety
     of FU methods and settings validate the effectiveness of the proposed retaliatory
     attack framework.'
+  abstract_cn: 联邦去学习（FU）使联邦学习（FL）系统中的参与客户端能够将其贡献从已训练的全局模型中移除，从而落实该客户端的“被遗忘权”（RTBF）。然而，对于未请求去学习的客户端而言，FU过程的启动可能会中断正在进行的FL训练，并带来额外的计算和时间开销。在这种情况下，反对去学习的客户端可能会出于报复动机而对发起去学习的客户端采取行动。在本工作中，我们首次尝试通过利用FU过程中引入的信息泄露来证明此类报复行为的可行性。具体而言，我们提出了一种新颖的由去学习引发的成员推理攻击（MIA）模型，并配套开发了一种由粗到精的数据生成方法，使攻击者客户端能够在本地重建被去学习的数据。基于这一重建结果，我们进一步提出了两种针对性的报复性攻击：（1）反去学习攻击（AUA），旨在阻止全局模型成功遗忘拟移除的数据；以及（2）歧视性去学习攻击（DUA），专门用于降低全局模型在被去学习数据上的性能。我们在多种FU方法和不同设置下的大量实验验证了所提出的报复性攻击框架的有效性。
 - author: Zitong Shi, Guancheng Wan, Wenke Huang 0003, Yuxin Wu, Quan Zhang, Mang
     Ye
   title: 'Towards Robust Text-Attributed Federated Graph Learning: Multimodal Threats
@@ -5197,6 +5246,7 @@ federate%20venue%3AAAAI%3A:
     at both the node and system levels. Extensive experiments on five real-world datasets
     with diverse model backbones demonstrate that GTAE significantly degrades model
     performance, while STRUM consistently improves robustness.
+  abstract_cn: 文本属性图（TAGs）是节点和边均关联文本属性的图结构。为充分利用其语义丰富性，近期研究将大型语言模型（LLMs）与图神经网络相结合，从而催生了GraphLLM。然而，许多真实世界数据集仍难以获取，在确保隐私与效率的同时处理文本属性图仍面临挑战。为此，我们把TAGs置于联邦学习环境中，称为TAG-FGL。尽管潜力巨大，但在对抗性威胁面前，TAG-FGL仍未得到充分探索。本文提出GTAE，一种新颖的攻击框架，它通过级联影响引导的拓扑扰动与嵌入层文本优化，生成可迁移、跨模态的对抗样本。为防御此类威胁，我们进一步提出了STRUM，一种结合局部对抗训练与鲁棒性感知聚合的防御策略，可在节点和系统层面提升模型的抗脆弱性。在包含多种模型基线的五个真实世界数据集上开展的大量实验表明，GTAE能够显著降低模型性能，而STRUM则持续提升模型的鲁棒性。
 - author: Zhou Tan, De Li, Yirui Huang, Duanshu Fang, Jia-Li Yin, Xiaolei Liu, Songze
     Li, Shouling Ji
   title: 'DoBlock: Blocking Malicious Association Propagation for Backdoor-Robust
@@ -5225,6 +5275,7 @@ federate%20venue%3AAAAI%3A:
     (Digits, PACS, VLCS, Office-Caltech10, and DomainNet) show that DoBlock maintains
     attack success rates below 2.5%, while achieving the highest main task accuracy,
     demonstrating superior robustness without sacrificing benign performance.
+  abstract_cn: 联邦学习（FL）能够在保护隐私的同时实现分布式训练，但仍然容易受到后门攻击。攻击者可以通过参与模型聚合过程，将恶意触发器—标签关联嵌入到全局模型中。现有的防御方法通常通过检测并过滤那些偏离良性更新的恶意更新来抵御后门攻击。然而，我们发现，在领域偏移条件下，这些防御机制会失效：由于不同客户端之间的特征分布存在差异，导致更新异质性增加，从而使得区分恶意更新与良性更新变得更加困难。为应对这一挑战，我们提出了DoBlock这一新型防御方案。DoBlock利用一种可聚合的领域注入器，该注入器无法嵌入恶意关联，并通过联邦训练促进跨领域的知识共享。此外，DoBlock还通过将本地模型与聚合过程隔离来阻止恶意关联的传播；本地模型保持客户端专属特性，仅依赖本地数据进行训练。我们在五个具有领域偏移特性的数据集（Digits、PACS、VLCS、Office-Caltech10和DomainNet）上的实验表明，DoBlock能够将攻击成功率控制在2.5%以下，并同时获得最高的主任务准确率，这充分证明了其在不牺牲良性性能的前提下具备卓越的鲁棒性。
 - author: Dahao Tang, Nan Yang, Yanli Li, Zhiyu Zhu, Zhibo Jin, Dong Yuan 0001
   title: Optimal Look-back Horizon for Time Series Forecasting in Federated Learning.
   venue: AAAI
@@ -5257,6 +5308,7 @@ federate%20venue%3AAAAI%3A:
     approximation loss continues to rise. This work provides a rigorous theoretical
     foundation for adaptive horizon selection for time series forecasting in federated
     learning.
+  abstract_cn: 在时间序列预测（TSF）中，选择合适的回溯窗口长度始终是一项根本性挑战，尤其是在联邦学习场景下——数据往往是去中心化、异构且不独立的。尽管近期的研究已尝试通过在内在空间中保留与预测相关的信息来优化窗口长度的选择，但这些方法主要局限于集中式且数据独立同分布的设置。本文提出了一种基于内在空间表述的、用于联邦时间序列预测的自适应窗口长度选择的规范性框架。我们设计了一种合成数据生成器，能够捕捉客户端数据中的关键时间结构，包括自回归依赖、季节性和趋势，并融入各客户端特有的异质性特征。在此基础上，我们定义了一种变换，将时间序列窗口映射到具有明确几何与统计性质的内在表征空间。随后，我们将预测损失分解为两部分：一部分是贝叶斯项，反映不可约不确定性；另一部分是近似项，用于刻画有限样本效应及模型容量的局限性。我们的分析表明，虽然增大回溯窗口长度有助于提升确定性模式的可识别性，但也会因模型复杂度增加和样本效率降低而放大近似误差。我们进一步证明，当不可约损失开始趋于饱和、而近似损失仍持续上升时，总预测损失达到最小值，此时对应的窗口长度即为最优解。本研究为联邦学习环境下时间序列预测的自适应窗口长度选择提供了严格的理论基础。
 - author: Ran Tao, Qiugang Zhan, Shantian Yang, Xiurui Xie, Qi Tian, Guisong Liu
   title: 'SFedHIFI: Fire Rate-Based Heterogeneous Information Fusion for Spiking Federated
     Learning.'
@@ -5284,6 +5336,7 @@ federate%20venue%3AAAAI%3A:
     benchmarks demonstrate that SFedHIFI can effectively enable heterogeneous SFL,
     consistently outperforming all three baseline methods. Compared with ANN-based
     FL, it achieves significant energy savings with only a marginal trade-off in accuracy.
+  abstract_cn: 基于脉冲神经网络（SNN）能效优势的脉冲联邦学习（SFL）已得到广泛研究。然而，现有SFL方法要求模型同质化，并假定所有客户端均具备充足的计算资源，这导致部分资源受限的客户端被排除在外。为应对现实场景中普遍存在的系统异构性，构建支持客户端根据自身本地资源自适应部署不同规模模型的异构联邦学习系统至关重要。为此，我们提出了SFedHIFI——一种基于发放率的异构信息融合脉冲联邦学习框架。具体而言，SFedHIFI采用通道级矩阵分解技术，在资源异构的客户端上部署具有自适应复杂度的SNN模型。在此基础上，所提出的异构信息融合模块实现了不同宽度模型之间的跨尺度聚合，从而更好地利用多样化的本地知识。在三个公开基准数据集上的大量实验表明，SFedHIFI能够有效支持异构联邦学习，并始终优于三种基线方法。与基于人工神经网络的联邦学习相比，SFedHIFI在仅带来微小精度损失的情况下，实现了显著的能耗节约。
 - author: Joana Tirana, Dimitra Tsigkari, David Solans Noguero, Nicolas Kourtellis
   title: Data Heterogeneity and Forgotten Labels in Split Federated Learning.
   venue: AAAI
@@ -5309,6 +5362,10 @@ federate%20venue%3AAAAI%3A:
     mitigation method inspired by multi-head neural networks and adapted for the SFL
     setting. Extensive numerical evaluations show that Hydra outperforms baselines
     and methods from the literature.
+  abstract_cn: 在拆分联邦学习（SFL）中，客户端在服务器的协助下，通过将模型拆分为两部分来协同训练模型。第一部分由各客户端本地训练，并在每轮结束时由聚合器进行聚合；第二部分则在服务器上训练，服务器按顺序处理来自各个客户端的中间激活值。我们研究了在数据异构条件下，SFL
+    中灾难性遗忘（CF）现象的发生机制。具体而言，由于 SFL 的特性，第一部分的本地更新可能会偏离全局最优解，而第二部分对处理顺序较为敏感，这与持续学习（CL）中的遗忘行为类似。特别地，我们观察到，经过训练的模型在序列末尾出现过的类别（标签）上的表现更好。为此，我们重点考察了
+    SFL 的关键要素，如服务器端的处理顺序以及模型的切割层位置，并基于这些发现提出了一种名为 Hydra 的新型缓解方法。Hydra 受多头神经网络启发，专为
+    SFL 场景设计。大量数值实验表明，Hydra 在性能上优于基线方法及现有文献中的相关方法。
 - author: Zhihao Wang 0002, Xiaoying Liao, Wenke Huang 0003, Bingqian Liu, Tian Chen,
     Jian Wang, Bing Li
   title: Federated Context-Aware Personalized Recommendation.
@@ -5336,6 +5393,7 @@ federate%20venue%3AAAAI%3A:
     and robustness in heterogeneous settings. Experiments on 5 benchmark datasets
     show that FedCAR consistently outperforms state-of-the-art methods and provides
     interpretable recommendations by explicitly modeling context dependencies.
+  abstract_cn: 联邦推荐系统正作为一种新兴范式崛起，它能够在保护用户数据隐私的同时提供个性化服务。现有的大多数个性化联邦推荐系统通过离散地训练用户和物品嵌入来预测用户的下一个目标物品。然而，这种训练方式忽视了用户的的行为模式，可解释性较低，并且需要大量数据及精细的调参才能获得稳定、准确的嵌入表示。为解决这些局限性，我们提出了联邦上下文感知个性化推荐（FedCAR）框架，该框架利用用户近期的交互记录作为行为上下文来指导预测。与静态的用户嵌入不同，FedCAR通过聚合并加权近期交互过的物品嵌入，动态构建上下文表征。此外，我们引入了一种对比学习策略，使模型能够在捕捉跨客户端共享行为结构的同时保持个性化的偏好，从而提升在异构环境下的泛化能力和鲁棒性。在5个基准数据集上的实验表明，FedCAR始终优于当前最先进的方法，并通过显式建模上下文依赖关系，提供了可解释的推荐结果。
 - author: Bingjun Wei, Xuemei Cao 0001, Jiafen Liu, Haoyang Liang, Xin Yang 0012
   title: Enhanced Federated Deep Multi-View Clustering Under Uncertainty Scenario.
   venue: AAAI
@@ -5361,6 +5419,8 @@ federate%20venue%3AAAAI%3A:
     results demonstrate that EFDMVC achieves superior robustness against heterogeneous
     uncertain views across multiple benchmark datasets, consistently outperforming
     all state-of-the-art baselines in comprehensive evaluations.'
+  abstract_cn: 传统的联邦多视图聚类方法假设各客户端的视图是统一的，然而实际部署中却普遍存在视图完整性异构的问题，包括数据不完整、冗余或损坏等。尽管近期的一些方法开始建模视图异构性，但它们忽略了动态视图组合带来的语义冲突，未能有效应对双重不确定性：视图不确定性（由任意视图组合引起的语义不一致）和聚合不确定性（因各客户端贡献不均衡而导致的更新分歧）。为此，我们提出了一种新颖的增强型联邦深度多视图聚类框架：首先对齐局部语义，通过客户端内部的层次化对比融合来消除语义冲突，从而解决视图不确定性；其次，引入视图自适应漂移模块，利用全局—局部原型对比机制动态修正参数偏差，以缓解聚合不确定性；最后，设计一种均衡的聚合机制来协调各客户端的更新。实验结果表明，在多个基准数据集上，EFDMVC
+    对异构且存在不确定性的视图表现出更强的鲁棒性，在全面评估中 consistently 超越所有现有最先进基线方法。
 - author: Siyuan Wen, Meng Zhang 0013, Yang Yang, Ningning Ding
   title: 'FedShard: Federated Unlearning with Efficiency Fairness and Performance
     Fairness.'
@@ -5390,6 +5450,7 @@ federate%20venue%3AAAAI%3A:
     that FedShard accelerates the data unlearning process 1.3-6.2 times faster than
     retraining from scratch and 4.9 times faster than the state-of-the-art exact unlearning
     methods.
+  abstract_cn: 为保护客户端在联邦学习中的被遗忘权，联邦去训练旨在从全局模型中移除已退出客户端的数据贡献。尽管现有研究主要聚焦于提升去训练的效率与效果，但去训练过程中去训练效率公平性和去训练性能公平性等关键问题却鲜有探讨。在本研究中，我们提出了FedShard——首个同时保障效率公平性和性能公平性的联邦去训练算法。FedShard能够自适应地应对收敛性、去训练效率与去训练公平性之间相互权衡所带来的挑战。此外，我们还提出了两种新颖的度量指标，用于定量评估去训练算法的公平性，并证明其满足现有其他公平性度量中广为人知的性质。理论分析与数值实验均验证了FedShard在去训练性能和效率方面的公平性。我们进一步表明，FedShard可有效缓解级联退出攻击和投毒攻击等不公平风险，并使各客户端的去训练成本更加均衡。实验结果表明，与从头重新训练相比，FedShard可将数据去训练过程提速1.3至6.2倍；与当前最先进的精确去训练方法相比，则可提速4.9倍。
 - author: Yihang Wu, Ahmad Chaddad
   title: Federated CLIP for Resource-Efficient Heterogeneous Medical Image Classification.
   venue: AAAI
@@ -5419,6 +5480,7 @@ federate%20venue%3AAAAI%3A:
     that our model provides feasible performance (e.g., 8% higher compared to second
     best baseline on ISIC2019) with reasonable resource cost (e.g., 120 times faster
     than FedAVG).
+  abstract_cn: 尽管深度模型在医学影像领域表现出色，但它们仍需源数据进行训练，在隐私问题日益受到关注的背景下，这在一定程度上限制了其应用潜力。联邦学习作为一种去中心化的学习框架，能够在多家医院（即联邦学习客户端）之间协同训练共享模型，为解决这一问题提供了可行方案。然而，数据异构性和资源开销却阻碍了联邦学习模型的部署，尤其是在使用视觉—语言模型时更为明显。为此，我们提出了一种基于对比语言—图像预训练（CLIP）的新型联邦学习方法，用于医学图像分类任务。具体而言，我们引入了一个掩码特征适配模块（FAM）作为通信模块，在冻结CLIP编码器以降低计算开销的同时，有效减少了通信负载。此外，我们还设计了一个掩码多层感知机（MLP）作为私有本地分类器，以适应各客户端的具体任务需求。为进一步促进FAM与MLP之间的相互学习，我们提出了一种基于自适应Kullback-Leibler散度的蒸馏正则化方法。最后，我们结合模型压缩技术传输FAM参数，并采用集成预测进行分类。在四个公开可用的医学数据集上开展的大量实验表明，我们的模型在性能和资源消耗方面均具有可行性：在ISIC2019数据集上，其准确率比第二优基线高出8%；同时，其训练速度比FedAVG快约120倍。
 - author: Wenhan Wu, Zhili He, Huanghuang Liang, Yili Gong, Jiawei Jiang 0001, Chuang
     Hu, Dazhao Cheng
   title: 'REMISVFU: Vertical Federated Unlearning via Representation Misdirection
@@ -5450,6 +5512,9 @@ federate%20venue%3AAAAI%3A:
     benchmarks show that ReMisVFU suppresses back-door attack success to the natural
     class-prior level and sacrifices only about 2.5% points of clean accuracy, outperforming
     state-of-the-art baselines.
+  abstract_cn: 诸如 GDPR 等数据保护法规赋予联邦系统中的每一位参与方被遗忘的权利。因此，联邦去训练技术应运而生，成为当前研究的前沿方向：它旨在从已训练模型中移除特定参与方的贡献，同时保持其余参与方的模型效用。然而，现有的大多数去训练方法主要针对水平联邦学习（HFL），即数据按样本划分的情形。相比之下，垂直联邦学习（VFL）允许拥有互补特征空间的机构在不共享原始数据的前提下联合训练模型。这种基于特征划分的架构使得面向
+    HFL 的去训练方法难以奏效。  在本文中，我们提出 ReMisVFU——一个即插即用的表征误导框架，可在 splitVFL 系统中实现快速的客户端级去训练。当收到删除请求时，待遗忘方将其编码器输出坍缩至单位球面上随机采样的锚点，从而切断其特征与全局模型之间的统计关联。为维持其余参与方的模型效用，服务器会联合优化保留损失和遗忘损失，并通过正交投影对齐两者梯度，以消除破坏性干扰。在公开基准上的实验结果表明，ReMisVFU
+    可将后门攻击的成功率压制到自然类别先验水平，且仅牺牲约 2.5 个百分点的纯净准确率，性能显著优于现有最先进基线方法。
 - author: Yun Xin, Jianfeng Lu 0002, Gang Li 0028, Shuqin Cao, Guanghui Wen, Kehao
     Wang
   title: 'OursFed: Provable Group Fairness-Aware Federated Learning Against Distrust
@@ -5483,6 +5548,7 @@ federate%20venue%3AAAAI%3A:
     on two real datasets show that OursFed improves GF by 28.61% with at most 2.7%
     trade-off versus state-ofthe-art baselines, and synthetic experiments further
     confirm its effectiveness in handling fragility and distrust.'
+  abstract_cn: 随着高风险决策应用在联邦学习（FL）中的日益普及，确保不同群体之间的公平性、防止对特定群体的偏见，已成为至关重要的课题。然而，在联邦学习中实现群体公平性（GF）面临着严峻挑战：其去中心化的特性使得由服务器进行全局GF估计变得极为复杂；同时，由于各方之间的不信任与系统脆弱性，服务器难以从不可信客户端收集GF值。针对这一难题，我们提出了OursFed——一个可证明的GF感知联邦学习框架，该框架融合了基于隐私配对的契约机制与鲁棒的GF估计方法，以有效应对不信任和系统脆弱性问题。  方法层面，我们将客户端的不可信性分为两类：源于不信任的主动不可信，以及由系统脆弱性引发的被动不可信。为缓解主动不可信问题，我们设计了一种基于隐私配对的契约机制，以确保客户端如实上报GF值，并通过识别多维私有数据之间的关联关系来增强多变量分析能力。对于被动不可信，则采用非参数化技术构建鲁棒的GF估计方法，用于平滑数据并估计概率密度函数及回归函数，从而在多维数据扰动下提升单个客户端GF估计的准确性。  理论上，我们通过分析OursFed的收敛性、GF稳定性以及准确度偏差，证明了其有效性。实验方面，在两个真实数据集上的评估表明，OursFed在与当前最优基线相比仅牺牲最多2.7%性能的前提下，将GF提升了28.61%；而合成实验进一步证实了该框架在处理系统脆弱性和不信任问题方面的有效性。
 - author: Meng Xu 0009, Xinhong Chen 0003, Zhongying Chen, Guanyi Zhao, Yang Jin,
     Jianping Wang 0001
   title: A Unified Self-Regulating Training Framework for Federated Deep Reinforcement
@@ -5510,6 +5576,7 @@ federate%20venue%3AAAAI%3A:
     loss bias and facilitating updates that yield improved returns. Experimental results
     demonstrate that our method enhances six state-of-the-art (SOTA) FDRL approaches
     across nine tasks in terms of return.
+  abstract_cn: 联邦深度强化学习（FDRL）旨在实现多DRL模型的分布式协同训练，同时保护隐私。现有的FDRL方法通常适用于静态的客户端环境，然而现实场景中常常存在噪声等动态状态转换，这使得静态的模型拓扑结构难以适应，并导致策略损失出现偏差。这种偏差会降低客户端性能，进而形成次优的全局策略。为应对这一挑战，我们提出了一种通用解决方案——自调节训练框架，该框架可无缝集成到现有FDRL方法中，以有效处理动态状态转换问题。具体而言，我们提出了稀疏训练（ST）方法，在训练过程中动态地对各模型的拓扑结构进行稀疏化和调整，从而最大化模型性能并降低模型复杂度。此外，我们还引入了一个辅助模型，用于自适应地调节客户端模型的策略损失，以缓解损失偏差，并促进产生更高回报的模型更新。实验结果表明，我们的方法在九个任务上显著提升了六种当前最先进（SOTA）的FDRL方法的累计回报。
 - author: Yang Xu 0013, Xiaowei Wu, Zifeng Xu, Cheng Zhang 0035, Ju Ren 0001, Yaoxue
     Zhang
   title: 'MSCFL: Model Structure-Aware Clustered Federated Learning for System Heterogeneity
@@ -5539,6 +5606,7 @@ federate%20venue%3AAAAI%3A:
     structures via Hamming Distance and triggers re-clustering only when necessary.
     Extensive experimental results show that MSCFL improves the accuracy and convergence
     speed of cluster models, outperforming traditional CFL in various settings.
+  abstract_cn: 联邦学习（FL）面临着由数据异构性和系统异构性共同带来的重大挑战。尽管聚类联邦学习（CFL）通过将具有相似数据分布的客户端分组来缓解数据异构性，但它仍然容易受到系统异构性的影响——由于各客户端之间的性能差异，收敛速度可能会显著减慢。此外，数据漂移还会随时间推移降低聚类精度和训练效率。在本工作中，我们提出了一种模型结构感知的聚类联邦学习框架（MSCFL），该框架能够同时应对数据异构性、系统异构性和数据漂移等问题。MSCFL将模型剪枝（MP）引入CFL框架，以提升在系统异构条件下的训练效率。为实现这一集成，我们重点解决了如何基于结构各异的剪枝本地模型进行有效聚类这一关键挑战。为此，我们设计了一种基于模型结构的相似度计算算法，从而将CFL与MP无缝结合。为了有效应对数据漂移，我们进一步提出了动态聚类迁移策略，该策略通过汉明距离高效监测模型结构，并仅在必要时触发重新聚类。大量实验结果表明，MSCFL能够提升聚类模型的准确性和收敛速度，在多种场景下均优于传统的CFL。
 - author: Meiting Xue, Miaoqi Li, Yukun Shi, Yan Zeng, Jilin Zhang, Jing Ma
   title: Class-Aware Active Annotation in Federated Semi-Supervised Learning for Medical
     Image Classification.
@@ -5572,6 +5640,7 @@ federate%20venue%3AAAAI%3A:
     public medical image classification datasets demonstrate that FSSAL consistently
     outperforms competitive FSSL methods in accuracy and F1-score, especially under
     highly Non-IID conditions, highlighting its robustness and practical potential.
+  abstract_cn: 在医学图像分类任务中，数据隐私约束以及专家标注的高昂成本，为构建具有泛化能力的模型带来了重大挑战。联邦半监督学习（FSSL）将联邦学习的隐私保护特性与半监督学习的标签效率相结合，提供了一条颇具前景的研究方向。然而，在实际部署场景中，客户端数据往往呈现出高度非独立同分布（Non-IID）的特征。这种分布异质性会削弱全局模型生成的伪标签的可靠性，进而限制模型的泛化性能。现有FSSL方法的一个关键局限在于，它们依赖于训练前固定不变的静态标注集。这类策略无法在训练过程中自适应地纠正伪标签噪声或缓解类别不平衡问题，尤其是在Non-IID环境下。为此，我们提出了FSSAL——一种新颖的框架，它将主动学习机制引入FSSL流程。通过在训练过程中持续识别具有信息量且具代表性的样本，该方法能够自适应地更新标注集，并增强模型对分布漂移的鲁棒性。FSSAL采用客户端私有模型进行伪标签生成，以减少全局偏差；同时，引入基于类别的动态阈值机制，确保更可靠、更均衡的标签选择；此外，还结合特征多样性与模型不确定性来指导样本选择策略。我们在四个公开的医学图像分类数据集上开展了大量实验，结果表明，FSSAL在准确率和F1分数方面始终优于现有的竞争性FSSL方法，特别是在高度Non-IID条件下表现尤为突出，充分彰显了其鲁棒性和实际应用潜力。
 - author: Qiantao Yang, Liquan Chen, Mingfu Xue, Songze Li
   title: Tackling Resource-Constrained and Data-Heterogeneity in Federated Learning
     with Double-Weight Sparse Pack.
@@ -5603,6 +5672,7 @@ federate%20venue%3AAAAI%3A:
     across four datasets using ten state-of-the-art methods demonstrate that FedCSPACK
     effectively improves communication and computational efficiency while maintaining
     high model accuracy.
+  abstract_cn: 联邦学习已引起研究界的广泛关注，然而边缘客户端之间的数据异质性仍是一个关键挑战，往往会导致模型性能下降。现有方法通过模型拆分和知识蒸馏来提升模型对数据异质性的适应能力，但它们忽视了客户端有限的通信带宽和计算资源，在缓解数据异质性与应对客户端资源约束之间未能实现有效平衡。针对这一局限性，我们提出了一种基于余弦稀疏化参数打包与双权重聚合的个性化联邦学习方法——FedCSPACK，该方法能够有效利用客户端有限的资源，并降低数据异质性对模型性能的影响。在FedCSPPACK中，客户端对模型参数进行打包，并根据余弦相似度选择最具贡献的参数包进行共享，从而显著降低通信带宽需求。随后，客户端会基于共享的参数包生成一个掩码矩阵，以提高服务器端稀疏更新的一致性和聚合效率。此外，掩码中还嵌入了方向距离权重和分布距离权重，用于实现加权引导的聚合机制，进而提升全局模型的鲁棒性和泛化性能。我们在四个数据集上采用十种前沿方法开展的大量实验表明，FedCSPACK能够在保持较高模型精度的同时，有效提升通信与计算效率。
 - author: Mingkun Yang, Ran Zhu, Qing Wang 0007, Jie Yang 0028
   title: 'SMoFi: Step-wise Momentum Fusion for Split Federated Learning on Heterogeneous
     Data.'
@@ -5628,6 +5698,7 @@ federate%20venue%3AAAAI%3A:
     Furthermore, SMoFi has a greater impact with more clients involved and deeper
     learning models, making it particularly suitable for model training in resource-constrained
     contexts.
+  abstract_cn: 分割联邦学习是一种系统高效的联邦学习范式，它利用中心服务器丰富的计算资源来训练模型的不同部分。然而，不同数据孤岛之间的数据异质性构成了重大挑战，会降低全局模型的收敛速度和精度。本文提出了一种名为分步动量融合（SMoFi）的有效且轻量级框架，通过同步服务器端优化器的动量缓冲区，来缓解由数据异质性引起的梯度发散问题。为了在整个训练过程中控制梯度发散，我们设计了一种基于陈旧度感知的对齐机制，在每一步优化中对服务器端子模型的梯度更新施加约束。在多个真实世界数据集上的大量实验验证表明，SMoFi能够持续提升全局模型的精度（最高提升7.1%）和收敛速度（最高加速10.25倍）。此外，随着参与客户端数量的增加以及深度学习模型复杂度的提高，SMoFi的效果更加显著，因此特别适用于资源受限环境下的模型训练。
 - author: Yuming Ai, Xunkai Li, Jiaqi Chao, Bowen Fan, Zhengyu Wu, Yinlin Zhu, Rong-Hua
     Li, Guoren Wang
   title: 'PAGE: A Unified Approach for Federated Graph Unlearning.'
@@ -5660,6 +5731,7 @@ federate%20venue%3AAAAI%3A:
     large-scale graphs. Furthermore, ablation studies confirm its efficacy as a plug-in
     for other meta unlearn methods, boosting prediction performance up to 4.49% and
     unlearning performance up to 7.22%.'
+  abstract_cn: 联邦图学习（FGL）是一种以隐私保护为优先的分布式图表示学习框架。被遗忘权体现了将用户对数据使用的自主权置于数据利用之上的伦理原则。在联邦图学习的背景下，维护这一权利需要能够移除局部子图中的特定实体及其相关知识（元级遗忘）以及彻底清除整个客户端的影响（客户端级遗忘）。我们首次系统地定义了联邦图遗忘中的上述两类遗忘请求。尽管已有若干研究尝试应对这一挑战，但仍存在关键局限：遗忘支持不完整以及残留知识的扩散。为此，我们提出了一种基于原型引导的对抗性图擦除器——PAGE，用于通用的联邦图遗忘任务。PAGE是首个能够扩展至全面遗忘请求的统一联邦图遗忘框架。对于元级遗忘，PAGE采用原型梯度引导初始的本地遗忘过程，同时借助对抗性图来消除受其影响的各客户端中残留的知识；而对于客户端级遗忘，则完全依赖对抗性图生成技术，从其余参与方中彻底清除已退出客户端的影响。在8个基准数据集上，PAGE的表现均优于现有方法，预测准确率分别提升5.08%（客户端级遗忘）和1.50%（元级遗忘），在大规模图数据上甚至可获得高达11.84%的提升。此外，消融实验进一步证实，PAGE可作为插件集成到其他元级遗忘方法中，从而将预测性能提升最多4.49%，遗忘性能提升最多7.22%。
 - author: Jieming Bian, Lei Wang 0199, Letian Zhang, Jie Xu 0001
   title: 'FedALT: Federated Fine-Tuning Through Adaptive Local Training with Rest-of-World
     LoRA.'
@@ -5686,6 +5758,8 @@ federate%20venue%3AAAAI%3A:
     experiments on NLP benchmarks, we demonstrate that FedALT significantly outperforms
     state-of-the-art personalized federated LoRA fine-tuning methods, achieving superior
     local adaptation without sacrificing computational efficiency.
+  abstract_cn: 在联邦设置下对大型语言模型（LLMs）进行微调，能够在保护隐私的同时实现模型的个性化适配，但由于模型聚合的存在，容易产生跨客户端干扰。现有的基于FedAvg的联邦LoRA微调方法难以应对数据异构性问题，从而引发有害的跨客户端干扰，并导致个性化效果欠佳。为此，我们提出了一种新颖的个性化联邦LoRA微调算法——FedALT，它彻底摆脱了FedAvg的框架。与使用聚合模型作为本地训练的初始化不同，FedALT让每个客户端在其各自的LoRA基础上继续训练，同时通过一个独立的“世界其他部分”（RoW）LoRA组件引入共享知识。为了有效平衡本地适应与全局信息，FedALT引入了一个自适应混合器，该混合器能够动态学习输入特定的权重分配，以调节个体LoRA组件与RoW
+    LoRA组件之间的比例关系，其设计思想源自专家混合（MoE）范式。在自然语言处理基准上的大量实验表明，FedALT显著优于当前最先进的个性化联邦LoRA微调方法，在不牺牲计算效率的前提下实现了更优的本地适应性能。
 - author: Qianyue Cao, Zongwei Zhu, Zirui Lian, Rui Zhang, Boyu Li 0006, Yi Xiong
     0003, Xuehai Zhou
   title: 'PPFL: A Parameter Behavior-Driven Plug-in Personalization Engine for Federated
@@ -5715,6 +5789,7 @@ federate%20venue%3AAAAI%3A:
     PPFL outperforms eight state-of-the-art baselines by up to 5.3%. Moreover, it
     can function as a plug-in module, boosting the accuracy of vanilla FedAvg with
     a 16.82% absolute gain.'
+  abstract_cn: 个性化联邦学习（PFL）通过为每个客户端定制模型来缓解非独立同分布数据带来的挑战。其中一种主流策略是模型解耦，即根据架构先验（如主干网络与头部层）将模型划分为共享部分和个性化部分。然而，我们揭示了这一策略的一个关键缺陷：它会引发“内在漂移”，这种性能退化往往比广为人知的客户端漂移更为严重，从而限制了最终的准确率。我们进一步分析发现，这种漂移源于简单拼接共享与个性化部分时出现的高损失陡崖。为此，我们摒弃基于架构划分的范式，转而采用一种由参数行为驱动的新方法。我们提出了PPFL，这是一种基于参数级行为感知的新型软融合策略。PPFL能够在本地训练过程中综合捕捉每个参数的多维度行为，动态推断其在当前上下文中的功能角色——即更倾向于“个性化”还是“通用性”。在图像、文本以及多模态分类等多个基准数据集上的大量实验表明，PPFL相较于八种最先进基线方法，最高可提升5.3%的性能。此外，PPFL还可作为插件模块使用，在标准FedAvg基础上实现16.82%的绝对准确率提升。
 - author: Wei Chen 0103, Wanyang Gu, Linjun Peng, Ting Yan, Ruichu Cai, Zhifeng Hao,
     Kun Zhang 0001
   title: Horizontal and Vertical Federated Causal Structure Learning via Higher-order
@@ -5745,6 +5820,7 @@ federate%20venue%3AAAAI%3A:
     for recursive source variable identification, ultimately yielding a causal strength
     matrix of the union of variables from all clients. Our algorithm demonstrates
     superior performance in experiments on both synthetic and real-world data.
+  abstract_cn: 联邦因果发现旨在保护数据隐私的同时揭示因果关系，在现实世界中具有重要的应用价值。现有方法主要针对水平联邦场景，即各参与方共享相同变量但样本不同。然而，在实际应用中，不同参与方可能拥有不同的变量集，这会导致虚假因果关系的出现。为解决这一问题，我们综合考虑了水平和垂直联邦场景下的因果结构学习方法。令人感兴趣的是，我们发现高阶累积量仅依赖于相关变量的联合分布，在线性非高斯情形下能够有效应对上述问题。这一发现促使我们提出了基于特定变量（交叉）累积量乘积差异的识别理论，用以确定观测变量之间的因果顺序。在此基础上，我们进一步开发了一种适用于水平和垂直联邦场景的因果顺序学习方法。具体而言，首先从所有参与方获取观测变量的局部（交叉）累积量矩阵，进而构建全局累积量矩阵；随后利用该矩阵递归地识别源变量，最终得到由所有参与方变量组成的联合体的因果强度矩阵。实验结果表明，我们的算法在合成数据和真实数据上均表现出优越的性能。
 - author: Yue Chen, Jianfeng Lu 0002, Shuqin Cao, Wei Wang 0170, Gang Li 0028, Guanghui
     Wen
   title: 'FedCure: Mitigating Participation Bias in Semi-Asynchronous Federated Learning
@@ -5780,6 +5856,7 @@ federate%20venue%3AAAAI%3A:
     baselines, while significantly enhancing efficiency with the lowest coefficient
     of variation 0.0223 for per-round latency and maintaining long-term balance across
     diverse scenarios.'
+  abstract_cn: 半异步联邦学习（SAFL）虽兼具同步训练的高效性与异步更新的灵活性，却天然存在参与偏差问题，且这一问题在非独立同分布（Non-IID）数据场景下会进一步加剧。更为关键的是，分层架构将参与主体由单个客户端转移到客户端组，从而进一步放大了该问题。尽管SAFL研究已取得显著进展，但现有工作大多仍聚焦于传统的云—端架构，而忽视了Non-IID数据对云—边—端层级调度的关键影响。为此，我们提出了FedCure——一种创新的半异步联邦学习框架，通过联盟构建与参与感知调度机制，在Non-IID数据环境下有效缓解参与偏差。具体而言，FedCure基于三条核心规则运行：（1）偏好规则，通过最大化集体收益并建立理论稳定的划分方案来优化联盟形成，以降低Non-IID带来的性能退化；（2）调度规则，将虚拟队列技术与贝叶斯估计的联盟动态相结合，在保障平均速率稳定性的同时减少效率损失；（3）资源分配规则，根据联盟动态的预估结果优化客户端CPU频率，从而提升计算效率并满足时延约束。在四个真实世界数据集上的全面实验表明，与四种最先进的基线方法相比，FedCure可将准确率提升多达5.1倍，并显著提高效率，每轮延迟的变异系数低至0.0223，同时在多种场景下保持长期均衡。
 - author: Yuliang Chen, Xi Lin 0003, Jun Wu 0001, Xiangrui Cai, Qiaolun Zhang, Xichun
     Fan, Jiapeng Xu, Xiu Su
   title: Multi-Modal Style Transfer-based Prompt Tuning for Efficient Federated Domain
@@ -5810,6 +5887,7 @@ federate%20venue%3AAAAI%3A:
     and DomainNet, demonstrate the superior performance of FaST-PT over SOTA FDG methods
     such as FedDG-GA and DiPrompt. Ablation studies further validate the effectiveness
     and efficiency of FaST-PT.
+  abstract_cn: 联邦域泛化（FDG）旨在通过分布式客户端协作训练一个能够在未见域上具有良好泛化能力的全局模型。然而，现有的FDG方法通常难以应对跨客户端的数据异质性，并且会带来巨大的通信和计算开销。为了解决这些挑战，本文提出了一种新的FDG框架——FaST-PT，该框架以分布式方式实现本地特征增强与高效的未见域适应。首先，我们提出了一种轻量级的多模态风格迁移（MST）方法，在文本监督下对图像嵌入进行转换，从而扩展训练数据分布并缓解域偏移问题。随后，我们设计了一个双提示模块，将提示分解为全局提示和领域提示：全局提示从各客户端的增强嵌入中提取通用知识，而领域提示则从本地数据中捕捉领域特定知识。此外，我们还引入了领域感知提示生成（DPG），以自适应地为每个样本生成合适的提示，进而通过知识融合促进未见域适应。在PACS和DomainNet等四个跨域基准数据集上的大量实验表明，FaST-PT在性能上显著优于FedDG-GA和DiPrompt等当前最优的FDG方法。消融实验进一步验证了FaST-PT的有效性和效率。
 - author: Xuanyu Chen, Nan Yang, Shuai Wang, Dong Yuan 0001
   title: 'Scaling Law Analysis in Federated Learning: How to Select the Optimal Model
     Size?'
@@ -5842,6 +5920,7 @@ federate%20venue%3AAAAI%3A:
     should depend on the average training compute across clients. Furthermore, we
     also empirically validate the correctness of our results with extensive training
     runs on different models, network settings, and datasets.
+  abstract_cn: 大型语言模型（LLMs）近期取得的成功，引发了人们对训练大规模模型的日益浓厚兴趣。随着模型规模的持续扩大，高质量、精心 curated训练数据日益稀缺的问题也愈发令人担忧。为此，从业者开始探索联邦学习（FL）等训练范式——这类方法能够在保护隐私的同时，充分利用边缘设备上的海量数据。然而，联邦学习中训练数据的去中心化特性给大规模模型的扩展带来了挑战，而这一问题至今仍鲜有深入研究。本文填补了这一空白，就如何将既有的模型规模扩展经验推广至联邦学习场景提供了定性见解。具体而言，我们推导出在联邦环境中采用随机优化算法训练的模型泛化误差的PAC-Bayes（概率近似正确贝叶斯）上界，并通过求解使该上界最小化的模型尺寸的解析解，量化了分布式训练数据对最优模型规模的影响。理论分析表明，在总训练计算量不变的情况下，最优模型规模与客户端数量呈负幂律关系。此外，我们还发现，在保持相同训练计算量的前提下，改用联邦学习必然会降低模型通过训练所能达到的泛化性能上界；而在联邦场景下估算最优模型规模时，应以各客户端平均训练计算量为依据。最后，我们通过对不同模型、网络配置和数据集的大量实验，实证验证了上述结论的正确性。
 - author: Shutong Chen, Tianyi Zhou 0001, Guodong Long, Jing Jiang 0002, Chengqi Zhang
   title: 'FedMerge: Federated Model Merging for Personalization.'
   venue: AAAI
@@ -5869,6 +5948,7 @@ federate%20venue%3AAAAI%3A:
     settings applied to various domains with diverse tasks and data types, in which
     FedMerge consistently outperforms existing FL approaches, including clustering-based
     and mixture-of-experts (MoE) based methods.
+  abstract_cn: 在联邦学习中，仅靠一个全局模型往往难以满足具有非独立同分布任务和数据分布的众多客户端的需求。尽管近年来联邦学习领域已取得进展，通过训练多个全局模型来实现更好的个性化，但这些方法仍只能为客户端提供有限的模型选择，因此对多个模型进行本地微调仍然是不可或缺的。本文提出了一种新颖的“FedMerge”方法，该方法只需将多个全局模型按自动优化且个性化的权重进行融合，即可为每个客户端生成一个专属的个性化模型。我们将这一问题建模为全局模型与各客户端融合权重的联合优化问题。与现有联邦学习方法不同的是，后者由服务器向所有客户端广播一个或多个全局模型，而FedMerge只需向每个客户端发送一个经过定制化融合的模型即可。此外，相较于定期中断本地训练并将其重新初始化为全局模型的做法，融合后的模型更能契合每个客户端的任务特点与数据分布，从而有效缓解因客户端漂移而导致的连续轮次间本地与全局之间的差异。我们在多种非独立同分布设置下，针对不同领域、多样化任务和数据类型的场景对FedMerge进行了评估。实验结果表明，FedMerge在各项指标上均显著优于现有的联邦学习方法，包括基于聚类和专家混合（MoE）的方法。
 - author: Guanjie Cheng, Mengzhen Yang, Xinkui Zhao, Shuyi Yu, Tianyu Du, Yangyang
     Wu, Mengying Zhu, Shuiguang Deng
   title: 'LSHFed: Robust and Communication-Efficient Federated Learning with Locally-Sensitive
@@ -5897,6 +5977,7 @@ federate%20venue%3AAAAI%3A:
     that LSHFed maintains high model performance even when up to 50% of participants
     are collusive adversaries, while achieving up to a 1000× reduction in gradient
     verification communication compared to full-gradient methods.
+  abstract_cn: 联邦学习（FL）能够在不暴露原始数据的情况下，实现跨分布式节点的协同模型训练，但其去中心化的特性使其在缺乏信任的环境中易受攻击。推理攻击可能从梯度更新中恢复敏感信息，而投毒攻击则会降低模型性能或诱导其产生恶意行为。现有的防御机制往往面临通信和计算开销过高、检测精度有限等问题。为此，我们提出了LSHFed——一个鲁棒且通信高效的联邦学习框架，能够同时提升聚合过程的鲁棒性和隐私保护能力。LSHFed的核心是LSHGM，一种新颖的梯度验证机制，它通过多超平面局部敏感哈希将高维梯度投影为紧凑的二进制表示。这一方法仅利用不可逆的哈希形式即可准确检测并过滤恶意梯度，从而有效降低隐私泄露风险，并大幅减少传输开销。大量实验表明，在多达50%的参与方为共谋攻击者的情况下，LSHFed仍能保持较高的模型性能；与基于完整梯度的验证方法相比，其梯度验证所需的通信量最多可降低1000倍。
 - author: Jiacheng Cheng, Xu Zhang 0011, Guanghui Qiu, Yifang Zhang, Yinchuan Li,
     Kaiyuan Feng
   title: Personalized Federated Learning with Bidirectional Communication Compression
@@ -5925,6 +6006,7 @@ federate%20venue%3AAAAI%3A:
     potential function. Numerical simulations demonstrate that pFed1BS substantially
     reduces communication costs while achieving competitive performance compared to
     advanced communication-efficient FL algorithms.
+  abstract_cn: 联邦学习（FL）能够在去中心化数据上实现协同训练，但面临双向通信开销大和客户端数据异构性两大挑战。为降低通信成本并有效应对数据异构性，我们提出了pFed1BS——一种新颖的个性化联邦学习框架，通过一比特随机哈希实现了极致的通信压缩。在个性化联邦学习中，目标不再是训练单一的全局模型，而是为每个客户端构建定制化的本地模型。在我们的框架中，客户端仅传输高度压缩的一比特哈希表示，而服务器则对这些哈希进行聚合，并广播一个全局的一比特共识。为了实现有效的个性化，我们引入了一种基于符号的正则化项，引导本地模型在保持本地数据特性的前提下与全局共识保持一致。此外，为减轻随机哈希计算带来的负担，我们采用快速哈达玛变换来高效地完成投影操作。理论分析证明，我们的算法能够收敛到全局潜在函数的一个平稳邻域内。数值实验表明，pFed1BS在大幅降低通信成本的同时，其性能可与先进的高效通信联邦学习算法相媲美。
 - author: Henggang Deng, Yuchao Tang, Wenjie Fu 0005, Huandong Wang, Kun Chen, Tao
     Jiang 0002
   title: 'FedSkeleton: Secure Multi-Party Graph Skeleton Construction for Privacy-Preserving
@@ -5957,6 +6039,8 @@ federate%20venue%3AAAAI%3A:
     demonstrating that FedSkeleton effectively resists common attacks, keeps communication
     overhead manageable, and remains robust with respect to key hyper-parameters and
     the number of participating parties.'
+  abstract_cn: 在现实世界的时间序列建模中，图结构因其能够显式地编码节点拓扑并捕捉复杂的网络动态而得到广泛应用。然而，在实践中，完整的图通常被分割到多个参与方之间；每个参与方仅能访问其本地子图，并且受隐私法规约束，无法共享图的拓扑结构或数据，从而形成了普遍存在的数据孤岛。联邦图学习（FGL）提供了一种保护隐私的协同学习范式，但现有方法仍面临两大挑战：(1)
+    图的拓扑结构本身包含敏感的结构信息，若在联邦图学习过程中直接共享，可能导致隐私泄露；(2) 跨参与方的边对于准确建模至关重要，但在不损害隐私的前提下利用这些边仍是一项重大挑战。为克服上述障碍，我们提出了FedSkeleton——一个用于时间序列预测的隐私保护框架，它由骨架构建模块和双流预测模块组成，能够在不暴露图拓扑的情况下捕获全局依赖关系。大量实验表明，FedSkeleton始终优于现有基线方法，在某些情况下甚至超越了在集中式环境下、拥有完整图访问权限的模型。此外，我们还进行了全面的安全性分析、通信开销评估以及可扩展性实验，结果表明，FedSkeleton能够有效抵御常见攻击，将通信开销控制在合理范围内，并且在关键超参数及参与方数量变化时仍保持稳健性能。
 - author: Wei Feng 0010, Danting Liu, Qianqian Wang 0001, Mengping Jiang, Bin Liu
   title: Federated Incomplete Multi-View Clustering with Tensorized Low-Rank Constraint.
   venue: AAAI
@@ -5983,6 +6067,8 @@ federate%20venue%3AAAAI%3A:
     the construction and alignment of anchor graphs, thus enabling collaborative and
     privacy-preserving training. Experimental results on multiple datasets demonstrate
     its effectiveness.
+  abstract_cn: 联邦多视图聚类因其能够在保护数据隐私的同时发现分布式多视图数据的互补聚类结构而受到越来越多的关注。然而，在实际应用中，各参与方往往只能访问部分视图，视图不完整性给联邦环境下的多视图特征融合带来了巨大挑战，难以有效挖掘数据中的一致性和互补信息。此外，由于各参与方资源有限，联邦场景对算法效率也提出了较高要求。为此，我们提出了一种基于张量化低秩约束的联邦不完备多视图聚类方法（FIMVC-TLRC），该方法引入锚点以提升效率，并能有效应对联邦场景中普遍存在的视图不完整问题。FIMVC-TLRC通过对齐本地锚点图，并基于张量Schatten
+    p-范数施加张量化低秩约束，来确保各参与方所学习的数据表示具有一致性。同时，我们设计了一个联邦优化框架，联合优化锚点图的构建与对齐过程，从而实现协作式且隐私保护的模型训练。在多个数据集上的实验结果表明，该方法具有良好的有效性。
 - author: Luyang Gai, Shusen Yang, Xuebin Ren, Zihao Zhou
   title: 'BIQ: Bisection Interval Quantization for Communication-efficient Federated
     Learning.'
@@ -6013,6 +6099,7 @@ federate%20venue%3AAAAI%3A:
     validate that both BIQ and WBIQ significantly accelerate the convergence of FL
     model training when compared to the state-of-the-art quantizers under both convex
     and non-convex settings.
+  abstract_cn: 量化是提升联邦学习（FL）通信效率的关键技术。传统的量化方法通常采用均匀的量化区间，难以充分刻画非均匀的数据分布，从而导致较大的估计误差和模型性能下降。非均匀量化能够更好地解决这一问题，但在联邦学习场景下，它会带来额外的通信开销，用于对齐各分布式模型之间的参数分布。针对这一问题，我们提出了一种名为二分区间量化（BIQ）的新型非均匀量化框架，该框架在联邦学习中具有极高的通信效率。具体而言，BIQ通过在各参与客户端之间进行递归二分来优化量化区间的选取，且无需额外的参数通信。对于存在大量边界输入的场景，我们进一步设计了加权二分区间量化（WBIQ），其引入最大似然估计来精化边界值的重构，以提升对边界输入的估计精度。我们的理论分析首次在有偏量化条件下严格证明，BIQ和WBIQ均能获得更紧的误差界并显著增强稳定性。大量实验结果表明，在凸与非凸两种优化场景下，与当前最先进的量化方法相比，BIQ和WBIQ均能显著加快联邦学习模型的收敛速度。
 - author: Hanxi Guo, Hao Wang 0022, Tao Song 0003, Tianhang Zheng, Yang Hua 0001,
     Haibing Guan, Xiangyu Zhang 0001
   title: 'Poisoning with a Pill: Circumventing Detection in Federated Learning.'
@@ -6041,6 +6128,7 @@ federate%20venue%3AAAAI%3A:
     (SOTA) defenses, gaining an up to 7x error rate increase, as well as on average
     a more than 2x error rate increase on both IID and non-IID data, in both cross-silo
     and cross-device FL systems.
+  abstract_cn: 联邦学习（FL）通过在不直接访问客户端数据的情况下实现分布式模型训练，从而保护数据隐私。然而，其分布式特性使其容易受到模型投毒和数据投毒攻击。尽管已有大量防御机制利用统计指标来过滤恶意客户端，但它们忽视了模型冗余的作用——并非所有模型参数对模型性能及攻击效果的贡献程度相同。当前的攻击通常以统一的方式操纵所有模型参数，这使得它们更容易被检测到；而防御措施则主要关注客户端更新的整体统计特征，从而为更为复杂的攻击留下了可乘之机。为此，我们提出了一种与具体攻击类型无关的增强方法，旨在提升联邦学习中现有投毒攻击的隐蔽性和有效性，进而揭示现有防御机制的缺陷，并强调对联邦学习进行细粒度安全防护的必要性。我们的三阶段方法包括药丸构建、药丸投毒和药丸注入，在联邦学习的迭代训练过程中，将毒药注入全局模型中的一个紧凑子网络（即“药丸”）。实验结果表明，经该方法增强的联邦学习投毒攻击能够绕过8种最先进的防御机制，在IID和非IID数据场景下、跨存储库和跨设备的联邦学习系统中，平均使错误率提升2倍以上，最高甚至可达7倍。
 - author: Renda Han, Junlong Wu, Wenxuan Tu, Jingxin Liu 0006, Haotian Wang, Jieren
     Cheng
   title: Federated Graph-level Clustering Network with Attribute Inference.
@@ -6070,6 +6158,7 @@ federate%20venue%3AAAAI%3A:
     facilitating inter-client knowledge transfer for better clustering. Experimental
     results on 15 cross-dataset and cross-domain non-IID graph datasets demonstrate
     that FedAI consistently outperforms existing methods.
+  abstract_cn: 随着真实世界数据中垂直细分的兴起，联邦图级聚类近年来受到了广泛关注。然而，某些客户端持有的图数据集中固有的属性缺失问题，会导致局部参数更新效果不佳以及全局参数共识的偏差，从而在协同过程中引发知识漂移，最终影响整体聚类性能。这一问题在当前前沿研究中仍鲜有深入探讨。为此，我们提出了一种新颖的深度学习网络——基于属性推理的联邦图级聚类网络（FedAI），该网络利用各领域的高置信度先验知识，并通过多方协同优化实现对未知特征的有效推理。具体而言，在客户端侧，我们将高置信度的图样本投影至潜在空间，从中提取并上传不可逆的路径摘要信息及面向属性的推理信号；在服务器端，则首先采用改进的图核方法分层识别亲和关系，随后通过先验结构引导的恢复算子推断出节点属性缺失客户端的特征，进而促进客户端间的知识迁移，以获得更优的聚类效果。在15个跨数据集、跨领域的非独立同分布图数据集上的实验结果表明，FedAI始终优于现有方法。
 - author: Guanxiong He, Zheng Wang 0037, Jie Wang 0164, Liaoyuan Tang, Rong Wang 0001,
     Feiping Nie 0001
   title: 'Towards Federated Clustering: A Client-wise Private Graph Aggregation Framework.'
@@ -6102,6 +6191,7 @@ federate%20venue%3AAAAI%3A:
     that our framework achieves state-of-the-art performance, improving clustering
     accuracy by up to 10% (NMI) over federated baselines while maintaining provable
     privacy guarantees.'
+  abstract_cn: 联邦聚类旨在解决从去中心化、无标签数据中提取模式这一关键挑战。然而，现有方法存在一个缺陷：它们不得不在模型性能与隐私保护之间做出权衡——传输嵌入表示会带来敏感数据泄露的风险，而仅共享抽象的聚类原型又会导致模型精度下降。为破解这一困境，我们提出了结构隐私保护联邦图聚类（SPP-FGC）算法，该算法创新性地以局部结构图作为隐私保护知识共享的主要载体，从而突破了传统技术的局限。我们的框架采用清晰的客户端—服务器逻辑：在客户端侧，每个参与方构建一张捕捉数据内在关系的私有结构图；服务器则安全地聚合并对齐这些图，形成一张全局综合图，并从中推导出统一的聚类结构。该框架提供两种不同的运行模式，以满足不同场景的需求。SPP-FGC是一种高效的单轮方法，只需一次通信即可完成任务，非常适合快速分析。而对于图像等更复杂、非结构化的数据，SPP-FGC+则采用迭代式流程，由客户端与服务器协同优化特征表示，从而获得更优异的下游性能。大量实验表明，我们的框架达到了当前最优水平，在保持可证明的隐私保障的同时，相比联邦基准方法，聚类准确率最高可提升10%（NMI）。
 - author: Qing Hu 0008, Tianchi Liao, Shuyi Wu, Lei Yang 0030, Chuan Chen 0001
   title: 'FedLAGC: Towards High Performance System-Heterogeneous Federated Learning
     via Layer-Adaptive Submodel Extraction and Gradient Correction.'
@@ -6135,6 +6225,7 @@ federate%20venue%3AAAAI%3A:
     data heterogeneity settings demonstrate the significant superiority of FedLAGC
     (up to 24% accuracy improvement and 3.66× communication efficiency) over state-of-the-art
     methods.
+  abstract_cn: 联邦学习作为一种在保护数据隐私的同时实现模型协同训练的有前景范式，近年来备受关注。然而，现有许多联邦学习方法隐含地假设客户端具备充足的计算和存储资源，这使得它们在系统异构性严重的现实场景中适用性较差。为此，子模型提取技术近来受到重视，被认为是一种将全局模型适配到资源受限客户端的有效策略。尽管取得了进展，现有方法仍普遍存在客户端间性能差距明显、提取的子模型结构不一致等问题，从而导致全局性能下降和通信开销增加。  在本工作中，我们提出了一种名为FedLAGC的新颖联邦框架，通过基于层自适应的子模型提取与梯度校正，协同解决性能不平衡和通信效率低下的问题。具体而言，FedLAGC根据各层的重要性得分选择结构上重要的参数，为每个客户端构建特定的子模型，从而同时保证资源适应性和架构一致性。此外，我们还提出了一种轻量级校正机制，用于捕捉历史优化过程中的漂移，以使本地更新更好地对齐全局方向，并减少冗余通信。针对非凸目标下的系统异构联邦学习，我们给出了FedLAGC的严格收敛性分析。在多种系统和数据异构性设置下，基于ResNet-18和ResNet-34对CIFAR-10和CIFAR-100数据集进行的大量实验表明，FedLAGC相比当前最先进方法具有显著优势：准确率最高可提升24%，通信效率提升至3.66倍。
 - author: Ke Hu, Liyao Xiang, Peng Tang 0002, Weidong Qiu
   title: 'FedTopo: Topology-Informed Representation Alignment in Federated Learning
     Under Non-I.I.D. Conditions.'
@@ -6162,6 +6253,7 @@ federate%20venue%3AAAAI%3A:
     model during optimization, reducing representation drift across rounds. Experiments
     on Fashion-MNIST, CIFAR-10, and CIFAR-100 under four non-I.I.D. partitions show
     that FedTopo accelerates convergence and improves accuracy over strong baselines.
+  abstract_cn: 当前的联邦学习模型在非独立同分布（Non-I.I.D.）的客户端数据下性能会显著下降，这是因为各客户端的特征表示会逐渐发散，而基于像素或补丁级别的目标难以捕捉高维视觉任务所必需的全局拓扑结构。为此，我们提出了FedTopo框架，该框架融合了拓扑引导块筛选（TGBS）和拓扑嵌入（TE），以充分利用拓扑信息，并通过拓扑对齐损失（TAL）实现跨客户端表示的一致对齐。首先，拓扑引导块筛选（TGBS）自动选择最具拓扑信息量的块——即具有最大拓扑可分性的块——其基于持久性理论的特征能够最佳地区分同类与异类样本，从而确保后续分析聚焦于富含拓扑信息的特征。接着，该块生成一个紧凑的拓扑嵌入，用于量化每个客户端的拓扑信息。最后，通过拓扑对齐损失（TAL），在优化过程中引导各客户端保持与全局模型的拓扑一致性，进而减少各轮次之间的表示漂移。我们在四种Non-I.I.D.划分下的Fashion-MNIST、CIFAR-10和CIFAR-100数据集上进行的实验表明，FedTopo能够加速收敛并优于强基准方法，同时提升分类准确率。
 - author: Bin Hu, Jingling Yuan, Jiawei Jiang 0001, Chuang Hu
   title: 'Venom: Liquid Diffusion-Guided Gradient Inversion for Breaking Differential
     Privacy in Federated Learning.'
@@ -6194,6 +6286,7 @@ federate%20venue%3AAAAI%3A:
     reconstruction fidelity under strong DP settings. These results challenge prevailing
     assumptions about DP robustness and underscore the need for more resilient privacy-preserving
     mechanisms in federated learning.
+  abstract_cn: 基于梯度扰动的防御机制，如差分隐私（DP），通过向共享梯度中注入噪声来抵御梯度反演攻击（GIA）。然而，近期研究发现，基于差分隐私的防御方法在面对高级梯度反演攻击时仍显脆弱。现有梯度反演方法通常依赖迭代优化，并假设噪声为静态分布，这导致其效率较低，且在高噪声条件下重建精度有限。为此，本文提出了一种新颖的梯度反演攻击方法——Venom，该方法基于液态扩散机制，无需任何关于噪声分布的先验知识，即可直接从经差分隐私保护的梯度中重构出私密数据。具体而言，我们设计了一个结构先验提取模块（SPE），通过基于能量的聚合策略，从受扰动梯度中解析地提取深层特征表示，从而实现对用户潜在数据特征的稳定预重建。在此基础上，我们进一步提出了基于扩散的液态恢复网络（Diff-LRN），用于高保真图像重建。与传统扩散模型依赖于预定义噪声调度的迭代采样不同，Diff-LRN采用自适应液态神经动力学，在单步内完成确定性重建，以有效处理空间上异质的噪声分布。在四个基准数据集上的实验结果表明，Venom相较于当前最先进方法，速度最高可提升38,343倍，同时在强差分隐私设置下仍能保持较高的重建精度。这些发现挑战了关于差分隐私鲁棒性的主流观点，也凸显了在联邦学习中构建更为稳健的隐私保护机制的必要性。
 - author: Xuhan Huang, Yan Hu, Zhiyan Li, Zhiyong Wang, Zhongxiang Dai
   title: Federated Linear Dueling Bandits.
   venue: AAAI
@@ -6226,6 +6319,7 @@ federate%20venue%3AAAAI%3A:
     We conduct empirical experiments to demonstrate the effectiveness of FLDB-OGD
     and reveal valuable insights, such as the benefit of a larger number of agents,
     the regret-communication trade-off, among others.
+  abstract_cn: 上下文线性决斗多臂老虎机问题近年来因其在推荐系统、大型语言模型等重要领域的广泛应用而备受关注。经典的决斗多臂老虎机算法通常仅适用于单个智能体。然而，在许多实际应用中，存在多个智能体希望协作以提升性能，但又不愿共享各自的数据。这一需求促使我们从联邦学习中汲取灵感：联邦学习允许多个智能体在不共享原始数据的前提下，通过梯度下降法协同训练各自的神经网络。先前的研究已提出基于闭式更新的联邦线性多臂老虎机算法，借此实现智能体间的协作。然而，在线性决斗多臂老虎机问题中，线性函数参数并不存在闭式表达式，其估计需要通过最小化损失函数来完成，这使得上述方法无法直接适用。为此，本文创新性地将在线梯度下降法（用于最小化损失函数以估计线性函数参数）与联邦学习有机结合，提出了基于在线梯度下降的联邦线性决斗多臂老虎机算法（FLDB-OGD）。通过严格的理论分析，我们证明了该算法的累积遗憾具有次线性上界，并揭示了遗憾与通信复杂度之间的理论权衡关系。此外，我们还开展了大量实验来验证FLDB-OGD的有效性，并从中获得了诸多有价值的见解，例如增加智能体数量带来的收益、遗憾—通信权衡关系等。
 - author: Xingwei Huang, Zhaobin Sun, Junjie Shi, Xin Yang 0008, Zengqiang Yan
   title: 'FedRNC: Addressing Spatio-Temporal Label Misalignment in Federated Noisy
     Class-Incremental Learning.'
@@ -6252,6 +6346,7 @@ federate%20venue%3AAAAI%3A:
     label correction. Experiments on standard benchmarks demonstrate FedRNC's superiority
     against existing baselines, along with its plug-and-play capability to upgrade
     FCIL systems for FNCIL.
+  abstract_cn: 联邦类增量学习（FCIL）旨在在非独立同分布的数据分布下，于去中心化的客户端之间逐步学习新类别。然而，FCIL中普遍存在的标签噪声问题却一直未得到充分重视。在本工作中，我们提出了联邦噪声类增量学习（FNCIL），并首次揭示了一种新型的标签噪声——时空标签错位：来自未见类别的样本被完全误标注为已知类别，而这些样本的正确标签版本则出现在后续任务或其他客户端中。这一现象会削弱现有集中式去噪策略的有效性，并明确提出了在实际FCIL场景中对鲁棒去噪方法的需求。为此，我们提出FedRNC，这是一种双阶段框架，它利用特征空间中的关联来建立干净全局原型与带噪声缓存样本之间的时空对应关系，从而实现渐进式的标签修正。在标准基准数据集上的实验表明，FedRNC相较于现有基线具有显著优势，并且具备即插即用的能力，可直接用于将现有的FCIL系统升级为支持FNCIL的系统。
 - author: Zhenyuan Huang, Hui Zhang, Wenzhong Tang, Haijun Yang
   title: 'FedSDWC: Federated Synergistic Dual-Representation Weak Causal Learning
     for OOD.'
@@ -6279,6 +6374,7 @@ federate%20venue%3AAAAI%3A:
     datasets validate the superior performance of FedSDWC in handling covariate and
     semantic shifts. For example, FedSDWC outperforms FedICON, the next best baseline,
     by an average of 3.04% on CIFAR-10 and 8.11% on CIFAR-100.
+  abstract_cn: 随着数据隐私需求的日益增长以及计算基础设施的不断进步，联邦学习（FL）已成为一种重要的分布式学习范式。然而，数据分布差异（如协变量偏移和语义偏移）严重制约了其在实际部署中的可靠性。为此，我们提出了FedSDWC——一种融合不变特征与变化特征的因果推断方法。FedSDWC通过建模不变特征与变化特征之间的弱因果关系，推导出因果语义表示，从而有效克服了现有不变性学习方法在准确捕捉不变特征及直接构建因果表示方面的局限性。这一方法显著提升了联邦学习的泛化能力和OOD数据检测性能。理论上，我们在特定条件下推导了FedSDWC的泛化误差界，并首次建立了其与客户端先验分布之间的关系。此外，在多个基准数据集上开展的大量实验验证了FedSDWC在应对协变量偏移和语义偏移方面的优越性能。例如，在CIFAR-10和CIFAR-100数据集上，FedSDWC分别较次优基线FedICON平均高出3.04%和8.11%。
 - author: Hiro Ishii, Kenta Niwa, Hiroshi Sawada, Akinori Fujino, Noboru Harada, Rio
     Yokota
   title: 'FedPM: Federated Learning Using Second-order Optimization with Preconditioned
@@ -6308,6 +6404,7 @@ federate%20venue%3AAAAI%3A:
     extensive experiments. The results showed significant improvements with FedPM
     in the test accuracy compared to conventional methods incorporating simple mixing,
     fully leveraging the potential of second-order optimization.
+  abstract_cn: 我们提出了一种名为联邦预条件混合（FedPM）的新型联邦学习方法，该方法利用二阶优化技术。先前的方法，如LocalNewton、LTDA和FedSophia，通过在客户端进行迭代式本地更新，并在服务器端对本地参数进行简单混合，将二阶优化引入联邦学习中。然而，这些方法通常面临本地预条件矩阵漂移的问题，这会显著影响参数训练的收敛性，尤其是在数据异构的场景下。为解决这一问题，我们对更新规则进行了改进：将基于全局预条件化后的全局梯度计算出的理想二阶更新，分解为服务器端的参数混合与客户端的本地参数更新。由此，我们的FedPM在服务器端引入了对本地参数的预条件混合操作，从而有效缓解了本地预条件矩阵的漂移问题。我们还给出了理论收敛性分析，在仅进行一次本地更新的情况下，对于强凸目标函数可达到超线性收敛速率。为了验证FedPM的实际优势，我们开展了大量实验。结果表明，与采用简单混合的传统方法相比，FedPM在测试准确率上取得了显著提升，充分释放了二阶优化的潜力。
 - author: Xuan Lai, Luying Zhong, Tianying Lu, Junjie Zhang 0010, Zhiqin Huang, Zheyi
     Chen
   title: Generalizable Heterogeneity-aware Federated Feature and Basic-matrix Consistency
@@ -6337,6 +6434,7 @@ federate%20venue%3AAAAI%3A:
     Using real-world unlabeled public datasets, extensive experiments validate the
     superiority of the proposed FBCL, which outperforms the state-of-the-art methods
     on different scenarios of image classification.
+  abstract_cn: 作为一种新兴的分布式学习范式，联邦学习（FL）能够在不共享原始数据的前提下，实现多客户端之间的协同训练。然而，经典的联邦学习仍面临特征/模型异构性以及灾难性遗忘等重大挑战，这些挑战严重阻碍了知识迁移，并导致先前知识的遗忘。为应对这些关键问题，我们提出了FBCL——一种新颖的、具有异构性感知能力的联邦特征与基础矩阵一致性学习方法，以平衡域内判别能力和域间泛化能力。针对特征/模型异构性问题，我们通过对齐特征分布的相似性，并利用无关的无标签数据构建高维基础矩阵，从而在严格保护隐私的同时，突破通信障碍、学习到可泛化的表征。对于本地更新过程中的灾难性遗忘问题，我们在高维特征空间中引入约束，以保留跨域知识；随后通过蒸馏旧模型提取精确知识，从而有效保存有价值的历史信息。基于真实世界的无标签公开数据集，大量实验验证了所提出的FBCL方法的优越性，在不同图像分类场景下均优于当前最先进的方法。
 - author: Gyuejeong Lee, Daeyoung Choi
   title: Communication-Efficient Heterogeneous Federated Learning with Sparse Prototypes
     in Resource-Constrained Environments.
@@ -6362,6 +6460,7 @@ federate%20venue%3AAAAI%3A:
     communication efficiency, TinyProto offers crucial advantages: it achieves compression
     without client-side computational overhead and supports heterogeneous architectures,
     making it particularly suitable for resource-constrained heterogeneous FL scenarios.'
+  abstract_cn: 联邦学习（FL）中的通信效率在资源受限的环境中仍是一项关键挑战。基于原型的联邦学习通过共享倒数第二层的均值激活作为类别原型，而非模型参数，从而降低通信开销；然而，当特征维度和类别数量增大时，其效率会显著下降。为此，我们提出了TinyProto，该方法通过类别级原型稀疏化（CPS）和自适应原型缩放（APS）来克服上述局限。CPS通过为每个类别的原型分配特定的特征维度，并仅传输非零元素，实现结构化稀疏化，进而大幅提升通信效率；而APS则根据类别分布对原型进行缩放，以进一步提升模型性能。实验结果表明，与现有方法相比，TinyProto可将通信成本降低多达10倍，同时提升模型性能。除通信效率外，TinyProto还具有以下重要优势：它无需客户端侧的额外计算开销即可实现模型压缩，并且能够支持异构架构，因此特别适用于资源受限的异构联邦学习场景。
 - author: Royson Lee, Minyoung Kim 0001, Fady Rezk, Rui Li 0052, Stylianos I. Venieris,
     Timothy M. Hospedales
   title: 'FedP²EFT: Federated Learning to Personalize PEFT for Multilingual LLMs.'
@@ -6387,6 +6486,7 @@ federate%20venue%3AAAAI%3A:
     rank selection. Evaluations on both simulated and real-world multilingual FL benchmarks
     demonstrate that FedP²EFT largely outperforms existing personalized fine-tuning
     methods, while complementing other existing FL methods.
+  abstract_cn: 联邦学习（FL）使得在多样且分散的多语言数据上训练多语言大语言模型（LLMs）成为可能，尤其是在低资源语言场景下。为提升客户端特定性能，通常采用参数高效微调（PEFT）模块（如LoRA）进行个性化。这涉及个性化策略（PS），包括PEFT适配器结构的设计（例如在哪些层添加LoRA以及其秩的选择）和微调超参数的选取（如学习率）。不同于手动配置PS，我们提出了FedP²EFT——一种面向跨设备联邦学习场景的多语言大语言模型联邦个性化方法。与大多数现有PEFT结构选择方法易在数据稀缺情况下过拟合不同，FedP²EFT通过贝叶斯稀疏秩选择，协作地为每个客户端学习最优的个性化PEFT结构。在模拟及真实世界多语言联邦学习基准上的评估表明，FedP²EFT显著优于现有的个性化微调方法，并能与其他现有联邦学习方法互补。
 - author: Yuyuan Li 0001, Junjie Fang, Fengyuan Yu, Xichun Sheng, Tianyu Du, Xuyang
     Teng, Shaowei Jiang, Linbo Jiang, Jianan Lin, Chaochao Chen 0001
   title: 'FedAU2: Attribute Unlearning for User-Level Federated Recommender Systems
@@ -6417,6 +6517,8 @@ federate%20venue%3AAAAI%3A:
     on three real-world datasets demonstrate that our proposed FedAU2 achieves superior
     performance in unlearning effectiveness and recommendation performance compared
     to existing baselines.'
+  abstract_cn: 联邦推荐系统（FedRecs）利用联邦学习在本地保存数据，从而保护用户隐私。然而，FedRecs中的用户嵌入通常会编码敏感的属性信息，使其容易遭受属性推断攻击。属性遗忘技术作为一种有前景的解决方案，正逐渐受到关注。本文聚焦于用户级联邦推荐系统，相较于组级联邦推荐系统，这一设置更为实用但也更具挑战性。在此背景下，对抗训练被视为最可行的方法。我们识别出在用户级联邦推荐系统中实施基于对抗训练的属性遗忘所面临的两大挑战：i)
+    缓解由用户数据异质性引起的训练不稳定；ii) 防止通过梯度泄露属性信息。为应对这些挑战，我们提出了FedAU2——一种适用于用户级联邦推荐系统的属性遗忘方法。针对挑战一，我们设计了一种自适应对抗训练策略，该策略可根据本地优化行为动态调整训练过程；针对挑战二，我们提出了一种双随机变分自编码器来扰动对抗模型，从而有效阻止基于梯度的信息泄露。在三个真实数据集上的大量实验表明，与现有基线方法相比，我们提出的FedAU2在属性遗忘效果和推荐性能方面均表现出色。
 - author: Zhiwei Li 0007, Guodong Long, Jing Jiang 0002, Chengqi Zhang, Qiang Yang
     0001
   title: Federated Vision-Language-Recommendation with Personalized Fusion.
@@ -6441,6 +6543,7 @@ federate%20venue%3AAAAI%3A:
     lightweight personalized fusion module provides an efficient solution to implement
     a federated VLR system. The effectiveness of our proposed FedVLR has been validated
     on seven benchmark datasets.'
+  abstract_cn: 将大型预训练视觉—语言模型应用于推荐系统是一个方兴未艾的研究领域，我们将其称为视觉—语言—推荐（VLR）。在联邦学习框架下，将VLR落地于以用户为中心的端侧智能，对于提升用户隐私保护水平、提供个性化体验具有重要意义。本文提出了FedVLR，一个专为实现用户特定的视觉—语言表征个性化融合而设计的联邦VLR框架。其核心是一种新颖的双层融合机制：服务器端的多视图融合模块首先生成一组多样化的预融合多模态视图；随后，每个客户端利用基于用户特定的专家混合机制，根据用户的个体交互历史自适应地整合这些视图。这一轻量级的个性化融合模块为构建联邦VLR系统提供了一种高效解决方案。我们在七个基准数据集上验证了所提出FedVLR的有效性。
 - author: Yichen Li 0006, Hang Su, Huifa Li, Haolin Yang, Xinlin Zhuang, Haochen Xue,
     Haozhao Wang, Imran Razzak
   title: 'FedCD: Towards Consolidated Distillation for Heterogeneous Federated Learning.'
@@ -6472,6 +6575,10 @@ federate%20venue%3AAAAI%3A:
     mitigating impacts from both data and model heterogeneity. Extensive experiments
     demonstrate that FedCD outperforms state-of-the-art methods by over 10.72% and
     validate the effectiveness of our approach.'
+  abstract_cn: 知识蒸馏（KD）是一种有效解决联邦学习（FL）中异构性问题的方法，它利用额外的数据集来更好地对齐本地模型与全局模型。目前主要有两种蒸馏范式：基于特征的蒸馏，利用网络中间层的特征；以及基于
+    logits 的蒸馏，使用网络最后一层的 logits 输出。然而，在面对不同的异构场景时，现有研究往往仅凭直觉和经验来选择蒸馏方法，而忽视了蒸馏范式与异构性之间的内在联系。这种疏忽可能导致在异构条件下联邦知识蒸馏性能欠佳。为此，本文提出了一种面向异构联邦学习的整合蒸馏方法——FedCD，该方法综合融合了基于特征和基于
+    logits 的知识表示，以提升整体性能。具体而言，为解决特征与 logits 所传递知识之间的不一致问题，我们通过跨层注意力机制聚合不同层的特征，以保留语义知识，随后采用高斯混合模型进行分布建模。这一过程通过将各层特征的变换约束于统一的分布之下，从而强化知识蒸馏效果，并有效缓解数据异构与模型异构带来的影响。大量实验结果表明，FedCD
+    相较于当前最优方法提升了超过 10.72%，充分验证了所提方法的有效性。
 - author: Haiyan Lin, Qi Shen, Fei Zhu, Zixuan Qin, Liu Yang, Yuping Duan
   title: 'FedDNA: DNA Sequence Reconstruction via Deep Evidential Learning and Personalized
     Federated Aggregation.'
@@ -6501,6 +6608,7 @@ federate%20venue%3AAAAI%3A:
     results demonstrate FedDNA achieves superior reconstruction performance on DNA
     storage data with heterogeneity, highlighting its potential for secure and efficient
     DNA storage systems.
+  abstract_cn: 基于DNA的数据存储因其卓越的存储密度、耐久性和可持续性，成为传统存储介质极具吸引力的替代方案。然而，DNA存储流程中引入的错误会严重阻碍从噪声测序读段中准确重建序列。本文针对DNA序列重建问题，提出FedDNA——一种新颖的个性化联邦学习（PFL）框架，该框架基于证据深度学习（DEL），专为DNA存储环境设计。FedDNA通过一种创新的证据融合机制量化稳健的预测不确定性：该机制聚合同一簇中各条噪声读段的证据，从而提升客户端层面的预测可靠性。为进一步高效地对这些噪声簇进行建模与序列重建，其架构采用卷积增强型Mamba编码器和LSTM解码器。为应对集中式训练成本高昂、隐私顾虑以及不同DNA存储数据集间存在的异质性问题，FedDNA整合了个性化联邦学习，并设计了一种基于认识论与随机性分解的、由不确定性驱动的个性化聚合策略；我们还为此提供了严格的理论泛化界。实验结果表明，FedDNA在具有异质性的DNA存储数据上实现了更优的重建性能，凸显了其在构建安全高效DNA存储系统方面的潜力。
 - author: Zhaowei Liu 0001, Yihao Jiang, Rufei Gao, Jinglei Liu, Dong Yang
   title: 'DA-DFGAS: Differentiable Federated Graph Neural Architecture Search with
     Distribution-Aware Attentive Aggregation.'
@@ -6527,6 +6635,7 @@ federate%20venue%3AAAAI%3A:
     local adaptability. Experimental results on multiple datasets demonstrate that
     DA-DFGAS outperforms state-of-the-art methods, achieving 0.5–3.0% accuracy improvements
     over centralized baselines and 0.5–5.0% over federated counterparts.
+  abstract_cn: 图神经网络（GNN）在处理集中式图结构数据方面表现出色。然而，现实中的隐私与安全顾虑阻碍了数据的集中与共享，导致严重的数据孤岛现象。尽管联邦学习（FL）提供了一种分布式解决方案来缓解这些障碍，但现有的联邦图神经网络框架仍难以有效应对数据异质性问题。为此，本文提出了一种名为DA-DFGAS的联邦图神经架构搜索算法。具体而言，DA-DFGAS通过有向树拓扑结构和路径约束机制实现模型个性化，同时采用基于预测概率分布的联合自注意力机制，以捕捉不同客户端之间的分布差异。此外，它还引入了双层全局—局部目标优化策略，在保证全局模型一致性的同时，维持本地适应性。在多个数据集上的实验结果表明，DA-DFGAS优于当前最先进的方法：相较于集中式基线，其准确率提升0.5%至3.0%；相较于联邦学习基准，则提升0.5%至5.0%。
 - author: Junkang Liu, Fanhua Shang, Hongying Liu 0001, Yuxuan Tian, Yuanyuan Liu
     0001, Jin Liu, Kewen Zhu, Zhouchen Lin
   title: 'FedAdamW: A Communication-Efficient Optimizer with Convergence and Generalization
@@ -6558,6 +6667,12 @@ federate%20venue%3AAAAI%3A:
     weight decay in local training. Empirically, we validate the effectiveness of
     FedAdamW on language and vision Transformer models. Compared to several baselines,
     FedAdamW significantly reduces communication rounds and improves test accuracy.'
+  abstract_cn: AdamW 已经成为训练大规模模型最为有效的优化算法之一。我们也在联邦学习（FL）场景中观察到了它的优越性能。然而，在联邦学习环境中直接应用
+    AdamW 会面临重大挑战：（1）由于数据异构性，AdamW 在二阶矩估计 v 的计算上往往会产生较高的方差；（2）AdamW 的局部过拟合可能导致客户端漂移；（3）每轮重新初始化一阶和二阶矩估计（v、m）会显著减缓收敛速度。为应对这些挑战，我们提出了首个用于各类大模型训练与微调的联邦
+    AdamW 算法——FedAdamW。FedAdamW 同时采用本地校正机制和解耦权重衰减，使本地更新与全局更新保持一致，从而缓解局部过拟合问题。此外，FedAdamW
+    还高效地聚合二阶矩估计的均值以降低其方差，并适时进行重初始化。理论上，我们证明了在无需假设数据同质性的条件下，FedAdamW 能够达到 O(p(L∆σ²l)/(SKRε²)
+    + (L∆)/R) 的线性加速收敛速率，其中 S 表示每轮参与的客户端数量，K 表示本地迭代次数，R 表示总通信轮数。我们进一步利用 PAC-Bayes 泛化分析来解释解耦权重衰减在本地训练中的有效性。实验结果表明，FedAdamW
+    在语言和视觉 Transformer 模型上均表现出显著的优势。与多个基线方法相比，FedAdamW 不仅大幅减少了通信轮次，还提升了测试准确率。
 - author: Jingxin Liu 0006, Wenxuan Tu, Renda Han, Junlong Wu, Haotian Wang, Guohui
     Liu, Xiangyan Tang, Yue Yang
   title: Personalized Federated Graph-Level Clustering Network.
@@ -6588,6 +6703,7 @@ federate%20venue%3AAAAI%3A:
     gradient to update the key components in the personalized model parameters from
     the server. Extensive experimental results have demonstrated the effectiveness
     and superiority of PERFECT over its competitors.
+  abstract_cn: 在联邦聚类任务中，客户端之间的结构异质性不可避免地阻碍了多源信息的有效共享。为解决这一问题，个性化联邦学习（PFL）作为一种潜在的有效方案，已应用于图像和文本聚类任务。与欧几里得数据不同，图结构数据呈现出多样且易碎的局部模式，这类模式在现实场景中广泛存在。在联邦学习框架下开展多图数据分析既具有挑战性又十分重要，但目前仍鲜有深入研究。基于此，我们提出了一种新颖的个性化联邦图级别聚类网络——PERFECT。该方法通过上传关键模型参数和代表性样本，在不泄露隐私信息的前提下，为每个客户端生成专门的聚合策略。具体而言，对于每个客户端，我们首先以MinMax优化的方式重构具有隐私保护性的代表性样本，随后将其上传至服务器，用于后续的个性化参数聚合。在服务器端，我们先从上传的数据中提取图级别嵌入，再估计多个学习到的嵌入之间的亲和力，从而为每个客户端制定个性化的聚合策略。接着，为了帮助各本地模型更好地识别聚类边界，我们利用基于聚类的梯度，从服务器端更新个性化模型参数中的关键组件。大量实验结果表明，PERFECT在性能上显著优于现有方法，展现出其有效性和优越性。
 - author: Jingxin Liu 0006, Wenxuan Tu, Haotian Wang, Renda Han, Haoyi Li, Junlong
     Wu, Xiangyan Tang
   title: Causally-Aware Attribute Completion for Incomplete Federated Graph Clustering.
@@ -6620,6 +6736,7 @@ federate%20venue%3AAAAI%3A:
     causal structure, which is sent back to the client to promote high-quality attribute
     completion for better clustering. Extensive results on five benchmark datasets
     demonstrate the effectiveness and superiority of IFedGC against its competitors.
+  abstract_cn: 节点级联邦图聚类允许多个无标签子图持有者在不共享隐私信息的情况下，协同完成节点级任务的训练。现有方法通常假设节点属性是完备的，并已取得令人鼓舞的进展。然而，在联邦图学习（FGL）场景中，由于数据采集设备可能出现故障，这一假设过于严苛。因此，大多数现有的FGL框架难以从属性不完整的图中提取有用特征用于聚类，而这一问题至今仍未得到充分研究。为弥补这一空白，我们提出了一种面向属性不完整联邦图聚类的因果感知属性补全方法（IFedGC），该方法构建了一个可靠的全局因果结构，其中融入了利于聚类的信息，以指导各子图的属性补全。具体而言，在属性补全步骤中，我们首先构建因果结构，提取初始化特征之间的因果关系，并将其上传至服务器；随后，将多个上传的因果结构整合为一个全局因果结构，从而实现跨客户端的属性补全。此外，为了支持可靠的聚类，我们先利用图神经网络（GNN）模型从每个子图中收集高置信度的聚类中心，再在服务器端对这些中心进行聚合。上述两个步骤无缝集成在一个统一的FGL框架中，以获得面向聚类的因果结构，并将其回传至客户端，从而促进高质量的属性补全，进而提升聚类效果。在五个基准数据集上的大量实验结果表明，IFedGC相较于同类方法具有显著的有效性和优越性。
 - author: Yuxuan Liu 0017, Wenchao Xu 0001, Haozhao Wang, Zhiming He, Zhaofeng Shi,
     Chongyang Xu, Peichao Wang, Boyuan Zhang
   title: Causality-inspired Federated Learning for Dynamic Spatio-Temporal Graphs.
@@ -6652,6 +6769,8 @@ federate%20venue%3AAAAI%3A:
     knowledge sharing across diverse spatio-temporal patterns. Experiments on five
     diverse heterogeneity Spatio-Temporal Graph (STG) datasets show that SC-FSGL outperforms
     state-of-the-art methods.
+  abstract_cn: 联邦图学习（FGL）作为一种在保护数据隐私的同时实现图神经网络去中心化训练的强大范式，近年来备受关注。然而，现有的 FGL 方法主要针对静态图设计，依赖参数平均或分布对齐策略，这些方法隐含地假设所有特征在不同客户端之间均可等效迁移，从而忽视了现实世界图数据中存在的空间与时间异质性，以及客户端特有的知识。在本工作中，我们发现此类假设会形成虚假表征纠缠、客户端特异性干扰与负迁移的恶性循环，进而降低动态时空图联邦学习（FSTG）中的泛化性能。为此，我们提出了一种受因果推理启发的新框架——SC-FSGL，该框架通过表征级干预，显式地将可迁移的因果知识与客户端特异性噪声解耦。具体而言，我们引入了一个条件分离模块，利用客户端条件掩码模拟软干预，以分离不变的时空因果因子与虚假信号，缓解由客户端异质性引起的表征纠缠。此外，我们还设计了一个因果码本，通过聚类因果原型并借助对比学习对齐局部表征，从而增强跨客户端的一致性，促进在不同时空模式间的知识共享。在五个具有多样化异质性的时空图数据集上的实验结果表明，SC-FSGL
+    的性能显著优于当前最先进的方法。
 - author: Shudong Liu 0008, Hanwen Zhang, Xiuling Wang, Yuesheng Zhu, Guibo Luo
   title: Feature-Aware One-Shot Federated Learning via Hierarchical Token Sequences.
   venue: AAAI
@@ -6680,6 +6799,7 @@ federate%20venue%3AAAAI%3A:
     precise distribution modeling. Experiments on medical and natural image datasets
     validate the effectiveness of FALCON in diverse non-IID scenarios, outperforming
     the best OSFL baselines by 9.58\% in average accuracy.
+  abstract_cn: 单次联邦学习（OSFL）通过仅需一轮通信即可构建全局模型，从而降低迭代式联邦学习的通信开销和隐私风险。然而，现有方法大多难以在医学影像等真实场景中取得稳健的性能，或在处理非独立同分布（Non-IID）数据时效率较低。为此，我们提出了FALCON——一种新颖的框架，旨在提升OSFL在非IID图像数据上的有效性。FALCON的核心思想是将特征感知的层次化标记序列生成与知识蒸馏引入OSFL中。首先，每个客户端利用预训练的具有层次尺度编码的视觉编码器，将图像压缩为能够捕捉多尺度语义信息的层次化标记序列。其次，采用多尺度自回归Transformer生成器对这些标记序列的分布进行建模，并生成合成序列。接着，客户端将合成序列连同基于真实标记序列训练的本地分类器上传至服务器。最后，服务器在全局训练中融入知识蒸馏机制，以减少对精确分布建模的依赖。在医学影像和自然图像数据集上的实验结果表明，FALCON在多种非IID场景中均表现出显著的有效性，其平均准确率较最优的OSFL基线高出9.58%。
 - author: Yunbo Long, Jiaquan Zhang, Xi Chen, Alexandra Brintrup
   title: Topological Federated Clustering via Gravitational Potential Fields Under
     Local Differential Privacy.
@@ -6714,6 +6834,9 @@ federate%20venue%3AAAAI%3A:
     persistence problem in a synthetic physics-inspired space, GFC achieves unprecedented
     privacy-accuracy trade-offs without iterative communication, providing a new perspective
     for privacy-preserving distributed learning.'
+  abstract_cn: 在联邦学习场景下，在局部差分隐私（LDP）机制保护下对非独立同分布（non-IID）数据进行聚类，面临一个关键挑战：如何在不进行迭代通信的情况下，既保护隐私又保持聚类精度。现有的单次性方法依赖于不稳定的成对质心距离或邻域排序，在强LDP噪声和数据异质性条件下性能会严重下降。为此，我们提出了引力联邦聚类（GFC），这是一种全新的隐私保护型联邦聚类方法，能够克服基于距离的方法在不同LDP强度下的局限性。针对具有多样化隐私保障的non-IID数据聚类这一核心难题，GFC将经过隐私保护处理的客户端质心转化为全局引力势场，使真实的聚类中心以拓扑持久的奇异点形式自然涌现。我们的框架包含两项关键创新：(1)
+    客户端侧的紧凑性感知扰动机制，将局部聚类几何结构编码为“质量”值；(2) 服务器侧的拓扑聚合阶段，通过分析势场超水平集的持久同调来提取稳定的聚类中心。理论上，我们建立了隐私预算ε与质心估计误差之间的闭式界，并证明势场的利普希茨平滑特性能够在高密度区域呈指数级抑制噪声。实验结果表明，GFC在十个基准数据集上均优于当前最先进方法，尤其在强LDP约束下（ε
+    < 1）表现突出，而在较低隐私预算下仍能保持相当的性能。通过将联邦聚类重新表述为一个受物理启发的合成空间中的拓扑持久性问题，GFC无需迭代通信即可实现前所未有的隐私-精度权衡，为隐私保护的分布式学习提供了新的视角。
 - author: Jundong Chen 0003, Honglei Zhang 0002, Chunxu Zhang, Fangyuan Luo, Yidong
     Li
   title: 'Breaking the Aggregation Bottleneck in Federated Recommendation: A Personalized
@@ -6740,6 +6863,8 @@ federate%20venue%3AAAAI%3A:
     mechanisms to boost personalization. Extensive experiments demonstrate that our
     method preserves client personalization during collaborative training, outperforming
     state-of-the-art baselines.
+  abstract_cn: 联邦推荐（FR）通过聚合来自海量设备的本地模型来促进协同训练，在保障隐私的同时实现面向客户端的个性化。然而，我们从实验和理论两方面证明，服务器端的聚合会削弱客户端的个性化，导致性能欠佳，即所谓的“聚合瓶颈”。这一问题源于联邦推荐中大量客户端之间的固有异质性，它会使全局模型偏离局部最优解。为此，我们提出了FedEM，该方法能够弹性地融合全局模型与本地模型，以弥补个性化的损失。与现有的个性化联邦推荐（pFR）方法不同，FedEM：(1)
+    通过理论分析深入探讨了联邦推荐中的聚合瓶颈，而非依赖启发式分析；(2) 直接利用现成的本地模型，而不需额外设计机制来增强个性化。大量实验表明，我们的方法能够在协同训练过程中有效保持客户端个性化，并优于当前最先进的基线方法。
 - author: Haochen Yuan 0001, Yang Zhang 0095, Xiang He 0002, Quan Z. Sheng, Zhongjie
     Wang 0003
   title: Plug-and-Play Parameter-Efficient Tuning of Embeddings for Federated Recommendation.
@@ -6767,6 +6892,7 @@ federate%20venue%3AAAAI%3A:
     a novel PEFT strategy within our framework. Extensive experiments across various
     FR model backbones and datasets demonstrate that our framework significantly reduces
     communication overhead while improving accuracy.
+  abstract_cn: 随着云边协同的兴起，推荐服务越来越多地在分布式环境中进行训练。联邦推荐（FR）能够在保护隐私的前提下，通过共享模型参数而非原始数据来实现多端协同训练。然而，由于海量的物品嵌入，模型参数数量庞大，这严重制约了通信效率。现有研究大多聚焦于提升联邦推荐模型的效率，却忽视了嵌入参数开销这一关键问题。为此，我们提出了一种基于参数高效微调（PEFT）嵌入的联邦推荐训练框架，旨在减少需要传输的嵌入参数量。我们的方法是一种轻量级的插件式解决方案，可无缝集成到现有的联邦推荐方法中。除了引入LoRA和基于哈希的编码等常见的PEFT技术外，我们还在框架中探索了残差量化变分自编码器（RQ-VAE）作为一种新颖的PEFT策略。在多种联邦推荐模型基线和数据集上的大量实验表明，我们的框架能够在显著降低通信开销的同时提升模型精度。
 - author: Hanwen Zhang, Qiaojin Shen, Yuxi Liu 0005, Yuesheng Zhu, Guibo Luo
   title: 'DSFedMed: Dual-Scale Federated Medical Image Segmentation via Mutual Distillation
     Between Foundation and Lightweight Models.'
@@ -6794,6 +6920,7 @@ federate%20venue%3AAAAI%3A:
     time by nearly 90 percent compared to existing federated foundation model baselines.
     These results demonstrate significant efficiency gains and scalability for resource-limited
     federated deployments.
+  abstract_cn: 基础模型（FMs）已在各类视觉任务中展现出强大的泛化能力。然而，在联邦学习场景下的部署却受到高计算需求、巨大通信开销以及高昂推理成本的制约。为此，我们提出了DSFedMed——一种双尺度联邦框架，可在中心化的基础模型与轻量级客户端模型之间实现医学图像分割任务中的双向知识蒸馏。为支持知识蒸馏，我们生成了一组高质量的医学图像以替代真实的公开数据集，并提出了一种基于可学习性引导的样本选择策略，从而提升双尺度蒸馏的效率与效果。这种双向蒸馏机制使基础模型能够将通用知识迁移到轻量级客户端，同时融入客户端特有的领域知识来进一步优化基础模型。在五个医学影像分割数据集上的实验结果表明，与现有的联邦基础模型基线相比，DSFedMed在平均Dice系数上提升了2个百分点，同时将通信开销和推理时间分别降低了近90%。这些成果充分证明了DSFedMed在资源受限的联邦部署中具有显著的效率提升与可扩展性。
 - author: Xiaojie Zhao, Jinqiao Shi, Yi Li, Junmin Huang, Chongru Fan
   title: 'Good Gradients Poison Your Model: Evading Defenses in Federated Learning
     via Boundary-adaptive Perturbation.'
@@ -6819,6 +6946,7 @@ federate%20venue%3AAAAI%3A:
     study on benchmark datasets and mainstream defensive mechanisms confirms that
     the proposed attack raises a significantly threat to the integrity and security
     of FL practices, regardless of the flourishing of robust FL methods.
+  abstract_cn: 联邦学习（FL）能够在保护数据隐私的同时实现模型的协同训练，但其分布式特性使其容易受到投毒攻击。现有的防御方法通常依赖于来自多个客户端的梯度来定义一个可信区域，并仅选择该区域内可信的更新（即良性梯度）进行聚合。主流的防御边界可分为硬边界、软边界和半软边界。然而，我们认为，即使在这些边界内的良性梯度，仍可能被攻击者利用以污染模型。为应对这一挑战，我们提出了一种边界自适应攻击方法，该方法借助优化技术的方向性特性，推导出基准的中毒梯度。通过迭代扰动，它能够生成看似无害、但实际上会微弱偏离全局模型的梯度。我们在基准数据集及主流防御机制上的大量实验表明，无论鲁棒联邦学习方法如何发展，所提出的攻击都对联邦学习实践的完整性和安全性构成了显著威胁。
 - author: Xin Xu 0007, Binchang Ma, Zhixi Yu, Wei Liu 0183
   title: 'FedARKS: Federated Aggregation via Robust and Discriminative Knowledge Selection
     and Integration for Person Re-identification.'
@@ -6854,6 +6982,7 @@ federate%20venue%3AAAAI%3A:
     generalization results on the FedDG-ReID benchmark, demonstrating that learning
     subtle body part features can effectively assist and reinforce global representations,
     thereby enabling robust cross-domain person ReID capabilities.'
+  abstract_cn: 联邦域泛化在行人重识别任务中的应用（FedDG-ReID）旨在保护客户端数据隐私的同时提升模型对未见域的泛化能力。然而，现有主流方法通常依赖全局特征表示和简单的平均聚合策略，这导致了域泛化能力的两大局限性：（1）仅使用全局特征难以捕捉细微且域不变的局部细节（如配饰或纹理）；（2）对称的参数平均会将所有客户端视为等同，忽视其在鲁棒特征提取能力上的差异，从而削弱高质量客户端的贡献。为解决上述问题，我们提出了一种新颖的联邦学习框架——基于鲁棒与判别性知识选择及集成的联邦聚合（FedARKS），该框架包含两个核心机制：鲁棒知识提取（RK）和知识选择（KS）。在我们的设计中，每个客户端采用RK的双分支网络：全局特征处理分支作为主干，用于提取整体表征以供模型聚合和服务器端更新；而身体部位处理分支则作为辅助分支，专注于提取域不变的局部细节，以补充并指导全局特征学习过程中的本地训练。此外，我们的KS机制可根据各客户端提取域不变知识的能力自适应地分配相应的聚合权重，从而使服务器能够更好地整合各客户端所提取的跨域不变知识。大量实验验证表明，FedARKS在FedDG-ReID基准上取得了当前最优的泛化性能，证明学习细微的身体部位特征能够有效辅助并强化全局表征，进而实现稳健的跨域行人重识别能力。
 - author: Zhixi Yu, Wei Liu, Wenke Huang 0003, Bin Yang 0026, Qian Bie, Guancheng
     Wan, Xin Xu 0007
   title: Domain-Aware Suppression and Aggregation for Federated DG ReID.
@@ -6885,6 +7014,7 @@ federate%20venue%3AAAAI%3A:
     information and assigning greater aggregation weights to clients that contribute
     more generalized information. Extensive experiments demonstrate the effectiveness
     of FedSupWA, showing that it achieves state-of-the-art performance.
+  abstract_cn: 人员重识别中的联邦域泛化（FedDG-ReID）旨在从分散的客户端源域中学习一个隐私保护的服务器模型，使其能够泛化到未见域。现有方法通过增加客户端人员数据的多样性来提升服务器模型的泛化能力。然而，这些方法忽视了一个关键问题：ReID模型参数极易受到客户端特定数据分布的影响而产生偏差，从而过度捕获域特异性的身份信息。这类域特异性身份信息（如服饰风格）往往与未见域中的身份信息不一致，进而阻碍了服务器模型的泛化能力。为此，我们提出了一种新颖的FedDG-ReID框架——FedSupWA，其核心由域感知参数抑制（DPS）和域不变加权聚合（DWA）组成。具体而言，DPS根据模型参数对客户端域的拟合程度自适应地衰减参数更新幅度，促使模型更多地关注更具泛化性的域无关身份信息，例如行人轮廓等跨域一致的信息。DWA则通过评估客户端模型保持行人身份一致性的有效性来衡量所学域无关身份信息的重要性，并为贡献更泛化信息的客户端分配更高的聚合权重，从而进一步提升服务器模型的泛化能力。大量实验结果表明，FedSupWA具有显著的有效性，并取得了当前最优的性能。
 - author: Cheng-Chang Tsai, Kai-Wen Cheng, Chun-Shien Lu
   title: 'FedSDA: Federated Stain Distribution Alignment for Non-IID Histopathological
     Image Classification.'
@@ -6917,6 +7047,7 @@ federate%20venue%3AAAAI%3A:
     address the non-IID data issues from the perspective of data distribution. We
     show that FedSDA provides valuable and practical insights for the computational
     pathology community.
+  abstract_cn: 联邦学习（FL）已在不直接共享隐私敏感训练数据的情况下，实现去中心化数据资源间的协同模型训练，并取得了显著成效。然而，尽管近年来取得了诸多进展，非独立同分布（Non-IID）数据仍是一个不可避免的挑战，制约着联邦学习的实际应用。在本工作中，我们从一个迄今关注较少但颇具直观性的视角出发，探讨了特征分布偏移带来的非IID组织病理图像问题。具体而言，我们从数据分布的角度入手，仅通过调整各客户端的数据分布来解决这一问题。基于扩散模型在拟合数据分布方面的成功，并借助染色分离技术提取与组织病理图像非IID特性密切相关的关键特征，我们提出了一种联邦染色分布对齐方法（FedSDA）。FedSDA在联邦学习框架内，将每个客户端的染色分布对齐到目标分布，从而缓解客户端之间的分布偏移。此外，鉴于在联邦学习场景下直接使用原始数据训练扩散模型易引发隐私泄露风险，我们设计了一种规避该风险但仍能有效实现分布对齐的方法。大量实验结果表明，FedSDA不仅能够有效提升现有基线方法在缓解客户端模型更新差异方面的能力，而且在从数据分布角度解决非IID数据问题的基线方法中也表现更优。我们的研究为计算病理学领域提供了有价值且具有实践意义的见解。
 - author: Feng Wang, Tianxiang Chen, Shuyue Wei 0001, Qian Chu, Yi Zhang, Yifan Sun,
     Zhiming Zheng 0001
   title: 'Unlocking Dynamic Inter-Client Spatial Dependencies: A Federated Spatio-temporal
@@ -6949,6 +7080,7 @@ federate%20venue%3AAAAI%3A:
     the contribution of each module in addressing dynamic inter-client spatial dependencies,
     while sensitivity analysis highlights the robustness of FedSTGD to variations
     in hyperparameters.
+  abstract_cn: 时空图是建模交通时间序列中复杂依赖关系的强大工具。然而，现实世界交通数据分散于多个利益相关方之间，在遵守数据本地性约束的同时，对建模和重建客户端间空间依赖关系构成了重大挑战。现有方法主要关注静态依赖，忽视了其动态特性，因而性能欠佳。为此，我们提出了一种名为联邦动态客户端间时空图（FedSTGD）的框架，旨在联邦学习环境中建模并重建动态的客户端间空间依赖关系。FedSTGD引入了一个联邦非线性计算分解模块，用于近似复杂的图操作；同时配备一个图节点嵌入增强模块，以缓解因分解带来的性能下降。这两个模块通过客户端—服务器协同学习协议进行协调，该协议将动态的客户端间空间依赖学习任务分解为轻量级、可并行化的子任务。在四个真实数据集上的大量实验表明，FedSTGD在RMSE、MAE和MAPE等指标上均优于当前最先进的基线方法，接近集中式基线的水平。消融实验验证了各模块在处理动态客户端间空间依赖方面的贡献，而敏感性分析则凸显了FedSTGD对超参数变化的鲁棒性。
 federate%20venue%3AAISTATS%3A:
 - author: Gary Cheng 0004, Karan N. Chadha, John C. Duchi
   title: 'Federated Asymptotics: a model to compare federated learning algorithms.'
@@ -7711,6 +7843,10 @@ federate%20streamid%3Ajournals%2Fai%3A:
     event uncertainty and sparsity, and extensive experiments demonstrate its superior
     performance in federated settings, particularly with KL divergence and Wasserstein
     distance-based global aggregation.
+  abstract_cn: 时间点过程（TPP）能够有效建模随时间发生的事件，但在联邦学习系统中，面对稀疏且不确定的事件时却表现欠佳，而隐私保护又是此类场景中的核心挑战。为此，我们提出了
+    \textit{FedPP}——一种联邦神经非参数点过程模型。FedPP 在客户端侧将神经嵌入引入 Sigmoidal Gaussian Cox 过程（SGCP），这是一种灵活且表达能力强的点过程类别，使其能够生成高度灵活的强度函数，以捕捉客户端特有的事件动态与不确定性，同时高效地总结历史记录。在全局聚合方面，FedPP
+    采用基于散度的机制，在服务器与客户端之间传递 SGCP 核函数超参数的分布，同时将客户端特定的参数保留在本地，从而确保隐私性和个性化。实验结果表明，FedPP
+    能够有效捕获事件的不确定性和稀疏性；大规模实验证明，在联邦学习环境中，尤其是当使用 KL 散度和 Wasserstein 距离进行全局聚合时，FedPP 表现尤为出色。
 - author: Xinyuan Zhao, Hanlin Gu, Lixin Fan, Yuxing Han 0001, Qiang Yang
   title: Disentangling data distribution for optimal and communication-efficient federated
     learning.
@@ -14948,6 +15084,7 @@ federate%20streamid%3Ajournals%2Fml%3A:
     secure aggregation and edge-level differential privacy to obtain formal guarantees.
     FedGES provides a scalable and effective solution for discovering BN structures
     when data cannot be centralised.
+  abstract_cn: 学习贝叶斯网络（BN）的结构通常需要对数据进行集中式访问，而在隐私或治理约束下，这种做法往往不可行。为此，我们提出了联邦贪婪等价搜索（FedGES），这是一种联邦框架，它仅在客户端与服务器之间交换有向无环图（DAG），而不传输原始数据或充分统计量，从而实现BN结构的学习。客户端在本地运行具有边增长上限的GES算法，服务器则采用阈值共识融合或基于最小割的共识方法来聚合各客户端的结构，并迭代直至收敛。借助评分一致的度量，FedGES能够保持与集中式GES相同的理论保证，并确保算法在有限步内终止。在bnlearn库中14个基准网络（节点数从20到724不等）以及最多100个客户端的实验中，FedGES取得了更低的结构化莫里哈姆距离（SMHD），并且运行时间与当前最先进的联邦基线相当或更优。此外，通信开销随边数而非数据规模增长，从而显著提升了效率。这种仅传输结构的协议在设计上就增强了隐私保护，并可与安全聚合及边缘级差分隐私技术相结合，以获得形式化的隐私保证。综上所述，FedGES为在数据无法集中化的场景下发现BN结构提供了一种可扩展且高效的解决方案。
 - author: Ke Niu 0004, Haiyang Yu 0004, Teng Fu, Mengyang Zhao, Bin Li 0015, Xuelin
     Qian, Xiangyang Xue 0001
   title: 'FDGReID: Federated Domain Generalization for Person Re-identification.'
@@ -15496,6 +15633,7 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     overhead reduction at most) compared with existing federated multi-view clustering
     methods, but also outperforms centralized multi-view clustering approaches on
     performance and computation efficiency.
+  abstract_cn: 联邦多视图聚类是一种新兴的机器学习范式，它能够在保护数据隐私的前提下，对分布在不同客户端上的多视图数据进行聚类。尽管近期的研究已提出若干可行方案，但这些方法仍受制于两大缺陷：其一，各客户端需在模型训练的每一轮迭代中共享其数据表示，从而导致高昂的通信开销；其二，现有方法主要依赖矩阵分解和神经网络编码技术来处理大规模数据，未能充分挖掘数据间的相似性信息。针对上述问题，我们提出了一种通信高效的联邦多视图聚类框架，通过使用伪标签和质心矩阵来近似数据表示，并在模型训练过程中共享这两者。同时，该框架引入线性核函数以显式地建模数据间的成对相似性。值得注意的是，无需显式计算相应的线性核矩阵，使得所提方法的计算复杂度与样本数呈线性关系。实验结果表明，与现有的联邦多视图聚类方法相比，所提出的算法不仅取得了令人振奋的性能提升——平均准确率提高26.84%，计算速度提升2.9至2153倍，通信开销最多可降低98.4%——而且在性能和计算效率方面均优于集中式多视图聚类方法。
 - author: Xuming An, Li Shen 0008, Yong Luo 0002, Han Hu 0003, Dacheng Tao
   title: Adaptive Batch Size Time Evolving Stochastic Gradient Descent for Federated
     Learning.
@@ -15528,6 +15666,9 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     for non-convex objective functions under partial client participation. Extensive
     experiments demonstrate that our proposed method can achieve higher test accuracy
     than the baselines and decrease communication rounds greatly.
+  abstract_cn: 已有研究表明，方差缩减技术能够提升集中式机器学习中随机梯度下降（SGD）的性能。然而，当将其扩展到联邦学习系统时，可能会面临诸多挑战，包括：(i)
+    超大批次大小的设置；(ii) 当前迭代与快照点之间梯度差异引入的额外噪声；以及 (iii) 梯度（统计）异质性。在本文中，我们提出了一种轻量级算法——联邦自适应批次大小的时间演化方差缩减（FedATEVR），以应对上述问题。该算法由自适应批次大小设置方案和时间演化方差缩减梯度估计器两部分组成。具体而言，我们利用历史梯度信息为每个客户端设定合适的超大批次大小，从而稳定地加速本地SGD过程并降低计算开销。这些历史信息同时包含全局梯度和本地梯度，有助于缓解因客户端间梯度异质性而导致的超大批次大小不稳定波动。对于每个客户端，我们利用当前迭代与快照点之间的梯度差异来调整梯度估计器中方差缩减项的时间演化权重，以此避免因快照点梯度过时而造成的无意义方差缩减。理论上，我们证明了在部分客户端参与的情况下，我们的算法对于非凸目标函数可实现
+    $\mathcal{O}(\frac{1}{\sqrt{SKT}})$ 的线性加速比。大量实验结果表明，所提出的方法不仅能够获得高于基线方法的测试准确率，还能显著减少通信轮次。
 - author: Chuizheng Meng, Jianke Yang, Hao Niu 0001, Guillaume Habault, Roberto Legaspi,
     Shinya Wada, Chihiro Ono, Yan Liu 0002
   title: Sample-Level Prototypical Federated Learning.
@@ -15561,6 +15702,7 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     outperforms existing FL methods with a global model or client-level personalized
     models on various real-world regression and classification tasks from weather,
     computer vision, and healthcare applications.
+  abstract_cn: 随着隐私保护和数据监管问题日益受到关注，联邦学习（FL）作为一种解决方案正在兴起，它能够在不共享各参与方原始数据的前提下，协同训练机器学习模型。然而，由于数据的本地特性，不同客户端之间的数据分布往往呈现非独立同分布（non-IID）状态，这一特性长期以来一直是联邦学习面临的核心挑战。更为复杂的是，在现实世界的跨机构场景中，各客户端通常是由多个内部领域构成的组织，各自持有私有数据，这进一步加剧了数据的非独立同分布问题。以医疗应用为例，每个客户端（医院）收集的数据来自具有异质人口统计特征的患者。尽管先前的研究通过假设客户端间数据分布之间的某种关系，并在客户端层面构建个性化模型，来缓解非独立同分布带来的挑战，但这些方法要么忽略了单个客户端内部的数据异质性，要么需要显式的数据领域标识信息，而这类信息在真实数据中往往难以获得。为此，我们提出了样本级原型联邦学习（SL-PFL），以弥补这一空白。SL-PFL将原型学习引入联邦学习框架，在样本粒度上为每个数据样本提供个性化的模型，而非为每个客户端的所有样本学习一个统一的全局模型。同时，该方法无需依赖带有真值标签的领域标识信息即可进行训练。实验结果表明，在来自气象、计算机视觉和医疗等领域的多种回归与分类任务上，我们的样本级个性化模型方法显著优于采用全局模型或客户端级个性化模型的传统联邦学习方法。
 - author: Peng Wu 0019, Tales Imbiriba, Pau Closas
   title: A Bayesian Framework for Clustered Federated Learning.
   venue: IEEE Trans. Pattern Anal. Mach. Intell.
@@ -15586,6 +15728,7 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     knowledge sharing in new ways. The proposed framework circumvents the need for
     unique client-cluster associations, which is seen to increase the performance
     of the resulting models in a variety of experiments.
+  abstract_cn: 联邦学习（FL）面临的主要挑战之一是如何处理非独立同分布（non-IID）的客户端数据。在实际应用中，由于数据集不平衡以及各客户端使用不同数据源等原因，这种非独立同分布现象较为常见。知识共享和模型个性化是应对这一问题的关键策略。聚类联邦学习是一类联邦学习方法，它将观测到相似数据分布的客户端归入同一集群，从而使每个客户端通常对应一种特定的数据分布，并与其所在集群内的其他成员共同训练该分布下的模型。本文提出了一种统一的贝叶斯框架，用于将客户端分配到相应的集群中；同时，我们还设计了几种实用算法，以有效管理不断增长的数据关联关系，在模型性能与计算复杂度之间进行权衡。本研究深入探讨了客户端与集群之间的关联机制，并为客户端之间的知识共享提供了新的途径。所提出的框架无需建立唯一的客户端—集群映射关系，而在多项实验中证实，这一做法能够显著提升最终模型的性能。
 - author: Zhiyuan Zhai, Xiaojun Yuan, Xin Wang 0003, Geoffrey Ye Li
   title: Decentralized Federated Learning With Distributed Aggregation Weight Optimization.
   venue: IEEE Trans. Pattern Anal. Mach. Intell.
@@ -15615,6 +15758,7 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     communication, and learning process can be all conducted in a distributed fashion,
     which leads to a genuinely distributed DFL system. Numerical results demonstrate
     the superiority of the proposed algorithm in practical DFL deployment.
+  abstract_cn: 去中心化联邦学习（DFL）是一种新兴的范式，它使边缘设备能够在无需参数服务器（PS）协调的情况下，通过设备到设备（D2D）通信方式协同训练机器学习模型。聚合权重，又称混合权重，在DFL过程中至关重要，直接影响学习效率和模型精度。传统设计依赖于所谓的中心实体来收集所有本地信息并进行系统优化，以获得合适的权重。本文提出了一种分布式聚合权重优化算法，以契合DFL的去中心化特性。我们通过定量刻画聚合权重在去中心化通信网络中的影响，分析了算法的收敛性。在此基础上，我们以最小化推导出的收敛界为目标，构建了一个基于聚合权重设计的学习性能优化问题。该优化问题进一步被转化为特征值优化问题，并由我们提出的基于次梯度的算法以分布式方式求解。在我们的算法中，边缘设备仅需利用本地信息，通过本地D2D通信即可获得最优聚合权重，其过程与模型训练本身完全一致。因此，优化、通信和学习过程均可在分布式框架下进行，从而实现真正意义上的分布式DFL系统。数值实验结果表明，所提出的算法在实际DFL部署中具有显著优势。
 - author: Xingcai Zhou, Guang Yang, Haotian Zheng, Linglong Kong, Jinde Cao
   title: 'FedFask: Fast Sketching Distributed PCA for Large-Scale Federated Data.'
   venue: IEEE Trans. Pattern Anal. Mach. Intell.
@@ -15643,6 +15787,13 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     as the centralized PCA uses all data, and tolerates more workers to parallel acceleration
     computation. We conduct extensive experiments to demonstrate the effectiveness
     of ${\mathsf {FedFask}}$FedFask.
+  abstract_cn: 我们研究了在样本量 $n$ 和维度 $d$ 均超大的情况下，针对大规模联邦数据的分布式主成分分析（PCA）。这类数据目前十分常见，但在
+    PCA 学习过程中面临着通信开销和计算复杂度等诸多挑战。为此，我们提出了一种新的算法 ${\mathsf {FedFask}}$（用于联邦学习的快速略图法），其通信成本降低至
+    $O(dr)$，计算复杂度降低至 $O(d(np/m+p^{2}+r^{2}))$，其中 $m$ 表示工作节点数，$r$ 表示矩阵的秩，$p$ 表示略图列空间的维数，且满足
+    $r\leq p\ll d$。在 ${\mathsf {FedFask}}$ 中，我们采用并改进了快速略图、基于正交 Procrustes 修正的对齐技术，以及通过柯尔莫哥洛夫–纳古莫型平均实现的矩阵
+    Stiefel 流形方法。因此，${\mathsf {FedFask}}$ 具有更高的精度、更小的随机波动，并能更好地表征多个随机投影得到的特征子空间，同时避免了特征子空间的正交歧义问题。我们证明，${\mathsf
+    {FedFask}}$ 的学习速率与使用全部数据的集中式 PCA 相同，均为 $O\left(\frac{\kappa _{r}r}{\lambda _{r}}\sqrt{\frac{r^{*}}{n}}\right)$，并且能够支持更多工作节点进行并行加速计算。我们通过大量实验验证了
+    ${\mathsf {FedFask}}$ 的有效性。
 - author: Pengxin Guo 0001, Runxi Wang, Shuang Zeng, Jinjing Zhu, Haoning Jiang, Yanran
     Wang, Yuyin Zhou, Feifei Wang, Hui Xiong 0001, Liangqiong Qu
   title: 'Exploring the Vulnerabilities of Federated Learning: A Deep Dive Into Gradient
@@ -15675,6 +15826,7 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     and share some future research directions from the perspectives of attackers and
     defenders that we believe should be pursued. We hope that our study can help researchers
     design more robust FL frameworks to defend against these attacks.
+  abstract_cn: 联邦学习（FL）作为一种无需共享原始数据的、极具前景的隐私保护型协作模型训练范式，近年来备受关注。然而，近期研究发现，通过共享的梯度信息仍可能泄露隐私，并且模型容易遭受梯度反演攻击（GIA）。尽管已提出多种GIA方法，但对其进行全面、深入的分析、评估与总结的工作仍然不足。虽然已有若干综述性论文对联邦学习中的现有隐私攻击进行了归纳，但鲜有研究通过大规模实验来系统揭示GIA的有效性及其在该场景下的限制因素。为弥补这一空白，我们首先对GIA进行了系统性回顾，并将其划分为三类：基于优化的GIA（OP‑GIA）、基于生成的GIA（GEN‑GIA）以及基于分析的GIA（ANA‑GIA）。随后，我们全面分析并评估了这三类GIA在联邦学习中的表现，深入探讨了影响其性能、实用性和潜在威胁的关键因素。研究结果表明，尽管OP‑GIA的攻击效果并不理想，但其部署环境最为现实；而GEN‑GIA依赖性强、ANA‑GIA易被检测，因此均不具备实际应用价值。最后，我们面向用户提出了一个包含三个阶段的防御流程，用于指导联邦学习框架与协议的设计，以更好地保护隐私；同时，从攻击者和防御者的视角出发，给出了若干值得进一步探索的研究方向。我们期望本研究能够帮助研究人员设计更为鲁棒的联邦学习框架，从而有效抵御此类攻击。
 - author: Yan Sun, Li Shen 0008, Dacheng Tao
   title: Toward Understanding Generalization and Stability Gaps Between Centralized
     and Decentralized Federated Learning.
@@ -15702,6 +15854,9 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     on several common setups in FL to validate that our theoretical analysis is consistent
     with experimental phenomena and contextually valid in several general and practical
     scenarios.
+  abstract_cn: 作为联邦学习领域的两大主流框架，集中式与去中心化方法均已在实际场景中展现出巨大的应用价值。然而，现有研究尚未提供充分的证据和明确的指导，以帮助业界分析究竟哪种方法在联邦学习社区中表现更优。尽管去中心化方法已被证明能够在通信开销更低的情况下逼近集中式的收敛性能，但在实证研究中，其测试性能往往难以达到预期。为了全面、公正地比较二者在联邦学习中的效率差距，本文深入探讨了它们的稳定性和泛化效率。具体而言，我们证明在一般的光滑非凸目标函数上：1)
+    集中式联邦学习（CFL）的泛化能力始终优于去中心式联邦学习（DFL）；2) CFL 通过采用部分参与而非全部参与的方式，能够取得最佳性能；3) 在 DFL
+    中，为避免随着训练规模增大而导致性能崩溃，网络拓扑结构必须满足一定的必要条件。此外，我们还在联邦学习中若干常见设置下开展了大量实验，验证了我们的理论分析与实验现象一致，并且在多种通用及实际应用场景中具有情境有效性。
 - author: Jianing Zhu, Bo Han 0003, Jiangchao Yao, Quanming Yao, Tongliang Liu, Jianliang
     Xu
   title: Slack Federated Adversarial Training.
@@ -15733,6 +15888,7 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     we verify the rationality and effectiveness of our methods on various benchmarked
     and real-world datasets with different adversarial training and federated optimization
     methods.
+  abstract_cn: 现实应用中的安全与隐私问题促使了对抗鲁棒联邦模型的发展。现有研究主要聚焦于克服通信和计算开销带来的适应性限制。然而，简单地将对抗训练与联邦学习相结合，可能会在训练后期导致鲁棒准确率的意外下降。我们发现，这一现象的根本原因在于，生成的对抗样本会加剧本地客户端之间的数据异质性，从而降低封装式联邦学习的性能。为应对这一问题，我们引入了一种α松弛机制，以放宽联邦对抗训练的原始优化目标，并提出了一种名为“松弛联邦对抗训练”（SFAT）的新框架，用于缓解日益加剧的数据异质性。通过在聚合过程中为各客户端分配松弛项，SFAT实现了加权聚合，从而缓解由本地对抗样本生成所引起的优化偏差。进一步地，我们将方法扩展到更为通用的场景：允许在同一框架内同时支持采用标准训练和对抗训练的客户端，并针对该场景提出了具有层次化聚合策略的SFAT*。理论上，我们分析了所提方法的收敛性，以合理地放松学习目标。实验上，我们在多种基准数据集和真实世界数据集上，结合不同的对抗训练和联邦优化方法，验证了所提方法的合理性与有效性。
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -16871,6 +17027,7 @@ federate%20venue%3AKDD%3A:
     the effectiveness and efficiency of CeFGC against state-of-the-art competitors,
     reflecting our superior performance on non-IID graphs by aligning local and global
     model objectives and enriching the training set with diverse graphs.'
+  abstract_cn: 图神经网络（GNN）为从图结构数据中学习开辟了新途径，能够在捕捉复杂关系与模式方面表现出色。联邦图神经网络（FGNN）作为一种新兴的分布式学习范式，旨在对去中心化数据上的GNN进行训练。然而，FGNN面临两大挑战：多轮参数交换带来的高通信开销，以及各客户端间数据的非独立同分布（Non-IID）特性。为此，我们提出了CeFGC——一种新颖的FGNN范式，通过将服务器与客户端之间的通信限制在仅三轮内，从而实现高效地在Non-IID数据上训练GNN。CeFGC的核心思想是利用生成扩散模型来最小化客户端与服务器之间的直接通信。每个客户端训练一个能够捕获其本地图分布的生成扩散模型，并将其共享给服务器；随后，服务器再将该模型分发回所有客户端。借助这些生成模型，客户端可生成合成图，并将其与本地图相结合，用于训练本地GNN模型。最后，客户端将模型权重上传至服务器，由服务器进行聚合以得到全局GNN模型。我们从理论上分析了通信量的I/O复杂度，证明CeFGC可将通信轮次简化至固定的三轮。在多个真实图数据集上的大量实验表明，与当前最先进方法相比，CeFGC在有效性和效率上均具有显著优势；尤其在处理Non-IID图时表现突出，这得益于其通过协调局部与全局模型目标、并以多样化图样丰富训练集，从而提升了模型性能。
 - author: Xingchen Wang, Feijie Wu, Chenglin Miao, Tianchun Li, Haoyu Hu, Qiming Cao,
     Jing Gao 0004, Lu Su 0001
   title: Towards Privacy-Preserving and Heterogeneity-aware Split Federated Learning
@@ -16900,6 +17057,7 @@ federate%20venue%3AKDD%3A:
     on image and wireless sensing tasks demonstrate that PM-SFL consistently improves
     accuracy, communication efficiency, and robustness to privacy attacks, with particularly
     strong performance under data and system heterogeneity.
+  abstract_cn: 分割联邦学习（SFL）通过模型划分降低了客户端的计算负担，已成为传统联邦学习（FL）的一种高效替代方案。然而，中间激活值和模型更新的交换会带来严重的隐私风险，尤其是数据重构攻击——攻击者可利用中间表示恢复原始输入。现有基于噪声注入的防御机制往往会导致模型性能下降。为应对这些挑战，我们提出了PM-SFL，这是一种可扩展且兼顾隐私保护的分割联邦学习框架。该框架引入概率掩码训练，在不依赖显式噪声的情况下加入结构化的随机性，从而在保障模型效用的同时有效缓解数据重构风险。针对数据异构性问题，PM-SFL采用个性化掩码学习，根据各客户端的本地数据定制子模型结构；而对于系统异构性，则设计了一种逐层知识补偿机制，使不同资源能力的客户端能够在自适应模型划分下高效参与。理论分析证实了其隐私保护能力，而在图像分类和无线感知任务上的实验结果表明，PM-SFL能够持续提升准确率、通信效率以及对隐私攻击的鲁棒性，尤其在数据和系统异构条件下表现尤为突出。
 - author: Jiaming Yan, Jianchun Liu, Hongli Xu 0001, Zhenguo Ma, Shilong Wang 0002
   title: 'Caesar: Optimizing Federated Learning via Low-deviation Compression.'
   venue: KDD
@@ -17116,6 +17274,7 @@ federate%20venue%3AWSDM%3A:
     both distributed verification and robustness against a broad spectrum of attacks.
     Extensive experiments demonstrate that FWDV embeds watermarks with minimal impact
     on model utility and resists removal through fine-tuning, pruning, and distillation.
+  abstract_cn: 随着深度学习的快速发展，深度神经网络已在各个领域得到广泛应用。模型即服务（MaaS）平台使企业能够将经过大量数据采集和高额计算投入训练而成的优质模型商业化。因此，如何保护这些模型免遭未经授权的使用及知识产权（IP）窃取，已成为至关重要的课题。尽管水印技术已作为一种重要的知识产权保护手段崭露头角，但现有方法大多针对集中式场景，而对联邦学习（FL）场景的探索仍显不足。为此，我们提出了面向联邦学习的分布式验证联邦水印框架（FWDV），该框架使每个客户端能够独立验证水印的所有权，并协同抵御针对模型的擦除攻击。据我们所知，这是首个同时实现分布式验证与对多种攻击形式强鲁棒性的研究工作。大量实验表明，FWDV能够在对模型效用几乎不造成影响的情况下嵌入水印，并有效抵抗通过微调、剪枝和知识蒸馏等手段进行的移除攻击。
 federate%20streamid%3Aconf%2Fsp%3A:
 - author: Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong
   title: 'FedRecover: Recovering from Poisoning Attacks in Federated Learning using
@@ -18210,6 +18369,13 @@ federate%20venue%3ANDSS%3A:
     to the GNIDS setting, showing the robustness by bounding the attack success rate
     to low values. Overall, our study suggests a promising direction to build cross-silo
     GNIDS.
+  abstract_cn: 基于图的网络入侵检测系统（GNIDS）在检测组织内部及跨组织边界的高级持续性威胁（APT）等复杂网络攻击方面取得了显著进展。尽管现有
+    GNIDS 已能在检测准确性和对不断变化的攻击模式与正常行为的适应性方面达到令人满意的效果，但它们大多假设采用集中式数据架构。然而，由于隐私法规日益严格以及运营限制的增加，灵活的数据采集并不总是现实或可行的。我们认为，GNIDS
+    的实际应用与发展必须考虑分布式数据采集场景，而联邦学习（FL）则为应对这一关键挑战提供了一种可行的范式。我们观察到，简单地将联邦学习应用于 GNIDS 往往难以奏效，原因在于客户端之间图结构的异质性，以及不同
+    GNIDS 在设计上存在的多样性。为此，我们提出了一系列专为图数据集定制的新技术，包括参考图合成、图草图化以及自适应贡献加权，并最终构建了一个名为 Entente
+    的新系统。借助领域知识，Entente 能够同时实现有效性、可扩展性和鲁棒性。在大规模 LANL、OpTC 和 Pivoting 数据集上的实证评估表明，Entente
+    的性能优于当前最优的联邦学习基线方法。此外，我们还针对 GNIDS 场景量身定制了联邦学习中毒攻击进行了测试，结果证明 Entente 具有较强的鲁棒性，可将攻击成功率控制在较低水平。综上所述，我们的研究为构建跨“数据孤岛”的
+    GNIDS 提供了一个极具前景的方向。
 - author: Liwei Zhang, Linghui Li, Xiaotian Si, Ziduo Guo, Xingwu Wang, Kaiguo Yuan,
     Bingyu Li
   title: A Unified Defense Framework Against Membership Inference in Federated Learning
@@ -25832,6 +25998,8 @@ federate%20venue%3AWWW%3A:
     fine-grained accuracy control with an average error of only 0.224%, outperforming
     the baseline by up to 17×. Our findings highlight the need for stronger defenses
     against advanced poisoning attacks.'
+  abstract_cn: 联邦排名学习（FRL）是一种极具前景的联邦学习范式，其基于离散排名的更新机制使其对模型投毒攻击具有较强的鲁棒性。与依赖模型参数更新的传统联邦学习方法不同，FRL将离散排名作为客户端与服务器之间的通信参数。这一设计显著降低了通信开销，并限制了攻击者在连续空间中放大或优化恶意更新的能力，从而提升了系统安全性。因此，FRL特别适用于对系统安全性和数据隐私要求极高的应用场景，例如基于Web的拍卖与竞价平台。尽管FRL大幅减少了攻击面，我们仍证明其仍然易受一类新型本地模型投毒攻击——细粒度控制攻击——的威胁。为此，我们提出了边缘控制攻击（ECA），这是首个专为基于排名的联邦学习框架设计的细粒度控制攻击。与会造成明显中断的传统拒绝服务攻击（DoS）不同，ECA能够使攻击者精确地将竞争对手的模型精度降低至任意目标水平，同时保持看似正常的收敛轨迹，从而规避检测。ECA分为两个阶段：(i)
+    识别并操纵上升边与下降边，以使全局模型与目标模型对齐；(ii) 扩大选择边界差距，从而使全局模型稳定在目标精度上。我们在七个基准数据集和九种拜占庭鲁棒聚合规则下开展的大量实验表明，ECA可实现细粒度的精度控制，平均误差仅为0.224%，性能较基线提升高达17倍。我们的研究结果凸显了构建更强防御机制以应对高级投毒攻击的必要性。
 - author: Silong Chen, Yuchuan Luo, Guilin Deng, Yi Liu, Ming Xu 0002, Shaojing Fu,
     Xiaohua Jia
   title: Reconstructing Training Data from Adapter-based Federated Large Language
@@ -25863,6 +26031,9 @@ federate%20venue%3AWWW%3A:
     fail completely. Our results reveal a fundamental tension between parameter efficiency
     and privacy in FedLLMs, challenging the prevailing belief that lightweight adaptation
     inherently enhances security. Our code and data are available at https://github.com/shwksnshwowk-wq/GIA'
+  abstract_cn: 基于适配器的联邦大语言模型（FedLLMs）已被广泛应用于网络规模的应用场景中，以在保护用户隐私的同时，降低全参数微调带来的计算、存储和通信开销。通过冻结模型主干而仅训练紧凑的低秩适配器，这类方法看似能够限制梯度泄露，并抵御现有的梯度反演攻击（GIAs）。然而，与这一假设相反，我们证明低秩适配器实际上会引入新的、可被利用的泄露通道。为此，我们提出了一种基于无序词袋的文本重建攻击（UTR），这是一种专为基于适配器的FedLLMs独特结构量身定制的新型GIA。UTR通过以下方式克服了三个核心挑战——低维梯度、冻结的模型主干以及组合爆炸式的重建空间：(i)
+    从冻结层中的注意力模式推断词元的存在；(ii) 在适配器梯度的低秩子空间内执行句子级别的反演；(iii) 利用语言先验引导的约束贪婪解码来确保语义连贯性。我们在多种模型（GPT2-Large、BERT、Qwen2.5-7B）和数据集（CoLA、SST-2、烂番茄）上开展的大量实验表明，即使在大批量设置下——而在此类条件下先前的GIA完全失效——UTR仍能实现近乎完美的重建准确率（ROUGE-1/2
+    > 99%）。我们的研究结果揭示了FedLLMs中参数效率与隐私之间存在的根本性矛盾，从而对“轻量级适配 inherently 提升安全性”这一主流观点提出了挑战。我们的代码和数据已公开，地址为：https://github.com/shwksnshwowk-wq/GIA。
 - author: Yicheng Di, Zhanjie Zhang
   title: 'RAFed: Responsive Augmentation and Approximate Update Method for Federated
     Learning with Non-IID Data.'
@@ -25891,6 +26062,8 @@ federate%20venue%3AWWW%3A:
     clients. Experiments on four popular datasets show that RAFed achieves superior
     test accuracy and lower communication costs compared to related baselines while
     providing privacy advantages. The code is available via https://github.com/anonymously123-stcak/RAFed.
+  abstract_cn: 联邦学习是一种分布式协同训练框架，允许多个客户端在不交换原始数据的情况下共享模型更新，共同训练深度神经网络。尽管已有大量研究探讨了联邦环境下的数据增强技术，但客户端之间天然存在的非独立同分布（Non-IID）数据分布，使得盲目应用数据增强容易导致所学模型性能严重下降。为解决这一问题，我们提出了适用于非独立同分布数据的联邦学习响应式增强与近似更新方法（RAFed），旨在缓解客户端样本中的特征偏移问题。我们利用响应式增强方法，通过本地学习累积共享的数据增强策略知识，引导策略梯度考虑数据增强对未见本地数据的影响；同时，采用近似更新机制以降低通信开销，实现高效的策略搜索。为进一步提升数据增强策略对本地数据分布的适应性，我们引入了一种动态自适应方法，用于搜索针对异构客户端的个性化增强策略。在四个常用数据集上的实验表明，与相关基线方法相比，RAFed在保持隐私优势的同时，不仅取得了更高的测试准确率，还显著降低了通信开销。代码已公开，可通过
+    https://github.com/anonymously123-stcak/RAFed 获取。
 - author: Haizhou Du, Haolin Wu, Zijie Zhu, Zicheng Shi
   title: 'FedRGL: Federated Riemannian Graph Learning in Mixed-Curvature Spaces with
     Ricci-Gated Convolution.'
@@ -25916,6 +26089,8 @@ federate%20venue%3AWWW%3A:
     of each graph. Extensive experiments across diverse geometric heterogeneity settings
     demonstrate that FedRGL significantly outperforms state-of-the-art FGL methods
     in terms of model accuracy and generalization.
+  abstract_cn: 联邦图学习（FGL）作为一种高效范式，已逐渐成为解决现实世界中广泛存在的去中心化图数据集数据异质性问题的有效手段，因而备受学术界和工业界的关注。然而，现有联邦图学习方法往往因模型采用固定几何结构的嵌入空间，与客户端数据多样化的几何特性不匹配，而导致全局模型性能下降。针对这一问题，我们提出了一种新颖的个性化联邦黎曼图学习框架——FedRGL。FedRGL为每个异构客户端引入个性化的混合曲率乘积空间，将本地图数据映射到由欧几里得流形、双曲流形和球面流形组成的定制几何空间中。此外，它还利用基于里奇门控的图卷积网络，动态调整消息传递机制以适应每张图的局部拓扑结构。在多种几何异质性场景下的大量实验表明，FedRGL
+    在模型精度和泛化能力方面均显著优于当前最先进的联邦图学习方法。
 - author: Zenghao Guan, Guojun Zhu, Yucan Zhou, Wu Liu 0005, Weiping Wang 0005, Jiebo
     Luo 0001, Xiaoyan Gu 0001
   title: Enhancing Federated Class-Incremental Learning via Spatial-Temporal Statistics
@@ -25950,6 +26125,7 @@ federate%20venue%3AWWW%3A:
     of data heterogeneity, show that our method outperforms state-of-the-art FCIL
     methods in terms of performance, flexibility, and both communication and computation
     efficiency. The code is available at https://github.com/Yuqin-G/STSA.
+  abstract_cn: 移动设备和物联网设备的日益普及，催生了海量的去中心化且不断演化的数据，从而推动了联邦学习（FL）的兴起——这种技术能够在不共享原始数据的前提下实现协同训练。然而，传统的联邦学习假设数据分布是静态的，这与动态的真实世界环境并不相符。为应对这一挑战，联邦类增量学习（FCIL）应运而生，它提供了一种颇具前景的框架，能够灵活适应随时间推移新引入的类别。现有的FCIL方法通常将旧知识的保存融入客户端本地训练中。然而，这些方法仍难以避免由数据异质性引起的时空漂移，并且往往带来巨大的计算和通信开销，限制了其实际部署。为此，我们提出了一种新颖的方法——时空统计聚合（STSA），该方法构建了一个统一的框架，可在空间维度上（跨客户端）和时间维度上（跨阶段）聚合特征统计信息。经聚合的特征统计不受数据异质性的影响，可在每个阶段以闭式解的形式直接更新分类器。此外，我们还提出了STSA-E这一通信高效的变体，它使服务器能够仅利用客户端上传的一阶统计量来近似全局的二阶特征统计量。理论分析表明，STSA-E在性能上可与STSA相媲美，同时显著降低了通信开销。我们在三个广泛使用的FCIL数据集上开展了大量实验，这些数据集具有不同程度的异质性。实验结果表明，我们的方法在性能、灵活性以及通信和计算效率等方面均优于当前最先进的FCIL方法。相关代码已公开，地址为：https://github.com/Yuqin-G/STSA。
 - author: Yongqiang Huang 0003, Yingyu Chen, Tao Wang 0167, Zexin Lu, Zerui Shao,
     Beibei Li 0002, Yi Zhang 0018
   title: 'Beyond Class Boundaries: Federated Visual Primitive Sharing with Text-Guided
@@ -25985,6 +26161,7 @@ federate%20venue%3AWWW%3A:
     achieving up to a 5.62% improvement in accuracy, reducing communication overhead
     by at least 12.5x, and effectively addressing generalization and personalization
     challenges in heterogeneous federated environments.'
+  abstract_cn: 个性化联邦学习（pFL）有效解决了传统联邦学习（FL）中统计异构性的挑战。其中，特征对齐方法（如FedProto）凭借其通信效率高、模型无关的设计，在现实世界的非独立同分布（Non-IID）场景中具有极高的实用性。这类方法无需传输模型参数，即可在客户端之间直接对齐类别级特征。然而，它们将每个类别表示为一个整体原型，这限制了共享特征的多样性和表达能力。这种局限性不仅妨碍了模型在不同客户端之间的泛化能力，也阻碍了个性化适应，因为客户端缺乏足够的语义组件来重建与其本地数据分布相匹配的判别性特征。  为克服上述局限性，我们提出了联邦视觉基元学习（FedVPL），这是一种全新的框架，包含两个关键组件：（1）视觉基元空间共享，它将类别级特征分解为语义上有意义且可重用的视觉基元，从而实现跨客户端和跨类别的共享，以丰富特征多样性，并使通信开销与类别数量解耦，显著提升效率；（2）文本引导的语义对齐，这是一种无参数的个性化机制，利用外部语言先验将共享基元与客户端特定的语义进行对齐，且无需额外的通信开销。在多种非独立同分布基准上的大量实验表明，FedVPL显著优于当前最先进的基线方法，准确率最高可提升5.62%，通信开销至少降低12.5倍，并有效应对异构联邦环境中的泛化与个性化挑战。
 - author: Wenzheng Jiang, Ke Liang, Wenke Huang 0003, Xiongtao Zhang, Zhenxing Xu,
     Guancheng Wan, Cheston Tan, Flint Xiaofeng Fan, Ji Wang 0002
   title: Unveiling and Mitigating Untargeted Poisoning Attacks on Federated Knowledge
@@ -26013,6 +26190,9 @@ federate%20venue%3AWWW%3A:
     deterioration, with core metrics dropping by up to 93%. Conversely, LDM effectively
     counters these attacks and restores performance to pre-attack levels or even surpasses
     them when mitigating embedding-level attacks.
+  abstract_cn: 联邦知识图嵌入（FKGE）利用分布式知识图谱协同学习潜在表示，同时保护数据隐私。然而，这种去中心化的范式使得系统容易遭受客户端侧攻击，尤其是非目标投毒攻击；这类攻击在
+    FKGE 领域仍鲜有研究，却可能造成严重的性能退化。本文首次系统性地研究了针对 FKGE 的非目标投毒攻击，在数据层和嵌入层均证实了其可行性。我们设计了三种新型投毒攻击，其中嵌入层攻击展现出更优异的攻击效果。为缓解此类威胁，我们进一步提出了一种基于学习的防御机制，该机制利用嵌入密度进行异常检测，以识别恶意客户端。理论分析证明了攻击与防御的有效性，并阐明了为何嵌入层投毒尤为强大。大量实验表明，所提出的攻击可导致显著的性能下降，核心指标最高可降低
+    93%。相反，LDM 能有效抵御这些攻击，并在应对嵌入层攻击时将性能恢复至攻击前水平甚至超越之。
 - author: Mengsha Kou, Xiaoyu Xia 0001, Ziqi Wang 0008, Ibrahim Khalil 0001, Ruikun
     Luo, Jingwen Zhou, Minhui Xue 0001
   title: 'WinFLoRA: Incentivizing Client-Adaptive Aggregation in Federated LoRA under
@@ -26043,6 +26223,7 @@ federate%20venue%3AWWW%3A:
     Extensive evaluations demonstrate that across multiple LLMs and datasets, WinFLoRA
     achieves up to 52.58% higher global accuracy and up to 2.56× client utility than
     state-of-the-art benchmarks. Source code is publicly available at https://github.com/koums24/WinFLoRA.git.
+  abstract_cn: 大型语言模型（LLMs）日益成为智能Web应用的核心支撑，从聊天机器人到搜索与推荐系统，高效的专业化定制至关重要。低秩适应（LoRA）能够在极低开销下实现这一目标；而联邦LoRA则使Web服务提供商无需共享数据即可对共享模型进行微调。然而，在隐私敏感的部署场景中，客户端会注入不同强度的差分隐私（DP）噪声，从而导致隐私异质性，进而使个体激励与全局性能产生错位。为此，本文提出WinFLoRA——一种面向隐私异质性的联邦LoRA方法，它利用具有噪声感知的聚合权重作为激励机制。具体而言，客户端上传的LoRA适配器可用于估计其引入的噪声水平；权重越大，表明该客户端对全局模型的影响越强、下游任务性能越好，从而奖励低噪声的贡献。通过为低噪声更新赋予更高权重，WinFLoRA在满足客户端多样化隐私需求的同时提升了全局精度。因此，WinFLoRA能够在无需第三方介入的情况下，协调各客户端在隐私保护与下游性能方面的异质效用，使其与全局模型的目标相一致。大量实验结果表明，在多个LLM和数据集上，WinFLoRA的全局精度最高可比当前最优基准提升52.58%，客户端效用最高可达后者的2.56倍。项目源代码已公开发布于https://github.com/koums24/WinFLoRA.git。
 - author: Haoran Shi, Junru Zhang, Cheng Peng, Xiaoli Tang, Longtao Huang, Han Yu
     0001
   title: 'FedDiG: Frequency-Guided Diffusion Diversity for Generalizable Federated
@@ -26077,6 +26258,7 @@ federate%20venue%3AWWW%3A:
     work bridges distribution-diversity synthesis and FDG for time-series to support
     robust, scalable web applications fed by edge-collected signals, delivering web-scale
     generalization across heterogeneous web, mobile, and IoT clients.
+  abstract_cn: 面向时间序列分类（TSC）的联邦域泛化（FDG）对现代智能Web服务构成了关键挑战。这些服务依赖于来自各类移动应用和Web设备（如可穿戴传感器）的边缘采集时间序列信号来支持决策。然而，数据源的异质性与时间动态特性会导致分布外（OOD）模式的出现，从而阻碍模型对未见用户和设备的泛化能力。为此，本文提出了一种基于扩散的联邦域泛化框架——FedDiG，该框架从频域视角捕捉客户端内部的分布偏移，并采用跨频采样技术合成具有多样化频谱特征的时间序列数据。具体而言，FedDiG首先在客户端上进行频率代理表示学习，用以作为扩散过程的条件；随后，服务器端聚合各客户端的频率代理构建全局代理池，并通过类别混合生成新颖的频率特征。这些特征引导全局扩散模型生成多样化的数据，从而模拟未曾见过的模式，进一步提升模型训练效果。在四个跨域时间序列基准数据集上的大量实验表明，FedDiG显著优于当前最先进的联邦学习及联邦域泛化基线方法，尤其是在小样本场景和大规模客户端部署条件下，能够实现对联邦设置中未见领域的稳健泛化。本研究将分布多样性合成与时间序列领域的联邦域泛化相结合，旨在支持由边缘采集信号驱动的稳健、可扩展的Web应用，在异构的Web、移动和物联网客户端之间实现Web规模的泛化能力。
 - author: Daixin Song, Hui Cai, Haojie Zhang, Biyun Sheng, Jian Zhou 0009, Mang Ye,
     Fu Xiao 0001
   title: 'CA-PFL: Client-adaptive Parameter-efficient Fine-tuning for Personalized
@@ -26119,6 +26301,8 @@ federate%20venue%3AWWW%3A:
     multi-domain datasets demonstrate that VeriFRL achieves competitive or superior
     recommendation performance over state-of-the-art federated CDSR methods, while
     providing fine-grained insights into cross-domain knowledge transfer dynamics.'
+  abstract_cn: 跨域序列推荐（CDSR）在去中心化Web应用中发挥着关键作用，它通过利用用户在多个平台上的行为序列来缓解数据稀疏性，并捕捉用户的动态偏好。然而，现有的联邦CDSR框架面临两大根本挑战：(i)
+    异构的序列交互编码了领域专属语义，在隐私约束下无法直接共享；(ii) 强烈的信任假设——即服务器和客户端均会诚实行事——使得联邦训练容易受到虚报、恶意更新以及负迁移的影响。本文提出VeriFRL，一种用于跨域序列推荐的可验证联邦表示学习框架。VeriFRL采用双模块设计，将表示学习与可验证训练相结合：基于注意力机制的变分编码器分离出领域共享与领域专属的表示，以支持可迁移且隐私友好的知识共享；同时，贡献评估模块量化客户端层面和特征层面的影响，从而实现可验证性、可解释性以及负迁移检测。在真实多领域数据集上的大量实验表明，VeriFRL在推荐性能上可与当前最先进的联邦CDSR方法相媲美甚至超越，同时还能提供对跨域知识迁移动态的细粒度洞察。
 - author: Hengzhi Wang, Lu Dai, Xianliang Zhang, Haoran Chen 0012, Juncheng Hu, Kun
     Yang 0001
   title: 'DIARY: Differentially Private Recovery with Adaptive Privacy Budgets in
@@ -26149,6 +26333,7 @@ federate%20venue%3AWWW%3A:
     the associated overhead. Finally, both rigorous theoretical analysis and extensive
     simulations compared with state-of-the-art methods are conducted to validate the
     effectiveness of DIARY.
+  abstract_cn: 联邦去学习（FU）作为一种有前景的范式，能够在联邦学习中有效移除特定客户端数据对全局模型的影响。它不仅能够进一步增强单个客户端的数据隐私，还能抵御投毒攻击等恶意行为带来的影响。基于这些优势，研究者们提出了多种FU方法。然而，现有方法大多忽视了针对FU系统的外部威胁，例如通过共享梯度重构客户端数据的梯度反演攻击，这类攻击会严重危及其他参与客户端的隐私安全。受此启发，我们提出了DIARY——一个集成差分隐私的联邦恢复框架，以应对上述双重威胁。DIARY提出了一种隐私预算分配机制，其核心思想是根据训练和恢复的不同阶段自适应地分配合适的隐私预算，从而充分利用每个客户端的全局隐私预算，在隐私保护与模型效用之间实现平衡。此外，DIARY还引入了一个新颖的联邦噪声免疫异常检测（FIND）模块。FIND与两级选择性存储及模型回滚机制的深度融合，不仅有助于模型恢复，还能显著降低相关开销。最后，我们通过严格的理论分析以及与当前最先进方法的广泛对比实验，验证了DIARY的有效性。
 - author: Kaibin Wang, Qiang He 0001, Zeqian Dong, Ziteng Wei, Caslon Chua, Feifei
     Chen 0001, Hai Jin 0001, Yun Yang 0001
   title: 'FedBridge: Accelerating Edge-Assisted Federated Learning for Model-Heterogeneous
@@ -26178,6 +26363,8 @@ federate%20venue%3AWWW%3A:
     that, compared to state-of-the-art systems, FedBridge accelerates model convergence
     by up to 6.3x and improves model accuracy by 6.2%-17.7%, with 89.51%-96.13% reduction
     in communication overhead and 48.12%-61.77% in memory overhead.
+  abstract_cn: 在边缘辅助的联邦学习（FL）系统中，边缘服务器将客户端模型聚合为中间模型，以便云服务器以通信高效的方式生成全局模型。然而，现有的边缘辅助系统无法支持模型异构的客户端，即运行不同架构模型的客户端。为解决这一问题，本文提出FedBridge——一种新颖的边缘辅助系统，它通过两级知识共享机制实现了跨模型异构客户端的联邦学习。FedBridge在系统的每个边缘服务器上部署一个可扩展的融合模型，利用知识蒸馏技术融合来自异构客户端模型的知识。同时，它采用对比损失函数，通过使融合模型的
+    logits 与全局模型的 logits 尽量一致，来缓解客户端数据的异质性。在云服务器端，FedBridge则采用基于块的聚合方法，对从边缘服务器上传的融合模型进行合并。我们使用三种模型并在两个广泛使用的公开数据集上进行了大量实验，以评估FedBridge的性能。实验结果表明，与当前最先进的系统相比，FedBridge可将模型收敛速度提升多达6.3倍，模型准确率提高6.2%至17.7%，同时通信开销降低89.51%至96.13%，内存开销降低48.12%至61.77%。
 - author: Yingchao Wang, Wenqi Niu, Hanpo Hou
   title: 'FedAKD: Federated Adaptive Knowledge Distillation via Global Knowledge Calibration
     and Decoupling.'
@@ -26208,6 +26395,7 @@ federate%20venue%3AWWW%3A:
     clients. Extensive experiments on benchmark datasets and diverse data heterogeneity
     settings demonstrate that FedAKD achieves state-of-the-art performance, offering
     a scalable and sustainable solution for Web, mobile, and WoT intelligence deployment.
+  abstract_cn: Web、移动应用以及物联网（WoT）应用的迅猛发展，正日益依赖联邦学习（FL）来实现在分布式、异构设备上的隐私保护型智能。然而，FL中的全局模型常常因客户端数据高度非独立同分布（non-IID）而导致的全局知识遗忘问题而性能下降。尽管客户端知识蒸馏（KD）已成为一种有前景的范式，用于将全局知识迁移到本地模型，但现有方法却会无意中受到本地数据先验的影响而扭曲全局知识，从而从根本上限制了其在实际Web和移动环境中的有效性。我们进一步发现，这种知识遗忘具有非对称性：在本地数据中代表性不足的类别所遭受的性能退化，远比代表性过剩的类别更为严重。而传统的知识蒸馏机制则天然地将这两类不同的知识耦合在一起，进而阻碍了针对代表性不足类别之关键全局知识的针对性保留。为应对上述挑战，我们提出了联邦自适应知识蒸馏（FedAKD）这一全新框架，该框架能够根据本地数据分布自适应地校准并解耦全局知识，从而实现跨异构客户端的精准、灵活的知识蒸馏。在基准数据集及多种数据异质性设置下的大量实验表明，FedAKD取得了当前最优的性能，为Web、移动及物联网智能的部署提供了一种可扩展且可持续的解决方案。
 - author: Bingjie Wang, Chao Zhang, Wentao Li, Deyu Li 0001
   title: 'MF3: Multimodal Federated Learning with Dual-Path Mamba-Transformer for
     Metro Flow Prediction.'
@@ -26238,6 +26426,10 @@ federate%20venue%3AWWW%3A:
     MF3 framework provides a new feasible paradigm for metro flow prediction, supporting
     urban traffic optimization, metro operation and scheduling, and the development
     of smart city and Web of Things infrastructures.'
+  abstract_cn: 地铁客流预测是智慧城市和物联网基础设施中的关键应用，对于优化城市交通运行至关重要。然而，构建此类预测系统面临三大挑战：（1）多模态时空数据的碎片化；（2）现有模型在捕捉长距离依赖关系方面的效率不足；（3）分布式车站基础设施
+    inherent 的数据孤岛问题及隐私顾虑。为应对这些挑战，本文提出了一种名为 MF3（Mamba-Transformer-联邦地铁客流预测）的多模态联邦学习框架。首先，设计了一个多模态对齐（MA）模块，通过跨模态对齐注意力机制连接视觉特征与时空特征，从而增强特征的互补性和对齐度。其次，设计了一个双路径
+    Mamba-Transformer（DMT）模块，其中 Mamba 的线性长程记忆与 Transformer 的全局感知能力并行运作，以减少信息损失。再次，建立了一个基于区块链的联邦信誉（BFR）模块，用于实现个性化联邦学习，进而提升隐私保护水平。最后，在杭州和上海的真实地铁数据集上开展的大量实验表明，MF3
+    在预测精度方面表现出色。综上所述，所提出的 MF3 框架为地铁客流预测提供了一种新的可行范式，可支持城市交通优化、地铁运营调度以及智慧城市和物联网基础设施的发展。
 - author: Yuecen Wei, Zhiyu Zhuang, Yisen Gao, Xingcheng Fu, Qingyun Sun, Ziwei Zhang
     0001, Tianyu Wo, Chunming Hu
   title: Towards Geometry-Consistent Federated Graph Learning.
@@ -26284,6 +26476,7 @@ federate%20venue%3AWWW%3A:
     subsequently fused with globally oriented public prototypes for better clustering.
     Extensive experiments demonstrate that the proposed FedCND achieves an average
     of 4.9% accuracy improvement against current state-of-the-art methods.
+  abstract_cn: 联邦图级聚类（FGC）为在保护隐私的前提下分析去中心化图数据提供了一种有效解决方案。现有方法通常假设所有客户端的聚类数目相同，这一假设简化了学习任务，并取得了初步成效。然而，在实际应用中，这种假设往往难以成立：客户端的数据分布和语义粒度常常存在显著异质性。因此，在服务器端进行聚合时，各客户端特有的聚类知识会相互错位，最终导致整体聚类性能下降。针对这一挑战，我们提出了一种新的跨客户端聚类数目差异下的联邦图聚类框架——FedCND，该框架通过将图数据解耦为公共模式和私有模式，以对齐客户端间的异质分布。具体而言，在每个客户端完成初始本地训练与聚类后，我们分别设计了一个公共学习器和一个私有学习器来建模公共和私有图数据。只有经过匿名化的、基于聚类级别的公共信息会被上传至服务器，而私有信息则始终保留在本地。在服务器端，基于重构的聚类级图之间的亲和力，对聚类级别的公共原型进行聚合，从而实现跨客户端、具有不同聚类数目的隐私保护型原型对齐，并缓解全局聚合过程中因信息错位带来的干扰。最后，私有子图通过本地再学习得到客户端特定的原型，并将其与面向全局的公共原型融合，以获得更好的聚类效果。大量实验表明，所提出的FedCND相比当前最先进方法，平均准确率提升了4.9%。
 - author: Guochen Yan, Luyuan Xie, Qingni Shen, Yuejian Fang, Zhonghai Wu
   title: 'FedSRD: Sparsify-Reconstruct-Decompose for Communication-Efficient Federated
     Large Language Models Fine-Tuning.'
@@ -26312,6 +26505,7 @@ federate%20venue%3AWWW%3A:
     an efficient variant, FedSRD-e, to reduce computational overhead. Experiments
     on 10 benchmarks show our framework significantly reduces communication costs
     by up to 90% while improving performance on heterogeneous client data.'
+  abstract_cn: 当前基于公开网络数据训练大型语言模型（LLMs）的范式正变得难以为继，因为在专业领域中高质量的数据源日益枯竭。联邦学习（FL）作为去中心化Web上下一代人工智能的一种实用解决方案脱颖而出，它能够在分散的私有数据上实现隐私保护下的协同微调。尽管低秩适应（LoRA）已成为高效微调的标准方法，但其在联邦场景中的应用却面临一个关键瓶颈：异构网络条件下的通信开销过高。LoRA参数中的结构冗余不仅增加了通信成本，还导致聚合冲突。为此，我们提出了FedSRD——一种用于高效通信的联邦LLM微调框架，其核心思想是稀疏化、重构与分解。我们引入了基于重要性感知的稀疏化技术，在保持LoRA更新结构完整性的前提下减少上传参数的数量。服务器在全秩空间内聚合更新以缓解冲突，随后将全局更新分解为稀疏的低秩形式进行广播，从而确保整个流程的对称性与高效性。此外，我们还提出了一种高效的变体FedSRD-e，以进一步降低计算开销。在10个基准测试上的实验结果表明，我们的框架能够将通信成本大幅降低多达90%，同时在异构客户端数据上提升模型性能。
 - author: Shuo Yu 0001, Zhuoyang Han, Guoqing Han, Tao Tang 0007, Feng Ding 0004,
     Qiang Zhang
   title: Missingness-aware Federated Contrastive Learning on Semantic Graphs.
@@ -26344,6 +26538,7 @@ federate%20venue%3AWWW%3A:
     strong privacy guarantees. These results highlight FedCL as a scalable and trustworthy
     approach for federated learning on incomplete semantic graphs, advancing privacy-preserving
     knowledge sharing on the Web.'
+  abstract_cn: 语义图是万维网的基础，支持语义搜索、推荐以及知识密集型推理等应用。然而，在去中心化的Web环境中，这些图分布于不同组织之间，并受到严格的隐私政策约束，使得集中式训练难以实现。联邦学习为此提供了一种有前景的解决方案，但其效果却因现实世界语义图中存在的双重不完整性而严重受限：节点属性缺失与关系结构不完整。这种双重缺失往往在各客户端间呈现异质性且不可观测，从而导致模型性能大幅下降。为此，我们提出了FedCL——一种面向双重不完整语义图的、具有缺失感知能力的联邦对比学习框架。FedCL包含两个关键组件：一是基于率失真理论的拓扑估计模块，可在保护隐私的前提下量化各客户端之间的结构不完整性；二是联邦重建模块，利用这些估计结果生成合理的潜在关系，同时避免推断敏感属性。为进一步提升鲁棒性，FedCL还在重建后的子图上引入图对比学习，以确保跨异构、不完整客户端图之间的语义一致性。在基准引用数据集和Web数据集上的实验表明，在异质性缺失条件下，FedCL在准确性和鲁棒性方面均持续优于现有最先进基线方法，同时保持强大的隐私保障。这些结果凸显了FedCL作为一种可扩展且可信的方法，适用于不完整语义图上的联邦学习，有助于推进万维网上隐私友好的知识共享。
 - author: Chengjun Yu, Di Wu, Yi He 0007, Jia Chen, Xin Luo 0001
   title: Federated Latent Factor Learning for Privacy-Preserving Spatio-Temporal Signal
     Recovery.
@@ -26376,6 +26571,7 @@ federate%20venue%3AWWW%3A:
     conducted on four real-world WSNs datasets. The results demonstrate that FLFL
     significantly outperforms five state-of-the-art federated signal recovery models
     in terms of recovery accuracy with privacy-preserving.'
+  abstract_cn: 无线传感器网络（WSNs）作为智能感知领域中一个新兴且极具前景的方向，近年来备受关注。然而，由于传感器突发故障或为节省能量而主动关闭部分节点等多种因素，WSNs采集的传感信号往往存在大量缺失数据，这会对后续的数据分析与决策产生不利影响。潜在因子学习（LFL）已被证明在恢复WSNs中的缺失数据方面具有显著效果。然而，现有的LFL模型通常要求将采集到的传感信号集中存储于中央服务器等中心化位置，这一做法日益难以被隐私意识不断增强的数据所有者所接受。针对这一问题，本文创新性地提出了一种用于保护隐私的联邦潜在因子学习（FLFL）模型，用于时空信号的恢复。其核心思想包含两个方面：1）基于LFL设计了一种传感器级联邦学习框架，使得每个传感器只需上传梯度信息而非原始数据来训练隐私保护型恢复模型；2）将时空相关性引入所设计的联邦学习框架，并将其作为正则化约束，以进一步提升恢复精度。通过上述设计，FLFL不仅能够准确恢复WSNs中的缺失数据，同时还能有效保障数据所有者的原始数据隐私。为了评估所提出的FLFL模型，我们在四个真实世界的WSNs数据集上开展了大量实验。实验结果表明，在保证隐私保护的前提下，FLFL在恢复精度方面显著优于五种当前最先进的联邦信号恢复模型。
 - author: Linan Yue, Weibo Gao
   title: Difference-based Sample Selection for Federated Graph Rationalization.
   venue: WWW
@@ -26403,6 +26599,7 @@ federate%20venue%3AWWW%3A:
     on real-world and synthetic datasets demonstrate the effectiveness of DiffGR in
     improving rationale quality and model robustness in federated settings. Code is
     available at https://github.com/yuelinan/Codes-of-DiffGR.
+  abstract_cn: 图理性化方法旨在通过识别用于任务预测的关键子图（即理性依据）来提升图神经网络的可解释性。鉴于数据隐私问题日益受到关注，联邦图理性化作为一种新兴研究方向近来备受瞩目。然而，在联邦环境中，各客户端间的数据异质性会加剧捷径学习现象——模型倾向于依赖虚假的、仅属于特定客户端的特征，而非具有不变性的因果理性依据。现有的解决方案，如环境感知型数据增强，往往受限于低质量的环境表征。为此，我们提出了DiffGR，一种基于差异的联邦图理性化样本选择策略。DiffGR会选择本地模型与全局模型在预测结果上差异最大的样本，因为这类样本很可能反映出模型对捷径特征的强烈依赖，从而有助于构建更为准确的环境表征。此外，我们还提出了一种受互信息启发的环境条件化数据增强方法，该方法在最小化环境与预测之间的互信息的同时，最大化理性依据与预测之间的互信息。在真实世界及合成数据集上的实验结果表明，DiffGR能够有效提升联邦环境下的理性依据质量和模型鲁棒性。相关代码已公开，地址为：https://github.com/yuelinan/Codes-of-DiffGR。
 - author: Yicheng Zhang, Zhen Qin 0004, Zhaomin Wu, Jian Hou, Shuiguang Deng
   title: Personalized Federated Fine-Tuning for LLMs via Data-Driven Heterogeneous
     Model Architectures.
@@ -26431,6 +26628,7 @@ federate%20venue%3AWWW%3A:
     across seven scenarios demonstrate that FedAMoLE improves client-side performance
     by an average of 5.97% over existing approaches while maintaining practical memory,
     communication, and computation overhead.
+  abstract_cn: 大型语言模型（LLMs）正日益成为基于Web的应用程序的核心驱动力，而这些应用的有效性依赖于大规模指令数据的微调。然而，这类数据往往包含有价值或敏感的信息，这限制了其在不同商业组织之间的公开共享。联邦学习（FL）能够在不访问原始数据的情况下实现LLM的协作式微调。现有的LLM联邦微调方法通常采用统一的模型架构，这使得它们难以适应来自不同领域和任务的、高度异构的客户端数据——例如，医院和金融机构在进行联邦微调时，由于其领域和任务性质迥异，可能需要不同的LLM架构。为此，我们提出了FedAMoLE，一个轻量级的个性化联邦学习框架，支持数据驱动的异构模型架构。该框架包含一个由低秩适配（LoRA）专家模块组成的异构混合结构，用于聚合架构各异的模型；同时，它还采用基于反向选择的专家分配策略，根据各客户端的数据分布为其量身定制模型架构。在七个场景下的实验表明，与现有方法相比，FedAMoLE能够将客户端性能平均提升5.97%，并且在内存、通信和计算开销方面仍保持实用水平。
 - author: Pengyang Zhou, Zhihao Huang, Jiahe Xu 0003, Wu Wen, Xiaolin Zheng, Chaochao
     Chen 0001, Jianwei Yin
   title: LLM-enhanced Federated Graph Learning with Geometry-aware Graph Projection
@@ -26459,6 +26657,11 @@ federate%20venue%3AWWW%3A:
     updates in a shared subspace to achieve geometry-consistent generalization across
     heterogeneous tasks. Extensive experiments on six datasets demonstrate the effectiveness
     of FedLGS.'
+  abstract_cn: 联邦图学习（FGL）能够在不共享原始图数据的情况下实现协作训练，但在客户端执行不同类型的图学习任务时，现有方法仍存在局限性。近年来，大语言模型（LLMs）的快速发展带来了新的机遇：一种有前景的解决方案是将图数据投影到
+    LLM 的输入空间，并利用其强大的泛化能力进行预测。然而，直接将 LLM 应用于 FGL 会面临两大挑战：(1) 在客户端数据有限的情况下提升 LLM 对图结构的理解能力；(2)
+    构建一个能在异构客户端任务间实现泛化的图投影器。为应对这些挑战，我们提出了一种基于 LLM 的联邦图学习框架 FedLGS，该框架由两个模块组成：几何感知图投影（GGP）和共享子空间聚合（SSA）。GGP
+    将图表示投影到具有 Ollivier-Ricci 曲率先验的互补黎曼流形上，从而为 LLM 提供具备几何感知与语义丰富性的输入；SSA 则采用曲率加权白化技术，在共享子空间中聚合更新，以实现跨异构任务的几何一致性泛化。在六个数据集上的大量实验验证了
+    FedLGS 的有效性。
 - author: Jiayu Bao, Hongjian Shi, Guanyu Zhang, Rui Zhou, Haozhao Wang, Yuan Liu
     0021
   title: 'KE-FedRS: Tackling Data Sparsity in Federated Recommendation via Knowledge
@@ -26490,6 +26693,7 @@ federate%20venue%3AWWW%3A:
     of items with fewer interactions in the global model. We conduct comprehensive
     experiments on four real-world datasets, and the results show that the proposed
     method consistently outperforms baseline approaches in terms of HR@10 and NDCG@10.'
+  abstract_cn: 联邦推荐系统（FRS）近年来因其能够在不交换用户原始数据的情况下训练协同过滤模型而备受关注。然而，现有的联邦推荐系统面临严重的数据稀疏性挑战，这一问题同时存在于用户和物品层面。首先，用户数据稀疏：部分用户与物品的交互次数极少，导致本地难以充分训练个性化的用户嵌入表示。其次，物品数据稀疏：某些物品获得的用户评分数量有限，使得全局模型对其缺乏足够的知识。针对上述问题，我们提出了一种名为KE-FedRS的知识增强型联邦推荐系统，其核心思想是在本地和全局两个层面分别增强对低交互用户和低评分物品的知识表示。具体而言，在本地层面，我们引入了一个辅助用户嵌入，并通过聚合相似用户之间的该辅助嵌入来丰富本地用户嵌入的知识；而在全局层面，则提出了一种基于物品嵌入差异性的混合客户端选择策略，优先选择那些物品嵌入与其他客户端差异较大的客户端，从而提升全局模型对低交互物品的认知能力。我们在四个真实数据集上进行了全面的实验，结果表明，所提出的方法在HR@10和NDCG@10指标上均显著优于基线方法。
 - author: Kai Cheng, Zhengyu Zhang, Tong Wu, Huan Zhou 0002, Xinggang Fan
   title: 'C2-SFL: Class-Balanced and Cost-Aware Split Federated Learning for Mobile
     Edge Computing.'
@@ -26531,6 +26735,7 @@ federate%20venue%3AWWW%3A:
     on four datasets demonstrate that Thorki outperforms state-of-the-art FL systems
     by 0.16%-19.14% in model accuracy and improves time-to-accuracy performance by
     2.00x-10.00x.
+  abstract_cn: 联邦学习（FL）能够在保护隐私的前提下实现客户端模型之间的知识共享。其关键挑战在于：如何在聚合全局知识的同时，为每个客户端保留个性化知识。我们发现，这一挑战主要源于不同模型层中全局知识与个性化知识的耦合。现有方法要么未能完全解耦这两类知识，要么在推理过程中未能对其进行有效利用，从而导致性能欠佳。本文提出了一种名为Thorki的新型联邦学习系统，该系统在所有模型层中均实现了全局知识与个性化知识的解耦。在Thorki中，每个客户端不再仅维护一个模型，而是将个性化知识存储于一个小模型中，将全局知识存储于一个大模型中。进行推理时，系统会使用一个融合网络来组合这两个模型的输出，从而自适应地充分利用两类知识。这种全新的模型协作范式使得客户端能够在不损害自身个性化推理能力的前提下，以联邦方式共享其全局知识。我们在四个数据集上对三种模型开展的大量实验表明，Thorki在模型准确率方面比当前最先进的联邦学习系统高出0.16%至19.14%，并在达到特定准确率所需的时间上提升了2.00倍至10.00倍。
 - author: Xinrui He, Ting-Wei Li, Tianxin Wei, Xuying Ning, Xinyu He 0003, Wenxuan
     Bao, Hanghang Tong, Jingrui He
   title: 'FeDecider: An LLM-Based Framework for Federated Cross-Domain Recommendation.'
@@ -26562,6 +26767,7 @@ federate%20venue%3AWWW%3A:
     further learns personalized weights that achieve the data-aware integration of
     updates from other domains. Extensive experiments across diverse datasets validate
     the effectiveness of our proposed FeDecider.
+  abstract_cn: 联邦跨域推荐（Federated CDR）旨在保护数据隐私的同时，在异构域之间协同学习个性化推荐模型。近年来，基于大语言模型的推荐模型凭借其强大的推理能力和广博的知识储备，展现出令人瞩目的性能。然而，在联邦跨域推荐场景中引入这类模型也带来了新的挑战。首先，针对特定域的本地适配器存在过拟合风险。由于各域本地优化参数更新的幅度往往不同，会导致聚合结果出现偏差，并使模型过度拟合于特定域的数据分布。其次，与传统的推荐模型（如协同过滤、基于二部图的方法）直接学习可比较的用户/物品表示不同，大语言模型通过自回归文本生成训练以隐式方式编码知识，这使得在异构环境下有效度量跨域相似性变得更加困难。为应对上述挑战，我们提出了一种基于大语言模型的联邦跨域推荐框架——FeDecider。具体而言，FeDecider通过解耦各客户端的低秩更新，仅共享其方向分量，从而缓解尺度相关噪声问题。同时，为满足灵活高效的融合需求，每个客户端还会学习个性化的权重，以实现对来自其他域更新的数据感知型整合。我们在多个不同数据集上开展了大量实验，验证了所提出的FeDecider的有效性。
 - author: Zhiwei Hu, Liang Zhang, Guangxu Zhu
   title: 'FedRMamba: Federated Residual Mamba for Multivariate Time-Series Forecasting.'
   venue: WWW
@@ -26591,6 +26797,7 @@ federate%20venue%3AWWW%3A:
     high-frequency components for improved prediction. We conduct extensive experiments
     to evaluate the performance of our proposed framework, demonstrating its effectiveness
     in handling heterogeneous data in federated settings.'
+  abstract_cn: 时间序列预测是许多现实世界服务的基础。近年来，研究趋势聚焦于受大型语言模型范式启发的基座模型，这类模型依赖于跨不同领域的海量集中式时间序列数据。然而，这种方法引发了对数据隐私的严重担忧。联邦学习（FL）作为一种有前景的范式，能够在多个客户端分散存储的孤立数据集上训练统一的时间序列模型。尽管如此，现有的联邦学习方法仍面临两个关键挑战：变量异质性和时间相关性的异质性。为解决这些问题，我们提出了FedRMamba——一个完全基于Mamba状态空间块构建的个性化联邦预测框架。在该框架中，每个客户端采用残差耦合架构：一个全局频域感知的Mamba模块用于捕捉不同变量间共享的低频结构，而一个局部分块Mamba模块则用于学习多变量情境下的个性化高频模式。为了清晰地划分这两者的职责，我们引入了一种频域感知的监督机制，使全局路径专注于低频成分，本地路径则聚焦于高频残差。此外，我们还设计了一种门控融合机制，动态整合低频与高频成分，以提升预测性能。我们通过大量实验评估了所提出框架的性能，结果表明其在联邦场景下处理异质性数据方面具有显著效果。
 - author: Wenjie Li 0008, Shu-Tao Xia, Jiangke Fan, Teng Zhang, Xingxing Wang
   title: Vertical Semi-Federated Learning for Efficient Online Advertising.
   venue: WWW
@@ -26613,6 +26820,7 @@ federate%20venue%3AWWW%3A:
     full sample space with cross-branch rank alignment. Extensive experiments conducted
     on real-world advertising datasets validate the effectiveness of our method over
     baseline methods.'
+  abstract_cn: 传统的垂直联邦学习范式存在两大问题：一是适用范围受限于样本交集，二是实时联邦推理的系统复杂度较高，这在很大程度上限制了其在广告系统中的应用。为此，我们提出了一种面向实际工业场景的新型实用学习框架——半垂直联邦学习（Semi-VFL），该框架在保留联邦学习固有优势的同时，还支持独立的本地推理服务。为实现这一目标，我们设计并提出了联合特权学习框架（JPL），通过以下两方面来解决上述问题：首先，利用联邦等价性模仿技术缓解被动参与方特征缺失的问题；其次，通过跨分支排序对齐机制适应异构的全样本空间。我们在真实广告数据集上开展的大量实验结果表明，与基线方法相比，我们的方法具有显著的优势和有效性。
 - author: Haozhao Wang, Wenchao Xu 0001, Jingzhi Wang, Yunfeng Fan, Xiaoquan Yi, Rui
     Zhang 0003
   title: 'pFedDKS: Detached Knowledge Sharing for Personalized Federated Learning.'
@@ -26641,6 +26849,7 @@ federate%20venue%3AWWW%3A:
     propose a novel method called pFedDKS which detaches the shared global knowledge
     and customized local knowledge by providing detached feature prototypes. Extensive
     experiments on various datasets and models show that pFedDKS outperforms state-of-the-arts.
+  abstract_cn: 通过允许每个客户端在保持自身特性的前提下引用其他客户端的知识，部分知识共享已成为实现个性化联邦学习（pFL）的主要途径之一。典型的部分知识共享技术主张共享特征提取器，同时对神经网络的分类头进行个性化定制。尽管这类方法取得了显著成效，其背后的理论基础仍需全面深入地理解。一个根本性问题在于：完全共享特征提取器是否真的恰当？基于神经坍缩理论，本文从理论和实验两方面证明，特征提取器应当采用部分共享而非完全共享的方式。具体而言，我们发现融合后的全局特征表示与预期的局部特征表示之间存在显著不一致，因此有必要保留特征提取器中部分个性化的层，以增强个性化表征能力。基于这一发现，我们进一步提出了一种名为pFedDKS的新方法，该方法通过引入分离的特征原型来解耦共享的全局知识与个性化的局部知识。在多种数据集和模型上的大量实验表明，pFedDKS的表现优于现有最先进方法。
 - author: Canran Xiao, Liwei Hou
   title: Prototype-Aligned Federated Soft-Prompts for Continual Web Personalization.
   venue: WWW
@@ -26668,6 +26877,7 @@ federate%20venue%3AWWW%3A:
     is a unifying, privacy-aware prompting interface with prototype anchoring that
     delivers robust continual personalization and offers a transparent, controllable
     mechanism to balance stability and plasticity in deployment.'
+  abstract_cn: 持续的Web个性化对于用户参与至关重要，然而现实场景中的非平稳性和隐私约束使得在不遗忘长期偏好前提下快速适应变得困难。针对这一瓶颈，我们设计了一种兼顾隐私保护与参数效率的接口，可在用户或会话级别动态调控模型的稳定性与可塑性，并将用户的记忆与共享的语义先验相连接。为此，我们提出了ProtoFed-SP——一个基于提示的框架，它向冻结的主干模型中注入双时间尺度的软提示：快速、稀疏的短期提示用于捕捉当前会话意图，而缓慢更新的长期提示则锚定于服务器端的一个小型原型库，该库通过差分隐私的联邦聚合机制持续刷新。查询会被路由至Top-M个原型，以组合生成个性化的提示。在八个基准数据集上，ProtoFed-SP相较于最强基线，NDCG@10提升了2.9%，HR@10提升了2.0%，并在Amazon-Books（相对于INFER，NDCG提升5.0%）、H&M（相对于Dual-LoRA，提升2.5%）以及Taobao（相对于FedRAP，提升2.2%）等数据集上取得了显著效果。此外，该方法还能有效降低遗忘率（AF）和达到95%性能所需的步数，并在实际的差分隐私预算下保持较高的准确性。我们的贡献在于提出了一种统一的、具备隐私意识的原型锚定式提示接口，能够实现稳健的持续个性化，并为部署阶段提供一种透明、可控的机制来平衡模型的稳定性和可塑性。
 - author: Bo Yan 0005, Yurong Hao, Dingqi Liu, Huabin Sun, Pengpeng Qiao, Wei Yang
     Bryan Lim, Yang Cao 0011, Chuan Shi 0001
   title: 'Spattack: Subgroup Poisoning Attacks on Federated Recommender Systems.'
@@ -26704,6 +26914,10 @@ federate%20venue%3AWWW%3A:
     impact on non-target users, even when only 0.1% of users are malicious. Moreover,
     Spattack maintains competitive recommendation performance and exhibits strong
     resilience against mainstream defenses.
+  abstract_cn: 联邦推荐系统（FedRec）作为一种在保护用户隐私的同时提供个性化推荐的有前景方法而兴起。然而，近期研究已表明其易受投毒攻击：恶意客户端可通过注入精心构造的梯度，诱使良性用户接收到目标物品的推荐。现有攻击通常针对整个用户群体，这不仅降低了隐蔽性，也增加了被检测的风险。相比之下，现实中的攻击者更倾向于
+    targeting 特定的用户子群体——例如向老年群体推广保健品——以在最大化攻击成功率的同时保持隐蔽性、规避检测。基于这一空白，我们提出了 Spattack，这是首个专为在联邦场景下操纵特定用户子群体推荐而设计的投毒攻击。具体而言，Spattack
+    采用“近似—强化”范式：首先近似目标与非目标子群体的用户嵌入，再将目标物品推荐给目标子群体。我们进一步揭示，在对目标群体实现强大攻击效果的同时又尽量不干扰非目标群体之间存在权衡。为获得更好的权衡，我们提出了改进的近似与强化策略。在近似环节，我们基于对比学习拉大不同子群体嵌入之间的距离，并通过聚类扩充目标群体的相关物品集；在强化环节，则通过对齐目标物品与相关物品的嵌入来加强二者的语义关联。此外，我们还提出了一种自适应加权策略，用以平衡目标与非目标子群体之间的推荐强化效果。在三个真实数据集上的实验结果表明，即使仅有
+    0.1% 的用户为恶意用户，Spattack 仍能持续对目标子群体产生显著的攻击效果，同时对非目标用户几乎不造成影响。此外，Spattack 在推荐性能上具有竞争力，并对主流防御机制表现出较强的鲁棒性。
 - author: Dezhong Yao 0002, Tongtong Liu 0006, Yuexin Shi, Zhiqiang Xu 0003
   title: 'FedMHO: Heterogeneous One-Shot Federated Learning Towards Resource-Constrained
     Clients.'
@@ -26733,6 +26947,7 @@ federate%20venue%3AWWW%3A:
     synthetic samples. Comprehensive experiments demonstrate the effectiveness of
     our methods, as they outperform state-of-the-art baselines in various experimental
     setups.
+  abstract_cn: 联邦学习（FL）在边缘计算场景中日益普及，其中大量异构客户端或资源受限、或资源充足。联邦学习的迭代训练过程会产生可观的计算和通信开销，这对资源受限的设备极为不利。单次型联邦学习是一种很有前景的方案，可有效缓解传统联邦学习固有的通信瓶颈；而模型异构型联邦学习则能应对客户端之间计算资源差异较大的问题。然而，现有方法在有效管理模型异构的单次型联邦学习时仍面临诸多挑战，往往导致全局模型性能不理想，或不得不依赖辅助数据集。为此，我们提出了一种名为FedMHO的新颖联邦学习框架：在资源充足的客户端上使用深度分类模型，在资源受限的设备上则采用轻量级生成模型。在服务器端，FedMHO采用两阶段流程，包括数据生成与知识融合。此外，我们还分别提出了FedMHO-MD和FedMHO-SD两种方法，以缓解知识融合阶段的知识遗忘问题，并设计了一种无监督数据优化方案来提升合成样本的质量。全面的实验结果表明，我们的方法在多种实验设置下均优于当前最先进的基线方法，验证了其有效性。
 - author: Fengyuan Yu, Xiaohua Feng 0002, Yuyuan Li 0001, Changwang Zhang, Jun Wang
     0020, Chaochao Chen 0001
   title: Sharpness-Aware Minimization for Generalized Embedding Learning in Federated
@@ -26764,6 +26979,7 @@ federate%20venue%3AWWW%3A:
     process and enhancing recommendation performance. Extensive experiments on four
     datasets demonstrate the effectiveness of FedRecGEL in significantly improving
     federated recommendation performance. Our code is available at https://github.com/anonymifish/FedRecGEL.
+  abstract_cn: 联邦推荐系统能够在保护用户交互数据本地性的同时，仅共享必要的模型参数，从而实现协同式模型训练，有效降低隐私风险。然而，现有方法忽视了一个关键问题，即在联邦推荐系统的整个训练过程中，如何稳定地学习到具有泛化能力的商品嵌入表示。商品嵌入在促进各客户端之间的知识共享中发挥着核心作用。但在跨设备的联邦场景下，不同客户端的局部数据分布存在显著的异质性和稀疏性，这进一步加剧了学习泛化嵌入的难度。因此，稳定地学习泛化商品嵌入对于实现高效的联邦推荐至关重要，但同时也极具挑战性。为弥补这一空白，我们提出了一种新的联邦推荐框架——泛化嵌入学习的联邦推荐（FedRecGEL）。我们从以商品为中心的角度重新定义联邦推荐问题，并将其建模为多任务学习问题，旨在在整个训练过程中持续学习泛化嵌入。基于理论分析，我们引入尖锐度感知最小化方法来解决泛化问题，从而稳定训练过程并提升推荐性能。在四个数据集上的大量实验结果表明，FedRecGEL能够显著提升联邦推荐的效果。我们的代码已公开，地址为：https://github.com/anonymifish/FedRecGEL。
 - author: Chunxu Zhang, Zhiheng Xue, Guodong Long, Weipeng Zhang, Bo Yang 0002
   title: 'Learning Evolving Preferences: A Federated Continual Framework for User-Centric
     Recommendation.'
@@ -26790,6 +27006,7 @@ federate%20venue%3AWWW%3A:
     Extensive experiments on four public benchmarks demonstrate the superior effectiveness
     of our approach, along with strong compatibility and practical applicability.
     Code is available at https://github.com/Poizoner/code4FCUCR_www2026.
+  abstract_cn: 以用户为中心的推荐已成为提供个性化服务的关键，它使系统能够在尊重用户长期偏好和隐私约束的同时，适应其不断变化的行为模式。尽管联邦学习为集中式训练提供了一种颇具前景的替代方案，但现有方法大多忽视了用户行为的动态特性，从而导致时间遗忘问题，并削弱协同个性化效果。在本工作中，我们提出了一种名为FCUCR的联邦持续推荐框架，旨在以隐私保护的方式支持长期个性化。为缓解时间遗忘，我们引入了一种基于时间感知的自蒸馏策略，在本地模型更新过程中隐式地保留历史偏好；针对异构用户数据下的协同个性化挑战，我们设计了一种用户间原型迁移机制，该机制在保持个体决策逻辑的前提下，利用相似用户的知识丰富每个客户端的表征。我们在四个公开基准数据集上的大量实验表明，我们的方法不仅具有卓越的性能，还具备良好的兼容性和实际应用价值。代码已开源，地址为：https://github.com/Poizoner/code4FCUCR_www2026。
 - author: Chunxu Zhang, Weipeng Zhang, Guodong Long, Zhiheng Xue, Riting Xia, Bo Yang
     0002
   title: 'Multimodal-enhanced Federated Recommendation: A Group-wise Fusion Approach.'
@@ -26819,6 +27036,7 @@ federate%20venue%3AWWW%3A:
     experiments on five benchmark datasets demonstrate that GFMFR consistently outperforms
     state-of-the-art multimodal FR baselines. The implementation code is available.
     https://github.com/Zhangwp2420/GFMFR.
+  abstract_cn: 联邦推荐（FR）作为一种在保护隐私的同时解决排序学习问题的有前景范式，近年来受到广泛关注。然而，如何有效地将多模态物品特征融入联邦推荐系统，仍面临诸多挑战，包括效率限制、数据分布异质性以及特征利用与推荐目标的一致性等问题。针对这些难题，我们提出了GFMFR——一种面向联邦推荐的新型多模态融合框架。具体而言，该框架将多模态表征学习任务卸载至服务器端：服务器存储物品内容并使用高容量编码器生成富有表达力的表征，从而减轻客户端的计算负担。此外，基于群体感知的多模态聚合机制能够为具有相似兴趣的用户学习共享表征，实现知识共享的同时缓解数据分布异质性。最后，GFMFR采用偏好引导的蒸馏策略，以与推荐目标直接契合的方式充分利用多模态信息。所提出的框架可无缝集成到现有的联邦推荐系统中，通过引入多模态特征显著提升其性能。在五个基准数据集上的大量实验结果表明，GFMFR始终优于当前最先进的多模态联邦推荐基线方法。相关实现代码已公开发布：https://github.com/Zhangwp2420/GFMFR。
 - author: Chengyang Zhou, Zijian Zhang, Chunxu Zhang, Hao Miao 0001, Yulin Zhang,
     Kedi Lyu, Juncheng Hu
   title: 'FedDis: A Causal Disentanglement Framework for Federated Traffic Prediction.'
@@ -26850,6 +27068,7 @@ federate%20venue%3AWWW%3A:
     that FedDis consistently achieves state-of-the-art performance, promising efficiency,
     and superior expandability. To ease the reproducibility, we release our implementation
     code online. https://github.com/Jlu-zcy/www2026_FedDis.'
+  abstract_cn: 联邦学习为保护隐私的交通预测提供了一种很有前景的范式，然而其性能往往受到分散式交通数据非独立同分布（non-IID）特性的影响。现有的联邦方法通常难以应对这种数据异质性，常常将全局共享模式与客户端特有的局部动态混杂在同一表征中。在本工作中，我们提出假设：这种异质性源于两种不同生成源的纠缠——即客户端特定的局部动态和跨客户端的全局时空模式。基于这一观点，我们提出了FedDis，这是一种新颖的框架，在现有研究中首次利用因果解耦技术进行联邦时空预测。从架构上看，FedDis采用双分支设计：个性化知识库用于捕捉客户端特有因素，而全局模式知识库则提炼共性知识。这种分离机制能够在保持对独特本地环境高度适应性的同时，实现稳健的跨客户端知识迁移。关键在于，我们引入了互信息最小化目标，以强制两个分支之间的信息正交性，从而确保有效的解耦。在四个真实世界基准数据集上开展的全面实验表明，FedDis能够持续取得当前最优的性能，在效率和可扩展性方面均表现出色。为便于复现，我们已将代码公开发布于：https://github.com/Jlu-zcy/www2026_FedDis。
 - author: Tao Tang 0007, Mujie Liu, Botao Liu, Wei Du, Liping Chen, Xinrui Cheng,
     Jiaxin Du, Xiangjie Kong 0001
   title: 'FairFRL: Fairness-aware Federated Representation Learning for Cross-domain
@@ -26906,6 +27125,9 @@ federate%20venue%3AWWW%3A:
     0.6532, an Accuracy of 0.9794, and an MAE of 0.0400, while reducing communication
     overhead by approximately 99.5%. This enables scalable collaborative intelligence
     for resource-constrained edge devices, a key capability for the future web systems.
+  abstract_cn: 精准的语义分割对于山洪灾害发生后的快速风险与严重程度评估至关重要。然而，在用于灾后救援的无人机网络中，带宽受限导致集中式处理所需的海量影像回传极易引发网络拥塞。联邦学习作为一种去中心化的协作范式，允许无人机在本地进行数据处理，为解决这一难题提供了理想途径。尽管如此，现有的联邦学习方法仍面临通信开销过大与分割性能不足的两难困境。为此，本文提出了一种通信高效联邦蒸馏（CEFD）框架。该框架的核心在于设计一种轻量级的多层级知识表示：摒弃大体积参数的传输，转而高效交换经过特征空间降维处理的高层语义
+    logits 以及关键的中间特征；在服务器端，则采用自适应加权聚合来构建稳健的全局知识模型。实验结果表明，在 LSD 数据集上，CEFD 获得了优异的分割性能，具体指标为：mIoU
+    0.6226、平均召回率 0.6532、准确率 0.9794 以及平均绝对误差 0.0400，同时将通信开销降低了约 99.5%。这使得资源受限的边缘设备能够实现可扩展的协同智能，而这也是未来Web系统的关键能力之一。
 - author: Ruixiao Zhu, Kun Zhu 0024, Nana Zhang, Qi Zhang 0020, Changjun Jiang 0002
   title: Dynamic Min-Max Multi-Dimensional Reinforcement Backdoor Attacks and Orchestrated
     Closed-Loop Defense in Fairness-Aware Web Federated Finance.
@@ -26939,6 +27161,8 @@ federate%20venue%3AWWW%3A:
     as weights to minimize Attack Success Rate (ASR) during aggregation. Extensive
     experiments on six financial fraud datasets demonstrate the superiority of CLARF
     model and Min-Max adversarial game paradigm compared with multiple SOTA models.
+  abstract_cn: 在快速演进的基于Web的金融生态系统中，数字银行服务已成为服务不足群体的关键基础设施。然而，信用卡欺诈却 disproportionately
+    地影响着依赖这些金融平台的弱势群体。以往的研究往往忽视了极端的数据稀缺状况，尤其是在那些为弱势群体提供重要接入渠道的中小型网络银行中。本文旨在解决构建可真正实现Web规模、兼具包容性与安全性的金融系统这一根本性挑战。为此，我们提出了一种新颖的基于Web的公平感知联邦欺诈检测模型——CLARF，该模型通过设计的隐私增强型表征融合模块和欺诈感知对比学习模块，在数据稀缺和标签不平衡的条件下提升检测性能。此外，当前的联邦欺诈检测系统普遍忽视后门攻击的威胁：恶意行为者可在模型聚合过程中植入隐蔽触发器，从而破坏系统完整性。针对这一问题，我们进一步提出了一个动态的Web端Min-Max对抗博弈框架，其中攻击者采用多阶段混合强化学习，并结合多维度奖励机制，动态演化出能够在隐蔽性与有效性之间取得优异平衡的触发器。防御方则采用闭环的“选择—评估—抑制”框架：首先利用Fisher信息量筛选高可信度客户端，由其执行反向触发器工程；随后以各客户端的置信度得分作为权重，在聚合过程中最小化攻击成功率（ASR）。在六个金融欺诈数据集上的大量实验结果表明，与多种最先进模型相比，CLARF模型及Min-Max对抗博弈范式均展现出显著优势。
 federate%20venue%3AOSDI%3A:
 - author: Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury
   title: 'Oort: Efficient Federated Learning via Guided Participant Selection.'
@@ -27417,6 +27641,7 @@ federate%20streamid%3Aconf%2Feurosys%3A:
     we compare SwiftFL with four state-of-the-art FDL systems and demonstrate that
     SwiftFL achieves an average speedup of 6.08× while maintaining consistent final
     model accuracy.'
+  abstract_cn: 联邦深度学习（FDL）是一种极具前景的隐私保护方法，能够在不共享原始数据的情况下，基于分布式数据集训练深度神经网络。然而，经典的同步联邦深度学习面临“拖后腿”问题：训练速度较慢的节点会严重制约整体效率。受现代处理器中投机执行技术的启发，本文提出了一种新颖且高效的联邦深度学习投机训练系统——SwiftFL。与传统方法简单地等待慢节点不同，SwiftFL会主动利用预测梯度更新全局模型，从而使速度快的节点能够提前启动下一轮训练。此外，我们还提出了一种梯度补偿机制，可在无需重新训练的情况下纠正预测错误。最后，为解决因快节点执行更多本地训练轮次而导致的模型漂移问题，我们设计了一种客户端选择策略。该策略通过权衡两个指标——模型漂移程度和本地训练效率——来决定哪些节点应采用投机训练模式。实验结果表明，与四种最先进的联邦深度学习系统相比，SwiftFL在保持最终模型精度一致的同时，平均加速比达到6.08倍。
 federate%20streamid%3Ajournals%2Ftpds%3A:
 - author: Qian Chen, Zilong Wang 0001, Jiawei Chen 0010, Haonan Yan, Xiaodong Lin
     0001
@@ -28478,6 +28703,7 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
     expert weights and dual-channel outputs. Experiments on public datasets demonstrate
     that our model outperforms baseline models in handling unified cross-domain log
     data.'
+  abstract_cn: 传统的日志异常检测系统通常是集中式的，这在数据传输过程中存在隐私泄露的风险。以往的研究主要针对单一领域的日志数据，需要为每个领域构建特定的模型并重新训练，从而限制了模型的灵活性和可扩展性。本文提出了一种统一的联邦跨域日志异常检测方法——FLUXLog，该方法基于专家混合模型（MoE）来处理异构的日志数据。基于我们的洞察，我们设计了一个两阶段的训练流程：首先对门控网络进行预训练，使其能够根据数据分布分配专家权重；随后采用专家驱动的自顶向下特征融合方式。接下来，门控网络的进一步训练则通过微调适配器来实现，这不仅为模型提供了跨领域的适应能力，同时还能保持各专家的专业化特性。这种训练范式支持一种混合专业化策略，既能促进领域-specific的专业知识积累，又能增强跨领域的泛化能力。最后，交叉门控专家模块（CGEM）负责融合专家权重与双通道输出。在公开数据集上的实验结果表明，我们的模型在处理统一的跨域日志数据方面优于基线模型。
 - author: Zihao Zhou, Shusen Yang, Fangyuan Zhao, Xuebin Ren
   title: 'FairGFL: Privacy-Preserving Fairness-Aware Federated Learning With Overlapping
     Subgraphs.'
@@ -28506,6 +28732,7 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
     function. Through extensive experiments on four benchmark graph datasets, we demonstrate
     that FairGFL outperforms four representative baseline algorithms in terms of both
     model utility and fairness.
+  abstract_cn: 图联邦学习能够在保护原始数据隐私的同时，协同地从分布式子图中提取高阶信息。然而，图数据在不同客户端之间常常存在重叠。先前的研究表明，数据重叠在缓解数据异构性方面具有一定优势。但其负面影响尚未得到充分探讨，尤其是在各客户端之间的重叠程度不均衡的情况下。本文通过实证观察与理论分析，揭示了由子图重叠不均衡所引发的不公平问题。为解决这一问题，我们提出了一种名为FairGFL（公平感知的子图联邦学习）的新算法，该算法在保持模型效用的同时，以隐私保护的方式提升跨客户端的公平性。具体而言，FairGFL引入了一种可解释的加权聚合机制，通过隐私保护的重叠比例估计来增强各客户端间的公平性。此外，FairGFL还通过将精心设计的正则项融入联邦联合损失函数，进一步优化了模型效用与公平性之间的权衡。在四个基准图数据集上的大量实验结果表明，FairGFL在模型效用和公平性两方面均优于四种具有代表性的基线算法。
 - author: Zuo Gan, Chen Chen 0067, Jiayi Zhang 0006, Yifei Zhu 0001, Jieru Zhao, Quan
     Chen 0002, Minyi Guo
   title: Flexible Synchronization Control for Accurate and Efficient Federated Learning.
@@ -28536,6 +28763,7 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
     communication volume. We implemented PAS atop PyTorch, and extensive experiments
     show that it can substantially improve FL performance in both accuracy and communication
     efficiency.'
+  abstract_cn: 联邦学习（FL）是一种分布式范式，在保护数据隐私的同时支持协同模型训练：客户端在经过若干轮本地迭代后，定期同步其本地梯度。然而，由于数据分布不均匀以及网络状况不佳，联邦学习的训练精度和效率往往受到影响。在本工作中，我们分析了联邦学习中参数的微观变化行为，发现提升联邦学习精度的有效方法是在适当的时间点切换到更频繁的同步。特别地，这些用于调整同步频率的时机——可通过梯度特征检测得到——在不同参数之间是异构的。基于上述观察，我们提出了参数自适应同步（PAS）机制，该机制能够为每个标量参数自适应地调整同步周期。PAS的优势体现在两个方面：一是在必要时切换至更频繁的同步，以提高联邦学习的训练精度；二是在不同参数间独立进行同步，从而实现通信与计算的重叠，并提升网络资源利用率。我们从理论上证明了PAS的收敛性，并进一步将其扩展为具有自适应稀疏化能力的版本，以联合降低整体通信量。我们在PyTorch框架上实现了PAS，大量实验表明，它能够在训练精度和通信效率两方面显著提升联邦学习的性能。
 - author: Yongzhe Jia, Xuyun Zhang, Cheng Chen, Quan Z. Sheng, Lianyong Qi, Xiaolong
     Xu 0001, Amin Beheshti, Wanchun Dou, Chunhe Song
   title: 'FedAOP: Attention-Guided One-Shot Federated Pruning for Heterogeneous Edge
@@ -28566,6 +28794,7 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
     on benchmark datasets demonstrate that FedAOP consistently outperforms state-of-the-art
     baselines by up to 11.3% in accuracy while reducing the average model footprint
     by 32%.
+  abstract_cn: 联邦学习（FL）使边缘设备能够在不共享原始数据的情况下协同训练全局模型。然而，在边缘环境中，资源限制阻碍了联邦学习的高效训练与模型聚合。尽管已有研究将模型剪枝确立为降低资源需求的有效策略，但参数对称性问题——即神经网络中存在排列等价的参数顺序——仍未得到充分探讨。若不解决这一对称性问题，异构客户端上的剪枝会导致聚合不匹配和精度下降。为此，本文提出一种面向联邦学习的注意力引导一次性剪枝方法（FedAOP），以应对上述挑战。首先，我们设计了一个融合空间注意力与通道注意力的模块，用于突出关键的空间响应并评估各通道的重要性。随后，基于这些重要性得分，我们提出了一种注意力驱动的剪枝算法，以生成针对不同客户端的个性化模型，从而降低资源消耗。此外，我们还引入了一种带有注意力匹配的聚合算法，以缓解异构剪枝条件下参数对称性带来的负面影响。我们在一个基准联邦学习平台上实现了FedAOP。在多个基准数据集上的实验结果表明，FedAOP在保持平均模型规模缩小32%的同时，其准确率始终优于当前最先进的基线方法，最高可提升11.3%。
 federate%20streamid%3Ajournals%2Ftocs%3A: []
 federate%20streamid%3Ajournals%2Ftos%3A:
 - author: Amina Chikhaoui, Laurent Lemarchand, Kamel Boukhalfa, Jalil Boukhobza
@@ -28830,6 +29059,7 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
     accuracy. Experiments demonstrate that compared to well-known benchmarks, our
     EFLCF can reduce up to 97.65% device computing cost and improve up to 48.3% accuracy
     in training, while reducing up to 42.5% computing cost in inference.
+  abstract_cn: 通过利用来自多源物联网（IoT）设备的去中心化数据，联邦学习（FL）能够在保护隐私的前提下训练深度神经网络（DNN）模型，从而提供高质量的智能服务。然而，出于便携性考虑，大多数物联网设备的计算能力受限，难以频繁地在联邦学习框架下进行DNN模型训练。现有方法通常采用模型压缩技术来降低物联网设备的计算开销，但不可避免地会导致模型精度下降。针对这一挑战，我们提出了一种弹性联邦学习协作框架（EFLCF），以适应物联网设备有限的计算资源。具体而言，我们首先设计了一种面向联邦学习的弹性神经网络模型，该模型包含多宽度子网络，并将其与联邦学习中的设备—服务器协作框架相结合，形成EFLCF，从而有效缓解物联网设备的计算压力。随后，我们开发了一种基于冻结机制的宽—窄交替训练策略，实现高效的设备—服务器分布式训练，进一步降低设备端的计算开销。最后，我们设计了一种基于熵的窄—宽弹性推理机制，在不牺牲精度的前提下降低推理阶段的计算成本。实验结果表明，与现有知名基准相比，我们的EFLCF能够将设备端的计算开销最多降低97.65%，并在训练阶段将模型精度提升多达48.3%；同时，在推理阶段也将计算开销最多降低42.5%。
 - author: Yongbo Yu, Fuxun Yu, Zirui Xu, Di Wang 0003, Minjia Zhang, Ang Li 0005,
     Chenchen Liu, Zhi Tian, Xiang Chen 0010
   title: 'FedMT: Multitask Federated Learning With Competitive GPU Resource Sharing.'
@@ -28862,6 +29092,7 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
     we observed a $2.16\times $ – $2.38\times $ increase in intradevice GPU training
     throughput and a $2.53\times $ – $2.80\times $ boost in interdevice FL coordination
     efficiency across diverse multitask scenarios.'
+  abstract_cn: 随着认知应用复杂度的不断提升，联邦学习（FL）如今已涉及异构的复合型学习任务。例如，自动驾驶系统需同时执行检测、分类和分割等多项任务，并期望通过联邦学习持续积累长期智能。然而，我们的分析表明，在GPU上部署用于多训练任务的复合联邦学习模型时，会面临一些问题：由于不同任务的数据分布存在偏斜，且各自对应的模型差异较大，导致学习负载极不均衡；而现有的GPU调度方法难以实现有效的资源分配。因此，当前的联邦学习方案仅关注异构数据分布和运行时计算，却未能在实践中实现最优的联邦同步。为解决上述问题，我们提出了一套全栈式联邦学习优化方案，同时应对设备内GPU调度与设备间联邦协同，以支持多任务训练。具体而言，本研究揭示了两个关键洞见：其一，竞争性资源共享有利于模型的并行执行；其二，“虚拟资源”这一概念能够有效表征并指导各任务的实际资源使用与分配。此外，通过架构层面的协调机制，使任务负载与GPU利用率相匹配，可进一步提升联邦学习性能。实验结果表明，联邦学习性能可得到显著提升：在多种多任务场景下，设备内GPU训练吞吐量提高了2.16至2.38倍，而设备间联邦协同效率则提升了2.53至2.80倍。
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng
@@ -29296,6 +29527,7 @@ federate%20streamid%3Ajournals%2Ftc%3A:
     model in cross-client shifts, with the lowest decile accuracy improved by up to
     18.71%. FMLH also outperforms representative pFL algorithms by up to 5.6% in terms
     of maximum accuracy improvement.
+  abstract_cn: 个性化联邦学习（pFL）在异构的联邦学习环境中，根据每个客户端的本地数据分布定制模型。联邦元学习（FML）是pFL的一个分支，它利用元学习实现快速适应：客户端从一个元模型出发，通过本地数据对其进行微调以完成个性化。然而，当各客户端的数据分布差异较大时，单一的全局元模型存在局限性，因此在联邦元学习中应当考虑元模型的个性化。然而，现有的大多数基准pFL方法既缺乏元模型个性化，又通常不采用元学习，或者仅依赖于一个全局元模型。此外，由于在联邦元学习中难以准确度量元模型与客户端模型之间的距离，这些方法既无法提供元模型个性化，也无法保证模型的泛化能力和收敛性。针对上述问题，我们结合元学习与超网络技术，提出了一种基于约束超网络的联邦元学习框架——FMLH。该框架创新性地利用超网络来捕捉微调后模型之间的差异，从而为每个客户端提供个性化的元模型。我们给出了严格的数学证明，阐明了超网络如何影响FMLH的收敛性和泛化界。实验结果表明，FMLH显著提升了模型在跨客户端分布迁移场景下的泛化性能，最低十分位准确率最高提升了18.71%。同时，FMLH在最大准确率提升方面也优于具有代表性的pFL算法，提升幅度可达5.6%。
 - author: Dengke Yan, Ming Hu 0003, Xiaofei Xie, Yanxin Yang, Mingsong Chen 0001
   title: 'S${}{2}$2FL: Toward Efficient and Accurate Heterogeneous Split Federated
     Learning.'
@@ -29331,6 +29563,7 @@ federate%20streamid%3Ajournals%2Ftc%3A:
     S${}^{2}$2FL over conventional SFL methods, where S${}^{2}$2FL can achieve up
     to 11.58% inference accuracy improvement and 3.82$\boldsymbol\times$× training
     acceleration.
+  abstract_cn: 随着人工智能（AI）和物联网（IoT）技术的蓬勃发展，分割联邦学习（SFL）在物联网人工智能（AIoT）应用设计中日益受到青睐，因为它能够在不泄露数据隐私的前提下，实现资源受限设备之间的知识共享。通过将部分完整模型卸载到云端服务器，SFL不仅使AIoT设备能够运行超出自身能力的大规模模型，还能显著降低其本地训练开销。然而，由于数据和设备本身的异构性问题，现有SFL方法普遍存在推理性能低下、收敛缓慢等缺陷，尤其是在设备网络带宽受限的情况下更为突出。针对这些问题，本文提出了一种名为滑动分割联邦学习（S${}^{2}$2FL）的新方法。与传统SFL在各设备上训练相同模型部分的做法不同，S${}^{2}$2FL基于我们提出的自适应模型滑动划分策略，根据每台AIoT设备当前的计算能力和网络带宽，动态维护不同的模型子模块，从而均衡各设备间的训练时间，并有效缓解由计算能力较弱及网络传输耗时较长的设备所引发的“拖后腿”问题。同时，借助我们提出的面向数据均衡的训练机制，S${}^{2}$2FL能够在分组后的设备上使用均衡的本地数据来训练服务器端模型部分，进而减轻因数据异构性导致的推理精度下降。全面的实验结果表明，S${}^{2}$2FL相较于传统SFL方法具有显著优势：其推理精度最高可提升11.58%，训练速度则可加快至3.82倍。
 - author: Bowen Zhao 0001, Weibin Guo, Jiahui Chen 0002, Yang Xiao 0014, Liang Zhai,
     Qingqi Pei
   title: 'FedInf: An Efficient and Secure Inference With Federated Participants.'
@@ -29357,6 +29590,7 @@ federate%20streamid%3Ajournals%2Ftc%3A:
     of experimental evaluations on common datasets demonstrate that the proposed FedInf
     outperforms the existing federated learning approaches in terms of efficiency
     and heterogeneity.
+  abstract_cn: 联邦学习是一种机器学习范式，它通过在本地私有数据上进行训练，并将局部模型聚合以生成一个联邦模型。然而，由于异构性问题（数据异构性和模型异构性），联邦学习在去中心化参与方之间面临着收敛困难和过高的聚合开销。此外，在聚合局部模型的过程中，联邦学习还面临隐私保护方面的挑战。为此，本文提出FedInf，一种高效且安全的联邦参与方推理框架。具体而言，FedInf具有以下特点：FedInf通过联邦推理而非联邦训练来克服收敛难题，从而降低计算和通信开销。同时，我们设计了安全计算协议和聚合机制，用于度量各参与方的贡献，并在不牺牲隐私的前提下有效处理数据和模型的异构性。在常用数据集上的实验结果表明，所提出的FedInf在效率和异构性适应能力方面均优于现有的联邦学习方法。
 - author: Ratun Rahman, Shaba Shaon, Dinh C. Nguyen
   title: 'Tackling Heterogeneity in Quantum Federated Learning: An Integrated Sporadic-Personalized
     Approach.'
@@ -29392,6 +29626,9 @@ federate%20streamid%3Ajournals%2Ftc%3A:
     datasets also illustrate that the proposed SPQFL approach yields significant improvements
     in terms of training performance and convergence stability compared to the state-of-the-art
     methods.'
+  abstract_cn: 量子联邦学习（QFL）作为一种新兴的强有力技术，将量子计算与联邦学习相结合，在确保量子网络中数据隐私的同时，高效地处理分布于各量子设备上的复杂数据。尽管近年来已有不少研究工作，现有的QFL框架仍难以实现最优的模型训练性能，这主要归因于两个方面的固有异构性：(i)
+    量子噪声异构性——当前的量子设备因硬件质量差异及对量子退相干的敏感度不同，所受噪声水平各不相同；(ii) 数据分布异构性——参与方拥有的数据天然呈现非独立同分布（non-IID）特征。为应对这些挑战，我们提出了一种新颖的集成式“间歇—个性化”方法SPQFL，该方法在一个统一的QFL框架内同时解决量子噪声异构性和数据分布异构性问题。其核心特点体现在以下两方面：(i)
+    针对量子噪声异构性，我们引入“间歇学习”的概念来应对不同量子设备间噪声水平的差异；(ii) 针对量子数据异构性，我们通过模型正则化实现个性化学习，以缓解在非IID量子数据上进行本地训练时的过拟合问题，从而提升全局模型的收敛性。此外，我们还对所提出的SPQFL框架进行了严格的收敛性分析，同时考虑了间歇学习和个性化学习两种机制。理论分析表明，SPQFL算法的上界受到量子设备数量以及量子噪声测量次数的显著影响。在真实世界数据集上的大量仿真结果进一步显示，与现有最先进方法相比，SPQFL方法在训练性能和收敛稳定性方面均取得了显著提升。
 - author: Fei Wu, Jia Hu 0001, Geyong Min, Shiqiang Wang
   title: Adaptive Rank Allocation for Federated Parameter-Efficient Fine-Tuning of
     Language Models.
@@ -29425,6 +29662,7 @@ federate%20streamid%3Ajournals%2Ftc%3A:
     efficiency by 2.40$\boldsymbol{\times}$×. Moreover, experiments on various edge
     devices demonstrate substantial decreases in total training time and energy consumption
     by up to 48.90% and 46.95%, respectively.'
+  abstract_cn: 预训练语言模型（PLMs）在现代自然语言处理（NLP）中展现出卓越的性能和强大的通用性，可通过进一步微调有效适配各类下游任务。联邦参数高效微调（FedPEFT）作为一种有前景的解决方案，旨在应对资源受限的本地设备上进行PLMs分布式训练时面临的隐私与效率挑战。然而，我们的实验测量揭示了FedPEFT的两大局限：设备间的异构数据会加剧低秩适配带来的性能退化；而固定的参数配置则导致通信效率低下。为克服这些局限，我们提出了FedARA——一种面向语言模型联邦参数高效微调的新型自适应秩分配框架。具体而言，FedARA采用截断式奇异值分解（SVD）适配技术，以增强各客户端之间特征表示的相似性，从而显著缓解数据异构性的不利影响。随后，它通过动态秩分配逐步识别关键秩，有效提升通信效率。最后，FedARA利用基于秩的模块剪枝策略自动移除不活跃模块，持续降低每轮联邦学习中的本地计算开销和内存占用。大量实验表明，在异构数据条件下，FedARA在不同数据集和模型上均能较基线方法平均提升6.95%至8.49%的性能，并将通信效率提升2.40倍。此外，在多种边缘设备上的实验还显示，总训练时间和能耗分别大幅下降了48.90%和46.95%。
 - author: Shenlong Zheng, Zhen Zhang 0017, Yuhui Deng, Geyong Min, Lin Cui 0001
   title: Communication-Efficient Federated Learning by Exploiting Spatio-Temporal
     Correlations of Gradients.
@@ -29456,6 +29694,7 @@ federate%20streamid%3Ajournals%2Ftc%3A:
     to uncompressed FedAvg. By effectively leveraging spatio-temporal gradient structures,
     GradESTC offers a practical and scalable solution for communication-efficient
     federated learning.
+  abstract_cn: 通信开销是联邦学习中的一个关键挑战，尤其是在带宽受限的网络环境中。尽管已有许多方法被提出用于降低通信开销，但大多数仅关注单个梯度的压缩，而忽略了梯度之间的时序相关性。先前的研究表明，梯度存在空间相关性，通常表现为低秩结构。通过实证分析，我们进一步观察到，在相邻轮次之间，客户端梯度之间存在着强烈的时序相关性。基于这些发现，我们提出了GradESTC——一种同时利用梯度空间与时序相关性的压缩技术。GradESTC首先利用空间相关性，将每个完整梯度分解为一组紧凑的基向量及其对应的组合系数；再借助时序相关性，每轮只需动态更新一小部分基向量。相比传输完整的梯度，GradESTC通过仅传输轻量级的组合系数和少量更新后的基向量，显著降低了通信开销。大量实验结果表明，在接近收敛的目标精度下，与最强基线方法相比，GradESTC平均可将上行通信量减少39.79%，同时保持与未压缩FedAvg相当的收敛速度和最终精度。通过有效利用梯度的时空结构，GradESTC为实现高效通信的联邦学习提供了一种实用且可扩展的解决方案。
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

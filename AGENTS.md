@@ -39,6 +39,7 @@
 ├── scripts/
 │   ├── convert_cache_to_md.py       # Converts cache to structured Markdown (domain-specific maps)
 │   ├── fetch_abstracts.py           # Backfill/refresh paper abstracts via external APIs
+│   ├── fetch_dois.py                # Backfill missing DOIs via DBLP / Crossref / Semantic Scholar
 │   ├── dedup_cache_by_title.py      # Deduplicate cache entries by title
 │   └── dedup_cache_global.py        # Global cross-topic deduplication for the cache
 ├── src/
@@ -132,6 +133,25 @@ dblp:
   ```
 - **Automatic abstract fetching**: `src/main.py` already calls `fetch_abstract_for_papers()` for every batch of new papers before saving the cache, so newly discovered papers get their abstracts filled automatically during the daily GitHub Actions run.
 - **Automatic Chinese translation**: After a non-empty English `abstract` is obtained, `translate_abstracts_for_papers()` calls **Qwen-MT-plus** (via the Alibaba Cloud Bailian OpenAI-compatible API) to translate the abstract into Chinese, storing it as `abstract_cn`. Translation is skipped if the `DASHSCOPE_API_KEY` environment variable is missing, and individual translation failures do not block the pipeline.
+
+### Backfilling DOIs for Existing Papers
+- A standalone script `scripts/fetch_dois.py` is provided to backfill missing `doi` fields for papers already in `cached/dblp.yaml`.
+- It queries APIs in the following priority order until a non-empty DOI is found:
+  1. **DBLP API** (primary) — re-queries the paper by its `key` (e.g. `conf/dac/ChandrasekaranE22`) to check whether a DOI has been assigned since the initial fetch. This is the most authoritative source.
+  2. **Crossref** (fallback) — searches by title via `api.crossref.org/works?query.title=...`.
+  3. **Semantic Scholar** (final fallback) — searches by title via `api.semanticscholar.org/graph/v1/paper/search`.
+- All queries use rate limiting, timeout handling (10s + exponential backoff), and title fuzzy-matching verification (`is_title_match`) to avoid assigning an incorrect DOI.
+- The cache is backed up to `cached/dblp.yaml.bak` before each overwrite; `*.bak` files are ignored by git (see `.gitignore`).
+- Usage:
+  ```bash
+  # Process current-year papers with missing DOI (default)
+  python scripts/fetch_dois.py
+  # Process all years
+  python scripts/fetch_dois.py --year all
+  # Re-fetch DOI for all papers (even those that already have one)
+  python scripts/fetch_dois.py --retry-all
+  ```
+- A GitHub Actions workflow `.github/workflows/backfill-dois.yml` allows manual triggering from the repository UI.
 
 ### Switching to a Different Research Domain
 The tracker is domain-agnostic. To pivot from Federated Learning to any other field (e.g., diffusion models, LLMs, reinforcement learning):

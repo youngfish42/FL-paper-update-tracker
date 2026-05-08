@@ -1,0 +1,48 @@
+name: Backfill DOIs
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "Year to process (default: all)"
+        required: false
+        default: "all"
+      retry_all:
+        description: "Retry all papers including those with existing DOI (default: false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Incremental DOI backfill
+        run: |
+          python scripts/fetch_dois.py --year "${{ github.event.inputs.year }}" $( [ "${{ github.event.inputs.retry_all }}" = "true" ] && echo "--retry-all" )
+
+      - name: Setup GIT user
+        run: |
+          git config --global user.name "youngfish42"
+          git config --global user.email "youngfish42@users.noreply.github.com"
+
+      - name: Push updated cache
+        run: |
+          git add cached/dblp.yaml
+          git diff --cached --quiet || git commit -m "Backfill DOIs (year=${{ github.event.inputs.year }}, retry_all=${{ github.event.inputs.retry_all }}) @ $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+          git push origin "${{ github.ref_name }}"

@@ -8,7 +8,8 @@ on:
         required: false
         default: "all"
 
-permissions: write-all
+permissions:
+  contents: write
 
 jobs:
   backfill:
@@ -35,8 +36,8 @@ jobs:
 
       - name: Setup GIT user
         run: |
-          git config --global user.name "youngfish42"
-          git config --global user.email "youngfish42@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Push updated cache
         run: |

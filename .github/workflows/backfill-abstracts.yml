@@ -32,7 +32,7 @@ jobs:
 
       - name: Incremental abstract + translation backfill
         run: |
-          python scripts/fetch_abstracts.py --year "${{ github.event.inputs.year || 'all' }}"
+          python scripts/fetch_abstracts.py --year "${{ github.event.inputs.year }}"
 
       - name: Setup GIT user
         run: |

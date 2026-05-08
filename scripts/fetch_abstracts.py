@@ -100,10 +100,10 @@ def run(year: str = None, retry_failed: bool = False, clean_only: bool = False) 
             paper_year = str(item.get("year", ""))
             if year != "all" and paper_year != year:
                 continue
-            existing_abstract = (item.get("abstract") or "").strip()
-            existing_abstract_cn = (item.get("abstract_cn") or "").strip()
-            needs_abstract = (not existing_abstract) or retry_failed
-            needs_translation = bool(existing_abstract) and (not existing_abstract_cn)
+            abstract = (item.get("abstract") or "").strip()
+            abstract_cn = (item.get("abstract_cn") or "").strip()
+            needs_abstract = (not abstract) or retry_failed
+            needs_translation = bool(abstract) and (not abstract_cn)
             if not needs_abstract and not needs_translation:
                 continue
             targets.append((topic, idx, item))

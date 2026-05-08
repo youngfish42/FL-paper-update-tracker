@@ -582,3 +582,249 @@ def translate_abstracts_for_papers(papers, api_key="", sleep_sec=0.5, max_retrie
 
     logger.info(f"Translation done. Success: {success}, Failed: {failed}")
     return papers
+
+
+def _fetch_crossref_doi(title: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3, contact_email: str = ""):
+    """通过 Crossref 搜索 API 用标题查找 DOI，返回 (doi_or_None, api_title_or_None, last_request_time)。"""
+    encoded_title = urllib.parse.quote(title)
+    url = f"https://api.crossref.org/works?query.title={encoded_title}&rows=1"
+    agent = f"FL-paper-update-tracker/1.0 (mailto:{contact_email})" if contact_email else "FL-paper-update-tracker/1.0"
+    headers = {"User-Agent": agent}
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp, last_request_time = _rate_limited_request(
+                url, last_request_time, min_interval=min_interval, timeout=10, headers=headers
+            )
+            if resp.status_code in (404, 403):
+                return None, None, last_request_time
+            if resp.status_code == 429:
+                wait = 2 ** attempt
+                logger.warning(f"Rate limited (Crossref search), waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            items = data.get("message", {}).get("items", [])
+            if not items:
+                return None, None, last_request_time
+            item = items[0]
+            doi = item.get("DOI", "").strip()
+            raw_title = item.get("title")
+            if isinstance(raw_title, list) and raw_title:
+                api_title = str(raw_title[0]).strip() or None
+            elif raw_title:
+                api_title = str(raw_title).strip() or None
+            else:
+                api_title = None
+            if doi:
+                return doi, api_title, last_request_time
+            return None, api_title, last_request_time
+        except requests.exceptions.Timeout:
+            logger.warning(f"Crossref search timeout for '{title[:60]}...', attempt {attempt}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+        except Exception as e:
+            logger.warning(f"Crossref search attempt {attempt} failed for '{title[:60]}...': {e}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+    return None, None, last_request_time
+
+
+def _fetch_semantic_scholar_doi(title: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
+    """通过 Semantic Scholar 搜索 API 用标题查找 DOI，返回 (doi_or_None, api_title_or_None, last_request_time)。"""
+    encoded_title = urllib.parse.quote(title)
+    url = f"https://api.semanticscholar.org/graph/v1/paper/search?query={encoded_title}&fields=title,externalIds&limit=1"
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp, last_request_time = _rate_limited_request(
+                url, last_request_time, min_interval=min_interval, timeout=10
+            )
+            if resp.status_code in (404, 403):
+                return None, None, last_request_time
+            if resp.status_code == 429:
+                wait = 2 ** attempt
+                logger.warning(f"Rate limited (SS search), waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            papers = data.get("data", [])
+            if not papers:
+                return None, None, last_request_time
+            paper = papers[0]
+            api_title = paper.get("title")
+            if api_title:
+                api_title = str(api_title).strip() or None
+            external_ids = paper.get("externalIds", {})
+            doi = (external_ids.get("DOI") or "").strip()
+            if doi:
+                return doi, api_title, last_request_time
+            return None, api_title, last_request_time
+        except requests.exceptions.Timeout:
+            logger.warning(f"SS search timeout for '{title[:60]}...', attempt {attempt}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+        except Exception as e:
+            logger.warning(f"SS search attempt {attempt} failed for '{title[:60]}...': {e}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+    return None, None, last_request_time
+
+
+def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
+    """通过 DBLP XML API 用论文 key 重新查询 DOI，返回 (doi_or_None, api_title_or_None, last_request_time)。
+
+    DBLP 的搜索 API 有时无法按 key 精确命中，因此直接请求单条记录的 XML 端点
+    (https://dblp.org/rec/{key}.xml)。解析 <doi> 标签，若不存在则从 <ee>
+    中以 https://doi.org/ 前缀提取 DOI。
+    """
+    if not key:
+        return None, None, last_request_time
+    import xml.etree.ElementTree as ET
+
+    url = f"https://dblp.org/rec/{key}.xml"
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp, last_request_time = _rate_limited_request(
+                url, last_request_time, min_interval=min_interval, timeout=10
+            )
+            if resp.status_code in (404, 403):
+                return None, None, last_request_time
+            if resp.status_code == 429:
+                wait = 2 ** attempt
+                logger.warning(f"Rate limited (DBLP), waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            root = ET.fromstring(resp.content)
+            # DBLP XML root is <dblp>, first child is the record element
+            record = root.find(".")
+            if record is None or len(root) == 0:
+                return None, None, last_request_time
+            record = root[0]
+
+            api_title = None
+            title_elem = record.find("title")
+            if title_elem is not None and title_elem.text:
+                api_title = title_elem.text.strip()
+
+            # 1. 优先使用显式的 <doi> 标签
+            doi = None
+            doi_elem = record.find("doi")
+            if doi_elem is not None and doi_elem.text:
+                doi = doi_elem.text.strip()
+
+            # 2. 若 <doi> 不存在，尝试从 <ee> 中提取 https://doi.org/... 链接
+            if not doi:
+                ee_elem = record.find("ee")
+                if ee_elem is not None and ee_elem.text:
+                    ee = ee_elem.text.strip()
+                    if ee.startswith("https://doi.org/"):
+                        doi = ee[len("https://doi.org/"):].strip()
+                    elif ee.startswith("http://doi.org/"):
+                        doi = ee[len("http://doi.org/"):].strip()
+
+            if doi:
+                return doi, api_title, last_request_time
+            return None, api_title, last_request_time
+        except requests.exceptions.Timeout:
+            logger.warning(f"DBLP timeout for key '{key}', attempt {attempt}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+        except Exception as e:
+            logger.warning(f"DBLP attempt {attempt} failed for key '{key}': {e}")
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+    return None, None, last_request_time
+
+
+def fetch_doi_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email=""):
+    """为论文列表批量获取 DOI（仅补充缺失 DOI 的条目）。
+
+    查询优先级：
+      1. DBLP API（通过论文 key 重新查询，最权威）
+      2. Crossref 搜索 API（通过标题搜索）
+      3. Semantic Scholar 搜索 API（通过标题搜索）
+
+    Args:
+        papers: 论文 dict 列表，每个 dict 应包含 title 字段。
+        sleep_sec: 两次请求之间的最小间隔（秒），默认 1.0。
+        max_retries: 每个 API 的最大重试次数。
+        contact_email: 用于 Crossref User-Agent 的联系邮箱（可选）。
+
+    Returns:
+        传入的 papers 列表（原地修改，为每个 dict 添加/更新 doi 字段）。
+    """
+    last_request_time = {
+        "dblp": 0.0,
+        "crossref": 0.0,
+        "semanticscholar": 0.0,
+    }
+    success = 0
+    failed = 0
+    skipped = 0
+
+    for i, paper in enumerate(papers, 1):
+        title = (paper.get("title") or "").strip()
+        key = (paper.get("key") or "").strip()
+        existing_doi = (paper.get("doi") or "").strip()
+
+        if existing_doi:
+            skipped += 1
+            continue
+
+        if not title:
+            logger.info(f"[{i}/{len(papers)}] Skipping empty title")
+            failed += 1
+            continue
+
+        logger.info(f"[{i}/{len(papers)}] Fetching DOI: {title[:60]}...")
+        doi = None
+
+        # 1. 优先 DBLP API（通过 key 重新查询，最权威）
+        if key:
+            doi, api_title, last_request_time["dblp"] = _fetch_dblp_doi(
+                key, last_request_time["dblp"], min_interval=sleep_sec, max_retries=max_retries
+            )
+            if doi and api_title and not is_title_match(api_title, title):
+                logger.warning(
+                    f"  -> DBLP title mismatch for key '{key}': "
+                    f"expected '{title[:80]}...', got '{api_title[:80]}...'"
+                )
+                doi = None
+
+        # 2. DBLP 失败则尝试 Crossref
+        if not doi:
+            doi, api_title, last_request_time["crossref"] = _fetch_crossref_doi(
+                title, last_request_time["crossref"], min_interval=sleep_sec, max_retries=max_retries,
+                contact_email=contact_email
+            )
+            if doi and api_title and not is_title_match(api_title, title):
+                logger.warning(
+                    f"  -> Crossref title mismatch for '{title[:80]}...': "
+                    f"got '{api_title[:80]}...'"
+                )
+                doi = None
+
+        # 3. Crossref 失败则尝试 Semantic Scholar
+        if not doi:
+            doi, api_title, last_request_time["semanticscholar"] = _fetch_semantic_scholar_doi(
+                title, last_request_time["semanticscholar"], min_interval=sleep_sec, max_retries=max_retries
+            )
+            if doi and api_title and not is_title_match(api_title, title):
+                logger.warning(
+                    f"  -> Semantic Scholar title mismatch for '{title[:80]}...': "
+                    f"got '{api_title[:80]}...'"
+                )
+                doi = None
+
+        if doi:
+            paper["doi"] = doi
+            success += 1
+            logger.info(f"  -> OK (DOI: {doi})")
+        else:
+            failed += 1
+            logger.info("  -> Failed")
+
+    logger.info(f"DOI fetch done. Success: {success}, Failed: {failed}, Skipped: {skipped}")
+    return papers

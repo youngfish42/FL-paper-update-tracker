@@ -15,6 +15,8 @@ import difflib
 
 DBLP_SEARCH_RETRY_BASE_SECONDS = 4.0
 DBLP_SEARCH_RETRY_CAP_SECONDS = 120.0
+DBLP_SEARCH_JITTER_MIN_SECONDS = 0.5
+DBLP_SEARCH_JITTER_MAX_SECONDS = 2.5
 
 
 def init_log():
@@ -216,7 +218,8 @@ def _parse_retry_after_seconds(retry_after_value):
 def _compute_backoff_seconds(attempt: int, base: float = 2.5, cap: float = 90.0, jitter_ratio: float = 0.3):
     """计算指数退避时长（秒），带轻微随机抖动。
 
-    这里的 attempt 是从 1 开始的重试序号：等待序列为 base, 2*base, 4*base...
+    这里的 attempt 是从 1 开始的重试序号：等待序列为
+    base, 2*base, 4*base, 8*base ...，直到 cap 为止。
     """
     exp_wait = min(cap, base * (2 ** max(0, attempt - 1)))
     jitter = exp_wait * jitter_ratio * random.random()
@@ -248,7 +251,7 @@ def request_data(url, retry=10, sleep_time=6.0, timeout=15):
     for attempt in range(1, max_attempts + 1):
         try:
             # DBLP 主流程查询：基础间隔 + 轻微抖动，降低突发请求概率
-            time.sleep(sleep_time + random.uniform(0.5, 2.5))
+            time.sleep(sleep_time + random.uniform(DBLP_SEARCH_JITTER_MIN_SECONDS, DBLP_SEARCH_JITTER_MAX_SECONDS))
             response = requests.get(url, timeout=timeout)
             if response.status_code == 429:
                 _sleep_for_retry(

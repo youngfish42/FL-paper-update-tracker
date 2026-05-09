@@ -223,7 +223,7 @@ def _compute_backoff_seconds(attempt: int, base: float = 2.5, cap: float = 90.0,
     """
     exp_wait = min(cap, base * (2 ** max(0, attempt - 1)))
     jitter = exp_wait * jitter_ratio * random.random()
-    return exp_wait + jitter
+    return min(cap, exp_wait + jitter)
 
 
 def _sleep_for_retry(source: str, attempt: int, response=None, base: float = 2.5, cap: float = 90.0):

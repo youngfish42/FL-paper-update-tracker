@@ -81,8 +81,8 @@ def run(year: str = None, retry_all: bool = False) -> None:
     papers = [t[2] for t in targets]
     fetch_doi_for_papers(
         papers,
-        sleep_sec=1.0,
-        max_retries=3,
+        sleep_sec=2.0,
+        max_retries=4,
         contact_email=contact_email,
         overwrite=retry_all,
     )

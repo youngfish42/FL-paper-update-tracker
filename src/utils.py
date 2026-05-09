@@ -13,6 +13,10 @@ import re
 import difflib
 
 
+DBLP_SEARCH_RETRY_BASE_SECONDS = 4.0
+DBLP_SEARCH_RETRY_CAP_SECONDS = 120.0
+
+
 def init_log():
     """Initialize loguru log information"""
     event_logger_format = (
@@ -229,28 +233,45 @@ def _sleep_for_retry(source: str, attempt: int, response=None, base: float = 2.5
 
 
 def request_data(url, retry=10, sleep_time=6.0, timeout=15):
-    """请求 DBLP 数据，带限速与更严格退避重试。"""
-    for attempt in range(1, retry + 2):
+    """请求 DBLP 数据，带限速与更严格退避重试。
+
+    Args:
+        retry: 失败后的额外重试次数（总尝试次数 = retry + 1）。
+    """
+    max_attempts = retry + 1
+    for attempt in range(1, max_attempts + 1):
         try:
             # DBLP 主流程查询：基础间隔 + 轻微抖动，降低突发请求概率
             time.sleep(sleep_time + random.uniform(0.5, 2.5))
             response = requests.get(url, timeout=timeout)
             if response.status_code == 429:
-                _sleep_for_retry("DBLP search API rate limited", attempt, response=response, base=4.0, cap=120.0)
+                _sleep_for_retry(
+                    "DBLP search API rate limited",
+                    attempt,
+                    response=response,
+                    base=DBLP_SEARCH_RETRY_BASE_SECONDS,
+                    cap=DBLP_SEARCH_RETRY_CAP_SECONDS,
+                )
                 continue
             response.raise_for_status()
             return response.json()
         except Exception as e:
             logger.error(f"Exception: {e}")
-            if attempt <= retry:
+            if attempt < max_attempts:
                 logger.info(f"retrying {url}")
-                _sleep_for_retry("DBLP search API failure", attempt, base=4.0, cap=120.0)
+                _sleep_for_retry(
+                    "DBLP search API failure",
+                    attempt,
+                    base=DBLP_SEARCH_RETRY_BASE_SECONDS,
+                    cap=DBLP_SEARCH_RETRY_CAP_SECONDS,
+                )
                 continue
             logger.error(f"Failed to request {url}")
             return None
 
 def _rate_limited_request(url, last_request_time, min_interval=1.0, timeout=10, jitter=0.2, **kwargs):
     """发送限速 HTTP 请求，确保两次请求间隔至少 min_interval 秒。
+    jitter 为额外随机等待上限（秒），用于分散请求峰值。
     返回 (response, new_last_request_time)。"""
     now = time.time()
     elapsed = now - last_request_time

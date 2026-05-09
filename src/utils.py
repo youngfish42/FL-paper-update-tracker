@@ -231,7 +231,10 @@ def _sleep_for_retry(source: str, attempt: int, response=None, base: float = 2.5
     retry_after = None
     if response is not None:
         retry_after = _parse_retry_after_seconds(response.headers.get("Retry-After"))
-    wait = retry_after if retry_after is not None else _compute_backoff_seconds(attempt, base=base, cap=cap)
+    if retry_after is not None:
+        wait = min(cap, retry_after)
+    else:
+        wait = _compute_backoff_seconds(attempt, base=base, cap=cap)
     wait = max(wait, 1.0)
     logger.warning(f"{source} retry backoff: waiting {wait:.1f}s (attempt {attempt})")
     time.sleep(wait)

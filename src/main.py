@@ -116,7 +116,7 @@ class Scaffold:
 
             # 为新增论文自动获取 abstract
             if new_items:
-                fetch_abstract_for_papers(new_items, sleep_sec=1.0, max_retries=3, contact_email=contact_email)
+                fetch_abstract_for_papers(new_items, sleep_sec=2.0, max_retries=4, contact_email=contact_email)
                 api_key = os.getenv("DASHSCOPE_API_KEY", "")
                 translate_abstracts_for_papers(new_items, api_key=api_key, sleep_sec=0.5, max_retries=3)
 

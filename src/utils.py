@@ -198,31 +198,65 @@ def get_msg(items, topic, aggregated=False):
     msg = msg.replace("'", "")
     return msg
 
-def request_data(url, retry=10, sleep_time=5):
-    try:
-        time.sleep(sleep_time + random.random() * 3)
-        response = requests.get(url)
-        response.raise_for_status()  # 如果响应状态不是200，将引发HTTPError异常
-        data = response.json()
-    # deal with errors
-    except Exception as e:
-        logger.error(f"Exception: {e}")
-        if retry > 0:
-            logger.info(f"retrying {url}")
-            return request_data(url, retry - 1)
-        else:
-            logger.error(f"Failed to request {url}")
+def _parse_retry_after_seconds(retry_after_value):
+    """解析 Retry-After 头（秒），失败则返回 None。"""
+    if not retry_after_value:
         return None
-    else:
-        return data
+    try:
+        wait_seconds = float(retry_after_value)
+    except (TypeError, ValueError):
+        return None
+    return wait_seconds if wait_seconds > 0 else None
 
-def _rate_limited_request(url, last_request_time, min_interval=1.0, timeout=10, **kwargs):
+
+def _compute_backoff_seconds(attempt: int, base: float = 2.5, cap: float = 90.0, jitter_ratio: float = 0.3):
+    """计算指数退避时长（秒），带轻微随机抖动。"""
+    exp_wait = min(cap, base * (2 ** max(0, attempt - 1)))
+    jitter = exp_wait * jitter_ratio * random.random()
+    return exp_wait + jitter
+
+
+def _sleep_for_retry(source: str, attempt: int, response=None, base: float = 2.5, cap: float = 90.0):
+    """统一退避等待：优先 Retry-After，否则指数退避+抖动。"""
+    retry_after = None
+    if response is not None:
+        retry_after = _parse_retry_after_seconds(response.headers.get("Retry-After"))
+    wait = retry_after if retry_after is not None else _compute_backoff_seconds(attempt, base=base, cap=cap)
+    wait = max(wait, 1.0)
+    logger.warning(f"{source} retry backoff: waiting {wait:.1f}s (attempt {attempt})")
+    time.sleep(wait)
+    return wait
+
+
+def request_data(url, retry=10, sleep_time=6.0, timeout=15):
+    """请求 DBLP 数据，带限速与更严格退避重试。"""
+    for attempt in range(1, retry + 2):
+        try:
+            # DBLP 主流程查询：基础间隔 + 轻微抖动，降低突发请求概率
+            time.sleep(sleep_time + random.uniform(0.5, 2.5))
+            response = requests.get(url, timeout=timeout)
+            if response.status_code == 429:
+                _sleep_for_retry("DBLP search API rate limited", attempt, response=response, base=4.0, cap=120.0)
+                continue
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            logger.error(f"Exception: {e}")
+            if attempt <= retry:
+                logger.info(f"retrying {url}")
+                _sleep_for_retry("DBLP search API failure", attempt, base=4.0, cap=120.0)
+                continue
+            logger.error(f"Failed to request {url}")
+            return None
+
+def _rate_limited_request(url, last_request_time, min_interval=1.0, timeout=10, jitter=0.2, **kwargs):
     """发送限速 HTTP 请求，确保两次请求间隔至少 min_interval 秒。
     返回 (response, new_last_request_time)。"""
     now = time.time()
     elapsed = now - last_request_time
-    if elapsed < min_interval:
-        time.sleep(min_interval - elapsed)
+    wait = max(0.0, min_interval - elapsed)
+    if wait > 0:
+        time.sleep(wait + random.uniform(0.0, jitter))
     resp = requests.get(url, timeout=timeout, **kwargs)
     return resp, time.time()
 
@@ -283,9 +317,7 @@ def _fetch_crossref_abstract(doi: str, last_request_time: float, min_interval: f
             if resp.status_code in (404, 403):
                 return None, None, last_request_time
             if resp.status_code == 429:
-                wait = 2 ** attempt
-                logger.warning(f"Rate limited (Crossref), waiting {wait}s...")
-                time.sleep(wait)
+                _sleep_for_retry("Rate limited (Crossref)", attempt, response=resp)
                 continue
             resp.raise_for_status()
             data = resp.json()
@@ -307,11 +339,11 @@ def _fetch_crossref_abstract(doi: str, last_request_time: float, min_interval: f
         except requests.exceptions.Timeout:
             logger.warning(f"Crossref timeout for {doi}, attempt {attempt}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("Crossref timeout", attempt)
         except Exception as e:
             logger.warning(f"Crossref attempt {attempt} failed for {doi}: {e}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("Crossref failure", attempt)
     return None, None, last_request_time
 
 
@@ -327,9 +359,7 @@ def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_int
             if resp.status_code in (404, 403):
                 return None, None, last_request_time
             if resp.status_code == 429:
-                wait = 2 ** attempt
-                logger.warning(f"Rate limited (SS), waiting {wait}s...")
-                time.sleep(wait)
+                _sleep_for_retry("Rate limited (SS)", attempt, response=resp)
                 continue
             resp.raise_for_status()
             data = resp.json()
@@ -343,11 +373,11 @@ def _fetch_semantic_scholar_abstract(doi: str, last_request_time: float, min_int
         except requests.exceptions.Timeout:
             logger.warning(f"SS timeout for {doi}, attempt {attempt}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("SS timeout", attempt)
         except Exception as e:
             logger.warning(f"SS attempt {attempt} failed for {doi}: {e}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("SS failure", attempt)
     return None, None, last_request_time
 
 
@@ -369,9 +399,7 @@ def _fetch_arxiv_abstract(title: str, last_request_time: float, min_interval: fl
             if resp.status_code in (404, 403):
                 return None, None, last_request_time
             if resp.status_code == 429:
-                wait = 2 ** attempt
-                logger.warning(f"Rate limited (arXiv), waiting {wait}s...")
-                time.sleep(wait)
+                _sleep_for_retry("Rate limited (arXiv)", attempt, response=resp)
                 continue
             resp.raise_for_status()
 
@@ -396,20 +424,20 @@ def _fetch_arxiv_abstract(title: str, last_request_time: float, min_interval: fl
         except requests.exceptions.Timeout:
             logger.warning(f"arXiv timeout for title '{title[:60]}...', attempt {attempt}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("arXiv timeout", attempt)
         except Exception as e:
             logger.warning(f"arXiv attempt {attempt} failed for title '{title[:60]}...': {e}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("arXiv failure", attempt)
     return None, None, last_request_time
 
 
-def fetch_abstract_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email=""):
+def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email=""):
     """为论文列表批量获取 abstract。
 
     Args:
         papers: 论文 dict 列表，每个 dict 应包含 doi、title 等字段。
-        sleep_sec: 两次请求之间的最小间隔（秒），默认 1.0（即每秒最多 1 次）。
+        sleep_sec: 两次请求之间的最小间隔（秒），默认 2.0（更保守的调用节奏）。
         max_retries: 每个 API 的最大重试次数。
         contact_email: 用于 Crossref User-Agent 的联系邮箱（可选）。
 
@@ -598,9 +626,7 @@ def _fetch_crossref_doi(title: str, last_request_time: float, min_interval: floa
             if resp.status_code in (404, 403):
                 return None, None, last_request_time
             if resp.status_code == 429:
-                wait = 2 ** attempt
-                logger.warning(f"Rate limited (Crossref search), waiting {wait}s...")
-                time.sleep(wait)
+                _sleep_for_retry("Rate limited (Crossref search)", attempt, response=resp)
                 continue
             resp.raise_for_status()
             data = resp.json()
@@ -622,11 +648,11 @@ def _fetch_crossref_doi(title: str, last_request_time: float, min_interval: floa
         except requests.exceptions.Timeout:
             logger.warning(f"Crossref search timeout for '{title[:60]}...', attempt {attempt}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("Crossref search timeout", attempt)
         except Exception as e:
             logger.warning(f"Crossref search attempt {attempt} failed for '{title[:60]}...': {e}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("Crossref search failure", attempt)
     return None, None, last_request_time
 
 
@@ -642,9 +668,7 @@ def _fetch_semantic_scholar_doi(title: str, last_request_time: float, min_interv
             if resp.status_code in (404, 403):
                 return None, None, last_request_time
             if resp.status_code == 429:
-                wait = 2 ** attempt
-                logger.warning(f"Rate limited (SS search), waiting {wait}s...")
-                time.sleep(wait)
+                _sleep_for_retry("Rate limited (SS search)", attempt, response=resp)
                 continue
             resp.raise_for_status()
             data = resp.json()
@@ -663,11 +687,11 @@ def _fetch_semantic_scholar_doi(title: str, last_request_time: float, min_interv
         except requests.exceptions.Timeout:
             logger.warning(f"SS search timeout for '{title[:60]}...', attempt {attempt}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("SS search timeout", attempt)
         except Exception as e:
             logger.warning(f"SS search attempt {attempt} failed for '{title[:60]}...': {e}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("SS search failure", attempt)
     return None, None, last_request_time
 
 
@@ -691,9 +715,7 @@ def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.
             if resp.status_code in (404, 403):
                 return None, None, last_request_time
             if resp.status_code == 429:
-                wait = 2 ** attempt
-                logger.warning(f"Rate limited (DBLP), waiting {wait}s...")
-                time.sleep(wait)
+                _sleep_for_retry("Rate limited (DBLP)", attempt, response=resp)
                 continue
             resp.raise_for_status()
             root = ET.fromstring(resp.content)
@@ -730,15 +752,15 @@ def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.
         except requests.exceptions.Timeout:
             logger.warning(f"DBLP timeout for key '{key}', attempt {attempt}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("DBLP timeout", attempt)
         except Exception as e:
             logger.warning(f"DBLP attempt {attempt} failed for key '{key}': {e}")
             if attempt < max_retries:
-                time.sleep(2 ** attempt)
+                _sleep_for_retry("DBLP failure", attempt)
     return None, None, last_request_time
 
 
-def fetch_doi_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email="", overwrite=False):
+def fetch_doi_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email="", overwrite=False):
     """为论文列表批量获取 DOI（默认仅补充缺失 DOI 的条目）。
 
     查询优先级：
@@ -748,7 +770,7 @@ def fetch_doi_for_papers(papers, sleep_sec=1.0, max_retries=3, contact_email="",
 
     Args:
         papers: 论文 dict 列表，每个 dict 应包含 title 字段。
-        sleep_sec: 两次请求之间的最小间隔（秒），默认 1.0。
+        sleep_sec: 两次请求之间的最小间隔（秒），默认 2.0（更保守的调用节奏）。
         max_retries: 每个 API 的最大重试次数。
         contact_email: 用于 Crossref User-Agent 的联系邮箱（可选）。
         overwrite: 是否对已有 DOI 的条目也重新获取。默认 False。

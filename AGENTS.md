@@ -209,7 +209,7 @@ You can inspect `aggregated_msg` and `msg` in the logs to preview the issue cont
 
 ## Common Pitfalls
 
-1. **Rate Limiting**: DBLP does not publish explicit rate limits, but the code already sleeps `5 + random(0,3)` seconds between requests. Do not remove this.
+1. **Rate Limiting**: DBLP does not publish explicit rate limits. The code uses a conservative base interval (`6 + random(0.5, 2.5)` seconds for search requests) plus stricter exponential backoff with jitter and Retry-After support when requests fail or are rate-limited. Do not weaken this behavior.
 2. **YAML Encoding**: `cached/dblp.yaml` is written with `allow_unicode=True`. Editing it manually with an editor that strips Unicode may corrupt author names.
 3. **Empty `ee` Field**: Some older DBLP entries lack an `ee`. The deduplication logic skips empty `ee` values, so those papers are always retained. This is intentional to avoid data loss.
 4. **Topic String Parsing**: `get_topic_short_name` relies on `split(":")[-2]` followed by `split("/")[-1]`. If DBLP changes its topic URL format, this will break.

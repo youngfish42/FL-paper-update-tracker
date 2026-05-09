@@ -214,7 +214,10 @@ def _parse_retry_after_seconds(retry_after_value):
 
 
 def _compute_backoff_seconds(attempt: int, base: float = 2.5, cap: float = 90.0, jitter_ratio: float = 0.3):
-    """计算指数退避时长（秒），带轻微随机抖动。"""
+    """计算指数退避时长（秒），带轻微随机抖动。
+
+    这里的 attempt 是从 1 开始的重试序号：等待序列为 base, 2*base, 4*base...
+    """
     exp_wait = min(cap, base * (2 ** max(0, attempt - 1)))
     jitter = exp_wait * jitter_ratio * random.random()
     return exp_wait + jitter
@@ -236,7 +239,10 @@ def request_data(url, retry=10, sleep_time=6.0, timeout=15):
     """请求 DBLP 数据，带限速与更严格退避重试。
 
     Args:
+        url: DBLP 请求 URL。
         retry: 失败后的额外重试次数（总尝试次数 = retry + 1）。
+        sleep_time: 每次请求前的基础等待秒数（会叠加随机抖动）。
+        timeout: 单次请求超时时间（秒）。
     """
     max_attempts = retry + 1
     for attempt in range(1, max_attempts + 1):
@@ -271,8 +277,18 @@ def request_data(url, retry=10, sleep_time=6.0, timeout=15):
 
 def _rate_limited_request(url, last_request_time, min_interval=1.0, timeout=10, jitter=0.2, **kwargs):
     """发送限速 HTTP 请求，确保两次请求间隔至少 min_interval 秒。
-    jitter 为额外随机等待上限（秒），用于分散请求峰值。
-    返回 (response, new_last_request_time)。"""
+
+    Args:
+        url: 请求 URL。
+        last_request_time: 上一次请求完成时间戳（秒）。
+        min_interval: 最小请求间隔（秒）。
+        timeout: 单次请求超时时间（秒）。
+        jitter: 额外随机等待上限（秒），用于分散请求峰值。
+        **kwargs: 透传给 requests.get 的参数（headers/params 等）。
+
+    Returns:
+        (response, new_last_request_time)
+    """
     now = time.time()
     elapsed = now - last_request_time
     wait = max(0.0, min_interval - elapsed)
@@ -458,7 +474,7 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
 
     Args:
         papers: 论文 dict 列表，每个 dict 应包含 doi、title 等字段。
-        sleep_sec: 两次请求之间的最小间隔（秒），默认 2.0（更保守的调用节奏）。
+        sleep_sec: 两次请求之间的最小间隔（秒），默认 2.0（从 1.0 提升以降低限速风险）。
         max_retries: 每个 API 的最大重试次数。
         contact_email: 用于 Crossref User-Agent 的联系邮箱（可选）。
 
@@ -791,7 +807,7 @@ def fetch_doi_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email="",
 
     Args:
         papers: 论文 dict 列表，每个 dict 应包含 title 字段。
-        sleep_sec: 两次请求之间的最小间隔（秒），默认 2.0（更保守的调用节奏）。
+        sleep_sec: 两次请求之间的最小间隔（秒），默认 2.0（从 1.0 提升以降低限速风险）。
         max_retries: 每个 API 的最大重试次数。
         contact_email: 用于 Crossref User-Agent 的联系邮箱（可选）。
         overwrite: 是否对已有 DOI 的条目也重新获取。默认 False。

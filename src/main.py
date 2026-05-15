@@ -34,7 +34,7 @@ class Scaffold:
 
         # load cache
         cache_path = cfg["cache_path"] / "dblp.yaml"
-        dblp_cache = yaml.safe_load(open(cache_path, "r")) if cache_path.exists() else {}
+        dblp_cache = yaml.safe_load(open(cache_path, "r", encoding="utf-8")) if cache_path.exists() else {}
         # logger.info(f"dblp cache: {dblp_cache}")
         dblp_new_cache = {}
 
@@ -139,11 +139,9 @@ class Scaffold:
             logger.info(f"msg: {msg}")
 
         # save cache
-        yaml.safe_dump(dblp_cache, open(cache_path, "w"), sort_keys=False, indent=2)
+        yaml.safe_dump(dblp_cache, open(cache_path, "w", encoding="utf-8"), sort_keys=False, indent=2)
 
         if env == "prod":
-            import os
-
             env_file = os.getenv("GITHUB_ENV")
 
             # check if msg is too long

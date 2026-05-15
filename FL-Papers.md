@@ -1899,6 +1899,43 @@
 
 ### 2025
 
+#### ICCV
+
+- A Framework for Double-Blind Federated Adaptation of Foundation Models. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00094)]
+- Class-Wise Federated Averaging for Efficient Personalization. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00173)]
+- Client2Vec: Improving Federated Learning by Distribution Shifts Aware Client Indexing. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00141)]
+- Cooperative Pseudo Labeling for Unsupervised Federated Classification. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00318)]
+- EFTViT: Efficient Federated Training of Vision Transformers with Masked Images on Resource-Constrained Clients. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00177)]
+- FDPT: Federated Discrete Prompt Tuning for Black-Box Visual-Language Models. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00237)]
+- FedAGC: Federated Continual Learning with Asymmetric Gradient Correction. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00366)]
+- FedDifRC: Unlocking the Potential of Text-to-Image Diffusion Models in Heterogeneous Federated Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00355)]
+- Federated Continual Instruction Tuning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00131)]
+- Federated Continuous Category Discovery and Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00234)]
+- Federated Domain Generalization with Domain-Specific Soft Prompts Generation. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00228)]
+- Federated Prompt-Tuning with Heterogeneous and Incomplete Multimodal Client Data. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00375)]
+- Federated Representation Angle Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00130)]
+- FedMeNF: Privacy-Preserving Federated Meta-Learning for Neural Fields. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00209)]
+- FedMVP: Federated Multimodal Visual Prompt Tuning for Vision-Language Models. [[PUB](https://doi.org/10.1109/ICCV51701.2025.01660)]
+- FedPall: Prototype-Based Adversarial and Collaborative Learning for Federated Learning with Feature Drift. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00298)]
+- FedVLA: Federated Vision-Language-Action Learning with Dual Gating Mixture-of-Experts for Robotic Manipulation. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00649)]
+- FedWSQ: Efficient Federated Learning with Weight Standardization and Distribution-Aware Non-Uniform Quantization. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00439)]
+- FedXDS: Leveraging Model Attribution Methods to Counteract Data Heterogeneity in Federated Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00435)]
+- Find a Scapegoat: Poisoning Membership Inference Attack and Defense to Federated Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00378)]
+- FLSeg: Enhancing Privacy and Robustness in Federated Learning under Heterogeneous Data via Model Segmentation. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00373)]
+- Forgetting Through Transforming: Enabling Federated Unlearning via Class-Aware Representation Transformation. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00145)]
+- Geminio: Language-Guided Gradient Inversion Attacks in Federated Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00261)]
+- Latte: Collaborative Test-Time Adaptation of Vision-Language Models in Federated Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00020)]
+- LoRA-FAIR: Federated LoRA Fine-Tuning with Aggregation and Initialization Refinement. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00356)]
+- Neural Architecture Search Driven by Locally Guided Diffusion for Personalized Federated Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00402)]
+- Personalized Federated Learning Under Local Supervision. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00388)]
+- Sibai: A Few-Shot Meta-Classifier for Poisoning Detection in Federated Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00361)]
+- Soft Separation and Distillation: Toward Global Uniformity in Federated Unsupervised Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00285)]
+- Stealthy Backdoor Attack in Federated Learning via Adaptive Layer-Wise Gradient Alignment. [[PUB](https://doi.org/10.1109/ICCV51701.2025.02708)]
+- Task-Aware Prompt Gradient Projection for Parameter-Efficient Tuning Federated Class-Incremental Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00253)]
+- Tensor-Aggregated LoRA in Federated Fine-Tuning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00106)]
+- Towards Privacy-preserved Pre-training of Remote Sensing Foundation Models with Federated Mutual-Guidance Learning. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00176)]
+- You are Your Own Best Teacher: Achieving Centralized-level Performance in Federated Learning under Heterogeneous and Long-Tailed Data. [[PUB](https://doi.org/10.1109/ICCV51701.2025.00264)]
+
 #### CVPR
 
 - A Simple Data Augmentation for Feature Distribution Skewed Federated Learning. [[PUB](https://openaccess.thecvf.com/content/CVPR2025/html/Yan_A_Simple_Data_Augmentation_for_Feature_Distribution_Skewed_Federated_Learning_CVPR_2025_paper.html)]

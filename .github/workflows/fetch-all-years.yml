@@ -43,10 +43,7 @@ jobs:
         id: vars
         run: |
           content=${{ env.MSG }}
-          content="${content//'%'/'%25'}"
-          content="${content//$'\n'/'%0A'}"
-          content="${content//$'\r'/'%0D'}"
-          echo "::set-output name=content::$content"
+          echo "content=$content" >> "$GITHUB_OUTPUT"
 
       - name: Setup GIT user
         run: |

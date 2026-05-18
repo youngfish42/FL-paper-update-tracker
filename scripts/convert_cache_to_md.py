@@ -45,6 +45,7 @@ def main():
     elif not isinstance(keywords, list):
         keywords = []
     keywords = [k.strip() for k in keywords if isinstance(k, str) and k.strip()]
+    # Keep stable lexical ordering when no valid keyword is configured.
     priority_keyword = keywords[0].lower() if keywords else ""
 
     # Venue raw name -> display name

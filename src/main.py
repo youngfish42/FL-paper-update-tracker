@@ -43,10 +43,19 @@ class Scaffold:
         keywords = cfg["dblp"].get("keywords")
         if keywords is None:
             keyword = cfg["dblp"].get("keyword")
-            if keyword:
+            if keyword is not None:
                 keywords = [keyword]
             else:
                 keywords = []
+        elif isinstance(keywords, str):
+            keywords = [keywords]
+
+        keywords = [keyword.strip() for keyword in keywords if isinstance(keyword, str) and keyword.strip()]
+        if not keywords:
+            if primary_only:
+                raise ValueError("Invalid configuration: `dblp.keywords` (or legacy `dblp.keyword`) must contain at least one non-empty keyword when `primary_only=True`.")
+            raise ValueError("Invalid configuration: `dblp.keywords` (or legacy `dblp.keyword`) must contain at least one non-empty keyword.")
+
         queries = cfg["dblp"]["queries"]
         mails = cfg["dblp"].get("mails", [])
         contact_email = mails[0] if mails else ""

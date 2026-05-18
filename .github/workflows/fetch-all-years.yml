@@ -42,8 +42,11 @@ jobs:
       - name: Setup var
         id: vars
         run: |
-          content=${{ env.MSG }}
-          echo "content=$content" >> "$GITHUB_OUTPUT"
+          {
+            echo "content<<EOF"
+            echo "$MSG"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Setup GIT user
         run: |

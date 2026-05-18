@@ -25,10 +25,10 @@ class Scaffold:
     def __init__(self):
         pass
 
-    def run(self, env: str = "dev", cfg: str = "./../config.yaml"):
+    def run(self, env: str = "dev", cfg: str = "./../config.yaml", primary_only: bool = False, all_years: bool = False):
         cfg = init(cfg_path=cfg)
 
-        logger.info(f"running with env: {env} and cfg: {cfg}")
+        logger.info(f"running with env: {env}, primary_only: {primary_only}, all_years: {all_years}, cfg: {cfg}")
 
         # dblp
 
@@ -39,7 +39,14 @@ class Scaffold:
         dblp_new_cache = {}
 
         dblp_url = cfg["dblp"]["url"]
-        keyword = cfg["dblp"]["keyword"]
+        # 兼容旧版单 keyword 字符串配置
+        keywords = cfg["dblp"].get("keywords")
+        if keywords is None:
+            keyword = cfg["dblp"].get("keyword")
+            if keyword:
+                keywords = [keyword]
+            else:
+                keywords = []
         queries = cfg["dblp"]["queries"]
         mails = cfg["dblp"].get("mails", [])
         contact_email = mails[0] if mails else ""
@@ -47,8 +54,9 @@ class Scaffold:
         msg = ""
         flag = False
         active_topics = []  # 收集本次有新增论文的 topic 简称
+        active_queries = []  # 收集 primary keyword 下发现有新论文的 query
 
-        logger.info(f"keyword: {keyword}, queries: {queries}")
+        logger.info(f"keywords: {keywords}, queries: {queries}")
 
         # 全局去重集合：跨所有 topic 跟踪已见过的 ee 和 title，防止同一论文被缓存到多个 topic 下
         global_seen_ee = set()
@@ -62,25 +70,27 @@ class Scaffold:
                 if title:
                     global_seen_title.add(title)
 
-        for query in queries:
-            topic = f"{keyword}%20{urllib.parse.quote(query, safe='')}"
+        def _process_topic(keyword: str, query: str) -> int:
+            """处理单个 keyword + query 组合，返回新论文数量。"""
+            nonlocal aggregated_msg, msg, flag, active_topics
+            encoded_keyword = urllib.parse.quote(keyword, safe='')
+            encoded_query = urllib.parse.quote(query, safe='')
+            topic = f"{encoded_keyword}%20{encoded_query}"
             # random sleep to avoid being blocked
             dblp_data = request_data(dblp_url.format(topic))
 
             if dblp_data is None:
                 logger.error(f"dblp_data is None, topic: {topic}")
-                continue
-        
-            # 如果没有异常，则执行这里的代码
-            # logger.info(f"dblp_data: {dblp_data}")
+                return 0
 
             # 解析 DBLP 返回的原始数据，提取需要的字段
             items = get_dblp_items(dblp_data)
             # logger.info(f"items: {items}")
 
             # 按年份过滤，仅保留近三年及未来一年的论文（如 2026 年则保留 2023-2027）
-            current_year = datetime.datetime.now().year
-            items = filter_items_by_year(items, current_year)
+            if not all_years:
+                current_year = datetime.datetime.now().year
+                items = filter_items_by_year(items, current_year)
 
             # 对当前 topic 获取的论文列表先按 ee 去重，再按 title 去重
             items = deduplicate_items_by_ee(items)
@@ -114,8 +124,8 @@ class Scaffold:
             if topic not in dblp_cache:
                 dblp_cache[topic] = []
 
-            # 为新增论文自动获取 abstract
-            if new_items:
+            # 为新增论文自动获取 abstract（all_years 时跳过）
+            if new_items and not all_years:
                 fetch_abstract_for_papers(new_items, sleep_sec=2.0, max_retries=4, contact_email=contact_email)
                 api_key = os.getenv("DASHSCOPE_API_KEY", "")
                 translate_abstracts_for_papers(new_items, api_key=api_key, sleep_sec=0.5, max_retries=3)
@@ -133,10 +143,31 @@ class Scaffold:
             if len(new_items) > 0:
                 aggregated_msg += get_msg(new_items, topic, aggregated=True)
                 msg += get_msg(new_items, topic)
-                # 收集该 topic 的简称，用于后续 Issue 标题
-                active_topics.append(get_topic_short_name(topic))
+                # 收集该 topic 的简称，用于后续 Issue 标题（去重）
+                short_name = get_topic_short_name(topic)
+                if short_name not in active_topics:
+                    active_topics.append(short_name)
             logger.info(f"aggregated_msg: {aggregated_msg}")
             logger.info(f"msg: {msg}")
+
+            return len(new_items)
+
+        if primary_only:
+            # 阶段一：primary keyword 全量扫描所有 venues
+            primary_keyword = keywords[0] if keywords else ""
+            for query in queries:
+                new_count = _process_topic(primary_keyword, query)
+                if new_count > 0:
+                    active_queries.append(query)
+            # 阶段二：secondary keywords 仅扫描 active venues
+            for keyword in keywords[1:]:
+                for query in active_queries:
+                    _process_topic(keyword, query)
+        else:
+            # 全量模式：所有 keywords × queries
+            for keyword in keywords:
+                for query in queries:
+                    _process_topic(keyword, query)
 
         # save cache
         yaml.safe_dump(dblp_cache, open(cache_path, "w", encoding="utf-8"), sort_keys=False, indent=2)

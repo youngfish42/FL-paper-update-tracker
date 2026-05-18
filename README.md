@@ -15,11 +15,12 @@ An automated paper tracking bot for **Federated Learning** research. It periodic
 
 ## Extending to Other Research Domains
 
-This tracker is not limited to Federated Learning. The domain keyword is controlled by a single field in `config.yaml`:
+This tracker is not limited to Federated Learning. The domain keywords are controlled by the `keywords` list in `config.yaml`:
 
 ```yaml
 dblp:
-  keyword: federate          # <-- change this to any research term
+  keywords:
+    - federate                # <-- change this list to any research terms
   queries:
     - "venue:IJCAI:"
     - "venue:ICML:"
@@ -28,7 +29,7 @@ dblp:
 
 To switch to a new domain (e.g., *diffusion models*, *LLM*, *reinforcement learning*):
 
-1. **Change the keyword** — edit `config.yaml` → `dblp.keyword`.
+1. **Change the keywords** — edit `config.yaml` → `dblp.keywords`.
 2. **Adjust the venue list** — keep, add, or remove entries under `dblp.queries`.
 3. **Update category mappings** — edit `scripts/convert_cache_to_md.py` so that venue names and categories match your new domain.
 4. **Reset the cache** — delete or rename `cached/dblp.yaml` so the next run treats every paper as new.
@@ -92,11 +93,12 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
 
 ## 扩展到其他研究领域
 
-本追踪器不限于联邦学习。领域关键词由 `config.yaml` 中的单个字段控制：
+本追踪器不限于联邦学习。领域关键词由 `config.yaml` 中的列表控制：
 
 ```yaml
 dblp:
-  keyword: federate          # <-- 修改此字段即可切换研究领域
+  keywords:
+    - federate                # <-- 修改此列表即可切换研究领域
   queries:
     - "venue:IJCAI:"
     - "venue:ICML:"
@@ -105,7 +107,7 @@ dblp:
 
 切换到新领域（例如 *扩散模型*、*大语言模型*、*强化学习*）的步骤：
 
-1. **修改关键词** — 编辑 `config.yaml` → `dblp.keyword`。
+1. **修改关键词** — 编辑 `config.yaml` → `dblp.keywords`。
 2. **调整会议/期刊列表** — 在 `dblp.queries` 中保留、添加或删除条目。
 3. **更新类别映射** — 编辑 `scripts/convert_cache_to_md.py`，使其 venue 名称与类别匹配新领域。
 4. **重置缓存** — 删除或重命名 `cached/dblp.yaml`，下次运行将重新抓取全部论文。

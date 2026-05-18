@@ -8,7 +8,7 @@
 
 ### High-Level Workflow
 1. GitHub Actions runs the tracker once per day (cron: `0 0 * * *`) and on every push to `main`.
-2. `src/main.py` reads `config.yaml` → takes `dblp.keyword` (e.g. `federate`) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API.
+2. `src/main.py` reads `config.yaml` → takes `dblp.keywords` (e.g. `[federate, FedAvg, ...]`) and `dblp.queries` (plain venue restrictions), assembles fully URL-encoded DBLP search topics, and queries the DBLP search API.
 3. Extracted paper metadata is **filtered by year** (last 3 years + next 1 year) and **deduplicated by `ee` field**.
 4. New papers (not yet in `cached/dblp.yaml`) are collected, formatted as Markdown, and written to the `GITHUB_ENV` variable `MSG`.
 5. `scripts/convert_cache_to_md.py` regenerates `FL-Papers.md` from the updated cache.
@@ -70,7 +70,7 @@
 - **Agent Note**: Do **not** switch back to full-dict comparison (`item not in cached_items`) unless you also normalize author names.
 
 ### 3. Cache Format (`cached/dblp.yaml`)
-- Top-level keys: URL-encoded DBLP search topics (e.g., `federate%20venue%3ADAC%3A:`).
+- Top-level keys: URL-encoded DBLP search topics (e.g., `federate%20venue%3ADAC%3A:` or `FedAvg%20venue%3AICML%3A:`).
 - Each key maps to a list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`, `abstract`.
   - `abstract`  may be empty for legacy entries; use `scripts/fetch_abstracts.py` to backfill it.
 - The file is overwritten after every successful run.
@@ -95,15 +95,24 @@
 ```yaml
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
-  topics:
-    - "federate%20venue%3AIJCAI%3A"
+  keywords:
+    - federate
+    - gradient inversion
+    - FedAvg
+    - ...
+  queries:
+    - "venue:IJCAI:"
     - ...
   mails:
     - "im.young@foxmail.com"
 ```
-- `topics`: Each topic is a URL-encoded DBLP search query. The first word (`federate`) is the keyword; the rest restricts the venue.
+- `keywords`: List of research-domain keywords. The first keyword is treated as **primary**; the rest are **secondary**.
+  - In automatic runs (`primary_only=True`), only the primary keyword scans all venues initially. Secondary keywords are then run **only** on venues where the primary keyword discovered new papers, reducing total API calls.
+  - In manual runs (`primary_only=False`), all `keywords × queries` combinations are scanned.
+- `queries`: List of plain-text DBLP venue restrictions. The runner automatically URL-encodes each query and prepends the keyword before calling the API.
 - `mails`: The first email address (`mails[0]`) is used as the `contact_email` for the Crossref API User-Agent (`mailto:...`), which is recommended for polite API access. Additional addresses are reserved for future mail-notification features.
-- **Agent Note**: When adding a new venue, find its DBLP query syntax (venue code or stream ID) and URL-encode it.
+- **Agent Note**: When adding a new venue, find its DBLP query syntax (venue code or stream ID) and append it to `dblp.queries`.
+- **Backward compatibility**: Old single-string `keyword` field is still supported and is automatically wrapped into a one-element list.
 
 ## Maintenance Notes
 
@@ -156,10 +165,11 @@ dblp:
 ### Switching to a Different Research Domain
 The tracker is domain-agnostic. To pivot from Federated Learning to any other field (e.g., diffusion models, LLMs, reinforcement learning):
 
-1. **Change the keyword** in `config.yaml`:
+1. **Change the keywords** in `config.yaml`:
    ```yaml
    dblp:
-     keyword: diffusion   # or LLM, "reinforcement learning", etc.
+     keywords:
+       - diffusion   # or LLM, "reinforcement learning", etc.
    ```
 2. **Adjust the venue list** under `dblp.queries` to match the venues relevant to the new domain.
 3. **Update `scripts/convert_cache_to_md.py`**:
@@ -169,7 +179,7 @@ The tracker is domain-agnostic. To pivot from Federated Learning to any other fi
 4. **Reset the cache** by deleting or renaming `cached/dblp.yaml` so the next run treats all fetched papers as new.
 5. (Optional) Update `README.md` and `TECHNICAL.md` to reflect the new domain.
 
-No changes to `src/main.py` or the GitHub Actions workflow are required.
+No changes to `src/main.py` or the GitHub Actions workflow are required (unless you want to adjust the `primary_only` behavior).
 
 ### Changing Message Format
 - Edit `src/utils.py` → `get_msg`.
@@ -201,11 +211,15 @@ python main.py run --env=dev
 
 In `dev` mode the script will:
 - Load the cache
-- Query DBLP
+- Query DBLP with **all** keywords and venues
 - Print logs to stdout
 - **Not** write to `GITHUB_ENV`
 
 You can inspect `aggregated_msg` and `msg` in the logs to preview the issue content.
+
+Additional CLI flags:
+- `--primary_only` — Emulates the automatic cron/push behavior: primary keyword scans all venues first, secondary keywords only scan venues that produced new papers.
+- `--all_years` — Disables the year filter and skips abstract fetching / translation (used by the `Fetch All Years Papers` workflow).
 
 ## Common Pitfalls
 

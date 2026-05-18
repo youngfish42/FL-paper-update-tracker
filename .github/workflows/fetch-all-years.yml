@@ -1,0 +1,70 @@
+name: Fetch All Years Papers
+
+on:
+  workflow_dispatch:
+    inputs:
+      create_issue:
+        description: 'Create GitHub issue for new papers'
+        required: false
+        default: false
+        type: boolean
+
+permissions: write-all
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+      RUN_ENV: "prod"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run dblp watcher (all years)
+        run: |
+          cd src && python main.py run --env=${{ env.RUN_ENV }} --all_years
+
+      - name: Update FL-Papers.md
+        run: |
+          python scripts/convert_cache_to_md.py
+
+      - name: Setup var
+        id: vars
+        run: |
+          content=${{ env.MSG }}
+          content="${content//'%'/'%25'}"
+          content="${content//$'\n'/'%0A'}"
+          content="${content//$'\r'/'%0D'}"
+          echo "::set-output name=content::$content"
+
+      - name: Setup GIT user
+        run: |
+          git config --global user.name "youngfish42"
+          git config --global user.email "youngfish42@users.noreply.github.com"
+
+      - name: Push done work
+        run: |
+          git diff --exit-code || git commit -am "Fetch all-years papers @ $(date '+%Y-%m-%d %H:%M')"
+          git push --force origin main
+
+      - name: Create an issue for new papers
+        if: ${{ inputs.create_issue && env.MSG != '' }}
+        continue-on-error: true
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MSG: ${{ steps.vars.outputs.content }}
+          ISSUE_TITLE_TOPICS: ${{ env.ISSUE_TITLE_TOPICS }}
+        with:
+          filename: .github/issue-template.md

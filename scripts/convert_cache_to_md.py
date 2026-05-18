@@ -220,7 +220,11 @@ def main():
                 papers = aggregated[category][year][venue]
                 papers_sorted = sorted(
                     papers,
-                    key=lambda p: (1 if is_low_priority(p.get("title", "")) else 0, p.get("title", "").lower())
+                    key=lambda p: (
+                        1 if is_low_priority(p.get("title", "")) else 0,
+                        0 if "federate" in p.get("title", "").lower() else 1,
+                        p.get("title", "").lower(),
+                    )
                 )
                 for paper in papers_sorted:
                     title = paper.get("title", "").strip()

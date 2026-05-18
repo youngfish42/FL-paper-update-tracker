@@ -1,6 +1,14 @@
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
-  keyword: federate
+  keywords:
+    - federate
+    - grad inversion
+    - FedAvg
+    - collaborat learn
+    - local SGD
+    - communicat effici distribut
+    - model merg
+    - swarm learn
   queries:
     - "venue:IJCAI:"
     - "venue:AAAI:"

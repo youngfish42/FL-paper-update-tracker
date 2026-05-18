@@ -41,7 +41,7 @@ jobs:
       # ============================================
       - name: Run dblp watcher
         run: |
-          cd src && python main.py run --env=${{ env.RUN_ENV }}
+          cd src && python main.py run --env=${{ env.RUN_ENV }} ${{ github.event_name != 'workflow_dispatch' && '--primary_only' || '' }}
 
       - name: Fetch missing abstracts
         run: |

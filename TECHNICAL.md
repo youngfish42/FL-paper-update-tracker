@@ -36,11 +36,15 @@ python main.py run --env=dev
 
 In `dev` mode the script will:
 - Load the cache from `cached/dblp.yaml`
-- Query DBLP for all configured topics
+- Query DBLP for all configured `keywords × queries` combinations
 - Print logs to stdout
 - **Not** write to `GITHUB_ENV`
 
 You can inspect `aggregated_msg` and `msg` in the logs to preview the issue content.
+
+Additional CLI flags:
+- `--primary_only` — Run in two-phase mode: primary keyword scans all venues first, then secondary keywords only scan venues where new papers were found. This mimics the automatic cron/push behavior.
+- `--all_years` — Disable the year filter and skip abstract fetching / translation. Useful for backfilling the entire history.
 
 ---
 
@@ -51,7 +55,11 @@ All behavior is controlled by `config.yaml` in the project root.
 ```yaml
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
-  keyword: federate
+  keywords:
+    - federate
+    - gradient inversion
+    - FedAvg
+    - ...
   queries:
     - "venue:IJCAI:"
     - "venue:NeurIPS:"
@@ -65,9 +73,9 @@ dblp:
 | Field | Description |
 |-------|-------------|
 | `dblp.url` | DBLP search API endpoint. `{}` is replaced by the fully-encoded topic query. `h=1000` requests up to 1000 hits. |
-| `dblp.keyword` | The research-domain keyword (e.g. `federate`). This is the **only** field you need to change when switching to a different domain. |
-| `dblp.queries` | List of plain-text DBLP venue restrictions. The runner automatically URL-encodes each query and prepends `keyword%20` before calling the API. |
-| `dblp.mails` | Reserved for future mail-notification features. Currently unused. |
+| `dblp.keywords` | List of research-domain keywords (e.g. `[federate, FedAvg, ...]`). The first keyword is the **primary** keyword; secondary keywords are only scanned on venues that produced new papers during automatic runs. This is the main field to change when switching to a different domain. |
+| `dblp.queries` | List of plain-text DBLP venue restrictions. The runner automatically URL-encodes each query and prepends the encoded keyword before calling the API. |
+| `dblp.mails` | The first address is used as the Crossref API contact email. Additional addresses are reserved for future mail-notification features. |
 
 ### Adding a New Venue
 
@@ -97,7 +105,9 @@ This repository uses [GitHub Actions](.github/workflows/watch.yml) to run the tr
 1. **Checkout** – Clones the repository.
 2. **Setup Python** – Installs Python 3.8.
 3. **Install Dependencies** – Runs `pip install -r requirements.txt`.
-4. **Run Tracker** – Executes `src/main.py` with `--env=prod`. It assembles each API query from `keyword` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`.
+4. **Run Tracker** – Executes `src/main.py` with `--env=prod` and `--primary_only` (for cron/push). It assembles each API query from `keywords` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`.
+   - **Primary keyword** (`keywords[0]`) scans all venues.
+   - **Secondary keywords** only scan venues where the primary keyword discovered new papers, reducing API load.
 5. **Update FL-Papers.md** – Runs `scripts/convert_cache_to_md.py` to regenerate the categorized Markdown paper list from the updated cache.
 6. **Setup Var** – Escapes the generated Markdown message for GitHub Actions.
 7. **Push Done Work** – Commits `cached/dblp.yaml` and `FL-Papers.md` back to the `main` branch.

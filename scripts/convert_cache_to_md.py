@@ -5,12 +5,12 @@ Convert cached/dblp.yaml into a structured Markdown file.
 NOTE ON DOMAIN SWITCHING ──────────────────────────────────────────────
 The mappings below (VENUE_MAP, CATEGORY_MAP, CATEGORY_ORDER, VENUE_ORDER)
 are tailored to the current research domain (Federated Learning) and the
-venue list in config.yaml. If you change the ``keyword`` in config.yaml
+venue list in config.yaml. If you change the ``keywords`` in config.yaml
 to track a different domain (e.g. diffusion, LLM), you MUST review and
 update these mappings to match the new venue set and desired categories.
 
 Quick checklist when switching domains:
-1. Update ``keyword`` and ``queries`` in config.yaml.
+1. Update ``keywords`` and ``queries`` in config.yaml.
 2. Update VENUE_MAP to map DBLP raw venue names → your display names.
 3. Update CATEGORY_MAP to assign each display name → a category.
 4. Update CATEGORY_ORDER and VENUE_ORDER to control output ordering.
@@ -27,10 +27,25 @@ def main():
     repo_root = Path(__file__).resolve().parent.parent
     cache_path = repo_root / "cached" / "dblp.yaml"
     output_path = repo_root / "FL-Papers.md"
+    config_path = repo_root / "config.yaml"
 
     # Load cache
     with open(cache_path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
+    with open(config_path, "r", encoding="utf-8") as f:
+        config = yaml.safe_load(f) or {}
+
+    dblp_cfg = config.get("dblp", {}) if isinstance(config, dict) else {}
+    keywords = dblp_cfg.get("keywords")
+    if keywords is None:
+        legacy_keyword = dblp_cfg.get("keyword")
+        keywords = [legacy_keyword] if isinstance(legacy_keyword, str) else []
+    elif isinstance(keywords, str):
+        keywords = [keywords]
+    elif not isinstance(keywords, list):
+        keywords = []
+    keywords = [k.strip() for k in keywords if isinstance(k, str) and k.strip()]
+    priority_keyword = keywords[0].lower() if keywords else ""
 
     # Venue raw name -> display name
     VENUE_MAP = {
@@ -222,7 +237,7 @@ def main():
                     papers,
                     key=lambda p: (
                         1 if is_low_priority(p.get("title", "")) else 0,
-                        0 if "federate" in p.get("title", "").lower() else 1,
+                        0 if priority_keyword and priority_keyword in p.get("title", "").lower() else 1,
                         p.get("title", "").lower(),
                     )
                 )

@@ -183,16 +183,16 @@ class Scaffold:
 
         if env == "prod":
             env_file = os.getenv("GITHUB_ENV")
-
-            # check if msg is too long
-            if len(msg) > 4096:
-                msg = msg[:4096] + "..."
+            max_msg_len = 4096
+            combined_msg = aggregated_msg + msg
+            if len(combined_msg) > max_msg_len:
+                combined_msg = combined_msg[:max_msg_len - 3] + "..."
 
             if flag:
                 # 生成 Issue 标题中的 topic 片段，控制长度不超过 80 字符
                 title_topics = format_title_topics(active_topics)
                 with open(env_file, "a") as f:
-                    f.write("MSG=$'" + aggregated_msg + msg + "'\n")
+                    f.write("MSG=$'" + combined_msg + "'\n")
                     f.write(f"ISSUE_TITLE_TOPICS={title_topics}\n")
 
 

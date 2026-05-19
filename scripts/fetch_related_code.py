@@ -58,9 +58,14 @@ def run(year: str = None, retry_failed: bool = False) -> None:
             if not abstract:
                 continue
             related_code = (item.get("related_code") or "").strip()
-            # 若已有 related_code 字段（无论是否为空）且不强制重试，则跳过
-            if "related_code" in item and not retry_failed:
-                continue
+            # 默认情况下：若已有 related_code 字段（无论是否为空），则跳过
+            if not retry_failed:
+                if "related_code" in item:
+                    continue
+            # 重试失败时：仅处理 related_code 缺失或为空字符串的条目
+            else:
+                if "related_code" in item and related_code:
+                    continue
             targets.append((topic, idx, item))
 
     logger.info(f"Total target papers to process: {len(targets)}")

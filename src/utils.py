@@ -181,6 +181,25 @@ def format_title_topics(topics, max_len=80):
     return f"{topics[0]} 等{len(topics) - 1}个"
 
 
+def extract_github_links(text: str) -> str:
+    """从文本中提取 GitHub 仓库链接，返回第一个匹配的 URL（清理尾部标点后）。
+
+    匹配规则：标准 github.com/user/repo 格式，去除末尾常见标点符号。
+    若未匹配到则返回空字符串。
+    """
+    if not text:
+        return ""
+    # 匹配 https://github.com/<user>/<repo> 格式（允许后续跟 #fragment 或 /path）
+    pattern = re.compile(r"https?://github\.com/[A-Za-z0-9_.\-]+/[A-Za-z0-9_.\-]+(?:/[^\s\)\]\}>\"'`]*)?")
+    matches = pattern.findall(text)
+    if not matches:
+        return ""
+    url = matches[0]
+    # 清理尾部常见标点
+    url = url.rstrip(".,;:'\")]}>")
+    return url
+
+
 def get_msg(items, topic, aggregated=False):
     # 将 URL 编码的 topic 转回可读字符串
     string_topic = urllib.parse.unquote(topic)
@@ -194,9 +213,13 @@ def get_msg(items, topic, aggregated=False):
     if aggregated == False:
         for item in items:
             ee = item.get("ee", "")
+            related_code = item.get("related_code", "")
             if ee:
-                # 格式：- title. [PUB](ee超链接)
-                msg += f"- {item['title']}. [[PUB]({ee})]\\n"
+                # 格式：- title. [PUB](ee超链接)  [CODE](github超链接)
+                if related_code:
+                    msg += f"- {item['title']}. [[PUB]({ee})] [[CODE]({related_code})]\\n"
+                else:
+                    msg += f"- {item['title']}. [[PUB]({ee})]\\n"
             else:
                 msg += f"- {item['title']}.\\n"
         msg += "\\n"
@@ -628,6 +651,10 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
 
         if abstract and len(abstract.strip()) >= 5:
             paper["abstract"] = abstract
+            related_code = extract_github_links(abstract)
+            paper["related_code"] = related_code
+            if related_code:
+                logger.info(f"  -> Related code: {related_code}")
             success += 1
             logger.info(f"  -> OK ({len(abstract)} chars)")
         else:

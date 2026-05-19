@@ -43,6 +43,11 @@ jobs:
         run: |
           cd src && python main.py run --env=${{ env.RUN_ENV }} ${{ github.event_name != 'workflow_dispatch' && '--primary_only' || '' }}
 
+      - name: Extract related code links
+        run: |
+          python scripts/fetch_related_code.py
+        continue-on-error: true
+
       - name: Fetch missing abstracts
         run: |
           python scripts/fetch_abstracts.py

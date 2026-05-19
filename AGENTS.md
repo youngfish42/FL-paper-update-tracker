@@ -71,8 +71,10 @@
 
 ### 3. Cache Format (`cached/dblp.yaml`)
 - Top-level keys: URL-encoded DBLP search topics (e.g., `federate%20venue%3ADAC%3A:` or `FedAvg%20venue%3AICML%3A:`).
-- Each key maps to a list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`, `abstract`.
+- Each key maps to a list of paper dicts with fields: `author`, `title`, `venue`, `year`, `type`, `access`, `key`, `doi`, `ee`, `url`, `abstract`, `abstract_cn`, `related_code`.
   - `abstract`  may be empty for legacy entries; use `scripts/fetch_abstracts.py` to backfill it.
+  - `abstract_cn` is the Chinese translation of `abstract`, auto-generated via Qwen-MT-plus.
+  - `related_code` stores the first GitHub repository URL detected in `abstract` (or empty string if none).
 - The file is overwritten after every successful run.
 - **Agent Note**: If you add new fields to the paper dict, ensure backward compatibility; old cache entries missing the new field should be handled gracefully.
 
@@ -142,6 +144,7 @@ dblp:
   python scripts/fetch_abstracts.py --retry-failed
   ```
 - **Automatic abstract fetching**: `src/main.py` already calls `fetch_abstract_for_papers()` for every batch of new papers before saving the cache, so newly discovered papers get their abstracts filled automatically during the daily GitHub Actions run.
+- **Automatic related code extraction**: Immediately after a non-empty English `abstract` is obtained, `extract_github_links()` scans the text for `https://github.com/<user>/<repo>` patterns and stores the first match in `related_code`. This happens inside `fetch_abstract_for_papers()` so new papers get their code links without extra steps.
 - **Automatic Chinese translation**: After a non-empty English `abstract` is obtained, `translate_abstracts_for_papers()` calls **Qwen-MT-plus** (via the Alibaba Cloud Bailian OpenAI-compatible API) to translate the abstract into Chinese, storing it as `abstract_cn`. Translation is skipped if the `DASHSCOPE_API_KEY` environment variable is missing, and individual translation failures do not block the pipeline.
 
 ### Backfilling DOIs for Existing Papers
@@ -162,6 +165,21 @@ dblp:
   python scripts/fetch_dois.py --retry-all
   ```
 - A GitHub Actions workflow `.github/workflows/backfill-dois.yml` allows manual triggering from the repository UI.
+
+### Backfilling Related Code for Existing Papers
+- A standalone script `scripts/fetch_related_code.py` is provided to backfill missing `related_code` fields for papers already in `cached/dblp.yaml`.
+- It scans the `abstract` text of each paper for GitHub repository URLs (`https://github.com/<user>/<repo>`), cleans trailing punctuation, and stores the first match in `related_code`.
+- The cache is backed up to `cached/dblp.yaml.bak` before each overwrite; `*.bak` files are ignored by git (see `.gitignore`).
+- Usage:
+  ```bash
+  # Process current-year papers (default)
+  python scripts/fetch_related_code.py
+  # Process all years
+  python scripts/fetch_related_code.py --year all
+  # Retry previously failed entries (empty related_code)
+  python scripts/fetch_related_code.py --retry-failed
+  ```
+- **Automatic related code extraction**: `src/main.py` already calls `extract_github_links()` inside `fetch_abstract_for_papers()` for every batch of new papers, so newly discovered papers get their code links filled automatically during the daily GitHub Actions run.
 
 ### Switching to a Different Research Domain
 The tracker is domain-agnostic. To pivot from Federated Learning to any other field (e.g., diffusion models, LLMs, reinforcement learning):
@@ -186,6 +204,7 @@ No changes to `src/main.py` or the GitHub Actions workflow are required (unless 
 - Edit `src/utils.py` → `get_msg`.
 - If you modify the Markdown structure, verify that the issue template renders correctly in GitHub.
 - Keep the `aggregated` parameter behavior: `True` = heading only, `False` = heading + list.
+- The default list item format is `- {title}. [[PUB]({ee})]`. When `related_code` is present, it appends ` [[CODE]({related_code})]` after `[PUB]`.
 
 ### Changing Issue Template
 - Edit `.github/issue-template.md`.

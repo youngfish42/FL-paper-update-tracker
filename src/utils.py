@@ -626,14 +626,17 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
                 )
                 abstract = None
 
-        if abstract:
+        if abstract and len(abstract.strip()) >= 5:
             paper["abstract"] = abstract
             success += 1
             logger.info(f"  -> OK ({len(abstract)} chars)")
         else:
             paper["abstract"] = ""
             failed += 1
-            logger.info("  -> Failed")
+            if abstract:
+                logger.info(f"  -> Rejected (too short, {len(abstract.strip())} chars)")
+            else:
+                logger.info("  -> Failed")
 
     logger.info(f"Abstract fetch done. Success: {success}, Failed: {failed}, Skipped: {skipped}")
     return papers

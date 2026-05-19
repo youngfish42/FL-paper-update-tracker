@@ -212,8 +212,8 @@ def get_msg(items, topic, aggregated=False):
     # 仅在非聚合模式下输出无序列表详情
     if aggregated == False:
         for item in items:
-            ee = item.get("ee", "")
-            related_code = item.get("related_code", "")
+            ee = item.get("ee", "").strip()
+            related_code = item.get("related_code", "").strip()
             if ee:
                 # 格式：- title. [PUB](ee超链接)  [CODE](github超链接)
                 if related_code:

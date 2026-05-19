@@ -125,10 +125,11 @@ dblp:
 
 ### Backfilling Abstracts for Existing Papers
 - A standalone script `scripts/fetch_abstracts.py` is provided to backfill `abstract` fields for papers already in `cached/dblp.yaml`.
-- It queries three APIs in order until a non-empty abstract is found:
+- It queries four APIs in order until a non-empty abstract is found:
   1. **Crossref** (primary) — by DOI, with `contact_email` in the User-Agent header.
   2. **Semantic Scholar** (fallback) — by DOI.
-  3. **arXiv** (final fallback) — by title via `export.arxiv.org/api/query`, parsing Atom XML. arXiv enforces a minimum 3-second interval between requests.
+  3. **arXiv** (fallback) — by title via `export.arxiv.org/api/query`, parsing Atom XML. arXiv enforces a minimum 3-second interval between requests.
+  4. **OpenAlex** (final fallback) — by DOI via `api.openalex.org/works/doi:...`. OpenAlex returns `abstract_inverted_index`, which is reconstructed into plain text. A `mailto` parameter is appended when `contact_email` is available.
 - All queries use rate limiting, timeout handling (10s + exponential backoff), and automatic newline cleaning.
 - The cache is backed up to `cached/dblp.yaml.bak` before each overwrite; `*.bak` files are ignored by git (see `.gitignore`).
 - Usage:

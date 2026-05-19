@@ -475,6 +475,74 @@ def _fetch_arxiv_abstract(title: str, last_request_time: float, min_interval: fl
     return None, None, last_request_time
 
 
+def _reconstruct_abstract_from_inverted_index(inverted_index):
+    """将 OpenAlex 的 abstract_inverted_index 重建为普通文本字符串。
+
+    OpenAlex 的 abstract_inverted_index 格式为 {word: [position1, position2, ...]}。
+    按位置还原后单词间以空格分隔。
+    """
+    if not isinstance(inverted_index, dict) or not inverted_index:
+        return None
+    try:
+        max_pos = max(max(positions) for positions in inverted_index.values() if positions)
+        words = [""] * (max_pos + 1)
+        for word, positions in inverted_index.items():
+            for pos in positions:
+                if 0 <= pos <= max_pos:
+                    words[pos] = word
+        abstract = " ".join(words)
+        return abstract if abstract.strip() else None
+    except Exception:
+        return None
+
+
+def _fetch_openalex_abstract(doi: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3, contact_email: str = ""):
+    """通过 OpenAlex API 获取 abstract，返回 (abstract_or_None, api_title_or_None, last_request_time)。
+
+    OpenAlex 的 abstract 以 abstract_inverted_index 形式返回，需要重建为文本。
+    参考: https://docs.openalex.org/
+    """
+    mailto_param = f"&mailto={urllib.parse.quote(contact_email)}" if contact_email else ""
+    url = f"https://api.openalex.org/works/doi:{doi}?select=display_name,abstract_inverted_index{mailto_param}"
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp, last_request_time = _rate_limited_request(
+                url, last_request_time, min_interval=min_interval, timeout=10
+            )
+            if resp.status_code in (404, 403):
+                return None, None, last_request_time
+            if resp.status_code == 429:
+                _sleep_for_retry("Rate limited (OpenAlex)", attempt, response=resp)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+
+            api_title = data.get("display_name")
+            if api_title:
+                api_title = str(api_title).strip() or None
+
+            inverted_index = data.get("abstract_inverted_index")
+            abstract = None
+            if inverted_index:
+                reconstructed = _reconstruct_abstract_from_inverted_index(inverted_index)
+                if reconstructed:
+                    cleaned = clean_abstract(reconstructed)
+                    if cleaned:
+                        abstract = cleaned
+
+            return abstract, api_title, last_request_time
+        except requests.exceptions.Timeout:
+            logger.warning(f"OpenAlex timeout for {doi}, attempt {attempt}")
+            if attempt < max_retries:
+                _sleep_for_retry("OpenAlex timeout", attempt)
+        except Exception as e:
+            logger.warning(f"OpenAlex attempt {attempt} failed for {doi}: {e}")
+            if attempt < max_retries:
+                _sleep_for_retry("OpenAlex failure", attempt)
+    return None, None, last_request_time
+
+
 def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email=""):
     """为论文列表批量获取 abstract。
 
@@ -491,6 +559,7 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
         "crossref": 0.0,
         "semanticscholar": 0.0,
         "arxiv": 0.0,
+        "openalex": 0.0,
     }
     success = 0
     failed = 0
@@ -532,7 +601,7 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
                     )
                     abstract = None
 
-        # Crossref + SS 都失败，尝试 arXiv 作为最后补充
+        # Crossref + SS 都失败，尝试 arXiv 作为补充
         if not abstract and title:
             abstract, api_title, last_request_time["arxiv"] = _fetch_arxiv_abstract(
                 title, last_request_time["arxiv"], min_interval=max(sleep_sec, 3.0), max_retries=max_retries
@@ -540,6 +609,19 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
             if abstract and api_title and not is_title_match(api_title, title):
                 logger.warning(
                     f"  -> arXiv title mismatch: "
+                    f"expected '{title[:80]}...', got '{api_title[:80]}...'"
+                )
+                abstract = None
+
+        # arXiv 也失败，尝试 OpenAlex 作为最终兜底（基于 DOI）
+        if not abstract and doi:
+            abstract, api_title, last_request_time["openalex"] = _fetch_openalex_abstract(
+                doi, last_request_time["openalex"], min_interval=sleep_sec, max_retries=max_retries,
+                contact_email=contact_email
+            )
+            if abstract and api_title and not is_title_match(api_title, title):
+                logger.warning(
+                    f"  -> OpenAlex title mismatch for DOI {doi}: "
                     f"expected '{title[:80]}...', got '{api_title[:80]}...'"
                 )
                 abstract = None

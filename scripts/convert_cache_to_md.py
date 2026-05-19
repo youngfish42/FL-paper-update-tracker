@@ -245,10 +245,14 @@ def main():
                 for paper in papers_sorted:
                     title = paper.get("title", "").strip()
                     ee = paper.get("ee", "").strip()
+                    related_code = paper.get("related_code", "").strip()
                     # Avoid double periods if title already ends with a dot
                     suffix = "" if title.endswith(".") else "."
                     if ee:
-                        lines.append(f"- {title}{suffix} [[PUB]({ee})]")
+                        if related_code:
+                            lines.append(f"- {title}{suffix} [[PUB]({ee})] [[CODE]({related_code})]")
+                        else:
+                            lines.append(f"- {title}{suffix} [[PUB]({ee})]")
                     else:
                         lines.append(f"- {title}{suffix}")
                 lines.append("")

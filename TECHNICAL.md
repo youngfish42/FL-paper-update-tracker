@@ -108,10 +108,12 @@ This repository uses [GitHub Actions](.github/workflows/watch.yml) to run the tr
 4. **Run Tracker** – Executes `src/main.py` with `--env=prod` and `--primary_only` (for cron/push). It assembles each API query from `keywords` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`.
    - **Primary keyword** (`keywords[0]`) scans all venues.
    - **Secondary keywords** only scan venues where the primary keyword discovered new papers, reducing API load.
-5. **Update FL-Papers.md** – Runs `scripts/convert_cache_to_md.py` to regenerate the categorized Markdown paper list from the updated cache.
-6. **Setup Var** – Escapes the generated Markdown message for GitHub Actions.
-7. **Push Done Work** – Commits `cached/dblp.yaml` and `FL-Papers.md` back to the `main` branch.
-8. **Create Issue** – If new papers were found, opens a GitHub Issue using `.github/issue-template.md`.
+5. **Extract Related Code** (optional) – Runs `scripts/fetch_related_code.py` to scan abstracts for GitHub repository links and backfill `related_code` fields.
+6. **Fetch Missing Abstracts** (optional) – Runs `scripts/fetch_abstracts.py` to backfill empty `abstract` fields and their Chinese translations for existing papers.
+7. **Update FL-Papers.md** – Runs `scripts/convert_cache_to_md.py` to regenerate the categorized Markdown paper list from the updated cache.
+8. **Setup Var** – Escapes the generated Markdown message for GitHub Actions.
+9. **Push Done Work** – Commits `cached/dblp.yaml` and `FL-Papers.md` back to the `main` branch.
+10. **Create Issue** – If new papers were found, opens a GitHub Issue using `.github/issue-template.md`.
 
 ### Issue Format
 
@@ -122,8 +124,9 @@ Paper Update [Venue1, Venue2, ...] @ YYYY-MM-DD
 ```
 
 The issue body contains:
-- A summary header for each venue with new papers
+- A summary header for each venue with new papers (e.g., `VenueName [+3]`)
 - An unordered list of paper titles with `[PUB]` hyperlinks pointing to the DBLP `ee` field
+- When a `related_code` field is present, an additional `[CODE]` hyperlink is appended after `[PUB]`
 
 ---
 
@@ -137,10 +140,18 @@ The issue body contains:
 │   └── issue-template.md      # Issue template (Nunjucks)
 ├── cached/
 │   └── dblp.yaml              # Persistent cache of reported papers
+├── scripts/
+│   ├── convert_cache_to_md.py # Converts cache to structured Markdown
+│   ├── fetch_abstracts.py     # Backfill/refresh paper abstracts
+│   ├── fetch_dois.py          # Backfill missing DOIs
+│   ├── fetch_related_code.py  # Backfill GitHub links from abstracts
+│   ├── dedup_cache_by_title.py# One-off deduplication by title
+│   └── dedup_cache_global.py  # One-off global cross-topic deduplication
 ├── src/
 │   ├── main.py                # Entry point and orchestration
 │   └── utils.py               # API calls, parsing, formatting, dedup logic
 ├── config.yaml                # Venue list and settings
+├── FL-Papers.md               # Structured Markdown output of tracked papers
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # User-facing documentation
 ├── TECHNICAL.md               # This file
@@ -149,9 +160,14 @@ The issue body contains:
 
 ### Key Modules
 
-- **`src/main.py`** – Loads cache, iterates over topics, queries DBLP, filters by year, deduplicates by `ee` and by `title`, compares against cache, and writes new papers to `GITHUB_ENV`.
-- **`src/utils.py`** – Contains `get_dblp_items` (JSON parsing), `deduplicate_items_by_ee` / `deduplicate_items_by_title` (two-stage dedup logic), `filter_items_by_year` (year window filter), `get_msg` (Markdown formatting), and helpers for topic short-name extraction.
+- **`src/main.py`** – Loads cache, iterates over topics, queries DBLP, filters by year, performs three-stage deduplication (by `ee`, by `title`, and global cross-topic), fetches abstracts and translations for new papers, extracts related code links, and writes new papers to `GITHUB_ENV`.
+- **`src/utils.py`** – Contains `get_dblp_items` (JSON parsing), `deduplicate_items_by_ee` / `deduplicate_items_by_title` (two-stage dedup logic), `filter_items_by_year` (year window filter), `get_msg` (Markdown formatting), `fetch_abstract_for_papers` (abstract retrieval from Crossref / Semantic Scholar / arXiv / OpenAlex), `translate_abstracts_for_papers` (Chinese translation via Qwen-MT-plus), `extract_github_links` (code link extraction), `fetch_doi_for_papers` (DOI backfill), and helpers for topic short-name extraction.
 - **`cached/dblp.yaml`** – YAML mapping of topic → list of paper dicts. Serves as the source of truth for what has already been reported.
+- **`scripts/convert_cache_to_md.py`** – Regenerates `FL-Papers.md` from the cache using domain-specific venue and category maps.
+- **`scripts/fetch_abstracts.py`** – Standalone script to backfill `abstract` fields for existing papers. Supports `--year all` and `--retry-failed`.
+- **`scripts/fetch_dois.py`** – Standalone script to backfill missing `doi` fields. Supports `--year all` and `--retry-all`.
+- **`scripts/fetch_related_code.py`** – Standalone script to backfill `related_code` fields by scanning abstracts for GitHub links. Supports `--year all` and `--retry-failed`.
+- **`scripts/dedup_cache_by_title.py`** & **`scripts/dedup_cache_global.py`** – One-off maintenance scripts for cache deduplication.
 
 ---
 
@@ -175,6 +191,46 @@ Edit `.github/workflows/watch.yml`:
 schedule:
   - cron: '0 0 * * *'  # Change this cron expression
 ```
+
+### Backfill Abstracts
+
+```bash
+# Process current-year papers (default)
+python scripts/fetch_abstracts.py
+# Process all years
+python scripts/fetch_abstracts.py --year all
+# Retry previously failed entries
+python scripts/fetch_abstracts.py --retry-failed
+```
+
+### Backfill DOIs
+
+```bash
+# Process current-year papers with missing DOI
+python scripts/fetch_dois.py
+# Process all years
+python scripts/fetch_dois.py --year all
+# Re-fetch for all papers
+python scripts/fetch_dois.py --retry-all
+```
+
+### Backfill Related Code Links
+
+```bash
+# Process current-year papers
+python scripts/fetch_related_code.py
+# Process all years
+python scripts/fetch_related_code.py --year all
+# Retry previously failed entries
+python scripts/fetch_related_code.py --retry-failed
+```
+
+### Switch to a Different Research Domain
+
+1. Edit `config.yaml` → `dblp.keywords` (first keyword is primary).
+2. Adjust `dblp.queries` to match the new domain.
+3. Update `scripts/convert_cache_to_md.py`: `VENUE_MAP`, `CATEGORY_MAP`, `CATEGORY_ORDER`, and `VENUE_ORDER`.
+4. Reset the cache by deleting or renaming `cached/dblp.yaml`.
 
 ### Change the Message Format
 

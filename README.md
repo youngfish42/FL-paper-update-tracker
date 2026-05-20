@@ -10,8 +10,10 @@ An automated paper tracking bot for **Federated Learning** research. It periodic
 - **Smart Deduplication**: Uses the `ee` (electronic edition) field and the `title` field to eliminate duplicate records caused by minor author-name variations or multiple URLs for the same paper in DBLP.
 - **Year-Based Filtering**: Only tracks papers published within the last 3 years and the next 1 year (e.g., 2023–2027 when running in 2026).
 - **Auto-Notification**: Creates nicely formatted GitHub Issues daily via GitHub Actions.
-- **Automatic Abstract Fetching**: Newly discovered papers automatically retrieve abstracts from Crossref, Semantic Scholar, and arXiv (in that order) to enrich the cache.
+- **Automatic Abstract Fetching**: Newly discovered papers automatically retrieve abstracts from Crossref, Semantic Scholar, arXiv, and OpenAlex (in that order) to enrich the cache.
 - **Automatic Chinese Translation**: Successfully retrieved abstracts are automatically translated into Chinese via Qwen-MT-plus and stored as `abstract_cn`.
+- **Automatic Related Code Extraction**: Scans fetched abstracts for GitHub repository links and stores the first match as `related_code`.
+- **Automatic DOI Backfill**: A standalone script is provided to backfill missing DOIs via DBLP, Crossref, and Semantic Scholar.
 
 ## Extending to Other Research Domains
 
@@ -20,7 +22,8 @@ This tracker is not limited to Federated Learning. The domain keywords are contr
 ```yaml
 dblp:
   keywords:
-    - federate                # <-- change this list to any research terms
+    - federate                # primary keyword
+    - grad inversion               # secondary keyword (optional)
   queries:
     - "venue:IJCAI:"
     - "venue:ICML:"
@@ -29,7 +32,7 @@ dblp:
 
 To switch to a new domain (e.g., *diffusion models*, *LLM*, *reinforcement learning*):
 
-1. **Change the keywords** — edit `config.yaml` → `dblp.keywords`.
+1. **Change the keywords** — edit `config.yaml` → `dblp.keywords`. The first keyword is the **primary** keyword; during automatic runs, secondary keywords are only scanned on venues where the primary keyword discovered new papers, reducing API load.
 2. **Adjust the venue list** — keep, add, or remove entries under `dblp.queries`.
 3. **Update category mappings** — edit `scripts/convert_cache_to_md.py` so that venue names and categories match your new domain.
 4. **Reset the cache** — delete or rename `cached/dblp.yaml` so the next run treats every paper as new.
@@ -88,8 +91,10 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
 - **智能去重**：利用 `ee`（电子版链接）和 `title`（标题）字段消除 DBLP 中因作者名称微差异或同一论文多版本链接导致的重复记录。
 - **年份过滤**：仅追踪近三年及未来一年内发表的论文（例如 2026 年运行时，保留 2023–2027 年的论文）。
 - **自动通知**：通过 GitHub Actions 每日自动生成格式化的 GitHub Issue。
-- **自动获取摘要**：新发现的论文会自动从 Crossref、Semantic Scholar 和 arXiv 依次查询并补充摘要，以丰富缓存数据。
+- **自动获取摘要**：新发现的论文会自动从 Crossref、Semantic Scholar、arXiv 和 OpenAlex 依次查询并补充摘要，以丰富缓存数据。
 - **自动中文翻译**：成功获取的英文摘要会自动通过 Qwen-MT-plus 翻译为中文，存储为 `abstract_cn` 字段。
+- **自动提取代码链接**：从获取的摘要中扫描 GitHub 仓库链接，并将首个匹配结果存储为 `related_code`。
+- **自动 DOI 回填**：提供独立脚本，通过 DBLP、Crossref 和 Semantic Scholar 回填缺失的 DOI。
 
 ## 扩展到其他研究领域
 
@@ -98,7 +103,8 @@ This repository is based on [dblp-watcher](https://github.com/beiyuouo/dblp-watc
 ```yaml
 dblp:
   keywords:
-    - federate                # <-- 修改此列表即可切换研究领域
+    - federate                # 主关键词
+    - grad inversion              # 次关键词（可选）
   queries:
     - "venue:IJCAI:"
     - "venue:ICML:"
@@ -107,7 +113,7 @@ dblp:
 
 切换到新领域（例如 *扩散模型*、*大语言模型*、*强化学习*）的步骤：
 
-1. **修改关键词** — 编辑 `config.yaml` → `dblp.keywords`。
+1. **修改关键词** — 编辑 `config.yaml` → `dblp.keywords`。第一个关键词为**主关键词**；在自动运行时，次关键词仅会在主关键词发现新论文的会议/期刊上进行扫描，以减少 API 调用。
 2. **调整会议/期刊列表** — 在 `dblp.queries` 中保留、添加或删除条目。
 3. **更新类别映射** — 编辑 `scripts/convert_cache_to_md.py`，使其 venue 名称与类别匹配新领域。
 4. **重置缓存** — 删除或重命名 `cached/dblp.yaml`，下次运行将重新抓取全部论文。

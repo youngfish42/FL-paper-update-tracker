@@ -915,10 +915,41 @@ def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.
     return None, None, last_request_time
 
 
+def _extract_doi_from_ee(ee: str) -> str:
+    """从 ee 超链接中提取 DOI，若非 DOI 格式则返回空字符串。
+
+    支持的 DOI 链接格式：
+      - https://doi.org/10.xxxx/...
+      - http://doi.org/10.xxxx/...
+      - https://dx.doi.org/10.xxxx/...
+      - http://dx.doi.org/10.xxxx/...
+      - doi:10.xxxx/...
+    """
+    if not ee:
+        return ""
+    ee = ee.strip()
+    # 匹配常见 DOI URL 前缀并提取后续部分
+    doi_prefixes = [
+        "https://doi.org/",
+        "http://doi.org/",
+        "https://dx.doi.org/",
+        "http://dx.doi.org/",
+        "doi:",
+    ]
+    for prefix in doi_prefixes:
+        if ee.lower().startswith(prefix.lower()):
+            doi = ee[len(prefix):].strip()
+            # 简单校验：DOI 通常以 10. 开头
+            if doi.startswith("10."):
+                return doi
+    return ""
+
+
 def fetch_doi_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email="", overwrite=False):
     """为论文列表批量获取 DOI（默认仅补充缺失 DOI 的条目）。
 
     查询优先级：
+      0. ee 字段直接提取（若 ee 为 DOI 格式，零成本获取）
       1. DBLP API（通过论文 key 重新查询，最权威）
       2. Crossref 搜索 API（通过标题搜索）
       3. Semantic Scholar 搜索 API（通过标题搜索）
@@ -959,8 +990,15 @@ def fetch_doi_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email="",
         logger.info(f"[{i}/{len(papers)}] Fetching DOI: {title[:60]}...")
         doi = None
 
-        # 1. 优先 DBLP API（通过 key 重新查询，最权威）
-        if key:
+        # 0. 优先从 ee 字段直接提取 DOI（零成本）
+        ee = (paper.get("ee") or "").strip()
+        if ee:
+            doi = _extract_doi_from_ee(ee)
+            if doi:
+                logger.info(f"  -> Extracted DOI from ee: {doi}")
+
+        # 1. ee 中无 DOI，则优先查询 DBLP API（通过 key 重新查询，最权威）
+        if not doi and key:
             doi, api_title, last_request_time["dblp"] = _fetch_dblp_doi(
                 key, last_request_time["dblp"], min_interval=sleep_sec, max_retries=max_retries
             )

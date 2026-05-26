@@ -17,6 +17,8 @@ DBLP_SEARCH_RETRY_BASE_SECONDS = 4.0
 DBLP_SEARCH_RETRY_CAP_SECONDS = 120.0
 DBLP_SEARCH_JITTER_MIN_SECONDS = 0.5
 DBLP_SEARCH_JITTER_MAX_SECONDS = 2.5
+DOI_PATTERN = re.compile(r"^10\.[0-9.]+/[^\s]+$")
+DOI_TRAILING_PUNCTUATION = ".,;:)]}>\"'"
 
 
 def init_log():
@@ -936,8 +938,8 @@ def _extract_doi_from_ee(ee: str) -> str:
         if ee.lower().startswith(prefix.lower()):
             doi = ee[len(prefix):].strip()
             doi_cleaned = doi.split("?", 1)[0].split("#", 1)[0]
-            doi = doi_cleaned.rstrip(".,;:)]}>\"'")
-            if re.match(r"^10\.[0-9.]+/[^\s]+$", doi):
+            doi = doi_cleaned.rstrip(DOI_TRAILING_PUNCTUATION)
+            if DOI_PATTERN.match(doi):
                 return doi
     return ""
 

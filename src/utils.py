@@ -935,9 +935,9 @@ def _extract_doi_from_ee(ee: str) -> str:
     for prefix in doi_prefixes:
         if ee.lower().startswith(prefix.lower()):
             doi = ee[len(prefix):].strip()
-            doi = doi.split("?", 1)[0].split("#", 1)[0].rstrip(".,;:)]}>\"'")
-            # 简单校验：DOI 通常以 10. 开头
-            if doi.startswith("10.") and re.match(r"^10\.\S+/\S+$", doi):
+            doi_without_params = doi.split("?", 1)[0].split("#", 1)[0]
+            doi = doi_without_params.rstrip(".,;:)]}>\"'")
+            if re.match(r"^10\.\S+/\S+$", doi):
                 return doi
     return ""
 

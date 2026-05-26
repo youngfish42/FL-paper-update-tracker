@@ -891,15 +891,11 @@ def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.
             if doi_elem is not None and doi_elem.text:
                 doi = doi_elem.text.strip()
 
-            # 2. 若 <doi> 不存在，尝试从 <ee> 中提取 https://doi.org/... 链接
+            # 2. 若 <doi> 不存在，尝试从 <ee> 中提取 DOI
             if not doi:
                 ee_elem = record.find("ee")
                 if ee_elem is not None and ee_elem.text:
-                    ee = ee_elem.text.strip()
-                    if ee.startswith("https://doi.org/"):
-                        doi = ee[len("https://doi.org/"):].strip()
-                    elif ee.startswith("http://doi.org/"):
-                        doi = ee[len("http://doi.org/"):].strip()
+                    doi = _extract_doi_from_ee(ee_elem.text.strip())
 
             if doi:
                 return doi, api_title, last_request_time
@@ -939,8 +935,9 @@ def _extract_doi_from_ee(ee: str) -> str:
     for prefix in doi_prefixes:
         if ee.lower().startswith(prefix.lower()):
             doi = ee[len(prefix):].strip()
+            doi = doi.split("?", 1)[0].split("#", 1)[0].rstrip(".,;:)]}>\"'")
             # 简单校验：DOI 通常以 10. 开头
-            if doi.startswith("10."):
+            if doi.startswith("10.") and re.match(r"^10\.\S+/\S+$", doi):
                 return doi
     return ""
 

@@ -863,15 +863,18 @@
 #### TPAMI
 
 - A Bayesian Framework for Clustered Federated Learning. [[PUB](https://doi.org/10.1109/TPAMI.2025.3637562)]
+- A Personalized and Privacy-Preserving Federated Transformer Framework for Multilingual Sentiment Analysis. [[PUB](https://doi.org/10.1109/TPAMI.2026.3663617)]
 - Adaptive Batch Size Time Evolving Stochastic Gradient Descent for Federated Learning. [[PUB](https://doi.org/10.1109/TPAMI.2025.3610169)]
 - Communication-Efficient Federated Multi-View Clustering. [[PUB](https://doi.org/10.1109/TPAMI.2025.3601533)]
 - Decentralized Federated Learning With Distributed Aggregation Weight Optimization. [[PUB](https://doi.org/10.1109/TPAMI.2025.3640709)]
 - Exploring the Vulnerabilities of Federated Learning: A Deep Dive Into Gradient Inversion Attacks. [[PUB](https://doi.org/10.1109/TPAMI.2025.3646639)]
 - FedFask: Fast Sketching Distributed PCA for Large-Scale Federated Data. [[PUB](https://doi.org/10.1109/TPAMI.2025.3639635)]
+- Learning From Each Other: Generalized Federated Incremental Semantic Segmentation. [[PUB](https://doi.org/10.1109/TPAMI.2026.3664293)]
 - Sample-Level Prototypical Federated Learning. [[PUB](https://doi.org/10.1109/TPAMI.2025.3612302)]
 - Slack Federated Adversarial Training. [[PUB](https://doi.org/10.1109/TPAMI.2025.3646649)]
 - Toward Understanding Generalization and Stability Gaps Between Centralized and Decentralized Federated Learning. [[PUB](https://doi.org/10.1109/TPAMI.2025.3647762)]
 - Efficient and Effective Weight-Ensembling Mixture of Experts for Multi-Task Model Merging. [[PUB](https://doi.org/10.1109/TPAMI.2025.3629605)]
+- Robust Trusted Conflictive Multiview Collaborative Contrastive Learning. [[PUB](https://doi.org/10.1109/TPAMI.2026.3663788)]
 
 ### 2025
 

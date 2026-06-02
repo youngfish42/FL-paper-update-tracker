@@ -40,7 +40,7 @@ In `dev` mode the script will:
 - Print logs to stdout
 - **Not** write to `GITHUB_ENV`
 
-You can inspect `aggregated_msg` and `msg` in the logs to preview the issue content.
+You can inspect `topic_new_items` and `msg` in the logs to preview the issue content.
 
 Additional CLI flags:
 - `--primary_only` — Run in two-phase mode: primary keyword scans all venues first, then secondary keywords only scan venues where new papers were found. This mimics the automatic cron/push behavior.
@@ -234,9 +234,7 @@ python scripts/fetch_related_code.py --retry-failed
 
 ### Change the Message Format
 
-Edit `src/utils.py` → `get_msg`. Keep the `aggregated` parameter behavior intact:
-- `aggregated=True` → returns only the venue heading with `[+N]` count.
-- `aggregated=False` → returns the heading plus the unordered paper list.
+Edit `src/utils.py` → `get_msg`. The function is called from `src/main.py` after merging papers by venue (`name_topic`). Each venue appears once in the issue body, with the heading plus the full paper list.
 
 ### Change the Year Window
 

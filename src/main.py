@@ -59,11 +59,15 @@ class Scaffold:
         queries = cfg["dblp"]["queries"]
         mails = cfg["dblp"].get("mails", [])
         contact_email = mails[0] if mails else ""
-        aggregated_msg = ""
         msg = ""
         flag = False
         active_topics = []  # 收集本次有新增论文的 topic 简称
         active_queries = []  # 收集 primary keyword 下发现有新论文的 query
+
+        # 按 venue (name_topic) 收集新论文，用于合并生成消息
+        topic_new_items = {}      # name_topic -> list of new items
+        topic_first_topic = {}    # name_topic -> first full topic string (for link)
+        topic_order = []          # name_topic 首次出现的顺序
 
         logger.info(f"keywords: {keywords}, queries: {queries}")
 
@@ -81,7 +85,7 @@ class Scaffold:
 
         def _process_topic(keyword: str, query: str) -> int:
             """处理单个 keyword + query 组合，返回新论文数量。"""
-            nonlocal aggregated_msg, msg, flag, active_topics
+            nonlocal flag, active_topics
             encoded_keyword = urllib.parse.quote(keyword, safe='')
             encoded_query = urllib.parse.quote(query, safe='')
             topic = f"{encoded_keyword}%20{encoded_query}"
@@ -148,16 +152,33 @@ class Scaffold:
             if len(new_items) > 0:
                 flag = True
 
-            # only when new items >0 in this topic we creat the msg
+            # 按 venue (name_topic) 归并新论文，用于后续统一生成消息
             if len(new_items) > 0:
-                aggregated_msg += get_msg(new_items, topic, aggregated=True)
-                msg += get_msg(new_items, topic)
+                string_topic = urllib.parse.unquote(topic)
+                name_topic = string_topic.split(":")[-2]
+                if name_topic not in topic_new_items:
+                    topic_new_items[name_topic] = []
+                    topic_first_topic[name_topic] = topic
+                    topic_order.append(name_topic)
+
+                # 去重追加（理论上 global_seen 已防止跨 keyword 重复，此处保留保险）
+                existing_ee = {item.get("ee", "") for item in topic_new_items[name_topic] if item.get("ee", "")}
+                existing_title = {item.get("title", "").strip() for item in topic_new_items[name_topic] if item.get("title", "")}
+                for item in new_items:
+                    ee = item.get("ee", "")
+                    title = item.get("title", "").strip()
+                    if (not ee or ee not in existing_ee) and (not title or title not in existing_title):
+                        topic_new_items[name_topic].append(item)
+                        if ee:
+                            existing_ee.add(ee)
+                        if title:
+                            existing_title.add(title)
+
                 # 收集该 topic 的简称，用于后续 Issue 标题（去重）
                 short_name = get_topic_short_name(topic)
                 if short_name not in active_topics:
                     active_topics.append(short_name)
-            logger.info(f"aggregated_msg: {aggregated_msg}")
-            logger.info(f"msg: {msg}")
+            logger.info(f"topic_new_items: {topic_new_items}")
 
             return len(new_items)
 
@@ -181,18 +202,23 @@ class Scaffold:
         # save cache
         yaml.safe_dump(dblp_cache, open(cache_path, "w", encoding="utf-8"), sort_keys=False, indent=2)
 
+        # 统一生成合并后的消息：同一 venue (name_topic) 的论文合并为一个区块
+        for name_topic in topic_order:
+            items = topic_new_items[name_topic]
+            first_topic = topic_first_topic[name_topic]
+            msg += get_msg(items, first_topic)
+
         if env == "prod":
             env_file = os.getenv("GITHUB_ENV")
             max_msg_len = 4096
-            combined_msg = aggregated_msg + msg
-            if len(combined_msg) > max_msg_len:
-                combined_msg = combined_msg[:max_msg_len - 3] + "..."
+            if len(msg) > max_msg_len:
+                msg = msg[:max_msg_len - 3] + "..."
 
             if flag:
                 # 生成 Issue 标题中的 topic 片段，控制长度不超过 80 字符
                 title_topics = format_title_topics(active_topics)
                 with open(env_file, "a") as f:
-                    f.write("MSG=$'" + combined_msg + "'\n")
+                    f.write("MSG=$'" + msg + "'\n")
                     f.write(f"ISSUE_TITLE_TOPICS={title_topics}\n")
 
 

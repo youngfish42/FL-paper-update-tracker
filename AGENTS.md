@@ -80,11 +80,11 @@
 
 ### 4. Message Formatting (`get_msg`)
 - Location: `src/utils.py`
-- `aggregated=True`: Returns only the topic heading with a `[+N]` count. Used to build the summary portion of the issue body.
-- `aggregated=False`: Returns the topic heading **plus** an unordered list of papers in the form:
+- `get_msg` generates a Markdown block for a single venue: heading with `[+N]` count plus an unordered list of papers in the form:
   ```markdown
   - {title}. [PUB]({ee})
   ```
+- `src/main.py` collects new papers from **all keyword + query combinations**, then **merges them by venue** (`name_topic`, e.g. `journals/ml`). Papers found under the same venue by different keywords are combined into a single block, deduplicated by `ee`/`title`, and counted together.
 - `get_topic_short_name` extracts the venue short name (the segment after the last `/`, or the whole name if no `/`) from a topic URL. Used for the Issue title.
 - `format_title_topics` joins short names with `, ` and truncates to ≤80 characters, appending `等N个` when truncated.
 

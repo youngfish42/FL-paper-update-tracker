@@ -848,12 +848,14 @@
 
 #### Machine Learning
 
+- Faster Adaptive Momentum-Based Federated Methods for Distributed Composition Optimization. [[PUB](https://doi.org/10.1007/s10994-025-06968-x)]
 - FDGReID: Federated Domain Generalization for Person Re-identification. [[PUB](https://doi.org/10.1007/s10994-025-06974-z)]
 - FedBNR: A Fully Global Federated Gaussian Process. [[PUB](https://doi.org/10.1007/s10994-025-06936-5)]
 - Federated Learning on Riemannian Manifolds with Differential Privacy. [[PUB](https://doi.org/10.1007/s10994-026-07018-w)]
 - Federated SHAP: Privacy-Preserving and Consistent Post-hoc Explainability in Federated Learning. [[PUB](https://doi.org/10.1007/s10994-025-06956-1)]
 - FedGES: A Federated Learning Approach for Bayesian Network Structure Learning. [[PUB](https://doi.org/10.1007/s10994-025-06939-2)]
 - Collaborative Multivariate Time Series Forecasting via Variable-Tailored Inter-temporal Graph and Adaptive-Smooth Frequency Fusion. [[PUB](https://doi.org/10.1007/s10994-025-06963-2)]
+- LLM-SocRec: Enhancing Graph-based Social Recommendation via Collaborative Large Language Models. [[PUB](https://doi.org/10.1007/s10994-026-07063-5)]
 - PC-MoE: memory-efficient and privacy-preserving collaborative training for Mixture-of-Experts LLMs. [[PUB](https://doi.org/10.1007/s10994-025-06901-2)]
 
 #### JMLR
@@ -2569,6 +2571,7 @@
 
 #### IJCV
 
+- FedPD++: Enhanced Federated Open-Set Recognition with Parameter Disentanglement. [[PUB](https://doi.org/10.1007/s11263-026-02861-9)] [[CODE](https://github.com/CUHK-AIM-Group/FedPD)]
 - Collaborative Temporal Consistency Learning for Point-supervised Natural Language Video Localization. [[PUB](https://doi.org/10.1007/s11263-026-02777-4)]
 - CoSurfGS: 3D Surface Gaussian Splatting with Collaborative Distributed Learning for Large-scale Scene Reconstruction. [[PUB](https://doi.org/10.1007/s11263-025-02627-9)]
 

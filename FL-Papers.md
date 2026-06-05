@@ -4292,6 +4292,8 @@
 
 #### TPDS
 
+- Decentralized Federated Learning With Period Gradient Tracking Over Time-Varying Networks. [[PUB](https://doi.org/10.1109/TPDS.2026.3685244)]
+- Enabling Client-Autonomous Training Optimizations for Efficient Federated Learning. [[PUB](https://doi.org/10.1109/TPDS.2026.3688096)]
 - FairGFL: Privacy-Preserving Fairness-Aware Federated Learning With Overlapping Subgraphs. [[PUB](https://doi.org/10.1109/TPDS.2025.3649863)]
 - FedAOP: Attention-Guided One-Shot Federated Pruning for Heterogeneous Edge Clients. [[PUB](https://doi.org/10.1109/TPDS.2026.3678517)]
 - Flexible Synchronization Control for Accurate and Efficient Federated Learning. [[PUB](https://doi.org/10.1109/TPDS.2026.3670216)]

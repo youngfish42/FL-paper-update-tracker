@@ -3506,6 +3506,7 @@
 #### SIGMOD
 
 - Federated Heavy Hitter Analytics with Local Differential Privacy. [[PUB](https://doi.org/10.1145/3709739)]
+- P 2 FedRec: Towards Privacy-Preserving and Personalized Federated Recommendation via Relationship Awareness. [[PUB](https://doi.org/10.1145/3769811)]
 - SecureXGB: A Secure and Efficient Multi-party Protocol for Vertical Federated XGBoost. [[PUB](https://doi.org/10.1145/3709723)]
 
 #### ICDE

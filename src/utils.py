@@ -633,20 +633,28 @@ def _fetch_openreview_abstract_single(forum_id: str, last_request_time: float,
 
 
 def _batch_fetch_openreview_abstracts(forum_ids, min_interval: float = 0.5,
-                                      chunk: int = 100, max_retries: int = 3):
+                                      chunk: int = 100, max_retries: int = 3,
+                                      enable_single_fallback: bool = True):
     """批量获取 OpenReview abstract。
 
     OpenReview v2 (`api2.openreview.net/notes?ids=A,B,C`) 支持一次拉取多个 note，
-    单批建议 ≤100 个（URL 长度限制）。对 v2 仍未拿到的 id，再走 v1 单条兜底。
+    单批建议 ≤100 个（URL 长度限制）。对 v2 仍未拿到的 id，再走 v1/v2 单条兜底。
 
     Args:
         forum_ids: forum id 列表（可能包含重复，已去重）。
         min_interval: 两次请求最小间隔（秒）。
         chunk: 单次批量大小（默认 100）。
         max_retries: 单批最大重试次数。
+        enable_single_fallback: 是否在 v2 批量后启用 v1/v2 单条兜底，默认 True。
+            设为 False 可避免在 OpenReview-only 场景中触发限速。
 
     Returns:
         dict[forum_id] -> abstract（空串表示未拿到）。
+
+    Notes:
+        OpenReview 中 forum_id 通常等于主 note.id，但理论上一个 forum 可包含多个
+        note。批量阶段同时把结果写入 note.id 与 note.forum 两个 key，避免 schema
+        微调时键不一致导致全部判 miss。
     """
     result = {fid: "" for fid in dict.fromkeys(forum_ids) if fid}
     if not result:
@@ -673,11 +681,16 @@ def _batch_fetch_openreview_abstracts(forum_ids, min_interval: float = 0.5,
                 notes = resp.json().get("notes", []) or []
                 for note in notes:
                     nid = note.get("id")
-                    if not nid:
-                        continue
+                    forum = note.get("forum") or nid
                     abs_val = _or_field(note.get("content", {}) or {}, "abstract")
-                    if isinstance(abs_val, str) and abs_val.strip():
-                        result[nid] = clean_abstract(abs_val)
+                    if not isinstance(abs_val, str) or not abs_val.strip():
+                        continue
+                    cleaned = clean_abstract(abs_val)
+                    # 双 key 对齐：note.id 与 note.forum 都尝试落键，避免 schema
+                    # 偏差导致 result[fid] 始终为空。
+                    for k in {nid, forum}:
+                        if k and k in result:
+                            result[k] = cleaned
                 break
             except requests.exceptions.Timeout:
                 logger.warning(f"OpenReview batch timeout (chunk {i}), attempt {attempt}")
@@ -688,11 +701,15 @@ def _batch_fetch_openreview_abstracts(forum_ids, min_interval: float = 0.5,
                 if attempt < max_retries:
                     _sleep_for_retry("OpenReview batch failure", attempt)
 
-    # 阶段 2：对仍空的 id 走 v1/v2 单条兜底
+    if not enable_single_fallback:
+        return result
+
+    # 阶段 2：对仍空的 id 走 v1/v2 单条兜底；复用阶段 1 的 last_request_time，
+    # 防止紧接着的第一次单条请求不等待直接打爆 OpenReview。
     missing = [fid for fid, abs_ in result.items() if not abs_]
     if missing:
         logger.info(f"OpenReview batch missed {len(missing)} abstracts; falling back to single-note API.")
-    last_single = 0.0
+    last_single = last_request_time
     for fid in missing:
         abs_, last_single = _fetch_openreview_abstract_single(
             fid, last_single, min_interval=min_interval, max_retries=max_retries
@@ -704,7 +721,8 @@ def _batch_fetch_openreview_abstracts(forum_ids, min_interval: float = 0.5,
 
 
 def _prefill_openreview_abstracts(papers, min_interval: float = 0.5, chunk: int = 100,
-                                  max_retries: int = 3):
+                                  max_retries: int = 3,
+                                  enable_single_fallback: bool = True):
     """在通用 abstract 抓取前，先用 OpenReview API 批量预填 ee 指向 openreview.net 的论文。
 
     OpenReview 是 ICLR / NeurIPS 等会议论文最权威的摘要来源，命中率远高于
@@ -715,6 +733,7 @@ def _prefill_openreview_abstracts(papers, min_interval: float = 0.5, chunk: int 
         min_interval: OpenReview API 调用最小间隔（秒）。
         chunk: v2 批量请求单批大小。
         max_retries: 单批最大重试次数。
+        enable_single_fallback: 是否在 v2 批量后启用 v1/v2 单条兜底，默认 True。
 
     Returns:
         (filled_count, attempted_count)
@@ -738,7 +757,8 @@ def _prefill_openreview_abstracts(papers, min_interval: float = 0.5, chunk: int 
     forum_ids = [fid for _, fid in targets]
     logger.info(f"OpenReview prefill: {len(forum_ids)} papers (chunk={chunk})")
     abs_map = _batch_fetch_openreview_abstracts(
-        forum_ids, min_interval=min_interval, chunk=chunk, max_retries=max_retries
+        forum_ids, min_interval=min_interval, chunk=chunk, max_retries=max_retries,
+        enable_single_fallback=enable_single_fallback,
     )
 
     filled = 0

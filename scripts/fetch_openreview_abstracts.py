@@ -2,40 +2,33 @@
 """仅针对 ee 指向 openreview.net 的论文做 abstract 专项补全（OpenReview-only）。
 
 与 scripts/fetch_abstracts.py 的区别：
-- 本脚本只走 OpenReview v2 批量 API（命中率最高、最快、最稳），不调用 Crossref/SS/arXiv/OpenAlex 兜底，
-  适用于已知论文来源为 OpenReview 的批量回填场景。
-- 仍然会自动抽取 related_code（GitHub 链接）并尝试 Chinese 翻译（若 DASHSCOPE_API_KEY 存在）。
+- 本脚本只走 OpenReview v2 批量 API（命中率最高、最快、最稳），默认不调用
+  Crossref/SS/arXiv/OpenAlex 兜底，适用于已知论文来源为 OpenReview 的批量回填场景。
+- 仍然会自动抽取 related_code（GitHub 链接）并尝试 Chinese 翻译
+  （若 DASHSCOPE_API_KEY 存在）。
 
 用法:
     python scripts/fetch_openreview_abstracts.py              # 处理所有年份的空 abstract
     python scripts/fetch_openreview_abstracts.py --year 2025  # 只处理指定年份
-    python scripts/fetch_openreview_abstracts.py --retry-failed  # 重试空 abstract（即使非 openreview 流程已尝试过）
+    python scripts/fetch_openreview_abstracts.py --retry-failed  # 重试空 abstract
+    python scripts/fetch_openreview_abstracts.py --enable-fallback  # 启用 v1/v2 单条兜底
 """
 
 import argparse
-import sys
-import datetime
+import os
 import shutil
+import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-import utils  # noqa: E402
+import yaml  # noqa: E402
+from loguru import logger  # noqa: E402
+
 from utils import (  # noqa: E402
     _prefill_openreview_abstracts,
     translate_abstracts_for_papers,
-    extract_github_links,
 )
-from loguru import logger
-import yaml
-import os
-
-# 关闭 v1/v2 单条兜底（容易触发限速 / 长时间挂起），本脚本默认只走 v2 批量。
-# 可通过 --enable-fallback 在 CLI 中开启。
-def _disable_single_fallback(*args, **kwargs):
-    return None, kwargs.get("last_request_time", 0.0) if kwargs else 0.0
-_ORIGINAL_SINGLE = utils._fetch_openreview_abstract_single
-utils._fetch_openreview_abstract_single = _disable_single_fallback
 
 try:
     from dotenv import load_dotenv
@@ -58,9 +51,6 @@ def save_yaml(path: Path, data):
 
 def run(year: str = "all", retry_failed: bool = False,
         enable_fallback: bool = False) -> None:
-    if enable_fallback:
-        utils._fetch_openreview_abstract_single = _ORIGINAL_SINGLE
-        logger.info("Single-note fallback ENABLED (v1/v2 per-id queries).")
     project_root = Path(__file__).parent.parent.resolve()
     cache_path = project_root / "cached" / "dblp.yaml"
     backup_path = project_root / "cached" / "dblp.yaml.bak"
@@ -72,6 +62,9 @@ def run(year: str = "all", retry_failed: bool = False,
                format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}")
     logger.add(str(log_path), level="DEBUG", encoding="utf-8",
                format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}")
+
+    if enable_fallback:
+        logger.info("Single-note fallback ENABLED (v1/v2 per-id queries).")
 
     dblp_cache = load_yaml(cache_path)
     if not dblp_cache:
@@ -106,26 +99,19 @@ def run(year: str = "all", retry_failed: bool = False,
     if cache_path.exists():
         shutil.copy2(cache_path, backup_path)
 
-    # 阶段 1：OpenReview 批量预填 + related_code 抽取
+    # 阶段 1：OpenReview 批量预填 + related_code 抽取（在 _prefill 内已完成）
     try:
         filled, attempted = _prefill_openreview_abstracts(
-            targets, min_interval=0.5, chunk=100, max_retries=3
+            targets, min_interval=0.5, chunk=100, max_retries=3,
+            enable_single_fallback=enable_fallback,
         )
         logger.info(f"Prefill result: filled {filled}/{attempted}")
     except Exception as e:
         logger.warning(f"Prefill aborted by exception: {e}")
 
-    # 立即落盘一次（即便后续翻译/抽取失败也保住成果）
+    # 立即落盘一次（即便后续翻译失败也保住成果）
     save_yaml(cache_path, dblp_cache)
     logger.info(f"Cache checkpoint saved after prefill -> {cache_path}")
-
-    # 双保险：对已经有 abstract 但 related_code 仍为空的，再补一次抽取
-    for item in targets:
-        abs_text = (item.get("abstract") or "").strip()
-        if abs_text and not (item.get("related_code") or "").strip():
-            link = extract_github_links(abs_text)
-            if link:
-                item["related_code"] = link
 
     # 阶段 2：中文翻译（若环境变量存在）
     api_key = os.getenv("DASHSCOPE_API_KEY", "")

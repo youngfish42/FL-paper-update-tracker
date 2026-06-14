@@ -127,11 +127,12 @@ dblp:
 
 ### Backfilling Abstracts for Existing Papers
 - A standalone script `scripts/fetch_abstracts.py` is provided to backfill `abstract` fields for papers already in `cached/dblp.yaml`.
-- It queries four APIs in order until a non-empty abstract is found:
-  1. **Crossref** (primary) — by DOI, with `contact_email` in the User-Agent header.
-  2. **Semantic Scholar** (fallback) — by DOI.
-  3. **arXiv** (fallback) — by title via `export.arxiv.org/api/query`, parsing Atom XML. arXiv enforces a minimum 3-second interval between requests.
-  4. **OpenAlex** (final fallback) — by DOI via `api.openalex.org/works/doi:...`. OpenAlex returns `abstract_inverted_index`, which is reconstructed into plain text. A `mailto` parameter is appended when `contact_email` is available.
+- It queries five APIs in order until a non-empty abstract is found:
+  1. **OpenReview** (priority, batch-only for OpenReview-source papers) — Inside `fetch_abstract_for_papers()` a *prefill stage* (`_prefill_openreview_abstracts`) scans every paper whose `ee` contains `openreview.net`, extracts the forum id (`forum?id=XXX` / `pdf?id=XXX`), and asks the OpenReview **v2 batch endpoint** `api2.openreview.net/notes?ids=A,B,C` (≤100 ids per call). Any id missed by v2 falls back to per-id queries against v2 then v1 (`api.openreview.net/notes?forum=XXX`). Both API content schemas are handled (`v1` plain string vs `v2` `{value: "..."}`). Inspired by the [PaperVault](https://github.com/youngfish42/PaperVault) project.
+  2. **Crossref** — by DOI, with `contact_email` in the User-Agent header.
+  3. **Semantic Scholar** — by DOI.
+  4. **arXiv** — by title via `export.arxiv.org/api/query`, parsing Atom XML. arXiv enforces a minimum 3-second interval between requests.
+  5. **OpenAlex** (final fallback) — by DOI via `api.openalex.org/works/doi:...`. OpenAlex returns `abstract_inverted_index`, which is reconstructed into plain text. A `mailto` parameter is appended when `contact_email` is available.
 - All queries use rate limiting, timeout handling (10s + exponential backoff), and automatic newline cleaning.
 - The cache is backed up to `cached/dblp.yaml.bak` before each overwrite; `*.bak` files are ignored by git (see `.gitignore`).
 - Usage:
@@ -144,7 +145,7 @@ dblp:
   python scripts/fetch_abstracts.py --retry-failed
   ```
 - **Automatic abstract fetching**: `src/main.py` already calls `fetch_abstract_for_papers()` for every batch of new papers before saving the cache, so newly discovered papers get their abstracts filled automatically during the daily GitHub Actions run.
-- **Automatic related code extraction**: Immediately after a non-empty English `abstract` is obtained, `extract_github_links()` scans the text for `https://github.com/<user>/<repo>` patterns and stores the first match in `related_code`. This happens inside `fetch_abstract_for_papers()` so new papers get their code links without extra steps.
+- **Automatic related code extraction**: Immediately after a non-empty English `abstract` is obtained, `extract_github_links()` scans the text for `https://github.com/<user>/<repo>` patterns and stores the first match in `related_code`. This happens inside `fetch_abstract_for_papers()` (both in the OpenReview prefill stage and the per-paper fallback loop), so new papers get their code links without extra steps.
 - **Automatic Chinese translation**: After a non-empty English `abstract` is obtained, `translate_abstracts_for_papers()` calls **Qwen-MT-plus** (via the Alibaba Cloud Bailian OpenAI-compatible API) to translate the abstract into Chinese, storing it as `abstract_cn`. Translation is skipped if the `DASHSCOPE_API_KEY` environment variable is missing, and individual translation failures do not block the pipeline.
 
 ### Backfilling DOIs for Existing Papers

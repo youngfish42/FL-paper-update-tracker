@@ -568,6 +568,214 @@ def _fetch_openalex_abstract(doi: str, last_request_time: float, min_interval: f
     return None, None, last_request_time
 
 
+OPENREVIEW_FORUM_ID_RE = re.compile(r"(?:forum|pdf)\?id=([A-Za-z0-9_\-]+)")
+
+
+def _extract_openreview_forum_id(url: str) -> str:
+    """从 openreview.net 链接（forum?id=XXX 或 pdf?id=XXX）中提取 forum id。"""
+    if not url:
+        return ""
+    match = OPENREVIEW_FORUM_ID_RE.search(url)
+    return match.group(1) if match else ""
+
+
+def _or_field(content, key):
+    """提取 OpenReview note.content 中的字段，兼容 v1 平铺与 v2 {"value": ...} 两种结构。
+
+    - v1 (api.openreview.net):  content = {"abstract": "...", "title": "..."}
+    - v2 (api2.openreview.net): content = {"abstract": {"value": "..."}, ...}
+    若 key 缺失则返回 None。
+    """
+    if not isinstance(content, dict):
+        return None
+    val = content.get(key)
+    if isinstance(val, dict) and "value" in val:
+        return val.get("value")
+    return val
+
+
+def _fetch_openreview_abstract_single(forum_id: str, last_request_time: float,
+                                      min_interval: float = 0.5, max_retries: int = 3):
+    """单条获取 OpenReview abstract，先试 v2 端点，失败再回退 v1。
+
+    Returns: (abstract_or_None, last_request_time)
+    """
+    if not forum_id:
+        return None, last_request_time
+    for api_root in ("https://api2.openreview.net", "https://api.openreview.net"):
+        url = f"{api_root}/notes?forum={forum_id}"
+        for attempt in range(1, max_retries + 1):
+            try:
+                resp, last_request_time = _rate_limited_request(
+                    url, last_request_time, min_interval=min_interval, timeout=15
+                )
+                if resp.status_code in (404, 403):
+                    break  # 本端点确认无此条，跳到下一个端点
+                if resp.status_code == 429:
+                    _sleep_for_retry("Rate limited (OpenReview)", attempt, response=resp)
+                    continue
+                resp.raise_for_status()
+                notes = resp.json().get("notes", []) or []
+                for note in notes:
+                    abs_val = _or_field(note.get("content", {}) or {}, "abstract")
+                    if isinstance(abs_val, str) and abs_val.strip():
+                        return clean_abstract(abs_val), last_request_time
+                break  # 当前端点返回成功但无 abstract，去下一个端点
+            except requests.exceptions.Timeout:
+                logger.warning(f"OpenReview timeout for {forum_id} @ {api_root}, attempt {attempt}")
+                if attempt < max_retries:
+                    _sleep_for_retry("OpenReview timeout", attempt)
+            except Exception as e:
+                logger.warning(f"OpenReview attempt {attempt} failed for {forum_id} @ {api_root}: {e}")
+                if attempt < max_retries:
+                    _sleep_for_retry("OpenReview failure", attempt)
+    return None, last_request_time
+
+
+def _batch_fetch_openreview_abstracts(forum_ids, min_interval: float = 0.5,
+                                      chunk: int = 100, max_retries: int = 3,
+                                      enable_single_fallback: bool = True):
+    """批量获取 OpenReview abstract。
+
+    OpenReview v2 (`api2.openreview.net/notes?ids=A,B,C`) 支持一次拉取多个 note，
+    单批建议 ≤100 个（URL 长度限制）。对 v2 仍未拿到的 id，再走 v1/v2 单条兜底。
+
+    Args:
+        forum_ids: forum id 列表（可能包含重复，已去重）。
+        min_interval: 两次请求最小间隔（秒）。
+        chunk: 单次批量大小（默认 100）。
+        max_retries: 单批最大重试次数。
+        enable_single_fallback: 是否在 v2 批量后启用 v1/v2 单条兜底，默认 True。
+            设为 False 可避免在 OpenReview-only 场景中触发限速。
+
+    Returns:
+        dict[forum_id] -> abstract（空串表示未拿到）。
+
+    Notes:
+        OpenReview 中 forum_id 通常等于主 note.id，但理论上一个 forum 可包含多个
+        note。批量阶段同时把结果写入 note.id 与 note.forum 两个 key，避免 schema
+        微调时键不一致导致全部判 miss。
+    """
+    result = {fid: "" for fid in dict.fromkeys(forum_ids) if fid}
+    if not result:
+        return result
+
+    pending = list(result.keys())
+    last_request_time = 0.0
+
+    # 阶段 1：v2 批量
+    for i in range(0, len(pending), chunk):
+        batch = pending[i:i + chunk]
+        ids_param = ",".join(batch)
+        url = f"https://api2.openreview.net/notes?ids={ids_param}"
+        for attempt in range(1, max_retries + 1):
+            try:
+                resp, last_request_time = _rate_limited_request(
+                    url, last_request_time, min_interval=min_interval, timeout=30
+                )
+                if resp.status_code == 429:
+                    _sleep_for_retry("Rate limited (OpenReview batch)", attempt, response=resp)
+                    continue
+                if resp.status_code != 200:
+                    break
+                notes = resp.json().get("notes", []) or []
+                for note in notes:
+                    nid = note.get("id")
+                    forum = note.get("forum") or nid
+                    abs_val = _or_field(note.get("content", {}) or {}, "abstract")
+                    if not isinstance(abs_val, str) or not abs_val.strip():
+                        continue
+                    cleaned = clean_abstract(abs_val)
+                    # 双 key 对齐：note.id 与 note.forum 都尝试落键，避免 schema
+                    # 偏差导致 result[fid] 始终为空。
+                    for k in {nid, forum}:
+                        if k and k in result:
+                            result[k] = cleaned
+                break
+            except requests.exceptions.Timeout:
+                logger.warning(f"OpenReview batch timeout (chunk {i}), attempt {attempt}")
+                if attempt < max_retries:
+                    _sleep_for_retry("OpenReview batch timeout", attempt)
+            except Exception as e:
+                logger.warning(f"OpenReview batch attempt {attempt} failed: {e}")
+                if attempt < max_retries:
+                    _sleep_for_retry("OpenReview batch failure", attempt)
+
+    if not enable_single_fallback:
+        return result
+
+    # 阶段 2：对仍空的 id 走 v1/v2 单条兜底；复用阶段 1 的 last_request_time，
+    # 防止紧接着的第一次单条请求不等待直接打爆 OpenReview。
+    missing = [fid for fid, abs_ in result.items() if not abs_]
+    if missing:
+        logger.info(f"OpenReview batch missed {len(missing)} abstracts; falling back to single-note API.")
+    last_single = last_request_time
+    for fid in missing:
+        abs_, last_single = _fetch_openreview_abstract_single(
+            fid, last_single, min_interval=min_interval, max_retries=max_retries
+        )
+        if abs_:
+            result[fid] = abs_
+
+    return result
+
+
+def _prefill_openreview_abstracts(papers, min_interval: float = 0.5, chunk: int = 100,
+                                  max_retries: int = 3,
+                                  enable_single_fallback: bool = True):
+    """在通用 abstract 抓取前，先用 OpenReview API 批量预填 ee 指向 openreview.net 的论文。
+
+    OpenReview 是 ICLR / NeurIPS 等会议论文最权威的摘要来源，命中率远高于
+    Crossref / Semantic Scholar / arXiv / OpenAlex。先批量预填可大幅减少后续兜底调用。
+
+    Args:
+        papers: 论文 dict 列表（原地修改）。
+        min_interval: OpenReview API 调用最小间隔（秒）。
+        chunk: v2 批量请求单批大小。
+        max_retries: 单批最大重试次数。
+        enable_single_fallback: 是否在 v2 批量后启用 v1/v2 单条兜底，默认 True。
+
+    Returns:
+        (filled_count, attempted_count)
+    """
+    # 收集待预填条目：ee 指向 openreview.net 且尚无 abstract
+    targets = []  # [(paper, forum_id), ...]
+    for paper in papers:
+        ee = (paper.get("ee") or "").strip()
+        if "openreview.net" not in ee:
+            continue
+        if (paper.get("abstract") or "").strip():
+            continue
+        fid = _extract_openreview_forum_id(ee)
+        if not fid:
+            continue
+        targets.append((paper, fid))
+
+    if not targets:
+        return 0, 0
+
+    forum_ids = [fid for _, fid in targets]
+    logger.info(f"OpenReview prefill: {len(forum_ids)} papers (chunk={chunk})")
+    abs_map = _batch_fetch_openreview_abstracts(
+        forum_ids, min_interval=min_interval, chunk=chunk, max_retries=max_retries,
+        enable_single_fallback=enable_single_fallback,
+    )
+
+    filled = 0
+    for paper, fid in targets:
+        abs_ = (abs_map.get(fid) or "").strip()
+        if not abs_ or len(abs_) < 5:
+            continue
+        paper["abstract"] = abs_
+        related = extract_github_links(abs_)
+        paper["related_code"] = related
+        if related:
+            logger.info(f"  -> OpenReview prefill OK + code link: {fid}")
+        filled += 1
+    logger.info(f"OpenReview prefill done: filled {filled}/{len(targets)} via api2.openreview.net")
+    return filled, len(targets)
+
+
 def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email=""):
     """为论文列表批量获取 abstract。
 
@@ -579,7 +787,19 @@ def fetch_abstract_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_emai
 
     Returns:
         传入的 papers 列表（原地修改，为每个 dict 添加/更新 abstract 字段）。
+
+    Notes:
+        OpenReview 来源（ee 指向 openreview.net）的论文会先走 OpenReview v2 批量 API
+        预填 abstract，命中率高且成本极低；未命中再走 Crossref → Semantic Scholar →
+        arXiv → OpenAlex 四级兜底链。
     """
+    # 阶段 0：OpenReview 批量预填（ICLR/NeurIPS 等会议命中率最高）
+    try:
+        _prefill_openreview_abstracts(papers, min_interval=0.5, chunk=100, max_retries=3)
+    except Exception as e:
+        # 预填失败不影响后续兜底流程
+        logger.warning(f"OpenReview prefill skipped due to error: {e}")
+
     last_request_time = {
         "crossref": 0.0,
         "semanticscholar": 0.0,

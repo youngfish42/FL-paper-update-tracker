@@ -2,6 +2,13 @@
 """
 为 cached/dblp.yaml 中的论文补充 abstract 字段。
 
+数据源优先级：
+    1. OpenReview v2 批量 API（针对 ee 指向 openreview.net 的论文，命中率最高，批量极快）
+    2. Crossref（按 DOI）
+    3. Semantic Scholar（按 DOI）
+    4. arXiv（按 title）
+    5. OpenAlex（按 DOI）
+
 用法:
     python scripts/fetch_abstracts.py              # 默认处理当前年度论文
     python scripts/fetch_abstracts.py --year all   # 处理所有年份

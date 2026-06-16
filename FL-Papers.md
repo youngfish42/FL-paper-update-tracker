@@ -880,6 +880,22 @@
 
 ### 2025
 
+#### NeurIPS
+
+- A Fair Federated Learning Method for Handling Client Participation Probability Inconsistencies in Heterogeneous Environments. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/dcc0ac74ac8b95dc1939804acce0317d-Abstract-Conference.html)]
+- Accelerated Vertical Federated Adversarial Learning through Decoupling Layer-Wise Dependencies. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/d8ace30c68b085556ccce04ed4ae4ebb-Abstract-Conference.html)]
+- Efficient Adaptive Federated Optimization. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/fab71c08b15508fd6c435e59b0e82b68-Abstract-Conference.html)]
+- Federated Multi-armed Bandits with Efficient Bit-Level Communications. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/e47f66608282428a17304176e5445023-Abstract-Conference.html)]
+- FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/eda9523faa5e7191aee1c2eaff669716-Abstract-Conference.html)] [[CODE](https://github.com/Little0o0/FedRTS)]
+- FLiP: Towards Comprehensive and Reliable Evaluation of Federated Prompt Learning. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/e2994aef66cb506e4a3b9be33ab41def-Abstract-Datasets_and_Benchmarks_Track.html)]
+- MARS: A Malignity-Aware Backdoor Defense in Federated Learning. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/e3d801d6b59ef6810183766194f8681b-Abstract-Conference.html)]
+- Mitigating the Privacy-Utility Trade-off in Decentralized Federated Learning via f-Differential Privacy. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/f6913c4fd14f608077a4145f2744ec89-Abstract-Conference.html)]
+- NormFit: A Lightweight Solution for Few-Shot Federated Learning with Non-IID Data. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/f2e615059e95926e6a5b8bfb20971e83-Abstract-Conference.html)]
+- Sharp Gaussian approximations for Decentralized Federated Learning. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/e6a11b618402617342f38f5b49430937-Abstract-Conference.html)]
+- DETree: DEtecting Human-AI Collaborative Texts via Tree-Structured Hierarchical Representation Learning. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/d6f8517fceeca1e2cd61721dff786c14-Abstract-Conference.html)] [[CODE](https://github.com/heyongxin233/DETree)]
+- Optimal Spectral Transitions in High-Dimensional Multi-Index Models. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/ffcced24969ba529256ed7d3014dc615-Abstract-Conference.html)]
+- Towards Minimizing Feature Drift in Model Merging: Layer-wise Task Vector Fusion for Adaptive Knowledge Integration. [[PUB](http://papers.nips.cc/paper_files/paper/2025/hash/fbb4f2269267de23e0240e1c01242981-Abstract-Conference.html)]
+
 #### ICML
 
 - An Effective and Secure Federated Multi-View Clustering Method with Information-Theoretic Perspective. [[PUB](https://openreview.net/forum?id=eLkkXaPFEP)]

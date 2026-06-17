@@ -67936,6 +67936,73 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
     将云端的黑盒 LLM 与边缘设备上的轻量级小型语言模型（SLMs）相结合，实现低延迟、隐私友好的推理服务。用户个人数据及微调过程均保留在本地设备上，而云端
     LLM 则提供通用知识，且无需暴露其专有参数。此外，Floe 还采用了一种面向异构性的 LoRA 适配策略，以确保在不同硬件平台上都能高效部署；同时，通过基于
     logits 的融合机制，实现了边缘与云端模型之间的实时协同。实验结果表明，在满足实时性约束的前提下，与基线方法相比，Floe 在提升用户隐私与个性化水平的同时，显著改善了模型性能并降低了边缘设备上的推理延迟。
+- author: Cheng-Wei Ching, Xin Chen 0084, Taehwan Kim 0012, Jian-Jhih Kuo, Dilma Da
+    Silva, Liting Hu
+  title: 'Totoro+: An Adaptive and Scalable Edge Federated Learning System.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/ChingCKKSH26
+  doi: 10.1109/TPDS.2026.3696917
+  ee: https://doi.org/10.1109/TPDS.2026.3696917
+  url: https://dblp.org/rec/journals/tpds/ChingCKKSH26
+  abstract: 'Federated Learning (FL) is an emerging distributed machine learning (ML)
+    technique that enables in-situ model training and inference on decentralized edge
+    devices. We propose Totoro$^+$+, a novel scalable FL system that enables massive
+    FL applications to run simultaneously on edge networks. The key insight is to
+    explore a distributed hash table (DHT)-based peer-to-peer (P2P) model to re-architect
+    the centralized FL system design into a fully decentralized one. In contrast to
+    previous studies where many FL applications shared one centralized parameter server,
+    Totoro$^+$+ assigns a dedicated parameter server to each application. Any edge
+    node can act as any application’s coordinator, aggregator, client selector, worker
+    (participant device), or any combination of the above, thereby radically improving
+    scalability and adaptivity. Totoro$^+$+ introduces three innovations to realize
+    its design: a locality-aware P2P multi-ring structure, a publish/subscribe-based
+    forest abstraction, and a game-theoretic path planning model with a guarantee
+    of an $\epsilon$ε-approximate Nash equilibrium. Real-world experiments on 500
+    Amazon EC2 servers show that Totoro$^+$+ scales gracefully with the number of
+    FL applications and $N$N edge nodes speeds up the total training time by $1.2\times
+    -14.0\times$1.2×-14.0×, achieves $\mathcal {O}(\log N)$O(logN) hops for model
+    dissemination and gradient aggregation with millions of nodes, and efficiently
+    adapts to the practical edge networks and churns.'
+  related_code: ''
+  abstract_cn: 联邦学习（FL）是一种新兴的分布式机器学习技术，能够在去中心化的边缘设备上就地进行模型训练与推理。我们提出了 Totoro$^+$+，一个全新的可扩展联邦学习系统，支持海量联邦学习应用在边缘网络中同时运行。其核心思想是利用基于分布式哈希表（DHT）的对等网络（P2P）模型，将传统的集中式联邦学习架构重构为完全去中心化的设计。与以往多应用共用单个中央参数服务器的做法不同，Totoro$^+$+
+    为每个应用分配独立的参数服务器。任意边缘节点均可担任任一应用的协调者、聚合者、客户端选择器、工作节点（参与设备），或上述角色的任意组合，从而显著提升系统的可扩展性与自适应能力。Totoro$^+$+
+    在设计实现上引入了三项创新：一种面向局部性的 P2P 多环结构、一种基于发布/订阅的森林抽象，以及一种具有理论保证、可达 ε-近似纳什均衡的博弈论路径规划模型。在
+    500 台 Amazon EC2 服务器上的真实场景实验表明，Totoro$^+$+ 能够随联邦学习应用数量和边缘节点数 N 平滑扩展，使总训练时间加速 1.2
+    至 14.0 倍；在百万级节点规模下，模型分发与梯度聚合的跳数仅为 $\mathcal{O}(\log N)$；并能高效适配实际边缘网络环境及其动态变化。
+- author: Minh-Duong Nguyen, Quoc-Viet Pham, Dinh Thai Hoang, Diep N. Nguyen, Long
+    Tran-Thanh, Won-Joo Hwang
+  title: Exploiting Label-Aware Knowledge From Heterogeneous Clients for Hierarchical
+    Federated Learning.
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/NguyenPHNTH26
+  doi: 10.1109/TPDS.2026.3690206
+  ee: https://doi.org/10.1109/TPDS.2026.3690206
+  url: https://dblp.org/rec/journals/tpds/NguyenPHNTH26
+  abstract: 'In real-world applications, Federated Learning (FL) faces two challenges:
+    (1) scalability and (2) heterogeneous data. To address the first problem, we design
+    a novel FL framework named Full-stack FL (F2L). More specifically, F2L provides
+    a hierarchical network architecture, making extending the FL network accessible
+    without reconstructing the whole network system. Moreover, leveraging the advantages
+    of hierarchical network design, we propose a new Label-driven Knowledge Distillation
+    (LKD) technique at the centralized server to address the second problem. Unlike
+    the current knowledge distillation techniques, LKD is capable of training a student
+    model, which consists of good knowledge from all teachers’ models. Therefore,
+    our proposed algorithm can effectively extract the knowledge of the regions’ data
+    distribution (i.e., the regional aggregated models) to reduce the divergence between
+    clients’ models when operating under the FL system with non-independent identically
+    distributed data. Extensive experiment results reveal that: (i) our F2L method
+    can significantly improve the overall FL efficiency in all global distillations
+    (i.e., accuracy is $7-20\%$7-20% higher in non-IID settings), and (ii) F2L rapidly
+    achieves convergence as global distillation stages occur instead of increasing
+    on each communication cycle.'
+  related_code: ''
+  abstract_cn: 在实际应用中，联邦学习（FL）面临两大挑战：（1）可扩展性，以及（2）数据异构性。针对第一个问题，我们设计了一种名为“全栈联邦学习”（F2L）的新型联邦学习框架。具体而言，F2L采用分层网络架构，在无需重构整个系统的情况下即可实现联邦网络的灵活扩展。此外，基于分层网络设计的优势，我们在中心服务器端提出了一种新的标签驱动知识蒸馏（LKD）技术，以应对第二个问题。与现有知识蒸馏方法不同，LKD能够训练出一个学生模型，使其综合了所有教师模型的优良知识。因此，所提出的算法能够有效提取各区域数据分布的知识（即区域聚合模型），从而在非独立同分布（Non-IID）的数据环境下运行联邦学习时，降低客户端模型之间的差异。大量实验结果表明：（i）我们的F2L方法能够在所有全局知识蒸馏阶段显著提升联邦学习的整体性能（在Non-IID场景下，准确率提升7%–20%）；（ii）随着全局知识蒸馏阶段的推进，F2L能够快速收敛，而无需在每个通信周期内持续迭代。
 federate%20streamid%3Ajournals%2Ftocs%3A: []
 federate%20streamid%3Ajournals%2Ftos%3A:
 - author: Amina Chikhaoui, Laurent Lemarchand, Kamel Boukhalfa, Jalil Boukhobza

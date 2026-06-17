@@ -4315,11 +4315,13 @@
 
 - Decentralized Federated Learning With Period Gradient Tracking Over Time-Varying Networks. [[PUB](https://doi.org/10.1109/TPDS.2026.3685244)]
 - Enabling Client-Autonomous Training Optimizations for Efficient Federated Learning. [[PUB](https://doi.org/10.1109/TPDS.2026.3688096)]
+- Exploiting Label-Aware Knowledge From Heterogeneous Clients for Hierarchical Federated Learning. [[PUB](https://doi.org/10.1109/TPDS.2026.3690206)]
 - FairGFL: Privacy-Preserving Fairness-Aware Federated Learning With Overlapping Subgraphs. [[PUB](https://doi.org/10.1109/TPDS.2025.3649863)]
 - FedAOP: Attention-Guided One-Shot Federated Pruning for Heterogeneous Edge Clients. [[PUB](https://doi.org/10.1109/TPDS.2026.3678517)]
 - Flexible Synchronization Control for Accurate and Efficient Federated Learning. [[PUB](https://doi.org/10.1109/TPDS.2026.3670216)]
 - Floe: Federated Specialization for Real-Time LLM-SLM Inference. [[PUB](https://doi.org/10.1109/TPDS.2026.3665358)]
 - FLUXLog: A Federated Mixture-of-Experts Framework for Unified Log Anomaly Detection. [[PUB](https://doi.org/10.1109/TPDS.2025.3638693)]
+- Totoro+: An Adaptive and Scalable Edge Federated Learning System. [[PUB](https://doi.org/10.1109/TPDS.2026.3696917)]
 - Edge-End Heterogeneous Collaborative Learning by Prototype Selection and Edge Association. [[PUB](https://doi.org/10.1109/TPDS.2026.3678282)]
 - EdgeDup: Popularity-Aware Communication-Efficient Decentralized Edge Data Deduplication. [[PUB](https://doi.org/10.1109/TPDS.2025.3638945)]
 

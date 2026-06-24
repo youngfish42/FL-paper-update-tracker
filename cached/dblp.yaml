@@ -21011,6 +21011,225 @@ federate%20venue%3ANeurIPS%3A:
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/e47f66608282428a17304176e5445023-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangXWCQYG25
   abstract: ''
+- author: Javad Aliakbari, Johan Östman, Ashkan Panahi, Alexandre Graell i Amat
+  title: Subgraph Federated Learning via Spectral Methods.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/AliakbariOPA25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/aaf93e15b3475281dcbcb61ae3172992-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/AliakbariOPA25
+  abstract: ''
+- author: Shuangyi Chen, Yuanxin Guo, Yue Ju, Hardik Dalal, Zhongwen Zhu, Ashish Khisti
+  title: Robust Federated Finetuning of LLMs via Alternating Optimization of LoRA.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/ChenGJDZK25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/adf17e7346b6be4c2f2bb40de572e5bc-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ChenGJDZK25
+  abstract: ''
+- author: Xiuwen Fang, Mang Ye
+  title: Towards Robust Parameter-Efficient Fine-Tuning for Federated Learning.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/FangY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/cfcb1905d4acb46df42bfb5bf204bd6a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/FangY25
+  abstract: ''
+- author: Khiem Huynh, Malcolm Egan, Giovanni Neglia, Jean-Marie Gorce
+  title: Streaming Federated Learning with Markovian Data.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/HuynhENG25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/ba0dd55207ef557f6774bc85332f94a8-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/HuynhENG25
+  abstract: ''
+- author: Yuqi Jia, Minghong Fang, Hongbin Liu 0005, Jinghuai Zhang, Neil Gong 0001
+  title: Tracing Back the Malicious Clients in Poisoning Attacks to Federated Learning.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/JiaFLZG25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/a924b7178e5975dfed1de235f0b72973-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/JiaFLZG25
+  abstract: ''
+- author: Seanie Lee, Sangwoo Park, Dong Bok Lee, Dominik Wagner 0002, Haebin Seong,
+    Tobias Bocklet, Juho Lee 0001, Sung Ju Hwang
+  title: 'FedSVD: Adaptive Orthogonalization for Private Federated Learning with LoRA.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/LeePLWSBLH25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/ad922aa85d4027ff3502e8e5f406e828-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LeePLWSBLH25
+  abstract: ''
+- author: Qiaobo Li, Zhijie Chen, Arindam Banerjee 0001
+  title: Sketched Gaussian Mechanism for Private Federated Learning.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/LiCB25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/bef4c645dd0754c36c55b75af8c57216-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiCB25
+  abstract: ''
+- author: Yichen Li 0006, Yijing Shan, Yi Liu 0087, Haozhao Wang, Cheng Wang 0025,
+    Wei Wang, Yi Wang 0004, Ruixuan Li 0001
+  title: Efficient Knowledge Transfer in Federated Recommendation for Joint Venture
+    Ecosystem.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/LiSLWWWWL25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/b4f9b809750373d111728b8a5f649ece-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiSLWWWWL25
+  abstract: ''
+- author: Haoyuan Liang, Shilei Cao 0005, Guowen Li, Zhiyu Ye, Haohuan Fu, Juepeng
+    Zheng
+  title: 'SPFL: Sequential updates with Parallel aggregation for Enhanced Federated
+    Learning under Category and Domain Shifts.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/LiangCLYFZ25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/d18d944ad8c7e8f9c80dc1a8754f00d6-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiangCLYFZ25
+  abstract: ''
+- author: Zhuang Qi, Ying-Peng Tang, Lei Meng 0001, Han Yu 0001, Xiaoxiao Li, Xiangxu
+    Meng
+  title: Class-wise Balancing Data Replay for Federated Class-Incremental Learning.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/QiTMYLM25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/d611d06e3207330555fbc10810e70163-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/QiTMYLM25
+  abstract: ''
+- author: Wei Shen 0006, Weiqi Liu, Mingde Chen, Wenke Huang 0003, Mang Ye
+  title: 'MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic
+    Evaluation.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/ShenLCHY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/ba4b5a1a98545548ff45143ade817e8e-Abstract-Datasets_and_Benchmarks_Track.html
+  url: https://dblp.org/rec/conf/nips/ShenLCHY25
+  abstract: ''
+- author: Lingren Wang, Wenxuan Tu, Jiaxin Wang, Xiong Wang, Jieren Cheng, Jingxin
+    Liu 0006
+  title: 'FedIGL: Federated Invariant Graph Learning for Non-IID Graphs.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/WangTWWCL25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/aaec5deedd87dacd9f59c5842ab62964-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WangTWWCL25
+  abstract: ''
+- author: Ming Wen, Jiaqi Zhu, Yuedong Xu 0001, Yipeng Zhou, Dingding Han
+  title: Differentially Private Federated Low Rank Adaptation Beyond Fixed-Matrix.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/WenZXZH25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/a686ddca183f72ee9f3f04896eb11bcb-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WenZXZH25
+  abstract: 'Large language models (LLMs) typically require fine-tuning for domain-specific
+    tasks, and LoRA offers a computationally efficient approach by training low-rank
+    adapters. LoRA is also communication-efficient for federated LLMs when multiple
+    users collaboratively fine-tune a global LLM model without sharing their proprietary
+    raw data. However, even the transmission of local adapters between a server and
+    clients risks serious privacy leakage. Applying differential privacy (DP) to federated
+    LoRA encounters a dilemma: adding noise to both adapters amplifies synthetic noise
+    on the model, while fixing one adapter impairs the learnability of fine-tuning.
+    In this paper, we propose FedASK (Differentially Private Federated Low Rank Adaptation
+    with Double Sketching) , a novel federated LoRA framework to enable effective
+    updating of both low-rank adapters with robust differential privacy. Inspired
+    by randomized SVD, our key idea is a two-stage sketching pipeline. This pipeline
+    first aggregates carefully sketched, privacy-preserving local updates, and then
+    reconstructs the global matrices on the server to facilitate effective updating
+    of both adapters. We theoretically prove FedASK''s differential privacy guarantee
+    and its exact aggregation property. Comprehensive experiments demonstrate that
+    FedASK consistently outperforms baseline methods across a variety of privacy settings
+    and data distributions.'
+  related_code: ''
+  abstract_cn: 大型语言模型（LLMs）通常需要针对特定领域任务进行微调，而LoRA通过训练低秩适配器提供了一种计算效率较高的方法。在联邦学习场景下，当多个用户协作对全局语言模型进行微调且不共享其专有原始数据时，LoRA还具有通信效率高的优势。然而，即使仅在服务器与客户端之间传输本地适配器，仍存在严重的隐私泄露风险。将差分隐私（DP）应用于联邦LoRA时会面临两难：同时对两个适配器添加噪声会导致模型上的合成噪声被放大，而固定其中一个适配器则会损害微调的可学习性。为此，本文提出FedASK（基于双重哈希的差分隐私联邦低秩适配框架），这是一种新颖的联邦LoRA框架，能够在严格差分隐私保障下实现对两个低秩适配器的有效更新。受随机化奇异值分解启发，我们的核心思想是设计一种两阶段的哈希采样管道：该管道首先聚合经过精心哈希处理、具备隐私保护特性的本地更新，然后在服务器端重构全局矩阵，从而促进两个适配器的有效更新。我们从理论上证明了FedASK的差分隐私保证及其精确聚合性质。大量实验表明，在多种隐私配置和数据分布下，FedASK均能持续优于基线方法。
+- author: Tianzhe Xiao, Yichen Li 0006, Yining Qi, Yi Liu 0087, Wei Wang 0395, Haozhao
+    Wang, Yi Wang 0004, Ruixuan Li 0001
+  title: Enhancing Privacy in Multimodal Federated Learning with Information Theory.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/XiaoLQLWWWL25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/d104ffc39c501d0ecc19c00d2a3900b9-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/XiaoLQLWWWL25
+  abstract: ''
+- author: Jiaqi Xue, Mayank Kumar, Yuzhang Shang, Shangqian Gao, Rui Ning, Mengxin
+    Zheng, Xiaoqian Jiang, Qian Lou
+  title: 'DictPFL: Efficient and Private Federated Learning on Encrypted Gradients.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/XueKSGNZJL25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/adb02256990eb4369268d554fbfc287f-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/XueKSGNZJL25
+  abstract: ''
+- author: Pukang Ye, Junwei Luo, Jiachen Shen, Saipan Zhou, Shangmin Dou, Zhenfu Cao,
+    Hanzhe Yao, Xiaolei Dong, Yunbo Yang
+  title: 'FedRW: Efficient Privacy-Preserving Data Reweighting for Enhancing Federated
+    Learning of Language Models.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/YeLSZDCYDY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/cdd30bf15e29005a7803f3e4beffb65a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YeLSZDCYDY25
+  abstract: ''
+- author: Haochen Zhang, Zhong Zheng, Lingzhou Xue
+  title: Regret-Optimal Q-Learning with Low Cost for Single-Agent and Federated Reinforcement
+    Learning.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/ZhangZX25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/bb203e938836544655996d1bb94a0fd7-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhangZX25
+  abstract: ''
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -74763,6 +74982,41 @@ collaborat%20learn%20venue%3ANeurIPS%3A:
   related_code: https://github.com/heyongxin233/DETree
   abstract_cn: 检测涉AI文本对于打击虚假信息、防范抄袭以及遏制学术不端行为至关重要。然而，AI文本生成涉及多种协作模式——包括由人类编辑的AI生成文本、由AI编辑的人类写作文本，以及经其他AI进一步优化的AI生成文本——且可能使用不同甚至全新的大语言模型。这些不同生成路径下的文本呈现出复杂的特征，给检测工作带来了严峻挑战。现有方法对上述过程的建模较为粗略，主要采用二分类（纯人类撰写
     vs. 涉AI）或多元分类（将人机协作视为一类新类别）的方式。我们发现，不同生成路径下的文本表征之间存在内在的聚类关系。为此，我们提出DETree这一新方法，将不同生成过程之间的关系建模为一种层次化亲和树结构，并设计了一种专门的损失函数，使文本表征与该树结构相一致。为支持这一学习过程，我们构建了RealBench——一个综合性基准数据集，可自动纳入各类人机协作过程中产生的混合文本。实验结果表明，我们的方法在混合文本检测任务中性能显著提升，并在分布外场景下实现了更强的鲁棒性和泛化能力，尤其是在少样本学习条件下，进一步验证了基于训练的方法在OOD设置中的潜力。我们的代码和数据集已公开发布于https://github.com/heyongxin233/DETree。
+- author: Abhijnan Nath, Nikhil Krishnaswamy
+  title: Learning &quot;Partner-Aware&quot; Collaborators in Multi-Party Collaboration.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/NathK25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/be3e865f449b78ad35d711ac8e418c6d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/NathK25
+  abstract: ''
+- author: Pengyi Li 0001, Shixiong Kai, Jianye Hao, Ruizhe Zhong, Hongyao Tang, Zhentao
+    Tang, Mingxuan Yuan, Junchi Yan
+  title: 'CORE: Collaborative Optimization with Reinforcement Learning and Evolutionary
+    Algorithm for Floorplanning.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/LiKHZTTYY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/cc0f00fd7c873fe2b196529e19b1a6bf-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiKHZTTYY25
+  abstract: ''
+- author: Rui Liu 0040, Yu Shen, Peng Gao 0007, Pratap Tokekar, Ming C. Lin
+  title: 'CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/LiuSGTL25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/d46662aa53e78a62afd980a29e0c37ed-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiuSGTL25
+  abstract: ''
 collaborat%20learn%20venue%3AICML%3A:
 - author: Lan Li 0001, Da-Wei Zhou 0001, Han-Jia Ye, De-Chuan Zhan
   title: Addressing Imbalanced Domain-Incremental Learning through Dual-Balance Collaborative
@@ -83311,6 +83565,17 @@ communicat%20effici%20distribut%20venue%3ANeurIPS%3A:
   ee: https://proceedings.neurips.cc/paper/2018/hash/3328bdf9a4b9504b9398284244fe97c2-Abstract.html
   url: https://dblp.org/rec/conf/nips/WangniWLZ18
   abstract: ''
+- author: Shaomin Li
+  title: Distributed mediation analysis with communication efficiency.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/Li25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/cf7e5d6d07571972acb6208ee1425b79-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/Li25
+  abstract: ''
 communicat%20effici%20distribut%20venue%3AICML%3A:
 - author: Yilong Song, Peijin Li, Bin Gao, Kun Yuan
   title: Distributed Retraction-Free and Communication-Efficient Optimization on the
@@ -86059,6 +86324,67 @@ model%20merg%20venue%3ANeurIPS%3A:
   doi: ''
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/fbb4f2269267de23e0240e1c01242981-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SunLWLGL25
+  abstract: ''
+- author: Yunshui Li, Yiyuan Ma, Shen Yan, Chaoyi Zhang, Jing Liu, Jianqiao Lu, Ziwen
+    Xu, Mengzhao Chen, Minrui Wang, Shiyi Zhan, Jin Ma, Xunhao Lai, Yao Luo, Xingyan
+    Bin, Hongbin Ren, Mingji Han, Wenhao Hao, Bairen Yi, LingJun Liu, Bole Ma, Xiaoying
+    Jia 0005, Xun Zhou, Liang Xiang, Yonghui Wu
+  title: Model Merging in Pre-training of Large Language Models.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/LiMYZLLXCWZMLLB25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/c20447998d6c624b4b97d4466a3bfff5-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiMYZLLXCWZMLLB25
+  abstract: ''
+- author: Yu Zhou 0045, Xingyu Wu, Jibin Wu, Liang Feng 0001, KC Tan
+  title: 'HM3: Hierarchical Multi-Objective Model Merging for Pretrained Models.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/ZhouWWFT25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/a6b64e06886a190fabaaeecc695ea537-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhouWWFT25
+  abstract: ''
+- author: Zihuan Qiu, Yi Xu, Chiyuan He, Fanman Meng, Linfeng Xu 0001, Qingbo Wu 0001,
+    Hongliang Li 0001
+  title: 'MINGLE: Mixture of Null-Space Gated Low-Rank Experts for Test-Time Continual
+    Model Merging.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/QiuXHMXWL25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/d3a07e8ec40511778a757a30d1b83820-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/QiuXHMXWL25
+  abstract: ''
+- author: Kele Shao, Keda Tao, Can Qin, Haoxuan You, Yang Sui 0001, Huan Wang 0014
+  title: 'HoliTom: Holistic Token Merging for Fast Video Large Language Models.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/ShaoTQYSW25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/c573258c38d0a3919d8c1364053c45df-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ShaoTQYSW25
+  abstract: ''
+- author: Yuxuan Yao, Shuqi Liu 0001, Zehua Liu, Qintong Li, Mingyang Liu, Xiongwei
+    Han, Zhijiang Guo, Han Wu 0004, Linqi Song
+  title: Activation-Guided Consensus Merging for Large Language Models.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/nips/YaoLLLLHGWS25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/b395e7bd5eaf3e980386debf2e9d7f11-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YaoLLLLHGWS25
   abstract: ''
 model%20merg%20venue%3AICML%3A:
 - author: Qi Wei 0004, Shuo He 0001, Enneng Yang, Tingcong Liu, Haobo Wang 0001, Lei

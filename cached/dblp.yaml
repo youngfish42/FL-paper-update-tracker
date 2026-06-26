@@ -34484,6 +34484,105 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     and privacy-preserving models for federated multilingual sentiment analysis
   related_code: ''
   abstract_cn: 面向多语言情感分析的个性化联邦学习面临着由语言异质性、非独立同分布数据以及严格隐私约束所引发的诸多挑战。本文提出FedPerX，这是一种融合了基于残差适配器的个性化机制与自适应多粒度差分隐私的联邦Transformer框架。该架构以冻结的多语言主干模型（XLM‑R）为基础，同时允许各客户端训练轻量级的、针对自身数据的适配器。在特征层和适配器层分别实施动态噪声注入以保障隐私，并根据梯度敏感性进行噪声强度的自适应校准。我们选用MARC和TSMD两个多语言基准数据集对FedPerX进行了评估，其覆盖了十余种语言的结构化评论与非正式社交媒体文本。实验结果表明，FedPerX在七个最先进的基线上均取得了持续改进，宏观F1指标最高提升4.3%，通信开销降低70%，且客户端层面的性能方差降至最低。通过公平性、个性化差距、隐私–效用权衡以及消融实验等全方位分析，验证了该框架的稳健性与适应性。FedPerX为构建可扩展、个性化且兼顾隐私保护的联邦多语言情感分析模型提供了新的设计范式。
+- author: Rui She 0001, Sijie Wang, Qiyu Kang, Kai Zhao 0010, Tianyu Geng, Yanan Zhao
+    0003, Wenfei Liang 0001, Wee Peng Tay
+  title: Hierarchical Information Embeddings With Neural ODEs for Personalized Federated
+    Learning.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/SheWKZGZLT26
+  doi: 10.1109/TPAMI.2026.3662990
+  ee: https://doi.org/10.1109/TPAMI.2026.3662990
+  url: https://dblp.org/rec/journals/pami/SheWKZGZLT26
+  abstract: Personalized federated learning (PFL) plays a pivotal role in ensuring
+    efficient privacy preservation and secure collaborative learning. However, PFL
+    faces significant challenges due to data heterogeneity and device diversity. To
+    enhance personalization and robustness in PFL, we propose a novel model called
+    FedNODE, which leverages hierarchical embeddings. FedNODE incorporates personalized,
+    pseudo-generic, and fusion embeddings to facilitate hierarchical information representation.
+    We utilize a hypernetwork based on neural ordinary differential equations (ODEs)
+    within the server to generate backbone parameters for different clients, enabling
+    the creation of personalized embeddings. Additionally, we introduce a pseudo-generic
+    embedding based on a learnable vector to balance personalized and generic information.
+    A neural ODE-based network follows the backbone module for each client, integrating
+    personalized and pseudo-generic embeddings. To validate the efficacy of FedNODE,
+    we conduct extensive evaluations across various classification datasets, encompassing
+    diverse statistically heterogeneous settings and noisy scenarios. The results
+    demonstrate that FedNODE achieves state-of-the-art performance.
+  related_code: ''
+  abstract_cn: 个性化联邦学习（PFL）在实现高效的隐私保护与安全的协同学习方面发挥着关键作用。然而，由于数据异构性和设备多样性，PFL面临着严峻的挑战。为提升PFL的个性化能力和鲁棒性，我们提出了一种名为FedNODE的新模型，该模型基于层次化嵌入技术。FedNODE通过引入个性化嵌入、伪通用嵌入以及融合嵌入，实现了信息的层次化表征。我们在服务器端构建了一个基于神经常微分方程（ODE）的超网络，用于为不同客户端生成骨干网络的参数，从而生成个性化的嵌入表示。此外，我们还设计了一种基于可学习向量的伪通用嵌入，以在个性化信息与通用信息之间取得平衡。在每个客户端的骨干模块之后，我们部署了一个基于神经ODE的网络，用于整合个性化嵌入与伪通用嵌入。为了验证FedNODE的有效性，我们在多个分类数据集上开展了全面的实验评估，覆盖了多种统计异构场景及噪声环境。实验结果表明，FedNODE取得了当前最优的性能。
+- author: Mingwei Xu, Xiaofeng Cao 0002, Ivor W. Tsang, James T. Kwok, Heng Tao Shen
+  title: Generalized Distribution Aggregation Protocol for Federated Statistical Heterogeneity.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/XuCTKS26
+  doi: 10.1109/TPAMI.2026.3663744
+  ee: https://doi.org/10.1109/TPAMI.2026.3663744
+  url: https://dblp.org/rec/journals/pami/XuCTKS26
+  abstract: Federated heterogeneity refers to the disparities in data distributions,
+    model architectures, and communication capabilities across various devices or
+    institutional entities. In real-world scenarios, statistical heterogeneity can
+    often lead to ineffective aggregation, severely impacting generalization performance
+    and resulting in biased or unstable model weights. Theoretically, distributional
+    robustness analysis indicates that the generalization performance of a learning
+    model can be bounded with respect to any heterogeneity distribution. This insight
+    motivates us to reconsider the aggregation strategy in federated statistical heterogeneity
+    scenarios, and we thus propose a new weighting aggregation protocol that considers
+    the generalization bound disagreement of each local model. Specifically, we estimate
+    the upper and lower bounds of the second-order origin moment of the shifted distribution
+    for the current local model, and using these bound disagreements as the aggregation
+    proportions for weights in each communication round. Our experiments demonstrate
+    that this proposed aggregation protocol significantly improves the performance
+    of several representative Federated Learning algorithms on benchmark datasets.
+  related_code: ''
+  abstract_cn: 联邦异构性是指不同设备或机构实体之间在数据分布、模型架构以及通信能力等方面的差异。在实际场景中，统计异构性往往会导致聚合效果不佳，严重损害模型的泛化性能，并使模型权重出现偏差或不稳定。从理论上讲，分布鲁棒性分析表明，学习模型的泛化性能可以针对任意异构分布得到上界约束。这一认识促使我们重新审视联邦统计异构场景下的聚合策略，进而提出一种新的加权聚合协议，该协议考虑了各本地模型的泛化误差上界不一致程度。具体而言，我们对当前本地模型的平移后分布的二阶原点矩分别估计其上下界，并以这些界值的不一致性作为每轮通信中权重的分配比例。实验结果表明，所提出的聚合协议能够显著提升若干代表性联邦学习算法在基准数据集上的性能。
+- author: Xun Yang 0001, Rong Dai, Yonggang Zhang 0003, Ang Li 0005, Tongliang Liu,
+    Bo Han 0003
+  title: 'Co-Boosting++: Coupled Optimization of Data and Ensemble for One-Shot Federated
+    Learning.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/YangDZLLH26
+  doi: 10.1109/TPAMI.2026.3672655
+  ee: https://doi.org/10.1109/TPAMI.2026.3672655
+  url: https://dblp.org/rec/journals/pami/YangDZLLH26
+  abstract: One-shot Federated Learning (OFL) has emerged as a promising paradigm,
+    enabling global model training with minimal communication overhead. In OFL, the
+    server model is usually distilled from an ensemble of pre-trained client models,
+    while the ensemble also facilitates synthetic data generation for the knowledge
+    distillation process. Prior works show that the performance of the final model
+    is fundamentally tied to both the quality of the synthetic data and the ensemble.
+    However, existing methods often optimize these two components separately, overlooking
+    their interaction. To address this coupled optimization problem and provide a
+    unified solution to the dual challenges of data and model heterogeneity inherent
+    in OFL, we introduce Co-Boosting++, a novel OFL framework where synthetic data
+    generation and ensemble construction mutually enhance each other in an iterative
+    fashion. First, we fix the ensemble and generate hard samples in an adversarial
+    manner. These samples are crucial for enhancing the robustness of knowledge transfer,
+    as they challenge the model to generalize better, thereby improving quality of
+    the synthetic data and subsequent distillation process. Second, leveraging these
+    hard samples, we enhance the ensemble via a Mixture of Experts (MoE) mechanism.
+    MoE allows dynamic adjustment of ensemble weights based on the generated hard
+    samples, which enables the ensemble to better capture diverse and heterogeneous
+    knowledge from client models. Furthermore, we extend Co-Boosting++ to support
+    the simultaneous generation of multiple heterogeneous target models, enabling
+    efficient adaptation to diverse device constraints. Extensive experiments on benchmark
+    datasets demonstrate that Co-Boosting++ consistently outperforms state-of-the-art
+    methods due to its coupled optimization of data and ensemble quality. Additionally,
+    Co-Boosting++ is highly practical in real-world model market scenarios, requiring
+    no local training modifications, additional transmissions, or restrictions on
+    client model architectures.
+  related_code: ''
+  abstract_cn: 单次联邦学习（OFL）作为一种极具前景的范式，能够在极低的通信开销下完成全局模型训练。在 OFL 中，服务器端模型通常由一组预先训练好的客户端模型通过知识蒸馏得到，而该集成模型又进一步用于生成合成数据，以支持知识蒸馏过程。已有研究表明，最终模型的性能在本质上同时取决于合成数据的质量与集成模型的优劣。然而，现有方法往往将这两者分开优化，忽视了它们之间的相互作用。为解决这一耦合优化问题，并针对
+    OFL 中固有的数据与模型异构性两大挑战提供统一的解决方案，我们提出了 Co‑Boosting++——一种新型的 OFL 框架，其中合成数据生成与集成构建以迭代方式相互促进、协同提升。首先，固定集成模型，以对抗性方式生成难样本；这些样本对于提升知识迁移的鲁棒性至关重要，能够促使模型更好地泛化，从而改善合成数据的质量并优化后续的蒸馏过程。其次，基于这些难样本，我们采用专家混合（MoE）机制对集成模型进行强化：MoE
+    能够根据生成的难样本动态调整各专家的权重，使集成模型更有效地聚合来自不同客户端模型的多样化、异质性知识。此外，我们还将 Co‑Boosting++ 扩展至支持同时生成多个异构的目标模型，从而高效适配各类设备的资源约束。在基准数据集上的大量实验表明，Co‑Boosting++
+    凭借其对数据与集成质量的联合优化，始终优于当前最先进的方法。更为重要的是，在实际的模型市场场景中，Co‑Boosting++ 具有很高的实用性，既无需对客户端模型的本地训练流程作任何修改，也无需额外的通信开销，且对客户端模型的架构不设限制。
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

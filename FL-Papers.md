@@ -3203,6 +3203,14 @@
 
 ## Natural Language Processing
 
+### 2026
+
+#### ACL
+
+- FedProxy: Federated Fine-Tuning of LLMs via Proxy SLMs and Heterogeneity-Aware Fusion. [[PUB](https://aclanthology.org/2026.acl-long.794/)]
+- CAML: A Conflict-Aware Molecular Language Model Merging Framework for Multi-Constraint Molecular Generation. [[PUB](https://aclanthology.org/2026.acl-long.896/)]
+- K-Merge: Online Continual Merging of Adapters for On-device Large Language Models. [[PUB](https://aclanthology.org/2026.acl-long.137/)]
+
 ### 2025
 
 #### ACL

@@ -49588,6 +49588,38 @@ federate%20venue%3AACL%3A:
     framework. Our code is available at https://github.com/zongkaiz/FLEKE.
   abstract_cn: 定位后编辑知识编辑（LEKE）是一种在无需完全重新训练的情况下更新大型语言模型（LLMs）的关键技术。然而，现有方法假设为单用户场景，在现实中的多客户端情形下效率较低：在这些场景中，分散的组织（如医院、金融机构）会独立地更新相互重叠的知识，从而导致中介知识向量（MKV）的重复计算，并引发隐私问题。为应对这些挑战，我们提出了联邦定位后编辑知识编辑（FLEKE），这是一种全新的任务范式，允许多个客户端在保护隐私和降低计算开销的同时协同执行LEKE。为此，我们提出了FedEdit，一个分两阶段的框架，用于优化MKV的选择与复用。在第一阶段，各客户端本地执行LEKE并上传计算得到的MKV；在第二阶段，FLEKE不依赖于仅由服务器进行MKV共享的方式，而是允许客户端基于余弦相似度检索相关的MKV，从而实现知识的再编辑并最大限度地减少冗余计算。在两个基准数据集上的实验结果表明，FedEdit能够保持非联邦LEKE超过96%的性能，同时相比基于FedAvg的基线方法性能提升约一倍。此外，我们还发现，在采用FedEdit框架的FLEKE任务中，MEMIT的表现比PMET更为稳定。我们的代码已公开，地址为https://github.com/zongkaiz/FLEKE。
   related_code: https://github.com/zongkaiz/FLEKE
+- author: Tao Fan 0002, Guoqiang Ma, Yuanfeng Song, Lixin Fan, Kai Chen 0005, Qiang
+    Yang 0001
+  title: 'FedProxy: Federated Fine-Tuning of LLMs via Proxy SLMs and Heterogeneity-Aware
+    Fusion.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/FanMSFCY26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.794/
+  url: https://dblp.org/rec/conf/acl/FanMSFCY26
+  abstract: 'Federated fine-tuning of Large Language Models (LLMs) is obstructed by
+    a trilemma of challenges: protecting LLMs intellectual property (IP), ensuring
+    client privacy, and mitigating performance loss on heterogeneous data. Existing
+    methods like Offsite-Tuning (OT) secure the LLMs IP by having clients train only
+    lightweight adapters, yet our analysis reveals they suffer from a fundamental
+    performance bottleneck, leaving a significant gap compared to centralized training.
+    To bridge this gap, we introduce FedProxy, a new federated adaptation framework.
+    FedProxy replaces weak adapters with a unified, powerful Proxy Small Language
+    Model (SLM), compressed from the proprietary LLM, to serve as a high-fidelity
+    surrogate for collaborative fine-tuning. Our framework systematically resolves
+    the trilemma through a three-stage architecture: (i) Efficient Representation
+    via server-guided compression to create a resource-friendly proxy; (ii) Robust
+    Optimization through an interference-mitigating aggregation strategy to handle
+    data heterogeneity; and (iii) Effortless Fusion via a training-free "plug-in"
+    mechanism to integrate learned knowledge back into the LLM. Experiments show FedProxy
+    significantly outperforms OT methods and approaches centralized performance, establishing
+    a new benchmark for secure and high-performance federated LLM adaptation.'
+  related_code: ''
+  abstract_cn: 大型语言模型（LLM）的联邦微调面临一个由三重挑战构成的难题：保护LLM的知识产权（IP）、保障客户端隐私，以及缓解异构数据带来的性能损失。现有方法如离线微调（OT）通过让客户端仅训练轻量级适配器来保护LLM的IP，但我们的分析表明，这些方法存在根本性的性能瓶颈，与集中式训练相比仍有显著差距。为弥合这一鸿沟，我们提出了FedProxy——一种全新的联邦适配框架。FedProxy用一个统一且强大的代理小型语言模型（SLM）取代了功能较弱的适配器，该SLM由专有的LLM压缩而来，作为高保真代理用于协同微调。我们的框架通过三阶段架构系统性地化解这一三难困境：（i）通过服务器引导的压缩实现高效表征，构建资源友好的代理模型；（ii）采用干扰抑制的聚合策略，
+    robust 地优化以应对数据异构性；（iii）借助无训练的“即插即用”机制，将学习到的知识无缝回注入LLM。实验结果表明，FedProxy显著优于OT类方法，并逼近集中式训练的性能水平，为安全、高性能的联邦LLM适配树立了新的标杆。
 federate%20venue%3AEMNLP%3A:
 - author: Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Schütze, Pankaj
     Gupta 0003
@@ -89421,6 +89453,47 @@ model%20merg%20venue%3AACL%3A:
     VL 模型基本一致，但效率更高。我们在两个视觉语言模型上针对四项下游 VL 任务开展的评估表明，PuMer 可将推理吞吐量提升至多 2 倍，同时将内存占用降低超过
     50%，且精度损失不足 1%。
   related_code: ''
+- author: Donald Shenaj, Ondrej Bohdal, Taha Ceritli, Mete Ozay, Pietro Zanuttigh,
+    Umberto Michieli
+  title: 'K-Merge: Online Continual Merging of Adapters for On-device Large Language
+    Models.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/ShenajBCOZM26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.137/
+  url: https://dblp.org/rec/conf/acl/ShenajBCOZM26
+  abstract: 'On-device deployment of Large Language Models (LLMs) frequently leverages
+    Low-Rank Adapters (LoRAs) to support diverse downstream tasks under tight resource
+    constraints. To address the limited storage capacity of mobile devices, recent
+    works have explored model merging techniques to fuse multiple LoRAs into a single
+    one. In practice, however, LoRAs are often delivered incrementally, as users request
+    support for new tasks (e.g., novel problem types or languages). This scenario
+    introduces a new challenge: on-device online continual merging, where the objective
+    is to incorporate new LoRAs while preserving the performance on previously supported
+    tasks. In this paper, we propose a data-free and computationally efficient strategy
+    for selecting and merging LoRAs when a new one becomes available, assuming the
+    device can store only a limited number of adapters. Extensive experiments across
+    real-world tasks demonstrate the superiority of our approach compared to alternative
+    strategies while adhering to the storage budget and compute limitations of on-device
+    settings.'
+  related_code: ''
+  abstract_cn: 在移动设备上部署大型语言模型（LLMs）时，通常会利用低秩适配器（LoRAs）来应对资源受限条件下多样化的下游任务。为缓解移动设备存储容量有限的问题，近期研究提出了模型融合技术，将多个LoRA合并为单个模型。然而，在实际应用中，LoRA往往以增量方式逐步引入，即随着用户对新任务（如新型问题或新语言）的支持需求而不断添加。这一场景带来了一个新的挑战：即在设备端进行在线持续融合，其目标是在引入新LoRA的同时，保持对已有任务的性能。本文提出了一种无需数据且计算高效的LoRA选择与融合策略，适用于设备仅能存储有限数量适配器的情形。我们在真实任务上的大量实验表明，该方法在满足设备端存储预算与计算约束的前提下，相较于其他替代方案具有显著优势。
+- author: Xuanbai Ren, Luoda Tan, Pei Liu 0008, Tengfei Ma 0002, Xiangzheng Fu, Longyue
+    Wang, Yiping Liu, Xiangxiang Zeng
+  title: 'CAML: A Conflict-Aware Molecular Language Model Merging Framework for Multi-Constraint
+    Molecular Generation.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/RenTLMFWLZ26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.896/
+  url: https://dblp.org/rec/conf/acl/RenTLMFWLZ26
+  abstract: ''
 model%20merg%20venue%3ANAACL-HLT%3A:
 - author: Swarnadeep Saha, Omer Levy, Asli Celikyilmaz, Mohit Bansal, Jason Weston,
     Xian Li 0003

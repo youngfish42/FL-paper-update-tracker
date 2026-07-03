@@ -3207,9 +3207,14 @@
 
 #### ACL
 
+- CO-EVO: Co-evolving Semantic Anchoring and Style Diversification for Federated DG-ReID. [[PUB](https://aclanthology.org/2026.acl-long.1493/)] [[CODE](https://github.com/NanYiyuzurn/ACL-LGPS-2026)]
+- DFAMS: Dynamic-flow guided Federated Alignment based Multi-prototype Search. [[PUB](https://aclanthology.org/2026.acl-long.1135/)]
 - FedProxy: Federated Fine-Tuning of LLMs via Proxy SLMs and Heterogeneity-Aware Fusion. [[PUB](https://aclanthology.org/2026.acl-long.794/)]
+- GMFL: Efficient Global Masking for Federated LLM Fine-tuning. [[PUB](https://aclanthology.org/2026.acl-long.1160/)]
+- Safe-FedLLM: Delving into the Safety of Federated Large Language Models. [[PUB](https://aclanthology.org/2026.acl-long.1120/)]
 - CAML: A Conflict-Aware Molecular Language Model Merging Framework for Multi-Constraint Molecular Generation. [[PUB](https://aclanthology.org/2026.acl-long.896/)]
 - K-Merge: Online Continual Merging of Adapters for On-device Large Language Models. [[PUB](https://aclanthology.org/2026.acl-long.137/)]
+- Merging Triggers, Breaking Backdoors: Defensive Poisoning for Instruction-Tuned Language Models. [[PUB](https://aclanthology.org/2026.acl-long.1113/)]
 
 ### 2025
 

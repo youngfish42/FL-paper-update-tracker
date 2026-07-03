@@ -49620,6 +49620,92 @@ federate%20venue%3AACL%3A:
   related_code: ''
   abstract_cn: 大型语言模型（LLM）的联邦微调面临一个由三重挑战构成的难题：保护LLM的知识产权（IP）、保障客户端隐私，以及缓解异构数据带来的性能损失。现有方法如离线微调（OT）通过让客户端仅训练轻量级适配器来保护LLM的IP，但我们的分析表明，这些方法存在根本性的性能瓶颈，与集中式训练相比仍有显著差距。为弥合这一鸿沟，我们提出了FedProxy——一种全新的联邦适配框架。FedProxy用一个统一且强大的代理小型语言模型（SLM）取代了功能较弱的适配器，该SLM由专有的LLM压缩而来，作为高保真代理用于协同微调。我们的框架通过三阶段架构系统性地化解这一三难困境：（i）通过服务器引导的压缩实现高效表征，构建资源友好的代理模型；（ii）采用干扰抑制的聚合策略，
     robust 地优化以应对数据异构性；（iii）借助无训练的“即插即用”机制，将学习到的知识无缝回注入LLM。实验结果表明，FedProxy显著优于OT类方法，并逼近集中式训练的性能水平，为安全、高性能的联邦LLM适配树立了新的标杆。
+- author: Xin Huang, Yan Hu, Yue-Jiao Gong, Xinglin Zhang 0001
+  title: 'GMFL: Efficient Global Masking for Federated LLM Fine-tuning.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/HuangHGZ26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.1160/
+  url: https://dblp.org/rec/conf/acl/HuangHGZ26
+  abstract: ''
+- author: Mingxiang Tao, Yu Tian, Wenxuan Tu, Yue Yang, Xue Yang, Xiangyan Tang
+  title: 'Safe-FedLLM: Delving into the Safety of Federated Large Language Models.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/TaoTTYYT26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.1120/
+  url: https://dblp.org/rec/conf/acl/TaoTTYYT26
+  abstract: ''
+- author: Zhibang Yang, Xinke Jiang, Rihong Qiu, Ruiqing Li, Yihang Zhang, Yue Fang,
+    Yongxin Xu, Hongxin Ding, Xu Chu, Junfeng Zhao 0001, Yasha Wang
+  title: 'DFAMS: Dynamic-flow guided Federated Alignment based Multi-prototype Search.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/YangJQLZFXDCZW26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.1135/
+  url: https://dblp.org/rec/conf/acl/YangJQLZFXDCZW26
+  abstract: Federated Retrieval (FR) routes queries across multiple external knowledge
+    sources, to mitigate hallucinations of LLMs, when necessary external knowledge
+    is distributed. However, existing methods struggle to retrieve high-quality and
+    relevant documents for ambiguous queries, especially in cross-domain scenarios,
+    which significantly limits their effectiveness in supporting downstream generation
+    tasks. Inspired by Dynamic Information Flow (DIF), we propose DFAMS, a novel framework
+    that leverages DIF to identify latent query intents and construct semantically
+    aligned knowledge partitions for accurate retrieval across heterogeneous sources.
+    Specifically, DFAMS probes the DIF in LLMs by leveraging gradient signals from
+    a few annotated queries and employing Shapley value-based attribution to trace
+    neuron activation paths associated with intent recognition and subdomain boundary
+    detection. Then, DFAMS leverages DIF to train an alignment module via multi-prototype
+    contrastive learning, enabling fine-grained intra-source modeling and inter-source
+    semantic alignment across knowledge bases. Experimental results across five benchmarks
+    show that DFAMS outperforms advanced FR methods by up to 14.37\% in knowledge
+    classification accuracy, 5.38\% in retrieval recall, and 6.45\% in downstream
+    QA accuracy, demonstrating its effectiveness in complex FR scenarios. Our code
+    are anonymous available at https://anonymous.4open.science/r/DFAMS/
+  related_code: ''
+  abstract_cn: 联邦检索（FR）通过跨多个外部知识源路由查询，在必要外部知识分散分布的情况下，以缓解大语言模型的幻觉问题。然而，现有方法在处理模糊查询时难以检索到高质量且相关性强的文档，尤其是在跨领域场景下，这严重制约了其对下游生成任务的支持效果。受动态信息流（DIF）启发，我们提出了DFAMS——一种新颖的框架，利用DIF识别潜在的查询意图，并构建语义对齐的知识分区，从而实现对异构来源的精准检索。具体而言，DFAMS通过少量标注查询的梯度信号，探查大语言模型中的DIF，并采用基于Shapley值的归因方法，追踪与意图识别及子领域边界检测相关的神经元激活路径。随后，DFAMS借助DIF，通过多原型对比学习训练一个对齐模块，从而在知识库内部实现细粒度建模，并在不同知识源之间达成语义对齐。在五个基准数据集上的实验结果表明，DFAMS在知识分类准确率、检索召回率以及下游问答准确率方面分别较先进联邦检索方法提升多达14.37%、5.38%和6.45%，充分验证了其在复杂联邦检索场景中的有效性。我们的代码已通过匿名链接发布：https://anonymous.4open.science/r/DFAMS/
+- author: Fengchun Zhang, Qiang Ma, Liuyu Xiang, Jinshan Lai, Tingxuan Huang, Jianwei
+    Hu
+  title: 'CO-EVO: Co-evolving Semantic Anchoring and Style Diversification for Federated
+    DG-ReID.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/ZhangMXLHH26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.1493/
+  url: https://dblp.org/rec/conf/acl/ZhangMXLHH26
+  abstract: 'Federated domain generalization for person re-identification (FedDG-ReID)
+    aims to collaboratively train a pedestrian retrieval model across multiple decentralized
+    source domains such that it can generalize to unseen target environments without
+    compromising raw data privacy. However, this task is significantly challenged
+    by the inherent stylistic gaps across decentralized clients. Without global supervision,
+    models easily succumb to shortcut learning where representations overfit to domain
+    specific camera biases rather than universal identity features. We propose CO-EVO,
+    a novel federated framework that resolves this semantic-style conflict through
+    a co-evolutionary mechanism. On the semantic side, Camera-Invariant Semantic Anchoring
+    (CSA) learns identity prompts with cross-camera consistency to establish purified
+    and domain-agnostic anchors that filter out local imaging noise. On the visual
+    side, Global Style Diversification (GSD), powered by a Global Camera-Style Bank
+    (GCSB), synthesizes realistic perturbations to expand the visual boundaries of
+    training data. The core of CO-EVO is its co-evolutionary loop where purified anchors
+    act as gravitational centers to guide the image encoder toward robust anatomical
+    attributes amidst diverse style variations. Extensive experiments demonstrate
+    that CO-EVO achieves state-of-the-art (SOTA) performance, proving that the synergy
+    between semantic purification and style expansion is essential for robust cross-domain
+    generalization. Our code is available at: https://github.com/NanYiyuzurn/ACL-LGPS-2026.'
+  related_code: https://github.com/NanYiyuzurn/ACL-LGPS-2026
+  abstract_cn: 用于行人重识别的联邦域泛化（FedDG‑ReID）旨在通过多个去中心化源域的协同训练，构建一个能够在未见目标环境中实现良好泛化的行人检索模型，同时确保原始数据的隐私安全。然而，这一任务面临着来自不同客户端之间固有风格差异的巨大挑战。在缺乏全局监督的情况下，模型极易陷入捷径学习，导致表征过拟合于特定于某个域的相机偏差，而非捕捉通用的身份特征。为此，我们提出了CO‑EVO，一种基于协同进化机制的新颖联邦框架，以有效化解语义与风格之间的矛盾。在语义层面，相机不变语义锚定（CSA）通过跨相机一致性学习身份提示，构建纯净且领域无关的锚点，从而滤除局部成像噪声；在视觉层面，全局风格多样化（GSD）借助全局相机风格库（GCSB），合成逼真的扰动样本，拓展训练数据的视觉边界。CO‑EVO的核心在于其协同进化闭环：纯净的锚点作为引力中心，在多样的风格变化中引导图像编码器聚焦于稳健的解剖学特征。大量实验表明，CO‑EVO取得了当前最优（SOTA）性能，验证了语义净化与风格扩展之间的协同作用对于跨域稳健泛化至关重要。我们的代码已开源：https://github.com/NanYiyuzurn/ACL-LGPS-2026。
 federate%20venue%3AEMNLP%3A:
 - author: Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Schütze, Pankaj
     Gupta 0003
@@ -89494,6 +89580,35 @@ model%20merg%20venue%3AACL%3A:
   ee: https://aclanthology.org/2026.acl-long.896/
   url: https://dblp.org/rec/conf/acl/RenTLMFWLZ26
   abstract: ''
+- author: San Kim, Gary Lee
+  title: 'Merging Triggers, Breaking Backdoors: Defensive Poisoning for Instruction-Tuned
+    Language Models.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/KimL26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.1113/
+  url: https://dblp.org/rec/conf/acl/KimL26
+  abstract: 'Large Language Models (LLMs) have greatly advanced Natural Language Processing
+    (NLP), particularly through instruction tuning, which enables broad task generalization
+    without additional fine-tuning. However, their reliance on large-scale datasets-often
+    collected from human or web sources-makes them vulnerable to backdoor attacks,
+    where adversaries poison a small subset of data to implant hidden behaviors. Despite
+    this growing risk, defenses for instruction-tuned models remain underexplored.
+    We propose MB-Defense (Merging & Breaking Defense Framework), a novel training
+    pipeline that immunizes instruction-tuned LLMs against diverse backdoor threats.
+    MB-Defense comprises two stages: (i) Defensive Poisoning, which merges attacker
+    and defensive triggers into a unified backdoor representation, and (ii) Backdoor
+    Neutralization, which breaks this representation through additional training to
+    restore clean behavior. Extensive experiments across multiple LLMs show that MB-Defense
+    substantially lowers attack success rates while preserving instruction-following
+    ability. Our method offers a generalizable and data-efficient defense strategy,
+    improving the robustness of instruction-tuned LLMs against unseen backdoor attacks.'
+  related_code: ''
+  abstract_cn: 大型语言模型（LLMs）极大地推动了自然语言处理（NLP）的发展，尤其是通过指令微调技术，使模型在无需进一步精调的情况下即可实现对多种任务的泛化。然而，由于其依赖于大规模数据集——这些数据往往来自人类或网络来源——因此容易遭受后门攻击：攻击者通过污染其中一小部分数据，在模型中植入隐蔽行为。尽管这一风险日益凸显，针对指令微调模型的防御机制仍鲜有研究。为此，我们提出了MB-Defense（融合与破解防御框架），这是一种全新的训练流水线，能够有效抵御各类后门威胁，提升指令微调型大语言模型的抗攻击能力。MB-Defense包含两个阶段：(i)
+    防御性投毒，将攻击者触发器与防御性触发器融合为统一的后门表征；(ii) 后门中和，通过额外训练打破该表征，恢复模型的正常行为。在多款大语言模型上的大量实验表明，MB-Defense可在显著降低攻击成功率的同时，保持模型的指令遵循能力。我们的方法提供了一种通用且数据高效的防御策略，可有效增强指令微调型大语言模型对未知后门攻击的鲁棒性。
 model%20merg%20venue%3ANAACL-HLT%3A:
 - author: Swarnadeep Saha, Omer Levy, Asli Celikyilmaz, Mohit Bansal, Jason Weston,
     Xian Li 0003

@@ -49706,6 +49706,69 @@ federate%20venue%3AACL%3A:
     generalization. Our code is available at: https://github.com/NanYiyuzurn/ACL-LGPS-2026.'
   related_code: https://github.com/NanYiyuzurn/ACL-LGPS-2026
   abstract_cn: 用于行人重识别的联邦域泛化（FedDG‑ReID）旨在通过多个去中心化源域的协同训练，构建一个能够在未见目标环境中实现良好泛化的行人检索模型，同时确保原始数据的隐私安全。然而，这一任务面临着来自不同客户端之间固有风格差异的巨大挑战。在缺乏全局监督的情况下，模型极易陷入捷径学习，导致表征过拟合于特定于某个域的相机偏差，而非捕捉通用的身份特征。为此，我们提出了CO‑EVO，一种基于协同进化机制的新颖联邦框架，以有效化解语义与风格之间的矛盾。在语义层面，相机不变语义锚定（CSA）通过跨相机一致性学习身份提示，构建纯净且领域无关的锚点，从而滤除局部成像噪声；在视觉层面，全局风格多样化（GSD）借助全局相机风格库（GCSB），合成逼真的扰动样本，拓展训练数据的视觉边界。CO‑EVO的核心在于其协同进化闭环：纯净的锚点作为引力中心，在多样的风格变化中引导图像编码器聚焦于稳健的解剖学特征。大量实验表明，CO‑EVO取得了当前最优（SOTA）性能，验证了语义净化与风格扩展之间的协同作用对于跨域稳健泛化至关重要。我们的代码已开源：https://github.com/NanYiyuzurn/ACL-LGPS-2026。
+- author: Nuredin Ali Abdelkadir, Anjali Ratnam, Zeerak Talat, Stevie Chancellor
+  title: 'FedMental: Evaluating Federated Learning for Mental Health Detection from
+    Social Media Data.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/AbdelkadirRTC26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.1899/
+  url: https://dblp.org/rec/conf/acl/AbdelkadirRTC26
+  abstract: ''
+- author: Zihan Chen 0001, Howard Hao Yang, Tony Q. S. Quek, Kai Fong Ernest Chong
+  title: 'Global Adaptive Momentum Meets Local Personalized Perturbation: Efficient
+    Federated LLM Fine-Tuning with Zeroth-Order Gradients.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/ChenYQC26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.1851/
+  url: https://dblp.org/rec/conf/acl/ChenYQC26
+  abstract: ''
+- author: Mohamed Shaaban, Mohamed Elmahallawy
+  title: 'SecureGate: Learning When to Reveal PII Safely via Token-Gated Dual-Adapters
+    for Federated LLMs.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/ShaabanE26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.1972/
+  url: https://dblp.org/rec/conf/acl/ShaabanE26
+  abstract: 'Federated learning (FL) enables collaborative training across organizational
+    silos without sharing raw data, making it attractive for privacy-sensitive applications.
+    With the rapid adoption of large language models (LLMs), federated fine-tuning
+    of generative LLMs has gained attention as a way to leverage distributed data
+    while preserving confidentiality. However, this setting introduces fundamental
+    challenges: (i) privacy leakage of personally identifiable information (PII) due
+    to LLM memorization, and (ii) a persistent tension between global generalization
+    and local utility under heterogeneous data. Existing defenses, such as data sanitization
+    and differential privacy, reduce leakage but often degrade downstream performance.
+    We propose SecureGate, a privacy-aware federated fine-tuning framework for LLMs
+    that provides fine-grained privacy control without sacrificing utility. SecureGate
+    employs a dual-adapter LoRA architecture: a secure adapter that learns sanitized,
+    globally shareable representations, and a revealing adapter that captures sensitive,
+    organization-specific knowledge. A token-controlled gating module selectively
+    activates these adapters at inference time, enabling controlled information disclosure
+    without retraining. Extensive experiments across multiple LLMs and real-world
+    datasets show that SecureGate improves task utility while substantially reducing
+    PII leakage, achieving up to a 31.66X reduction in inference attack accuracy and
+    a 17.07X reduction in extraction recall for unauthorized requests. Additionally,
+    it maintains 100% routing reliability to the correct adapter and incurs only minimal
+    computational and communication overhead.'
+  related_code: ''
+  abstract_cn: 联邦学习（FL）能够在不共享原始数据的情况下实现跨组织的协同训练，因此在隐私敏感型应用场景中极具吸引力。随着大型语言模型（LLMs）的快速普及，针对生成式
+    LLM 的联邦微调作为一种在保护数据机密性的同时利用分布式数据的方案，正受到广泛关注。然而，这一场景也带来了若干根本性挑战：（i）由于 LLM 的记忆效应而导致个人身份信息（PII）的隐私泄露；（ii）在异构数据条件下，全局泛化与局部效用之间始终存在张力。现有的防御机制，如数据清洗和差分隐私，虽能缓解泄露问题，却往往会导致下游性能下降。为此，我们提出了
+    SecureGate——一种面向 LLM 的隐私感知联邦微调框架，可在不牺牲效用的前提下提供细粒度的隐私控制。SecureGate 采用双适配器 LoRA
+    架构：一个安全适配器用于学习经清洗、可全局共享的表征；另一个暴露适配器则捕获具有组织特异性的敏感知识。在推理时，基于令牌的门控模块会按需激活相应适配器，从而在无需重新训练的情况下实现可控的信息披露。我们在多款
+    LLM 和真实世界数据集上开展了大量实验，结果表明，SecureGate 在显著降低 PII 泄露的同时提升了任务效用，使针对未授权请求的推理攻击准确率降低至原来的
+    1/31.66，提取召回率降低至原来的 1/17.07。此外，它还能保持对正确适配器 100% 的路由可靠性，并且仅带来极小的计算与通信开销。
 federate%20venue%3AEMNLP%3A:
 - author: Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Schütze, Pankaj
     Gupta 0003
@@ -80467,6 +80530,31 @@ collaborat%20learn%20venue%3AACL%3A:
     distant supervision assumption.
   abstract_cn: 从句子的依存句法分析中提取的模式是当前大多数先进关系抽取系统的主要知识来源，但在远程监督场景下其质量可能较低。我们提出了一种语言学标注工具，使人类专家能够对自动学习到的模式进行分析与分类，并识别常见的错误类型。这些标注可用于构建数据集，从而支持基于机器学习的模式质量评估方法。此外，我们针对三种语义关系开展了实验性的模式错误分析，结果发现，由于预处理或句法分析错误，以及远程监督假设的违背，所学习的依存模式中有24%至61%存在缺陷。
   related_code: ''
+- author: Zheng Hui, Yijiang River Dong, Sanhanat Sivapiromrat, Ehsan Shareghi, Nigel
+    Collier
+  title: 'Privacy-R1: Privacy-Aware Multi-LLM Agent Collaboration via Reinforcement
+    Learning.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/HuiDSSC26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.2130/
+  url: https://dblp.org/rec/conf/acl/HuiDSSC26
+  abstract: ''
+- author: Yuewen Liu, Peng Xu, Muxi Diao, Anyi Zhang, Yang Li, Yutong Zhang
+  title: 'MemCoRL: Alternating Co-Optimization of Memory Retrieval and Utilization
+    via Collaborative Reinforcement Learning.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/LiuXDZLZ26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.1804/
+  url: https://dblp.org/rec/conf/acl/LiuXDZLZ26
+  abstract: ''
 collaborat%20learn%20venue%3ANAACL-HLT%3A:
 - author: Armanda Lewis
   title: Multimodal large language models for inclusive collaboration learning tasks.
@@ -89609,6 +89697,56 @@ model%20merg%20venue%3AACL%3A:
   related_code: ''
   abstract_cn: 大型语言模型（LLMs）极大地推动了自然语言处理（NLP）的发展，尤其是通过指令微调技术，使模型在无需进一步精调的情况下即可实现对多种任务的泛化。然而，由于其依赖于大规模数据集——这些数据往往来自人类或网络来源——因此容易遭受后门攻击：攻击者通过污染其中一小部分数据，在模型中植入隐蔽行为。尽管这一风险日益凸显，针对指令微调模型的防御机制仍鲜有研究。为此，我们提出了MB-Defense（融合与破解防御框架），这是一种全新的训练流水线，能够有效抵御各类后门威胁，提升指令微调型大语言模型的抗攻击能力。MB-Defense包含两个阶段：(i)
     防御性投毒，将攻击者触发器与防御性触发器融合为统一的后门表征；(ii) 后门中和，通过额外训练打破该表征，恢复模型的正常行为。在多款大语言模型上的大量实验表明，MB-Defense可在显著降低攻击成功率的同时，保持模型的指令遵循能力。我们的方法提供了一种通用且数据高效的防御策略，可有效增强指令微调型大语言模型对未知后门攻击的鲁棒性。
+- author: Junyao Yang, Chen Qian 0006, Wen Shen, Yong Liu 0007, Jing Shao, Dongrui
+    Liu
+  title: 'ReasonAny: Incorporating Reasoning Capability to Any Model via Simple and
+    Effective Model Merging.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/YangQSLSL26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.2201/
+  url: https://dblp.org/rec/conf/acl/YangQSLSL26
+  abstract: ''
+- author: Xiaopeng Li 0014, Yuanjin Zheng, Wanyu Wang, Wenlin Zhang 0001, Pengyue
+    Jia, Yingyi Zhang, Haiying He, Mengyang Ma, Yiqi Wang 0001, Maolin Wang 0001,
+    Xuetao Wei, Xiangyu Zhao 0001
+  title: 'MTA: A Merge-then-Adapt Framework for Personalized Large Language Models.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/LiZWZJZHMWWWZ26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.2040/
+  url: https://dblp.org/rec/conf/acl/LiZWZJZHMWWWZ26
+  abstract: ''
+- author: Zijing Wang, Xingle Xu, Yongkang Liu 0002, Yiqun Zhang, Peiqin Lin, Shi
+    Feng, Daling Wang, Xiaocui Yang, Hinrich Schütze
+  title: Why Do More Experts Fail? A Theoretical Analysis of Model Merging.
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/WangXLZLFWYS26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.2108/
+  url: https://dblp.org/rec/conf/acl/WangXLZLFWYS26
+  abstract: ''
+- author: Xiangchi Yuan, Dachuan Shi, Chunhui Zhang, Zheyuan Liu 0010, Shenglong Yao,
+    Soroush Vosoughi, Wenke Lee
+  title: Behavior Knowledge Merge in Reinforced Agentic Models.
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/YuanSZLYVL26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-long.1524/
+  url: https://dblp.org/rec/conf/acl/YuanSZLYVL26
+  abstract: ''
 model%20merg%20venue%3ANAACL-HLT%3A:
 - author: Swarnadeep Saha, Omer Levy, Asli Celikyilmaz, Mohit Bansal, Jason Weston,
     Xian Li 0003

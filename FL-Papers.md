@@ -3209,12 +3209,21 @@
 
 - CO-EVO: Co-evolving Semantic Anchoring and Style Diversification for Federated DG-ReID. [[PUB](https://aclanthology.org/2026.acl-long.1493/)] [[CODE](https://github.com/NanYiyuzurn/ACL-LGPS-2026)]
 - DFAMS: Dynamic-flow guided Federated Alignment based Multi-prototype Search. [[PUB](https://aclanthology.org/2026.acl-long.1135/)]
+- FedMental: Evaluating Federated Learning for Mental Health Detection from Social Media Data. [[PUB](https://aclanthology.org/2026.acl-long.1899/)]
 - FedProxy: Federated Fine-Tuning of LLMs via Proxy SLMs and Heterogeneity-Aware Fusion. [[PUB](https://aclanthology.org/2026.acl-long.794/)]
+- Global Adaptive Momentum Meets Local Personalized Perturbation: Efficient Federated LLM Fine-Tuning with Zeroth-Order Gradients. [[PUB](https://aclanthology.org/2026.acl-long.1851/)]
 - GMFL: Efficient Global Masking for Federated LLM Fine-tuning. [[PUB](https://aclanthology.org/2026.acl-long.1160/)]
 - Safe-FedLLM: Delving into the Safety of Federated Large Language Models. [[PUB](https://aclanthology.org/2026.acl-long.1120/)]
+- SecureGate: Learning When to Reveal PII Safely via Token-Gated Dual-Adapters for Federated LLMs. [[PUB](https://aclanthology.org/2026.acl-long.1972/)]
+- Behavior Knowledge Merge in Reinforced Agentic Models. [[PUB](https://aclanthology.org/2026.acl-long.1524/)]
 - CAML: A Conflict-Aware Molecular Language Model Merging Framework for Multi-Constraint Molecular Generation. [[PUB](https://aclanthology.org/2026.acl-long.896/)]
 - K-Merge: Online Continual Merging of Adapters for On-device Large Language Models. [[PUB](https://aclanthology.org/2026.acl-long.137/)]
+- MemCoRL: Alternating Co-Optimization of Memory Retrieval and Utilization via Collaborative Reinforcement Learning. [[PUB](https://aclanthology.org/2026.acl-long.1804/)]
 - Merging Triggers, Breaking Backdoors: Defensive Poisoning for Instruction-Tuned Language Models. [[PUB](https://aclanthology.org/2026.acl-long.1113/)]
+- MTA: A Merge-then-Adapt Framework for Personalized Large Language Models. [[PUB](https://aclanthology.org/2026.acl-long.2040/)]
+- Privacy-R1: Privacy-Aware Multi-LLM Agent Collaboration via Reinforcement Learning. [[PUB](https://aclanthology.org/2026.acl-long.2130/)]
+- ReasonAny: Incorporating Reasoning Capability to Any Model via Simple and Effective Model Merging. [[PUB](https://aclanthology.org/2026.acl-long.2201/)]
+- Why Do More Experts Fail? A Theoretical Analysis of Model Merging. [[PUB](https://aclanthology.org/2026.acl-long.2108/)]
 
 ### 2025
 

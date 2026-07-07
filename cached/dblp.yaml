@@ -49769,6 +49769,19 @@ federate%20venue%3AACL%3A:
     架构：一个安全适配器用于学习经清洗、可全局共享的表征；另一个暴露适配器则捕获具有组织特异性的敏感知识。在推理时，基于令牌的门控模块会按需激活相应适配器，从而在无需重新训练的情况下实现可控的信息披露。我们在多款
     LLM 和真实世界数据集上开展了大量实验，结果表明，SecureGate 在显著降低 PII 泄露的同时提升了任务效用，使针对未授权请求的推理攻击准确率降低至原来的
     1/31.66，提取召回率降低至原来的 1/17.07。此外，它还能保持对正确适配器 100% 的路由可靠性，并且仅带来极小的计算与通信开销。
+- author: Haoran Wang, Xiong Wang, Yuqing Li, Jing Chen, Junyi Zhang, Nan Yan, Kun
+    He, Wei Wang
+  title: Federated LoRA Fine-Tuning with Pipelined Error-Mitigated Aggregation and
+    Matrix-Wise Freezing.
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/WangWLCZYHW26
+  doi: ''
+  ee: https://aclanthology.org/2026.findings-acl.284/
+  url: https://dblp.org/rec/conf/acl/WangWLCZYHW26
+  abstract: ''
 federate%20venue%3AEMNLP%3A:
 - author: Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Schütze, Pankaj
     Gupta 0003
@@ -89746,6 +89759,30 @@ model%20merg%20venue%3AACL%3A:
   doi: ''
   ee: https://aclanthology.org/2026.acl-long.1524/
   url: https://dblp.org/rec/conf/acl/YuanSZLYVL26
+  abstract: ''
+- author: Seung-Ho Lee, Kyungsu Lee, Bazarvaani Zuchi, Jeongmin Ahn, Insuk Seo, Donghyeon
+    Jeon, Inho Kang, Seung-Hoon Na
+  title: 'PRIME: Ultra-Low-Rank Principal-Residual Model Merging.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/LeeLZASJKN26
+  doi: ''
+  ee: https://aclanthology.org/2026.findings-acl.168/
+  url: https://dblp.org/rec/conf/acl/LeeLZASJKN26
+  abstract: ''
+- author: Chenyang Lu, Jiaru Li, Jinman Zhao, Xinran Chen, Yining Wang, Renyi Cai,
+    Yuchen Li 0007, Chao He
+  title: On the Representation Geometry of LoRA Model Merging.
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/acl/LuLZCWCLH26
+  doi: ''
+  ee: https://aclanthology.org/2026.findings-acl.261/
+  url: https://dblp.org/rec/conf/acl/LuLZCWCLH26
   abstract: ''
 model%20merg%20venue%3ANAACL-HLT%3A:
 - author: Swarnadeep Saha, Omer Levy, Asli Celikyilmaz, Mohit Bansal, Jason Weston,

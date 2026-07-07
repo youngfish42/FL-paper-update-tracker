@@ -3209,6 +3209,7 @@
 
 - CO-EVO: Co-evolving Semantic Anchoring and Style Diversification for Federated DG-ReID. [[PUB](https://aclanthology.org/2026.acl-long.1493/)] [[CODE](https://github.com/NanYiyuzurn/ACL-LGPS-2026)]
 - DFAMS: Dynamic-flow guided Federated Alignment based Multi-prototype Search. [[PUB](https://aclanthology.org/2026.acl-long.1135/)]
+- Federated LoRA Fine-Tuning with Pipelined Error-Mitigated Aggregation and Matrix-Wise Freezing. [[PUB](https://aclanthology.org/2026.findings-acl.284/)]
 - FedMental: Evaluating Federated Learning for Mental Health Detection from Social Media Data. [[PUB](https://aclanthology.org/2026.acl-long.1899/)]
 - FedProxy: Federated Fine-Tuning of LLMs via Proxy SLMs and Heterogeneity-Aware Fusion. [[PUB](https://aclanthology.org/2026.acl-long.794/)]
 - Global Adaptive Momentum Meets Local Personalized Perturbation: Efficient Federated LLM Fine-Tuning with Zeroth-Order Gradients. [[PUB](https://aclanthology.org/2026.acl-long.1851/)]
@@ -3221,6 +3222,8 @@
 - MemCoRL: Alternating Co-Optimization of Memory Retrieval and Utilization via Collaborative Reinforcement Learning. [[PUB](https://aclanthology.org/2026.acl-long.1804/)]
 - Merging Triggers, Breaking Backdoors: Defensive Poisoning for Instruction-Tuned Language Models. [[PUB](https://aclanthology.org/2026.acl-long.1113/)]
 - MTA: A Merge-then-Adapt Framework for Personalized Large Language Models. [[PUB](https://aclanthology.org/2026.acl-long.2040/)]
+- On the Representation Geometry of LoRA Model Merging. [[PUB](https://aclanthology.org/2026.findings-acl.261/)]
+- PRIME: Ultra-Low-Rank Principal-Residual Model Merging. [[PUB](https://aclanthology.org/2026.findings-acl.168/)]
 - Privacy-R1: Privacy-Aware Multi-LLM Agent Collaboration via Reinforcement Learning. [[PUB](https://aclanthology.org/2026.acl-long.2130/)]
 - ReasonAny: Incorporating Reasoning Capability to Any Model via Simple and Effective Model Merging. [[PUB](https://aclanthology.org/2026.acl-long.2201/)]
 - Why Do More Experts Fail? A Theoretical Analysis of Model Merging. [[PUB](https://aclanthology.org/2026.acl-long.2108/)]

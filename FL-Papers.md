@@ -4462,6 +4462,7 @@
 - Flexible Synchronization Control for Accurate and Efficient Federated Learning. [[PUB](https://doi.org/10.1109/TPDS.2026.3670216)]
 - Floe: Federated Specialization for Real-Time LLM-SLM Inference. [[PUB](https://doi.org/10.1109/TPDS.2026.3665358)]
 - FLUXLog: A Federated Mixture-of-Experts Framework for Unified Log Anomaly Detection. [[PUB](https://doi.org/10.1109/TPDS.2025.3638693)]
+- P3Forecast: Personalized and Adaptive Cloud Workload Prediction via GAN-Based Federated Data Augmentation. [[PUB](https://doi.org/10.1109/TPDS.2026.3703090)]
 - Totoro+: An Adaptive and Scalable Edge Federated Learning System. [[PUB](https://doi.org/10.1109/TPDS.2026.3696917)]
 - Edge-End Heterogeneous Collaborative Learning by Prototype Selection and Edge Association. [[PUB](https://doi.org/10.1109/TPDS.2026.3678282)]
 - EdgeDup: Popularity-Aware Communication-Efficient Decentralized Edge Data Deduplication. [[PUB](https://doi.org/10.1109/TPDS.2025.3638945)]

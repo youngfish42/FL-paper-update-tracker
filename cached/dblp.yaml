@@ -70277,7 +70277,27 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
   doi: 10.1109/TPDS.2026.3688096
   ee: https://doi.org/10.1109/TPDS.2026.3688096
   url: https://dblp.org/rec/journals/tpds/LyuZSCJCG26
-  abstract: ''
+  abstract: Federated Learning (FL) enables collaborate model training without privacy
+    violation, where clients periodically report their updates to the server in communication
+    rounds. Due to heterogeneous resource and limited bandwidth, FL processes often
+    suffer from low efficiency. Existing works in that regard are oblivious to the
+    intra-round execution status on clients, failing to tackle runtime stragglers
+    or hide the communication overheads for some early-converged layers. In this paper,
+    we propose FedCA, a novel mechanism that allows clients to autonomously exploit
+    intra-round training status for higher efficiency while preserving accuracy performance.
+    We first devise a metric to help quantify the statistical contribution of different
+    iterations in a round, which can be efficiently profiled at runtime with the periodical
+    sampling strategy. With the instantaneous system and statistical status, to improve
+    computation efficiency, clients under FedCA can adaptively determine the intra-round
+    workloads based on a utility function depicting the marginal computation benefit.
+    Besides, to mitigate the communication bottleneck, for some parameters attaining
+    fast local convergence, clients under FedCA can eagerly transmit their updates
+    to the FL server prior to round completion. We also extend FedCA to FedCA+, integrating
+    speculative sparsification to futher reduce the cumulative communication amount.
+    We implemented FedCA and FedCA+ atop PyTorch, and large-scale experiments show
+    that they can improve the FL efficiency by up to 45.3%.
+  related_code: ''
+  abstract_cn: 联邦学习（FL）能够在不侵犯隐私的前提下实现协同模型训练，其中客户端在各通信轮次中定期向服务器上传本地更新。然而，由于资源异构性和带宽受限，联邦学习的执行效率往往较低。现有相关研究未能充分考虑客户端在单轮内的运行状态，难以有效应对运行时的慢节点问题，也无法为部分较早收敛的层隐藏通信开销。为此，本文提出一种名为FedCA的新机制，使客户端能够自主利用单轮内的训练状态以提升效率，同时保持模型精度。我们首先设计了一种量化指标，用于评估一轮中不同迭代的统计贡献，并可通过周期性采样策略在运行时高效地进行性能剖析。基于实时的系统与统计状态，为提高计算效率，FedCA下的客户端可依据刻画边际计算收益的效用函数自适应地调整本轮内的工作负载。此外，为缓解通信瓶颈，对于局部收敛较快的参数，FedCA下的客户端可在本轮结束前主动将其更新提前上传至联邦服务器。我们还将FedCA扩展为FedCA+，引入推测式稀疏化技术，进一步降低累计通信量。我们在PyTorch框架上实现了FedCA和FedCA+，大规模实验表明，这两种方法可将联邦学习的效率提升高达45.3%。
 - author: Fang Shi, Yuehong Chen, Qiong Huang 0001, Tiansheng Huang, Guozhi Liu, Li
     Shen 0008
   title: Decentralized Federated Learning With Period Gradient Tracking Over Time-Varying
@@ -70407,6 +70427,41 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
     on each communication cycle.'
   related_code: ''
   abstract_cn: 在实际应用中，联邦学习（FL）面临两大挑战：（1）可扩展性，以及（2）数据异构性。针对第一个问题，我们设计了一种名为“全栈联邦学习”（F2L）的新型联邦学习框架。具体而言，F2L采用分层网络架构，在无需重构整个系统的情况下即可实现联邦网络的灵活扩展。此外，基于分层网络设计的优势，我们在中心服务器端提出了一种新的标签驱动知识蒸馏（LKD）技术，以应对第二个问题。与现有知识蒸馏方法不同，LKD能够训练出一个学生模型，使其综合了所有教师模型的优良知识。因此，所提出的算法能够有效提取各区域数据分布的知识（即区域聚合模型），从而在非独立同分布（Non-IID）的数据环境下运行联邦学习时，降低客户端模型之间的差异。大量实验结果表明：（i）我们的F2L方法能够在所有全局知识蒸馏阶段显著提升联邦学习的整体性能（在Non-IID场景下，准确率提升7%–20%）；（ii）随着全局知识蒸馏阶段的推进，F2L能够快速收敛，而无需在每个通信周期内持续迭代。
+- author: Xin Yong, Li Yan 0004, Yu Kuang, Zhuozhao Li, Chao Shen 0001, Xingwei Wang
+    0001
+  title: 'P3Forecast: Personalized and Adaptive Cloud Workload Prediction via GAN-Based
+    Federated Data Augmentation.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/YongYKLSW26
+  doi: 10.1109/TPDS.2026.3703090
+  ee: https://doi.org/10.1109/TPDS.2026.3703090
+  url: https://dblp.org/rec/journals/tpds/YongYKLSW26
+  abstract: To comply with privacy regulations and self-protection from cloud outages,
+    increasingly more users are leveraging multiple cloud providers for service deployment.
+    However, due to the isolation of highly Non-Identically and Independently Distributed
+    (Non-IID) workload datasets and deficiencies of existing methods as reflected
+    in our experimental studies, no cloud providers can single-handedly capture the
+    workload patterns of such users for accurate workload prediction. Accordingly,
+    we propose P3Forecast, a Personalized Privacy-Preserving Cloud workload prediction
+    framework based on Federated Generative Adversarial Networks (GANs), which allows
+    cloud providers with Non-IID workload data to collaboratively train workload prediction
+    models as preferred while protecting privacy. We first design a data synthesis
+    quality assessment method based on Dynamic Time Warping (called pattern-aware
+    DTW), which is insusceptible to time series length and reliable for the comparison
+    of temporal patterns. By using pattern-aware DTW as the model aggregation weights,
+    we adopt the Federated Learning (FL) of a GAN model for the augmentation of IID
+    workload training datasets per cloud provider. Then, we further design a post-training
+    method of local workload prediction models, which consists of a query mechanism
+    based on comprehensive evaluation of data synthesis informativeness and an adaptive
+    learning rate adjustment strategy for stable convergence. Extensive experiments
+    driven by real-world workloads demonstrate that compared with the state-of-the-art,
+    P3Forecast improves workload prediction accuracy by 23.7%-64.5% on average over
+    all cloud providers, while ensuring the fastest convergence in Federated GAN training.
+  related_code: ''
+  abstract_cn: 为满足隐私合规要求并防范云服务中断风险，越来越多的用户选择在多个云服务商之间部署业务。然而，由于工作负载数据集高度非独立同分布（Non-IID）且彼此隔离，加之现有方法在我们的实验中暴露出诸多不足，任何单一云服务商都无法独立捕捉此类用户的负载模式，从而实现精准的负载预测。为此，我们提出了P3Forecast——一种基于联邦生成对抗网络（GAN）的个性化隐私保护型云负载预测框架，它能够在保护隐私的前提下，使拥有Non-IID负载数据的各云服务商协同训练用户偏好的负载预测模型。我们首先设计了一种基于动态时间规整（DTW）的数据合成质量评估方法——模式感知DTW，该方法对时间序列长度不敏感，能够可靠地比较时序模式。以模式感知DTW作为模型聚合权重，我们采用联邦学习（FL）技术对各云服务商的IID负载训练数据进行扩充。在此基础上，我们进一步设计了一套本地负载预测模型的后训练优化方案，包括基于数据合成信息量综合评估的查询机制，以及用于确保稳定收敛的自适应学习率调整策略。基于真实负载数据的大规模实验表明，与当前最优方法相比，P3Forecast在所有云服务商上的平均负载预测准确率提升23.7%至64.5%，同时实现了联邦GAN训练过程中的最快收敛速度。
 federate%20streamid%3Ajournals%2Ftocs%3A: []
 federate%20streamid%3Ajournals%2Ftos%3A:
 - author: Amina Chikhaoui, Laurent Lemarchand, Kamel Boukhalfa, Jalil Boukhobza

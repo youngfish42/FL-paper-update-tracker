@@ -51896,6 +51896,30 @@ federate%20venue%3ASIGIR%3A:
     FedIAR，它包含两个模块：物品嵌入双视角探索和自适应的局部—全局融合。第一个模块通过减少维度视角中的冗余、并在样本视角中捕捉潜在的物品关系，来增强全局物品嵌入的表征能力。第二个模块则根据用户的偏好表示，实现局部与全局物品嵌入的自适应融合，从而达到推荐的个性化最优效果。在六个数据集上的大量实验表明，FedIAR
     能有效提升联邦推荐的性能。
   related_code: ''
+- author: Zhilin Liang, Yuxiang Wang 0014, Zimu Zhou, Hainan Zhang 0001, Boyi Liu
+    0002, Yongxin Tong
+  title: 'FedMosaic: Federated Retrieval-Augmented Generation via Parametric Adapters.'
+  venue: SIGIR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/LiangWZZLT26
+  doi: 10.1145/3805712.3809655
+  ee: https://doi.org/10.1145/3805712.3809655
+  url: https://dblp.org/rec/conf/sigir/LiangWZZLT26
+  abstract: ''
+- author: Jun Zhang, Dugang Liu, Xing Tang 0007, Xiuqiang He 0001, Zhong Ming 0001
+  title: 'FedMM: Federated Collaborative Signal Quantization for Multi-Market CTR
+    Prediction.'
+  venue: SIGIR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/ZhangLTHM26
+  doi: 10.1145/3805712.3809654
+  ee: https://doi.org/10.1145/3805712.3809654
+  url: https://dblp.org/rec/conf/sigir/ZhangLTHM26
+  abstract: ''
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -82868,6 +82892,96 @@ collaborat%20learn%20venue%3ASIGIR%3A:
     approaches which do not take personalization into account. 1.
   abstract_cn: 协同过滤（CF）需要用户评分的训练样本，以便对新用户的偏好进行统计推断。主动学习策略通过与用户进行最少的交互，识别出最具信息量的训练样本集。然而，当前协同过滤中的主动学习方法往往隐含地做出一个不切实际的假设：即用户能够对任意被查询的项目给出评分。本文提出了一种新的解决方案，不再依赖这一假设。我们针对每个用户实施个性化的主动学习，仅向其推荐那些其有能力提供评分的项目。我们扩展了贝叶斯主动学习框架，并以基于方面模型的协同过滤为例来阐释和验证这一思路。在基准数据集上，所提方法与一种成熟基线方法的对比评估表明，与未考虑个性化、代表现有非个性化方法的基线相比，我们的方法在性能上取得了统计显著的提升。1.
   related_code: ''
+- author: Jiahan Chen, Da Li 0003, Hengran Zhang, Yinqiong Cai, Lixin Su, Jiafeng
+    Guo, Daiting Shi, Dawei Yin 0001, Keping Bi
+  title: Reconstructing Content with Collaborative Attention for Universal Multimodal
+    Representation Learning.
+  venue: SIGIR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/ChenLZCSGSYB26
+  doi: 10.1145/3805712.3809695
+  ee: https://doi.org/10.1145/3805712.3809695
+  url: https://dblp.org/rec/conf/sigir/ChenLZCSGSYB26
+  abstract: Multimodal embedding models, rooted in multimodal large language models
+    (MLLMs), have yielded significant performance improvements across diverse tasks
+    such as retrieval and classification. However, most existing approaches rely heavily
+    on large-scale contrastive learning, with limited exploration of how the architectural
+    and training paradigms of MLLMs affect embedding quality. While effective for
+    generation, the causal attention and next-token prediction paradigm of MLLMs does
+    not explicitly encourage the formation of globally compact representations, limiting
+    their effectiveness as multimodal embedding backbones. To address this, we propose
+    CoCoA, a Content reconstruction pre-training paradigm based on Collaborative Attention
+    for multimodal embedding optimization. Specifically, we restructure the attention
+    flow and introduce an EOS-based reconstruction task, encouraging the model to
+    reconstruct input from the correspondingembeddings. This drives the multimodal
+    model to compress the semantic information of the input into thetoken, laying
+    the foundations for subsequent contrastive learning. Extensive experiments on
+    MMEB-V1 demonstrate that CoCoA built upon Qwen2-VL and Qwen2.5-VL significantly
+    improves embedding quality. Results validate that content reconstruction serves
+    as an effective strategy to maximize the value of existing data, enabling multimodal
+    embedding models generate compact and informative representations, raising their
+    performance ceiling.
+  related_code: ''
+  abstract_cn: 多模态嵌入模型以多模态大语言模型（MLLM）为基础，在检索、分类等多样化任务上取得了显著的性能提升。然而，现有方法大多依赖于大规模对比学习，对MLLM的架构设计与训练范式如何影响嵌入质量的探索较为有限。尽管在生成任务中表现优异，MLLM所采用的因果注意力与下一轮词预测范式并未显式促进全局紧凑表示的形成，这在一定程度上制约了其作为多模态嵌入骨干网络的效能。为此，我们提出了CoCoA——一种基于协同注意力的多模态嵌入优化内容重建预训练范式。具体而言，我们重构了注意力机制的流动路径，并引入了一种基于EOS标记的重建任务，引导模型从对应的嵌入向量中还原输入内容。这一设计促使多模态模型将输入的语义信息高效地压缩至各Token中，为后续的对比学习奠定基础。在MMEB‑V1数据集上的大量实验表明，基于Qwen2‑VL和Qwen2.5‑VL构建的CoCoA能够显著提升嵌入质量。实验结果验证了内容重建是一种有效策略，可充分挖掘已有数据的价值，使多模态嵌入模型生成更加紧凑且富含信息的表示，从而进一步提升其性能上限。
+- author: Guanting Dong 0001, Yifei Chen 0001, Xiaoxi Li 0005, Jiajie Jin, Hongjin
+    Qian, Yutao Zhu 0001, Hangyu Mao, Guorui Zhou, Zhicheng Dou, Ji-Rong Wen
+  title: 'Tool-Star: Empowering Multi-Tool Collaborative Web Agent via Reinforcement
+    Learning.'
+  venue: SIGIR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/DongCLJQZMZDW26
+  doi: 10.1145/3805712.3809712
+  ee: https://doi.org/10.1145/3805712.3809712
+  url: https://dblp.org/rec/conf/sigir/DongCLJQZMZDW26
+  abstract: ''
+- author: Yifan Liu 0019, Yaokun Liu, Zelin Li 0002, Zhenrui Yue, Ruichen Yao, Yang
+    Zhang 0031, Dong Wang 0002
+  title: Learning Decomposed Contextual Token Representations from Pretrained and
+    Collaborative Signals for Generative Recommendation.
+  venue: SIGIR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/LiuLLYYZW26
+  doi: 10.1145/3805712.3809578
+  ee: https://doi.org/10.1145/3805712.3809578
+  url: https://dblp.org/rec/conf/sigir/LiuLLYYZW26
+  abstract: 'Recent advances in generative recommenders adopt a two-stage paradigm:
+    items are first tokenized into semantic IDs using a pretrained tokenizer, and
+    then large language models (LLMs) are trained to generate the next item via sequence-to-sequence
+    modeling. However, these two stages are optimized for different objectives: semantic
+    reconstruction during tokenizer pretraining versus user interaction modeling during
+    recommender training. This objective misalignment leads to two key limitations:
+    (i) suboptimal static tokenization, where fixed token assignments fail to reflect
+    diverse usage contexts; and (ii) discarded pretrained semantics, where pretrained
+    knowledge—typically from language model embeddings—is overwritten during recommender
+    training on user interactions. To address these limitations, we propose to learn
+    DEcomposed COntextual Token Representations (DECOR), a unified framework that
+    preserves pretrained semantics while enhancing the adaptability of token embeddings.
+    DECOR introduces contextualized token composition to refine token embeddings based
+    on user interaction context, and decomposed embedding fusion that integrates pretrained
+    codebook embeddings with newly learned collaborative embeddings. Experiments on
+    three real-world datasets demonstrate that DECOR consistently outperforms state-of-the-art
+    baselines in recommendation performance. Our code is available at https://github.com/yliuaa/DECOR.git.'
+  related_code: https://github.com/yliuaa/DECOR.git
+  abstract_cn: 近年来，生成式推荐系统普遍采用两阶段范式：首先利用预训练的分词器将物品映射为语义标识符，随后通过序列到序列建模训练大型语言模型以生成下一个推荐项。然而，这两个阶段分别针对不同的优化目标：分词器预训练侧重于语义重构，而推荐系统训练则聚焦用户交互建模。这种目标不一致带来了两大局限：(i)
+    静态分词效果欠佳，固定的标识符分配难以适应多样的使用场景；(ii) 预训练语义被弃置，即通常来自语言模型嵌入的先验知识在面向用户交互的推荐训练过程中被覆盖。为应对上述问题，我们提出了一种统一框架——分解式上下文化标记表示（DECOR），在保留预训练语义的同时提升标记嵌入的适应性。DECOR引入了基于用户交互上下文的标记组合机制，对标记嵌入进行精细化调整，并采用分解式嵌入融合策略，将预训练码本嵌入与新近学习的协同交互嵌入相结合。在三个真实数据集上的实验表明，DECOR在推荐性能上始终优于当前最优基线方法。我们的代码已公开，地址为：https://github.com/yliuaa/DECOR.git。
+- author: Jie Yang, Ling Luo 0002, Nestor Cabello, Lars Kulik
+  title: Adaptive Rich-kernelized Contrastive Learning for Capacity Enhancement in
+    Collaborative Filtering.
+  venue: SIGIR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/YangLCK26
+  doi: 10.1145/3805712.3809527
+  ee: https://doi.org/10.1145/3805712.3809527
+  url: https://dblp.org/rec/conf/sigir/YangLCK26
+  abstract: ''
 collaborat%20learn%20streamid%3Aconf%2Fsigmod%3A:
 - author: Behrouz Derakhshan, Alireza Rezaei Mahdiraji, Ziawasch Abedjan, Tilmann
     Rabl, Volker Markl

@@ -51920,6 +51920,32 @@ federate%20venue%3ASIGIR%3A:
   ee: https://doi.org/10.1145/3805712.3809654
   url: https://dblp.org/rec/conf/sigir/ZhangLTHM26
   abstract: ''
+- author: Aymen Rayane Khouas
+  title: Towards Structurally Robust Cross-Device Federated Recommendation.
+  venue: SIGIR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/Khouas26
+  doi: 10.1145/3805712.3808355
+  ee: https://doi.org/10.1145/3805712.3808355
+  url: https://dblp.org/rec/conf/sigir/Khouas26
+  abstract: 'Federated recommendation (FedRec) allows training recommender systems
+    without collecting user data centrally[3]. However, in these settings, particularly
+    in cross-device scenarios where each client corresponds to a single user, only
+    local interaction histories are available. Consequently, the learning process
+    relies on partial, fragmented, and sparse signals. This, in turn, makes collaboration
+    between users indirect, with only a subset of users participating in each training
+    round. In practice, this means the model is trained on incomplete and potentially
+    biased data. Standard Federated Learning (FL) methods assume that simply averaging
+    updates is enough, but in this setting, that is not sufficient to recover meaningful
+    collaborative patterns. This thesis studies the following question: "How do federated
+    constraints influence the propagation of collaborative signals in recommendation
+    systems, and how can key mechanisms be redesigned to improve performance, fairness,
+    and cross-domain transfer under realistic cross-device conditions? " To address
+    this question, the thesis is structured around four interconnected research directions:'
+  related_code: ''
+  abstract_cn: 联邦推荐（FedRec）能够在不集中收集用户数据的情况下训练推荐系统[3]。然而，在此类场景中，尤其是在跨设备情形下，每个客户端对应单个用户，仅能获取本地的交互历史。因此，学习过程所依赖的信号是局部的、碎片化的且稀疏的。这进一步导致用户之间的协作变得间接，每轮训练仅有部分用户参与。实践中，这意味着模型是在不完整且可能存在偏差的数据上进行训练的。标准的联邦学习方法往往假定简单地对更新进行平均即可，但在这种设置下，这种方法不足以恢复有意义的协同模式。本论文围绕以下问题展开研究：“在推荐系统中，联邦计算的约束条件如何影响协同信号的传播？在真实的跨设备环境下，又应如何重新设计关键机制，以提升性能、公平性以及跨域迁移能力？”为回答这一问题，本文按照四个相互关联的研究方向进行组织：
 federate%20streamid%3Aconf%2Fsigmod%3A:
 - author: Rui Fu, Yuncheng Wu, Quanqing Xu, Meihui Zhang 0001
   title: 'FEAST: A Communication-efficient Federated Feature Selection Framework for
@@ -92401,6 +92427,36 @@ model%20merg%20venue%3ASIGIR%3A:
     might provide us more insight and understanding into MLIR merging.'
   abstract_cn: 本文提出了一种用于多语种信息检索（MLIR）融合过程的学习方法。为实施该方法，我们还设计并提取了大量可能影响MLIR融合过程的特征，这些特征主要从查询、文档和翻译三个层面进行抽取。在完成特征提取后，我们采用FRank排序算法构建融合模型；据我们所知，这是首次尝试利用基于学习的排序算法来构建MLIR融合模型。在实验中，我们选用NTCIR3、4和5中跨语言信息检索（CLIR）任务的三个测试集对所提方法的性能进行评估，并与多种融合方法进行了对比，包括传统融合方法、两步融合策略以及基于逻辑回归的融合方法。实验结果表明，在两类不同数据集上，所提方法均能显著提升融合效果。此外，借助由FRank生成的融合模型，本方法还能进一步识别出影响融合过程的关键因素，从而为我们深入理解MLIR融合机制提供有益的洞见。
   related_code: ''
+- author: Ahmed Rayane Kebir, José G. Moreno 0001, Lynda Tamine
+  title: Improving Ad-hoc Search Effectiveness for Conversational Information Retrieval
+    via Model Merging.
+  venue: SIGIR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sigir/KebirMT26
+  doi: 10.1145/3805712.3809939
+  ee: https://doi.org/10.1145/3805712.3809939
+  url: https://dblp.org/rec/conf/sigir/KebirMT26
+  abstract: Conversational information retrieval is challenging since it requires
+    the consideration of the conversation history which potentially gives rise to
+    topic shifts and coreference resolution across previous turns. To address these
+    challenges, previous work mainly rely on traditional fine-tuning of ad-hoc retrievers
+    on conversational datasets or extrapolates their generalizability through multi-tasking.
+    However, this mainstream approach is costly - since it requires model re-training
+    - and exhibits catastrophic forgetting, where the model loses its foundational
+    ad-hoc retrieval performance. In this paper, we fill this gap by introducing model
+    merging as a training-free strategy enabling the design of a single retrieval
+    model that operates across both ad-hoc and conversational settings with no additional
+    fine-tuning. We conduct experiments using linear and non-linear parameter-wise
+    merging strategies - namely Model Soup and Slerp - on standard ad-hoc search and
+    conversational retrieval datasets. Our results demonstrate that model merging
+    significantly enhances the ad-hoc search capabilities of conversational retrievers
+    while improving generalizability across task-specific datasets, achieving up to
+    15% higher NDCG@3 under zero-shot conditions.
+  related_code: ''
+  abstract_cn: 对话式信息检索具有挑战性，因为它需要考虑对话历史，而对话历史可能导致话题转换以及跨轮次的指代消解问题。为应对这些挑战，现有研究主要依赖于在对话数据集上对即席检索器进行传统的微调，或通过多任务学习来提升其泛化能力。然而，这种主流方法成本高昂——因为需要重新训练模型——并且会引发灾难性遗忘，导致模型丧失其基础的即席检索性能。本文通过引入无需训练的模型融合策略，填补了这一空白，从而能够在无需额外微调的情况下，设计出一种既适用于即席检索场景、又适用于对话式检索场景的单一检索模型。我们在标准的即席检索数据集和对话式检索数据集上，分别采用了线性和非线性的参数级融合策略——即“Model
+    Soup”与“Slerp”。实验结果表明，模型融合能够显著提升对话式检索器的即席检索能力，并增强其在不同任务特定数据集上的泛化性能，在零样本条件下最高可使NDCG@3提升15%。
 model%20merg%20streamid%3Aconf%2Fsigmod%3A:
 - author: Kyoungmin Kim 0002, Sangoh Lee, Injung Kim 0001, Wook-Shin Han
   title: 'ASM: Harmonizing Autoregressive Model, Sampling, and Multi-dimensional Statistics

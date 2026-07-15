@@ -3462,7 +3462,9 @@
 
 - FedMM: Federated Collaborative Signal Quantization for Multi-Market CTR Prediction. [[PUB](https://doi.org/10.1145/3805712.3809654)]
 - FedMosaic: Federated Retrieval-Augmented Generation via Parametric Adapters. [[PUB](https://doi.org/10.1145/3805712.3809655)]
+- Towards Structurally Robust Cross-Device Federated Recommendation. [[PUB](https://doi.org/10.1145/3805712.3808355)]
 - Adaptive Rich-kernelized Contrastive Learning for Capacity Enhancement in Collaborative Filtering. [[PUB](https://doi.org/10.1145/3805712.3809527)]
+- Improving Ad-hoc Search Effectiveness for Conversational Information Retrieval via Model Merging. [[PUB](https://doi.org/10.1145/3805712.3809939)]
 - Learning Decomposed Contextual Token Representations from Pretrained and Collaborative Signals for Generative Recommendation. [[PUB](https://doi.org/10.1145/3805712.3809578)] [[CODE](https://github.com/yliuaa/DECOR.git)]
 - Reconstructing Content with Collaborative Attention for Universal Multimodal Representation Learning. [[PUB](https://doi.org/10.1145/3805712.3809695)]
 - Tool-Star: Empowering Multi-Tool Collaborative Web Agent via Reinforcement Learning. [[PUB](https://doi.org/10.1145/3805712.3809712)]

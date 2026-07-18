@@ -2403,6 +2403,13 @@
 
 ### 2026
 
+#### S&P
+
+- ARES: Scalable and Practical Gradient Inversion Attack in Federated Learning Through Activation Recovery. [[PUB](https://doi.org/10.1109/SP63933.2026.00181)]
+- On the Detectability of Active Gradient Inversion Attacks in Federated Learning. [[PUB](https://doi.org/10.1109/SP63933.2026.00193)]
+- Shared Spotlight Meridian: Distributed Sparse Pseudorandom Functions for Scalable Federated Learning. [[PUB](https://doi.org/10.1109/SP63933.2026.00065)]
+- Toward Efficient Membership Inference Attacks Against Federated Large Language Models: A Projection Residual Approach. [[PUB](https://doi.org/10.1109/SP63933.2026.00205)]
+
 #### NDSS
 
 - A Unified Defense Framework Against Membership Inference in Federated Learning via Distillation and Contribution-Aware Aggregation. [[PUB](https://www.ndss-symposium.org/ndss-paper/a-unified-defense-framework-against-membership-inference-in-federated-learning-via-distillation-and-contribution-aware-aggregation/)]
@@ -3467,7 +3474,7 @@
 - Improving Ad-hoc Search Effectiveness for Conversational Information Retrieval via Model Merging. [[PUB](https://doi.org/10.1145/3805712.3809939)]
 - Learning Decomposed Contextual Token Representations from Pretrained and Collaborative Signals for Generative Recommendation. [[PUB](https://doi.org/10.1145/3805712.3809578)] [[CODE](https://github.com/yliuaa/DECOR.git)]
 - Reconstructing Content with Collaborative Attention for Universal Multimodal Representation Learning. [[PUB](https://doi.org/10.1145/3805712.3809695)]
-- Tool-Star: Empowering Multi-Tool Collaborative Web Agent via Reinforcement Learning. [[PUB](https://doi.org/10.1145/3805712.3809712)]
+- Tool-Star: Empowering Multi-Tool Collaborative Web Agent via Reinforcement Learning. [[PUB](https://doi.org/10.1145/3805712.3809712)] [[CODE](https://github.com/RUC-NLPIR/Tool-Star)]
 
 ### 2025
 

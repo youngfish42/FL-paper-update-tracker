@@ -39604,6 +39604,133 @@ federate%20streamid%3Aconf%2Fsp%3A:
     VFL systems.
   abstract_cn: 垂直联邦学习（VFL）系统近年来作为一种无需将数据集中化即可处理分布在多个不同数据源中的数据的范式而备受关注。在该框架下，多个参与方基于各自本地数据以隐私友好的方式协同训练模型。迄今为止，VFL已成为组织间安全地联合建模的事实标准解决方案，能够在不泄露任何个人隐私的前提下实现知识共享。然而，尽管VFL系统发展迅速，我们发现某些特定的输入——称为“对抗性主导输入”（ADIs）——能够操控联合推理结果朝向攻击者所期望的方向，并迫使其他（受害）参与方几乎无法作出有效贡献，从而丧失其在联邦学习场景中通常依据贡献度所应获得的奖励。  为此，我们对ADIs开展了系统性研究：首先证明了ADIs在典型VFL系统中的存在性；随后提出基于梯度的方法来构造多种格式的ADIs，并利用这些输入成功攻破常见的VFL系统。此外，我们还引入灰盒模糊测试技术，以“受害”参与方的显著性分数为指导，对由攻击者控制的输入进行扰动，从而以隐私保护的方式系统性地探索VFL系统的攻击面。我们进一步深入分析了在构造ADIs过程中关键参数与配置的影响。我们的研究揭示了全新的VFL攻击机会，有助于在实际入侵发生之前识别未知威胁，进而构建更加安全的VFL系统。
   related_code: ''
+- author: Vincenzo Carletti, Pasquale Foggia, Carlo Mazzocca, Giuseppe Parrella, Mario
+    Vento
+  title: On the Detectability of Active Gradient Inversion Attacks in Federated Learning.
+  venue: SP
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/CarlettiFMPV26
+  doi: 10.1109/SP63933.2026.00193
+  ee: https://doi.org/10.1109/SP63933.2026.00193
+  url: https://dblp.org/rec/conf/sp/CarlettiFMPV26
+  abstract: One of the key advantages of Federated Learning (FL) is its ability to
+    collaboratively train a Machine Learning (ML) model while keeping clients' data
+    on-site. However, this can create a false sense of security. Despite not sharing
+    private data increases the overall privacy, prior studies have shown that gradients
+    exchanged during the FL training remain vulnerable to Gradient Inversion Attacks
+    (GIAs). These attacks allow the reconstruction of the clients' local data, breaking
+    the privacy promise of FL. GIAs can be launched by either a passive or an active
+    server. In the latter case, a malicious server manipulates the global model to
+    facilitate data reconstruction. While effective, earlier attacks falling under
+    this category have been demonstrated to be detectable by clients, limiting their
+    real-world applicability. Recently, novel active GIAs have emerged, claiming to
+    be far stealthier than previous approaches. This work provides the first comprehensive
+    analysis of these claims, investigating four state-of-the-art GIAs. We propose
+    novel lightweight client-side detection techniques, based on statistically improbable
+    weight structures and anomalous loss and gradient dynamics. Extensive evaluation
+    across several configurations demonstrates that our methods enable clients to
+    effectively detect active GIAs without any modifications to the FL training protocol.
+  related_code: ''
+  abstract_cn: 联邦学习（FL）的关键优势之一在于，它能够在各参与方的数据本地保存的前提下，协同训练一个机器学习模型。然而，这种做法也可能带来一种虚假的安全性。尽管不共享原始数据确实提升了整体隐私水平，但已有研究表明，联邦学习过程中交换的梯度仍然容易遭受梯度反演攻击（GIA）。此类攻击能够重构客户端的局部数据，从而破坏联邦学习的隐私承诺。梯度反演攻击既可能由被动的服务器发起，也可能由主动的服务器实施；在后一种情形下，恶意服务器会通过操纵全局模型来辅助数据重构。虽然这些攻击颇具成效，但早期同类攻击已被证明可被客户端检测到，因而其实际应用受限。近期，一些新型的主动式梯度反演攻击相继出现，声称比以往方法更为隐蔽。本研究首次对这些说法进行了全面分析，系统考察了四种最先进的梯度反演攻击技术。我们提出了若干轻量级的客户端侧检测机制，其核心思想是利用统计上极不可能的权重分布模式以及异常的损失与梯度变化规律。在多种配置下的大量实验表明，我们的方法无需对联邦学习训练协议作任何修改，即可有效检测主动式梯度反演攻击。
+- author: Guilin Deng, Silong Chen, Yuchuan Luo, Yi Liu 0057, Songlei Wang, Zhiping
+    Cai, Lin Liu 0018, Xiaohua Jia, Shaojing Fu
+  title: 'Toward Efficient Membership Inference Attacks Against Federated Large Language
+    Models: A Projection Residual Approach.'
+  venue: SP
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/DengCLLWCLJF26
+  doi: 10.1109/SP63933.2026.00205
+  ee: https://doi.org/10.1109/SP63933.2026.00205
+  url: https://dblp.org/rec/conf/sp/DengCLLWCLJF26
+  abstract: Federated Large Language Models (FedLLMs) enable multiple parties to collaboratively
+    fine-tune LLMs without sharing raw data, addressing challenges of limited resources
+    and privacy concerns. Despite data localization, shared gradients can still expose
+    sensitive information through membership inference attacks (MIAs). However, FedLLMs'
+    unique properties, i.e., massive parameter scales, rapid convergence, and sparse,
+    non-orthogonal gradients, render existing MIAs ineffective. To address this gap,
+    we propose ProjRes, the first projection residuals-based passive MIA tailored
+    for FedLLMs. ProjRes leverages hidden embedding vectors as sample representations
+    and analyzes their projection residuals on the gradient subspace to uncover the
+    intrinsic link between gradients and inputs. It requires no shadow models, auxiliary
+    classifiers, or historical updates, ensuring efficiency and robustness. Experiments
+    on four benchmarks and four llMs show that ProjRes achieves near 100% accuracy,
+    outperforming prior methods by up to 75.75%. While strong DP can effectively mitigate
+    ProjRes, it does so by substantially degrading model utility. Our findings reveal
+    a previously overlooked privacy vulnerability in FedLLMs and call for a re-examination
+    of their security assumptions. Our code and data are available at link.
+  related_code: ''
+  abstract_cn: 联邦大语言模型（FedLLMs）使多方能够在不共享原始数据的情况下协同微调大语言模型，从而应对资源受限与隐私保护等挑战。然而，即便数据本地化，共享的梯度仍可能通过成员推理攻击（MIAs）泄露敏感信息。由于FedLLMs具有参数规模巨大、收敛速度快以及梯度稀疏非正交等独特性质，现有成员推理攻击方法对其效果有限。为此，我们提出了ProjRes，这是首个专为FedLLMs设计的基于投影残差的被动式成员推理攻击方法。ProjRes以隐层嵌入向量作为样本表征，通过分析其在梯度子空间上的投影残差，揭示梯度与输入之间的内在关联。该方法无需影子模型、辅助分类器或历史更新，兼具高效性与鲁棒性。在四个基准数据集和四种大语言模型上的实验表明，ProjRes可达到近100%的准确率，较现有方法最高提升75.75%。尽管较强的差分隐私机制能够有效抵御ProjRes，但会显著降低模型的可用性。我们的研究揭示了FedLLMs中此前被忽视的隐私漏洞，并呼吁重新审视其安全假设。代码与数据已公开发布于链接。
+- author: Youlong Ding, Peihua Mai, Jingqi Zhang, Sherman S. M. Chow, Minxin Du, Yan
+    Pang
+  title: 'Shared Spotlight Meridian: Distributed Sparse Pseudorandom Functions for
+    Scalable Federated Learning.'
+  venue: SP
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/DingMZCDP26
+  doi: 10.1109/SP63933.2026.00065
+  ee: https://doi.org/10.1109/SP63933.2026.00065
+  url: https://dblp.org/rec/conf/sp/DingMZCDP26
+  abstract: Secure federated learning enables multiple clients to train a shared model
+    while keeping raw data private. Minimizing communication is natural in secure
+    multiparty computation, yet cryptographic mechanisms create tension. Consequently,
+    existing secure aggregation protocols are illsuited to high-dimensional sparse
+    updates and forfeit sparsification gains, inflating communication by orders of
+    magnitude relative to plaintext aggregation. Seeking efficiency under privacy,
+    we introduce distributed sparse pseudorandom functions. Hidden alignment comes
+    from a secretly shared spotlight index that illuminates the chosen coordinate
+    and serves as a meridian that anchors aggregations of nonzero entries. Enabled
+    by our cryptographic advances, we present a secure aggregation protocol with near-optimal
+    client communication. Relative to a plaintext baseline, each client sends at most
+    one extra bit per nonzero gradient element. Multi-server security holds unless
+    all servers collude. At the client side, computational overhead is small, and
+    server communication is optimal. Near-baseline accuracy is seen across computer
+    vision, natural language processing, and recommendation experiments, with plaintext-level
+    bandwidth savings.
+  related_code: ''
+  abstract_cn: 安全联邦学习使多个客户端能够在保护原始数据隐私的同时训练一个共享模型。在安全多方计算中，减少通信开销是自然的要求，但密码学机制却带来了新的挑战。因此，现有的安全聚合协议难以适应高维稀疏更新，导致稀疏化带来的收益被抵消，与明文聚合相比，通信开销被放大了数个数量级。为在保障隐私的前提下提升效率，我们提出了分布式稀疏伪随机函数。通过一个秘密共享的“聚光点”索引实现隐式对齐：该索引仅点亮所选坐标，并作为一条“经线”，为非零元素的聚合提供锚定。得益于这些密码学新进展，我们提出了一种客户端通信接近最优的安全聚合协议。与明文基准相比，每个客户端平均只需为每个非零梯度分量额外发送不超过1比特；只要不是所有服务器串通合谋，多服务器环境下的安全性即可得到保证。在客户端侧，计算开销很小，而服务器端的通信则达到最优。在计算机视觉、自然语言处理和推荐系统等领域的实验中，我们观察到模型精度接近明文水平，同时实现了与明文相当的带宽节省。
+- author: Zirui Gong, Leo Yu Zhang, Yanjun Zhang, Viet Vo, Tianqing Zhu, Shirui Pan,
+    Cong Wang
+  title: 'ARES: Scalable and Practical Gradient Inversion Attack in Federated Learning
+    Through Activation Recovery.'
+  venue: SP
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/sp/GongZZVZPW26
+  doi: 10.1109/SP63933.2026.00181
+  ee: https://doi.org/10.1109/SP63933.2026.00181
+  url: https://dblp.org/rec/conf/sp/GongZZVZPW26
+  abstract: Federated Learning (FL) enables collaborative model training by sharing
+    model updates instead of raw data, aiming to protect user privacy. However, recent
+    studies reveal that these shared updates can inadvertently leak sensitive training
+    data through gradient inversion attacks (GIAs). Among them, active GIAs are particularly
+    powerful, enabling highfidelity reconstruction of individual samples even under
+    large batch sizes. Nevertheless, existing approaches often require architectural
+    modifications, which limit their practical applicability. In this work, we bridge
+    this gap by introducing the Activation REcovery via Sparse inversion (ARES) attack,
+    an active GIA designed to reconstruct training samples from large training batches
+    without requiring architectural modifications. Specifically, we formulate the
+    recovery problem as a noisy sparse recovery task and solve it using the generalized
+    Least Absolute Shrinkage and Selection Operator (Lasso). To extend the attack
+    to multi-sample recovery, ARES incorporates the imprint method to disentangle
+    activations, enabling scalable per-sample reconstruction. We further establish
+    the expected recovery rate and derive an upper bound on the reconstruction error,
+    providing theoretical guarantees for the ARES attack. Extensive experiments on
+    CNNs and MLPs demonstrate that ARES achieves high-fidelity reconstruction across
+    diverse datasets, significantly outperforming prior GIAs under large batch sizes
+    and realistic FL settings. Our results highlight that intermediate activations
+    pose a serious and underestimated privacy risk in FL, underscoring the urgent
+    need for stronger defenses.
+  related_code: ''
+  abstract_cn: 联邦学习（FL）通过共享模型更新而非原始数据来实现协同建模，旨在保护用户隐私。然而，近期研究表明，这些共享的模型更新可能在梯度反演攻击（GIA）下无意间泄露敏感的训练数据。其中，主动式梯度反演攻击尤为强大，即使在较大的批量规模下也能实现对单个样本的高保真重建。尽管如此，现有方法往往需要对模型架构进行修改，这限制了其实际应用性。为此，我们提出了一种名为“基于稀疏反演的激活恢复”（ARES）的主动式梯度反演攻击，无需任何架构改动即可从大规模训练批次中重构训练样本。具体而言，我们将样本恢复问题建模为一个带噪声的稀疏恢复任务，并利用广义最小绝对收缩与选择算子（Lasso）求解。为进一步扩展至多样本恢复，ARES引入印记法对激活特征进行解耦，从而实现可
+    scale 的逐样本重建。我们还给出了预期的样本恢复率，并推导出重构误差的上界，为 ARES 攻击提供了理论保证。在卷积神经网络和多层感知机上的大量实验表明，ARES
+    能够在多种数据集上实现高保真的样本重建，在大批量及真实联邦学习场景下显著优于已有梯度反演攻击。我们的研究结果揭示，中间激活特征在联邦学习中构成了严重且被低估的隐私风险，凸显了构建更强防御机制的迫切需求。
 federate%20venue%3ACCS%3A:
 - author: Amrita Roy Chowdhury 0001, Chuan Guo, Somesh Jha, Laurens van der Maaten
   title: 'EIFFeL: Ensuring Integrity for Federated Learning.'
@@ -51907,7 +52034,26 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3805712.3809655
   ee: https://doi.org/10.1145/3805712.3809655
   url: https://dblp.org/rec/conf/sigir/LiangWZZLT26
-  abstract: ''
+  abstract: 'Retrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs)
+    by grounding generation in external knowledge to improve factuality and reduce
+    hallucinations. Yet most deployments assume a centralized corpus, which is infeasible
+    in privacy-aware domains where knowledge remains siloed. This motivates federated
+    RAG (FedRAG), where a central LLM server collaborates with distributed silos without
+    sharing raw documents. In-context RAG violates this requirement by transmitting
+    verbatim documents, whereas parametric RAG encodes documents into light weight
+    adapters that merge with a frozen LLM at inference, avoiding raw-text exchange.
+    We adopt the parametric approach but face two unique challenges induced by FedRAG:
+    high storage and communication from per-document adapters, and destructive aggregation
+    caused by indiscriminately merging multiple adapters. We present FedMosaic, the
+    first federated RAG framework built on parametric adapters. FedMosaic clusters
+    semantically related documents into multi-document adapters with document-specific
+    masks to reduce overhead while preserving specificity, and performs selective
+    adapter aggregation to combine only relevance-aligned, non-conflicting adapters.
+    Experiments show that FedMosaic achieves an average 10.9% higher accuracy than
+    state-of-the-art methods in four categories, while lowering storage costs by 78.8%
+    to 86.3% and communication costs by 91.4%, and never sharing raw documents.'
+  related_code: ''
+  abstract_cn: 检索增强生成（RAG）通过将生成过程与外部知识相衔接，从而提升大型语言模型（LLM）的事实准确性并减少幻觉现象。然而，现有部署大多假定采用集中式语料库，这在注重隐私、知识仍处于孤岛状态的领域中难以实现。为此，我们提出了联邦RAG（FedRAG），其中中央LLM服务器与分布式的知识孤岛协作，而无需共享原始文档。基于上下文的RAG会直接传输原文档，因而违背了这一隐私约束；而基于参数的RAG则将文档编码为轻量级适配器，并在推理时与冻结的LLM进行融合，从而避免了原始文本的交换。我们采用参数化方案，但在FedRAG场景下面临两大独特挑战：单文档适配器带来的高昂存储与通信开销，以及无差别合并多份适配器所导致的性能退化。为此，我们提出了FedMosaic，首个基于参数化适配器的联邦RAG框架。FedMosaic通过语义聚类将相关文档整合为多文档适配器，并配备文档特定掩码，以在保持专属性的同时降低系统开销；同时，它还实施选择性适配器聚合策略，仅融合那些语义相关且互不冲突的适配器。实验表明，在四大类任务上，FedMosaic的平均准确率较当前最优方法高出10.9%，并将存储成本降低了78.8%至86.3%，通信成本降低了91.4%，且全程不涉及原始文档的共享。
 - author: Jun Zhang, Dugang Liu, Xing Tang 0007, Xiuqiang He 0001, Zhong Ming 0001
   title: 'FedMM: Federated Collaborative Signal Quantization for Multi-Market CTR
     Prediction.'
@@ -51919,7 +52065,32 @@ federate%20venue%3ASIGIR%3A:
   doi: 10.1145/3805712.3809654
   ee: https://doi.org/10.1145/3805712.3809654
   url: https://dblp.org/rec/conf/sigir/ZhangLTHM26
-  abstract: ''
+  abstract: Online platforms such as Amazon and Netflix serve users across multiple
+    countries and regions, underscoring the importance of multi-market recommendation
+    (MMR). Most MMR methods adopt a pre-training and fine-tuning paradigm, in which
+    a unified model is first trained on centralized, global data and subsequently
+    adapted to specific markets. However, this approach ignores the privacy of market
+    data. While traditional federated learning preserves privacy, it typically aims
+    to obtain a global model by aggregating model parameters and does not account
+    for significant market heterogeneity. Additionally, because ID spaces are disjoint
+    across markets, embedding-based aggregation strategies become ineffective. To
+    overcome these challenges, we propose a federated collaborative signal quantization
+    (FedMM) method for multi-market click-through rate (CTR) prediction. Our core
+    idea leverages a discrete codebook mechanism to achieve privacy-preserving transmission
+    and align disjoint ID spaces. We further employ a hierarchical codebook structure
+    to capture cross-market shared patterns and market-specific characteristics. Specifically,
+    we deploy a residual quantized variational autoencoder (RQ-VAE) with a dual-layer
+    codebook mechanism for each market to quantize collaborative embeddings. The first
+    layer utilizes a global federated codebook, updated via aggregation to capture
+    universally shared collaborative patterns, while the second layer maintains a
+    local codebook to learn market-specific semantics. Finally, the learned discrete
+    codes, which integrate both general and specific collaborative signals, are incorporated
+    into downstream CTR models to enhance prediction accuracy across all markets.
+    Extensive experiments on benchmark datasets demonstrate that FedMM significantly
+    improves recommendation performance with privacy guarantees.
+  related_code: ''
+  abstract_cn: 亚马逊、Netflix 等在线平台面向多个国家和地区提供服务，这凸显了多市场推荐（MMR）的重要性。现有的 MMR 方法大多采用预训练—微调范式：先在全局集中数据上训练一个统一模型，再将其适配到各个特定市场。然而，这种做法忽视了各市场的数据隐私。传统联邦学习虽能保护隐私，但其目标通常是通过聚合模型参数来获得一个全局模型，未能充分考虑市场间的显著异质性；此外，由于不同市场的用户标识空间互不重叠，基于嵌入的聚合策略也难以奏效。为应对这些挑战，我们提出了一种用于多市场点击率（CTR）预测的联邦协同信号量化方法（FedMM）。其核心思想是利用离散码本机制实现隐私保护下的信息传输，并对互不重叠的用户标识空间进行对齐。我们进一步设计了一种分层码本结构，以同时捕捉跨市场的共享模式与各市场的特有特征。具体而言，我们在每个市场部署一个具有双层码本机制的残差量化变分自编码器（RQ‑VAE），用于对协同表示进行量化：第一层使用全局联邦码本，通过聚合更新以捕获普遍共享的协同模式；第二层则维护本地码本，用于学习市场特有的语义信息。最终，将融合了通用与专用协同信号的离散编码纳入下游
+    CTR 预测模型，从而提升全市场的预测精度。在多个基准数据集上的大量实验表明，FedMM 在保障隐私的前提下显著提升了推荐效果。
 - author: Aymen Rayane Khouas
   title: Towards Structurally Robust Cross-Device Federated Recommendation.
   venue: SIGIR
@@ -65965,7 +66136,13 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774905.3796620
   ee: https://doi.org/10.1145/3774905.3796620
   url: https://dblp.org/rec/conf/www/KingLXYTY26
-  abstract: ''
+  abstract: 'In the evolving landscape of machine learning research, two significant
+    developments have emerged to prominence: foundation models and federated learning.
+    The FL@FM-TheWebConf''26 work- shop provides an exciting forum for researchers
+    and practitioners to discuss promising works and chart potential trajectories
+    forward for this emerging field.'
+  related_code: ''
+  abstract_cn: 在机器学习研究不断演进的背景下，基础模型与联邦学习两大方向已日益凸显其重要性。FL@FM—TheWebConf'26研讨会为研究人员和从业者搭建了一个令人期待的交流平台，旨在探讨该新兴领域的前沿成果，并共同规划其未来的发展路径。
 - author: Zhaolong Su, Leheng Zhao, Xiaoying Wu, Ziyue Xu, Jindong Wang 0001
   title: 'FedUMM: A General Framework for Federated Learning with Unified Multimodal
     Models.'
@@ -65977,7 +66154,28 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774905.3796623
   ee: https://doi.org/10.1145/3774905.3796623
   url: https://dblp.org/rec/conf/www/SuZWXW26
-  abstract: ''
+  abstract: 'Unified multimodal models (UMMs) are emerging as strong foundation models
+    that can do both generation and understanding tasks in a single architecture.
+    However, they are typically trained in centralized settings where all training
+    and downstream datasets are gathered in a central server, limiting the deployment
+    in privacy-sensitive and geographically distributed scenarios. In this paper,
+    we present FedUMM, a general federated learning framework for UMMs under non-IID
+    multimodal data with low communication cost. Built on NVIDIA FLARE, FedUMM instantiates
+    federation for a BLIP3o backbone via parameter-efficient fine-tuning: clients
+    train lightweight LoRA adapters while freezing the foundation models, and the
+    server aggregates only adapter updates. We evaluate on VQA v2 and the GenEval
+    compositional generation benchmarks under Dirichlet-controlled heterogeneity with
+    up to 16 clients. Results show slight degradation as client count and heterogeneity
+    increase, while remaining competitive with centralized training. We further analyze
+    computation--communication trade-offs and demonstrate that adapter-only federation
+    reduces per-round communication by over an order of magnitude compared to full
+    fine-tuning, enabling practical federated UMM training. This work provides empirical
+    experience for future research on privacy-preserving federated unified multimodal
+    models.'
+  related_code: ''
+  abstract_cn: 统一多模态模型（UMMs）正作为一种强大的基础模型而兴起，能够在单一架构中同时完成生成与理解任务。然而，这类模型通常在集中式环境下训练，即所有训练数据集和下游数据集都被汇集到中央服务器上，这在隐私敏感且地理分布广泛的场景中限制了其部署。本文提出FedUMM，这是一种适用于非独立同分布多模态数据、通信开销较低的通用联邦学习框架。FedUMM基于NVIDIA
+    FLARE，通过参数高效的微调实现对BLIP3o骨干模型的联邦化：客户端在冻结基础模型的同时训练轻量级的LoRA适配器，而服务器仅聚合适配器的更新。我们在VQA
+    v2以及GenEval组合式生成基准上进行了评估，实验采用狄利克雷分布控制的数据异质性，并支持最多16个客户端。结果表明，随着客户端数量和异质性的增加，性能会略有下降，但仍能与集中式训练保持相当的水平。我们进一步分析了计算与通信之间的权衡，并证明仅传输适配器的联邦化方案相较于全量微调可将每轮通信量降低一个数量级以上，从而实现了统一多模态模型的实用联邦训练。本研究为未来面向隐私保护的联邦统一多模态模型研究提供了实证参考。
 - author: Qianqi Zhang, Zeling Xu, Caichun Cen, Yuntao Zou, Hongyan Liu, Yaohua Deng,
     Hao Wu, Zhiyong Liao, Zihui Lin, Dagang Li 0001, Wei Wang 0395
   title: 'Fed-S2: Adversarially Disentangled Federated Multimodal RAG for Safety-Critical
@@ -82963,7 +83161,24 @@ collaborat%20learn%20venue%3ASIGIR%3A:
   doi: 10.1145/3805712.3809712
   ee: https://doi.org/10.1145/3805712.3809712
   url: https://dblp.org/rec/conf/sigir/DongCLJQZMZDW26
-  abstract: ''
+  abstract: 'Recently, Large Language Models (LLMs) have demonstrated remarkable reasoning
+    capabilities through reinforcement learning (RL). However, enabling LLM-based
+    agents to effectively orchestrate multiple tools remains an open challenge. In
+    this paper, we introduce Tool-Star, an end-to-end agentic post-training framework
+    that empowers LLM-based web agents to strategically interact with external multi-tool
+    environments. Tool-Star begins with a general tool-integrated data synthesis pipeline
+    that combines two complementary sampling strategies to generate tool-use trajectories,
+    followed by quality normalization and difficulty-aware curriculum construction
+    to filter noisy samples and organize training data from easy to hard. We then
+    introduce a two-stage training paradigm for multi-tool collaborative reasoning:
+    (1) cold-start supervised fine-tuning with tool feedback to bootstrap long-horizon
+    tool-augmented reasoning, and (2) a multi-tool self-critic RL algorithm with hierarchical
+    rewards to reinforce effective tool coordination. Experiments across 13 benchmarks
+    demonstrate Tool-Star''s effectiveness. Further analyses provide practical insights
+    for optimizing strategic tool use in web agents. The code is available at https://github.com/RUC-NLPIR/Tool-Star.'
+  related_code: https://github.com/RUC-NLPIR/Tool-Star
+  abstract_cn: 近年来，大型语言模型（LLMs）通过强化学习（RL）展现出卓越的推理能力。然而，如何使基于LLM的智能体有效协调多种工具，仍是一个尚未解决的难题。本文提出Tool‑Star，一个端到端的智能体后训练框架，旨在赋能基于LLM的网络智能体与外部多工具环境进行策略性交互。Tool‑Star首先构建了一条通用的工具集成数据合成流水线，融合两种互补的采样策略以生成工具使用轨迹；随后通过质量归一化与难度感知的课程构建，过滤噪声样本并按由易到难的顺序组织训练数据。我们进一步设计了一种面向多工具协同推理的两阶段训练范式：(1)
+    基于工具反馈的冷启动监督微调，用于启动长 horizon 的工具增强型推理；(2) 一种具有层次化奖励的多工具自评强化学习算法，以强化有效的工具协作。在13个基准上的实验验证了Tool‑Star的有效性。此外，深入分析为优化网络智能体中的策略性工具使用提供了实用洞见。代码已开源，详见https://github.com/RUC-NLPIR/Tool-Star。
 - author: Yifan Liu 0019, Yaokun Liu, Zelin Li 0002, Zhenrui Yue, Ruichen Yao, Yang
     Zhang 0031, Dong Wang 0002
   title: Learning Decomposed Contextual Token Representations from Pretrained and
@@ -83007,7 +83222,32 @@ collaborat%20learn%20venue%3ASIGIR%3A:
   doi: 10.1145/3805712.3809527
   ee: https://doi.org/10.1145/3805712.3809527
   url: https://dblp.org/rec/conf/sigir/YangLCK26
-  abstract: ''
+  abstract: 'Recent research has shown that single-vector embedding retrieval models
+    face a fundamental bottleneck: the finite dimensionality of single-vector representations
+    limits their capacity to represent arbitrary top-k relevant item combinations,
+    even with perfect training. This inherent bottleneck substantially limits the
+    expressive capacity of such models and reduces their ability to capture complex
+    user-item interaction patterns. To overcome this bottleneck, we propose Adaptive
+    Rich-kernelized Contrastive Learning (ARC), which enhances model expressiveness
+    while maintaining the computational efficiency of single-vector retrieval. ARC
+    replaces the fixed inner product with a learnable spherical kernel family parameterized
+    by a truncated Gegenbauer expansion, thereby increasing the model''s effective
+    dimensionality while preserving single-vector efficiency and low-pass inductive
+    bias for generalization. Specifically, we construct a positive-definite kernel
+    on the unit sphere using a positive combination of Gegenbauer polynomials, and
+    adopt a contrastive learning objective to jointly learn the polynomials weights
+    and user–item embeddings. Through data-driven optimization, the adaptive kernel
+    induces a more expressive representation space, enabling the model to better capture
+    complex preferences. From a theoretical perspective, the learned kernel implicitly
+    maps embeddings into a higher-dimensional Reproducing Kernel Hilbert Space, allowing
+    the model to capture a broader range of top-k item combinations before reaching
+    the geometric limit imposed by the embedding dimensionality. Consequently, the
+    proposed ARC framework effectively alleviates the inherent representational bottleneck
+    in traditional single-vector embedding models. Extensive experiments on four real-world
+    datasets demonstrate the effectiveness of our method, showing consistent improvements
+    over strong baselines and state-of-the-art models.'
+  related_code: ''
+  abstract_cn: 近期研究表明，单向量表示的检索模型存在一个根本性的瓶颈：由于单向量表示的维度有限，即使在理想训练条件下，其对任意前k个相关物品组合的表达能力也受到限制。这一内在瓶颈显著削弱了此类模型的表达能力，并降低了其捕捉复杂用户‑物品交互模式的性能。为突破这一瓶颈，我们提出了自适应富核对比学习（ARC），在保持单向量检索计算效率的同时提升模型的表达能力。ARC用可学习的球面核族取代固定的内积运算，该核族由截断的盖根鲍尔展开参数化，在提升模型有效维度的同时，仍能维持单向量机制的高效性以及用于泛化的低通归纳偏置。具体而言，我们在单位球面上通过盖根鲍尔多项式的正组合构造了一个正定核，并采用对比学习目标联合优化多项式权重与用户‑物品嵌入。借助数据驱动的优化，自适应核诱导出更具表达力的表示空间，使模型能够更好地刻画复杂的偏好模式。从理论上看，所学得的核隐式地将嵌入映射到高维再生核希尔伯特空间，从而使模型在达到嵌入维度所施加的几何上限之前，能够捕获更广泛的前k个物品组合。因此，所提出的ARC框架有效缓解了传统单向量嵌入模型中的固有表示瓶颈。在四个真实世界数据集上的大量实验验证了该方法的有效性，其性能均优于强基线及当前最优模型。
 collaborat%20learn%20streamid%3Aconf%2Fsigmod%3A:
 - author: Behrouz Derakhshan, Alireza Rezaei Mahdiraji, Ziawasch Abedjan, Tilmann
     Rabl, Volker Markl

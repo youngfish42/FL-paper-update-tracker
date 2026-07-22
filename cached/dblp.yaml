@@ -33230,6 +33230,17 @@ federate%20streamid%3Ajournals%2Fml%3A:
     meta learning tasks to demonstrate the efficiency of our algorithms.
   related_code: ''
   abstract_cn: 联邦学习是机器学习领域中一种广受欢迎的分布式学习范式。与此同时，组合优化作为一种有效的分层学习模型，已广泛应用于元学习、鲁棒学习等诸多机器学习场景。近年来，尽管已有少数联邦组合优化算法被提出，但这些算法仍面临较高的样本复杂度和通信复杂度问题。为此，本文提出了一类加速的联邦组合优化算法（即MFCGD与AdaMFCGD），用于求解非凸的分布式组合优化问题，并基于动量法、方差缩减技术以及局部随机梯度下降等方法加以实现。特别地，我们的自适应算法（即AdaMFCGD）采用统一的自适应矩阵，能够灵活地集成多种自适应学习率策略。此外，我们在非独立同分布的数据设置下对所提算法进行了严格的理论分析，并证明其在样本复杂度和通信复杂度方面均优于现有的联邦组合优化算法。具体而言，在寻找ε-平稳解时，我们的算法可同时达到$\tilde{O}(ε^{-3})$的样本复杂度和$\tilde{O}(ε^{-2})$的通信复杂度。我们还在鲁棒联邦学习与分布式元学习任务上开展了数值实验，以验证所提算法的有效性。
+- author: Shunxin Guo, Jiaqi Lv, Qiufeng Wang 0002, Xin Geng 0001
+  title: Towards Adaptive and Communication-Efficient Dynamic Federated Learning.
+  venue: Mach. Learn.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/GuoLWG26
+  doi: 10.1007/S10994-026-07102-1
+  ee: https://doi.org/10.1007/s10994-026-07102-1
+  url: https://dblp.org/rec/journals/ml/GuoLWG26
+  abstract: ''
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -92950,6 +92961,39 @@ swarm%20learn%20streamid%3Ajournals%2Fml%3A:
   ee: https://doi.org/10.1007/s10994-010-5216-5
   url: https://dblp.org/rec/journals/ml/MartensBF11
   abstract: ''
+- author: Niklas Freymuth, Philipp Dahlinger, Tobias Würth, Simon Reisch, Luise Kärger,
+    Gerhard Neumann
+  title: Adaptive Swarm Mesh Refinement Using Deep Reinforcement Learning with Local
+    Rewards.
+  venue: Mach. Learn.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/FreymuthDWRKN26
+  doi: 10.1007/S10994-026-07064-4
+  ee: https://doi.org/10.1007/s10994-026-07064-4
+  url: https://dblp.org/rec/journals/ml/FreymuthDWRKN26
+  abstract: Abstract Simulating physical systems is essential in engineering, but
+    analytical solutions are limited to straightforward problems. Consequently, numerical
+    methods like the Finite Element Method (FEM) are widely used. However, the FEM
+    becomes computationally expensive as problem complexity and accuracy demands increase.
+    Adaptive Mesh Refinement (AMR) improves the FEM by dynamically placing mesh elements
+    on the domain, balancing computational speed and accuracy. Classical AMR depends
+    on heuristics or expensive error estimators, which may lead to suboptimal performance
+    for complex simulations. While AMR methods based on machine learning are promising,
+    they currently only scale to simple problems. In this work, we formulate AMR as
+    a system of collaborating, homogeneous agents that iteratively split into multiple
+    new agents. This agent-wise perspective enables a spatial reward formulation focused
+    on reducing the maximum mesh element error. Our approach, Adaptive Swarm Mesh
+    Refinement++ (ASMR++), offers efficient, stable optimization and generates highly
+    adaptive meshes at user-defined resolution at inference time. Extensive experiments
+    demonstrate that ASMR++ outperforms heuristic approaches and learned baselines,
+    matching the performance of expensive error-based oracle AMR strategies. ASMR++
+    additionally generalizes to different domains during inference, and produces meshes
+    that simulate up to 2 orders of magnitude faster than uniform refinements in more
+    demanding settings.
+  related_code: ''
+  abstract_cn: 摘要：在工程领域，物理系统的仿真至关重要，但解析解仅适用于简单问题。因此，有限元法（FEM）等数值方法得到广泛应用。然而，随着问题复杂度和精度要求的提升，有限元法的计算成本会显著增加。自适应网格细化（AMR）通过动态地在求解域上布置网格单元，实现了计算效率与精度之间的平衡。传统的AMR方法依赖于启发式规则或代价高昂的误差估计器，这可能导致在复杂仿真场景中性能欠佳。基于机器学习的AMR方法虽具潜力，但目前仍局限于简单问题。在本工作中，我们将AMR建模为一个由同质智能体协作组成的系统，这些智能体可迭代地分裂为多个新智能体。从智能体视角出发，我们设计了一种面向空间的奖励机制，旨在最小化网格单元的最大误差。所提出的自适应蜂群网格细化++（ASMR++）算法能够实现高效且稳定的优化，并在推理时按用户指定的分辨率生成高度自适应的网格。大量实验表明，ASMR++优于各类启发式方法及现有学习基线，其性能可与代价高昂的基于误差估计的“最优”AMR策略相媲美。此外，ASMR++在推理阶段具有良好的跨域泛化能力；在更复杂的工况下，其所生成的网格较均匀细化方案的仿真速度可提升多达两个数量级。
 swarm%20learn%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Maximilian Hüttenrauch, Adrian Sosic, Gerhard Neumann
   title: Deep Reinforcement Learning for Swarm Systems.

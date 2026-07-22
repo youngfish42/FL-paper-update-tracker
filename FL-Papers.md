@@ -854,6 +854,8 @@
 - Federated Learning on Riemannian Manifolds with Differential Privacy. [[PUB](https://doi.org/10.1007/s10994-026-07018-w)]
 - Federated SHAP: Privacy-Preserving and Consistent Post-hoc Explainability in Federated Learning. [[PUB](https://doi.org/10.1007/s10994-025-06956-1)]
 - FedGES: A Federated Learning Approach for Bayesian Network Structure Learning. [[PUB](https://doi.org/10.1007/s10994-025-06939-2)]
+- Towards Adaptive and Communication-Efficient Dynamic Federated Learning. [[PUB](https://doi.org/10.1007/s10994-026-07102-1)]
+- Adaptive Swarm Mesh Refinement Using Deep Reinforcement Learning with Local Rewards. [[PUB](https://doi.org/10.1007/s10994-026-07064-4)]
 - Collaborative Multivariate Time Series Forecasting via Variable-Tailored Inter-temporal Graph and Adaptive-Smooth Frequency Fusion. [[PUB](https://doi.org/10.1007/s10994-025-06963-2)]
 - LLM-SocRec: Enhancing Graph-based Social Recommendation via Collaborative Large Language Models. [[PUB](https://doi.org/10.1007/s10994-026-07063-5)]
 - PC-MoE: memory-efficient and privacy-preserving collaborative training for Mixture-of-Experts LLMs. [[PUB](https://doi.org/10.1007/s10994-025-06901-2)]

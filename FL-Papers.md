@@ -4499,6 +4499,7 @@
 - Adaptive Rank Allocation for Federated Parameter-Efficient Fine-Tuning of Language Models. [[PUB](https://doi.org/10.1109/TC.2026.3655161)]
 - Communication-Efficient Federated Learning by Exploiting Spatio-Temporal Correlations of Gradients. [[PUB](https://doi.org/10.1109/TC.2026.3654074)]
 - FedInf: An Efficient and Secure Inference With Federated Participants. [[PUB](https://doi.org/10.1109/TC.2025.3642408)]
+- Prototype Retrieval-Augmented Federated Learning System for Robust Intrusion Detection. [[PUB](https://doi.org/10.1109/TC.2026.3688741)]
 - S${}{2}$2FL: Toward Efficient and Accurate Heterogeneous Split Federated Learning. [[PUB](https://doi.org/10.1109/TC.2025.3626198)]
 - Tackling Heterogeneity in Quantum Federated Learning: An Integrated Sporadic-Personalized Approach. [[PUB](https://doi.org/10.1109/TC.2026.3654037)]
 - Toward Personalized Federated Meta-Learning With Constrained Hypernetwork on Non-IID Data. [[PUB](https://doi.org/10.1109/TC.2025.3625233)]

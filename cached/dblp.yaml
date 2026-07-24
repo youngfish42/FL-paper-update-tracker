@@ -72790,6 +72790,42 @@ federate%20streamid%3Ajournals%2Ftc%3A:
     federated learning.
   abstract_cn: 通信开销是联邦学习中的一个关键挑战，尤其是在带宽受限的网络环境中。尽管已有许多方法被提出用于降低通信开销，但大多数仅关注单个梯度的压缩，而忽略了梯度之间的时序相关性。先前的研究表明，梯度存在空间相关性，通常表现为低秩结构。通过实证分析，我们进一步观察到，在相邻轮次之间，客户端梯度之间存在着强烈的时序相关性。基于这些发现，我们提出了GradESTC——一种同时利用梯度空间与时序相关性的压缩技术。GradESTC首先利用空间相关性，将每个完整梯度分解为一组紧凑的基向量及其对应的组合系数；再借助时序相关性，每轮只需动态更新一小部分基向量。相比传输完整的梯度，GradESTC通过仅传输轻量级的组合系数和少量更新后的基向量，显著降低了通信开销。大量实验结果表明，在接近收敛的目标精度下，与最强基线方法相比，GradESTC平均可将上行通信量减少39.79%，同时保持与未压缩FedAvg相当的收敛速度和最终精度。通过有效利用梯度的时空结构，GradESTC为实现高效通信的联邦学习提供了一种实用且可扩展的解决方案。
   related_code: ''
+- author: Hanlin Zhou, Huiru Yan, Jiawei Nian, Cong Liu 0012, Ying Wang 0001, Xiaomin
+    Chen, Georgios Theodoropoulos 0001, Long Cheng 0003
+  title: Prototype Retrieval-Augmented Federated Learning System for Robust Intrusion
+    Detection.
+  venue: IEEE Trans. Computers
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tc/ZhouYNLWCTC26
+  doi: 10.1109/TC.2026.3688741
+  ee: https://doi.org/10.1109/TC.2026.3688741
+  url: https://dblp.org/rec/journals/tc/ZhouYNLWCTC26
+  abstract: Detecting malicious attacks is essential for protecting computer systems
+    and ensuring device security. Federated Learning (FL)-based Intrusion Detection
+    Systems (IDS) have emerged as promising solutions, enabling multiple clients (i.e.,
+    data owners) to collaboratively train intrusion detection models without sharing
+    private data. However, current FL studies typically assume that each client’s
+    training and test label distribution is identical. This assumption is overly idealistic
+    and rarely holds in real-world scenarios, leading to suboptimal performance when
+    label distribution shifts occur between the training and testing data. To address
+    this challenge, we propose FedPRO, a plug-and-play framework designed to improve
+    the test-time performance of existing FL methods, without modifying their original
+    training pipelines or fine-tuning the trained FL models. Specifically, we develop
+    a unique prototype generation and optimization mechanism to produce semantically
+    meaningful class prototypes. These prototypes constitute a prototype memory bank,
+    serving as an external knowledge repository. At test time, a prototype retrieval-augmented
+    inference strategy is employed to query relevant prototypes and refine predictions
+    on each client, effectively alleviating the label distribution shift issues and
+    boosting prediction accuracy. We evaluate FedPRO by integrating it with various
+    off-the-shelf FL methods on benchmark datasets. Extensive results consistently
+    demonstrate its effectiveness in diverse settings. Notably, applying FedPRO to
+    the state-of-the art method FedDBE improves its test accuracy from 79.25% to 86.66%
+    on the CICIDS-2018 dataset, while introducing only approximately 32KB of additional
+    communication overhead.
+  related_code: ''
+  abstract_cn: 检测恶意攻击对于保护计算机系统、确保设备安全至关重要。基于联邦学习（FL）的入侵检测系统（IDS）已成为一种颇具前景的解决方案，它使多个客户端（即数据所有者）能够在不共享私有数据的情况下协同训练入侵检测模型。然而，现有联邦学习研究通常假设各客户端的训练与测试标签分布完全一致。这一假设过于理想化，在现实场景中几乎难以成立，从而导致在训练数据与测试数据之间出现标签分布偏移时，模型性能不尽如人意。为应对这一挑战，我们提出了FedPRO——一个即插即用的框架，旨在提升现有联邦学习方法在测试阶段的性能，且无需修改其原始训练流程或对已训练的联邦模型进行微调。具体而言，我们设计了一种独特的原型生成与优化机制，用于构建语义上意义明确的类别原型；这些原型构成一个原型记忆库，作为外部知识存储。在测试时，采用基于原型检索的推理策略，查询相关原型并对各客户端的预测结果进行修正，从而有效缓解标签分布偏移问题，显著提升预测精度。我们在基准数据集上将FedPRO集成到多种现成的联邦学习方法中进行了评估，大量实验结果一致表明其在不同场景下的有效性。值得注意的是，将FedPRO应用于最先进的FedDBE方法，在CICIDS‑2018数据集上可将其测试准确率由79.25%提升至86.66%，且仅引入约32KB的额外通信开销。
 federate%20streamid%3Aconf%2Ficse%3A:
 - author: Waris Gill, Ali Anwar 0001, Muhammad Ali Gulzar
   title: 'FedDebug: Systematic Debugging for Federated Learning Applications.'

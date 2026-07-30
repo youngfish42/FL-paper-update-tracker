@@ -21596,6 +21596,271 @@ federate%20venue%3ANeurIPS%3A:
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/8258e815fa93aa59441ad526cc828c53-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YoonCL25
   abstract: ''
+- author: Weihao Bo, Yanpeng Sun, Yu Wang, Xinyu Zhang, Zechao Li
+  title: 'FedMGP: Personalized Federated Learning with Multi-Group Text-Visual Prompts.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/BoSWZL25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/4a4d5fca4bbb93ead4548854f1f28c0f-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/BoSWZL25
+  abstract: ''
+- author: Dario Fenoglio, Mohan Li, Pietro Barbiero, Nicholas D. Lane, Marc Langheinrich,
+    Martin Gjoreski
+  title: 'FLUX: Efficient Descriptor-Driven Clustered Federated Learning under Arbitrary
+    Distribution Shifts.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/FenoglioLBLLG25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/67496dfa96afddab795530cc7c69b57a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/FenoglioLBLLG25
+  abstract: ''
+- author: Yan Gao 0016, Massimo Roberto Scamarcia, Javier Fernández-Marqués, Mohammad
+    Naseri, Chong Shen Ng, Dimitris Stripelis, Zexi Li 0001, Tao Shen 0002, Jiamu
+    Bai, Daoyuan Chen, Zikai Zhang 0003, Rui Hu 0005, Inseo Song, KangYoon Lee, Hong
+    Jia, Ting Dang, Junyan Wang, Zheyuan Liu 0002, Daniel J. Beutel, Lingjuan Lyu,
+    Nicholas D. Lane
+  title: 'FlowerTune: A Cross-Domain Benchmark for Federated Fine-Tuning of Large
+    Language Models.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/GaoSFNNSLSBCZHS25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/563991b5c8b45fe75bea42db738223b2-Abstract-Datasets_and_Benchmarks_Track.html
+  url: https://dblp.org/rec/conf/nips/GaoSFNNSLSBCZHS25
+  abstract: ''
+- author: Dipam Goswami, Simone Magistri, Kai Wang 0060, Bartlomiej Twardowski, Andrew
+    D. Bagdanov, Joost van de Weijer 0001
+  title: 'Covariances for Free: Exploiting Mean Distributions for Training-free Federated
+    Learning.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/GoswamiMWTBW25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/5df817c5dd95293ebf6d1583303a8c73-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/GoswamiMWTBW25
+  abstract: ''
+- author: Geeho Kim, Jinu Lee, Bohyung Han
+  title: 'FedLPA: Local Prior Alignment for Heterogeneous Federated Generalized Category
+    Discovery.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/KimLH25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/379b14f0a57615d4df4bb808a5a73fdd-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/KimLH25
+  abstract: ''
+- author: Ke Li, Yan Ding, Zhiqin Zhu, Shenhai Zheng
+  title: 'Transforming Gaps into Gains: Bridging Model and Data Heterogeneity in Federated
+    Learning via Knowledge Weak-Aware Zones.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiDZZ25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/592ca58abdc87bd0ac92e9e83192d303-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiDZZ25
+  abstract: ''
+- author: Arian Raje, Baris Askin, Divyansh Jhunjhunwala, Gauri Joshi
+  title: 'Ravan: Multi-Head Low-Rank Adaptation for Federated Fine-Tuning.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/RajeAJJ25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/456a6eed524d1d647c3366f1ef96d0ea-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/RajeAJJ25
+  abstract: Fine-tuning large language models requires high computational and memory
+    resources, and is therefore associated with significant costs. When training on
+    federated datasets, an increased communication effort is also needed. For this
+    reason, parameter-efficient methods (PEFT) are becoming increasingly important.
+    In this context, very good results have already been achieved by fine-tuning with
+    low-rank adaptation methods (LoRA). The application of LoRA methods in Federated
+    Learning, and especially the aggregation of adaptation matrices, is a current
+    research field. In this article, we propose a novel aggregation method and compare
+    it with different existing aggregation methods of low rank adapters trained in
+    a federated fine-tuning of large machine learning models and evaluate their performance
+    with respect to selected GLUE benchmark datasets.
+  related_code: ''
+  abstract_cn: 微调大型语言模型需要高昂的计算与内存资源，因而成本巨大。在基于联邦数据集进行训练时，还需付出额外的通信开销。正因如此，参数高效微调方法（PEFT）的重要性日益凸显。在此背景下，采用低秩适应方法（LoRA）进行微调已取得了非常可观的效果。将LoRA方法应用于联邦学习，尤其是对适应矩阵的聚合，已成为当前的研究热点。本文提出了一种新的聚合方法，并将其与多种现有的低秩适配器聚合方案进行了对比，这些方案均是在大型机器学习模型的联邦微调过程中训练得到的；同时，我们基于若干GLUE基准数据集对其性能进行了评估。
+- author: Frank Wan, Xu Cheng, Run Liu, Wenke Huang 0003, Zitong Shi, Pinyi Jin, Guibin
+    Zhang, Bo Du 0001, Mang Ye
+  title: Multi-order Orchestrated Curriculum Distillation for Model-Heterogeneous
+    Federated Graph Learning.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WanCLHSJZDY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/66808849a9f5d8e2d00dbdc844de6333-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WanCLHSJZDY25
+  abstract: ''
+- author: Frank Wan, Fengyuan Ran, Ruikang Zhang, Wenke Huang 0003, Xuankun Rong,
+    Guibin Zhang, Yuxin Wu, Bo Du 0001, Mang Ye
+  title: 'MOTION: Multi-Sculpt Evolutionary Coarsening for Federated Continual Graph
+    Learning.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WanRZHRZWDY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/659afd140447b7d50fadf8bde6a2240d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WanRZHRZWDY25
+  abstract: ''
+- author: Frank Wan, Xiaoran Shang, Yuxin Wu, Guibin Zhang, Jinhe Bi, Liangtao Zheng,
+    Xin Lin, Yue Liu, Yanbiao Ma, Wenke Huang 0003, Bo Du 0001
+  title: 'HYPERION: Fine-Grained Hypersphere Alignment for Robust Federated Graph
+    Learning.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WanSWZBZLLMHD25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/5ee643ae2693644795e9668bd2773c06-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WanSWZBZLLMHD25
+  abstract: ''
+- author: Xinghao Wu, Xuefeng Liu 0001, Jianwei Niu 0002, Guogang Zhu, Mingjia Shi,
+    Shaojie Tang 0001, Jing Yuan 0002
+  title: Tackling Feature-Classifier Mismatch in Federated Learning via Prompt-Driven
+    Feature Transformation.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WuLNZSTY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/6a9b9b04ecf1e0b230fd39b8ed9c65ca-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WuLNZSTY25
+  abstract: In traditional Federated Learning approaches like FedAvg, the global model
+    underperforms when faced with data heterogeneity. Personalized Federated Learning
+    (PFL) enables clients to train personalized models to fit their local data distribution
+    better. However, we surprisingly find that the feature extractor in FedAvg is
+    superior to those in most PFL methods. More interestingly, by applying a linear
+    transformation on local features extracted by the feature extractor to align with
+    the classifier, FedAvg can surpass the majority of PFL methods. This suggests
+    that the primary cause of FedAvg's inadequate performance stems from the mismatch
+    between the locally extracted features and the classifier. While current PFL methods
+    mitigate this issue to some extent, their designs compromise the quality of the
+    feature extractor, thus limiting the full potential of PFL. In this paper, we
+    propose a new PFL framework called FedPFT to address the mismatch problem while
+    enhancing the quality of the feature extractor. FedPFT integrates a feature transformation
+    module, driven by personalized prompts, between the global feature extractor and
+    classifier. In each round, clients first train prompts to transform local features
+    to match the global classifier, followed by training model parameters. This approach
+    can also align the training objectives of clients, reducing the impact of data
+    heterogeneity on model collaboration. Moreover, FedPFT's feature transformation
+    module is highly scalable, allowing for the use of different prompts to tailor
+    local features to various tasks. Leveraging this, we introduce a collaborative
+    contrastive learning task to further refine feature extractor quality. Our experiments
+    demonstrate that FedPFT outperforms state-of-the-art methods by up to 7.08%.
+  related_code: ''
+  abstract_cn: 在诸如FedAvg等传统联邦学习方法中，全局模型在面对数据异构性时往往表现欠佳。个性化联邦学习（PFL）使客户端能够训练适应其本地数据分布的个性化模型。然而，令人意外的是，我们发现FedAvg中的特征提取器性能优于大多数PFL方法。更有趣的是，通过对特征提取器所提取的本地特征施加线性变换以与分类器对齐，FedAvg甚至能够超越绝大多数PFL方法。这表明，FedAvg性能不足的主要原因在于本地提取的特征与分类器之间的不匹配。尽管当前的PFL方法在一定程度上缓解了这一问题，但其设计却牺牲了特征提取器的质量，从而限制了PFL潜力的充分发挥。  在本文中，我们提出了一种名为FedPFT的新颖PFL框架，旨在解决上述不匹配问题，并同时提升特征提取器的性能。FedPFT在全局特征提取器与分类器之间引入了一个由个性化提示驱动的特征转换模块。每轮迭代中，客户端首先训练用于将本地特征转换为与全局分类器相匹配的提示，随后再更新模型参数。该方法还能有效对齐各客户端的优化目标，降低数据异构性对模型协同的影响。此外，FedPFT的特征转换模块具有良好的可扩展性，可通过选用不同的提示来适配各类任务的本地特征需求。基于此，我们进一步引入了一种协作式对比学习任务，以持续优化特征提取器的质量。实验结果表明，FedPFT的性能较现有最先进方法最高可提升7.08%。
+- author: Kunlun Xu, Yibo Feng, Jiangmeng Li, Yongsheng Qi, Jiahuan Zhou
+  title: 'C2Prompt: Class-aware Client Knowledge Interaction for Federated Continual
+    Learning.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/XuFLQZ25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/3e8f5d2924f1bff724588eb0f8f5e62d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/XuFLQZ25
+  abstract: ''
+- author: Binqian Xu, Haiyang Mei, Zechen Bai, Jinjin Gong, Rui Yan 0010, Guosen Xie,
+    Yazhou Yao, Basura Fernando, Xiangbo Shu
+  title: 'You Only Communicate Once: One-shot Federated Low-Rank Adaptation of MLLM.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/XuMBGYXYFS25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/58e6c003c9fb3992265005ff6aef1913-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/XuMBGYXYFS25
+  abstract: ''
+- author: Gang Yan, Sikai Yang, Wan Du
+  title: 'FedRACE: A Hierarchical and Statistical Framework for Robust Federated Learning.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YanYD25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/57fbe68cb318cad62c4ae4c91c83cba3-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YanYD25
+  abstract: ''
+- author: Bicheng Ying, Zhe Li 0083, Haibo Yang 0001
+  title: Exact and Linear Convergence for Federated Learning under Arbitrary Client
+    Participation is Attainable.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YingLY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/395409679270591fd2a70abc694cf5a1-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YingLY25
+  abstract: ''
+- author: Zhengyi Zhong, Wenzheng Jiang, Weidong Bao 0001, Ji Wang 0002, Qi (Cheems)
+    Wang, Guanbo Wang, Yongheng Deng, Ju Ren 0001
+  title: 'Gains: Fine-grained Federated Domain Adaptation in Open Set.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhongJBWWWDR25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/481c70828a4ff20d31a646cc6cc95f3d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhongJBWWWDR25
+  abstract: 'Conventional federated learning (FL) assumes a closed world with a fixed
+    total number of clients. In contrast, new clients continuously join the FL process
+    in real-world scenarios, introducing new knowledge. This raises two critical demands:
+    detecting new knowledge, i.e., knowledge discovery, and integrating it into the
+    global model, i.e., knowledge adaptation. Existing research focuses on coarse-grained
+    knowledge discovery, and often sacrifices source domain performance and adaptation
+    efficiency. To this end, we propose a fine-grained federated domain adaptation
+    approach in open set (Gains). Gains splits the model into an encoder and a classifier,
+    empirically revealing features extracted by the encoder are sensitive to domain
+    shifts while classifier parameters are sensitive to class increments. Based on
+    this, we develop fine-grained knowledge discovery and contribution-driven aggregation
+    techniques to identify and incorporate new knowledge. Additionally, an anti-forgetting
+    mechanism is designed to preserve source domain performance, ensuring balanced
+    adaptation. Experimental results on multi-domain datasets across three typical
+    data-shift scenarios demonstrate that Gains significantly outperforms other baselines
+    in performance for both source-domain and target-domain clients. Code is available
+    at: https://github.com/Zhong-Zhengyi/Gains.'
+  related_code: https://github.com/Zhong-Zhengyi/Gains
+  abstract_cn: 传统的联邦学习（FL）假定处于一个客户端总数固定的封闭世界。然而，在现实场景中，新客户端会不断加入联邦学习过程，带来新的知识。这提出了两项关键需求：检测新知识，即知识发现；以及将其融入全局模型，即知识适配。现有研究多聚焦于粗粒度的知识发现，且往往以牺牲源域性能和适配效率为代价。为此，我们提出一种面向开放集的细粒度联邦域适配方法——Gains。Gains将模型拆分为编码器与分类器，并通过实证发现：编码器提取的特征对领域漂移敏感，而分类器参数则对类别增量敏感。在此基础上，我们设计了细粒度的知识发现技术和贡献驱动的聚合机制，以识别并融合新知识。此外，还引入抗遗忘机制，以保持源域性能，从而实现均衡的适配效果。在三种典型数据漂移场景下的多领域数据集上进行的实验结果表明，Gains
+    在源域与目标域客户端的性能方面均显著优于其他基线方法。代码已公开：https://github.com/Zhong-Zhengyi/Gains。
+- author: Yinlin Zhu, Xunkai Li, Jishuo Jia, Miao Hu 0001, Di Wu 0001, Meikang Qiu
+  title: Towards Effective Federated Graph Foundation Model via Mitigating Knowledge
+    Entanglement.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhuLJHWQ25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/5d68a3f05ee2aae6a0fb2d94959082a0-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhuLJHWQ25
+  abstract: ''
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -77552,6 +77817,64 @@ collaborat%20learn%20venue%3ANeurIPS%3A:
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/d46662aa53e78a62afd980a29e0c37ed-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiuSGTL25
   abstract: ''
+- author: Yuesen Liao, Zhiwei Li, Binrui Wu, Zihao Cheng, Su Zhao, Shuai Chen, Weizhong
+    Zhang
+  title: Compress Large Language Models via Collaboration Between Learning and Matrix
+    Approximation.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiaoLWCZCZ25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/5752f9fd2d5c40174738d6f02c202e72-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiaoLWCZCZ25
+  abstract: ''
+- author: Kaihang Pan, Yang Wu, Wendong Bu, Kai Shen, Juncheng Li 0006, Yingting Wang,
+    Yunfei Li, Siliang Tang, Jun Xiao 0001, Fei Wu 0001, Hang Zhao, Yueting Zhuang
+  title: 'Janus-Pro-R1: Advancing Collaborative Visual Comprehension and Generation
+    via Reinforcement Learning.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/PanWBSLWLTXWZZ25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/568cdf5b5ab34e0fb2ce94e3c2cd806d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/PanWBSLWLTXWZZ25
+  abstract: ''
+- author: Hao Zhong, Muzhi Zhu, Zongze Du, Zheng Huang, Canyu Zhao, Mingyu Liu, Wen
+    Wang 0015, Hao Chen 0041, Chunhua Shen
+  title: 'Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhongZDHZLWCS25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/4086fe59dc3584708468fba0e459f6a7-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhongZDHZLWCS25
+  abstract: 'Long-horizon video-audio reasoning and fine-grained pixel understanding
+    impose conflicting requirements on omnimodal models: dense temporal coverage demands
+    many low-resolution frames, whereas precise grounding calls for high-resolution
+    inputs. We tackle this trade-off with a two-system architecture: a Global Reasoning
+    System selects informative keyframes and rewrites the task at low spatial cost,
+    while a Detail Understanding System performs pixel-level grounding on the selected
+    high-resolution snippets. Because ``optimal'''' keyframe selection and reformulation
+    are ambiguous and hard to supervise, we formulate them as a reinforcement learning
+    (RL) problem and present Omni-R1, an end-to-end RL framework built on Group Relative
+    Policy Optimization. Omni-R1 trains the Global Reasoning System through hierarchical
+    rewards obtained via online collaboration with the Detail Understanding System,
+    requiring only one epoch of RL on small task splits. Experiments on two challenging
+    benchmarks, namely Referring Audio-Visual Segmentation (RefAVS) and Reasoning
+    Video Object Segmentation (REVOS), show that Omni-R1 not only surpasses strong
+    supervised baselines but also outperforms specialized state-of-the-art models,
+    while substantially improving out-of-domain generalization and mitigating multimodal
+    hallucination. Our results demonstrate the first successful application of RL
+    to large-scale omnimodal reasoning and highlight a scalable path toward universally
+    foundation models.'
+  related_code: ''
+  abstract_cn: 长时序的视频‑音频推理与细粒度的像素级理解对多模态模型提出了相互矛盾的要求：密集的时序覆盖需要大量低分辨率帧，而精准的定位则要求高分辨率输入。我们通过一种双系统架构来应对这一权衡：全局推理系统以较低的空间开销筛选出具有信息量的关键帧并重述任务，而细节理解系统则在所选的高分辨率片段上执行像素级别的定位。由于“最优”的关键帧选择与任务重述既不明确又难以监督，我们将它们建模为强化学习问题，并提出了Omni‑R1——一个基于分组相对策略优化的端到端强化学习框架。Omni‑R1通过与细节理解系统在线协作获得的层次化奖励来训练全局推理系统，且只需在小规模任务划分上进行单轮强化学习。在两个具有挑战性的基准数据集——引用式视听分割（RefAVS）和推理型视频目标分割（REVOS）——上的实验表明，Omni‑R1不仅超越了强大的监督基线，还优于专门化的最先进模型，同时显著提升了跨域泛化能力并有效缓解了多模态幻觉现象。我们的研究首次成功将强化学习应用于大规模多模态推理，并为构建通用基础模型开辟了一条可扩展的路径。
 collaborat%20learn%20venue%3AICML%3A:
 - author: Lan Li 0001, Da-Wei Zhou 0001, Han-Jia Ye, De-Chuan Zhan
   title: Addressing Imbalanced Domain-Incremental Learning through Dual-Balance Collaborative
@@ -85432,6 +85755,18 @@ local%20SGD%20venue%3ANeurIPS%3A:
     Local SGD 中的作用，并为该算法建立了新的收敛性理论。具体而言，我们证明通过调整外层学习率，可以实现：(a) 在优化误差与随机梯度噪声方差之间进行权衡；(b)
     在内层学习率设置不当的情况下予以弥补。我们的理论表明，外层学习率有时应当取大于 1 的值。我们将结果进一步推广到在外层优化器中使用动量的情形，并指出经动量修正的外层学习率也具有类似的作用。此外，我们还研究了外层优化器中的加速技术，证明其能够改善收敛速率随通信轮数的变化趋势，优于以往仅在局部应用加速的算法。最后，我们提出了一种新颖的、依赖于数据的
     Local SGD 分析方法，为进一步优化外层学习率提供了新的洞见。我们基于标准语言模型和多种外层优化器开展了全面的实验，以验证所提出的理论。
+- author: Kumar Kshitij Patel, Ali Zindari, Sebastian U. Stich, Lingxiao Wang
+  title: 'Revisiting Consensus Error: A Fine-grained Analysis of Local SGD under Second-order
+    Data Heterogeneity.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/PatelZSW25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/54cee855c7eb9429b4b3668d06bf670f-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/PatelZSW25
+  abstract: ''
 local%20SGD%20venue%3AICML%3A:
 - author: Blake E. Woodworth, Kumar Kshitij Patel, Sebastian U. Stich, Zhen Dai, Brian
     Bullins, H. Brendan McMahan, Ohad Shamir, Nathan Srebro
@@ -89251,6 +89586,136 @@ model%20merg%20venue%3ANeurIPS%3A:
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/91b1966914203338495a76d13b23599c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangALCC25
   abstract: ''
+- author: Baoyi He, Luotian Yuan, Ying Wei 0001, Fei Wu 0001
+  title: 'Curriculum Model Merging: Harmonizing Chemical LLMs for Enhanced Cross-Task
+    Generalization.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/HeYWW25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/379eb671b5b00ba37d6aa2a93e298d2a-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/HeYWW25
+  abstract: ''
+- author: Amin Heyrani Nobari, Kaveh Alimohammadi, Ali ArjomandBigdeli, Akash Srivastava,
+    Faez Ahmed, Navid Azizan
+  title: Activation-Informed Merging of Large Language Models.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/NobariAASAA25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/69b576be5219a18195f2dba1ae1ffceb-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/NobariAASAA25
+  abstract: ''
+- author: Aniello Panariello, Daniel Marczak, Simone Magistri, Angelo Porrello, Bartlomiej
+    Twardowski, Andrew D. Bagdanov, Simone Calderara, Joost van de Weijer 0001
+  title: Accurate and Efficient Low-Rank Model Merging in Core Space.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/PanarielloMMPTB25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/5913278289e8de3e8f9ac22b47f3ae06-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/PanarielloMMPTB25
+  abstract: In this paper, we address the challenges associated with merging low-rank
+    adaptations of large neural networks. With the rise of parameter-efficient adaptation
+    techniques, such as Low-Rank Adaptation (LoRA), model fine-tuning has become more
+    accessible. While fine-tuning models with LoRA is highly efficient, existing merging
+    methods often sacrifice this efficiency by merging fully-sized weight matrices.
+    We propose the Core Space merging framework, which enables the merging of LoRA-adapted
+    models within a common alignment basis, thereby preserving the efficiency of low-rank
+    adaptation while substantially improving accuracy across tasks. We further provide
+    a formal proof that projection into Core Space ensures no loss of information
+    and provide a complexity analysis showing the efficiency gains. Extensive empirical
+    results demonstrate that Core Space significantly improves existing merging techniques
+    and achieves state-of-the-art results on both vision and language tasks while
+    utilizing a fraction of the computational resources. Codebase is available at
+    https://github.com/apanariello4/core-space-merging.
+  related_code: https://github.com/apanariello4/core-space-merging
+  abstract_cn: 本文探讨了大型神经网络低秩适配器合并所面临的挑战。随着参数高效适配技术（如低秩适配，LoRA）的兴起，模型微调变得更加便捷。尽管采用LoRA进行模型微调具有极高的效率，但现有的合并方法往往通过合并全尺寸权重矩阵而牺牲这种效率。为此，我们提出了Core
+    Space合并框架，该框架能够在共同的对齐基下实现LoRA适配模型的合并，在保持低秩适配效率的同时，显著提升各任务的性能。我们进一步给出了形式化证明，表明投影至Core
+    Space不会造成信息损失，并进行了复杂度分析以量化其效率优势。大量实验结果表明，Core Space能够显著改进现有合并方法，在视觉与语言任务上均取得当前最优性能，且仅需消耗极少量的计算资源。代码库已公开，地址为：https://github.com/apanariello4/core-space-merging。
+- author: Huitong Yang, Zhuoxiao Chen, Fengyi Zhang, Zi Huang, Yadan Luo
+  title: 'CodeMerge: Codebook-Guided Model Merging for Robust Test-Time Adaptation
+    in Autonomous Driving.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YangCZHL25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/463a91da3c832bd28912cd0d1b8d9974-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YangCZHL25
+  abstract: Maintaining robust 3D perception under dynamic and unpredictable test-time
+    conditions remains a critical challenge for autonomous driving systems. Existing
+    test-time adaptation (TTA) methods often fail in high-variance tasks like 3D object
+    detection due to unstable optimization and sharp minima. While recent model merging
+    strategies based on linear mode connectivity (LMC) offer improved stability by
+    interpolating between fine-tuned checkpoints, they are computationally expensive,
+    requiring repeated checkpoint access and multiple forward passes. In this paper,
+    we introduce CodeMerge, a lightweight and scalable model merging framework that
+    bypasses these limitations by operating in a compact latent space. Instead of
+    loading full models, CodeMerge represents each checkpoint with a low-dimensional
+    fingerprint derived from the source model's penultimate features and constructs
+    a key-value codebook. We compute merging coefficients using ridge leverage scores
+    on these fingerprints, enabling efficient model composition without compromising
+    adaptation quality. Our method achieves strong performance across challenging
+    benchmarks, improving end-to-end 3D detection 14.9% NDS on nuScenes-C and LiDAR-based
+    detection by over 7.6% mAP on nuScenes-to-KITTI, while benefiting downstream tasks
+    such as online mapping, motion prediction and planning even without training.
+    Code and pretrained models are released in the supplementary material.
+  related_code: ''
+  abstract_cn: 在动态且不可预测的测试时条件下保持稳健的三维感知，仍然是自动驾驶系统面临的一项关键挑战。现有的测试时适应（TTA）方法在诸如三维目标检测等高方差任务中往往因优化不稳定和极小值尖锐而失效。尽管近年来基于线性模式连通性（LMC）的模型融合策略通过在微调后的多个检查点之间进行插值来提升稳定性，但其计算开销较大，需要反复访问检查点并执行多次前向传播。为此，本文提出CodeMerge——一个轻量且可扩展的模型融合框架，它通过在紧凑的潜在空间中运作来规避上述局限。CodeMerge不加载完整模型，而是以源模型倒数第二层特征为依据，为每个检查点构建低维指纹，并据此构造键值型码本。我们利用这些指纹上的岭杠杆率来计算融合系数，从而在不牺牲适应性能的前提下实现高效的模型组合。我们的方法在多项具有挑战性的基准上均取得了优异效果：在nuScenes-C数据集上将端到端三维检测的NDS指标提升了14.9%，在nuScenes→KITTI迁移任务中将基于激光雷达的检测mAP提高了7.6%以上；并且即使无需额外训练，也能有效提升在线建图、运动预测与规划等下游任务的性能。代码及预训练模型已随附于补充材料中公开发布。
+- author: Enneng Yang, Anke Tang, Li Shen 0008, Guibing Guo, Xingwei Wang 0001, Xiaochun
+    Cao, Jie M. Zhang
+  title: 'Continual Model Merging without Data: Dual Projections for Balancing Stability
+    and Plasticity.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YangTSGWCZ25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/37d9f19150fce07bced2a81fc87d47a6-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YangTSGWCZ25
+  abstract: ''
+- author: Fanhu Zeng, Haiyang Guo, Fei Zhu 0004, Li Shen, Hao Tang 0005
+  title: 'RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction
+    Robustness.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZengGZST25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/67101f97dc23fcc10346091181fff6cb-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZengGZST25
+  abstract: Fine-tuning pre-trained models with custom data leads to numerous expert
+    models on specific tasks. Merging models into one universal model to empower multi-task
+    ability refraining from data leakage has gained popularity. With the expansion
+    in data and model size, parameter-efficient tuning becomes the common practice
+    for obtaining task-specific models efficiently. However, few methods are dedicated
+    to efficient merging, and existing methods designed for full fine-tuning merging
+    fail under efficient merging. To address the issue, we analyze from low-rank decomposition
+    and reveal that direction robustness during merging is crucial for merging efficient
+    modules. We furthermore uncover that compensating for the gap between stark singular
+    values contributes to direction robustness. Therefore, we propose RobustMerge,
+    a training-free parameter-efficient merging method with complementary parameter
+    adaptation to maintain direction robustness. Specifically, we (1) prune parameters
+    and scale coefficients from inter-parameter relation for singular values to maintain
+    direction stability away from task interference, and (2) perform cross-task normalization
+    to enhance unseen task generalization. We establish a benchmark consisting of
+    diverse multimodal tasks, on which we conduct experiments to certify the outstanding
+    performance and generalizability of our method. Additional studies and extensive
+    analyses further showcase the effectiveness. Code is available at https://github.com/AuroraZengfh/RobustMerge.
+  related_code: https://github.com/AuroraZengfh/RobustMerge
+  abstract_cn: 利用自定义数据对预训练模型进行微调，能够得到大量针对特定任务的专家模型。将多个模型融合为一个通用模型，以在避免数据泄露的同时提升多任务能力，这一做法日益受到关注。随着数据规模与模型容量的持续增长，参数高效的微调已成为高效获取任务专用模型的主流范式。然而，目前鲜有专门针对高效融合的方法，而那些为全量微调设计的融合方案在参数高效场景下往往失效。为此，我们从低秩分解的角度展开分析，揭示了在融合过程中方向鲁棒性对于高效模块融合的重要性，并进一步发现，补偿显著奇异值之间的差距有助于提升方向鲁棒性。基于此，我们提出了
+    RobustMerge——一种无需训练的、兼具互补参数适配的参数高效融合方法，用以维持方向鲁棒性。具体而言，我们（1）通过挖掘参数间关系对奇异值进行剪枝与系数缩放，以在远离任务干扰的同时保持方向稳定性；（2）引入跨任务归一化，以增强对未见任务的泛化能力。我们构建了一个包含多种多模态任务的基准测试集，并在该基准上开展实验，验证了所提方法的卓越性能与良好泛化性。此外，一系列补充研究与深入分析进一步证实了其有效性。代码已公开，详见
+    https://github.com/AuroraZengfh/RobustMerge。
 model%20merg%20venue%3AICML%3A:
 - author: Qi Wei 0004, Shuo He 0001, Enneng Yang, Tingcong Liu, Haobo Wang 0001, Lei
     Feng 0006, Bo An 0001

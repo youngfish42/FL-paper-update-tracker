@@ -50216,6 +50216,43 @@ federate%20venue%3AACL%3A:
     FedGUI，这是首个用于在移动、Web 和桌面平台上开发与评估联邦 GUI 代理的综合性基准。FedGUI 提供了一套精心构建的六类数据集，以系统化地研究四种关键的异构性：跨平台、跨设备、跨操作系统以及跨数据源。大量实验揭示了若干重要发现：首先，我们证明了跨平台协作能够提升性能，将以往仅限于移动端的联邦学习拓展至多元化的
     GUI 环境；其次，我们证实了不同异构性维度的存在，并指出平台与操作系统是影响最为显著的因素。FedGUI 为学术界构建更具可扩展性且更注重隐私保护的 GUI
     代理、推动其在真实场景中的部署奠定了重要基础。我们的代码与数据已公开发布于 https://github.com/wwh0411/FedGUI。
+- author: Daniel Cieslak, Andrzej Czyzewski
+  title: Does Locality Cost in Polish Medical Text Classification? Duplicate-Aware
+    Evaluation of Federated Learning.
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/CieslakC26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-srw.44/
+  url: https://dblp.org/rec/conf/acl/CieslakC26
+  abstract: ''
+- author: Kris Prasad, Md Abdullah Al Hafiz Khan
+  title: 'FedPAGR: Federated Prototype Alignment via Geometric Refinement for Heterogeneous
+    Architectures.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/PrasadK26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-srw.37/
+  url: https://dblp.org/rec/conf/acl/PrasadK26
+  abstract: ''
+- author: Tinnakit Udsa, Can Udomcharoenchaikit, Patomporn Payoungkhamdee, Sarana
+    Nutanong, Norrathep Rattanavipanon
+  title: Exploring Cross-Client Memorization of Training Data in Large Language Models
+    for Federated Learning.
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/UdsaUPNR26
+  doi: ''
+  ee: https://aclanthology.org/2026.acl-short.56/
+  url: https://dblp.org/rec/conf/acl/UdsaUPNR26
+  abstract: ''
 federate%20venue%3AEMNLP%3A:
 - author: Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Schütze, Pankaj
     Gupta 0003
@@ -82780,6 +82817,18 @@ collaborat%20learn%20venue%3AACL%3A:
   ee: https://aclanthology.org/2026.findings-acl.799/
   url: https://dblp.org/rec/conf/acl/LiuLLLSWMC26
   abstract: ''
+- author: Jinjia Feng, Wenda Wang 0004, Zhewei Wei
+  title: 'MotifAgent: Learning Molecular Assembly through Multi-Agent Collaboration
+    for Chemical Language Understanding.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/FengWW26
+  doi: 10.18653/V1/2026.FINDINGS-ACL.2023
+  ee: https://doi.org/10.18653/v1/2026.findings-acl.2023
+  url: https://dblp.org/rec/conf/acl/FengWW26
+  abstract: ''
 collaborat%20learn%20venue%3ANAACL-HLT%3A:
 - author: Armanda Lewis
   title: Multimodal large language models for inclusive collaboration learning tasks.
@@ -92449,6 +92498,30 @@ model%20merg%20venue%3AACL%3A:
   abstract_cn: 多模态大语言模型（MLLMs）依赖于其基础语言模型所继承的强大语言推理能力。然而，多模态指令微调却会 paradoxically 降低文本推理性能，进而影响整体的多模态表现。为解决这一问题，我们提出了一种无需额外训练的框架，以缓解这种性能退化。通过逐层对视觉
     token 进行掩码处理，我们揭示了多模态大语言模型中普遍存在的一种三阶段模式：早期模态分离、中期模态对齐以及晚期模态退化。基于对不同阶段模型行为的分析，我们进一步提出了基于
     plateau 的模型融合方法，该方法可将基础语言模型的参数有选择地注入到 MLLMs 中。在九个基准上针对五种 MLLMs 的实验结果验证了所提方法的有效性。基于注意力的分析还表明，融合过程能够使注意力分布由分散、弥散的状态转向聚焦于与任务相关的视觉区域。我们的代码库地址为：https://github.com/wzj1718/PlaM。
+- author: Tiancheng Hu, Benjamin Minixhofer, Nigel Collier
+  title: 'Navigating the Alignment-Calibration Trade-off: A Pareto-Superior Frontier
+    via Model Merging.'
+  venue: ACL
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/acl/HuMC26
+  doi: 10.18653/V1/2026.FINDINGS-ACL.2104
+  ee: https://doi.org/10.18653/v1/2026.findings-acl.2104
+  url: https://dblp.org/rec/conf/acl/HuMC26
+  abstract: 'The "alignment tax" of post-training is typically framed as a drop in
+    task accuracy.We show it also involves a severe loss of calibration, making models
+    overconfident, less reliable, and model outputs less diverse.We demonstrate that
+    this trade-off can be navigated effectively via a simple post-hoc intervention:
+    interpolating between a model''s weights before and after alignment.Crucially,
+    this is not a strict trade-off.We find that the process consistently reveals Pareto-optimal
+    interpolations-models that improve accuracy beyond both parents while substantially
+    recovering the calibration lost during alignment.Our work demonstrates that simple
+    model merging provides a computationally efficient method for mitigating the full
+    scope of the alignment tax, yielding models that are more capable and more reliable.
+    1'
+  related_code: ''
+  abstract_cn: 后训练阶段的“对齐代价”通常被表述为任务准确率的下降。我们发现，它还伴随着严重的校准性损失，导致模型过度自信、可靠性降低且输出多样性不足。我们进一步表明，通过一种简单的事后干预——在对齐前后模型权重之间进行插值——可以有效缓解这一权衡。尤为重要的是，这并非一种不可调和的取舍。我们发现，该过程总能生成帕累托最优的插值路径：这些模型在准确率上均优于两个父模型，并且能够显著恢复在对齐过程中丧失的校准性。我们的工作证明，简单地对模型进行合并是一种计算高效的方法，可有效缓解对齐代价的全方位影响，从而得到能力更强、可靠性更高的模型。1
 model%20merg%20venue%3ANAACL-HLT%3A:
 - author: Swarnadeep Saha, Omer Levy, Asli Celikyilmaz, Mohit Bansal, Jason Weston,
     Xian Li 0003

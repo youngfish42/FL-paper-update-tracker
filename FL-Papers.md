@@ -2185,12 +2185,12 @@
 - Caesar: Optimizing Federated Learning via Low-deviation Compression. [[PUB](https://doi.org/10.1145/3770854.3780170)]
 - Communication-efficient Federated Graph Classification via Generative Diffusion Modeling. [[PUB](https://doi.org/10.1145/3770854.3780262)]
 - FedKDMR: Robust Federated Learning via Joint Knowledge Distillation &amp; Model Recombination. [[PUB](https://doi.org/10.1145/3770854.3780160)]
-- FedPRE: Robust Federated Graph Learning against Topological Corruption. [[PUB](https://doi.org/10.1145/3770854.3780330)]
+- FedPRE: Robust Federated Graph Learning against Topological Corruption. [[PUB](https://doi.org/10.1145/3770854.3780330)] [[CODE](https://github.com/OakleyTan/FedPRE)]
 - HAL: Accurate, Private, and Efficient Sample Alignment for Multimodal Federated Learning. [[PUB](https://doi.org/10.1145/3770854.3780223)]
 - MFC: Mixed Federated Clustering based on Cross-modal Feature Decoupling. [[PUB](https://doi.org/10.1145/3770854.3780327)]
 - Towards Privacy-Preserving and Heterogeneity-aware Split Federated Learning via Probabilistic Masking. [[PUB](https://doi.org/10.1145/3770854.3780255)]
-- Two Heads Are Better Than One: Generalized Cross-Domain Federated Learning via Dual-Prototype. [[PUB](https://doi.org/10.1145/3770854.3780269)]
-- Vertical Federated K-Means for Multi-View Data Guided by a K-Means Cost Bound after Projection. [[PUB](https://doi.org/10.1145/3770854.3780182)]
+- Two Heads Are Better Than One: Generalized Cross-Domain Federated Learning via Dual-Prototype. [[PUB](https://doi.org/10.1145/3770854.3780269)] [[CODE](https://github.com/AAuZZ/FedOrthrus)]
+- Vertical Federated K-Means for Multi-View Data Guided by a K-Means Cost Bound after Projection. [[PUB](https://doi.org/10.1145/3770854.3780182)] [[CODE](https://github.com/jiangjh/V-HDKM)]
 - MergeRec: Model Merging for Data-Isolated Cross-Domain Sequential Recommendation. [[PUB](https://doi.org/10.1145/3770854.3780264)]
 
 #### WSDM

@@ -38291,7 +38291,33 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780269
   ee: https://doi.org/10.1145/3770854.3780269
   url: https://dblp.org/rec/conf/kdd/CaoCHQCZX26
-  abstract: ''
+  abstract: 'Cross-domain federated learning aims to collaboratively train a generalized
+    model across clients with heterogeneous domain distributions without sharing data.
+    Existing methods typically leverage prototypes to align intermediate representations
+    among local models and enhance collaborative knowledge sharing, constructed either
+    by directly aggregating class-center features across clients or by performing
+    clustering to improve diversity. However, their performance is limited by the
+    suboptimal ability to balance the learning of generalized and domain-specific
+    features. To address this issue, this paper presents a novel dual-prototype guided
+    FL framework named FedOrthrus, which decomposes the prototype into two components:
+    i) the generalized prototype to capture cross-client domain-invariant features,
+    and ii) the domain-specific prototype to extract the specific features of each
+    domain. Specifically, the cloud server aggregates generalized prototypes to capture
+    shared semantics across clients, thereby guiding each client to learn domain-invariant
+    representations. Meanwhile, a clustering strategy is employed to adaptively construct
+    domain-specific prototypes, ensuring that the representational capacity allocated
+    to each domain is balanced according to its semantic complexity. Moreover, FedOrthrus
+    employs a distribution-aware prototype construction scheme to dynamically assign
+    the size of each part of prototypes, which enhances adaptability to different
+    levels of domain heterogeneity. The experimental results on three datasets demonstrate
+    that our FedOrthrus can achieve up to 14.56% and 3.96% accuracy improvement compared
+    to traditional and state-of-the-art prototype-based FL methods. Our code is available
+    at https://github.com/AAuZZ/FedOrthrus.'
+  related_code: https://github.com/AAuZZ/FedOrthrus
+  abstract_cn: 跨域联邦学习旨在在各客户端之间协作训练一个泛化模型，且无需共享数据，同时应对不同客户端间异构的领域分布。现有方法通常利用原型来对齐本地模型的中间表示，并促进知识的协同共享；这些原型或通过直接聚合各客户端的类别中心特征构建，或通过聚类以提升多样性。然而，其性能受限于难以有效平衡泛化特征与领域特定特征的学习。针对这一问题，本文提出了一种名为
+    FedOrthrus 的新型双原型引导联邦学习框架，该框架将原型分解为两个组成部分：一是用于捕捉跨客户端领域不变特征的泛化原型，二是用于提取各领域特有特征的领域特定原型。具体而言，云端服务器通过聚合泛化原型来捕获跨客户端的共享语义，从而引导各客户端学习领域不变的表征；同时，采用聚类策略自适应地构建领域特定原型，根据各领域的语义复杂度均衡分配其表征能力。此外，FedOrthrus
+    还引入了一种分布感知的原型构建机制，动态调整各部分原型的规模，以增强对不同水平领域异质性的适应性。在三个数据集上的实验结果表明，与传统及当前最先进的基于原型的联邦学习方法相比，FedOrthrus
+    可分别带来高达 14.56% 和 3.96% 的准确率提升。代码已公开发布于 https://github.com/AAuZZ/FedOrthrus。
 - author: Xiaxia He, Boyue Wang, Junbin Gao, Yongli Hu, Baocai Yin
   title: 'MFC: Mixed Federated Clustering based on Cross-modal Feature Decoupling.'
   venue: KDD
@@ -38302,7 +38328,27 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780327
   ee: https://doi.org/10.1145/3770854.3780327
   url: https://dblp.org/rec/conf/kdd/HeWGHY26
-  abstract: ''
+  abstract: Existing federated clustering methods typically assume that either all
+    clients supply the same type of single-modal/multi-modal data, or that different
+    clients provide various modalities describing the same object. However, a prevalent
+    real-world scenario involves clients contributing data from diverse and unrelated
+    modalities. Addressing the challenge of uncovering clustering patterns from such
+    heterogeneous modality data distributed across distinct clients is crucial. In
+    this paper, we propose a novel cross-modal feature decoupling-based mixed federated
+    clustering model. To address client heterogeneity, we introduce a cross-modal
+    feature decoupling module for each client, designed to decouple modality-agnostic
+    and modality-specific features through distinct encoders.Only the modality-agnostic
+    encoder parameters and clustering centers of each client are transmitted to the
+    server. This enables the server to aggregate various modality-agnostic encoders,
+    effectively discovering the global clustering structure while avoiding interference
+    from modality-specific noise. Moreover, we develop a global consistent complementary
+    clustering module to integrate the complementary clustering centers from various
+    clients. The global clustering centers are then dispatched back to clients to
+    guide and calibrate their local clustering models. Experimental results on three
+    public datasets show the superiority of the proposed model compared to classic
+    federated clustering methods.
+  related_code: ''
+  abstract_cn: 现有的联邦聚类方法通常假定：要么所有客户端都提供同一类型的单模态或多模态数据，要么不同客户端提供的不同模态描述的是同一对象。然而，在现实场景中，更常见的情况是各客户端贡献来自多种互不相关模态的数据。如何从分布于不同客户端的这类异构多模态数据中挖掘聚类模式，是一个亟待解决的关键问题。为此，本文提出了一种基于跨模态特征解耦的混合联邦聚类模型。针对客户端异构性，我们为每个客户端设计了一个跨模态特征解耦模块，通过独立的编码器分别提取模态无关特征和模态特定特征。仅将各客户端的模态无关编码器参数及聚类中心上传至服务器，使服务器能够对多个模态无关编码器进行聚合，从而有效发现全局聚类结构，同时避免模态特定噪声的干扰。此外，我们还构建了一个全局一致性互补聚类模块，用于整合来自不同客户端的互补聚类中心，并将最终的全局聚类中心回传至各客户端，以指导和校准其本地聚类模型。在三个公开数据集上的实验结果表明，所提出的模型相较于经典的联邦聚类方法具有显著优势。
 - author: Wenhao Li, Christos Anagnostopoulos 0001, Shameem A Puthiya Parambath, Kevin
     Bryson 0001
   title: 'FedKDMR: Robust Federated Learning via Joint Knowledge Distillation &amp;
@@ -38343,7 +38389,31 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780182
   ee: https://doi.org/10.1145/3770854.3780182
   url: https://dblp.org/rec/conf/kdd/LiJWDQ26
-  abstract: ''
+  abstract: 'Multi-view data is widely present in the real world. Multi-view clustering
+    is an unsupervised method for capturing the grouping structure of such data. However,
+    multi-view clustering struggles to meet the requirements of real-world scenarios,
+    such as distributed storage of different views and data protection needs. These
+    requirements align with the setting of vertical federated clustering. However,
+    vertical federated clustering still faces two challenges: (1) Under the constraints
+    of privacy protection mechanisms, how to theoretically analyze the clustering
+    consistency between the data uploaded by clients to the server and the original
+    client data is challenging. (2) The feature space differences among different
+    clients make cross-view information sharing and fusion difficult. To address the
+    first challenge, we provide a theoretical analysis of the upper bound of the loss
+    of k-means for transformation matrix mapping, revealing the relationship between
+    the k-means loss of the transformed data and the original data. We then propose
+    a vertical federated clustering method (V-HDKM). In this method, clients handle
+    the second challenge by transposing the feature matrix. Guided by the projected
+    k-means loss bound, we expand the feature space and perform k-means clustering
+    to obtain feature cluster centers, which are then uploaded to the server. The
+    server aggregates the global centers and feeds back the optimized results, achieving
+    cross-view knowledge fusion through iterative interactions. Experimental results
+    show that V-HDKM significantly improves local clustering performance and performances
+    better than other seven vertical federated mthods on 20 multi-view datasets. Furthermore,
+    sensitivity analysis on 8 UCI datasets with respect to the number of clients demonstrates
+    the stability of the method. The code is available at https://github.com/jiangjh/V-HDKM.'
+  related_code: https://github.com/jiangjh/V-HDKM
+  abstract_cn: 多视图数据在现实世界中广泛存在。多视图聚类是一种无监督方法，用于揭示这类数据的分组结构。然而，多视图聚类难以满足实际场景中的诸多需求，例如不同视图的分布式存储以及数据保护要求。这些需求与纵向联邦聚类的设定相契合。不过，纵向联邦聚类仍面临两大挑战：（1）在隐私保护机制的约束下，如何从理论上分析客户端上传至服务器的数据与原始客户端数据之间的聚类一致性，这一问题颇具挑战性；（2）不同客户端间存在的特征空间差异，使得跨视图的信息共享与融合变得困难。针对第一个挑战，我们对变换矩阵映射的k均值损失上界进行了理论分析，揭示了变换后数据与原始数据之间k均值损失的关系。在此基础上，我们提出了一种纵向联邦聚类方法（V‑HDKM）。该方法通过客户端对特征矩阵进行转置来应对第二个挑战；同时，以推导出的k均值损失界为指导，扩展特征空间并执行k均值聚类，得到特征聚类中心后上传至服务器。服务器对全局中心进行聚合，并将优化结果反馈给客户端，从而在迭代交互过程中实现跨视图的知识融合。实验结果表明，V‑HDKM显著提升了局部聚类性能，在20个多视图数据集上均优于其他七种纵向联邦聚类方法。此外，我们在8个UCI数据集上针对客户端数量开展了敏感性分析，验证了该方法的稳定性。代码已公开，详见https://github.com/jiangjh/V-HDKM。
 - author: Zihan Tan, Guancheng Wan, Wenke Huang 0003, Bin Yang 0026, Mang Ye
   title: 'FedPRE: Robust Federated Graph Learning against Topological Corruption.'
   venue: KDD
@@ -38354,7 +38424,29 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780330
   ee: https://doi.org/10.1145/3770854.3780330
   url: https://dblp.org/rec/conf/kdd/TanWHYY26
-  abstract: ''
+  abstract: 'Federated Graph Learning (FGL) has emerged as a compelling paradigm for
+    distributed Graph Neural Networks (GNNs) training, prioritizing data privacy preservation.
+    However, due to the limitations of data collection and storage conditions, FGL
+    suffers from data corruption in real-world applications. While Federated Learning
+    (FL) and FGL studies have addressed label corruption, the challenge of graph topological
+    corruption remains unexamined. Specifically, this phenomenon significantly disrupts
+    node connectivity patterns of graphs, leading GNNs to adopt flawed feature propagation
+    paradigms. Existing methods with poor robustness are inevitably constrained due
+    to the absence of targeted strategies for addressing the issues of global contaminated
+    collaboration and local vulnerability. To tackle this challenge, we conduct the
+    first comprehensive investigation of robust FGL against topological corruption
+    and propose FedPRE. It comprises: (1) Feature Propagation Robustness Evaluation
+    (FPRE), which evaluates client GNNs feature propagation robustness and adjusts
+    their contribution during aggregation. (2) Topological Corruption-Resistant Enhancement
+    (TCRE), which enhances robustness against corruption during local training. Extensive
+    experiments validate the robustness and effectiveness of FedPRE against topological
+    corruption. The code is available at https://github.com/OakleyTan/FedPRE.'
+  related_code: https://github.com/OakleyTan/FedPRE
+  abstract_cn: 联邦图学习（FGL）作为一种新兴范式，为分布式图神经网络（GNN）的训练提供了有效途径，并将数据隐私保护置于优先地位。然而，受数据采集与存储条件的限制，FGL
+    在实际应用中普遍存在数据污染问题。尽管联邦学习（FL）及 FGL 领域的相关研究已针对标签污染展开探讨，但图拓扑结构污染这一挑战仍未得到充分关注。具体而言，该现象会显著破坏图的节点连接模式，导致
+    GNN 采用错误的特征传播机制。由于缺乏针对全局协作污染与局部脆弱性问题的针对性策略，现有方法的鲁棒性普遍不足，难以应对这一难题。为此，我们首次对抵御拓扑污染的鲁棒联邦图学习进行了系统性研究，并提出了
+    FedPRE。其核心包括：(1) 特征传播鲁棒性评估（FPRE），用于量化客户端 GNN 的特征传播鲁棒性，并在聚合过程中动态调整其权重；(2) 拓扑污染抵抗增强（TCRE），旨在提升本地训练阶段的抗污染能力。大量实验验证了
+    FedPRE 在抵御拓扑污染方面的鲁棒性与有效性。代码已开源，详见 https://github.com/OakleyTan/FedPRE。
 - author: Xiuling Wang, Xin Huang 0001, Haibo Hu 0001, Jianliang Xu
   title: Communication-efficient Federated Graph Classification via Generative Diffusion
     Modeling.
@@ -38429,7 +38521,28 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780170
   ee: https://doi.org/10.1145/3770854.3780170
   url: https://dblp.org/rec/conf/kdd/YanLXMW26
-  abstract: ''
+  abstract: Compression is an efficient way to relieve the tremendous communication
+    overhead of federated learning (FL) systems. However, for the existing works,
+    the information loss under compression will lead to unexpected model/gradient
+    deviation for the FL training, significantly degrading the training performance,
+    especially under the challenges of data heterogeneity and model obsolescence.
+    To strike a delicate trade-off between model accuracy and traffic cost, we propose
+    Caesar,, a novel FL framework with a low-deviation compression approach. For the
+    global model download, we design a greedy method to optimize the compression ratio
+    for each device based on the staleness of the local model, ensuring a precise
+    initial model for local training. Regarding the local gradient upload, we utilize
+    the device's local data properties (i.e., sample volume and label distribution)
+    to quantify its local gradient's importance, which then guides the determination
+    of the gradient compression ratio. We have implemented Caesar, on two physical
+    platforms with 40 smartphones and 80 NVIDIA Jetson devices. Extensive results
+    show that Caesar, can reduce the traffic costs by about 25.54%þicksim37.88% when
+    achieving the same target accuracy compared to the compression-based baselines,
+    while incurring only a 0.68% degradation in final test accuracy relative to the
+    full-precision communication.
+  related_code: ''
+  abstract_cn: 压缩是缓解联邦学习（FL）系统中巨大通信开销的有效手段。然而，现有方法在压缩过程中引入的信息损失会导致模型与梯度出现不可预期的偏差，从而显著降低训练性能，尤其是在数据异构性和模型过时等挑战下更为明显。为了在模型精度与通信开销之间取得平衡，我们提出了
+    Caesar——一种基于低偏差压缩机制的新型联邦学习框架。针对全局模型的下载，我们设计了一种贪心算法，根据本地模型的陈旧程度为每台设备动态优化压缩比，以确保本地训练拥有精确的初始模型。对于本地梯度的上传，我们利用设备端的局部数据特性（如样本数量和标签分布）来量化其局部梯度的重要性，并据此确定梯度的压缩比。我们在两个物理平台上进行了部署，分别使用40部智能手机和80块NVIDIA
+    Jetson设备。大量实验结果表明，在达到与基于压缩的基线相当的目标精度的前提下，Caesar 可将通信开销降低约25.54%至37.88%，且最终测试精度仅比全精度通信下降0.68%。
 - author: Xiaokai Zhou, Xiao Yan 0002, Xinyan Li, Yuxiang Wang, Quanqing Xu, Chuang
     Hu, Tieyun Qian, Jiawei Jiang 0001
   title: 'HAL: Accurate, Private, and Efficient Sample Alignment for Multimodal Federated
@@ -38442,7 +38555,30 @@ federate%20venue%3AKDD%3A:
   doi: 10.1145/3770854.3780223
   ee: https://doi.org/10.1145/3770854.3780223
   url: https://dblp.org/rec/conf/kdd/ZhouYLWXHQJ26
-  abstract: ''
+  abstract: Vertical multimodal federated learning (VMFL) enables multiple clients
+    holding data from different modalities to conduct collaboratively model training.
+    Existing methods typically assume that multimodal data samples (i.e., text and
+    image) from the same entity (i.e., person) are paired across the clients (i.e.,
+    aligned). However, this assumption rarely holds in practice, as data is often
+    collected independently with no shared identifiers. To address this challenge,
+    we propose hashing-based alignment (HAL), a new VMFL framework that works without
+    pre-aligned samples. HAL consists of two key components. The first component is
+    an efficient and privacy-preserving method to identify similar samples from different
+    modalities as aligned pairs. It adopts locality sensitive hashing (LSH) for the
+    efficient retrieval of similar samples, introduces a shift-orthogonal hashing
+    scheme to tackle the gaps between different modalities, and uses a bloom-style
+    method for secure Hamming distance estimation. We prove that the shift-orthogonal
+    hashing reduces distance estimation errors and secure Hamming distance estimation
+    satisfies differential privacy. The second component is a neighbor-aware fusion
+    strategy, which applies cross-attention to aggregate informative signals from
+    the aligned samples without relying on explicit similarity scores. Experimental
+    results on two real-world datasets show that compared with five state-of-the-art
+    (SOTA) baselines, HAL improves the cross-modal retrieval accuracy by over 63%,
+    while also achieving up to 154× speedup.
+  related_code: ''
+  abstract_cn: 垂直多模态联邦学习（VMFL）使多个持有不同模态数据的客户端能够协同开展模型训练。现有方法通常假设来自同一实体（如个人）的多模态数据样本（如文本与图像）在各客户端之间已成对齐（即对齐）。然而，在实际场景中这一假设往往难以成立，因为数据通常是独立采集且缺乏共享标识。为应对这一挑战，我们提出了基于哈希的对齐机制（HAL），这是一种无需预对齐样本的新型
+    VMFL 框架。HAL 包含两个核心组件：其一，是一种高效且隐私友好的方法，用于识别不同模态间的相似样本并将其作为对齐对；该方法采用局部敏感哈希（LSH）实现相似样本的高效检索，引入移位正交哈希方案以缓解不同模态之间的差异，并利用布隆式方法进行安全的汉明距离估计。我们证明了移位正交哈希能够降低距离估计误差，且安全汉明距离估计满足差分隐私。其二，是一种邻域感知的融合策略，通过交叉注意力聚合对齐样本中的有效信息，而不依赖于显式的相似度分数。在两个真实数据集上的实验结果表明，与五种最先进的基线方法相比，HAL
+    将跨模态检索准确率提升了超过 63%，同时实现了最高 154 倍的加速。
 federate%20venue%3AWSDM%3A:
 - author: Wei Yuan, Hongzhi Yin, Fangzhao Wu, Shijie Zhang, Tieke He, Hao Wang
   title: Federated Unlearning for On-Device Recommendation.
@@ -50252,7 +50388,22 @@ federate%20venue%3AACL%3A:
   doi: ''
   ee: https://aclanthology.org/2026.acl-short.56/
   url: https://dblp.org/rec/conf/acl/UdsaUPNR26
-  abstract: ''
+  abstract: 'Federated learning (FL) enables collaborative training without raw data
+    sharing, but still risks training data memorization. Existing FL memorization
+    detection techniques focus on one sample at a time, underestimating more subtle
+    risks of cross-sample memorization. In contrast, recent work on centralized learning
+    (CL) has introduced fine-grained methods to assess memorization across all samples
+    in training data, but these assume centralized access to data and cannot be applied
+    directly to FL. We bridge this gap by proposing a framework that quantifies both
+    intra- and inter-client memorization in FL using fine-grained cross-sample memorization
+    measurement across all clients. Based on this framework, we conduct two studies:
+    (1) measuring subtle memorization across clients and (2) examining key factors
+    that influence memorization, including decoding strategies, prefix length, and
+    FL algorithms. Our findings reveal that FL models do memorize client data, particularly
+    intra-client data, more than inter-client data, with memorization influenced by
+    training and inferencing factors.'
+  related_code: ''
+  abstract_cn: 联邦学习（FL）能够在不共享原始数据的情况下实现协同训练，但仍存在训练数据过拟合的风险。现有的联邦学习过拟合检测技术往往逐样本进行分析，低估了跨样本过拟合这一更为隐蔽的风险。相比之下，集中式学习（CL）领域的最新研究提出了细粒度的方法，用于评估训练数据中所有样本的过拟合情况，但这些方法假设能够集中访问数据，无法直接应用于联邦学习场景。为此，我们提出了一种新框架，通过在所有客户端之间开展细粒度的跨样本过拟合度量，同时量化客户端内和客户端间的过拟合现象。基于该框架，我们开展了两项研究：（1）测量跨客户端的细微过拟合；（2）探究影响过拟合的关键因素，包括解码策略、前缀长度以及联邦学习算法等。研究结果表明，联邦学习模型确实会记住客户端数据，其中客户端内的数据记忆程度高于客户端间的数据，且过拟合程度受到训练与推理过程中的多种因素影响。
 federate%20venue%3AEMNLP%3A:
 - author: Yatin Chaudhary, Pranav Rai, Matthias Schubert, Hinrich Schütze, Pankaj
     Gupta 0003

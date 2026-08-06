@@ -3657,6 +3657,13 @@
 
 ## Database
 
+### 2026
+
+#### SIGMOD
+
+- HeteroFedSyn: Differentially Private Tabular Data Synthesis for Heterogeneous Federated Settings. [[PUB](https://doi.org/10.1145/3802072)]
+- Understanding the Impact of Data Noise in Federated Learning: [Experiments &amp; Analysis]. [[PUB](https://doi.org/10.1145/3802124)]
+
 ### 2025
 
 #### SIGMOD

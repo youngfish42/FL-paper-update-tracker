@@ -21861,6 +21861,274 @@ federate%20venue%3ANeurIPS%3A:
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/5d68a3f05ee2aae6a0fb2d94959082a0-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhuLJHWQ25
   abstract: ''
+- author: Kaiqi Guan, Wenke Huang 0003, Xianda Guo, Yueyang Yuan, Bin Yang 0026, Mang
+    Ye
+  title: Rethinking Fair Federated Learning from Parameter and Client View.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/GuanHGYYY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/1b1205172b8a57ad504002a081b37859-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/GuanHGYYY25
+  abstract: ''
+- author: Seok-Ju Hahn, Junghye Lee
+  title: Diffusion Federated Dataset.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/HahnL25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/0408ce33f8491d7248ff732330dacc52-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/HahnL25
+  abstract: ''
+- author: Sheng Huang, Lele Fu, Fanghua Ye 0001, Tianchi Liao, Bowen Deng 0002, Chuanfu
+    Zhang, Chuan Chen 0001
+  title: Soft-consensual Federated Learning for Data Heterogeneity via Multiple Paths.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/HuangFYLDZC25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/0e614c5955e324b074028f42063aae0f-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/HuangFYLDZC25
+  abstract: ''
+- author: Tianle Li, Yongzhi Huang 0002, Linshan Jiang, Chang Liu 0093, Qipeng Xie,
+    Wenfeng Du, Lu Wang 0002, Kaishun Wu
+  title: 'FedWMSAM: Fast and Flat Federated Learning via Weighted Momentum and Sharpness-Aware
+    Minimization.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiHJLXDWW25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/06d2e62af8bff76aa4aef37e750dc908-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiHJLXDWW25
+  abstract: ''
+- author: Dandan Liang, Jianing Zhang, Evan Chen, Zhe Li 0083, Rui Li 0002, Haibo
+    Yang 0001
+  title: 'Towards Straggler-Resilient Split Federated Learning: An Unbalanced Update
+    Approach.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiangZCLLY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/2d945a8085c100de722385171803cc51-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiangZCLLY25
+  abstract: 'Split Federated Learning (SFL) enables scalable training on edge devices
+    by combining the parallelism of Federated Learning (FL) with the computational
+    offloading of Split Learning (SL). Despite its great success, SFL suffers significantly
+    from the well-known straggler issue in distributed learning systems. This problem
+    is exacerbated by the dependency between Split Server and clients: the Split Server
+    side model update relies on receiving activations from clients. Such synchronization
+    requirement introduces significant time latency, making straggler a critical bottleneck
+    to the scalability and efficiency of the system. To mitigate this problem, we
+    propose MU-SplitFed, a straggler-resilient SFL algorithm in zeroth-order optimization
+    that decouples training progress from straggler delays via a simple yet effective
+    unbalanced update mechanism. By enabling the server to perform $τ$ local updates
+    per client round, MU-SplitFed achieves a convergence rate of $O(\sqrt{d/(τT)})$
+    for non-convex objectives, demonstrating a linear speedup of $τ$ in communication
+    rounds. Experiments demonstrate that MU-SplitFed consistently outperforms baseline
+    methods with the presence of stragglers and effectively mitigates their impact
+    through adaptive tuning of $τ$. The code for this project is available at https://github.com/Johnny-Zip/MU-SplitFed.'
+  related_code: https://github.com/Johnny-Zip/MU-SplitFed
+  abstract_cn: 分割联邦学习（SFL）通过将联邦学习（FL）的并行性与分割学习（SL）的计算卸载相结合，实现了边缘设备上的可扩展训练。然而，尽管取得了显著成效，SFL
+    仍深受分布式学习系统中众所周知的“拖拉机”问题困扰。这一问题因分割服务器与客户端之间的依赖关系而进一步加剧：分割服务器端的模型更新需要等待来自客户端的激活值。这种同步需求带来了较大的时间延迟，使“拖拉机”成为制约系统可扩展性和效率的关键瓶颈。为缓解这一问题，我们提出了
+    MU‑SplitFed，这是一种基于零阶优化的抗“拖拉机”SFL 算法，它通过一种简单而有效的非均衡更新机制，将训练进度与“拖拉机”延迟解耦。MU‑SplitFed
+    允许服务器在每个客户端轮次中执行 τ 次本地更新，对于非凸目标，其收敛速率可达 O(√(d/(τT)))，并在通信轮次上实现了 τ 倍的线性加速。实验表明，在存在“拖拉机”的情况下，MU‑SplitFed
+    始终优于基线方法，并可通过自适应调整参数 τ 有效缓解其影响。该项目的代码已公开，地址为 https://github.com/Johnny-Zip/MU-SplitFed。
+- author: Duong M. Nguyen, Trong Nghia Hoang, Thanh Trung Huynh, Quoc Viet Hung Nguyen,
+    Phi Le Nguyen
+  title: Learning Reconfigurable Representations for Multimodal Federated Learning
+    with Missing Data.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/NguyenHHNN25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/29978617eb250d16969e3681121ad6d7-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/NguyenHHNN25
+  abstract: ''
+- author: Zhuang Qi, Pan Yu, Lei Meng 0001, Sijin Zhou, Han Yu 0001, Xiaoxiao Li,
+    Xiangxu Meng
+  title: Global Prompt Refinement with Non-Interfering Attention Masking for One-Shot
+    Federated Learning.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/QiYMZYLM25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/11e7d0a3341de7f451141248dfbff4d3-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/QiYMZYLM25
+  abstract: Federated Prompt Learning (FPL) enables communication-efficient adaptation
+    by tuning lightweight prompts on top of frozen pre-trained models. Existing FPL
+    methods typically rely on global information, which is only available after the
+    second training round, to facilitate collaboration among client models. Therefore,
+    they are inherently dependent on multi-round communication to fully exhibit their
+    strengths. Moreover, existing one-shot federated learning methods typically focus
+    on fitting seen tasks, but lack cross-task generalization. To bridge this gap,
+    we propose the Global Prompt Refinement with Non-Interfering Attention Masking
+    (GPR-NIAM) method for one-shot FPL. The core idea is to design a masking mechanism
+    that restricts excessive interaction between the original text embeddings and
+    the learnable prompt embeddings. GPR-NIAM achieves this through the collaboration
+    of two key modules. Firstly, the attention isolation module suppresses attention
+    from the learnable prompt tokens to the original text tokens, and reweights the
+    reverse attention which preserves generalization across tasks. Secondly, the cross-silo
+    collaborative refinement module integrates decentralized visual knowledge into
+    a unified base and calibrates the global prompt through multi-source cross-modal
+    knowledge alignment, further mitigating the inconsistency caused by data heterogeneity.
+    Extensive experiments conducted on ten benchmark datasets under two tasks show
+    that GPR-NIAM outperforms eight state-of-the-art methods in both class-level and
+    domain-level generalization.
+  related_code: ''
+  abstract_cn: 联邦提示学习（FPL）通过在冻结的预训练模型之上对轻量级提示进行调优，实现了通信高效的模型适配。现有的FPL方法通常依赖于仅在第二轮训练后才能获得的全局信息来促进客户端模型之间的协作，因此其优势的充分发挥本质上离不开多轮通信。此外，现有的单次联邦学习方法往往侧重于拟合已见任务，而缺乏跨任务泛化能力。为弥补这一不足，我们提出了基于非干扰式注意力掩码的全局提示精炼方法（GPR‑NIAM），用于单次FPL。其核心思想是设计一种掩码机制，以限制原始文本嵌入与可学习提示嵌入之间的过度交互。GPR‑NIAM通过两个关键模块的协同实现这一目标：首先，注意力隔离模块抑制可学习提示令牌对原始文本令牌的注意力，并重新加权反向注意力，从而保持跨任务的泛化能力；其次，跨联邦协作精炼模块将去中心化的视觉知识整合到统一的基础模型中，并通过多源跨模态知识对齐对全局提示进行校准，进一步缓解由数据异质性带来的不一致性。在两类任务下的十个基准数据集上开展的大量实验表明，GPR‑NIAM在类别级别和领域级别的泛化性能均优于八种当前最先进的方法。
+- author: Jiahao Wu, Ming Hu 0003, Yanxin Yang, Xiaofei Xie, Zekai Chen 0004, Chenyu
+    Song, Mingsong Chen 0001
+  title: 'Rising from Ashes: Generalized Federated Learning via Dynamic Parameter
+    Reset.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/WuHYXCSC25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/16e71d1a24b98a02c17b1be1f634f979-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/WuHYXCSC25
+  abstract: ''
+- author: Jie Yan, Jing Liu, Zhong-Yuan Zhang
+  title: 'OmniFC: Rethinking Federated Clustering via Lossless and Secure Distance
+    Reconstruction.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YanLZ25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/1dd6bebdde4fab36be1a426010915db9-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YanLZ25
+  abstract: ''
+- author: Xiaoyang Yi, Yang Liu 0441, Binhan Yang, Jian Jun Zhang
+  title: Federated Continual Learning via Orchestrating Multi-Scale Expertise.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YiLYZ25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/20de741d21f1a038093c6e3ee7c09481-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YiLYZ25
+  abstract: ''
+- author: Huajun Yin, Liyuan Wang, Yingqiu Zhu, Liping Zhu, Danyang Huang
+  title: Vertical Federated Feature Screening.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YinWZZH25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/172946488c60421563ecad4ee2d4235d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YinWZZH25
+  abstract: ''
+- author: Yueyang Yuan, Wenke Huang 0003, Frank Wan, Kaiqi Guan, He Li 0054, Mang
+    Ye
+  title: 'DKDR: Dynamic Knowledge Distillation for Reliability in Federated Learning.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/YuanHWGLY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/3181db351fd3ced43cd589b0b572675d-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/YuanHWGLY25
+  abstract: ''
+- author: Letian Zhang, Bo Chen, Jieming Bian, Lei Wang 0199, Jie Xu 0001
+  title: 'FedEL: Federated Elastic Learning for Heterogeneous Devices.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhangCBWX25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/3327377ee37b8c87c43a7d6a4ea3d279-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhangCBWX25
+  abstract: ''
+- author: Li Zhang, Zhongxuan Han, XiaoHua Feng, Jiaming Zhang, Yuyuan Li, Chaochao
+    Chen
+  title: 'FedFACT: A Provable Framework for Controllable Group-Fairness Calibration
+    in Federated Learning.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhangHFZLC25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/17ca2b635fdb94dbd3292da790e3fd46-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhangHFZLC25
+  abstract: ''
+- author: Ran Zhu, Mingkun Yang, Shiqiang Wang, Jie Yang, Qing Wang
+  title: 'Flick: Empowering Federated Learning with Commonsense Knowledge.'
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhuYWYW25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/02080e8e63c0db49c6f8854e2f19a272-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhuYWYW25
+  abstract: ''
+- author: Wei Zhuo 0006, Zhaohuan Zhan, Han Yu 0001
+  title: Personalized Subgraph Federated Learning with Differentiable Auxiliary Projections.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZhuoZY25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/2360da01c2ed6592bb691326424de184-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZhuoZY25
+  abstract: ''
+- author: Shiyuan Zuo, Xingrun Yan, Rongfei Fan, Li Shen 0008, Puning Zhao, Jie Xu
+    0002, Han Hu 0003
+  title: Efficient Federated Learning against Byzantine Attacks and Data Heterogeneity
+    via Aggregating Normalized Gradients.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/ZuoYFSZXH25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/29c71a71cf3b354036d9b413cd049cbf-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/ZuoYFSZXH25
+  abstract: Federated Learning (FL) enables multiple clients to collaboratively train
+    models without sharing raw data, but is vulnerable to Byzantine attacks and data
+    heterogeneity, which can severely degrade performance. Existing Byzantine-robust
+    approaches tackle data heterogeneity, but incur high computational overhead during
+    gradient aggregation, thereby slowing down the training process. To address this
+    issue, we propose a simple yet effective Federated Normalized Gradients Algorithm
+    (Fed-NGA), which performs aggregation by merely computing the weighted mean of
+    the normalized gradients from each client. This approach yields a favorable time
+    complexity of $\mathcal{O}(pM)$, where $p$ is the model dimension and $M$ is the
+    number of clients. We rigorously prove that Fed-NGA is robust to both Byzantine
+    faults and data heterogeneity. For non-convex loss functions, Fed-NGA achieves
+    convergence to a neighborhood of stationary points under general assumptions,
+    and further attains zero optimality gap under some mild conditions, which is an
+    outcome rarely achieved in existing literature. In both cases, the convergence
+    rate is $\mathcal{O}(1/T^{\frac{1}{2} - δ})$, where $T$ denotes the number of
+    iterations and $δ\in (0, 1/2)$. Experimental results on benchmark datasets confirm
+    the superior time efficiency and convergence performance of Fed-NGA over existing
+    methods.
+  related_code: ''
+  abstract_cn: 联邦学习（FL）使多个客户端能够在不共享原始数据的情况下协同训练模型，但其易受拜占庭攻击和数据异构性的影响，从而导致性能严重下降。现有的抗拜占庭方法虽能应对数据异构性，但在梯度聚合过程中却带来了较高的计算开销，进而拖慢了训练速度。为此，我们提出了一种简单而有效的联邦归一化梯度算法（Fed-NGA），该算法仅通过计算各客户端归一化梯度的加权均值来完成聚合。这一方法的时间复杂度为$\mathcal{O}(pM)$，其中$p$为模型维度，$M$为客户端数量。我们严格证明了Fed-NGA对拜占庭故障和数据异构性均具有鲁棒性。对于非凸损失函数，在一般假设下，Fed-NGA能够收敛到驻点的邻域；在一些较弱条件下，甚至可以达到零最优性
+    gap，这在现有文献中实属罕见。在这两种情况下，其收敛速率均为$\mathcal{O}(1/T^{\frac{1}{2} - δ})$，其中$T$表示迭代次数，$δ\in
+    (0, \frac{1}{2})$。在基准数据集上的实验结果进一步证实，Fed-NGA在运行效率和收敛性能方面均优于现有方法。
 federate%20venue%3AICML%3A:
 - author: Jinheon Baek, Wonyong Jeong, Jiongdao Jin, Jaehong Yoon, Sung Ju Hwang
   title: Personalized Subgraph Federated Learning.
@@ -89987,6 +90255,18 @@ model%20merg%20venue%3ANeurIPS%3A:
   abstract_cn: 利用自定义数据对预训练模型进行微调，能够得到大量针对特定任务的专家模型。将多个模型融合为一个通用模型，以在避免数据泄露的同时提升多任务能力，这一做法日益受到关注。随着数据规模与模型容量的持续增长，参数高效的微调已成为高效获取任务专用模型的主流范式。然而，目前鲜有专门针对高效融合的方法，而那些为全量微调设计的融合方案在参数高效场景下往往失效。为此，我们从低秩分解的角度展开分析，揭示了在融合过程中方向鲁棒性对于高效模块融合的重要性，并进一步发现，补偿显著奇异值之间的差距有助于提升方向鲁棒性。基于此，我们提出了
     RobustMerge——一种无需训练的、兼具互补参数适配的参数高效融合方法，用以维持方向鲁棒性。具体而言，我们（1）通过挖掘参数间关系对奇异值进行剪枝与系数缩放，以在远离任务干扰的同时保持方向稳定性；（2）引入跨任务归一化，以增强对未见任务的泛化能力。我们构建了一个包含多种多模态任务的基准测试集，并在该基准上开展实验，验证了所提方法的卓越性能与良好泛化性。此外，一系列补充研究与深入分析进一步证实了其有效性。代码已公开，详见
     https://github.com/AuroraZengfh/RobustMerge。
+- author: Lei Liu 0072, Xingyu Xia, Qianqian Xie, Ben Liu 0002, Wenjie Xu, Min Peng
+    0002
+  title: Enhanced Expert Merging for Mixture-of-Experts in Graph Foundation Models.
+  venue: NeurIPS
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/nips/LiuXXLXP25
+  doi: ''
+  ee: http://papers.nips.cc/paper_files/paper/2025/hash/201e1777dfabe595d766d5222f20f2dd-Abstract-Conference.html
+  url: https://dblp.org/rec/conf/nips/LiuXXLXP25
+  abstract: ''
 model%20merg%20venue%3AICML%3A:
 - author: Qi Wei 0004, Shuo He 0001, Enneng Yang, Tingcong Liu, Haobo Wang 0001, Lei
     Feng 0006, Bo An 0001

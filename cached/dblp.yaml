@@ -49999,6 +49999,32 @@ federate%20streamid%3Ajournals%2Fijcv%3A:
   abstract_cn: 摘要 联邦学习（FL）通常在封闭集场景下运行，即所有测试类别在训练阶段均已知，这限制了其在现实场景中的应用，因为在这些场景中，模型必须能够处理新出现的未知类别。这种局限性会导致未见过的类别被错误地归类为已知类别。为应对这一问题，我们提出了联邦开放集识别（FedOSR）这一全新范式，使分布式客户端能够协同训练既能对已知类别进行分类、又能检测并拒绝未知类别的模型。然而，FedOSR也面临独特的挑战：一方面，各客户端内部同时学习封闭集与开放集知识会产生跨任务干扰；另一方面，由于客户端间数据异构，又会引发同任务内的不一致性。这些挑战从根本上加剧了联邦聚合过程的复杂性，因为优化目标的分歧与数据分布的异质性会导致模型聚合时参数发生错位。为此，我们提出了
     FedPD++——一个基于参数解耦的框架，通过客户端—服务器协同机制系统性地解决上述两大难题。在客户端侧，局部参数解耦（LPD）将每个开放集识别模型分解为面向特定任务的封闭集与开放集子网络，以避免跨任务干扰。我们引入了一种动态路径积分（DPI）分数，利用路径积分稳定性稳健地识别任务相关参数，并辅以自适应软掩码（ASM）策略，通过可调阈值而非硬性二值划分来构建灵活的子网络。在服务器侧，全局分治聚合（GDCA）则通过将每个子网络划分为共享与专用两部分，并借助最优传输技术对齐各客户端间的对应组件，从而消除参数错位，有效缓解同任务内不一致性问题。为进一步保障聚合稳定性，我们还整合了顺序批归一化对齐（SBA），利用来自多个客户端的时间序列批归一化统计信息。大量实验表明，在开放集分类与分割任务上，FedPD++
     均能持续取得显著优于现有最先进方法的性能。代码开源地址：https://github.com/CUHK-AIM-Group/FedPD
+- author: Junyan Ouyang, Siqi Du, Rui Han 0001, Chi Harold Liu, Jianxin Zhao, Xiaoning
+    Wu, Lydia Y. Chen
+  title: Adaptive Differential Privacy Noise Injection for Decentralized Federated
+    Learning of Visual Recognition Tasks.
+  venue: Int. J. Comput. Vis.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/OuyangDHLZWC26
+  doi: 10.1007/S11263-026-02969-Y
+  ee: https://doi.org/10.1007/s11263-026-02969-y
+  url: https://dblp.org/rec/journals/ijcv/OuyangDHLZWC26
+  abstract: ''
+- author: Chen Zhang, Ge Su, Huaxiao Zhou, Lu Hao, Feng Zhu 0004, Jintai Chen, Yuxiang
+    Cai, Jianwei Yin, Hongxia Xu
+  title: 'Federated Learning Meets Test-Time Adaptation: Methods, Challenges, and
+    Future Directions.'
+  venue: Int. J. Comput. Vis.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/ZhangSZHZCCYX26
+  doi: 10.1007/S11263-026-02937-6
+  ee: https://doi.org/10.1007/s11263-026-02937-6
+  url: https://dblp.org/rec/journals/ijcv/ZhangSZHZCCYX26
+  abstract: ''
 federate%20venue%3AACL%3A:
 - author: Zheng Xu 0002, Yanxiang Zhang, Galen Andrew, Christopher A. Choquette-Choo,
     Peter Kairouz, H. Brendan McMahan, Jesse Rosenstock, Yuanbo Zhang
@@ -83025,6 +83051,41 @@ collaborat%20learn%20streamid%3Ajournals%2Fijcv%3A:
   ee: https://doi.org/10.1007/s11263-018-1112-4
   url: https://dblp.org/rec/journals/ijcv/ZhangHZM19
   abstract: ''
+- author: Hongchen Luo, Wei Zhai, Jiao Wang 0002, Yang Cao 0010, Zheng-Jun Zha
+  title: Visual-Geometric Collaborative Guidance for Affordance Learning.
+  venue: Int. J. Comput. Vis.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/LuoZWCZ26
+  doi: 10.1007/S11263-026-02950-9
+  ee: https://doi.org/10.1007/s11263-026-02950-9
+  url: https://dblp.org/rec/journals/ijcv/LuoZWCZ26
+  abstract: 'By modeling the contact relationships between human body parts and local
+    object regions from images, potential cues underlying human–object interactions
+    can be revealed, thereby alleviating the uncertainty in affordance learning caused
+    by the ambiguity of possible actions. However, existing methods often follow a
+    “contact region segmentation–transfer” paradigm that relies solely on appearance-level
+    mappings, neglecting the semantic and geometric consistency of human–object interactions.
+    As a result, when facing significant variations in objects or diverse collaborative
+    relationships among body parts, the model’s perception and prediction capabilities
+    are degraded. To this end, we propose a visual-geometric collaborative guided
+    affordance learning network that jointly leverages visual and geometric cues to
+    model the complex relationships in human–object interactions and the contact feature
+    representation. Particularly, a semantic-pose heuristic perception module is devised
+    to exploit both semantic and geometric cues to guide the network to focus on interaction-relevant
+    regions, improving contact-region perception under various interaction scenarios.
+    Meanwhile, a geometric-apparent alignment transfer module is introduced to jointly
+    align local regions of apparent and structural similarity, eliminating the transport
+    difficulties posed by intra-class correspondence ambiguity. Furthermore, we construct
+    a larger and more diverse Contact & Object-Part Affordance dataset, consisting
+    of 55,047 images covering 61 object categories and 35 affordance types, enabling
+    a more comprehensive evaluation of the model’s perception and prediction capabilities
+    across complex interaction scenarios. Experimental results demonstrate that our
+    method outperforms the representative models regarding objective metrics and visual
+    quality. Project: github.com/lhc1224/VCR-Net.'
+  related_code: ''
+  abstract_cn: 通过建模图像中人体各部位与物体局部区域之间的接触关系，可以揭示人–物交互背后的潜在线索，从而缓解因可能动作的歧义性而导致的可供性学习中的不确定性。然而，现有方法多采用“接触区域分割—迁移”的范式，仅依赖外观层面的映射，忽视了人–物交互的语义与几何一致性。因此，当面对物体的显著变化或身体各部位之间多样化的协作关系时，模型的感知与预测能力会明显下降。为此，我们提出了一种视觉–几何协同引导的可供性学习网络，联合利用视觉与几何线索来建模人–物交互中的复杂关系及接触特征表示。具体而言，我们设计了一个语义–姿态启发式感知模块，同时挖掘语义与几何线索，引导网络聚焦于与交互相关的区域，在各类交互场景下提升对接触区域的感知精度。同时，引入一个几何–表观对齐迁移模块，对表观与结构上相似的局部区域进行联合对齐，以消除由类内对应关系歧义带来的迁移难题。此外，我们构建了一个规模更大、多样性更高的“接触与物部可供性”数据集，包含55,047张图像，覆盖61个物体类别和35种可供性类型，从而能够在复杂的交互场景下更全面地评估模型的感知与预测能力。实验结果表明，我们的方法在客观指标和视觉质量方面均优于代表性模型。项目地址：github.com/lhc1224/VCR-Net。
 collaborat%20learn%20venue%3AACL%3A:
 - author: Shuzheng Si, Helan Hu, Haozhe Zhao, Shuang Zeng, Kaikai An, Zefan Cai, Baobao
     Chang

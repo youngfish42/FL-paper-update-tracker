@@ -2695,9 +2695,12 @@
 
 #### IJCV
 
+- Adaptive Differential Privacy Noise Injection for Decentralized Federated Learning of Visual Recognition Tasks. [[PUB](https://doi.org/10.1007/s11263-026-02969-y)]
+- Federated Learning Meets Test-Time Adaptation: Methods, Challenges, and Future Directions. [[PUB](https://doi.org/10.1007/s11263-026-02937-6)]
 - FedPD++: Enhanced Federated Open-Set Recognition with Parameter Disentanglement. [[PUB](https://doi.org/10.1007/s11263-026-02861-9)] [[CODE](https://github.com/CUHK-AIM-Group/FedPD)]
 - Collaborative Temporal Consistency Learning for Point-supervised Natural Language Video Localization. [[PUB](https://doi.org/10.1007/s11263-026-02777-4)]
 - CoSurfGS: 3D Surface Gaussian Splatting with Collaborative Distributed Learning for Large-scale Scene Reconstruction. [[PUB](https://doi.org/10.1007/s11263-025-02627-9)]
+- Visual-Geometric Collaborative Guidance for Affordance Learning. [[PUB](https://doi.org/10.1007/s11263-026-02950-9)]
 
 ### 2025
 

@@ -869,6 +869,7 @@
 - A Bayesian Framework for Clustered Federated Learning. [[PUB](https://doi.org/10.1109/TPAMI.2025.3637562)]
 - A Personalized and Privacy-Preserving Federated Transformer Framework for Multilingual Sentiment Analysis. [[PUB](https://doi.org/10.1109/TPAMI.2026.3663617)]
 - Adaptive Batch Size Time Evolving Stochastic Gradient Descent for Federated Learning. [[PUB](https://doi.org/10.1109/TPAMI.2025.3610169)]
+- Boosting the Performance of Decentralized Federated Learning via Catalyst Acceleration. [[PUB](https://doi.org/10.1109/TPAMI.2026.3688672)]
 - Co-Boosting++: Coupled Optimization of Data and Ensemble for One-Shot Federated Learning. [[PUB](https://doi.org/10.1109/TPAMI.2026.3672655)]
 - Communication-Efficient Federated Multi-View Clustering. [[PUB](https://doi.org/10.1109/TPAMI.2025.3601533)]
 - Decentralized Federated Learning With Distributed Aggregation Weight Optimization. [[PUB](https://doi.org/10.1109/TPAMI.2025.3640709)]
@@ -880,7 +881,9 @@
 - Sample-Level Prototypical Federated Learning. [[PUB](https://doi.org/10.1109/TPAMI.2025.3612302)]
 - Slack Federated Adversarial Training. [[PUB](https://doi.org/10.1109/TPAMI.2025.3646649)]
 - Toward Understanding Generalization and Stability Gaps Between Centralized and Decentralized Federated Learning. [[PUB](https://doi.org/10.1109/TPAMI.2025.3647762)]
+- Utility-Preserving Federated Graph Learning With Dual-Perspective Fairness. [[PUB](https://doi.org/10.1109/TPAMI.2026.3689213)]
 - Efficient and Effective Weight-Ensembling Mixture of Experts for Multi-Task Model Merging. [[PUB](https://doi.org/10.1109/TPAMI.2025.3629605)]
+- Gradient Normalization Enables Communication-Efficient Distributed Learning Under Initialization Data Heterogeneity. [[PUB](https://doi.org/10.1109/TPAMI.2026.3689520)]
 - Robust Trusted Conflictive Multiview Collaborative Contrastive Learning. [[PUB](https://doi.org/10.1109/TPAMI.2026.3663788)]
 
 ### 2025

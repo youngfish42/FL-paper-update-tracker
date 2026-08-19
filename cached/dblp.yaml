@@ -35493,6 +35493,70 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     OFL 中固有的数据与模型异构性两大挑战提供统一的解决方案，我们提出了 Co‑Boosting++——一种新型的 OFL 框架，其中合成数据生成与集成构建以迭代方式相互促进、协同提升。首先，固定集成模型，以对抗性方式生成难样本；这些样本对于提升知识迁移的鲁棒性至关重要，能够促使模型更好地泛化，从而改善合成数据的质量并优化后续的蒸馏过程。其次，基于这些难样本，我们采用专家混合（MoE）机制对集成模型进行强化：MoE
     能够根据生成的难样本动态调整各专家的权重，使集成模型更有效地聚合来自不同客户端模型的多样化、异质性知识。此外，我们还将 Co‑Boosting++ 扩展至支持同时生成多个异构的目标模型，从而高效适配各类设备的资源约束。在基准数据集上的大量实验表明，Co‑Boosting++
     凭借其对数据与集成质量的联合优化，始终优于当前最先进的方法。更为重要的是，在实际的模型市场场景中，Co‑Boosting++ 具有很高的实用性，既无需对客户端模型的本地训练流程作任何修改，也无需额外的通信开销，且对客户端模型的架构不设限制。
+- author: Qinglun Li, Miao Zhang 0037, Yingqi Liu, Quanjun Yin, Li Shen 0008, Xiaochun
+    Cao
+  title: Boosting the Performance of Decentralized Federated Learning via Catalyst
+    Acceleration.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LiZLYSC26
+  doi: 10.1109/TPAMI.2026.3688672
+  ee: https://doi.org/10.1109/TPAMI.2026.3688672
+  url: https://dblp.org/rec/journals/pami/LiZLYSC26
+  abstract: 'Decentralized Federated Learning has emerged as an alternative to centralized
+    architectures due to its faster training, privacy preservation, and reduced communication
+    overhead. In decentralized communication, the server aggregation phase in Centralized
+    Federated Learning shifts to the client side, which means that clients connect
+    with each other in a peer-to-peer manner. However, compared to the centralized
+    mode, data heterogeneity in Decentralized Federated Learning will cause larger
+    variances between aggregated models, which leads to slow convergence in training
+    and poor generalization performance in tests. To address these issues, we introduce
+    Catalyst Acceleration and propose an acceleration Decentralized Federated Learning
+    algorithm called DFedCata. It consists of two main components: the Moreau envelope
+    function, which primarily addresses parameter inconsistencies among clients caused
+    by data heterogeneity, and Nesterov’s extrapolation step, which accelerates the
+    aggregation phase. Theoretically, we prove the optimization error bound and generalization
+    error bound of the algorithm, providing a further understanding of the nature
+    of the algorithm and the theoretical perspectives on the hyperparameter choice.
+    Empirically, we demonstrate the advantages of the proposed algorithm in both convergence
+    speed, computational cost, and generalization performance on CIFAR10/100 and Tiny-ImageNet
+    with various non-iid data distributions. Moreover, extensive experiments are conducted
+    to validate the theoretical properties of DFedCata, showing strong consistency
+    between theory and empirical observations.'
+  related_code: ''
+  abstract_cn: 去中心化联邦学习因其训练速度快、能够保护隐私且通信开销低，已成为对集中式架构的一种替代方案。在去中心化通信模式下，集中式联邦学习中的服务器聚合阶段被转移到客户端层面，即各客户端以点对点的方式直接互联。然而，与集中式模式相比，去中心化联邦学习中的数据异构性会导致聚合得到的模型之间出现更大的差异，从而造成训练收敛缓慢、测试泛化性能不佳等问题。为应对这些挑战，我们引入催化剂加速技术，提出了一种名为DFedCata的加速型去中心化联邦学习算法。该算法由两个核心组件构成：一是莫雷包络函数，主要用于缓解因数据异构性引起的客户端间参数不一致性；二是内斯托罗夫外推步，用于加速聚合过程。在理论方面，我们严格证明了该算法的优化误差界和泛化误差界，进一步揭示了算法的本质，并从理论上指导超参数的选择。在实验方面，我们在CIFAR10/100和Tiny-ImageNet等数据集上，针对多种非独立同分布的数据场景，充分验证了所提算法在收敛速度、计算成本及泛化性能等方面的优越性。此外，我们还通过大量实验对DFedCata的理论性质进行了全面检验，结果表明理论分析与实验观测之间具有高度的一致性。
+- author: Renqiang Luo, Huafei Huang 0001, Shuo Yu 0001, Fengqi Yu, Feng Xia 0001,
+    Sajal K. Das 0001, Chengqi Zhang
+  title: Utility-Preserving Federated Graph Learning With Dual-Perspective Fairness.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/LuoHYYXDZ26
+  doi: 10.1109/TPAMI.2026.3689213
+  ee: https://doi.org/10.1109/TPAMI.2026.3689213
+  url: https://dblp.org/rec/journals/pami/LuoHYYXDZ26
+  abstract: Fairness-aware federated graph neural networks (FedGNNs) necessitate consideration
+    of both the server and the clients. However, fairness-aware methods struggle to
+    enhance dual-perspective (i.e., server and clients) fairness without sacrificing
+    utility due to the distributed learning framework. As a consequence, the utility
+    sacrifices of fairness-aware graph learning methods are even exacerbated in federated
+    frameworks. In this work we propose F3GL, a dual-perspective fairness federated
+    graph learning method that enhances both global (for the server) and local fairness
+    (for clients) while preserving utility. Through theoretical analysis, we delineate
+    the similarity between original sensitive features and those after convolution
+    under different spectra. Our findings reveal that only the principal eigenvalue
+    contributes to enhancing this similarity. Moreover, our theoretical analysis applies
+    universally to both clients and servers. Specifically, employing a specialized
+    eigenvalue selection strategy allows for effective optimization of both local
+    and global fairness. Drawing on these insights, we improve dual-perspective fairness
+    through the lens of spectral graph theory without sacrificing utility. Experimental
+    results on two real-world datasets show the superiority of F3GL over existing
+    baselines.
+  related_code: ''
+  abstract_cn: 公平感知的联邦图神经网络（FedGNNs）需要同时兼顾服务器与客户端。然而，由于分布式学习的框架特性，现有的公平性增强方法往往难以在不牺牲效用的前提下提升双重视角——即服务器视角与客户端视角——的公平性。因此，在联邦学习框架下，公平感知图学习方法对效用的折损问题反而更加突出。为此，本文提出F3GL，一种双重视角公平的联邦图学习方法，在保障效用的同时，分别提升全局（针对服务器）与局部（针对客户端）的公平性。通过理论分析，我们刻画了不同谱域下原始敏感特征与卷积后特征之间的相似性；研究发现，唯有主特征值能够有效促进这种相似性的提升。此外，我们的理论分析对客户端与服务器均具普适性。具体而言，采用专门的特征值选择策略，可实现对局部与全局公平性的协同优化。基于上述认识，我们借助谱图理论的视角，在不损失效用的前提下实现了双重视角公平性的提升。在两个真实数据集上的实验结果表明，F3GL显著优于现有基线方法。
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou
@@ -66839,7 +66903,27 @@ federate%20venue%3AWWW%3A:
   doi: 10.1145/3774904.3793003
   ee: https://doi.org/10.1145/3774904.3793003
   url: https://dblp.org/rec/conf/www/TangLLDCCDK26
-  abstract: ''
+  abstract: 'Cross-domain sequential recommendation is increasingly important in modern
+    Web ecosystems, where user behaviors span multiple independently operated services
+    that maintain strict data isolation for privacy and regulatory compliance. Federated
+    learning offers a practical paradigm for such cross-domain collaboration, but
+    user preferences evolve asynchronously across services, creating a substantial
+    distribution shift. This drift leads to unstable and unequal domain contributions:
+    behaviorally rich domains dominate global updates, while low-resource or volatile
+    domains exert limited influence. Such an imbalance degrades recommendation accuracy
+    and raises fundamental fairness concerns. To address these challenges, we propose
+    FairFRL, a fairness-aware federated representation learning framework designed
+    to mitigate contribution imbalance under dynamic cross-domain drift. FairFRL mitigates
+    contribution imbalance under dynamic cross-domain drift by jointly regulating
+    domain influence during federated aggregation and disentangling domain-shared
+    and domain-exclusive semantics, while preserving data locality. Experiments on
+    real-world Amazon multi-domain datasets show that FairFRL consistently outperforms
+    strong federated and centralized baselines across multiple metrics and achieves
+    more equitable cross-domain contributions. These results position FairFRL as a
+    principled step toward responsible, fair, and socially aligned Web recommendation
+    systems.'
+  related_code: ''
+  abstract_cn: 跨域序列推荐在现代Web生态系统中日益重要，因为用户行为横跨多个独立运营的服务，而这些服务为保护隐私并满足监管要求，通常会严格进行数据隔离。联邦学习为这类跨域协作提供了一种切实可行的范式，然而，用户偏好在不同服务间异步演化，导致显著的分布漂移。这种漂移会造成各领域的贡献不稳定且不均衡：行为数据丰富的领域主导全局更新，而资源匮乏或动态波动较大的领域则难以发挥有效作用。这种不平衡不仅降低了推荐精度，还引发了深层次的公平性问题。为此，我们提出了FairFRL——一种面向公平的联邦表示学习框架，旨在缓解动态跨域漂移下的贡献失衡问题。FairFRL通过在联邦聚合过程中联合调控各领域的影响力，并分离出领域共享与领域专属的语义特征，同时保持数据的本地化，从而有效缓解贡献失衡。在真实世界亚马逊多领域数据集上的实验表明，FairFRL在多项评价指标上均显著优于强大的联邦及集中式基线方法，并实现了更为公平的跨域贡献分配。这些结果使FairFRL成为迈向负责任、公平且与社会价值相契合的Web推荐系统的重要一步。
 - author: Chi Xu 0004, Jiaxing Li 0006, Mengdi Jin, William I. Atlas, Mark A. Spoljaric,
     Edith C. H. Ngai, Jiangchuan Liu
   title: 'FUSED: Toward Federated Multimodal Retrieval across Sovereign Data Domains.'
@@ -87847,7 +87931,34 @@ communicat%20effici%20distribut%20streamid%3Ajournals%2Fjmlr%3A:
   ee: https://jmlr.org/papers/v18/16-512.html
   url: https://dblp.org/rec/journals/jmlr/SmithFMTJJ17
   abstract: ''
-communicat%20effici%20distribut%20streamid%3Ajournals%2Fpami%3A: []
+communicat%20effici%20distribut%20streamid%3Ajournals%2Fpami%3A:
+- author: Tao Sun 0005, Baihao Wu, Xinwang Liu 0002, Kun Yuan 0001
+  title: Gradient Normalization Enables Communication-Efficient Distributed Learning
+    Under Initialization Data Heterogeneity.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/SunWLY26
+  doi: 10.1109/TPAMI.2026.3689520
+  ee: https://doi.org/10.1109/TPAMI.2026.3689520
+  url: https://dblp.org/rec/journals/pami/SunWLY26
+  abstract: Communication-efficient distributed learning has achieved remarkable progress
+    in training large-scale deep neural networks across numerous clients. However,
+    in heterogeneous environments-where local data distributions vary significantly-the
+    empirical performance of many such algorithms degrades sharply. Moreover, existing
+    theoretical analyses often depend on overly restrictive assumptions, such as bounded
+    data heterogeneity, which may not be valid even for a single client. In this work,
+    we introduce a general gradient normalization strategy that can be seamlessly
+    integrated into a wide range of distributed learning algorithms, including compressed
+    distributed stochastic gradient descent, federated averaging, and asynchronous
+    variants. Our theoretical analysis demonstrates that this normalization technique
+    effectively mitigates the negative impact of data heterogeneity, allowing these
+    algorithms to achieve linear speedup rates with only requiring the boundedness
+    of initialization data heterogeneity. Extensive numerical experiments further
+    confirm the practical effectiveness and theoretical guarantees of our approach.
+  related_code: ''
+  abstract_cn: 在跨众多客户端训练大规模深度神经网络方面，通信高效的分布式学习已取得显著进展。然而，在本地数据分布差异显著的异构环境中，许多此类算法的实证性能会急剧下降。此外，现有的理论分析往往依赖于过于严格的假设，例如要求数据异构性有界，而这一假设即便对单个客户端也可能不成立。在本工作中，我们提出了一种通用的梯度归一化策略，可无缝集成到多种分布式学习算法中，包括压缩分布式随机梯度下降、联邦平均以及其异步变体。我们的理论分析表明，该归一化技术能够有效缓解数据异构性的不利影响，使这些算法仅需初始数据异构性有界即可实现线性加速比。大量数值实验进一步验证了所提方法的实用性和理论保证。
 communicat%20effici%20distribut%20venue%3AKDD%3A:
 - author: Fred Lu, Ryan R. Curtin, Edward Raff, Francis Ferraro, James Holt
   title: High-Dimensional Distributed Sparse Classification with Scalable Communication-Efficient

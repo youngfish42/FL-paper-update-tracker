@@ -61547,7 +61547,28 @@ federate%20venue%3AINFOCOM%3A:
   doi: 10.1109/INFOCOM59046.2026.11571624
   ee: https://doi.org/10.1109/INFOCOM59046.2026.11571624
   url: https://dblp.org/rec/conf/infocom/YeLHWDW26
-  abstract: ''
+  abstract: Federated learning (FL) enables multiple clients to collaboratively train
+    a machine learning model without sharing their local data. However, the distributed
+    nature of FL makes it vulnerable to backdoor attacks from malicious clients. Most
+    existing attack methods often assume that attackers can inject backdoors in every
+    training round - a scenario that is both unrealistic and inefficient in real-world
+    FL deployment. In this paper, we investigate why backdoor attacks become less
+    effective under low-frequency injection and propose a novel attack paradigm for
+    FL, called REinforced Memorization-based INterval backDoor attack (REMIND). REMIND
+    optimizes the backdoor trigger via task alignment and feature alignment. Task
+    alignment aligns backdoor and main task objectives to resist benign update suppression
+    during non-attack rounds, while feature alignment guides poisoned samples to match
+    the activation trajectory of target-class samples. This dual alignment enhances
+    the backdoor's persistence and narrows the divergence between malicious and benign
+    updates. With strong attack success rates established, we further analyze the
+    advantages of low-frequency backdoor attacks, particularly their ability to improve
+    robustness against defense mechanisms. Extensive evaluations on four benchmark
+    datasets show that REMIND consistently outperforms eight state-of-the-art attack
+    baselines under nine defense strategies.
+  related_code: ''
+  abstract_cn: 联邦学习（FL）使多个客户端能够在不共享本地数据的情况下协同训练机器学习模型。然而，联邦学习的分布式特性使其容易遭受来自恶意客户端的后门攻击。现有的大多数攻击方法通常假设攻击者可以在每一轮训练中注入后门，但在实际的联邦学习部署中，这种情形既不现实又效率低下。在本文中，我们深入探讨了为何在低频注入条件下后门攻击的效果会显著减弱，并提出了一种面向联邦学习的新型攻击范式——强化记忆间隔式后门攻击（REMIND）。REMIND
+    通过任务对齐与特征对齐来优化后门触发器：任务对齐旨在使后门任务与主任务的目标保持一致，以抵御非攻击轮次中良性更新的抑制作用；而特征对齐则引导投毒样本沿袭目标类样本的激活轨迹。这种双重对齐机制不仅增强了后门的持久性，还缩小了恶意更新与良性更新之间的差异。在确保高成功率的基础上，我们进一步分析了低频后门攻击的优势，尤其是其对防御机制的鲁棒性提升能力。在四个基准数据集上的大量实验表明，REMIND
+    在九种防御策略下均能持续优于八种最先进的攻击基线。
 - author: Qingli Zeng, Yinjin Fu, Farid Naït-Abdesselam
   title: 'FedGraph-ID: A Federated Graph Learning Framework for Intrusion Detection
     in UAV Networks Under Adversarial Settings.'

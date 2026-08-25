@@ -3688,6 +3688,16 @@
 - HeteroFedSyn: Differentially Private Tabular Data Synthesis for Heterogeneous Federated Settings. [[PUB](https://doi.org/10.1145/3802072)]
 - Understanding the Impact of Data Noise in Federated Learning: [Experiments &amp; Analysis]. [[PUB](https://doi.org/10.1145/3802124)]
 
+#### ICDE
+
+- AdaFedRec: Adaptive Heterogeneous Federated Recommender Systems Across Multi-Device Users. [[PUB](https://doi.org/10.1109/ICDE65706.2026.00070)] [[CODE](https://github.com/Iridescentttttt/AdaFedRec)]
+- Answering Federated Range Queries with Local Differential Privacy. [[PUB](https://doi.org/10.1109/ICDE65706.2026.00216)]
+- FedCurrMM: A Federated Map Matching Framework with Curriculum-Aware Client Selection. [[PUB](https://doi.org/10.1109/ICDE65706.2026.00116)]
+- Federated Retrieval Over Embedding-Heterogeneous Vector Databases. [[PUB](https://doi.org/10.1109/ICDE65706.2026.00033)]
+- TopFGL: A Topology-Aware and Distributionagnostic Federated Learning Framework Tackling Topological Heterogeneity on Graph Data. [[PUB](https://doi.org/10.1109/ICDE65706.2026.00044)]
+- WikiDBGraph: A Data Management Benchmark Suite for Collaborative Learning Over Database Silos. [[PUB](https://doi.org/10.1109/ICDE65706.2026.00178)]
+- FedDict: Towards Practical Federated Dictionary-Based Time Series Classification (Extended Abstract). [[PUB](https://doi.org/10.1109/ICDE65706.2026.00351)]
+
 ### 2025
 
 #### SIGMOD

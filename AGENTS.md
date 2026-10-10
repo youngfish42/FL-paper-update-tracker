@@ -245,9 +245,11 @@ Additional CLI flags:
 ## Common Pitfalls
 
 1. **Rate Limiting**: DBLP does not publish explicit rate limits. The code uses a conservative base interval (`6 + random(0.5, 2.5)` seconds for search requests) plus stricter exponential backoff with jitter and Retry-After support when requests fail or are rate-limited. Do not weaken this behavior.
-2. **YAML Encoding**: `cached/dblp.yaml` is written with `allow_unicode=True`. Editing it manually with an editor that strips Unicode may corrupt author names.
-3. **Empty `ee` Field**: Some older DBLP entries lack an `ee`. The deduplication logic skips empty `ee` values, so those papers are always retained. This is intentional to avoid data loss.
-4. **Topic String Parsing**: `get_topic_short_name` relies on `split(":")[-2]` followed by `split("/")[-1]`. If DBLP changes its topic URL format, this will break.
+2. **Anubis anti-bot challenge**: DBLP now sits behind Anubis (v1.27), which returns an HTTP 200 HTML challenge page instead of JSON/XML. **All** dblp.org traffic must go through `_dblp_get()` in `src/utils.py` (shared `requests.Session` with a polite User-Agent; it auto-solves the `metarefresh` timed-wait and `fast`/`slow` SHA-256 PoW challenges and reuses the ~1h auth cookie). Never call `requests.get` directly against dblp.org. A 200 response with non-JSON content type is treated as a hard failure (no retry loop).
+3. **Search retries & circuit breaker**: DBLP search retries are `retry=4` with a 60s backoff cap. `src/main.py` aborts the run (`SystemExit(1)`) after 5 consecutive failed topics so a broken upstream fails the CI job within minutes instead of hanging until the workflow timeout.
+4. **YAML Encoding**: `cached/dblp.yaml` is written with `allow_unicode=True`. Editing it manually with an editor that strips Unicode may corrupt author names.
+5. **Empty `ee` Field**: Some older DBLP entries lack an `ee`. The deduplication logic skips empty `ee` values, so those papers are always retained. This is intentional to avoid data loss.
+6. **Topic String Parsing**: `get_topic_short_name` relies on `split(":")[-2]` followed by `split("/")[-1]`. If DBLP changes its topic URL format, this will break.
 
 ## Contact & References
 

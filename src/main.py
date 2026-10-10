@@ -83,18 +83,30 @@ class Scaffold:
                 if title:
                     global_seen_title.add(title)
 
+        # 熔断器：连续失败 topic 计数（请求失败通常意味着上游 API 整体不可用）
+        consecutive_failures = 0
+        MAX_CONSECUTIVE_FAILURES = 5
+
         def _process_topic(keyword: str, query: str) -> int:
             """处理单个 keyword + query 组合，返回新论文数量。"""
-            nonlocal flag, active_topics
+            nonlocal flag, active_topics, consecutive_failures
             encoded_keyword = urllib.parse.quote(keyword, safe='')
             encoded_query = urllib.parse.quote(query, safe='')
             topic = f"{encoded_keyword}%20{encoded_query}"
             # random sleep to avoid being blocked
-            dblp_data = request_data(dblp_url.format(topic))
+            dblp_data = request_data(dblp_url.format(topic), contact_email=contact_email)
 
             if dblp_data is None:
-                logger.error(f"dblp_data is None, topic: {topic}")
+                consecutive_failures += 1
+                logger.error(f"dblp_data is None, topic: {topic} (consecutive failures: {consecutive_failures})")
+                if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                    logger.error(
+                        f"Aborting run: {consecutive_failures} consecutive topics failed, "
+                        "upstream DBLP API is likely unavailable"
+                    )
+                    raise SystemExit(1)
                 return 0
+            consecutive_failures = 0
 
             # 解析 DBLP 返回的原始数据，提取需要的字段
             items = get_dblp_items(dblp_data)

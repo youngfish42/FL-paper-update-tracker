@@ -6,6 +6,7 @@ from pathlib import Path
 import ezkfg as ez
 import urllib.parse
 import requests
+import hashlib
 import json
 import time
 import random
@@ -14,9 +15,14 @@ import difflib
 
 
 DBLP_SEARCH_RETRY_BASE_SECONDS = 4.0
-DBLP_SEARCH_RETRY_CAP_SECONDS = 120.0
+DBLP_SEARCH_RETRY_CAP_SECONDS = 60.0
 DBLP_SEARCH_JITTER_MIN_SECONDS = 0.5
 DBLP_SEARCH_JITTER_MAX_SECONDS = 2.5
+
+# Anubis PoW 难度上限（前导零 hex 字符数）。难度 6 约需 1600 万次哈希，
+# Python 数十秒可解；更高难度（如 curl UA 触发的 16）在 CPU 上不可行，直接放弃。
+ANUBIS_MAX_POW_DIFFICULTY = 6
+ANUBIS_PASS_CHALLENGE_PATH = "/.within.website/x/cmd/anubis/api/pass-challenge"
 DOI_PATTERN = re.compile(r"^10\.[0-9.]+/[^\s]+$")
 DOI_TRAILING_PUNCTUATION = ".,;:)]}>\"'"
 
@@ -266,7 +272,180 @@ def _sleep_for_retry(source: str, attempt: int, response=None, base: float = 2.5
     return wait
 
 
-def request_data(url, retry=10, sleep_time=6.0, timeout=15):
+_ANUBIS_CHALLENGE_RE = re.compile(
+    r'<script\s+id="anubis_challenge"[^>]*>(.*?)</script>', re.DOTALL
+)
+_ANUBIS_BASE_PREFIX_RE = re.compile(
+    r'<script\s+id="anubis_base_prefix"[^>]*>(.*?)</script>', re.DOTALL
+)
+_ANUBIS_META_REFRESH_RE = re.compile(
+    r'<meta\s+http-equiv="refresh"\s+content="(\d+)\s*;\s*url=([^"]+)"', re.IGNORECASE
+)
+
+# 共享 Session：Anubis 通过后设置的 auth cookie（JWT，约 1 小时有效）会保存在其中，
+# 后续所有 dblp.org 请求复用；cookie 过期后再次遇到挑战页时自动重新求解。
+_DBLP_SESSION = requests.Session()
+_DBLP_SESSION.headers.update({
+    "User-Agent": "FL-paper-update-tracker/1.0 (research bot)",
+})
+_DBLP_CONTACT_EMAIL = ""
+
+
+def _get_dblp_session(contact_email: str = "") -> requests.Session:
+    """返回共享的 DBLP Session，并按需更新 User-Agent 中的联系邮箱。"""
+    global _DBLP_CONTACT_EMAIL
+    if contact_email and contact_email != _DBLP_CONTACT_EMAIL:
+        _DBLP_CONTACT_EMAIL = contact_email
+        _DBLP_SESSION.headers.update({
+            "User-Agent": f"FL-paper-update-tracker/1.0 (research bot; mailto:{contact_email})",
+        })
+    return _DBLP_SESSION
+
+
+def _is_anubis_challenge(resp) -> bool:
+    """判断响应是否为 Anubis 反爬挑战页（HTTP 200 + HTML，而非目标 JSON/XML）。"""
+    content_type = (resp.headers.get("Content-Type") or "").lower()
+    if "text/html" not in content_type:
+        return False
+    text = resp.text
+    return "anubis_challenge" in text or "Making sure you" in text
+
+
+def _solve_anubis_pow(random_data: str, difficulty: int):
+    """求解 Anubis fast/slow PoW：找 nonce 使 sha256(randomData+str(nonce)) 的
+    hex 摘要具有 difficulty 个前导零字符。返回 (hash_hex, nonce, elapsed_ms)，
+    难度超过上限时返回 None。"""
+    if difficulty > ANUBIS_MAX_POW_DIFFICULTY:
+        logger.error(
+            f"Anubis PoW difficulty {difficulty} exceeds cap {ANUBIS_MAX_POW_DIFFICULTY}, giving up"
+        )
+        return None
+    target = "0" * difficulty
+    start = time.time()
+    nonce = 0
+    while True:
+        digest = hashlib.sha256((random_data + str(nonce)).encode()).hexdigest()
+        if digest.startswith(target):
+            return digest, nonce, (time.time() - start) * 1000
+        nonce += 1
+
+
+def _solve_anubis_challenge(resp, url: str, session=None) -> bool:
+    """尝试通过 Anubis 挑战，成功后 auth cookie 存入 session，后续请求即被放行。
+
+    支持两种挑战算法（对应 Anubis v1.27 服务端校验逻辑）：
+    - metarefresh：等待 difficulty*0.8s（服务端按 issuedAt 校验等待时长），
+      然后携带 id + challenge(randomData) + redir 调 pass-challenge。
+    - fast/slow：SHA-256 PoW，携带 id + response + nonce + elapsedTime + redir。
+    若页面未内嵌 anubis_challenge JSON，则回退解析 meta refresh / Refresh 头。
+
+    Returns:
+        True 表示挑战已通过（可重试原请求），False 表示失败。
+    """
+    session = session or _DBLP_SESSION
+    text = resp.text
+
+    challenge_payload = None
+    m = _ANUBIS_CHALLENGE_RE.search(text)
+    if m:
+        try:
+            challenge_payload = json.loads(m.group(1))
+        except (json.JSONDecodeError, ValueError) as e:
+            logger.warning(f"Anubis: failed to parse challenge JSON: {e}")
+            return False
+
+    base_prefix = ""
+    m = _ANUBIS_BASE_PREFIX_RE.search(text)
+    if m:
+        try:
+            base_prefix = json.loads(m.group(1)) or ""
+        except (json.JSONDecodeError, ValueError):
+            base_prefix = ""
+    origin = urllib.parse.urlsplit(resp.url)
+    pass_url = f"{origin.scheme}://{origin.netloc}{base_prefix}{ANUBIS_PASS_CHALLENGE_PATH}"
+
+    if challenge_payload is None:
+        # 回退：meta refresh 页面未内嵌 JSON，直接跟随 refresh URL
+        meta = _ANUBIS_META_REFRESH_RE.search(text)
+        refresh_url = None
+        wait_seconds = 1.0
+        if meta:
+            wait_seconds = float(meta.group(1)) + 0.5
+            refresh_url = urllib.parse.urljoin(resp.url, meta.group(2).replace("&amp;", "&"))
+        elif resp.headers.get("Refresh"):
+            parts = resp.headers["Refresh"].split(";url=", 1)
+            if len(parts) == 2:
+                try:
+                    wait_seconds = float(parts[0].strip()) + 0.5
+                except ValueError:
+                    pass
+                refresh_url = urllib.parse.urljoin(resp.url, parts[1].strip())
+        if not refresh_url:
+            logger.warning("Anubis: no challenge JSON and no meta refresh found, cannot solve")
+            return False
+        logger.info(f"Anubis: following meta refresh after {wait_seconds:.1f}s")
+        time.sleep(wait_seconds)
+        r = session.get(refresh_url, timeout=30, allow_redirects=False)
+        return r.status_code in (301, 302, 303)
+
+    rules = challenge_payload.get("rules", {}) or {}
+    challenge = challenge_payload.get("challenge", {}) or {}
+    algorithm = rules.get("algorithm", "")
+    difficulty = int(challenge.get("difficulty", rules.get("difficulty", 0)) or 0)
+    challenge_id = challenge.get("id", "")
+    random_data = challenge.get("randomData", "")
+    if not challenge_id:
+        logger.warning("Anubis: challenge JSON missing id")
+        return False
+
+    params = {"id": challenge_id, "redir": url}
+    if algorithm == "metarefresh":
+        wait_seconds = difficulty * 0.8 + 0.5
+        logger.info(f"Anubis: metarefresh challenge (difficulty {difficulty}), waiting {wait_seconds:.1f}s")
+        time.sleep(wait_seconds)
+        params["challenge"] = random_data
+    elif algorithm in ("fast", "slow"):
+        logger.info(f"Anubis: {algorithm} PoW challenge (difficulty {difficulty})")
+        solved = _solve_anubis_pow(random_data, difficulty)
+        if solved is None:
+            return False
+        digest, nonce, elapsed_ms = solved
+        logger.info(f"Anubis: PoW solved in {elapsed_ms:.0f}ms (nonce={nonce})")
+        params.update({"response": digest, "nonce": nonce, "elapsedTime": f"{elapsed_ms:.0f}"})
+    else:
+        logger.warning(f"Anubis: unknown challenge algorithm '{algorithm}', cannot solve")
+        return False
+
+    r = session.get(pass_url, params=params, timeout=30, allow_redirects=False)
+    if r.status_code in (301, 302, 303):
+        logger.info("Anubis: challenge passed, auth cookie stored")
+        return True
+    logger.warning(f"Anubis: pass-challenge returned HTTP {r.status_code}")
+    return False
+
+
+def _dblp_get(url: str, timeout: int = 15, max_challenge_retries: int = 3,
+              contact_email: str = "", **kwargs):
+    """请求 DBLP URL，自动识别并求解 Anubis 反爬挑战。
+
+    返回 (response, solved_challenge)。response 为最终响应（可能仍是挑战页，
+    表示求解失败，调用方应视为请求失败）；solved_challenge 表示本次是否经历过挑战。
+    """
+    session = _get_dblp_session(contact_email)
+    solved = False
+    resp = session.get(url, timeout=timeout, **kwargs)
+    for _ in range(max_challenge_retries):
+        if not _is_anubis_challenge(resp):
+            return resp, solved
+        logger.warning(f"Anubis challenge detected for {url}, attempting to solve...")
+        if not _solve_anubis_challenge(resp, url, session=session):
+            return resp, solved
+        solved = True
+        resp = session.get(url, timeout=timeout, **kwargs)
+    return resp, solved
+
+
+def request_data(url, retry=4, sleep_time=6.0, timeout=15, contact_email=""):
     """请求 DBLP 数据，带限速与更严格退避重试。
 
     Args:
@@ -274,13 +453,14 @@ def request_data(url, retry=10, sleep_time=6.0, timeout=15):
         retry: 失败后的额外重试次数（总尝试次数 = retry + 1）。
         sleep_time: 每次请求前的基础等待秒数（会叠加随机抖动）。
         timeout: 单次请求超时时间（秒）。
+        contact_email: 用于 DBLP 请求 User-Agent 的联系邮箱（可选）。
     """
     max_attempts = retry + 1
     for attempt in range(1, max_attempts + 1):
         try:
             # DBLP 主流程查询：基础间隔 + 轻微抖动，降低突发请求概率
             time.sleep(sleep_time + random.uniform(DBLP_SEARCH_JITTER_MIN_SECONDS, DBLP_SEARCH_JITTER_MAX_SECONDS))
-            response = requests.get(url, timeout=timeout)
+            response, _ = _dblp_get(url, timeout=timeout, contact_email=contact_email)
             if response.status_code == 429:
                 _sleep_for_retry(
                     "DBLP search API rate limited",
@@ -291,6 +471,13 @@ def request_data(url, retry=10, sleep_time=6.0, timeout=15):
                 )
                 continue
             response.raise_for_status()
+            # 200 但非 JSON（如仍未通过的 Anubis HTML 挑战页）：重试无意义，快速失败
+            content_type = (response.headers.get("Content-Type") or "").lower()
+            if "json" not in content_type:
+                logger.error(
+                    f"DBLP returned non-JSON response (content-type: {content_type}), giving up on {url}"
+                )
+                return None
             return response.json()
         except Exception as e:
             logger.error(f"Exception: {e}")
@@ -1072,7 +1259,7 @@ def _fetch_semantic_scholar_doi(title: str, last_request_time: float, min_interv
     return None, None, last_request_time
 
 
-def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3):
+def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.0, max_retries: int = 3, contact_email: str = ""):
     """通过 DBLP XML API 用论文 key 重新查询 DOI，返回 (doi_or_None, api_title_or_None, last_request_time)。
 
     DBLP 的搜索 API 有时无法按 key 精确命中，因此直接请求单条记录的 XML 端点
@@ -1086,15 +1273,22 @@ def _fetch_dblp_doi(key: str, last_request_time: float, min_interval: float = 1.
     url = f"https://dblp.org/rec/{key}.xml"
     for attempt in range(1, max_retries + 1):
         try:
-            resp, last_request_time = _rate_limited_request(
-                url, last_request_time, min_interval=min_interval, timeout=10
-            )
+            now = time.time()
+            wait = max(0.0, min_interval - (now - last_request_time))
+            if wait > 0:
+                time.sleep(wait + random.uniform(0.0, 0.2))
+            resp, _ = _dblp_get(url, timeout=10, contact_email=contact_email)
+            last_request_time = time.time()
             if resp.status_code in (404, 403):
                 return None, None, last_request_time
             if resp.status_code == 429:
                 _sleep_for_retry("Rate limited (DBLP)", attempt, response=resp)
                 continue
             resp.raise_for_status()
+            if _is_anubis_challenge(resp):
+                # Anubis 挑战求解失败（难度过高等），重试无意义，快速失败
+                logger.warning(f"DBLP returned unsolved Anubis challenge page for key '{key}', giving up")
+                return None, None, last_request_time
             root = ET.fromstring(resp.content)
             # DBLP XML root is <dblp>, first child is the record element
             record = root.find(".")
@@ -1219,7 +1413,8 @@ def fetch_doi_for_papers(papers, sleep_sec=2.0, max_retries=4, contact_email="",
         # 1. ee 中无 DOI，则优先查询 DBLP API（通过 key 重新查询，最权威）
         if not doi and key:
             doi, api_title, last_request_time["dblp"] = _fetch_dblp_doi(
-                key, last_request_time["dblp"], min_interval=sleep_sec, max_retries=max_retries
+                key, last_request_time["dblp"], min_interval=sleep_sec, max_retries=max_retries,
+                contact_email=contact_email
             )
             if doi and api_title and not is_title_match(api_title, title):
                 logger.warning(

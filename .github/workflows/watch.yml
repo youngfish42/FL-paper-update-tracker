@@ -9,9 +9,14 @@ on:
 
 permissions: write-all
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     env:
       TZ: "Asia/Shanghai"
       RUN_ENV: "prod" # within ['prod', 'dev']
@@ -60,11 +65,11 @@ jobs:
       - name: Setup var
         id: vars
         run: |
-          content=${{ env.MSG }}
-          content="${content//'%'/'%25'}"
-          content="${content//$'\n'/'%0A'}"
-          content="${content//$'\r'/'%0D'}"
-          echo "::set-output name=content::$content"
+          {
+            echo "content<<EOF"
+            echo "$MSG"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
       # ============================================
       # TODO [√] 更新仓库数据
       # ============================================

@@ -14,7 +14,7 @@ permissions: write-all
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
     env:
       TZ: "Asia/Shanghai"
       RUN_ENV: "prod"

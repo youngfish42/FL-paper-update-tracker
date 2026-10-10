@@ -16,7 +16,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 300
     env:
       TZ: "Asia/Shanghai"
       RUN_ENV: "prod" # within ['prod', 'dev']

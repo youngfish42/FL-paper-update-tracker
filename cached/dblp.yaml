@@ -74845,6 +74845,39 @@ federate%20streamid%3Ajournals%2Ftpds%3A:
     when faced with heterogeneous data.
   related_code: ''
   abstract_cn: 联邦学习（FL）系统通过在设备与服务器之间协同训练神经网络，但受限于设备端较高的计算开销。分割联邦学习（SFL）通过将网络的一部分层从设备卸载到服务器来缓解这一问题，然而，这种做法会导致设备与服务器之间频繁交换中间激活值和梯度，从而产生巨大的通信开销，并且在非独立同分布（non-IID）数据上会降低模型精度。我们提出了Ampere，一种新型的协同训练系统，能够在最小化设备端计算和设备—服务器通信的同时提升模型精度。与采用全局损失并进行迭代式端到端训练的SFL不同，Ampere采用单向块间训练策略，以局部损失依次训练设备端和服务器端的网络块，从而避免了梯度的传输。此外，一种轻量级的辅助网络生成方法实现了设备端与服务器端训练的解耦，将频繁的中间数据交换简化为一次传输，显著降低了通信开销。针对数据异构性问题，Ampere通过聚合已训练设备块产生的激活值来训练服务器块，这与SFL基于设备特定、非独立同分布激活值进行训练的做法形成鲜明对比。我们在多种卷积神经网络和Transformer模型上的大量实验表明，与当前最先进的SFL基线系统相比，Ampere：（i）在训练速度提升高达18.6倍的情况下，模型精度最高可提高11.70个百分点；（ii）设备—服务器通信开销最多降低911倍，设备端计算开销最多降低14.5倍；（iii）对于不同非独立同分布程度的数据，精度的标准差降低71.13%，充分展现了其在处理异构数据时的优越性能。
+- author: Christos Sad, Dimosthenis Masouros, George Retsinas, Dimitrios Soudris,
+    Kostas Siozios
+  title: 'FLEX: Flexible Federated Learning With Asynchronous Peer-to-Peer Communication
+    and Adaptive Aggregation.'
+  venue: IEEE Trans. Parallel Distributed Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tpds/SadMRSS26
+  doi: 10.1109/TPDS.2026.3735216
+  ee: https://doi.org/10.1109/TPDS.2026.3735216
+  url: https://dblp.org/rec/journals/tpds/SadMRSS26
+  abstract: 'In this paper, we introduce FLEX, a flexible federated learning (FL)
+    scheme that combines peer-to-peer communication with asynchronous client updates,
+    enabling clients to operate independently. We further propose a novel aggregation
+    algorithm inspired by gradient-like updates, governed by two key parameters: (i)
+    a similarity-based aggregation weight to better handle non-IID data distributions,
+    and (ii) a progress-based aggregation weight to mitigate straggler effects. Experiments
+    on CIFAR-10, CIFAR-100, FE-MNIST, and Boston Housing Dataset demonstrate that
+    our aggregation algorithm achieves accuracy improvements of up to 13% over simple
+    averaging (Avg) and 10% over FedProx under both homogeneous and heterogeneous
+    settings, as well as IID and non-IID data distributions. Beyond aggregation, the
+    FLEX scheme substantially outperforms state-of-the-art asynchronous centralized
+    schemes (TimelyFL, FedBuff), delivering over 16% higher accuracy while reducing
+    communication costs by factors of 10.4 and 13.6, respectively, for the same target
+    accuracy. Compared to synchronous peer-to-peer approaches (Epidemic), FLEX reduces
+    total training time by 2–$3\times$3× and communication by 40–50%. Compared to
+    asynchronous P2P baselines (AsyDFL), FLEX reaches target accuracy levels $4\times$4×–$7.2\times$7.2×
+    faster while reducing the number of exchanged updates by 50%–71%. Finally, relative
+    to traditional synchronous centralized FedAvg, FLEX achieves accuracy gains of
+    up to 23%.'
+  related_code: ''
+  abstract_cn: 本文提出了一种名为FLEX的灵活联邦学习（FL）方案，该方案将点对点通信与异步客户端更新相结合，使各客户端能够独立运行。我们进一步设计了一种受梯度类似更新启发的新聚合算法，其由两个关键参数控制：（i）基于相似性的聚合权重，以更好地应对非独立同分布（non-IID）的数据分布；（ii）基于进度的聚合权重，以缓解“拖拉机”效应。在CIFAR-10、CIFAR-100、FE-MNIST和波士顿住房数据集上的实验表明，在同质与异质场景以及独立同分布（IID）与非独立同分布数据分布下，我们的聚合算法相较于简单平均（Avg）可实现最高13%的准确率提升，相较于FedProx则可提升10%。除聚合机制外，FLEX方案在性能上显著优于当前最先进的异步集中式方案（TimelyFL、FedBuff），在达到相同目标准确率时，分别将准确率提升超过16%，并将通信开销分别降低10.4倍和13.6倍。与同步点对点方案（Epidemic）相比，FLEX将总训练时间缩短2至3倍，通信量减少40%至50%。与异步点对点基线方案（AsyDFL）相比，FLEX达到目标准确率的速度快4至7.2倍，同时将交换的更新次数减少50%至71%。最后，相较于传统的同步集中式FedAvg，FLEX可实现最高23%的准确率提升。
 federate%20streamid%3Ajournals%2Ftocs%3A: []
 federate%20streamid%3Ajournals%2Ftos%3A:
 - author: Amina Chikhaoui, Laurent Lemarchand, Kamel Boukhalfa, Jalil Boukhobza

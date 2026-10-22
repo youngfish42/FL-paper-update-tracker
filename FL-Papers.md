@@ -2889,6 +2889,7 @@
 - FedNASP: Federated Vision-Language Navigation with Adaptive Step-wise Personalization. [[PUB](https://doi.org/10.1007/978-3-032-37098-3_15)]
 - FedOT: Ownership Verification and Leakage Tracing via Watermarks for Federated LDMs. [[PUB](https://doi.org/10.1007/978-3-032-37196-6_17)]
 - Fisher-Routed Mixture of Experts for Federated Class-Incremental Learning. [[PUB](https://doi.org/10.1007/978-3-032-37461-5_18)]
+- H-SFP: Hierarchical Federated Learning with Decoupled Split-Model Prototyping. [[PUB](https://doi.org/10.1007/978-3-032-37189-8_18)]
 - Identifiable Gated Residual Personalization for Federated Parameter-Efficient Fine-Tuning. [[PUB](https://doi.org/10.1007/978-3-032-37627-5_17)]
 - Neural Collapse-Inspired Multi-label Federated Learning Under Label-Distribution Skew. [[PUB](https://doi.org/10.1007/978-3-032-37595-7_14)]
 - Prevention over Correction: Learning Aligned Representations in One-Shot Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37035-8_18)]

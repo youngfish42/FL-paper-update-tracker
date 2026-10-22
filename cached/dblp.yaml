@@ -50846,6 +50846,18 @@ federate%20venue%3AECCV%3A:
   ee: https://doi.org/10.1007/978-3-032-37461-5_18
   url: https://dblp.org/rec/conf/eccv/YuanLCXLN26
   abstract: ''
+- author: Dung T. Tran, Nguyen B. Ha, Minh-Duong Nguyen, Van-Dinh Nguyen, Kok-Seng
+    Wong
+  title: 'H-SFP: Hierarchical Federated Learning with Decoupled Split-Model Prototyping.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/TranHNNW26
+  doi: 10.1007/978-3-032-37189-8_18
+  ee: https://doi.org/10.1007/978-3-032-37189-8_18
+  url: https://dblp.org/rec/conf/eccv/TranHNNW26
+  abstract: ''
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

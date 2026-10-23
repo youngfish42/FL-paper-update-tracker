@@ -36494,6 +36494,199 @@ federate%20streamid%3Ajournals%2Fpami%3A:
     in the presence of heterogeneous and limited data.
   related_code: ''
   abstract_cn: 联邦学习（FL）是一种极具前景的框架，能够在保护客户端隐私的同时实现分布式机器学习。然而，由于数据的异构性和稀缺性，联邦学习的性能会有所下降。为缓解这一问题，我们提出了一种名为pFedBayes的新型个性化贝叶斯联邦学习方法。该方法以服务器端训练得到的全局分布作为各客户端的先验分布，通过最小化客户端在其个性化数据上的重建误差与其下载的全局分布之间的KL散度之和，来调整各自的分布。在此基础上，我们进一步提出了一个名为sFedBayes的稀疏个性化贝叶斯联邦学习方法，以提升推理效率。针对非独立同分布（non-i.i.d.）数据中存在的极端异构性，我们还设计了一种基于聚类的贝叶斯联邦学习模型——cFedBayes，为不同客户端分别学习不同的先验分布。理论分析给出了三种方法的泛化误差界，并表明所提方法的泛化误差率在对数因子范围内达到了极小极大最优性。此外，cFedBayes能够提供簇级别的泛化误差界，而pFedBayes则仅给出单一的统一误差界。大量实验结果表明，在存在异构且数据有限的情况下，所提出的三种方法在私有模型上的性能均优于其他先进的个性化方法。
+- author: Hanlin Gu, Jiahuan Luo, Yan Kang 0001, Yuan Yao 0011, Gongxi Zhu, Bowen
+    Li 0013, Lixin Fan, Qiang Yang
+  title: 'FedAdOb: Privacy-Preserving Federated Deep Learning With Adaptive Obfuscation.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/GuLKYZLFY26
+  doi: 10.1109/TPAMI.2026.3715766
+  ee: https://doi.org/10.1109/TPAMI.2026.3715766
+  url: https://dblp.org/rec/journals/pami/GuLKYZLFY26
+  abstract: Federated learning (FL) has emerged as a collaborative approach that allows
+    multiple clients to jointly learn a machine learning model without sharing their
+    private data. The concern about privacy leakage, albeit demonstrated under specific
+    conditions (Zhu et al. 2019), has triggered numerous follow-up research in designing
+    powerful attacking methods and effective defending mechanisms aiming to thwart
+    these attacking methods. Nevertheless, privacy-preserving mechanisms employed
+    in these defending methods invariably lead to compromised model performances due
+    to a fixed obfuscation applied to private data or gradients. In this article,
+    we, therefore, propose a novel adaptive obfuscation mechanism, coined FedAdOb,
+    to protect private data without yielding original model performances. Technically,
+    FedAdOb utilizes passport-based adaptive obfuscation to ensure data privacy in
+    both horizontal and vertical federated learning settings. The privacy-preserving
+    capabilities of FedAdOb, specifically with regard to private features and labels,
+    are theoretically proven through Theorems 1 and 2. Furthermore, extensive experimental
+    evaluations conducted on various datasets and network architectures demonstrate
+    the effectiveness of FedAdOb by manifesting its superior trade-off between privacy
+    preservation and model performance, surpassing existing methods.
+  related_code: ''
+  abstract_cn: 联邦学习（FL）作为一种协作式方法，使多个客户端能够在不共享其私有数据的情况下联合训练机器学习模型。尽管已有研究表明，在特定条件下存在隐私泄露风险（Zhu等，2019），但这仍引发了大量后续研究，旨在设计强大的攻击方法以及有效的防御机制以抵御这些攻击。然而，现有防御方法中采用的隐私保护机制往往通过对私有数据或梯度施加固定的混淆操作，从而导致模型性能受损。为此，本文提出了一种新颖的自适应混淆机制——FedAdOb，可在不牺牲原始模型性能的前提下保护私有数据。从技术层面讲，FedAdOb利用基于“通行证”的自适应混淆策略，分别在横向和纵向联邦学习场景中保障数据隐私。通过定理1和定理2，我们从理论上证明了FedAdOb在保护私有特征与标签方面的隐私保护能力。此外，我们在多种数据集和网络架构上开展了广泛的实验评估，结果表明，FedAdOb在隐私保护与模型性能之间的权衡方面优于现有方法，充分验证了其有效性。
+- author: Shan Sha, Shenglong Zhou 0001, Xin Wang, Lingchen Kong, Geoffrey Ye Li
+  title: Decentralized Federated Learning by Partial Message Exchange.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/ShaZWKL26
+  doi: 10.1109/TPAMI.2026.3722165
+  ee: https://doi.org/10.1109/TPAMI.2026.3722165
+  url: https://dblp.org/rec/journals/pami/ShaZWKL26
+  abstract: Decentralized federated learning (DFL) has emerged as a transformative
+    server-free paradigm that enables collaborative learning over large-scale heterogeneous
+    networks. However, it continues to face fundamental challenges, including data
+    heterogeneity, restrictive assumptions for theoretical analysis, and degraded
+    convergence when standard communication- or privacy-enhancing techniques are applied.
+    To overcome these drawbacks, this paper develops a novel algorithm, PaME (DFL
+    by Partial Message Exchange). The central principle is to allow only randomly
+    selected sparse coordinates to be exchanged between two neighbor nodes. As a result,
+    PaME significantly reduces communication costs while simultaneously limiting the
+    exposure of data-sensitive information during transmission. The latter property
+    is rigorously characterized by a formal reconstruction-risk theory under partial
+    observation. Moreover, the algorithm is proven to converge in expectation to a
+    stationary point at a linear rate, provided that the gradient is locally Lipschitz
+    continuous and the communication matrix is doubly stochastic. These two mild assumptions
+    not only dispenses with many restrictive conditions commonly imposed by existing
+    DFL methods but also enables PaME to effectively address data heterogeneity. Furthermore,
+    comprehensive numerical experiments demonstrate its superior performance compared
+    with several representative decentralized learning algorithms.
+  related_code: ''
+  abstract_cn: 去中心化联邦学习（DFL）作为一种无需服务器的新型范式，已在大规模异构网络中实现了协同学习。然而，它仍面临一些根本性挑战，包括数据异构性、理论分析中的严格假设，以及在应用标准通信或隐私增强技术时收敛性能的下降。为克服这些缺陷，本文提出了一种新算法——PaME（基于部分消息交换的去中心化联邦学习）。其核心思想是仅允许相邻节点之间交换随机选择的稀疏坐标。由此，PaME在显著降低通信成本的同时，也有效减少了传输过程中敏感数据的暴露。后一特性通过部分观测下的形式化重构风险理论得到了严格刻画。此外，只要梯度满足局部Lipschitz连续性且通信矩阵为双随机矩阵，该算法便能在期望意义下以线性速率收敛至一个驻点。这两个较为宽松的假设不仅摆脱了现有DFL方法中常见的诸多限制性条件，还使PaME能够有效应对数据异构性问题。进一步地，全面的数值实验表明，与若干典型的去中心化学习算法相比，PaME表现出更优越的性能。
+- author: Dazhong Wang, Weidong Liu 0005, Xiaojun Mao
+  title: 'BRFedTD: A Novel Framework for Federated Reinforcement Learning With Byzantine-Resilient
+    Policy Evaluation.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/WangLM26
+  doi: 10.1109/TPAMI.2026.3713184
+  ee: https://doi.org/10.1109/TPAMI.2026.3713184
+  url: https://dblp.org/rec/journals/pami/WangLM26
+  abstract: Federated reinforcement learning (FRL) enables distributed agents to collaboratively
+    evaluate policies without sharing raw data, making it a promising approach for
+    privacy-preserving and scalable decision-making. However, the presence of Byzantine
+    agents, which may behave arbitrarily or maliciously, poses significant challenges
+    to the robustness and reliability of FRL. To address this issue, in this paper,
+    we propose a novel trimmed mean-based robust federated policy evaluation framework
+    called Byzantine-resilient federated temporal difference learning (BRFedTD), and
+    establish a finite-time convergence theory of BRFedTD. This framework effectively
+    addresses the combined challenges of linear function approximation, heterogeneous
+    Markov decision processes (MDPs), multiple local updates, and robust aggregation.
+    To support more accurate confidence interval estimation and policy uncertainty
+    analysis, we further derive the asymptotic distribution of the estimation error,
+    showing that BRFedTD achieves asymptotic normality and efficiency in the case
+    of identical MDPs without Byzantine attacks. This represents, to the best of our
+    knowledge, the first asymptotic normality result established in FRL. Extensive
+    numerical experiments demonstrate the robustness and effectiveness of the proposed
+    algorithm, and corroborate that it generalizes to deep reinforcement learning
+    and performs well on complex control tasks.
+  related_code: ''
+  abstract_cn: 联邦强化学习（FRL）使分布式智能体能够在不共享原始数据的情况下协同评估策略，从而成为一种具有前景的、兼顾隐私保护与可扩展性的决策方法。然而，拜占庭智能体的存在——它们可能采取任意甚至恶意的行为——对联邦强化学习的鲁棒性和可靠性构成了重大挑战。为应对这一问题，本文提出了一种基于截尾均值的新型鲁棒联邦策略评估框架，称为拜占庭容错联邦时序差分学习（BRFedTD），并建立了该框架的有限时间收敛理论。该框架能够有效应对线性函数近似、异质马尔可夫决策过程（MDP）、多轮本地更新以及鲁棒聚合等多重挑战。为进一步支持更精确的置信区间估计与策略不确定性分析，我们还推导了估计误差的渐近分布，表明在不存在拜占庭攻击且各MDP相同的条件下，BRFedTD具有渐近正态性和渐近有效性。据我们所知，这是联邦强化学习领域首次建立的渐近正态性结果。大量数值实验验证了所提算法的鲁棒性和有效性，并表明其可推广至深度强化学习，在复杂控制任务中表现良好。
+- author: Feifei Wang, Huiyun Tang, Yang Li 0070
+  title: Factor-Assisted Federated Learning for Personalized Optimization With Heterogeneous
+    Data.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/WangTL26
+  doi: 10.1109/TPAMI.2026.3712213
+  ee: https://doi.org/10.1109/TPAMI.2026.3712213
+  url: https://dblp.org/rec/journals/pami/WangTL26
+  abstract: Federated learning is an emerging distributed machine learning framework
+    aimed at protecting data privacy. Data heterogeneity is one of the core challenges
+    in federated learning, which could severely degrade the convergence rate and prediction
+    performance of deep neural networks. To address this issue, we develop a novel
+    personalized federated learning framework for heterogeneous data, which we refer
+    to as FedSplit. This modeling framework is motivated by the finding that data
+    on different clients contain both common knowledge and personalized knowledge.
+    Then the hidden elements in each neural layer can be split into shared and personalized
+    groups. With this decomposition, a novel objective function is established and
+    optimized. We demonstrate that FedSplit enjoys a faster convergence speed than
+    the standard federated learning method both theoretically and empirically. The
+    generalization bound of the FedSplit method is also studied. To practically implement
+    the proposed method on real datasets, factor analysis is introduced to facilitate
+    the decoupling of hidden elements. This leads to a practically implemented model
+    for FedSplit, which we further refer to as FedFac. We demonstrate by simulation
+    studies that using factor analysis can well recover the underlying shared/personalized
+    decomposition. The superior prediction performance of FedFac is further verified
+    empirically by comparison with various state-of-the-art federated learning methods
+    on several real datasets.
+  related_code: ''
+  abstract_cn: 联邦学习是一种新兴的分布式机器学习框架，旨在保护数据隐私。数据异质性是联邦学习面临的核心挑战之一，它会严重降低深度神经网络的收敛速度和预测性能。为应对这一问题，我们提出了一种面向异质数据的新型个性化联邦学习框架，称为FedSplit。该建模框架的灵感来源于这样一个发现：不同客户端的数据同时包含公共知识和个性化知识。因此，每一层神经网络中的隐藏单元可以被划分为共享组和个性化组。基于这种分解，我们构建并优化了一个新的目标函数。理论和实验均表明，FedSplit的收敛速度优于标准的联邦学习方法。此外，我们还研究了FedSplit方法的泛化界。为了在真实数据集上有效实施所提出的方案，我们引入了因子分析来促进隐藏单元的解耦，从而得到了一个可实际部署的FedSplit模型，并将其命名为FedFac。仿真研究表明，利用因子分析能够较好地恢复潜在的共享/个性化分解。通过与多种先进联邦学习方法在多个真实数据集上的对比，FedFac的优越预测性能也得到了实证验证。
+- author: Yeyu Yan, Shuai Zheng 0005, Zhenfeng Zhu, Dong Chen 0043, Wentao Zhang 0001,
+    Yawei Zhao, Kunlun He, Yao Zhao 0001
+  title: 'Aligning Condensed Graph via Hashing: A New Insight for Federated Graph
+    Learning.'
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/YanZZCZZHZ26
+  doi: 10.1109/TPAMI.2026.3711847
+  ee: https://doi.org/10.1109/TPAMI.2026.3711847
+  url: https://dblp.org/rec/journals/pami/YanZZCZZHZ26
+  abstract: Federated Graph Learning (FGL) aims to maximize the benefits of each graph
+    owner, which is a common form of distributed graph learning under privacy-preserving
+    conditions. As the landscape of local clients becomes increasingly diverse in
+    terms of both model architectures and topological complexities, graph heterogeneity
+    turns out to be one of the significant challenges to efficient collaboration among
+    clients. Beyond existing paradigms, we delve a fresh insight into revisiting FGL
+    as a semantic condensed graph alignment problem in this work. From this perspective,
+    HashFGL is proposed for heterogeneous FGL through aligning condensed graphs via
+    hashing in a symbiotic space. Specifically, the core of HashFGL lies in that it
+    introduces a cross-client symbiotic space to facilitate effective collaboration.
+    Within this space, an efficient hash-based semantic encoding strategy is proposed
+    to model each local client while balancing coordinated resilience and semantic
+    consistency. Furthermore, we derive an elaborate graph condenser based on the
+    above strategy, which condenses original graphs with semantics and structure-preserving
+    property, to maintain the effectiveness of condensed graph alignment for FGL.
+    Formal theoretical analysis further reveals that HashFGL can effectively alleviate
+    the problem of graph heterogeneity. Experimental results on three large-scale
+    graphs, employing standard partitioning strategies and a pioneering, more realistic
+    partitioning that we introduced, demonstrate the efficacy and scalability of HashFGL.
+  related_code: ''
+  abstract_cn: 联邦图学习（FGL）旨在最大化各图所有者的利益，是隐私保护条件下分布式图学习的一种常见形式。随着本地客户端在模型架构和拓扑复杂性方面日益多样化，图异构性已成为客户端之间高效协作的重要挑战之一。在现有范式的基础上，本文提出了一种全新的视角，将联邦图学习重新定义为一个语义压缩图对齐问题。基于这一视角，我们提出了HashFGL，通过在共生空间中利用哈希技术对压缩图进行对齐，以应对异构联邦图学习的挑战。具体而言，HashFGL的核心在于引入了一个跨客户端的共生空间，以促进有效的协作。在该空间内，我们提出了一种高效的基于哈希的语义编码策略，用于建模每个本地客户端，同时在协同鲁棒性和语义一致性之间取得平衡。此外，我们还基于上述策略设计了一种精细的图压缩器，能够在保持语义和结构特性的前提下对原始图进行压缩，从而确保压缩图对齐在联邦图学习中的有效性。形式化的理论分析进一步表明，HashFGL能够有效缓解图异构性问题。在三种大规模图数据集上，采用标准划分策略以及我们提出的更具现实意义的新型划分策略所进行的实验结果，充分验证了HashFGL的有效性和可扩展性。
+- author: Hao Yu 0023, Xin Yang 0012, Boyang Fan, Yonghao Li, Hanlin Gu, Junbo Zhang
+    0004, Tianrui Li 0001, Qiang Yang 0001
+  title: Robust Personalized Federated Continual Learning via Explainable Multi-Granularity
+    Prompt.
+  venue: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pami/YuYFLGZLY26
+  doi: 10.1109/TPAMI.2026.3711828
+  ee: https://doi.org/10.1109/TPAMI.2026.3711828
+  url: https://dblp.org/rec/journals/pami/YuYFLGZLY26
+  abstract: Personalized Federated Continual Learning (PFCL) requires that the server
+    not only effectively integrate temporal knowledge accumulated across past tasks
+    and spatial knowledge distributed among heterogeneous clients, but also ensure
+    strong personalized performance of the global model for each client. Existing
+    methods, whether in Personalized Federated Learning (PFL) or Federated Continual
+    Learning (FCL), have overlooked the multi-granularity representation of knowledge,
+    which can be utilized to overcome Spatial-Temporal Catastrophic Forgetting (STCF)
+    and enable coarse-to-fine personalization. Furthermore, most approaches rely on
+    local client-side personalization, increasing computational load and failing to
+    address the risks posed by malicious or low-quality clients. To this end, we propose
+    FedMGP+, which utilizes multi-granularity prompts to address these challenges,
+    namely coarse-grained global prompt and fine-grained local prompt. The former
+    focuses on efficiently transferring shared global knowledge without spatial forgetting,
+    and the latter emphasizes specific learning of personalized local knowledge to
+    overcome temporal forgetting. Visualization results and theoretical analyses further
+    reveal that coarse-grained prompts primarily guide regional attention, whereas
+    fine-grained prompts enrich object-level representations within those regions.
+    Building upon this, Personalized Selective Prompt Fusion is designed to exclusively
+    fuse coarse-grained knowledge on the server to generate client-specific global
+    prompts, reducing local overhead and resisting poisoning attacks from malicious
+    clients. Extensive experiments demonstrate that the proposed FedMGP+ effectively
+    mitigates forgetting, significantly enhances personalized performance, and provides
+    robust defense against poisoning and gradient leakage attacks.
+  related_code: ''
+  abstract_cn: 个性化联邦持续学习（PFCL）要求服务器不仅能够有效整合跨历史任务积累的时间知识以及分布在异构客户端的空间知识，还要确保全局模型在每个客户端上都具有较强的个性化性能。现有的方法，无论是在个性化联邦学习（PFL）还是联邦持续学习（FCL）领域，都忽视了知识的多粒度表征，而这种表征可用于缓解时空灾难性遗忘（STCF），并实现由粗到精的个性化。此外，大多数方法依赖于客户端侧的本地个性化，这不仅增加了计算负担，还无法应对恶意或低质量客户端带来的风险。为此，我们提出了FedMGP+，该方法通过使用多粒度提示来应对上述挑战，即粗粒度全局提示和细粒度局部提示。前者侧重于在不发生空间遗忘的情况下高效传递共享的全局知识，后者则强调对个性化局部知识的针对性学习，以克服时间遗忘。可视化结果与理论分析进一步表明，粗粒度提示主要引导区域级注意力，而细粒度提示则丰富了这些区域内的目标级表示。在此基础上，我们设计了个性化选择性提示融合机制，仅在服务器端融合粗粒度知识以生成针对特定客户端的全局提示，从而降低本地开销，并抵御来自恶意客户端的投毒攻击。大量实验表明，所提出的FedMGP+能够有效缓解遗忘问题，显著提升个性化性能，并为防御投毒攻击和梯度泄露攻击提供可靠的保障。
 federate%20venue%3AKDD%3A:
 - author: Zhen Wang, Weirui Kuang, Yuexiang Xie, Liuyi Yao, Yaliang Li, Bolin Ding,
     Jingren Zhou

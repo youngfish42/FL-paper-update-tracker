@@ -40,15 +40,6 @@ jobs:
         run: |
           python scripts/convert_cache_to_md.py
 
-      - name: Setup var
-        id: vars
-        run: |
-          {
-            echo "content<<EOF"
-            echo "$MSG"
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
-
       - name: Setup GIT user
         run: |
           git config --global user.name "youngfish42"
@@ -65,7 +56,7 @@ jobs:
         uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MSG: ${{ steps.vars.outputs.content }}
+          MSG: ${{ env.MSG }}
           ISSUE_TITLE_TOPICS: ${{ env.ISSUE_TITLE_TOPICS }}
         with:
           filename: .github/issue-template.md

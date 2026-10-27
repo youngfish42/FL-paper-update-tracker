@@ -215,25 +215,68 @@ def get_msg(items, topic, aggregated=False):
     name_topic = string_topic.split(":")[-2]
 
     # 输出 topic 名称及新增条目数，如 "TopicName [+5]"
-    msg = f"## [{name_topic}](https://dblp.org/search?q={topic}) [+{len(items)}]\\n\\n"
+    msg = f"## [{name_topic}](https://dblp.org/search?q={topic}) [+{len(items)}]\n\n"
 
     # 仅在非聚合模式下输出无序列表详情
-    if aggregated == False:
+    if not aggregated:
         for item in items:
             ee = item.get("ee", "").strip()
             related_code = item.get("related_code", "").strip()
             if ee:
                 # 格式：- title. [PUB](ee超链接)  [CODE](github超链接)
                 if related_code:
-                    msg += f"- {item['title']}. [[PUB]({ee})] [[CODE]({related_code})]\\n"
+                    msg += f"- {item['title']}. [[PUB]({ee})] [[CODE]({related_code})]\n"
                 else:
-                    msg += f"- {item['title']}. [[PUB]({ee})]\\n"
+                    msg += f"- {item['title']}. [[PUB]({ee})]\n"
             else:
-                msg += f"- {item['title']}.\\n"
-        msg += "\\n"
+                msg += f"- {item['title']}.\n"
+        msg += "\n"
 
-    msg = msg.replace("'", "")
     return msg
+
+
+def build_issue_message(topic_order, topic_new_items, topic_first_topic, max_chars=60000):
+    """生成 Issue 正文；超限时按 venue 均衡缩减完整的论文条目。"""
+    total = sum(len(topic_new_items[name]) for name in topic_order)
+
+    def render(quota=None):
+        parts = []
+        if quota is not None:
+            shown = sum(min(len(topic_new_items[name]), quota) for name in topic_order)
+            omitted = total - shown
+            parts.append(
+                f"> Showing {shown} of {total} new papers; {omitted} omitted to fit "
+                "GitHub's Issue size limit. See the [complete paper list]"
+                "(https://github.com/youngfish42/FL-paper-update-tracker/blob/main/FL-Papers.md).\n\n"
+            )
+
+        for name in topic_order:
+            items = topic_new_items[name]
+            if quota is not None:
+                items = items[:quota]
+            if items or quota is None:
+                parts.append(get_msg(items, topic_first_topic[name]))
+        return "".join(parts)
+
+    full_msg = render()
+    if len(full_msg) <= max_chars:
+        return full_msg
+
+    low = 0
+    high = max((len(topic_new_items[name]) for name in topic_order), default=0)
+    while low < high:
+        quota = (low + high + 1) // 2
+        if len(render(quota)) <= max_chars:
+            low = quota
+        else:
+            high = quota - 1
+
+    msg = render(low)
+    if len(msg) > max_chars:
+        raise ValueError(f"max_chars={max_chars} is too small for the Issue truncation notice")
+    logger.warning(f"Issue message reduced to {low} papers per venue ({len(msg)} chars)")
+    return msg
+
 
 def _parse_retry_after_seconds(retry_after_value):
     """解析 Retry-After 头（秒），失败则返回 None。"""

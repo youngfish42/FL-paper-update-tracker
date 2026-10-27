@@ -78,13 +78,15 @@
 - The file is overwritten after every successful run.
 - **Agent Note**: If you add new fields to the paper dict, ensure backward compatibility; old cache entries missing the new field should be handled gracefully.
 
-### 4. Message Formatting (`get_msg`)
+### 4. Message Formatting (`get_msg` / `build_issue_message`)
 - Location: `src/utils.py`
 - `get_msg` generates a Markdown block for a single venue: heading with `[+N]` count plus an unordered list of papers in the form:
   ```markdown
   - {title}. [PUB]({ee})
   ```
 - `src/main.py` collects new papers from **all keyword + query combinations**, then **merges them by venue** (`name_topic`, e.g. `journals/ml`). Papers found under the same venue by different keywords are combined into a single block, deduplicated by `ee`/`title`, and counted together.
+- `build_issue_message` limits `MSG` to 60000 characters, leaving room for the static template under GitHub's 65536-character Issue body limit. If necessary, it uses a uniform per-venue quota to omit whole paper entries (never partial Markdown lines), reports shown/omitted counts, and links to the full `FL-Papers.md` archive.
+- `src/main.py` writes `MSG` to `GITHUB_ENV` using the standard multiline `<<delimiter` syntax with UTF-8 encoding. Do not reintroduce ANSI-C `$'...'` quoting or literal `\n` sequences.
 - `get_topic_short_name` extracts the venue short name (the segment after the last `/`, or the whole name if no `/`) from a topic URL. Used for the Issue title.
 - `format_title_topics` joins short names with `, ` and truncates to ≤80 characters, appending `等N个` when truncated.
 
@@ -202,10 +204,11 @@ The tracker is domain-agnostic. To pivot from Federated Learning to any other fi
 No changes to `src/main.py` or the GitHub Actions workflow are required (unless you want to adjust the `primary_only` behavior).
 
 ### Changing Message Format
-- Edit `src/utils.py` → `get_msg`.
+- Edit `src/utils.py` → `get_msg` for a single venue block, or `build_issue_message` for whole-Issue assembly and size-based reduction.
 - If you modify the Markdown structure, verify that the issue template renders correctly in GitHub.
 - Keep the `aggregated` parameter behavior: `True` = heading only, `False` = heading + list.
 - The default list item format is `- {title}. [[PUB]({ee})]`. When `related_code` is present, it appends ` [[CODE]({related_code})]` after `[PUB]`.
+- Keep the final template overhead in mind when changing the 60000-character `MSG` budget; GitHub Issue bodies are limited to 65536 characters.
 
 ### Changing Issue Template
 - Edit `.github/issue-template.md`.
@@ -236,7 +239,7 @@ In `dev` mode the script will:
 - Print logs to stdout
 - **Not** write to `GITHUB_ENV`
 
-You can inspect `aggregated_msg` and `msg` in the logs to preview the issue content.
+You can inspect `msg` in the logs to preview the issue content.
 
 Additional CLI flags:
 - `--primary_only` — Emulates the automatic cron/push behavior: primary keyword scans all venues first, secondary keywords only scan venues that produced new papers.

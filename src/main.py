@@ -1,11 +1,11 @@
 from loguru import logger
 from fire import Fire
 from utils import (
-    get_msg, init, get_dblp_items, request_data,
+    init, get_dblp_items, request_data,
     deduplicate_items_by_ee, deduplicate_items_by_title,
     filter_items_by_year, get_topic_short_name,
     format_title_topics, fetch_abstract_for_papers,
-    translate_abstracts_for_papers,
+    translate_abstracts_for_papers, build_issue_message,
 )
 import yaml
 import datetime
@@ -215,22 +215,16 @@ class Scaffold:
         yaml.safe_dump(dblp_cache, open(cache_path, "w", encoding="utf-8"), sort_keys=False, indent=2)
 
         # 统一生成合并后的消息：同一 venue (name_topic) 的论文合并为一个区块
-        for name_topic in topic_order:
-            items = topic_new_items[name_topic]
-            first_topic = topic_first_topic[name_topic]
-            msg += get_msg(items, first_topic)
+        msg = build_issue_message(topic_order, topic_new_items, topic_first_topic)
 
         if env == "prod":
             env_file = os.getenv("GITHUB_ENV")
-            max_msg_len = 4096
-            if len(msg) > max_msg_len:
-                msg = msg[:max_msg_len - 3] + "..."
-
             if flag:
                 # 生成 Issue 标题中的 topic 片段，控制长度不超过 80 字符
                 title_topics = format_title_topics(active_topics)
-                with open(env_file, "a") as f:
-                    f.write("MSG=$'" + msg + "'\n")
+                delimiter = "FL_PAPER_UPDATE_MSG_EOF"
+                with open(env_file, "a", encoding="utf-8") as f:
+                    f.write(f"MSG<<{delimiter}\n{msg}\n{delimiter}\n")
                     f.write(f"ISSUE_TITLE_TOPICS={title_topics}\n")
 
 

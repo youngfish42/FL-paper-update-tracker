@@ -105,15 +105,14 @@ This repository uses [GitHub Actions](.github/workflows/watch.yml) to run the tr
 1. **Checkout** – Clones the repository.
 2. **Setup Python** – Installs Python 3.8.
 3. **Install Dependencies** – Runs `pip install -r requirements.txt`.
-4. **Run Tracker** – Executes `src/main.py` with `--env=prod` and `--primary_only` (for cron/push). It assembles each API query from `keywords` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`.
+4. **Run Tracker** – Executes `src/main.py` with `--env=prod` and `--primary_only` (for cron/push). It assembles each API query from `keywords` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`. It writes the Markdown message to `GITHUB_ENV` using the standard multiline delimiter format.
    - **Primary keyword** (`keywords[0]`) scans all venues.
    - **Secondary keywords** only scan venues where the primary keyword discovered new papers, reducing API load.
 5. **Extract Related Code** (optional) – Runs `scripts/fetch_related_code.py` to scan abstracts for GitHub repository links and backfill `related_code` fields.
 6. **Fetch Missing Abstracts** (optional) – Runs `scripts/fetch_abstracts.py` to backfill empty `abstract` fields and their Chinese translations for existing papers.
 7. **Update FL-Papers.md** – Runs `scripts/convert_cache_to_md.py` to regenerate the categorized Markdown paper list from the updated cache.
-8. **Setup Var** – Escapes the generated Markdown message for GitHub Actions.
-9. **Push Done Work** – Commits `cached/dblp.yaml` and `FL-Papers.md` back to the `main` branch.
-10. **Create Issue** – If new papers were found, opens a GitHub Issue using `.github/issue-template.md`.
+8. **Push Done Work** – Commits `cached/dblp.yaml` and `FL-Papers.md` back to the `main` branch.
+9. **Create Issue** – If new papers were found, opens a GitHub Issue using `.github/issue-template.md`, passing `env.MSG` directly to the action.
 
 ### Issue Format
 
@@ -127,6 +126,9 @@ The issue body contains:
 - A summary header for each venue with new papers (e.g., `VenueName [+3]`)
 - An unordered list of paper titles with `[PUB]` hyperlinks pointing to the DBLP `ee` field
 - When a `related_code` field is present, an additional `[CODE]` hyperlink is appended after `[PUB]`
+- A link to the complete `FL-Papers.md` archive
+
+The generated message is limited to 60000 characters so the final body remains below GitHub's 65536-character limit. Oversized updates are reduced using a uniform per-venue quota, preserving only complete paper entries and adding a notice with shown/omitted counts.
 
 ---
 
@@ -161,7 +163,7 @@ The issue body contains:
 ### Key Modules
 
 - **`src/main.py`** – Loads cache, iterates over topics, queries DBLP, filters by year, performs three-stage deduplication (by `ee`, by `title`, and global cross-topic), fetches abstracts and translations for new papers, extracts related code links, and writes new papers to `GITHUB_ENV`.
-- **`src/utils.py`** – Contains `get_dblp_items` (JSON parsing), `deduplicate_items_by_ee` / `deduplicate_items_by_title` (two-stage dedup logic), `filter_items_by_year` (year window filter), `get_msg` (Markdown formatting), `fetch_abstract_for_papers` (abstract retrieval from Crossref / Semantic Scholar / arXiv / OpenAlex), `translate_abstracts_for_papers` (Chinese translation via Qwen-MT-plus), `extract_github_links` (code link extraction), `fetch_doi_for_papers` (DOI backfill), and helpers for topic short-name extraction.
+- **`src/utils.py`** – Contains `get_dblp_items` (JSON parsing), `deduplicate_items_by_ee` / `deduplicate_items_by_title` (two-stage dedup logic), `filter_items_by_year` (year window filter), `get_msg` (venue Markdown formatting), `build_issue_message` (whole-Issue assembly and size-based reduction), `fetch_abstract_for_papers` (abstract retrieval from Crossref / Semantic Scholar / arXiv / OpenAlex), `translate_abstracts_for_papers` (Chinese translation via Qwen-MT-plus), `extract_github_links` (code link extraction), `fetch_doi_for_papers` (DOI backfill), and helpers for topic short-name extraction.
 - **`cached/dblp.yaml`** – YAML mapping of topic → list of paper dicts. Serves as the source of truth for what has already been reported.
 - **`scripts/convert_cache_to_md.py`** – Regenerates `FL-Papers.md` from the cache using domain-specific venue and category maps.
 - **`scripts/fetch_abstracts.py`** – Standalone script to backfill `abstract` fields for existing papers. Supports `--year all` and `--retry-failed`.

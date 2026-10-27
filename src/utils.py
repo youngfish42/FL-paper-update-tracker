@@ -277,6 +277,7 @@ def build_issue_message(topic_order, topic_new_items, topic_first_topic, max_cha
     logger.warning(f"Issue message reduced to {low} papers per venue ({len(msg)} chars)")
     return msg
 
+
 def _parse_retry_after_seconds(retry_after_value):
     """解析 Retry-After 头（秒），失败则返回 None。"""
     if not retry_after_value:

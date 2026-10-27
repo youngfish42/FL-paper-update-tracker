@@ -59,7 +59,6 @@ class Scaffold:
         queries = cfg["dblp"]["queries"]
         mails = cfg["dblp"].get("mails", [])
         contact_email = mails[0] if mails else ""
-        msg = ""
         flag = False
         active_topics = []  # 收集本次有新增论文的 topic 简称
         active_queries = []  # 收集 primary keyword 下发现有新论文的 query

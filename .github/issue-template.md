@@ -2,7 +2,7 @@
 title: Paper Update [{{ env.ISSUE_TITLE_TOPICS }}] @ {{ date | date('YYYY-MM-DD') }}
 ---
 
-New federated learning papers found on DBLP, grouped by venue.
+New papers found on DBLP, grouped by venue.
 
 {{ env.MSG }}
 

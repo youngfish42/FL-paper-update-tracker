@@ -34597,6 +34597,31 @@ federate%20streamid%3Ajournals%2Fml%3A:
   ee: https://doi.org/10.1007/s10994-026-07142-7
   url: https://dblp.org/rec/journals/ml/BaaliLAA26
   abstract: ''
+- author: Abdullah Mohammad Sakib, Md. Mohashin Hossain, Mahedy Hasan Foysal, A. K.
+    M. Muzahidul Islam, Ishtiak Al Mamoon
+  title: 'FedHybrid-ViT: A Federated-Hybrid Framework for Generalizable Deepfake Detection
+    on Heterogeneous Data.'
+  venue: Mach. Learn.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/SakibHFIM26
+  doi: 10.1007/S10994-026-07171-2
+  ee: https://doi.org/10.1007/s10994-026-07171-2
+  url: https://dblp.org/rec/journals/ml/SakibHFIM26
+  abstract: ''
+- author: Ze Yu Zhang, Nhung Bui, Arun Verma, Bolin Ding, Bryan Kian Hsiang Low
+  title: 'MMT: Achieving Exact Federated Unlearning with Improved Post-unlearning
+    Performance.'
+  venue: Mach. Learn.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/ZhangBVDL26
+  doi: 10.1007/S10994-026-07117-8
+  ee: https://doi.org/10.1007/s10994-026-07117-8
+  url: https://dblp.org/rec/journals/ml/ZhangBVDL26
+  abstract: ''
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous

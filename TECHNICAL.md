@@ -16,7 +16,7 @@
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - pip
 
 ### Installation
@@ -103,7 +103,7 @@ This repository uses [GitHub Actions](.github/workflows/watch.yml) to run the tr
 ### Execution Steps
 
 1. **Checkout** – Clones the repository.
-2. **Setup Python** – Installs Python 3.8.
+2. **Setup Python** – Installs Python 3.10.
 3. **Install Dependencies** – Runs `pip install -r requirements.txt`.
 4. **Run Tracker** – Executes `src/main.py` with `--env=prod` and `--primary_only` (for cron/push). It assembles each API query from `keywords` + `queries`, fetches results, filters by year, deduplicates by `ee` and by `title`, and updates `cached/dblp.yaml`. It writes the Markdown message to `GITHUB_ENV` using the standard multiline delimiter format.
    - **Primary keyword** (`keywords[0]`) scans all venues.

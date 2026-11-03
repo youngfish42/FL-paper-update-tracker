@@ -17,7 +17,7 @@
 
 ## Tech Stack
 
-- **Language**: Python 3.8+
+- **Language**: Python 3.10+
 - **Core Dependencies** (see `requirements.txt`):
   - `fire` – CLI scaffolding
   - `requests` – HTTP calls to DBLP API

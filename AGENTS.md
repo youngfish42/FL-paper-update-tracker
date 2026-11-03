@@ -80,12 +80,14 @@
 
 ### 4. Message Formatting (`get_msg` / `build_issue_message`)
 - Location: `src/utils.py`
-- `get_msg` generates a Markdown block for a single venue: heading with `[+N]` count plus an unordered list of papers in the form:
+- Automatic Issues use `get_msg(..., aggregated=True)` to generate only a venue heading with a `[+N]` count and a link to the first corresponding venue section in `FL-Papers.md`; individual paper titles and PUB/CODE links are not included.
   ```markdown
-  - {title}. [PUB]({ee})
+  ## [ICML](https://github.com/youngfish42/FL-paper-update-tracker/blob/main/FL-Papers.md#icml) [+3]
   ```
+- `TOPIC_VENUE_NAME_MAP` maps DBLP topic short names to the venue display names used by `FL-Papers.md` (for example, `ml` → `Machine Learning` and `sp` → `S&P`). `get_github_anchor` converts those names to GitHub heading fragments. When adding a venue whose topic short name differs from its archive display name, add a mapping entry. `ARCHIVE_VENUE_ANCHOR_OVERRIDES` handles title collisions: the `Machine Learning` category owns `#machine-learning`, so its first venue section uses `#machine-learning-1`.
+- The non-aggregated `get_msg` mode retains the detailed unordered paper list with PUB/CODE links.
 - `src/main.py` collects new papers from **all keyword + query combinations**, then **merges them by venue** (`name_topic`, e.g. `journals/ml`). Papers found under the same venue by different keywords are combined into a single block, deduplicated by `ee`/`title`, and counted together.
-- `build_issue_message` limits `MSG` to 60000 characters, leaving room for the static template under GitHub's 65536-character Issue body limit. If necessary, it uses a uniform per-venue quota to omit whole paper entries (never partial Markdown lines), reports shown/omitted counts, and links to the full `FL-Papers.md` archive.
+- `build_issue_message` limits `MSG` to 60000 characters, leaving room for the static template under GitHub's 65536-character Issue body limit. Since the message contains only venue links, it raises an error rather than omitting papers if this limit is exceeded.
 - `src/main.py` writes `MSG` to `GITHUB_ENV` using the standard multiline `<<delimiter` syntax with UTF-8 encoding. Do not reintroduce ANSI-C `$'...'` quoting or literal `\n` sequences.
 - `get_topic_short_name` extracts the venue short name (the segment after the last `/`, or the whole name if no `/`) from a topic URL. Used for the Issue title.
 - `format_title_topics` joins short names with `, ` and truncates to ≤80 characters, appending `等N个` when truncated.
@@ -204,10 +206,11 @@ The tracker is domain-agnostic. To pivot from Federated Learning to any other fi
 No changes to `src/main.py` or the GitHub Actions workflow are required (unless you want to adjust the `primary_only` behavior).
 
 ### Changing Message Format
-- Edit `src/utils.py` → `get_msg` for a single venue block, or `build_issue_message` for whole-Issue assembly and size-based reduction.
+- Edit `src/utils.py` → `get_msg` for a single venue block, or `build_issue_message` for whole-Issue assembly.
+- Automatic Issues contain only archive venue links and new-paper counts; do not add individual paper titles unless explicitly requested.
 - If you modify the Markdown structure, verify that the issue template renders correctly in GitHub.
-- Keep the `aggregated` parameter behavior: `True` = heading only, `False` = heading + list.
-- The default list item format is `- {title}. [[PUB]({ee})]`. When `related_code` is present, it appends ` [[CODE]({related_code})]` after `[PUB]`.
+- Keep the `aggregated` parameter behavior: `True` = archive-linked heading only, `False` = DBLP-linked heading + paper list.
+- The detailed list item format is `- {title}. [[PUB]({ee})]`. When `related_code` is present, it appends ` [[CODE]({related_code})]` after `[PUB]`.
 - Keep the final template overhead in mind when changing the 60000-character `MSG` budget; GitHub Issue bodies are limited to 65536 characters.
 
 ### Changing Issue Template

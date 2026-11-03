@@ -208,7 +208,53 @@ def extract_github_links(text: str) -> str:
     return url
 
 
+FL_PAPERS_URL = "https://github.com/youngfish42/FL-paper-update-tracker/blob/main/FL-Papers.md"
+TOPIC_VENUE_NAME_MAP = {
+    "alt": "ALT",
+    "ai": "AI",
+    "ml": "Machine Learning",
+    "jmlr": "JMLR",
+    "pami": "TPAMI",
+    "sp": "S&P",
+    "uss": "USENIX Security",
+    "mm": "MM",
+    "ijcv": "IJCV",
+    "NAACL-HLT": "NAACL",
+    "sigmod": "SIGMOD",
+    "pvldb": "VLDB",
+    "MobiCom": "MOBICOM",
+    "eurosys": "EuroSys",
+    "tpds": "TPDS",
+    "tocs": "TOCS",
+    "tos": "TOS",
+    "tcad": "TCAD",
+    "tc": "TC",
+    "icse": "ICSE",
+    "focs": "FOCS",
+    "stoc": "STOC",
+}
+
+
+def get_archive_venue_name(topic):
+    short_name = get_topic_short_name(topic)
+    return TOPIC_VENUE_NAME_MAP.get(short_name, short_name)
+
+
+def get_github_anchor(title):
+    return re.sub(r"[^\w\s-]", "", title).strip().lower().replace(" ", "-")
+
+
+ARCHIVE_VENUE_ANCHOR_OVERRIDES = {
+    "Machine Learning": "machine-learning-1",
+}
+
+
 def get_msg(items, topic, aggregated=False):
+    if aggregated:
+        venue_name = get_archive_venue_name(topic)
+        anchor = ARCHIVE_VENUE_ANCHOR_OVERRIDES.get(venue_name, get_github_anchor(venue_name))
+        return f"## [{venue_name}]({FL_PAPERS_URL}#{anchor}) [+{len(items)}]\n\n"
+
     # 将 URL 编码的 topic 转回可读字符串
     string_topic = urllib.parse.unquote(topic)
     # 提取 topic 名称（取倒数第二个冒号分隔的部分）
@@ -217,64 +263,30 @@ def get_msg(items, topic, aggregated=False):
     # 输出 topic 名称及新增条目数，如 "TopicName [+5]"
     msg = f"## [{name_topic}](https://dblp.org/search?q={topic}) [+{len(items)}]\n\n"
 
-    # 仅在非聚合模式下输出无序列表详情
-    if not aggregated:
-        for item in items:
-            ee = item.get("ee", "").strip()
-            related_code = item.get("related_code", "").strip()
-            if ee:
-                # 格式：- title. [PUB](ee超链接)  [CODE](github超链接)
-                if related_code:
-                    msg += f"- {item['title']}. [[PUB]({ee})] [[CODE]({related_code})]\n"
-                else:
-                    msg += f"- {item['title']}. [[PUB]({ee})]\n"
+    for item in items:
+        ee = item.get("ee", "").strip()
+        related_code = item.get("related_code", "").strip()
+        if ee:
+            # 格式：- title. [PUB](ee超链接)  [CODE](github超链接)
+            if related_code:
+                msg += f"- {item['title']}. [[PUB]({ee})] [[CODE]({related_code})]\n"
             else:
-                msg += f"- {item['title']}.\n"
-        msg += "\n"
+                msg += f"- {item['title']}. [[PUB]({ee})]\n"
+        else:
+            msg += f"- {item['title']}.\n"
+    msg += "\n"
 
     return msg
 
 
 def build_issue_message(topic_order, topic_new_items, topic_first_topic, max_chars=60000):
-    """生成 Issue 正文；超限时按 venue 均衡缩减完整的论文条目。"""
-    total = sum(len(topic_new_items[name]) for name in topic_order)
-
-    def render(quota=None):
-        parts = []
-        if quota is not None:
-            shown = sum(min(len(topic_new_items[name]), quota) for name in topic_order)
-            omitted = total - shown
-            parts.append(
-                f"> Showing {shown} of {total} new papers; {omitted} omitted to fit "
-                "GitHub's Issue size limit. See the [complete paper list]"
-                "(https://github.com/youngfish42/FL-paper-update-tracker/blob/main/FL-Papers.md).\n\n"
-            )
-
-        for name in topic_order:
-            items = topic_new_items[name]
-            if quota is not None:
-                items = items[:quota]
-            if items or quota is None:
-                parts.append(get_msg(items, topic_first_topic[name]))
-        return "".join(parts)
-
-    full_msg = render()
-    if len(full_msg) <= max_chars:
-        return full_msg
-
-    low = 0
-    high = max((len(topic_new_items[name]) for name in topic_order), default=0)
-    while low < high:
-        quota = (low + high + 1) // 2
-        if len(render(quota)) <= max_chars:
-            low = quota
-        else:
-            high = quota - 1
-
-    msg = render(low)
+    """生成仅含归档 venue 链接和新增数量的 Issue 正文。"""
+    msg = "".join(
+        get_msg(topic_new_items[name], topic_first_topic[name], aggregated=True)
+        for name in topic_order
+    )
     if len(msg) > max_chars:
-        raise ValueError(f"max_chars={max_chars} is too small for the Issue truncation notice")
-    logger.warning(f"Issue message reduced to {low} papers per venue ({len(msg)} chars)")
+        raise ValueError(f"Issue message exceeds max_chars={max_chars} ({len(msg)} chars)")
     return msg
 
 

@@ -124,11 +124,11 @@ Paper Update [Venue1, Venue2, ...] @ YYYY-MM-DD
 
 The issue body contains:
 - A summary header for each venue with new papers (e.g., `VenueName [+3]`)
-- An unordered list of paper titles with `[PUB]` hyperlinks pointing to the DBLP `ee` field
-- When a `related_code` field is present, an additional `[CODE]` hyperlink is appended after `[PUB]`
+- A hyperlink from each venue name to its first corresponding section in `FL-Papers.md`
+- No individual paper titles or per-paper PUB/CODE links
 - A link to the complete `FL-Papers.md` archive
 
-The generated message is limited to 60000 characters so the final body remains below GitHub's 65536-character limit. Oversized updates are reduced using a uniform per-venue quota, preserving only complete paper entries and adding a notice with shown/omitted counts.
+The generated message is limited to 60000 characters so the final body remains below GitHub's 65536-character limit. Since only venue headings are included, an oversized message raises an error instead of omitting paper entries.
 
 ---
 
@@ -163,7 +163,7 @@ The generated message is limited to 60000 characters so the final body remains b
 ### Key Modules
 
 - **`src/main.py`** – Loads cache, iterates over topics, queries DBLP, filters by year, performs three-stage deduplication (by `ee`, by `title`, and global cross-topic), fetches abstracts and translations for new papers, extracts related code links, and writes new papers to `GITHUB_ENV`.
-- **`src/utils.py`** – Contains `get_dblp_items` (JSON parsing), `deduplicate_items_by_ee` / `deduplicate_items_by_title` (two-stage dedup logic), `filter_items_by_year` (year window filter), `get_msg` (venue Markdown formatting), `build_issue_message` (whole-Issue assembly and size-based reduction), `fetch_abstract_for_papers` (abstract retrieval from Crossref / Semantic Scholar / arXiv / OpenAlex), `translate_abstracts_for_papers` (Chinese translation via Qwen-MT-plus), `extract_github_links` (code link extraction), `fetch_doi_for_papers` (DOI backfill), and helpers for topic short-name extraction.
+- **`src/utils.py`** – Contains `get_dblp_items` (JSON parsing), `deduplicate_items_by_ee` / `deduplicate_items_by_title` (two-stage dedup logic), `filter_items_by_year` (year window filter), `get_msg` (venue Markdown formatting), `build_issue_message` (whole-Issue assembly with archive venue links), `fetch_abstract_for_papers` (abstract retrieval from Crossref / Semantic Scholar / arXiv / OpenAlex), `translate_abstracts_for_papers` (Chinese translation via Qwen-MT-plus), `extract_github_links` (code link extraction), `fetch_doi_for_papers` (DOI backfill), and helpers for topic short-name extraction.
 - **`cached/dblp.yaml`** – YAML mapping of topic → list of paper dicts. Serves as the source of truth for what has already been reported.
 - **`scripts/convert_cache_to_md.py`** – Regenerates `FL-Papers.md` from the cache using domain-specific venue and category maps.
 - **`scripts/fetch_abstracts.py`** – Standalone script to backfill `abstract` fields for existing papers. Supports `--year all` and `--retry-failed`.

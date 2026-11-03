@@ -2,7 +2,7 @@
 title: Paper Update [{{ env.ISSUE_TITLE_TOPICS }}] @ {{ date | date('YYYY-MM-DD') }}
 ---
 
-New papers found on DBLP, grouped by venue.
+New papers found on DBLP, grouped by venue. Click a venue to view its papers in the complete archive.
 
 {{ env.MSG }}
 

@@ -2890,7 +2890,7 @@
 - Capturing Spectral and Spatial Patterns for Federated Remote Sensing Segmentation. [[PUB](https://doi.org/10.1007/978-3-032-37235-2_27)]
 - Class-Wise Contribution Estimation via Logit Maximization for Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37196-6_8)]
 - Diffusion to Obfuscation: Time-Adaptive Synthesized Generation Against Gradient Leakage Attacks in Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37369-4_10)]
-- Do Vision Models Truly Forget? New Findings from Representation-Level Certification of Visual Unlearning in Vertical Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37393-9_9)]
+- Do Vision Models Truly Forget? New Findings from Representation-Level Certification of Visual Unlearning in Vertical Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37393-9_9)] [[CODE](https://github.com/YuZhenyuLindy/Mirage)]
 - FedDO: Dynamic Client Optimization for Adaptive Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37432-5_26)]
 - FeDepth: Federated Learning for Depth Estimation Under Robot Heterogeneity. [[PUB](https://doi.org/10.1007/978-3-032-37574-2_17)]
 - FedMental: Topology-Aware Federated Prototype Learning for Polymorphic Multimodal Psychiatry. [[PUB](https://doi.org/10.1007/978-3-032-37464-6_34)]
@@ -4789,6 +4789,12 @@
 - Transcending Memory Constraints in Federated Learning via Sequential Block-Wise Training. [[PUB](https://doi.org/10.1109/TPDS.2026.3725682)]
 - Edge-End Heterogeneous Collaborative Learning by Prototype Selection and Edge Association. [[PUB](https://doi.org/10.1109/TPDS.2026.3678282)]
 - EdgeDup: Popularity-Aware Communication-Efficient Decentralized Edge Data Deduplication. [[PUB](https://doi.org/10.1109/TPDS.2025.3638945)]
+
+#### DAC
+
+- RTFL: Energy-Aware Federated Learning for AIoT Design Via Adaptive Quantization-based Multi-Agent Scheduling. [[PUB](https://doi.org/10.1145/3770743.3804243)]
+- Towards Fast and Robust Split Federated Learning over Satellite-Based Computing Networks. [[PUB](https://doi.org/10.1145/3770743.3804080)]
+- Pegasus: Personalized and Communication-Efficient Mixture-of-Experts System for Distributed Edge LLM Inference. [[PUB](https://doi.org/10.1145/3770743.3804242)]
 
 #### TCAD
 

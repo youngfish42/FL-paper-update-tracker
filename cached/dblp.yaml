@@ -337,6 +337,45 @@ federate%20venue%3ADAC%3A:
     performance for both IID and non-IID scenarios.
   abstract_cn: 随着人工智能技术的蓬勃发展，越来越多的人工智能物联网应用采用联邦学习，在不泄露设备隐私的前提下实现协同学习。然而，现有的集中式联邦学习方法存在单点故障以及由参数服务器引发的通信瓶颈等问题，因此基于点对点通信、无需全局模型的去中心化联邦学习正日益受到关注。尽管如此，去中心化联邦学习仍面临三大挑战：资源受限设备的计算能力和网络带宽有限、设备数据呈现非独立同分布特性，以及依赖于所有邻居节点的知识聚合操作。这些因素严重制约了现有去中心化联邦学习方法的学习潜力。为应对上述问题，本文提出了一种高效的去中心化联邦学习框架——MMDFL，该框架基于我们提出的多模型学习与知识聚合机制。具体而言，MMDFL采用多个“旅行者模型”，它们各自沿着所访问的设备进行本地训练，从而加速并最大化设备间的知识学习与共享。此外，借助我们提出的设备选择策略，MMDFL能够使每个“旅行者”自适应地探索下一个最优邻近设备，以进一步提升去中心化联邦学习的训练效果，同时有效缓解数据异构性、资源限制及灾难性遗忘等问题。仿真和真实实验平台上的结果表明，与当前最先进的去中心化联邦学习方法相比，MMDFL不仅显著降低了通信开销，而且在独立同分布和非独立同分布两种场景下均能获得更优的分类性能。
   related_code: ''
+- author: Jun Xia 0003, Junqi Zhang, Zhaorong Zhu, Wenjie Chen, Mingsong Chen 0001
+  title: 'RTFL: Energy-Aware Federated Learning for AIoT Design Via Adaptive Quantization-based
+    Multi-Agent Scheduling.'
+  venue: DAC
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/XiaZZCC26
+  doi: 10.1145/3770743.3804243
+  ee: https://doi.org/10.1145/3770743.3804243
+  url: https://dblp.org/rec/conf/dac/XiaZZCC26
+  abstract: ''
+- author: Yuxin Zhang, Haoyu Chen, Zheng Lin 0001, Wenjun Zhu, Ju Ren 0001, Jin Zhao
+    0001, Yue Gao 0001, Zhe Chen 0015
+  title: Towards Fast and Robust Split Federated Learning over Satellite-Based Computing
+    Networks.
+  venue: DAC
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/ZhangCLZRZGC26
+  doi: 10.1145/3770743.3804080
+  ee: https://doi.org/10.1145/3770743.3804080
+  url: https://dblp.org/rec/conf/dac/ZhangCLZRZGC26
+  abstract: Training satellite-edge deep learning models remains constrained by limited
+    onboard resources and high data download latency. Although split federated learning
+    (SFL) offers a potential solution through model partitioning, its convergence
+    and robustness are fundamentally compromised by the intermittent and asymmetric
+    satellite-ground links. To address these issues, we introduce SatSFL as a novel
+    SFL system for satellite-based computing networks. SatSFL employs an interpolated
+    gradient approximation to emulate ground feedback during disconnections, markedly
+    accelerating convergence while maintaining robustness under heterogeneous data.
+    In addition, we design adaptive uplink compression under asymmetric bandwidth
+    to ensure that balanced and critical gradients are reliably transmitted back to
+    satellites. We implement and evaluate SatSFL on real-world LEO satellite systems
+    and datasets, demonstrating superior accuracy and convergence speed compared to
+    state-of-the-art methods.
+  related_code: ''
+  abstract_cn: 在卫星边缘训练深度学习模型时，受限于有限的星上资源和较高的数据下载延迟。尽管分割联邦学习（SFL）通过模型划分提供了一种潜在的解决方案，但其收敛性和鲁棒性却因卫星与地面之间间歇性且不对称的链路而受到根本性的削弱。为解决这些问题，我们提出SatSFL，这是一种面向卫星计算网络的新型分割联邦学习系统。SatSFL采用插值梯度近似来模拟断网期间的地面反馈，从而显著加速收敛，并在异构数据条件下保持良好的鲁棒性。此外，我们还设计了适应性上行链路压缩机制，以应对带宽不对称的情况，确保关键梯度能够可靠地回传至卫星。我们在真实的低地球轨道卫星系统和数据集上实现了并评估了SatSFL，结果表明其在准确性和收敛速度方面均优于现有最先进方法。
 federate%20venue%3AIJCAI%3A:
 - author: Tao Qi, Fangzhao Wu, Lingjuan Lyu, Yongfeng Huang 0001, Xing Xie 0001
   title: 'FedSampling: A Better Sampling Strategy for Federated Learning.'
@@ -50926,7 +50965,29 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-032-37574-2_17
   ee: https://doi.org/10.1007/978-3-032-37574-2_17
   url: https://dblp.org/rec/conf/eccv/LeeLLLYJ26
-  abstract: ''
+  abstract: Although recent robot perception research emphasizes training on data
+    from diverse environments to improve generalization, most existing methods still
+    rely on centralized learning, which is inefficient and difficult to scale across
+    heterogeneous robot platforms. Federated learning (FL) offers an alternative by
+    enabling distributed training without raw data transfer, but it suffers from severe
+    performance degradation under domain shifts caused by heterogeneity across clients.
+    In real robotic deployments, data distributions often overlap across platforms,
+    environments, and sensing conditions, making it difficult to partition clients
+    into clearly separated domains. However, this characteristic breaks the assumption
+    of clearly separable client domains commonly used in clustered FL. To address
+    this gap in robot perception, particularly in depth estimation, we introduce two
+    realistic and unexplored non-IID scenarios that reflect heterogeneity in terms
+    of platform, environment, and depth distribution. We then propose FeDepth, a descriptor-based
+    clustered FL framework that models client relationships through soft clustering.
+    Unlike hard clustering methods that assume clearly separated clusters, FeDepth
+    allows clients to participate in multiple clusters, capturing continuous and ambiguous
+    domain transitions commonly observed in robotic environments. Extensive experiments
+    demonstrate that FeDepth consistently improves robustness over standard FL and
+    clustered FL baselines across multiple depth estimation architectures, providing
+    a practical and effective solution for federated robot perception. Our project
+    page is available at https://vision3d-lab.github.io/fedepth/.
+  related_code: ''
+  abstract_cn: 尽管近年来的机器人感知研究强调通过在多样化环境数据上进行训练来提升泛化能力，但现有方法大多仍依赖于集中式学习，这种方式效率低下且难以在异构机器人平台上扩展。联邦学习（FL）提供了一种替代方案，能够在不传输原始数据的情况下实现分布式训练，然而，当客户端之间存在异质性导致领域偏移时，其性能会严重下降。在实际的机器人部署中，不同平台、环境和传感条件下的数据分布往往存在重叠，这使得很难将客户端划分为彼此明确分离的领域。然而，这一特性打破了聚类联邦学习中通常假设的客户端领域可清晰划分的前提。为弥补机器人感知领域的这一空白，特别是在深度估计任务中，我们提出了两种贴近现实且尚未被充分探索的非独立同分布（non-IID）场景，它们分别反映了平台、环境以及深度分布方面的异质性。在此基础上，我们提出了一种基于描述符的聚类联邦学习框架——FeDepth，该框架通过软聚类来建模客户端之间的关系。与假定聚类间严格分离的硬聚类方法不同，FeDepth允许客户端同时参与多个聚类，从而捕捉到机器人环境中常见的连续且模糊的领域过渡现象。大量实验表明，FeDepth在多种深度估计架构上均能持续优于标准联邦学习及聚类联邦学习基线，为联邦机器人感知提供了一种实用而有效的解决方案。我们的项目主页位于：https://vision3d-lab.github.io/fedepth/。
 - author: Haoyu Li, He Li 0054, Wenke Huang 0003, Yujing Rao, Xiaofen Zong, Mang Ye
   title: 'FedMental: Topology-Aware Federated Prototype Learning for Polymorphic Multimodal
     Psychiatry.'
@@ -51016,7 +51077,25 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-032-37196-6_8
   ee: https://doi.org/10.1007/978-3-032-37196-6_8
   url: https://dblp.org/rec/conf/eccv/UkayeTAN26
-  abstract: ''
+  abstract: Federated learning (FL) enables collaborative learning of computer vision
+    models, where privacy and regulatory constraints prevent centralizing data across
+    devices or organizations. However, practical FL deployments often exhibit severe
+    class imbalance and label skew, causing standard aggregation protocols to overfit
+    dominant clients and degrade minority-class performance. We propose a data-free,
+    class-wise contribution estimation and aggregation framework based on logit maximization
+    (CELM) that does not require sharing raw data, client metadata, or auxiliary public
+    datasets. The FL server probes client updates to obtain class-wise evidence scores
+    and assembles a cross-client evidence matrix, which quantifies both per-class
+    competence and class coverage. Using this matrix, we compute contribution weights
+    that upweight clients providing strong, discriminative evidence for underrepresented
+    classes. The resulting aggregation is stable due to simplex constraints and momentum
+    smoothing, and it remains compatible with standard FL training pipelines. We evaluate
+    the approach on representative vision benchmarks under controlled non-IID and
+    pathological label splits, demonstrating that CELM-based aggregation improves
+    robustness to imbalance and statistical heterogeneity, while yielding better performance
+    without requiring any additional data exchange.
+  related_code: ''
+  abstract_cn: 联邦学习（FL）使得在隐私和监管约束下无法将数据集中存储于各设备或组织的情况下，仍能实现计算机视觉模型的协同训练。然而，在实际的联邦学习部署中，常常存在严重的类别不平衡和标签偏斜问题，导致标准的聚合协议过度拟合主导客户端，从而降低少数类别的性能。我们提出了一种基于对数几率最大化（CELM）的无数据、按类别贡献度估计与聚合框架，该框架无需共享原始数据、客户端元数据或辅助公共数据集。联邦服务器通过探测客户端的更新来获取各类别的证据分数，并构建一个跨客户端的证据矩阵，该矩阵既能量化每个类别的能力水平，又能反映各类别的覆盖范围。利用这一矩阵，我们计算出贡献权重，对那些为未充分代表类别提供强判别性证据的客户端进行加权。由于引入了单纯形约束和动量平滑机制，最终的聚合过程具有良好的稳定性，并且与标准的联邦学习训练流程保持兼容。我们在受控的非独立同分布（non-IID）及病理化标签划分条件下，针对典型的视觉基准数据集对该方法进行了评估，结果表明，基于CELM的聚合方法能够提升对类别不平衡和统计异质性的鲁棒性，并在无需额外数据交换的情况下获得更好的性能。
 - author: Yixin Xue, Haonan Guo, Wenke Huang, Bo Du
   title: Capturing Spectral and Spatial Patterns for Federated Remote Sensing Segmentation.
   venue: ECCV
@@ -51051,7 +51130,31 @@ federate%20venue%3AECCV%3A:
   doi: 10.1007/978-3-032-37393-9_9
   ee: https://doi.org/10.1007/978-3-032-37393-9_9
   url: https://dblp.org/rec/conf/eccv/YuZMYZ26
-  abstract: ''
+  abstract: 'Machine unlearning in Vertical Federated Learning (VFL) has attracted
+    growing interest, yet existing methods certify forgetting solely using output-level
+    metrics. We challenge these works by introducing Mirage, a representation-level
+    auditing framework that comprises four complementary diagnostics: Linear probe
+    recovery (LPR), centered kernel alignment (CKA), feature separability scoring,
+    and layer-wise recovery analysis. Extensive experiments across seven datasets
+    and seven baseline methods following recent VFL unlearning protocols reveal three
+    key findings: (1) Forgetting gap: methods that pass output-level certification
+    still retain substantial class structure in their representations, with LPR exceeding
+    the retrained baseline by up to 15.4 points; CKA shows that these models remain
+    structurally closer to the original than to the retrained reference, while separability
+    scores indicate persistent geometric discrimination. (2) Unlearning trilemma:
+    no existing method simultaneously achieves high utility, output-level forgetting,
+    and representation-level forgetting. (3) Class-sample asymmetry: class-level forgetting
+    leaves strong representational traces (LPR exceeding 96 percent on several datasets),
+    whereas sample-level forgetting is indistinguishable from chance (LPR is approximately
+    50 percent); layer-wise analysis further shows that residual class information
+    persists across network depths. These findings call for representation-aware evaluation
+    standards in federated unlearning research. Code is publicly available at https://github.com/YuZhenyuLindy/Mirage.'
+  related_code: https://github.com/YuZhenyuLindy/Mirage
+  abstract_cn: 垂直联邦学习（VFL）中的机器遗忘技术近年来备受关注，然而现有方法仅通过输出层面的指标来验证遗忘效果。我们通过引入 Mirage——一个基于表示层面的审计框架——对这些工作提出了挑战。该框架包含四种互补的诊断方法：线性探针恢复（LPR）、中心核对齐（CKA）、特征可分性评分以及逐层恢复分析。在七个数据集上，并基于近期的
+    VFL 遗忘协议，对七种基线方法开展的大量实验揭示了三个关键发现：（1）遗忘差距：即使通过了输出层面认证的方法，在其表示中仍保留着显著的类别结构，其中 LPR
+    比重新训练的基线高出多达 15.4 个百分点；CKA 表明，这些模型在结构上与原始模型更为接近，而非与重新训练的参考模型；同时，可分性评分也显示存在持续的几何判别能力。（2）遗忘三难困境：目前尚不存在任何一种方法能够同时实现高效用、输出层面遗忘和表示层面遗忘。（3）类别-样本不对称性：在类别层面进行遗忘时，仍会在表示中留下强烈的痕迹（在多个数据集中
+    LPR 超过 96%），而在样本层面进行遗忘时，其表现则与随机水平无异（LPR 约为 50%）；逐层分析进一步表明，残留的类别信息会贯穿整个网络深度。这些发现呼吁在联邦遗忘研究中采用考虑表示特性的评估标准。相关代码已公开发布于
+    https://github.com/YuZhenyuLindy/Mirage。
 - author: Wenhao Yuan 0005, Chenchen Lin, Jian Chen 0011, Jinfeng Xu 0003, Zewei Liu
     0001, Edith Cheuk-Han Ngai
   title: Fisher-Routed Mixture of Experts for Federated Class-Incremental Learning.
@@ -87577,7 +87680,25 @@ collaborat%20learn%20venue%3AACL%3A:
   doi: 10.18653/V1/2026.FINDINGS-ACL.2023
   ee: https://doi.org/10.18653/v1/2026.findings-acl.2023
   url: https://dblp.org/rec/conf/acl/FengWW26
-  abstract: ''
+  abstract: 'Large Language Models (LLMs) have shown great potential in molecular
+    understanding by aligning molecular representations with text.However, existing
+    approaches remain limited to static motif recognition without comprehending the
+    generative principles-the connection rules governing how motifs assemble into
+    valid topological structures.To address this challenge, we introduce MotifAgent,
+    a multi-agent reinforcement learning framework inspired by emergent collective
+    intelligence.We formulate molecular assembly as a collaborative problem where
+    each motif is represented by an agent sharing a common LLM backbone, learning
+    connection rules through explicit inter-motif negotiation rather than implicit
+    sequence memorization.Key innovations include: (1) dynamic inter-agent negotiation
+    for modeling motif connections; (2) Set-based Behavioral Cloning for learning
+    multiple topologically equivalent assembly paths; (3) topology-aware reward shaping
+    with MAPPO to maintain chemical validity while optimizing target properties.Extensive
+    experiments demonstrate that MotifAgent achieves state-of-the-art performance
+    across molecular property prediction, description generation, and reaction prediction
+    tasks, with our generalist model surpassing specialized expert models.'
+  related_code: ''
+  abstract_cn: 大型语言模型（LLMs）通过将分子表示与文本对齐，在分子理解方面展现出巨大潜力。然而，现有方法仍局限于静态基元识别，未能理解生成原理——即基元如何按照连接规则组装成有效拓扑结构的规律。为应对这一挑战，我们提出了MotifAgent，这是一种受涌现集体智能启发的多智能体强化学习框架。我们将分子组装问题建模为一个协作问题，其中每个基元由一个共享通用LLM主干的智能体表示，通过显式的基元间协商而非隐式的序列记忆来学习连接规则。主要创新包括：(1)
+    用于建模基元连接的动态智能体间协商；(2) 基于集合的行为克隆，用于学习多种拓扑等价的组装路径；(3) 结合MAPPO的拓扑感知奖励塑造，在优化目标性质的同时保持化学合理性。大量实验表明，MotifAgent在分子性质预测、描述生成和反应预测等任务上均达到当前最优性能，其通用模型甚至超越了专用专家模型。
 collaborat%20learn%20venue%3ANAACL-HLT%3A:
 - author: Armanda Lewis
   title: Multimodal large language models for inclusive collaboration learning tasks.
@@ -93728,6 +93849,19 @@ communicat%20effici%20distribut%20venue%3ADAC%3A:
     higher than SOTA methods and the epoch time is reduced to 31.8% on average.
   abstract_cn: 在分布式系统中训练大型图神经网络（GNN）耗时较长，主要原因是前向和反向传播过程中普遍存在大量的聚合操作，这些操作需要在不同分区之间进行大量通信以收集嵌入或梯度。为降低通信开销，近年来的一些方法通过采样、量化或延迟等方式对每条边的贡献进行衰减，从而在通信量与模型精度之间寻求折衷。然而，当应用于主流GNN架构时，这些方法往往受限于一条共同的通信量–精度帕累托前沿，表明仅对单条边进行衰减并不能进一步加速整个训练过程的聚合。为此，本文提出了一种名为SC‑GNN的跨分区通信语义压缩技术，它将一组边视为一个高层次的语义单元，并将其传输至目标分区。由于该语义承载了整组边的整体意图，因此能够在GNN模型收敛之前持续传递远程分区之间的交互信息，即嵌入与梯度。此外，我们还提出了一种基于连接模式的差异化优化方法，可在保证训练精度的前提下进一步剪枝那些弱连接。实验结果表明，在多领域数据集上，SC‑GNN的压缩比较当前最优方法提升了40.8倍，且平均每个训练轮次的耗时缩短至原来的31.8%。
   related_code: ''
+- author: Zhixuan Liao, Kongyange Zhao, Tao Ouyang, Liekang Zeng, Siqi Luo, Xu Chen
+    0004
+  title: 'Pegasus: Personalized and Communication-Efficient Mixture-of-Experts System
+    for Distributed Edge LLM Inference.'
+  venue: DAC
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/dac/LiaoZOZLC26
+  doi: 10.1145/3770743.3804242
+  ee: https://doi.org/10.1145/3770743.3804242
+  url: https://dblp.org/rec/conf/dac/LiaoZOZLC26
+  abstract: ''
 communicat%20effici%20distribut%20streamid%3Ajournals%2Ftocs%3A:
 - author: David K. Gifford, Nathan Glasser
   title: Remote Pipes and Procedures for Efficient Distributed Communication.
@@ -97133,7 +97267,23 @@ model%20merg%20venue%3AECCV%3A:
   doi: 10.1007/978-3-032-37098-3_25
   ee: https://doi.org/10.1007/978-3-032-37098-3_25
   url: https://dblp.org/rec/conf/eccv/JorgeSMSWPLK26
-  abstract: ''
+  abstract: 'Efficiently merging several models fine-tuned for different tasks, but
+    stemming from the same pretrained base model, is of great practical interest.
+    Despite extensive prior work, most evaluations of model merging in computer vision
+    are restricted to image classification using CLIP, where different classification
+    datasets define different tasks. In this work, our goal is to make model merging
+    more practical and show its relevance on challenging scenarios beyond this specific
+    setting. In most vision scenarios, different tasks rely on trainable and usually
+    heterogeneous decoders. Differently from previous studies with frozen decoders,
+    where merged models can be evaluated right away, the non-trivial cost of decoder
+    training renders hyperparameter selection based on downstream performance impractical.
+    To address this, we introduce the task alignment proxy, and show how it can be
+    used to speed up hyperparameter selection by orders of magnitude while retaining
+    performance. Equipped with the task alignment proxy, we extend the applicability
+    of model merging to multi-task vision models beyond CLIP-based classification.
+    Project page: https://europe.naverlabs.com/task-alignment'
+  related_code: ''
+  abstract_cn: 高效地融合多个针对不同任务进行微调、但源自同一预训练基础模型的模型，具有重要的实际意义。尽管已有大量相关研究，但在计算机视觉领域，大多数关于模型融合的评估仍局限于使用CLIP进行图像分类的任务，其中不同的分类数据集定义了不同的任务。在本工作中，我们的目标是使模型融合更加实用，并证明其在超出这一特定场景的复杂应用场景中的价值。在大多数视觉任务中，不同的任务依赖于可训练且通常异构的解码器。与以往采用冻结解码器的研究不同，在那些研究中融合后的模型可以立即进行评估，而解码器训练的高昂开销使得基于下游性能的超参数选择变得不切实际。为此，我们提出了“任务对齐代理”这一方法，并展示了如何利用它将超参数选择的速度提升数个数量级，同时保持性能不变。借助任务对齐代理，我们将模型融合的适用范围扩展到了超越基于CLIP的分类任务的多任务视觉模型。项目页面：https://europe.naverlabs.com/task-alignment
 - author: Jinwook Jung, Taegyu Kim, Kumju Jo, Sungyong Baik
   title: Learning to Recover Task Experts from a Multi-task Merged Model.
   venue: ECCV

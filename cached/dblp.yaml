@@ -54803,6 +54803,50 @@ federate%20venue%3AEMNLP%3A:
     the Association for Computational Linguistics: EMNLP 2025. 2025.'
   abstract_cn: 徐志博、朱建豪、徐静雯、吕昌泽、王正华、黄子苏、王晓华、吴慕玲、钱琪、郑晓青、黄轩晶。计算语言学协会会议——EMNLP 2025 的研究成果。2025年。
   related_code: ''
+- author: Lu Han, Jingyao Zhang, Katy Ilonka Gero, Nguyen H. Tran
+  title: 'FAVoR: Measuring and Mitigating Author-Style Homogenization in Federated
+    Personalized Generation.'
+  venue: EMNLP
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/HanZGT26
+  doi: ''
+  ee: https://aclanthology.org/2026.emnlp-main.365/
+  url: https://dblp.org/rec/conf/emnlp/HanZGT26
+  abstract: 'Large language models are increasingly used as personalized writing assistants,
+    but adapting a model across many authors can compromise individual writing style
+    by pulling author-specific signals toward a shared register. Federated parameter-efficient
+    fine-tuning (PEFT) offers a data-local setting for this multi-author adaptation
+    problem: clients keep author text local while sharing compact adapter updates.
+    However, we show that standard aggregation can preserve continuation utility while
+    making different authors'' generations less distinguishable in style space, a
+    failure mode we define as author-style homogenization. We evaluate author-style
+    retention with Angular Style Classification Encoder (ASCE)-based diagnostics on
+    our main BlogText benchmark and ASCE-independent external authorship verification.
+    Using this protocol, we find that common federated PEFT baselines can preserve
+    semantic utility while averaging out author-specific signals. To address this
+    homogenization, we instantiate FAVoR (Federated Authorial Voice Retention), an
+    author-style residual mechanism for federated PEFT. FAVoR uses a shared-private
+    adapter design: clients upload shared-adapter updates while retaining author-specific
+    residual corrections locally. Across BlogText and external Mythos-Reddit validation,
+    FAVoR improves author-style retention over standard and personalized federated
+    PEFT baselines. These gains come with small continuation-utility trade-offs and
+    are supported by component ablations, external verification, and cold-start transfer.'
+  related_code: ''
+  abstract_cn: 大型语言模型正越来越多地被用作个性化的写作助手，但在多作者场景下对模型进行适配时，由于将作者特有的风格信号向共同的语域靠拢，可能会损害个体的写作风格。联邦参数高效微调（PEFT）为这一多作者适配问题提供了一种数据本地化的解决方案：客户端在本地保存作者文本，并仅共享紧凑的适配器更新。然而，我们发现，标准的聚合方法虽然能够保持续写任务的实用性，却会使不同作者的生成结果在风格空间中变得难以区分，这种失效模式我们称之为“作者风格同质化”。我们基于角度风格分类编码器（ASCE）的诊断方法，在主要的BlogText基准上以及通过独立于ASCE的外部作者身份验证，评估了作者风格的保留情况。采用这一评估方案，我们发现常见的联邦PEFT基线方法能够在保留语义效用的同时，将作者特有的风格信号平均化。为应对这一同质化问题，我们提出了FAVoR（联邦作者声音保留机制），这是一种用于联邦PEFT的作者风格残差机制。FAVoR采用共享-私有适配器设计：客户端上传共享适配器的更新，同时在本地保留针对特定作者的残差修正。在BlogText及外部Mythos-Reddit验证集上，FAVoR在作者风格保留方面均优于标准联邦PEFT和个性化联邦PEFT基线。这些改进伴随着轻微的续写效用损失，并得到了组件消融实验、外部验证以及冷启动迁移的支持。
+- author: Ziyi Wang, Liang Liu, Zhu Meng, Zhicheng Zhao
+  title: 'PRISM: Private Rank-Invariant Subspace Memory for Federated Continual Fine-Tuning
+    under Local Differential Privacy.'
+  venue: EMNLP
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/WangLMZ26
+  doi: ''
+  ee: https://aclanthology.org/2026.emnlp-main.313/
+  url: https://dblp.org/rec/conf/emnlp/WangLMZ26
+  abstract: ''
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.
@@ -87969,6 +88013,33 @@ collaborat%20learn%20venue%3AEMNLP%3A:
     demonstrate that walk-based models can benefit from rule guidance significantly.
   abstract_cn: 基于游走的模型在知识图谱推理任务中展现出独特优势，不仅取得了当前最优性能，还能够对决策序列进行直观可视化。然而，在知识图谱上的遍历过程中，稀疏的奖励信号往往难以有效指导复杂的强化学习模型。另一种知识图谱推理方法是采用传统的符号化方法（如规则归纳），这类方法无需训练即可达到高精度，但受限于符号表示的局限性，泛化能力较弱。为此，本文提出将这两种范式加以融合，以兼得两者之长。我们的方法利用符号化方法生成的高质量规则，为基于游走的智能体提供奖励监督。鉴于符号规则具有实体变量这一结构特性，我们可将游走智能体拆分为两个子智能体，从而进一步提升效率。公开数据集上的实验结果表明，基于游走的模型能够从规则引导中获得显著收益。
   related_code: ''
+- author: Shuhaib Mehri, Priyanka Kargupta, Tal August, Dilek Hakkani-Tür
+  title: 'MultiSessionCollab: Learning User Preferences with Memory to Improve Long-Term
+    Collaboration.'
+  venue: EMNLP
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/MehriKAH26
+  doi: ''
+  ee: https://aclanthology.org/2026.emnlp-main.124/
+  url: https://dblp.org/rec/conf/emnlp/MehriKAH26
+  abstract: As conversational agents accumulate experience collaborating with users,
+    adapting to user preferences is essential for fostering long-term relationships
+    and improving collaboration quality over time. We introduce MultiSessionCollab,
+    a benchmark that evaluates how well agents can learn user preferences and leverage
+    them to improve collaboration quality throughout multiple sessions. To develop
+    agents that succeed in this setting, we present long-term collaborative agents
+    equipped with a memory that is specifically designed to learn user preferences
+    across sessions and improve interactions. Moreover, we demonstrate that learning
+    signals can be derived from user simulator behavior in MultiSessionCollab to train
+    agents to generate more comprehensive reflections and update their memory more
+    effectively. Extensive experiments show that equipping agents with our memory
+    improves collaboration over time, yielding higher task success rates, more efficient
+    interactions, and reduced user effort. Finally, we conduct a human user study
+    that demonstrates that memory helps improve user experience in real-world settings.
+  related_code: ''
+  abstract_cn: 随着对话智能体与用户协作经验的积累，适应用户偏好对于建立长期关系并随时间推移提升协作质量至关重要。我们提出了MultiSessionCollab这一基准，用于评估智能体在多轮会话中学习用户偏好并利用这些偏好提升协作质量的能力。为构建在该场景下表现优异的智能体，我们设计了一种具备长期记忆机制的协作型智能体，该记忆专门用于跨会话学习用户偏好并优化交互过程。此外，我们还证明，在MultiSessionCollab中，可以从用户模拟器的行为中提取学习信号，从而训练智能体生成更全面的反思，并更有效地更新其记忆。大量实验表明，引入我们的记忆机制能够使智能体在后续会话中持续改进协作效果，显著提高任务成功率、提升交互效率并降低用户付出。最后，我们开展了一项真人用户研究，验证了该记忆机制在真实场景中确实有助于改善用户体验。
 collaborat%20learn%20venue%3ACOLING%3A:
 - author: Caihong Mu, Keyang Zhang, Jialiang Zhou, Yi Liu 0051
   title: Perturbation-driven Dual Auxiliary Contrastive Learning for Collaborative
@@ -98995,6 +99066,67 @@ model%20merg%20venue%3AEMNLP%3A:
     VQA 任务上提升 3%，COCO 图文检索任务上提升 7%，NLVR2 任务上提升 25%，Flickr30k 任务上提升 14%，ADE20K 任务上提升
     3%。
   related_code: ''
+- author: Bang An, Yibo Yang, Philip Torr 0001, Bernard Ghanem
+  title: Mitigating Model Merging Conflicts via Knowledge-Aware Task Vector Purification.
+  venue: EMNLP
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/AnYTG26
+  doi: ''
+  ee: https://aclanthology.org/2026.emnlp-main.200/
+  url: https://dblp.org/rec/conf/emnlp/AnYTG26
+  abstract: Model merging aims to integrate task-specific abilities from individually
+    fine-tuned models into a single model without extra training. In recent model
+    merging methods, task vector has become a fundamental building block, as it can
+    encapsulate the residual information from finetuning. However, the merged model
+    often suffers from notable performance degradation due to the conflicts caused
+    by task-irrelevant redundancy in task vectors. Existing efforts in overcoming
+    redundancy by randomly dropping elements in the parameter space involves randomness
+    and lacks knowledge awareness. To address these challenges, in this study, we
+    propose Purifying TAsk Vectors (PAVE) in knowledge-aware subspace. Concretely,
+    we sample some training examples from each task, and feed them into their corresponding
+    fine-tuned models to acquire the covariance matrices before linear layers. We
+    then perform a context-oriented singular value decomposition, which accentuates
+    the weight components most relevant to the target knowledge. As a result, we can
+    split fine-tuned model weights into task-relevant and redundant components in
+    the knowledge-aware subspace, and purify the task vector by pruning the redundant
+    components. To induce fair pruning efforts across models, we further introduce
+    a spectral rank allocation strategy by optimizing a normalized activated pruning
+    error. The task vector purification by our method as a plug-and-play scheme is
+    applicable across various task vector-based merging methods to improve their performance.
+    In experiments, we demonstrate the effectiveness of PAVE across a diverse set
+    of merging methods, tasks, and model architectures.
+  related_code: ''
+  abstract_cn: 模型融合旨在将各个任务微调模型中特定于任务的能力整合到一个单一模型中，而无需额外的训练。在近年来的模型融合方法中，任务向量已成为一种基础构件，因为它能够封装微调过程中的残差信息。然而，由于任务向量中存在与当前任务无关的冗余信息而导致的冲突，融合后的模型往往会出现显著的性能下降。现有通过随机丢弃参数空间中的元素来消除冗余的方法具有随机性且缺乏对知识的感知。为应对这些挑战，本研究提出了一种基于知识感知子空间的任务向量净化方法——PAVE。具体而言，我们从每个任务中采样部分训练样本，并将其输入到对应的微调模型中，以获取线性层之前的协方差矩阵。随后，我们进行面向上下文的奇异值分解，从而突出与目标任务知识最相关的权重分量。由此，我们能够在知识感知子空间中将微调模型的权重分解为任务相关分量和冗余分量，并通过剪除冗余分量来净化任务向量。为进一步确保各模型间剪枝力度的均衡，我们还引入了一种基于归一化激活剪枝误差优化的谱秩分配策略。作为一种即插即用的方案，我们的任务向量净化方法可适用于多种基于任务向量的融合方法，以提升其性能。实验结果表明，PAVE在多种融合方法、不同任务以及不同模型架构下均表现出良好的效果。
+- author: Zihao Xu 0001, John Harvill, Ziwei Fan 0001, Yizhou Sun, Hao Ding 0003,
+    Hao Wang 0014
+  title: 'Compressing Sequences in the Latent Embedding Space: K-Token Merging for
+    Large Language Models.'
+  venue: EMNLP
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/XuHFSDW26
+  doi: ''
+  ee: https://aclanthology.org/2026.emnlp-main.19/
+  url: https://dblp.org/rec/conf/emnlp/XuHFSDW26
+  abstract: Large Language Models (LLMs) incur significant computational and memory
+    costs when processing long prompts, as full self-attention scales quadratically
+    with input length. Token compression aims to address this challenge by reducing
+    the number of tokens representing inputs. However, existing prompt-compression
+    approaches primarily operate in token space and overlook inefficiencies in the
+    latent embedding space. In this paper, we propose K-Token Merging, a latent-space
+    compression framework that merges each contiguous block of K token embeddings
+    into a single embedding via a lightweight encoder. The compressed sequence is
+    processed by a LoRA-adapted LLM, while generation remains in the original vocabulary.
+    Experiments on structural reasoning (Textualized Tree), sentiment classification
+    (Amazon Reviews), and code editing (CommitPackFT) show that K-Token Merging lies
+    on the Pareto frontier of performance vs. compression, achieving up to 75% input
+    length reduction with minimal performance degradation. Code is available at https://github.com/shsjxzh/K-Token-Merging.
+  related_code: https://github.com/shsjxzh/K-Token-Merging
+  abstract_cn: 大型语言模型（LLMs）在处理长输入时会带来显著的计算和内存开销，因为全自注意力机制的复杂度随输入长度呈二次增长。令牌压缩旨在通过减少表示输入的令牌数量来应对这一挑战。然而，现有的提示压缩方法主要在令牌空间中操作，忽略了潜在嵌入空间中的效率问题。在本文中，我们提出了K-令牌合并框架，该框架通过一个轻量级编码器将每连续的K个令牌嵌入合并为一个单一的嵌入。压缩后的序列由经过LoRA适配的LLM处理，而生成过程仍使用原始词汇表。我们在结构化推理（文本化树）、情感分类（亚马逊评论）和代码编辑（CommitPackFT）任务上的实验表明，K-令牌合并处于性能与压缩之间的帕累托前沿，在实现高达75%的输入长度缩减的同时，性能损失极小。代码可在https://github.com/shsjxzh/K-Token-Merging
+    获取。
 model%20merg%20venue%3ACOLING%3A:
 - author: Renate Henschel, John A. Bateman
   title: 'The Merged Upper Model: A Linguistic Ontology For German And English.'

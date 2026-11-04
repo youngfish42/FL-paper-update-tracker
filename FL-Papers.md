@@ -3516,6 +3516,14 @@
 - Why Do More Experts Fail? A Theoretical Analysis of Model Merging. [[PUB](https://aclanthology.org/2026.acl-long.2108/)]
 - Will it Merge? On The Causes of Model Mergeability. [[PUB](https://aclanthology.org/2026.findings-acl.1322/)]
 
+#### EMNLP
+
+- FAVoR: Measuring and Mitigating Author-Style Homogenization in Federated Personalized Generation. [[PUB](https://aclanthology.org/2026.emnlp-main.365/)]
+- PRISM: Private Rank-Invariant Subspace Memory for Federated Continual Fine-Tuning under Local Differential Privacy. [[PUB](https://aclanthology.org/2026.emnlp-main.313/)]
+- Compressing Sequences in the Latent Embedding Space: K-Token Merging for Large Language Models. [[PUB](https://aclanthology.org/2026.emnlp-main.19/)] [[CODE](https://github.com/shsjxzh/K-Token-Merging)]
+- Mitigating Model Merging Conflicts via Knowledge-Aware Task Vector Purification. [[PUB](https://aclanthology.org/2026.emnlp-main.200/)]
+- MultiSessionCollab: Learning User Preferences with Memory to Improve Long-Term Collaboration. [[PUB](https://aclanthology.org/2026.emnlp-main.124/)]
+
 ### 2025
 
 #### ACL

@@ -3518,6 +3518,7 @@
 
 #### EMNLP
 
+- A Wolf in Sheep&apos;s Clothing: Targeted Routing Hijacking in Federated RAG. [[PUB](https://aclanthology.org/2026.emnlp-main.668/)]
 - FAVoR: Measuring and Mitigating Author-Style Homogenization in Federated Personalized Generation. [[PUB](https://aclanthology.org/2026.emnlp-main.365/)]
 - PRISM: Private Rank-Invariant Subspace Memory for Federated Continual Fine-Tuning under Local Differential Privacy. [[PUB](https://aclanthology.org/2026.emnlp-main.313/)]
 - Compressing Sequences in the Latent Embedding Space: K-Token Merging for Large Language Models. [[PUB](https://aclanthology.org/2026.emnlp-main.19/)] [[CODE](https://github.com/shsjxzh/K-Token-Merging)]

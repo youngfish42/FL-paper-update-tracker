@@ -54847,6 +54847,39 @@ federate%20venue%3AEMNLP%3A:
   ee: https://aclanthology.org/2026.emnlp-main.313/
   url: https://dblp.org/rec/conf/emnlp/WangLMZ26
   abstract: ''
+- author: Junjie Mu, Qiongxiu Li
+  title: 'A Wolf in Sheep&apos;s Clothing: Targeted Routing Hijacking in Federated
+    RAG.'
+  venue: EMNLP
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/emnlp/MuL26
+  doi: ''
+  ee: https://aclanthology.org/2026.emnlp-main.668/
+  url: https://dblp.org/rec/conf/emnlp/MuL26
+  abstract: 'Federated Retrieval-Augmented Generation (FedRAG) is attractive for privacy-sensitive
+    applications because full local corpora remain on clients. As a result, routing
+    must rely on client-provided semantic profiles, creating a new opportunity for
+    manipulation. We introduce Routing Hijacking, a routing-stage attack in which
+    a malicious client forges its profile to attract target queries despite having
+    irrelevant underlying data. We show that this vulnerability is severe. Across
+    three representative FedRAG routing architectures, Routing Hijacking consistently
+    misroutes target queries and leads to downstream disruptions and failures, including
+    missing evidence, poisoning, incorrect answers, and hallucinations. In a controlled
+    MedQA-USMLE stress test, we further show that poisoned retrieved evidence can
+    mislead models across scales, leading to incorrect answers, hallucinations, and
+    sycophantic failures. Existing defenses do not close this gap: encrypted routing
+    preserves the exploited ranking, and Byzantine-robust Federated Learning (FL)
+    rules transfer poorly to heterogeneous routing profiles. To address this gap,
+    we propose a trust-aware post-routing framework that reweights clients using returned-evidence
+    feedback, including retrieval relevance, profile consistency, and cross-client
+    agreement; online experiments show that it suppresses persistent hijacking over
+    recurring queries and transfers to a learned neural router. Our findings establish
+    routing integrity as a security challenge in FedRAG and highlight the need for
+    stronger defenses for secure federated retrieval.'
+  related_code: ''
+  abstract_cn: 联邦检索增强生成（FedRAG）因其将完整的本地语料库保留在客户端而对隐私敏感的应用极具吸引力。然而，这也使得路由过程不得不依赖客户端提供的语义特征描述，从而为恶意操控创造了新的机会。我们提出了“路由劫持”这一攻击方法：恶意客户端通过伪造自身的特征描述，使其在底层数据无关的情况下仍能吸引目标查询。我们证明了这一漏洞的严重性：在三种典型的FedRAG路由架构中，路由劫持均能持续地将目标查询引导至错误的路径，并引发下游的干扰与失效，包括证据缺失、污染、错误答案以及模型幻觉等问题。在一项受控的MedQA-USMLE压力测试中，我们进一步表明，被污染的检索证据能够误导不同规模的模型，导致错误答案、幻觉以及谄媚式失效等现象。现有的防御机制尚无法弥补这一缺陷：加密路由无法阻止攻击者利用排序机制，而拜占庭容错的联邦学习规则也难以有效应用于异构的路由特征描述。为此，我们提出了一种基于信任的后路由框架，该框架利用返回的证据反馈对客户端进行重新加权，反馈内容包括检索相关性、特征一致性以及跨客户端的一致性；在线实验表明，该框架能够在重复查询场景下抑制持续性的路由劫持，并可扩展至基于神经网络的智能路由器。我们的研究结果确立了路由完整性作为FedRAG中的一个安全挑战，并凸显了构建更强大防御机制以保障联邦检索安全的必要性。
 federate%20venue%3ACOLING%3A:
 - author: Zhiqi Huang, Fenglin Liu, Yuexian Zou
   title: Federated Learning for Spoken Language Understanding.

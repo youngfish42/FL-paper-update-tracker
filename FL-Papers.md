@@ -2587,6 +2587,14 @@
 - Shared Spotlight Meridian: Distributed Sparse Pseudorandom Functions for Scalable Federated Learning. [[PUB](https://doi.org/10.1109/SP63933.2026.00065)]
 - Toward Efficient Membership Inference Attacks Against Federated Large Language Models: A Projection Residual Approach. [[PUB](https://doi.org/10.1109/SP63933.2026.00205)]
 
+#### USENIX Security
+
+- Cracking Federated Privacy: Initialization-Resilient Gradient Inversion with Fine-Grained Reconstruction. [[PUB](https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-kaiming)]
+- Fend for Yourself! Backdoor Purification in Federated Graph Learning with an Evolving Knowledge Anchor. [[PUB](https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-chengcheng)]
+- United We Defend: Collaborative Membership Inference Defenses in Federated Learning. [[PUB](https://www.usenix.org/conference/usenixsecurity26/presentation/bai)]
+- When the Aggregator Cheats: Data-Free Backdoors in Federated LLM-based QA Systems. [[PUB](https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-chenqing)]
+- Secure Distributed RSA Modulus Generation Revisited: A Faster and More Communication-Efficient Construction. [[PUB](https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-shaojing)]
+
 #### NDSS
 
 - A Unified Defense Framework Against Membership Inference in Federated Learning via Distillation and Contribution-Aware Aggregation. [[PUB](https://www.ndss-symposium.org/ndss-paper/a-unified-defense-framework-against-membership-inference-in-federated-learning-via-distillation-and-contribution-aware-aggregation/)]

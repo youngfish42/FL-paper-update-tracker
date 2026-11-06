@@ -43924,6 +43924,100 @@ federate%20streamid%3Aconf%2Fuss%3A:
   ee: https://www.usenix.org/conference/usenixsecurity25/presentation/pang-xiaoyi
   url: https://dblp.org/rec/conf/uss/PangZ0HWW00025
   abstract: ''
+- author: Li Bai 0004, Junxu Liu, Sen Zhang 0002, Xinwei Zhang 0002, Qingqing Ye 0001,
+    Haibo Hu 0001
+  title: 'United We Defend: Collaborative Membership Inference Defenses in Federated
+    Learning.'
+  venue: USENIX Security Symposium
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uss/BaiLZZYH26
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity26/presentation/bai
+  url: https://dblp.org/rec/conf/uss/BaiLZZYH26
+  abstract: 'Membership inference attacks (MIAs), which determine whether a specific
+    data point was included in the training set of a target model, have posed severe
+    threats in federated learning (FL). Unfortunately, existing MIA defenses, typically
+    applied independently to each client in FL, are ineffective against powerful trajectory-based
+    MIAs that exploit temporal information throughout the training process to infer
+    membership status. In this paper, we investigate a new FL defense scenario driven
+    by heterogeneous privacy needs and privacy-utility trade-offs, where only a subset
+    of clients are defended, as well as a collaborative defense mode where clients
+    cooperate to mitigate membership privacy leakage. To this end, we introduce CoFedMID,
+    a collaborative defense framework against MIAs in FL, which limits local model
+    memorization of training samples and, through a defender coalition, enhances privacy
+    protection and model utility. Specifically, CoFedMID consists of three modules:
+    a class-guided partition module for selective local training samples, a utility-aware
+    compensation module to recycle contributive samples and prevent their overconfidence,
+    and an aggregation-neutral perturbation module that injects noise for cancellation
+    at the coalition level into client updates. Extensive experiments on three datasets
+    show that our defense framework significantly reduces the performance of seven
+    MIAs while incurring only a small utility loss. These results are consistently
+    verified across various defense settings.'
+  related_code: ''
+  abstract_cn: 成员推断攻击（MIAs）能够判断某个特定数据点是否被纳入目标模型的训练集中，这在联邦学习（FL）中构成了严重威胁。然而，现有的MIAs防御机制通常仅独立应用于联邦学习中的每个客户端，对于那些利用整个训练过程中的时间序列信息来推断成员身份的强大轨迹型MIAs而言，这些防御措施往往效果有限。本文探讨了一种新的联邦学习防御场景，该场景由多样化的隐私需求及隐私-效用权衡所驱动：仅对部分客户端实施防御，同时采用一种客户端协作的防御模式，以缓解成员隐私泄露问题。为此，我们提出了CoFedMID——一种针对联邦学习中MIAs的协同防御框架，该框架既能限制本地模型对训练样本的记忆，又能通过防御联盟提升隐私保护水平并维持模型效用。具体而言，CoFedMID包含三个模块：一个用于选择性地划分本地训练样本的类别引导分区模块、一个旨在回收贡献样本并防止其产生过强置信度的效用感知补偿模块，以及一个在联盟层面注入噪声以实现抵消的聚合中立扰动模块。我们在三个数据集上开展了大量实验，结果表明，我们的防御框架能够在仅带来少量效用损失的情况下，显著削弱七种MIAs的攻击效果；且这一结论在多种防御配置下均得到了一致验证。
+- author: Chenqing Zhu, Yanbo Dai, Yulong Tian, Qingming Li, Songze Li
+  title: 'When the Aggregator Cheats: Data-Free Backdoors in Federated LLM-based QA
+    Systems.'
+  venue: USENIX Security Symposium
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uss/ZhuDTLL26
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-chenqing
+  url: https://dblp.org/rec/conf/uss/ZhuDTLL26
+  abstract: 'Large Language Model (LLM)-based question-answering (QA) systems are
+    increasingly deployed in sensitive domains such as healthcare, mental health counseling,
+    and legal consultation. Federated learning (FL) enables collaborative training
+    without sharing raw client data, for which locally trained models are aggregated
+    at a central server (i.e., a cloud service provider) to obtain a global model.
+    In this paper, we explore the potential vulnerability where a malicious aggregator,
+    who may collude with a third-party vendor, stealthily implants advertisement-type
+    backdoors into federated QA models, without ever accessing client data. The attacker''s
+    goals are twofold: (1) preserve clean QA fidelity (i.e., the poisoned model behaves
+    like a clean model on non-triggered queries); and (2) generate highly natural,
+    contextually relevant responses with target advertisements when a trigger appears.
+    Achieving these two goals simultaneously is highly challenging, as naive backdoor
+    injection without knowledge about private data may degrade model''s clean performance
+    or fail to inject the target. Motivated by this, we propose to leverage clients''
+    uploaded gradients during training, and develop a two-stage framework for data-free
+    and stealthy poisoning: (1) recover representative training samples from client
+    gradients, and (2) construct poisoning datasets utilizing recovered samples and
+    trigger phrases to inject backdoors into the global model. Experiments across
+    representative QA datasets and LLM families under full fine-tuning and LoRA settings
+    demonstrate that, our method achieves nearly 100% Attack Success Rate (ASR) while
+    incurring negligible degradation on clean tasks. Crucially, reconstructing only
+    5-20% of gradients suffices to mount a reliable attack, exposing a practical blind
+    spot in the pipeline of federated training of QA LLMs.'
+  related_code: ''
+  abstract_cn: 基于大型语言模型（LLM）的问答（QA）系统正越来越多地部署于医疗健康、心理健康咨询和法律咨询等敏感领域。联邦学习（FL）能够在不共享客户端原始数据的情况下实现协同训练，即在中央服务器（如云服务提供商）端聚合各客户端本地训练得到的模型，从而获得全局模型。本文探讨了一种潜在的安全漏洞：恶意的聚合方可能与第三方供应商合谋，在不接触任何客户端数据的前提下，悄然向联邦问答模型中植入广告类型的后门。攻击者的双重目标是：（1）保持模型在正常问答上的性能（即在未触发查询时，受污染模型的行为与纯净模型一致）；（2）在触发条件出现时，生成高度自然且与上下文相关的、带有目标广告的回复。同时实现这两个目标极具挑战性，因为在缺乏对私有数据了解的情况下进行简单的后门注入，往往会导致模型在正常任务上的性能下降，或无法成功植入目标后门。基于这一问题，我们提出利用训练过程中客户端上传的梯度，并设计了一个无数据、隐蔽的两阶段中毒框架：（1）从客户端梯度中恢复具有代表性的训练样本；（2）利用这些恢复的样本和触发短语构建中毒数据集，从而将后门注入全局模型。我们在多种代表性问答数据集及不同LLM架构上，分别在全量微调和LoRA两种设置下进行了实验，结果表明，我们的方法能够达到近100%的攻击成功率，且对正常任务的性能几乎不造成影响。尤为重要的是，仅需重构5%至20%的梯度即可实施可靠的攻击，这揭示了联邦训练问答LLM流程中的一个实际盲点。
+- author: Chengcheng Zhu, Yunlong Mao, Jiale Zhang 0001, Bosen Rao, Sheng Zhong 0002
+  title: Fend for Yourself! Backdoor Purification in Federated Graph Learning with
+    an Evolving Knowledge Anchor.
+  venue: USENIX Security Symposium
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uss/ZhuMZRZ26
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-chengcheng
+  url: https://dblp.org/rec/conf/uss/ZhuMZRZ26
+  abstract: ''
+- author: Kaiming Zhu, Jinsheng Yang, Siyang Guo, Huaqian Qin, Taiyu Wang, Junbo Wang
+    0001, Yuhong Nan, Zibin Zheng
+  title: 'Cracking Federated Privacy: Initialization-Resilient Gradient Inversion
+    with Fine-Grained Reconstruction.'
+  venue: USENIX Security Symposium
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uss/ZhuYGQWWNZ26
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-kaiming
+  url: https://dblp.org/rec/conf/uss/ZhuYGQWWNZ26
+  abstract: ''
 federate%20venue%3ANDSS%3A:
 - author: Tianyue Chu, Álvaro García-Recuero, Costas Iordanou, Georgios Smaragdakis,
     Nikolaos Laoutaris
@@ -87229,7 +87323,33 @@ collaborat%20learn%20streamid%3Ajournals%2Fijcv%3A:
   doi: 10.1007/S11263-025-02627-9
   ee: https://doi.org/10.1007/s11263-025-02627-9
   url: https://dblp.org/rec/journals/ijcv/GaoDLYCCZHZH26
-  abstract: ''
+  abstract: '3D Gaussian Splatting (3DGS) has demonstrated impressive performance
+    in scene reconstruction. However, most existing GS-based surface reconstruction
+    methods focus on 3D objects or scenes with limited scale. Directly applying these
+    methods to large-scale scene reconstruction will pose challenges such as high
+    memory costs, excessive time consumption, and lack of geometric detail, which
+    makes it difficult to implement in practical applications. 3D Gaussian Splatting
+    (3DGS) has demonstrated impressive performance in scene reconstruction. However,
+    most existing GS-based surface reconstruction methods are limited to single-machine
+    settings and focus on individual objects or scenes with limited scale. When extended
+    to large-scale scene reconstruction, these methods suffer from high memory consumption,
+    prolonged training time, and insufficient geometric detail, which makes it difficult
+    to implement in practical applications. To overcome these limitations, a natural
+    solution is to distribute the learning workload across multiple collaborative
+    devices. However, collaborative distributed learning presents unique challenges,
+    including efficiently training models on resource-limited local devices and effectively
+    integrating knowledge across devices to maintain global consistency and high-quality
+    reconstruction. To address these challenges, we propose CoSurfGS, a novel collaborative-distributed
+    framework that enables high-quality large-scale surface reconstruction while maintaining
+    efficient training and GPU memory utilization. Specifically, we propose two modules:
+    Local Model Compression (LMC), which eliminates redundant Gaussians to improve
+    memory and training efficiency on each device; and Model Aggregation Schemes (MAS),
+    which enhance global reconstruction quality by collaboratively distilling knowledge
+    from multiple distributed devices. Extensive experiments on Urban3d, MegaNeRF,
+    and BlendedMVS demonstrate that our proposed method can achieve fast and scalable
+    high-fidelity surface reconstruction and photorealistic rendering.'
+  related_code: ''
+  abstract_cn: 3D高斯溅射（3DGS）在场景重建任务中展现了卓越的性能。然而，现有的基于高斯溅射的表面重建方法大多局限于单个物体或小尺度场景的重建。当直接应用于大规模场景重建时，这些方法会面临内存开销大、训练耗时长以及几何细节不足等挑战，从而难以在实际应用中落地。为克服这些局限性，一种自然的解决方案是将学习任务分布到多个协同设备上。然而，协同分布式学习也带来了独特的挑战，包括如何在资源受限的本地设备上高效训练模型，以及如何在各设备间有效整合知识以保持全局一致性并实现高质量的重建。针对这些挑战，我们提出了CoSurfGS，这是一种新颖的协同分布式框架，能够在保证高效训练和GPU内存利用率的同时，实现高质量的大规模表面重建。具体而言，我们设计了两个模块：局部模型压缩（LMC），通过去除冗余高斯点来提升各设备的内存效率和训练效率；以及模型聚合方案（MAS），通过协同蒸馏来自多个分布式设备的知识来提升全局重建质量。在Urban3d、MegaNeRF和BlendedMVS数据集上的大量实验表明，我们的方法能够实现快速且可扩展的高保真表面重建与逼真渲染。
 - author: Zhuo Tao, Liang Li 0003, Qi Chen 0014, Yunbin Tu, Zheng-Jun Zha, Amin Beheshti,
     Qingming Huang, Yuankai Qi, Ming-Hsuan Yang 0001
   title: Collaborative Temporal Consistency Learning for Point-supervised Natural
@@ -92524,7 +92644,19 @@ communicat%20effici%20distribut%20venue%3AKDD%3A:
 communicat%20effici%20distribut%20venue%3AWSDM%3A: []
 communicat%20effici%20distribut%20streamid%3Aconf%2Fsp%3A: []
 communicat%20effici%20distribut%20venue%3ACCS%3A: []
-communicat%20effici%20distribut%20streamid%3Aconf%2Fuss%3A: []
+communicat%20effici%20distribut%20streamid%3Aconf%2Fuss%3A:
+- author: Shaojing Zhang, Chengliang Tian, Ruixue Wang, Hequn Xian, Guangwu Xu
+  title: 'Secure Distributed RSA Modulus Generation Revisited: A Faster and More Communication-Efficient
+    Construction.'
+  venue: USENIX Security Symposium
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/uss/ZhangTWXX26
+  doi: ''
+  ee: https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-shaojing
+  url: https://dblp.org/rec/conf/uss/ZhangTWXX26
+  abstract: ''
 communicat%20effici%20distribut%20venue%3ANDSS%3A: []
 communicat%20effici%20distribut%20venue%3ACVPR%3A: []
 communicat%20effici%20distribut%20venue%3AICCV%3A: []

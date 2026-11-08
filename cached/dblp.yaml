@@ -348,7 +348,23 @@ federate%20venue%3ADAC%3A:
   doi: 10.1145/3770743.3804243
   ee: https://doi.org/10.1145/3770743.3804243
   url: https://dblp.org/rec/conf/dac/XiaZZCC26
-  abstract: ''
+  abstract: Due to the varying computing and communication capabilities of resource-constrained
+    devices, Federated Learning (FL) suffers from the problems of slow convergence
+    and poor training performance, especially when devices are powered by batteries.
+    This paper introduces RTFL, a novel energy-aware Real-Time Federated Learning
+    framework based on Multi-Agent Reinforcement Learning (MARL), aiming to enhance
+    knowledge sharing across AIoT devices within a specified training time constraint.
+    Specifically, RTFL uses an Adaptive Quantization-based Multi-Agent Scheduling
+    (AQMAS) strategy, where multiple agents intelligently select devices with appropriate
+    model quantization levels for each local training round, based on the devices'
+    current resource constraints. By facilitating collaboration among agents through
+    reinforcement learning, RTFL enables devices to maximize their contributions to
+    forming an optimal global model, while balancing the trade-off between the accuracy
+    of quantized models and the limited resources available on each device. Comprehensive
+    experiments show that RTFL accelerates FL convergence and encourages devices to
+    join more aggregation rounds, significantly improving overall training performance.
+  related_code: ''
+  abstract_cn: 由于资源受限设备的计算与通信能力各不相同，联邦学习（FL）在收敛速度和训练性能方面往往存在不足，尤其是在设备采用电池供电的情况下。本文提出了一种基于多智能体强化学习（MARL）的新型能耗感知实时联邦学习框架——RTFL，旨在在给定的训练时间约束下提升AIoT设备之间的知识共享效率。具体而言，RTFL采用一种基于自适应量化技术的多智能体调度策略（AQMAS），由多个智能体根据各设备当前的资源约束情况，在每一轮本地训练中智能地选择具有合适模型量化级别的设备。通过强化学习促进智能体间的协作，RTFL使设备能够在保证量化模型精度与自身有限资源之间取得平衡的同时，最大化其对构建最优全局模型的贡献。全面的实验结果表明，RTFL能够加速联邦学习的收敛，并促使更多设备参与聚合轮次，从而显著提升整体训练性能。
 - author: Yuxin Zhang, Haoyu Chen, Zheng Lin 0001, Wenjun Zhu, Ju Ren 0001, Jin Zhao
     0001, Yue Gao 0001, Zhe Chen 0015
   title: Towards Fast and Robust Split Federated Learning over Satellite-Based Computing
@@ -76116,6 +76132,34 @@ federate%20streamid%3Ajournals%2Ftcad%3A:
     efficiency across diverse multitask scenarios.'
   abstract_cn: 随着认知应用复杂度的不断提升，联邦学习（FL）如今已涉及异构的复合型学习任务。例如，自动驾驶系统需同时执行检测、分类和分割等多项任务，并期望通过联邦学习持续积累长期智能。然而，我们的分析表明，在GPU上部署用于多训练任务的复合联邦学习模型时，会面临一些问题：由于不同任务的数据分布存在偏斜，且各自对应的模型差异较大，导致学习负载极不均衡；而现有的GPU调度方法难以实现有效的资源分配。因此，当前的联邦学习方案仅关注异构数据分布和运行时计算，却未能在实践中实现最优的联邦同步。为解决上述问题，我们提出了一套全栈式联邦学习优化方案，同时应对设备内GPU调度与设备间联邦协同，以支持多任务训练。具体而言，本研究揭示了两个关键洞见：其一，竞争性资源共享有利于模型的并行执行；其二，“虚拟资源”这一概念能够有效表征并指导各任务的实际资源使用与分配。此外，通过架构层面的协调机制，使任务负载与GPU利用率相匹配，可进一步提升联邦学习性能。实验结果表明，联邦学习性能可得到显著提升：在多种多任务场景下，设备内GPU训练吞吐量提高了2.16至2.38倍，而设备间联邦协同效率则提升了2.53至2.80倍。
   related_code: ''
+- author: Yongbo Yu, Zirui Xu, Fuxun Yu, Chenchen Liu, Xiang Chen 0010
+  title: 'HST-MoE: Hierarchical Soft-Training for Multiexpert Federated Learning.'
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/YuXYLC26
+  doi: 10.1109/TCAD.2026.3674445
+  ee: https://doi.org/10.1109/TCAD.2026.3674445
+  url: https://dblp.org/rec/journals/tcad/YuXYLC26
+  abstract: 'Federated learning (FL) with resource-constrained devices faces significant
+    challenges from “stragglers,” computationally weak devices that delay synchronous
+    parameter aggregation. This problem is particularly severe in mixture-of-experts
+    (MoEs) architectures, where multiexpert computation imposes heavy burdens on edge
+    devices. While removing stragglers accelerates training, it degrades model performance
+    as these devices often hold critical information from unique local datasets. To
+    resolve this dilemma, we propose HST-MoE, a hierarchical soft-training framework
+    for multiexpert FL. Our approach introduces a two-level optimization: at the expert
+    level, it performs dynamic rotation, training only subsets of experts per round;
+    at the neuron level, it employs soft-training, updating fractions of parameters
+    within active experts. This hierarchical design ensures all model components are
+    trained effectively over time while maintaining balanced updates and stable convergence.
+    Extensive experiments demonstrate that HST-MoE achieves up to $2.5\times $ training
+    acceleration and improves convergence accuracy by up to 4.64% across various collaborative
+    settings with stragglers, under both IID and nonidentically distributed (Non-IID)
+    data distributions.'
+  related_code: ''
+  abstract_cn: 在资源受限的设备上进行联邦学习（FL）时，会面临“拖后腿”设备带来的重大挑战——这些计算能力较弱的设备会延迟同步参数聚合。这一问题在专家混合模型（MoE）架构中尤为突出，因为多专家计算会给边缘设备带来沉重的负担。尽管移除“拖后腿”设备能够加速训练，但这样做会降低模型性能，因为这些设备往往保存着来自独特本地数据集的关键信息。为解决这一两难问题，我们提出了HST-MoE，一种用于多专家联邦学习的分层软训练框架。我们的方法采用两级优化：在专家层面，通过动态轮换机制，每轮仅训练部分专家；在神经元层面，则采用软训练策略，在活跃专家内更新部分参数。这种分层设计确保了所有模型组件都能在训练过程中得到有效更新，同时保持更新的均衡性和收敛的稳定性。大量实验表明，在存在“拖后腿”设备的多种协作场景下，无论是在独立同分布（IID）还是非独立同分布（Non-IID）的数据设置中，HST-MoE均能将训练速度提升至原来的2.5倍，并使收敛精度提高多达4.64%。
 federate%20streamid%3Ajournals%2Ftc%3A:
 - author: Shuzhen Chen 0001, Yangyang Wang, Dongxiao Yu, Ju Ren, Congan Xu, Yanwei
     Zheng
@@ -94097,7 +94141,28 @@ communicat%20effici%20distribut%20venue%3ADAC%3A:
   doi: 10.1145/3770743.3804242
   ee: https://doi.org/10.1145/3770743.3804242
   url: https://dblp.org/rec/conf/dac/LiaoZOZLC26
-  abstract: ''
+  abstract: 'Large Language Models (LLMs) are increasingly pushed to the edge to reduce
+    latency, yet limited memory and compute make full-model deployment infeasible.
+    Mixture-of-Experts (MoE) offers a lightweight alternative, but edge nodes can
+    host only a few experts, creating persistent mismatches between dynamic query
+    semantics and locally available expert models under resource constraints. We present
+    Pegasus, a collaborative MoE inference system for multi-edge deployments that
+    leverages the spatiotemporal correlations inherent in distributed query semantics.
+    Pegasus integrates three innovations: (i) a similarity-based expert deployment
+    mechanism using an efficient heuristic metric to assess the semantic relevance
+    between queries and experts across nodes and over time; (ii) a personalized gating
+    design that selectively fine-tunes a subset of gating parameters on each node
+    to balance expert accuracy and communication latency; (iii) an intra-node online
+    scheduling algorithm with adaptive batching for efficient memory utilization.
+    Extensive performance evaluations corroborate that Pegasus achieves 11.8× lower
+    inference latency than state-of-the-art distributed MoE frameworks, demonstrating
+    high-throughput and communication-efficient edge LLM inference.'
+  related_code: ''
+  abstract_cn: 大型语言模型（LLMs）正越来越多地被部署到边缘端以降低延迟，然而受限于有限的内存和计算资源，全模型部署往往难以实现。专家混合模型（Mixture-of-Experts,
+    MoE）提供了一种轻量级的替代方案，但边缘节点通常只能容纳少数几个专家，这在资源约束下导致动态查询语义与本地可用专家模型之间持续存在不匹配。为此，我们提出了
+    Pegasus，一个面向多边缘部署的协作式 MoE 推理系统，它充分利用了分布式查询语义中固有的时空相关性。Pegasus 集成了三项创新：(i) 基于相似性的专家部署机制，采用一种高效的启发式度量来评估跨节点及随时间变化的查询与专家之间的语义相关性；(ii)
+    个性化门控设计，在每个节点上对部分门控参数进行选择性微调，以在专家精度与通信延迟之间取得平衡；(iii) 节点内在线调度算法，结合自适应批处理策略以实现内存的高效利用。广泛的性能评估表明，与当前最先进的分布式
+    MoE 框架相比，Pegasus 的推理延迟降低了 11.8 倍，展现了高吞吐量且通信高效的边缘 LLM 推理能力。
 communicat%20effici%20distribut%20streamid%3Ajournals%2Ftocs%3A:
 - author: David K. Gifford, Nathan Glasser
   title: Remote Pipes and Procedures for Efficient Distributed Communication.
@@ -99754,7 +99819,39 @@ swarm%20learn%20streamid%3Ajournals%2Ftpds%3A: []
 swarm%20learn%20venue%3ADAC%3A: []
 swarm%20learn%20streamid%3Ajournals%2Ftocs%3A: []
 swarm%20learn%20streamid%3Ajournals%2Ftos%3A: []
-swarm%20learn%20streamid%3Ajournals%2Ftcad%3A: []
+swarm%20learn%20streamid%3Ajournals%2Ftcad%3A:
+- author: Yunfan Zuo, Yuwei Sun, Pinquan Li, Yan Li 0056, Shuo Cui, Jiajie Xu, Hao
+    Yan 0002, Longxing Shi
+  title: Learning-Driven Hierarchical Particle Swarm Optimization Framework for Power
+    Delivery Network Synthesis.
+  venue: IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tcad/ZuoSLLCXYS26
+  doi: 10.1109/TCAD.2025.3644281
+  ee: https://doi.org/10.1109/TCAD.2025.3644281
+  url: https://dblp.org/rec/journals/tcad/ZuoSLLCXYS26
+  abstract: As process nodes shrink, intensified voltage drop (IR) and electromigration
+    (EM) issues, driven by the power delivery network (PDN), affect reliability and
+    further compress the routability of the entire design. Since physical design is
+    time-consuming, effectively predicting and optimizing PDN during the power planning
+    stage is crucial. This effort is complicated by complex interactions between multiple
+    parameters and the challenges associated with nonconvex optimization. To overcome
+    these limitations, we propose a learning-driven hierarchical particle swarm optimization
+    framework for PDN, integrated with a residual TransUNet-based prediction model
+    for postplacement congestion, EM, and IR drop prediction. In addition, we introduce
+    the gate network for loss fusion, which excels in balancing output predictions
+    and enhancing the accuracy of critical tasks. Analogous to hyperparameter optimization
+    in deep learning, we can utilize GPU parallelization to search for the global
+    optimum of the PDN structure efficiently. In circuits at the 22- and 16-nm technology
+    nodes, with cell counts ranging from 560 to nearly 200 000, our method achieves
+    reductions in mean and maximum congestion by 15% and 49%, respectively, compared
+    with state-of-the-art methods. In addition, it achieves an overall optimization
+    time of around 22 s.
+  related_code: ''
+  abstract_cn: 随着工艺节点不断缩小，由电源分配网络（PDN）引起的电压降（IR）和电迁移（EM）问题日益严重，不仅影响设计的可靠性，还进一步压缩了整个设计的可布线空间。由于物理设计耗时较长，在电源规划阶段对PDN进行有效预测与优化显得尤为重要。然而，多个参数之间的复杂交互以及非凸优化带来的挑战使这一过程变得尤为复杂。为克服这些限制，我们提出了一种基于学习的分层粒子群优化框架，并集成了一种基于残差TransUNet的预测模型，用于在布局后阶段对拥塞、电迁移和电压降进行预测。此外，我们还引入了用于损失融合的门控网络，该网络在平衡各输出预测并提升关键任务的精度方面表现优异。类似于深度学习中的超参数优化，我们利用GPU并行计算，能够高效地搜索PDN结构的全局最优解。在22
+    nm和16 nm工艺节点的电路中，当单元规模从560个扩展至近20万个时，与现有最先进方法相比，我们的方法分别将平均拥塞和最大拥塞降低了15%和49%，且总优化时间约为22秒。
 swarm%20learn%20streamid%3Ajournals%2Ftc%3A: []
 swarm%20learn%20streamid%3Aconf%2Ficse%3A: []
 swarm%20learn%20streamid%3Ajournals%2Ffocs%3A: []

@@ -4817,6 +4817,8 @@
 
 - An Elastic Federated Learning Collaboration Framework for Computing-Constrained IoT. [[PUB](https://doi.org/10.1109/TCAD.2025.3593436)]
 - FedMT: Multitask Federated Learning With Competitive GPU Resource Sharing. [[PUB](https://doi.org/10.1109/TCAD.2025.3600367)]
+- HST-MoE: Hierarchical Soft-Training for Multiexpert Federated Learning. [[PUB](https://doi.org/10.1109/TCAD.2026.3674445)]
+- Learning-Driven Hierarchical Particle Swarm Optimization Framework for Power Delivery Network Synthesis. [[PUB](https://doi.org/10.1109/TCAD.2025.3644281)]
 
 #### TC
 

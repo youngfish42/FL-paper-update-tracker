@@ -16208,6 +16208,43 @@ federate%20streamid%3Ajournals%2Fai%3A:
     methods.
   related_code: ''
   abstract_cn: 联邦学习（FL）能够在不泄露数据隐私的前提下，利用分布于各客户端的私有数据协同训练全局模型，从而提升模型性能。然而，不同客户端间数据分布的复杂交织在很大程度上限制了联邦学习的广泛应用。本文首次证明，通过解耦数据分布，联邦学习原则上可以达到与分布式系统相当的效率，且仅需一轮通信。为此，我们提出了一种名为FedDistr的新算法，该算法利用稳定扩散模型实现数据分布的解耦与恢复。在CIFAR100和DomainNet数据集上的实验结果表明，在解耦及近似解耦场景下，FedDistr在保障隐私的同时显著提升了模型的效用与效率，其性能优于传统的联邦学习方法。
+- author: Yang Li, Weike Pan, Qiang Yang, Zhong Ming
+  title: Towards efficient federated recommendation with discrete graph convolutional
+    network.
+  venue: Artif. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ai/LiPYM26
+  doi: 10.1016/J.ARTINT.2026.104607
+  ee: https://doi.org/10.1016/j.artint.2026.104607
+  url: https://dblp.org/rec/journals/ai/LiPYM26
+  abstract: ''
+- author: Xiaojin Zhang 0002, Mingcong Xu, Wei Chen 0088, Qiang Yang
+  title: 'Mitigating data reconstruction attacks in federated learning: Conditions,
+    bounds, and theoretical guarantees.'
+  venue: Artif. Intell.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ai/ZhangXCY26
+  doi: 10.1016/J.ARTINT.2026.104641
+  ee: https://doi.org/10.1016/j.artint.2026.104641
+  url: https://dblp.org/rec/journals/ai/ZhangXCY26
+  abstract: 'Privacy attacks, particularly data reconstruction attacks, pose significant
+    challenges to federated learning despite its promise in privacy-preserving collaborative
+    training. This paper presents a comprehensive theoretical analysis of privacy
+    leakage in federated learning through dual perspectives: linear algebra and optimization
+    theory. By analyzing the client-update Jacobian, we identify conditions under
+    which distinct data batches produce the same model update and derive a sufficient
+    batch-size criterion for non-unique reconstruction. Through optimization theory,
+    we establish a novel upper bound for privacy leakage that incorporates batch size,
+    distortion extent, and other critical parameters. These theoretical insights elucidate
+    the fundamental relationships between system parameters and privacy vulnerability,
+    laying the groundwork for developing more robust privacy-preserving federated
+    learning frameworks.'
+  related_code: ''
+  abstract_cn: 隐私攻击，尤其是数据重构攻击，尽管联邦学习在实现隐私保护的协同训练方面具有巨大潜力，但仍对其构成了严峻挑战。本文从线性代数和优化理论两个视角，对联邦学习中的隐私泄露问题进行了全面的理论分析。通过分析客户端更新的雅可比矩阵，我们确定了不同数据批次产生相同模型更新的条件，并推导出用于非唯一重构的充分批大小准则。借助优化理论，我们建立了包含批大小、失真程度及其他关键参数在内的隐私泄露新上界。这些理论见解揭示了系统参数与隐私脆弱性之间的基本关系，为构建更为稳健的隐私保护型联邦学习框架奠定了基础。
 federate%20venue%3ANeurIPS%3A:
 - author: Karan Singhal, Hakim Sidahmed, Zachary Garrett, Shanshan Wu, John Rush,
     Sushant Prakash

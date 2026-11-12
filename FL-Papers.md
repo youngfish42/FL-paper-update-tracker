@@ -131,6 +131,8 @@
 
 - Disentangling data distribution for optimal and communication-efficient federated learning. [[PUB](https://doi.org/10.1016/j.artint.2025.104455)]
 - Federated neural nonparametric point processes. [[PUB](https://doi.org/10.1016/j.artint.2025.104454)]
+- Mitigating data reconstruction attacks in federated learning: Conditions, bounds, and theoretical guarantees. [[PUB](https://doi.org/10.1016/j.artint.2026.104641)]
+- Towards efficient federated recommendation with discrete graph convolutional network. [[PUB](https://doi.org/10.1016/j.artint.2026.104607)]
 
 ### 2025
 

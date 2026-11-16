@@ -51326,6 +51326,87 @@ federate%20venue%3AECCV%3A:
   ee: https://doi.org/10.1007/978-3-032-37189-8_18
   url: https://dblp.org/rec/conf/eccv/TranHNNW26
   abstract: ''
+- author: Aizierjiang Aiersilan
+  title: Benchmarking Federated Learning and Knowledge Distillation for Point Cloud
+    Classification.
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/Aiersilan26
+  doi: 10.1007/978-3-032-36987-1_34
+  ee: https://doi.org/10.1007/978-3-032-36987-1_34
+  url: https://dblp.org/rec/conf/eccv/Aiersilan26
+  abstract: 'Deploying 3D point cloud analysis in privacy-sensitive, resource-constrained
+    settings faces two barriers: data cannot be centralized, and models must run on
+    limited edge hardware. We present a multi-seed benchmark jointly evaluating federated
+    learning (FL) and knowledge distillation (KD) for 3D point cloud classification.
+    It spans 13 FL algorithms and 10 KD objectives (a 130-pair cross-product) across
+    504 training runs, evaluated on ModelNet40 and a clinical craniosynostosis dataset.
+    We report three findings. First, under extreme non-IID label skew, standalone
+    FL degrades sharply: on ModelNet40, the strongest method reaches 76.32% against
+    a 92.26% centralized reference; on clinical data, the best reaches 75.83% against
+    100%. Second, distillation successfully compresses the teacher into a student
+    74.51% smaller and roughly twice as fast at inference, often matching or surpassing
+    the teacher. Third, the combined pipeline exposes an evaluation pitfall: when
+    distillation keeps a hard-label cross-entropy term on a labeled proxy split, a
+    collapsed federated teacher (8.50%) paired with Logit-MSE still yields a 92.94%
+    student. This 84.4-point gap reflects the proxy labels rather than the federated
+    model, reusing the very labels whose privacy motivated federation. Objectives
+    without hard labels instead track teacher quality ($r \approx 0.99$) and collapse
+    when the teacher does. We therefore recommend evaluating FL-KD pipelines with
+    label-free distillation so reported accuracy reflects the federated teacher, not
+    the proxy.'
+  related_code: ''
+  abstract_cn: 在隐私敏感且资源受限的场景中部署三维点云分析面临两大挑战：数据无法集中，且模型必须在计算能力有限的边缘设备上运行。我们提出了一套多种子基准测试，联合评估用于三维点云分类的联邦学习（FL）与知识蒸馏（KD）。该基准覆盖13种联邦学习算法和10种知识蒸馏目标（共计130个组合），在504次训练中进行评估，并分别在ModelNet40数据集和一份颅缝早闭症临床数据集上进行验证。我们得到以下三点发现：第一，在极端的非独立同分布（non-IID）标签偏移下，单独使用联邦学习时性能会显著下降：在ModelNet40上，最优方法的准确率为76.32%，而集中式参考基线为92.26%；在临床数据上，最优方法为75.83%，而集中式参考基线为100%。第二，知识蒸馏能够成功地将教师模型压缩至学生模型的74.51%，且推理速度提升约两倍，同时往往能与教师模型持平甚至超越。第三，联合流水线暴露了一个评估上的陷阱：当蒸馏过程中在有标签的代理划分上保留硬标签交叉熵项时，即使教师模型在联邦设置下表现不佳（准确率仅为8.50%），配合对数几率均方误差（Logit-MSE）蒸馏仍能得到一个准确率为92.94%的学生模型。这一84.4个百分点的差距反映的是代理标签的质量，而非联邦模型的真实性能，因为这些标签正是促使采用联邦学习以保护隐私的原因。相比之下，不使用硬标签的目标能够较好地反映教师模型的质量（相关系数$r
+    \approx 0.99$），并在教师模型性能下降时同步下降。因此，我们建议在评估FL-KD流水线时采用无标签蒸馏，以确保报告的准确率反映的是联邦教师模型的性能，而非代理标签的效果。
+- author: Kejia Fan, Jianheng Tang 0001, Zhirui Yang, Yajiang Huang, Feijiang Han,
+    Run He, Jiaxu Li, Songning Lai, Anfeng Liu, Houbing Song, Yunhuai Liu, Huiping
+    Zhuang
+  title: 'AnaPFL: When Closed-Form Solutions Meet Generalization and Personalization
+    in Personalized Federated Learning.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/FanTYHHHLLLSLZ26
+  doi: 10.1007/978-3-032-37225-3_33
+  ee: https://doi.org/10.1007/978-3-032-37225-3_33
+  url: https://dblp.org/rec/conf/eccv/FanTYHHHLLLSLZ26
+  abstract: ''
+- author: Jaeik Kim, Jaeyoung Do
+  title: 'Sum: Unified Geometric Surgery on Spatio-Temporal Adaptation Vectors for
+    Federated Class Incremental Learning.'
+  venue: ECCV
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/eccv/KimD26
+  doi: 10.1007/978-3-032-37258-1_12
+  ee: https://doi.org/10.1007/978-3-032-37258-1_12
+  url: https://dblp.org/rec/conf/eccv/KimD26
+  abstract: 'Real-world intelligent systems often require both distributed collaboration
+    across data-isolated clients and continual adaptation to evolving tasks. This
+    setting naturally gives rise to Federated Class Incremental Learning (FCIL), which
+    combines Federated Learning (FL) and Continual Learning (CL). However, their combination
+    introduces two coupled sources of interference: spatial interference from heterogeneous
+    clients and temporal interference from sequential tasks, jointly leading to Spatial-Temporal
+    Catastrophic Forgetting (ST-CF). Existing approaches typically address spatial
+    and temporal interference with separate mechanisms, often incurring additional
+    client-side computation or communication, while leaving directional interactions
+    among updates during aggregation unregulated. In this paper, we reinterpret FCIL
+    as a unified multi-task learning problem, where both client and task updates are
+    represented as adaptation vectors in a shared parameter space. Based on this view,
+    we propose Unified Geometric Surgery on Spatio-Temporal Adaptation Vectors (SUM),
+    a purely server-side framework that performs geometric surgery on adaptation vectors
+    during aggregation. Spatial SUM mitigates client-level interference within each
+    round, while causal online temporal SUM removes cross-task interference over time
+    without additional client-side computation, communication, or memory beyond standard
+    federated training. Empirically, SUM achieves up to 22% improvement over prior
+    FCIL methods across diverse vision and language benchmarks while remaining robust
+    to unreliable clients and maintaining computational efficiency.'
+  related_code: ''
+  abstract_cn: 现实世界中的智能系统通常既需要在数据隔离的客户端之间进行分布式协作，又需要持续适应不断演化的任务。这一场景自然催生了联邦类增量学习（FCIL），它将联邦学习（FL）与持续学习（CL）相结合。然而，两者的结合带来了两种相互耦合的干扰源：来自异构客户端的空间干扰，以及来自序列化任务的时间干扰，二者共同导致了时空灾难性遗忘（ST-CF）。现有方法通常采用独立的机制分别应对空间和时间干扰，往往需要额外的客户端计算或通信开销，同时对聚合过程中更新之间的方向性交互缺乏有效调控。在本文中，我们将FCIL重新理解为一个统一的多任务学习问题，其中客户端更新和任务更新均被表示为共享参数空间中的适应向量。基于这一视角，我们提出了时空适应向量的统一几何裁剪框架（SUM），这是一种纯服务器端的框架，在聚合过程中对适应向量实施几何裁剪操作。空间SUM在每一轮内缓解客户端层面的干扰，而因果在线时间SUM则在不增加标准联邦训练之外的客户端计算、通信或内存开销的情况下，消除跨任务的干扰。实验表明，SUM在多种视觉和语言基准上较现有FCIL方法最多可提升22%，同时对不可靠客户端具有鲁棒性，并保持较高的计算效率。
 federate%20streamid%3Aconf%2Fmm%3A:
 - author: Wenke Huang, Mang Ye, Bo Du 0001, Xiang Gao
   title: Few-Shot Model Agnostic Federated Learning.

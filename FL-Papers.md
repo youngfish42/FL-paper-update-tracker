@@ -2897,6 +2897,8 @@
 
 #### ECCV
 
+- AnaPFL: When Closed-Form Solutions Meet Generalization and Personalization in Personalized Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37225-3_33)]
+- Benchmarking Federated Learning and Knowledge Distillation for Point Cloud Classification. [[PUB](https://doi.org/10.1007/978-3-032-36987-1_34)]
 - Capturing Spectral and Spatial Patterns for Federated Remote Sensing Segmentation. [[PUB](https://doi.org/10.1007/978-3-032-37235-2_27)]
 - Class-Wise Contribution Estimation via Logit Maximization for Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37196-6_8)]
 - Diffusion to Obfuscation: Time-Adaptive Synthesized Generation Against Gradient Leakage Attacks in Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37369-4_10)]
@@ -2913,6 +2915,7 @@
 - Prevention over Correction: Learning Aligned Representations in One-Shot Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37035-8_18)]
 - Proteus: Model Leakage-Induced Adversarial Attack in Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37356-4_13)]
 - Prototype Normalization: Optimizing Prototype Separation for Heterogeneous Federated Learning. [[PUB](https://doi.org/10.1007/978-3-032-37627-5_7)]
+- Sum: Unified Geometric Surgery on Spatio-Temporal Adaptation Vectors for Federated Class Incremental Learning. [[PUB](https://doi.org/10.1007/978-3-032-37258-1_12)]
 - Learning to Recover Task Experts from a Multi-task Merged Model. [[PUB](https://doi.org/10.1007/978-3-032-37550-6_39)]
 - On the Vulnerability of Parameter-Level Defenses to Model Merging. [[PUB](https://doi.org/10.1007/978-3-032-37335-9_25)] [[CODE](https://github.com/krumpguo/secure-merge-attack)]
 - Rbf 2M: Real-Aware Residual Model Merging for Robust and Generalizable Deepfake Detection. [[PUB](https://doi.org/10.1007/978-3-032-37167-6_14)]

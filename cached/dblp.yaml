@@ -34714,6 +34714,18 @@ federate%20streamid%3Ajournals%2Fml%3A:
   ee: https://doi.org/10.1007/s10994-026-07117-8
   url: https://dblp.org/rec/journals/ml/ZhangBVDL26
   abstract: ''
+- author: Mohammad Amanour Rahman
+  title: 'FedXAI: Federated Medical Imaging with Intrinsic Explainability and Differentially
+    Private Explanation Auditing.'
+  venue: Mach. Learn.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ml/Rahman26
+  doi: 10.1007/S10994-026-07191-Y
+  ee: https://doi.org/10.1007/s10994-026-07191-y
+  url: https://dblp.org/rec/journals/ml/Rahman26
+  abstract: ''
 federate%20streamid%3Ajournals%2Fjmlr%3A:
 - author: Yann Fraboni, Richard Vidal, Laetitia Kameni, Marco Lorenzi
   title: A General Theory for Federated Optimization with Asynchronous and Heterogeneous
@@ -53418,6 +53430,19 @@ federate%20streamid%3Ajournals%2Fijcv%3A:
   doi: 10.1007/S11263-026-02937-6
   ee: https://doi.org/10.1007/s11263-026-02937-6
   url: https://dblp.org/rec/journals/ijcv/ZhangSZHZCCYX26
+  abstract: ''
+- author: Yunlong Wang, Zhengquan Luo, Kunbo Zhang, Zhenan Sun, Zhaofeng He 0001,
+    Dacheng Tao, Tieniu Tan
+  title: Synergizing Disentangled Representation and Split Federated Learning to Break
+    Centralized Bottlenecks in Gaze Estimation.
+  venue: Int. J. Comput. Vis.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/WangLZSHTT26
+  doi: 10.1007/S11263-026-03084-8
+  ee: https://doi.org/10.1007/s11263-026-03084-8
+  url: https://dblp.org/rec/journals/ijcv/WangLZSHTT26
   abstract: ''
 federate%20venue%3AACL%3A:
 - author: Zheng Xu 0002, Yanxiang Zhang, Galen Andrew, Christopher A. Choquette-Choo,
@@ -87746,6 +87771,43 @@ collaborat%20learn%20streamid%3Ajournals%2Fijcv%3A:
     quality. Project: github.com/lhc1224/VCR-Net.'
   related_code: ''
   abstract_cn: 通过建模图像中人体各部位与物体局部区域之间的接触关系，可以揭示人–物交互背后的潜在线索，从而缓解因可能动作的歧义性而导致的可供性学习中的不确定性。然而，现有方法多采用“接触区域分割—迁移”的范式，仅依赖外观层面的映射，忽视了人–物交互的语义与几何一致性。因此，当面对物体的显著变化或身体各部位之间多样化的协作关系时，模型的感知与预测能力会明显下降。为此，我们提出了一种视觉–几何协同引导的可供性学习网络，联合利用视觉与几何线索来建模人–物交互中的复杂关系及接触特征表示。具体而言，我们设计了一个语义–姿态启发式感知模块，同时挖掘语义与几何线索，引导网络聚焦于与交互相关的区域，在各类交互场景下提升对接触区域的感知精度。同时，引入一个几何–表观对齐迁移模块，对表观与结构上相似的局部区域进行联合对齐，以消除由类内对应关系歧义带来的迁移难题。此外，我们构建了一个规模更大、多样性更高的“接触与物部可供性”数据集，包含55,047张图像，覆盖61个物体类别和35种可供性类型，从而能够在复杂的交互场景下更全面地评估模型的感知与预测能力。实验结果表明，我们的方法在客观指标和视觉质量方面均优于代表性模型。项目地址：github.com/lhc1224/VCR-Net。
+- author: Huajie Jiang, Zhengxian Li, Yuankai Qi, Yongli Hu, Baocai Yin, Amin Beheshti,
+    Jian Yang 0001, Ming-Hsuan Yang 0001
+  title: Dual Adaptive Visual-Semantic Prompt Collaboration for Generalized Zero-Shot
+    Learning.
+  venue: Int. J. Comput. Vis.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/ijcv/JiangLQHYBYY26
+  doi: 10.1007/S11263-026-02998-7
+  ee: https://doi.org/10.1007/s11263-026-02998-7
+  url: https://dblp.org/rec/journals/ijcv/JiangLQHYBYY26
+  abstract: Abstract Generalized zero-shot learning (GZSL) addresses the challenging
+    task of recognizing both seen and unseen classes by leveraging shared semantic
+    knowledge. A core challenge in this domain is achieving robust visual-semantic
+    alignment to transfer knowledge from seen classes to novel classes. Current state-of-the-art
+    methods typically fine-tune large-scale visual backbones on scarce training data.
+    However, this approach frequently leads to severe overfitting to seen classes,
+    which significantly degrades performance on novel categories. To mitigate this
+    issue, we propose the Dual Adaptive Visual-Semantic Prompt Collaboration Network
+    (VSPCN+), a novel framework that utilizes prompt-tuning for effective feature
+    adaptation. Our method introduces a dual-prompt mechanism comprising both visual
+    and semantic prompts. The semantic prompts guide the visual encoder to learn visual
+    features that are more semantically consistent with class attributes, while the
+    visual prompts steer the semantic encoder to generate semantic representations
+    that are more visually grounded. This collaborative process enhances the overall
+    visual-semantic consistency. A key innovation of our work is the dynamic generation
+    of instance-adaptive prompts, which contrasts with existing prompt-learning methods
+    that rely on static, global prompts. By tailoring prompts to individual instances,
+    our approach enhances the model’s robustness and generalization capabilities across
+    diverse visual inputs. This collaborative adaptation, guided by our dual-prompt
+    mechanism, allows the visual and semantic encoders to produce consistent representations
+    for effective visual-semantic alignment. Extensive experiments on standard GZSL
+    benchmarks demonstrate that our proposed VSPCN+ performs favorably against several
+    state-of-the-art methods.
+  related_code: ''
+  abstract_cn: 摘要：广义零样本学习（GZSL）旨在利用共享的语义知识来识别已见类和未见类，从而应对这一极具挑战性的任务。该领域的一个核心难题是如何实现稳健的视觉-语义对齐，以将知识从已见类迁移到新类别。当前的最先进方法通常在有限的训练数据上微调大规模视觉主干网络，但这种做法往往会导致对已见类的严重过拟合，从而显著降低模型在新类别上的性能。为缓解这一问题，我们提出了一种名为双模态自适应视觉-语义提示协同网络（VSPCN+）的新框架，该框架通过提示调优实现有效的特征适配。我们的方法引入了一种包含视觉提示和语义提示的双提示机制：语义提示引导视觉编码器学习与类别属性更加语义一致的视觉特征，而视觉提示则引导语义编码器生成更具视觉基础的语义表示。这一协同过程有效提升了整体的视觉-语义一致性。我们工作的另一项关键创新在于动态生成实例自适应提示，这与现有依赖静态全局提示的提示学习方法形成鲜明对比。通过为每个实例量身定制提示，我们的方法增强了模型在多样化视觉输入下的鲁棒性和泛化能力。在双提示机制的指导下，视觉编码器与语义编码器能够进行协同适配，从而生成一致的表征，实现高效的视觉-语义对齐。在标准GZSL基准上的大量实验表明，我们提出的VSPCN+在多项指标上均优于多种最先进的方法。
 collaborat%20learn%20venue%3AACL%3A:
 - author: Shuzheng Si, Helan Hu, Haozhe Zhao, Shuang Zeng, Kaikai An, Zefan Cai, Baobao
     Chang

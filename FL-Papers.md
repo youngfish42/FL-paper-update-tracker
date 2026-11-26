@@ -935,6 +935,7 @@
 - Federated SHAP: Privacy-Preserving and Consistent Post-hoc Explainability in Federated Learning. [[PUB](https://doi.org/10.1007/s10994-025-06956-1)]
 - FedGES: A Federated Learning Approach for Bayesian Network Structure Learning. [[PUB](https://doi.org/10.1007/s10994-025-06939-2)]
 - FedHybrid-ViT: A Federated-Hybrid Framework for Generalizable Deepfake Detection on Heterogeneous Data. [[PUB](https://doi.org/10.1007/s10994-026-07171-2)]
+- FedXAI: Federated Medical Imaging with Intrinsic Explainability and Differentially Private Explanation Auditing. [[PUB](https://doi.org/10.1007/s10994-026-07191-y)]
 - Graph Spectral Client Scheduling for Reliable Federated Learning in Safety-Critical LEO Satellite Networks. [[PUB](https://doi.org/10.1007/s10994-026-07159-y)]
 - MMT: Achieving Exact Federated Unlearning with Improved Post-unlearning Performance. [[PUB](https://doi.org/10.1007/s10994-026-07117-8)]
 - SWIFT-KD: Sliding Window Intelligent Federated Transformer Learning with Knowledge Distillation for Building Energy Prediction. [[PUB](https://doi.org/10.1007/s10994-026-07153-4)]
@@ -2930,8 +2931,10 @@
 - Adaptive Differential Privacy Noise Injection for Decentralized Federated Learning of Visual Recognition Tasks. [[PUB](https://doi.org/10.1007/s11263-026-02969-y)]
 - Federated Learning Meets Test-Time Adaptation: Methods, Challenges, and Future Directions. [[PUB](https://doi.org/10.1007/s11263-026-02937-6)]
 - FedPD++: Enhanced Federated Open-Set Recognition with Parameter Disentanglement. [[PUB](https://doi.org/10.1007/s11263-026-02861-9)] [[CODE](https://github.com/CUHK-AIM-Group/FedPD)]
+- Synergizing Disentangled Representation and Split Federated Learning to Break Centralized Bottlenecks in Gaze Estimation. [[PUB](https://doi.org/10.1007/s11263-026-03084-8)]
 - Collaborative Temporal Consistency Learning for Point-supervised Natural Language Video Localization. [[PUB](https://doi.org/10.1007/s11263-026-02777-4)]
 - CoSurfGS: 3D Surface Gaussian Splatting with Collaborative Distributed Learning for Large-scale Scene Reconstruction. [[PUB](https://doi.org/10.1007/s11263-025-02627-9)]
+- Dual Adaptive Visual-Semantic Prompt Collaboration for Generalized Zero-Shot Learning. [[PUB](https://doi.org/10.1007/s11263-026-02998-7)]
 - Visual-Geometric Collaborative Guidance for Affordance Learning. [[PUB](https://doi.org/10.1007/s11263-026-02950-9)]
 
 ### 2025
